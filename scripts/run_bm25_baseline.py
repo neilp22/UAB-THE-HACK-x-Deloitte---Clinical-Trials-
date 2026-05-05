@@ -228,6 +228,7 @@ def run_baseline(
     max_results: int = 200,
     use_cache: bool = True,
     topics_limit: int | None = None,
+    use_query_builder: bool = False,
 ) -> None:
     trec_dir = TREC_2021_DIR if year == 2021 else TREC_2022_DIR
 
@@ -248,41 +249,77 @@ def run_baseline(
         topics = dict(list(topics.items())[:topics_limit])
 
     cache = diskcache.Cache(str(CACHE_DIR / f"ct_api_{year}"))
+
+    if use_query_builder:
+        from src.parsing.patient_normalizer import normalize_patient
+        from src.retrieval.query_builder import retrieve_candidates
+        qb_cache = diskcache.Cache(str(CACHE_DIR / f"qb_{year}"))
+        system_tag = "bm25_qb"
+    else:
+        system_tag = SYSTEM_NAME
+
     run: dict[str, dict[str, float]] = {}
 
-    logger.info("Starting BM25 baseline — %d topics, max_results=%d", len(topics), max_results)
+    mode = "query-builder" if use_query_builder else "legacy"
+    logger.info(
+        "Starting BM25 baseline [%s] — %d topics, max_results=%d",
+        mode, len(topics), max_results,
+    )
     total_retrieved = 0
     t_start = time.time()
 
     for topic_id, patient_text in tqdm(topics.items(), desc=f"TREC {year} topics"):
-        cache_key = f"topic_{topic_id}_n{max_results}"
 
-        if use_cache and cache_key in cache:
-            trials = cache[cache_key]
+        if use_query_builder:
+            # --- Query builder path: normalizer → conditions → multi-query retrieval ---
+            cache_key = f"qb_topic_{topic_id}_n{max_results}"
+            if use_cache and cache_key in cache:
+                trials = cache[cache_key]
+            else:
+                try:
+                    profile = normalize_patient(patient_text, use_cache=use_cache)
+                    conditions = profile.conditions or []
+                    if not conditions:
+                        # Fall back to legacy extraction if LLM returned no conditions
+                        query = extract_query(patient_text)
+                        conditions = [query]
+                    trials = retrieve_candidates(
+                        conditions,
+                        max_total=max_results * 3,  # broader candidate set for BM25
+                        use_cache=use_cache,
+                        cache=qb_cache,
+                    )
+                    if use_cache:
+                        cache[cache_key] = trials
+                except Exception as exc:
+                    logger.error("Query builder failed for topic %s: %s", topic_id, exc)
+                    trials = []
         else:
-            query = extract_query(patient_text)
-            logger.debug("Topic %s → query.cond: '%s'", topic_id, query)
-            try:
-                # Primary: query.cond with 2 terms (AND logic — may miss some trials)
-                trials = search_trials(query_cond=query, max_results=max_results)
+            # --- Legacy path: single extract_query → search_trials ---
+            cache_key = f"topic_{topic_id}_n{max_results}"
+            if use_cache and cache_key in cache:
+                trials = cache[cache_key]
+            else:
+                query = extract_query(patient_text)
+                logger.debug("Topic %s → query.cond: '%s'", topic_id, query)
+                try:
+                    trials = search_trials(query_cond=query, max_results=max_results)
 
-                # Fallback 1: if too specific, retry with first term only
-                if not trials and " " in query:
-                    first_term = query.split()[0]
-                    logger.debug("Topic %s fallback → query.cond: '%s'", topic_id, first_term)
-                    trials = search_trials(query_cond=first_term, max_results=max_results)
+                    if not trials and " " in query:
+                        first_term = query.split()[0]
+                        logger.debug("Topic %s fallback → query.cond: '%s'", topic_id, first_term)
+                        trials = search_trials(query_cond=first_term, max_results=max_results)
 
-                # Fallback 2: if still nothing, use query.term with cleaned 2-word snippet
-                if not trials:
-                    short_term = " ".join(query.split()[:2])
-                    logger.debug("Topic %s fallback2 → query.term: '%s'", topic_id, short_term)
-                    trials = search_trials(query_term=short_term, max_results=max_results)
+                    if not trials:
+                        short_term = " ".join(query.split()[:2])
+                        logger.debug("Topic %s fallback2 → query.term: '%s'", topic_id, short_term)
+                        trials = search_trials(query_term=short_term, max_results=max_results)
 
-                if use_cache:
-                    cache[cache_key] = trials
-            except Exception as exc:
-                logger.error("CT API failed for topic %s: %s", topic_id, exc)
-                trials = []
+                    if use_cache:
+                        cache[cache_key] = trials
+                except Exception as exc:
+                    logger.error("CT API failed for topic %s: %s", topic_id, exc)
+                    trials = []
 
         total_retrieved += len(trials)
 
@@ -294,7 +331,6 @@ def run_baseline(
         # BM25-rank all retrieved trials against the full patient text
         retriever = BM25Retriever(trials)
         ranked = retriever.query(patient_text, top_k=len(trials))
-
         run[topic_id] = {r["nct_id"]: r["bm25_score"] for r in ranked if r["nct_id"]}
 
     elapsed = time.time() - t_start
@@ -305,11 +341,10 @@ def run_baseline(
     )
 
     # Write run file
-    run_path = OUTPUT_DIR / f"bm25_baseline_{year}.run"
+    run_path = OUTPUT_DIR / f"{system_tag}_{year}.run"
     write_run_file(run, run_path)
 
     # Evaluate
-    # Filter qrels to only topics we ran (in case topics_limit was set)
     eval_qrels = {tid: qrels[tid] for tid in run if tid in qrels}
     if not eval_qrels:
         logger.warning("No qrel-covered topics in run — skipping evaluation.")
@@ -317,8 +352,9 @@ def run_baseline(
 
     metrics = evaluate(eval_qrels, run)
 
+    label = f"BM25 + Query Builder — TREC {year}" if use_query_builder else f"BM25 Baseline — TREC {year}"
     print("\n" + "=" * 55)
-    print(f"  BM25 Baseline — TREC {year}")
+    print(f"  {label}")
     print("=" * 55)
     print(f"  Topics evaluated : {len(eval_qrels)}")
     print(f"  Avg trials/topic : {total_retrieved / max(len(topics), 1):.0f}")
@@ -328,7 +364,6 @@ def run_baseline(
     print("=" * 55)
     print(f"  Run file: {run_path}")
 
-    # Composite score (weighted as per hackathon)
     r20 = metrics.get("recall_20", 0)
     ndcg10 = metrics.get("ndcg_cut_10", 0)
     composite = 0.20 * r20 + 0.25 * ndcg10
@@ -350,6 +385,8 @@ if __name__ == "__main__":
                         help="Run only the first N topics (for quick testing)")
     parser.add_argument("--no-cache", action="store_true",
                         help="Ignore CT API cache and re-fetch everything")
+    parser.add_argument("--use-query-builder", action="store_true",
+                        help="Use patient normalizer + multi-query builder (Day 2)")
     args = parser.parse_args()
 
     run_baseline(
@@ -357,4 +394,5 @@ if __name__ == "__main__":
         max_results=args.max_results,
         use_cache=not args.no_cache,
         topics_limit=args.topics_limit,
+        use_query_builder=args.use_query_builder,
     )
