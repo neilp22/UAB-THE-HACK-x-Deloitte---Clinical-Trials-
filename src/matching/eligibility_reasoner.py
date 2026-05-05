@@ -1,18 +1,20 @@
 """
-Eligibility reasoner — evaluates one criterion against a patient profile.
+Eligibility reasoner — evaluates criteria against a patient profile.
 
-Returns CriterionVerdict: MET / NOT_MET / NEI
+Two public entry points:
 
-Logic:
-  - deterministic=True  → rule-based (age / gender / ECOG / lab) → MET or NOT_MET
-                          Falls back to NEI when patient field is None or data is missing.
-  - deterministic=False → LLM call (Pydantic structured output) → retry once → NEI on failure
+evaluate_criterion(profile, criterion)
+    Evaluates one criterion. deterministic=True → rule-based; False → one LLM call.
+    Cached per-criterion by MD5(text + type + profile_json).
 
-Caching:
-  - Deterministic path: not cached (pure arithmetic, negligible cost)
-  - LLM path: keyed by MD5(criterion.text + "|" + criterion.type + "|" + profile_json)
+evaluate_trial(profile, criteria, nct_id)
+    Evaluates ALL criteria for a trial. Deterministic criteria → rule-based.
+    All non-deterministic criteria bundled into one LLM call (batched in groups of
+    _TRIAL_BATCH_SIZE if token estimate exceeds _TRIAL_TOKEN_THRESHOLD).
+    Cached per-trial by MD5(nct_id + "|" + profile_json).
 
-Caller is responsible for deciding which criteria to evaluate and aggregating verdicts.
+Both return CriterionVerdict: MET / NOT_MET / NEI
+evaluate_trial returns list[(criterion_type, CriterionVerdict)] in criterion order.
 """
 from __future__ import annotations
 
@@ -266,3 +268,158 @@ def evaluate_criterion(
             logger.warning("Cache write failed: %s", exc)
 
     return verdict
+
+
+# ---------------------------------------------------------------------------
+# Trial-level evaluator — one LLM call for all non-deterministic criteria
+# ---------------------------------------------------------------------------
+
+_TRIAL_BATCH_SIZE = 10
+_TRIAL_TOKEN_THRESHOLD = 3000
+_CHARS_PER_TOKEN = 4
+
+_TRIAL_SYSTEM = "You are a clinical trial eligibility assessor. Be conservative. Default to NEI."
+
+_TRIAL_PROMPT_TEMPLATE = """\
+Patient profile: {profile_json}
+
+Assess each eligibility criterion below. Return exactly {n} verdicts in the same order as listed.
+
+{numbered_criteria}
+
+For each criterion return verdict (MET/NOT_MET/NEI), confidence (0.0-1.0), and brief reasoning."""
+
+
+class _TrialVerdicts(BaseModel):
+    verdicts: list[CriterionVerdict]
+
+
+def _fmt_criteria_list(criteria: list[Criterion]) -> str:
+    return "\n".join(
+        f"{i}. [{c.type}] {c.text}" for i, c in enumerate(criteria, 1)
+    )
+
+
+def _llm_batch_trial(
+    profile: PatientProfile, criteria: list[Criterion]
+) -> list[CriterionVerdict]:
+    """One LLM call for a batch of ≤_TRIAL_BATCH_SIZE non-deterministic criteria."""
+    prompt = _TRIAL_PROMPT_TEMPLATE.format(
+        profile_json=_profile_json(profile),
+        n=len(criteria),
+        numbered_criteria=_fmt_criteria_list(criteria),
+    )
+    for attempt in range(1, 3):
+        try:
+            result = complete_structured(_TrialVerdicts, prompt, system=_TRIAL_SYSTEM)
+            verdicts = result.verdicts
+            # Pad to match expected count if LLM returned fewer
+            nei = CriterionVerdict(verdict="NEI", confidence=0.0,
+                                   reasoning="LLM returned fewer verdicts than expected")
+            while len(verdicts) < len(criteria):
+                verdicts.append(nei)
+            return verdicts[: len(criteria)]
+        except Exception as exc:
+            logger.warning("Trial LLM batch failed (attempt %d): %s", attempt, exc)
+    logger.error("Both trial LLM batch attempts failed (%d criteria)", len(criteria))
+    return [
+        CriterionVerdict(verdict="NEI", confidence=0.0, reasoning="LLM batch failed")
+        for _ in criteria
+    ]
+
+
+def evaluate_trial(
+    profile: PatientProfile,
+    criteria: list[Criterion],
+    nct_id: str = "",
+    use_cache: bool = True,
+    cache: diskcache.Cache | None = None,
+) -> list[tuple[str, CriterionVerdict]]:
+    """
+    Evaluate all criteria for one trial in as few LLM calls as possible.
+
+    Deterministic criteria → rule-based (no LLM, not cached).
+    Non-deterministic criteria → bundled into one LLM call; batched in groups of
+    _TRIAL_BATCH_SIZE only when the prompt would exceed _TRIAL_TOKEN_THRESHOLD tokens.
+
+    Cache key: MD5(nct_id + "|" + profile_json)  — per-trial, not per-criterion.
+    Falls back to MD5(all criterion texts + profile_json) when nct_id is empty.
+
+    Returns list[(criterion.type, CriterionVerdict)] in the same order as input criteria.
+    Never raises; returns NEI for any criterion that cannot be evaluated.
+    """
+    if not criteria:
+        return []
+
+    if use_cache and cache is None:
+        cache = _reasoner_cache
+
+    # Build cache key
+    profile_j = _profile_json(profile)
+    if nct_id:
+        raw_key = nct_id + "|" + profile_j
+    else:
+        texts = "".join(c.text for c in criteria)
+        raw_key = hashlib.md5(texts.encode()).hexdigest() + "|" + profile_j
+    trial_cache_key = "trial:" + hashlib.md5(raw_key.encode()).hexdigest()
+
+    if use_cache and cache is not None:
+        raw = cache.get(trial_cache_key)
+        if raw is not None:
+            try:
+                import json as _json
+                stored = _json.loads(raw)
+                return [(item[0], CriterionVerdict.model_validate(item[1])) for item in stored]
+            except Exception as exc:
+                logger.warning("Trial cache deserialise failed (%s…): %s",
+                               trial_cache_key[:12], exc)
+
+    # ---- evaluate ----
+    results: list[tuple[str, CriterionVerdict] | None] = [None] * len(criteria)
+    non_det_indices: list[int] = []
+
+    for i, c in enumerate(criteria):
+        if c.deterministic:
+            results[i] = (c.type, _evaluate_deterministic(profile, c))
+        else:
+            non_det_indices.append(i)
+
+    if non_det_indices:
+        non_det = [criteria[i] for i in non_det_indices]
+
+        # Decide whether to batch: estimate single-call prompt size
+        single_prompt = _TRIAL_PROMPT_TEMPLATE.format(
+            profile_json=profile_j,
+            n=len(non_det),
+            numbered_criteria=_fmt_criteria_list(non_det),
+        )
+        if (len(single_prompt) // _CHARS_PER_TOKEN <= _TRIAL_TOKEN_THRESHOLD
+                and len(non_det) <= _TRIAL_BATCH_SIZE):
+            llm_verdicts = _llm_batch_trial(profile, non_det)
+        else:
+            llm_verdicts = []
+            for start in range(0, len(non_det), _TRIAL_BATCH_SIZE):
+                batch = non_det[start: start + _TRIAL_BATCH_SIZE]
+                llm_verdicts.extend(_llm_batch_trial(profile, batch))
+
+        for orig_i, verdict in zip(non_det_indices, llm_verdicts):
+            results[orig_i] = (criteria[orig_i].type, verdict)
+
+    final: list[tuple[str, CriterionVerdict]] = []
+    for i, r in enumerate(results):
+        if r is None:
+            final.append((criteria[i].type,
+                          CriterionVerdict(verdict="NEI", confidence=0.0,
+                                           reasoning="Evaluation skipped")))
+        else:
+            final.append(r)
+
+    if use_cache and cache is not None:
+        try:
+            import json as _json
+            cache.set(trial_cache_key,
+                      _json.dumps([[t, v.model_dump()] for t, v in final]))
+        except Exception as exc:
+            logger.warning("Trial cache write failed: %s", exc)
+
+    return final
