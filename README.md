@@ -55,12 +55,14 @@ python scripts/evaluate.py --year 2021 --run output/predictions.run
 
 | Task | Metric       | Weight | BM25 Baseline | Our System |
 |------|-------------|--------|--------------|------------|
-| T1   | Recall@20   | 0.20   | —            | —          |
+| T1   | Recall@20   | 0.20   | 0.0305       | —          |
 | T2   | Micro-F1    | 0.30   | —            | —          |
-| T3   | NDCG@10     | 0.25   | —            | —          |
+| T3   | NDCG@10     | 0.25   | 0.0903       | —          |
 | T4   | NEI Q quality | 0.15 | —            | —          |
 | T5   | Dossier completeness | 0.10 | —       | —          |
-| **Total** | **Score** | **1.00** | —       | —          |
+| **Total** | **Score** | **1.00** | 0.0289 (T1+T3) | —   |
+
+> BM25 baseline (Day 1): simple query extraction, 200 results/topic, no MeSH mapping.
 
 ---
 
