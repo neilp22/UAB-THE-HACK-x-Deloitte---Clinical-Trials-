@@ -17,7 +17,7 @@ criteria, queries real databases, and generates justified, reproducible recommen
 
 ## Setup
 
-> Requirements: Python 3.11+, pip, an Anthropic API key
+> Requirements: Python 3.11+, pip, an OpenAI API key
 
 ```bash
 git clone https://github.com/neilp22/UAB-THE-HACK-x-Deloitte---Clinical-Trials-.git
@@ -39,41 +39,44 @@ Download TREC data:
 ## How to Run
 
 ```bash
-# Single patient profile
-python scripts/run_agent.py --patient data/examples/patient_001.json
+# BM25 baseline (Day 1)
+python scripts/run_bm25_baseline.py --year 2021
 
-# Batch (non-interactive, TREC-style)
-python scripts/run_batch.py --input data/trec/2021/topics.xml --output output/predictions.run
+# BM25 + Query Builder (Day 2 — recommended)
+python scripts/run_bm25_baseline.py --year 2021 --use-query-builder
 
-# Evaluate on TREC 2021 (dev set)
-python scripts/evaluate.py --year 2021 --run output/predictions.run
+# Quick smoke test on 5 topics
+python scripts/run_bm25_baseline.py --year 2021 --use-query-builder --topics-limit 5
 ```
 
 ---
 
-## TREC Benchmark Results
+## TREC Benchmark Results (TREC 2021 dev set, 75 topics)
 
-| Task | Metric       | Weight | BM25 Baseline | Our System |
-|------|-------------|--------|--------------|------------|
-| T1   | Recall@20   | 0.20   | 0.0305       | —          |
-| T2   | Micro-F1    | 0.30   | —            | —          |
-| T3   | NDCG@10     | 0.25   | 0.0903       | —          |
-| T4   | NEI Q quality | 0.15 | —            | —          |
-| T5   | Dossier completeness | 0.10 | —       | —          |
-| **Total** | **Score** | **1.00** | 0.0289 (T1+T3) | —   |
+| Task | Metric       | Weight | BM25 Baseline | + Query Builder | Our System |
+|------|-------------|--------|--------------|-----------------|------------|
+| T1   | Recall@20   | 0.20   | 0.0305       | **0.0574**      | —          |
+| T2   | Micro-F1    | 0.30   | —            | —               | —          |
+| T3   | NDCG@10     | 0.25   | 0.0903       | **0.2268**      | —          |
+| T4   | NEI Q quality | 0.15 | —            | —               | —          |
+| T5   | Dossier completeness | 0.10 | —       | —               | —          |
+| **T1+T3** | **Composite** | — | 0.0289 | **0.0682** | —   |
 
-> BM25 baseline (Day 1): simple query extraction, 200 results/topic, no MeSH mapping.
+> Day 1 BM25 baseline: 1-2 term query, 200 results/topic.
+> Day 2 Query Builder: LLM condition extraction + MeSH synonyms → 467 avg candidates/topic (+133%).
+> Recall@20 +88%, NDCG@10 +151% vs Day 1 baseline.
 
 ---
 
 ## Model Configuration
 
-| Module            | Model              | Version | Temperature |
-|------------------|--------------------|---------|-------------|
-| Criteria parser  | TBD                | TBD     | 0           |
-| Eligibility reasoner | TBD           | TBD     | 0           |
-| NEI Q generator  | TBD                | TBD     | 0           |
-| Dossier summary  | TBD                | TBD     | 0.3         |
+| Module              | Model         | Temperature |
+|--------------------|---------------|-------------|
+| Patient normalizer  | gpt-4o-mini   | 0           |
+| Criteria parser     | gpt-4o-mini   | 0           |
+| Eligibility reasoner | gpt-4o-mini  | 0           |
+| NEI Q generator     | gpt-4o-mini   | 0           |
+| Dossier summary     | gpt-4o-mini   | 0.3         |
 
 ---
 
