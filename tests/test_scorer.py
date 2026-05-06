@@ -40,8 +40,8 @@ class TestScoreTrial:
         ]
         score = score_trial(verdicts, META_P3_REC)
         # inclusion_met_ratio=1.0, penalty=0, nei=0, phase=1.0, recruiting=1.0
-        # 0.45*1.0 + 0.10*1.0 + 0.15*1.0 = 0.70
-        assert abs(score - 0.70) < 1e-9
+        # 0.55*1.0 + 0.15*1.0 + 0.10*1.0 = 0.80
+        assert abs(score - 0.80) < 1e-9
 
     def test_one_exclusion_violated_clamps_to_zero(self):
         """One NOT_MET exclusion forces raw score negative → clamped to 0."""
@@ -52,7 +52,7 @@ class TestScoreTrial:
             _v("NOT_MET", "exclusion"),
         ]
         score = score_trial(verdicts, META_P3_REC)
-        # raw = 0.45 - 1.0 + 0.10 + 0.15 = -0.30 → clamped to 0
+        # raw = 0.55 - 1.0 + 0.15 + 0.10 = -0.20 → clamped to 0
         assert score == 0.0
 
     def test_all_nei_returns_low_but_not_zero(self):
@@ -65,8 +65,8 @@ class TestScoreTrial:
         ]
         score = score_trial(verdicts, META_P2_REC)
         # inclusion_met=0, ratio=0.0, penalty=0, nei_ratio=1.0
-        # 0 - 0 + 0.10*0.6 + 0.15*1.0 - 0.20*1.0 = 0.06 + 0.15 - 0.20 = 0.01
-        expected = 0.45 * 0.0 - 1.0 * 0.0 + 0.10 * 0.6 + 0.15 * 1.0 - 0.20 * 1.0
+        # 0 - 0 + 0.15*0.6 + 0.10*1.0 - 0.10*1.0 = 0.09 + 0.10 - 0.10 = 0.09
+        expected = 0.55 * 0.0 - 1.0 * 0.0 + 0.15 * 0.6 + 0.10 * 1.0 - 0.10 * 1.0
         assert abs(score - max(expected, 0.0)) < 1e-9
 
     def test_mixed_met_nei_inclusion(self):
@@ -81,16 +81,16 @@ class TestScoreTrial:
         # inclusion: 2 total, 1 met → ratio=0.5
         # exclusion: 0 NOT_MET → penalty=0
         # nei: 1/3
-        # raw = 0.45*0.5 - 0 + 0.10*1.0 + 0.15*1.0 - 0.20*(1/3)
-        #     = 0.225 + 0.10 + 0.15 - 0.0667 ≈ 0.4083
-        expected = 0.45 * 0.5 + 0.10 * 1.0 + 0.15 * 1.0 - 0.20 * (1 / 3)
+        # raw = 0.55*0.5 - 0 + 0.15*1.0 + 0.10*1.0 - 0.10*(1/3)
+        #     = 0.275 + 0.15 + 0.10 - 0.0333 ≈ 0.4917
+        expected = 0.55 * 0.5 + 0.15 * 1.0 + 0.10 * 1.0 - 0.10 * (1 / 3)
         assert abs(score - expected) < 1e-9
 
     def test_empty_criteria(self):
         """No criteria at all: inclusion_met_ratio=0, no penalty, no NEI."""
         from src.ranking.scorer import score_trial
         score = score_trial([], META_P3_REC)
-        # 0.45*0 + 0.10*1.0 + 0.15*1.0 - 0.20*0 = 0.25
+        # 0.55*0 + 0.15*1.0 + 0.10*1.0 - 0.10*0 = 0.25
         assert abs(score - 0.25) < 1e-9
 
     def test_bare_verdicts_treated_as_inclusion(self):
@@ -99,8 +99,8 @@ class TestScoreTrial:
         verdicts = [_bare("MET"), _bare("MET")]
         score = score_trial(verdicts, META_P3_REC)
         assert score > 0.0
-        # Same as all-inclusion-met: 0.45 + 0.10 + 0.15 = 0.70
-        assert abs(score - 0.70) < 1e-9
+        # Same as all-inclusion-met: 0.55 + 0.15 + 0.10 = 0.80
+        assert abs(score - 0.80) < 1e-9
 
 
 # ---------------------------------------------------------------------------
@@ -123,13 +123,13 @@ class TestMetadataNormalisation:
     def test_unknown_phase_gets_default_bonus(self):
         from src.ranking.scorer import score_trial
         score = score_trial([], {"phase": "PHASE4", "status": "COMPLETED"})
-        # 0.45*0 + 0.10*0.1 + 0 - 0 = 0.01
-        assert abs(score - 0.01) < 1e-9
+        # 0.55*0 + 0.15*0.1 + 0 - 0 = 0.015
+        assert abs(score - 0.015) < 1e-9
 
     def test_missing_phase_gets_default_bonus(self):
         from src.ranking.scorer import score_trial
         score = score_trial([], {"status": "COMPLETED"})
-        assert abs(score - 0.01) < 1e-9
+        assert abs(score - 0.015) < 1e-9
 
     def test_recruiting_status_case_insensitive(self):
         from src.ranking.scorer import score_trial
@@ -140,8 +140,8 @@ class TestMetadataNormalisation:
     def test_non_recruiting_no_bonus(self):
         from src.ranking.scorer import score_trial
         s = score_trial([], {"phase": "PHASE3", "status": "COMPLETED"})
-        # 0.10*1.0 + 0 = 0.10
-        assert abs(s - 0.10) < 1e-9
+        # 0.15*1.0 + 0 = 0.15
+        assert abs(s - 0.15) < 1e-9
 
 
 # ---------------------------------------------------------------------------

@@ -12,11 +12,11 @@ Formula
   recruiting_bonus    = 1.0 if status == "RECRUITING" else 0.0
 
   score = (
-      0.45 * inclusion_met_ratio
+      0.55 * inclusion_met_ratio
     - 1.00 * exclusion_penalty
-    + 0.10 * phase_bonus
-    + 0.15 * recruiting_bonus
-    - 0.20 * nei_ratio
+    + 0.15 * phase_bonus
+    + 0.10 * recruiting_bonus
+    - 0.10 * nei_ratio
   )
   return max(score, 0.0)
 
@@ -89,11 +89,11 @@ def score_trial(
     recruiting_bonus = 1.0 if _norm_status(metadata.get("status")) == "RECRUITING" else 0.0
 
     raw = (
-        0.45 * inclusion_met_ratio
+        0.55 * inclusion_met_ratio
         - 1.00 * exclusion_penalty
-        + 0.10 * phase_bonus
-        + 0.15 * recruiting_bonus
-        - 0.20 * nei_ratio
+        + 0.15 * phase_bonus
+        + 0.10 * recruiting_bonus
+        - 0.10 * nei_ratio
     )
     return max(raw, 0.0)
 
