@@ -48,8 +48,11 @@ import pytrec_eval
 from sklearn.metrics import classification_report, f1_score
 
 from src.config import CACHE_DIR, DATA_DIR, TREC_2021_DIR
+from src.llm_client import get_usage
 from src.matching.eligibility_reasoner import evaluate_trial
 from src.matching.hard_filter import apply_hard_filter
+from src.output.dossier_generator import generate_dossier
+from src.output.nei_question_generator import generate_nei_question
 from src.parsing.criteria_parser import parse_criteria
 from src.parsing.patient_normalizer import normalize_patient
 from src.ranking.scorer import score_trial
@@ -65,8 +68,20 @@ logger = logging.getLogger(__name__)
 
 SYSTEM_NAME = "clinical_agent"
 CANDIDATE_CAP = 50
+DOSSIER_TOP_K = 10  # generate dossiers only for top-K ranked trials per topic
 RUN_PATH = DATA_DIR / "runs" / "full_pipeline_2021.txt"
 PREDICTIONS_PATH = DATA_DIR / "predictions" / "full_pipeline_2021.json"
+DOSSIERS_DIR = DATA_DIR / "dossiers"
+
+# gpt-4o-mini pricing (USD per token)
+_COST_PER_INPUT_TOKEN = 0.15 / 1_000_000
+_COST_PER_OUTPUT_TOKEN = 0.60 / 1_000_000
+
+
+def _llm_cost_usd() -> float:
+    u = get_usage()
+    return u["prompt_tokens"] * _COST_PER_INPUT_TOKEN + u["completion_tokens"] * _COST_PER_OUTPUT_TOKEN
+
 
 # Grade → eligibility label (T2 mapping, confirmed)
 _GRADE_TO_LABEL = {2: "MET", 1: "NOT_MET", 0: "NEI"}
@@ -238,11 +253,19 @@ def run_topic(
             score = score_trial(typed_verdicts, metadata)
             summary = _eligibility_summary(typed_verdicts, eliminated=False)
 
+            # Build enriched verdicts for dossier: (type, criterion_text, verdict)
+            enriched = [
+                (ctype, c.text, v)
+                for c, (ctype, v) in zip(parsed.criteria, typed_verdicts)
+            ]
+
             scored.append({
                 "nct_id": nct_id,
                 "score": score,
                 "summary": summary,
                 "title": trial.get("title", ""),
+                "trial_meta": trial,
+                "enriched_verdicts": enriched,
             })
 
         except Exception as exc:
@@ -259,16 +282,51 @@ def run_topic(
 
     scores = {t["nct_id"]: t["score"] for t in scored}
 
-    ranked_trials_json = [
-        {
+    # 9. Dossier generation for top-K trials (NEI questions + structured dossier)
+    dossier_dir = DOSSIERS_DIR / topic_id
+    dossier_dir.mkdir(parents=True, exist_ok=True)
+
+    ranked_trials_json = []
+    for rank, t in enumerate(scored, 1):
+        entry: dict = {
             "rank": rank,
             "nct_id": t["nct_id"],
             "score": round(t["score"], 6),
             "title": t["title"],
             "eligibility_summary": t["summary"],
         }
-        for rank, t in enumerate(scored, 1)
-    ]
+
+        enriched = t.get("enriched_verdicts")
+        if rank <= DOSSIER_TOP_K and enriched:
+            try:
+                # Generate NEI questions for all NEI verdicts in this trial
+                nei_questions: dict[str, str] = {}
+                for ctype, ctext, v in enriched:
+                    if v.verdict == "NEI":
+                        nei_questions[ctext] = generate_nei_question(
+                            verdict=v,
+                            criterion_text=ctext,
+                            trial_title=t["title"],
+                            profile=profile,
+                            use_cache=use_cache,
+                        )
+
+                dossier = generate_dossier(
+                    profile=profile,
+                    verdicts=enriched,
+                    trial_metadata=t.get("trial_meta", {}),
+                    nei_questions=nei_questions,
+                )
+
+                dossier_path = dossier_dir / f"{t['nct_id']}.json"
+                dossier_path.write_text(dossier.model_dump_json(indent=2))
+                entry["dossier_path"] = str(dossier_path)
+            except Exception as exc:
+                logger.warning(
+                    "Dossier failed for %s (topic %s): %s", t["nct_id"], topic_id, exc
+                )
+
+        ranked_trials_json.append(entry)
 
     predictions_entry = {"patient_id": topic_id, "ranked_trials": ranked_trials_json}
     return scores, predictions_entry, survivors, criteria_hits, criteria_total
@@ -403,9 +461,12 @@ def main() -> None:
                         help="Run only the first N topics")
     parser.add_argument("--no-cache", action="store_true",
                         help="Disable all caching (re-fetches everything)")
+    parser.add_argument("--budget", type=float, default=1.75,
+                        help="Hard stop when estimated LLM cost exceeds this USD amount (default 1.75)")
     args = parser.parse_args()
 
     use_cache = not args.no_cache
+    budget_usd = args.budget
 
     topics_path = TREC_2021_DIR / "topics.xml"
     qrels_path = TREC_2021_DIR / "qrels.txt"
@@ -435,6 +496,7 @@ def main() -> None:
     # Output setup
     RUN_PATH.parent.mkdir(parents=True, exist_ok=True)
     PREDICTIONS_PATH.parent.mkdir(parents=True, exist_ok=True)
+    DOSSIERS_DIR.mkdir(parents=True, exist_ok=True)
     run_fh = open(RUN_PATH, "w")
 
     all_predictions: list[dict] = []
@@ -476,14 +538,25 @@ def main() -> None:
         _write_topic_lines(run_fh, topic_id, scores)
         run_fh.flush()
 
+        cost_so_far = _llm_cost_usd()
         if i % 10 == 0 or i == len(topic_items):
             top1_score = (pred_entry["ranked_trials"][0]["score"]
                           if pred_entry.get("ranked_trials") else 0.0)
             elapsed = time.time() - t_start
             logger.info(
-                "Topic %d/%d (id=%s) — survivors=%d, top1_score=%.3f, elapsed=%.0fs",
-                i, len(topic_items), topic_id, survivors, top1_score, elapsed,
+                "Topic %d/%d (id=%s) — survivors=%d, top1_score=%.3f, "
+                "elapsed=%.0fs, cost=$%.4f",
+                i, len(topic_items), topic_id, survivors, top1_score,
+                elapsed, cost_so_far,
             )
+
+        if cost_so_far >= budget_usd:
+            logger.warning(
+                "Budget limit $%.2f reached after topic %s (cost=$%.4f). "
+                "Stopping early — %d/%d topics completed.",
+                budget_usd, topic_id, cost_so_far, i, len(topic_items),
+            )
+            break
 
     run_fh.close()
 
@@ -515,8 +588,9 @@ def main() -> None:
     print("\n" + "=" * 60)
     print("  FULL PIPELINE — TREC 2021")
     print("=" * 60)
-    print(f"  Topics evaluated    : {len(topic_items)}  (failed: {failed_topics})")
+    print(f"  Topics evaluated    : {len(all_predictions)}  (failed: {failed_topics})")
     print(f"  Elapsed             : {elapsed_total:.0f}s")
+    print(f"  LLM cost (est.)     : ${_llm_cost_usd():.4f}")
     print("-" * 60)
     print(f"  T2 Micro-F1         : {t2_micro_f1:.4f}")
     print(f"  T3 NDCG@10          : {t3_ndcg10:.4f}")
@@ -532,6 +606,7 @@ def main() -> None:
     print("=" * 60)
     print(f"  Run file : {RUN_PATH}")
     print(f"  JSON     : {PREDICTIONS_PATH}")
+    print(f"  Dossiers : {DOSSIERS_DIR}/<topic_id>/<nct_id>.json")
 
     # --- Diagnostics ---
     avg_survivors = total_survivors / max(len(topic_items), 1)
