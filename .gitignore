@@ -35,3 +35,4 @@ node_modules/
 
 # TREC submissions (generated, not committed)
 /output/*.run
+logs/
