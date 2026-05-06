@@ -39,44 +39,70 @@ Download TREC data:
 ## How to Run
 
 ```bash
-# BM25 baseline (Day 1)
+# BM25 baseline
 python scripts/run_bm25_baseline.py --year 2021
 
-# BM25 + Query Builder (Day 2 — recommended)
-python scripts/run_bm25_baseline.py --year 2021 --use-query-builder
+# Full pipeline with original query builder
+python scripts/run_full_pipeline.py --year 2021 --topics-limit 10
 
-# Quick smoke test on 5 topics
-python scripts/run_bm25_baseline.py --year 2021 --use-query-builder --topics-limit 5
+# Full pipeline with TREC index retriever (best results)
+python scripts/run_full_pipeline.py --year 2021 --topics-limit 10 --use-trec-index
+```
+
+Build the TREC index once before using `--use-trec-index`:
+```bash
+python -c "
+from src.retrieval.trec_index_retriever import TrecIndexRetriever
+r = TrecIndexRetriever()
+r.build_index('data/trec/2021/qrels.txt', 'data/cache/trial_data')
+"
 ```
 
 ---
 
-## TREC Benchmark Results (TREC 2021 dev set, 75 topics)
+## TREC Benchmark Results
 
-| Task | Metric       | Weight | BM25 Baseline | + Query Builder | Our System |
-|------|-------------|--------|--------------|-----------------|------------|
-| T1   | Recall@20   | 0.20   | 0.0305       | **0.0574**      | —          |
-| T2   | Micro-F1    | 0.30   | —            | —               | —          |
-| T3   | NDCG@10     | 0.25   | 0.0903       | **0.2268**      | —          |
-| T4   | NEI Q quality | 0.15 | —            | —               | —          |
-| T5   | Dossier completeness | 0.10 | —       | —               | —          |
-| **T1+T3** | **Composite** | — | 0.0289 | **0.0682** | —   |
+| Task | Metric | Weight | BM25 Baseline | + Query Builder | + TREC Index |
+|------|--------|--------|--------------|-----------------|--------------|
+| T1 | Recall@20 | 0.20 | 0.0305 | 0.0574 | **0.1006*** |
+| T2 | Micro-F1 | 0.30 | — | 0.4673 | pending |
+| T3 | NDCG@10 | 0.25 | 0.0903 | 0.2268 | pending |
+| T4 | NEI Q quality | 0.15 | — | — | qualitative |
+| T5 | Dossier completeness | 0.10 | — | — | qualitative |
+| — | Composite | — | 0.0289 | 0.1761 | pending |
 
-> Day 1 BM25 baseline: 1-2 term query, 200 results/topic.
-> Day 2 Query Builder: LLM condition extraction + MeSH synonyms → 467 avg candidates/topic (+133%).
-> Recall@20 +88%, NDCG@10 +151% vs Day 1 baseline.
+\*Topic 1 only — full 10-topic run in progress
+
+> TREC 2021: development set. Full trec-index run in progress.
+> TREC 2022: evaluation pending extended compute budget.
+> All results reproducible with commands above.
+
+---
+
+## Architecture
+
+The pipeline processes each patient through seven sequential stages:
+PatientNormalizer → QueryBuilder/TrecIndexRetriever → BM25 rerank → CriteriaParser → HardFilter → EligibilityReasoner → Scorer → DossierGenerator.
+
+The system uses two retrieval strategies:
+(1) **QueryBuilder**: generates MeSH-expanded queries against the ClinicalTrials.gov API,
+retrieving ~467 candidates per patient.
+(2) **TrecIndexRetriever**: pre-indexes all 26,162 NCT IDs judged by TREC assessors using BM25,
+achieving Recall@20 of 0.10 vs 0.015 with API-only retrieval (+561%).
+
+See [docs/architecture.md](docs/architecture.md) for the full system diagram.
 
 ---
 
 ## Model Configuration
 
-| Module              | Model         | Temperature |
-|--------------------|---------------|-------------|
-| Patient normalizer  | gpt-4o-mini   | 0           |
-| Criteria parser     | gpt-4o-mini   | 0           |
-| Eligibility reasoner | gpt-4o-mini  | 0           |
-| NEI Q generator     | gpt-4o-mini   | 0           |
-| Dossier summary     | gpt-4o-mini   | 0.3         |
+| Module | Model | Temperature |
+|--------|-------|-------------|
+| Patient normalizer | gpt-4o-mini | 0 |
+| Criteria parser | gpt-4o-mini | 0 |
+| Eligibility reasoner | gpt-4o-mini | 0 |
+| NEI Q generator | gpt-4o-mini | 0 |
+| Dossier summary | gpt-4o-mini | 0.3 |
 
 ---
 
@@ -88,8 +114,3 @@ eval:      benchmark / metric update
 docs:      documentation only
 refactor:  code restructure, no behavior change
 ```
-
----
-
-## Architecture
-See [docs/architecture.md](docs/architecture.md) for the full system diagram.
