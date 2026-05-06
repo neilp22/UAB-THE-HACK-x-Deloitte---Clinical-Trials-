@@ -24,6 +24,6 @@ python-dotenv>=1.0.1
 tqdm>=4.66.0
 numpy>=1.26.0
 
-# Semantic re-rank (stretch goal — install separately if needed)
-# sentence-transformers>=2.7.0
-# torch>=2.3.0
+# Semantic retrieval (BioBERT embeddings)
+sentence-transformers>=2.7.0
+torch>=2.3.0
