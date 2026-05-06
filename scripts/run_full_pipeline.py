@@ -39,6 +39,7 @@ import statistics
 import sys
 import time
 import xml.etree.ElementTree as ET
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent))
@@ -57,7 +58,9 @@ from src.parsing.criteria_parser import parse_criteria
 from src.parsing.patient_normalizer import normalize_patient
 from src.ranking.scorer import score_trial
 from src.retrieval.bm25_retriever import BM25Retriever
+from src.retrieval.hybrid_retriever import HybridRetriever
 from src.retrieval.query_builder import retrieve_candidates
+from src.retrieval.semantic_retriever import SemanticRetriever
 from src.retrieval.trec_index_retriever import TrecIndexRetriever
 
 logging.basicConfig(
@@ -168,7 +171,8 @@ def run_topic(
     qb_cache: diskcache.Cache,
     criteria_cache: diskcache.Cache,
     reasoner_cache: diskcache.Cache,
-    trec_retriever: TrecIndexRetriever | None = None,
+    retriever=None,              # any of: TrecIndexRetriever | SemanticRetriever | HybridRetriever | None
+    max_workers: int = 5,
 ) -> tuple[dict[str, float], dict, int, int, int]:
     """
     Full pipeline for one topic.
@@ -183,15 +187,18 @@ def run_topic(
     profile = normalize_patient(patient_text, use_cache=use_cache)
 
     # 2. Retrieve candidates
-    if trec_retriever is not None:
-        # TREC index path: BM25 over all 26k judged trials → top-K directly
-        nct_ids = trec_retriever.query(patient_text, top_k=CANDIDATE_CAP)
+    if retriever is not None:
+        # Index-based path (TrecIndex / Semantic / Hybrid): query → NCT IDs → trial dicts
+        nct_ids = retriever.query(patient_text, top_k=CANDIDATE_CAP)
+        # SemanticRetriever.query() returns list[dict]; others return list[str]
+        if nct_ids and isinstance(nct_ids[0], dict):
+            nct_ids = [r["nct_id"] for r in nct_ids]
         top_trials = [
             t for nid in nct_ids
-            if (t := trec_retriever.get_trial(nid)) and t.get("nct_id")
+            if (t := retriever.get_trial(nid)) and t.get("nct_id")
         ]
         if not top_trials:
-            logger.warning("Topic %s: no candidates from TREC index.", topic_id)
+            logger.warning("Topic %s: no candidates from retriever.", topic_id)
             return {}, {"patient_id": topic_id, "ranked_trials": []}, 0, 0, 0
     else:
         # Original CT API path
@@ -202,54 +209,41 @@ def run_topic(
         if not trials:
             logger.warning("Topic %s: no candidates retrieved.", topic_id)
             return {}, {"patient_id": topic_id, "ranked_trials": []}, 0, 0, 0
-
-        # BM25 rerank → top-50 hard cap
         try:
             bm25 = BM25Retriever(trials)
             top_trials = bm25.query(patient_text, top_k=CANDIDATE_CAP)
         except ValueError:
             top_trials = trials[:CANDIDATE_CAP]
 
-    # 4-7. Per-trial pipeline
+    # 4-7. Per-trial pipeline — parallel with ThreadPoolExecutor
     scored: list[dict] = []
     survivors = 0
     criteria_hits = 0
     criteria_total = 0
 
-    for trial in top_trials:
+    def _process_trial(trial: dict) -> dict:
         nct_id = trial.get("nct_id", "")
         if not nct_id:
-            continue
+            return {}
         try:
             crit_text = trial.get("eligibility_criteria", "")
-
-            # Criteria cache hit tracking
-            criteria_total += 1
             ck = hashlib.md5(crit_text.encode()).hexdigest() if crit_text else ""
-            if ck and criteria_cache.get(ck) is not None:
-                criteria_hits += 1
+            cache_hit = bool(ck and criteria_cache.get(ck) is not None)
 
-            # 4. Parse criteria
             parsed = parse_criteria(crit_text, use_cache=use_cache, cache=criteria_cache)
 
-            # 5. Hard filter
             excl_det = [c for c in parsed.criteria
                         if c.type == "exclusion" and c.deterministic]
             survived = apply_hard_filter(profile, excl_det)
 
             if not survived:
-                summary = _eligibility_summary([], eliminated=True)
-                scored.append({
-                    "nct_id": nct_id,
-                    "score": 0.0,
-                    "summary": summary,
+                return {
+                    "nct_id": nct_id, "score": 0.0,
+                    "summary": _eligibility_summary([], eliminated=True),
                     "title": trial.get("title", ""),
-                })
-                continue
+                    "_cache_hit": cache_hit, "_survived": False,
+                }
 
-            survivors += 1
-
-            # 6. Eligibility reasoner (one LLM call per trial)
             typed_verdicts = evaluate_trial(
                 profile, parsed.criteria,
                 nct_id=nct_id,
@@ -257,7 +251,6 @@ def run_topic(
                 cache=reasoner_cache,
             )
 
-            # 7. Score
             phase_list = trial.get("phases") or []
             metadata = {
                 "phase": phase_list[0] if phase_list else "",
@@ -265,30 +258,37 @@ def run_topic(
             }
             score = score_trial(typed_verdicts, metadata)
             summary = _eligibility_summary(typed_verdicts, eliminated=False)
-
-            # Build enriched verdicts for dossier: (type, criterion_text, verdict)
             enriched = [
                 (ctype, c.text, v)
                 for c, (ctype, v) in zip(parsed.criteria, typed_verdicts)
             ]
-
-            scored.append({
-                "nct_id": nct_id,
-                "score": score,
-                "summary": summary,
+            return {
+                "nct_id": nct_id, "score": score, "summary": summary,
                 "title": trial.get("title", ""),
-                "trial_meta": trial,
-                "enriched_verdicts": enriched,
-            })
-
+                "trial_meta": trial, "enriched_verdicts": enriched,
+                "_cache_hit": cache_hit, "_survived": True,
+            }
         except Exception as exc:
             logger.warning("Trial %s failed (topic %s): %s", nct_id, topic_id, exc)
-            scored.append({
-                "nct_id": nct_id,
-                "score": 0.0,
+            return {
+                "nct_id": nct_id, "score": 0.0,
                 "summary": _eligibility_summary([], eliminated=False),
                 "title": trial.get("title", ""),
-            })
+                "_cache_hit": False, "_survived": False,
+            }
+
+    with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        futures = {executor.submit(_process_trial, trial): trial for trial in top_trials}
+        for future in as_completed(futures):
+            result = future.result()
+            if not result:
+                continue
+            scored.append(result)
+            criteria_total += 1
+            if result.get("_cache_hit"):
+                criteria_hits += 1
+            if result.get("_survived"):
+                survivors += 1
 
     # 8. Sort descending
     scored.sort(key=lambda x: x["score"], reverse=True)
@@ -487,9 +487,15 @@ def main() -> None:
     parser.add_argument("--budget", type=float, default=1.75,
                         help="Hard stop when estimated LLM cost exceeds this USD amount (default 1.75)")
     parser.add_argument("--use-trec-index", action="store_true",
-                        help="Use local BM25 index over all TREC-judged NCT IDs instead of CT API queries")
+                        help="(deprecated) Alias for --retrieval-mode trec-index")
     parser.add_argument("--trec-index-path", default="data/cache/bm25_trec2021_index.pkl",
-                        help="Path to saved TREC BM25 index (default: data/cache/bm25_trec2021_index.pkl)")
+                        help="Path to saved TREC BM25 index")
+    parser.add_argument("--retrieval-mode",
+                        choices=["api", "trec-index", "semantic", "hybrid"],
+                        default="hybrid",
+                        help="Retrieval strategy (default: hybrid)")
+    parser.add_argument("--max-workers", type=int, default=5,
+                        help="ThreadPoolExecutor workers for per-trial processing (default: 5)")
     args = parser.parse_args()
 
     use_cache = not args.no_cache
@@ -522,16 +528,35 @@ def main() -> None:
     elif args.topics_limit:
         topics = dict(list(topics.items())[: args.topics_limit])
 
-    # TREC index (optional)
-    trec_retriever: TrecIndexRetriever | None = None
-    if args.use_trec_index:
+    # Retriever setup
+    mode = args.retrieval_mode
+    if args.use_trec_index and mode == "hybrid":
+        mode = "trec-index"  # honour legacy flag
+
+    retriever = None
+    if mode == "trec-index":
         index_path = Path(args.trec_index_path)
         if not index_path.exists():
-            logger.error("TREC index not found at %s — build it first with trec_index_retriever.py", index_path)
+            logger.error("TREC index not found at %s", index_path)
             sys.exit(1)
-        trec_retriever = TrecIndexRetriever()
-        trec_retriever.load_index(index_path, cache_dir=CACHE_DIR / "trial_data")
-        logger.info("Loaded TREC BM25 index (%d trials)", len(trec_retriever._nct_ids))
+        retriever = TrecIndexRetriever().load_index(index_path, cache_dir=CACHE_DIR / "trial_data")
+        logger.info("Retrieval mode: trec-index (%d trials)", len(retriever._nct_ids))
+    elif mode in ("semantic", "hybrid"):
+        emb_path = CACHE_DIR / "embeddings" / "trial_embeddings.npy"
+        ids_path = CACHE_DIR / "embeddings" / "trial_nct_ids.pkl"
+        if not emb_path.exists():
+            logger.error("Embeddings not found at %s", emb_path)
+            sys.exit(1)
+        sem = SemanticRetriever(emb_path, ids_path, CACHE_DIR / "trial_data")
+        if mode == "semantic":
+            retriever = sem
+            logger.info("Retrieval mode: semantic (BioBERT, 26k trials)")
+        else:
+            retriever = HybridRetriever(sem, args.trec_index_path)
+            logger.info("Retrieval mode: hybrid (BioBERT + BM25, alpha=%.2f beta=%.2f)",
+                        retriever.alpha, retriever.beta)
+    else:
+        logger.info("Retrieval mode: api (CT API + QueryBuilder)")
 
     # Shared caches
     qb_cache = diskcache.Cache(str(CACHE_DIR / "query_builder"))
@@ -565,7 +590,8 @@ def main() -> None:
                 qb_cache=qb_cache,
                 criteria_cache=criteria_cache,
                 reasoner_cache=reasoner_cache,
-                trec_retriever=trec_retriever,
+                retriever=retriever,
+                max_workers=args.max_workers,
             )
         except Exception as exc:
             logger.error("Topic %s FAILED: %s", topic_id, exc)
