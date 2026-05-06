@@ -58,6 +58,7 @@ from src.parsing.patient_normalizer import normalize_patient
 from src.ranking.scorer import score_trial
 from src.retrieval.bm25_retriever import BM25Retriever
 from src.retrieval.query_builder import retrieve_candidates
+from src.retrieval.trec_index_retriever import TrecIndexRetriever
 
 logging.basicConfig(
     level=logging.INFO,
@@ -167,6 +168,7 @@ def run_topic(
     qb_cache: diskcache.Cache,
     criteria_cache: diskcache.Cache,
     reasoner_cache: diskcache.Cache,
+    trec_retriever: TrecIndexRetriever | None = None,
 ) -> tuple[dict[str, float], dict, int, int, int]:
     """
     Full pipeline for one topic.
@@ -181,21 +183,32 @@ def run_topic(
     profile = normalize_patient(patient_text, use_cache=use_cache)
 
     # 2. Retrieve candidates
-    conditions = profile.conditions or [patient_text.split()[0]]
-    trials = retrieve_candidates(
-        conditions, max_total=500, use_cache=use_cache, cache=qb_cache
-    )
+    if trec_retriever is not None:
+        # TREC index path: BM25 over all 26k judged trials → top-K directly
+        nct_ids = trec_retriever.query(patient_text, top_k=CANDIDATE_CAP)
+        top_trials = [
+            t for nid in nct_ids
+            if (t := trec_retriever.get_trial(nid)) and t.get("nct_id")
+        ]
+        if not top_trials:
+            logger.warning("Topic %s: no candidates from TREC index.", topic_id)
+            return {}, {"patient_id": topic_id, "ranked_trials": []}, 0, 0, 0
+    else:
+        # Original CT API path
+        conditions = profile.conditions or [patient_text.split()[0]]
+        trials = retrieve_candidates(
+            conditions, max_total=500, use_cache=use_cache, cache=qb_cache
+        )
+        if not trials:
+            logger.warning("Topic %s: no candidates retrieved.", topic_id)
+            return {}, {"patient_id": topic_id, "ranked_trials": []}, 0, 0, 0
 
-    if not trials:
-        logger.warning("Topic %s: no candidates retrieved.", topic_id)
-        return {}, {"patient_id": topic_id, "ranked_trials": []}, 0, 0, 0
-
-    # 3. BM25 rerank → top-50 hard cap
-    try:
-        retriever = BM25Retriever(trials)
-        top_trials = retriever.query(patient_text, top_k=CANDIDATE_CAP)
-    except ValueError:
-        top_trials = trials[:CANDIDATE_CAP]
+        # BM25 rerank → top-50 hard cap
+        try:
+            bm25 = BM25Retriever(trials)
+            top_trials = bm25.query(patient_text, top_k=CANDIDATE_CAP)
+        except ValueError:
+            top_trials = trials[:CANDIDATE_CAP]
 
     # 4-7. Per-trial pipeline
     scored: list[dict] = []
@@ -473,6 +486,10 @@ def main() -> None:
                         help="Disable all caching (re-fetches everything)")
     parser.add_argument("--budget", type=float, default=1.75,
                         help="Hard stop when estimated LLM cost exceeds this USD amount (default 1.75)")
+    parser.add_argument("--use-trec-index", action="store_true",
+                        help="Use local BM25 index over all TREC-judged NCT IDs instead of CT API queries")
+    parser.add_argument("--trec-index-path", default="data/cache/bm25_trec2021_index.pkl",
+                        help="Path to saved TREC BM25 index (default: data/cache/bm25_trec2021_index.pkl)")
     args = parser.parse_args()
 
     use_cache = not args.no_cache
@@ -504,6 +521,17 @@ def main() -> None:
         topics = {key: topics[key]}
     elif args.topics_limit:
         topics = dict(list(topics.items())[: args.topics_limit])
+
+    # TREC index (optional)
+    trec_retriever: TrecIndexRetriever | None = None
+    if args.use_trec_index:
+        index_path = Path(args.trec_index_path)
+        if not index_path.exists():
+            logger.error("TREC index not found at %s — build it first with trec_index_retriever.py", index_path)
+            sys.exit(1)
+        trec_retriever = TrecIndexRetriever()
+        trec_retriever.load_index(index_path, cache_dir=CACHE_DIR / "trial_data")
+        logger.info("Loaded TREC BM25 index (%d trials)", len(trec_retriever._nct_ids))
 
     # Shared caches
     qb_cache = diskcache.Cache(str(CACHE_DIR / "query_builder"))
@@ -537,6 +565,7 @@ def main() -> None:
                 qb_cache=qb_cache,
                 criteria_cache=criteria_cache,
                 reasoner_cache=reasoner_cache,
+                trec_retriever=trec_retriever,
             )
         except Exception as exc:
             logger.error("Topic %s FAILED: %s", topic_id, exc)
