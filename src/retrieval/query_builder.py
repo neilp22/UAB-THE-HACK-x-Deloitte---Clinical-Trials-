@@ -198,13 +198,13 @@ def retrieve_candidates(
         remaining = min(per_query_limit, max_total - len(merged))
         cache_key = f"qb:{variant}:n{remaining}"
 
-        if use_cache and cache and cache_key in cache:
+        if use_cache and cache is not None and cache_key in cache:
             trials = cache[cache_key]
         else:
             try:
                 trials = search_trials(query_cond=variant, max_results=remaining)
                 time.sleep(CT_POLITE_DELAY)
-                if use_cache and cache:
+                if use_cache and cache is not None:
                     cache[cache_key] = trials
             except Exception as exc:
                 logger.warning("Query variant '%s' failed: %s", variant, exc)
