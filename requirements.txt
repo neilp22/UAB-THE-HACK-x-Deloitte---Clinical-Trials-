@@ -1,0 +1,29 @@
+# Core LLM
+openai>=1.30.0
+
+# HTTP client (requests — httpx blocked by CT API Cloudflare fingerprinting)
+requests>=2.31.0
+
+# Retrieval
+rank-bm25>=0.2.2
+
+# Validation
+pydantic>=2.5.0
+
+# Caching
+diskcache>=5.6.3
+
+# TREC evaluation
+pytrec_eval-terrier>=0.5.9
+
+# XML parsing
+lxml>=5.2.0
+
+# Utilities
+python-dotenv>=1.0.1
+tqdm>=4.66.0
+numpy>=1.26.0
+
+# Semantic re-rank (stretch goal — install separately if needed)
+# sentence-transformers>=2.7.0
+# torch>=2.3.0
