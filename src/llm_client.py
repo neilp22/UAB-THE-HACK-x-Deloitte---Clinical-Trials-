@@ -189,7 +189,7 @@ def complete_structured(
 def verify_connection() -> bool:
     """Quick smoke-test that the API key and model are reachable."""
     try:
-        result = complete("Reply with the single word: OK", max_tokens=10)
+        result = complete("Reply with the single word: OK")
         ok = "ok" in result.strip().lower()
         print(f"LLM [{_PROVIDER}] connection test: {'PASS' if ok else 'UNEXPECTED'} — '{result.strip()}'")
         return ok
