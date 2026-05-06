@@ -47,7 +47,7 @@ import diskcache
 import pytrec_eval
 from sklearn.metrics import classification_report, f1_score
 
-from src.config import CACHE_DIR, DATA_DIR, TREC_2021_DIR
+from src.config import CACHE_DIR, DATA_DIR, TREC_2021_DIR, TREC_2022_DIR
 from src.llm_client import get_usage
 from src.matching.eligibility_reasoner import evaluate_trial
 from src.matching.hard_filter import apply_hard_filter
@@ -288,11 +288,15 @@ def run_topic(
 
     ranked_trials_json = []
     for rank, t in enumerate(scored, 1):
+        _meta = t.get("trial_meta") or {}
+        _phases = _meta.get("phases") or []
         entry: dict = {
             "rank": rank,
             "nct_id": t["nct_id"],
             "score": round(t["score"], 6),
             "title": t["title"],
+            "phase": _phases[0] if _phases else _meta.get("phase", ""),
+            "status": _meta.get("status", ""),
             "eligibility_summary": t["summary"],
         }
 
@@ -375,18 +379,22 @@ def compute_t2(
     return micro_f1, report
 
 
-def compute_t3(
+def compute_retrieval_metrics(
     run: dict[str, dict[str, float]],
     qrels: dict[str, dict[str, int]],
-) -> float:
-    """Compute T3 NDCG@10 with pytrec_eval."""
+) -> dict[str, float]:
+    """Compute T1 Recall@20, T3 NDCG@10, and MAP via pytrec_eval."""
     eval_qrels = {tid: qrels[tid] for tid in run if tid in qrels}
     if not eval_qrels:
-        return 0.0
-    evaluator = pytrec_eval.RelevanceEvaluator(eval_qrels, {"ndcg_cut_10"})
+        return {"ndcg_cut_10": 0.0, "recall_20": 0.0, "map": 0.0}
+    evaluator = pytrec_eval.RelevanceEvaluator(
+        eval_qrels, {"ndcg_cut_10", "recall_20", "map"}
+    )
     per_topic = evaluator.evaluate(run)
-    scores = [m["ndcg_cut_10"] for m in per_topic.values()]
-    return statistics.mean(scores) if scores else 0.0
+    return {
+        metric: statistics.mean(m[metric] for m in per_topic.values())
+        for metric in ("ndcg_cut_10", "recall_20", "map")
+    }
 
 
 # ---------------------------------------------------------------------------
@@ -454,7 +462,9 @@ def print_diagnostics(
 # ---------------------------------------------------------------------------
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Full pipeline eval — TREC 2021")
+    parser = argparse.ArgumentParser(description="Full pipeline eval — TREC Clinical Trials")
+    parser.add_argument("--year", type=int, choices=[2021, 2022], default=2021,
+                        help="TREC year to evaluate (default: 2021)")
     parser.add_argument("--topic", type=int, default=None,
                         help="Run a single topic ID (debug mode)")
     parser.add_argument("--topics-limit", type=int, default=None,
@@ -468,8 +478,15 @@ def main() -> None:
     use_cache = not args.no_cache
     budget_usd = args.budget
 
-    topics_path = TREC_2021_DIR / "topics.xml"
-    qrels_path = TREC_2021_DIR / "qrels.txt"
+    # Year-specific paths
+    trec_dir = TREC_2021_DIR if args.year == 2021 else TREC_2022_DIR
+    global RUN_PATH, PREDICTIONS_PATH, DOSSIERS_DIR
+    RUN_PATH = DATA_DIR / "runs" / f"full_pipeline_{args.year}.txt"
+    PREDICTIONS_PATH = DATA_DIR / "predictions" / f"full_pipeline_{args.year}.json"
+    DOSSIERS_DIR = DATA_DIR / "dossiers" / str(args.year)
+
+    topics_path = trec_dir / "topics.xml"
+    qrels_path = trec_dir / "qrels.txt"
     for p in (topics_path, qrels_path):
         if not p.exists():
             logger.error("Required file not found: %s", p)
@@ -571,8 +588,8 @@ def main() -> None:
 
     # --- Metrics ---
     t2_micro_f1 = 0.0
-    t3_ndcg10 = 0.0
     t2_report: dict = {}
+    retrieval: dict[str, float] = {"ndcg_cut_10": 0.0, "recall_20": 0.0, "map": 0.0}
 
     try:
         t2_micro_f1, t2_report = compute_t2(all_predictions, qrels)
@@ -580,22 +597,28 @@ def main() -> None:
         logger.error("T2 computation failed: %s", exc)
 
     try:
-        t3_ndcg10 = compute_t3(full_run, qrels)
+        retrieval = compute_retrieval_metrics(full_run, qrels)
     except Exception as exc:
-        logger.error("T3 computation failed: %s", exc)
+        logger.error("Retrieval metrics computation failed: %s", exc)
+
+    t1_recall20 = retrieval["recall_20"]
+    t3_ndcg10 = retrieval["ndcg_cut_10"]
+    map_score = retrieval["map"]
+    composite = 0.20 * t1_recall20 + 0.30 * t2_micro_f1 + 0.25 * t3_ndcg10
 
     # --- Results banner ---
     print("\n" + "=" * 60)
-    print("  FULL PIPELINE — TREC 2021")
+    print(f"  FULL PIPELINE — TREC {args.year}")
     print("=" * 60)
     print(f"  Topics evaluated    : {len(all_predictions)}  (failed: {failed_topics})")
     print(f"  Elapsed             : {elapsed_total:.0f}s")
     print(f"  LLM cost (est.)     : ${_llm_cost_usd():.4f}")
     print("-" * 60)
+    print(f"  T1 Recall@20        : {t1_recall20:.4f}")
     print(f"  T2 Micro-F1         : {t2_micro_f1:.4f}")
     print(f"  T3 NDCG@10          : {t3_ndcg10:.4f}")
-    composite = 0.30 * t2_micro_f1 + 0.25 * t3_ndcg10
-    print(f"  Composite (T2+T3)   : {composite:.4f}")
+    print(f"  MAP                 : {map_score:.4f}")
+    print(f"  Composite           : {composite:.4f}  (0.20*T1 + 0.30*T2 + 0.25*T3)")
     print("-" * 60)
     if t2_report:
         for label in ("MET", "NOT_MET", "NEI"):
