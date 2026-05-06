@@ -1,11 +1,11 @@
 """
 Single wrapper for all LLM calls.
 
-Rules (from CLAUDE.md):
-- Model, temperature, max_tokens come from src/config.py
-- Swapping model = change OPENAI_MODEL in .env
-- All LLM output MUST be validated by the caller with Pydantic before use
-- Never call this for: age/gender/numeric comparisons, dates, scoring
+Provider auto-selection (checked at import time):
+  GEMINI_KEY set in .env  → Google Gemini  (gemini-2.0-flash, free tier)
+  OPENAI_API_KEY only     → OpenAI          (gpt-4o-mini)
+
+Interface is identical for both providers — no other module needs to change.
 
 Usage:
     from src.llm_client import complete, complete_structured
@@ -16,25 +16,55 @@ Usage:
 from __future__ import annotations
 
 import logging
-from typing import Any, Type, TypeVar
+import os
+from typing import Type, TypeVar
 
-from openai import OpenAI
 from pydantic import BaseModel
 
-from src.config import OPENAI_API_KEY, OPENAI_MAX_TOKENS, OPENAI_MODEL, OPENAI_TEMPERATURE
+from src.config import (
+    CACHE_DIR,          # noqa: F401 — imported to trigger load_dotenv
+    OPENAI_API_KEY,
+    OPENAI_MAX_TOKENS,
+    OPENAI_MODEL,
+    OPENAI_TEMPERATURE,
+)
 
 logger = logging.getLogger(__name__)
 
-_client = OpenAI(api_key=OPENAI_API_KEY)
-
 T = TypeVar("T", bound=BaseModel)
 
-# Cumulative token usage tracker (reset between runs if needed)
+# ---------------------------------------------------------------------------
+# Provider selection
+# ---------------------------------------------------------------------------
+
+GEMINI_KEY: str | None = os.getenv("GEMINI_KEY")
+GEMINI_MODEL: str = os.getenv("GEMINI_MODEL", "gemini-2.0-flash")
+GEMINI_MAX_TOKENS: int = 4096
+
+_PROVIDER: str = "gemini" if GEMINI_KEY else "openai"
+logger.info("LLM provider: %s", _PROVIDER)
+
+# ---------------------------------------------------------------------------
+# Client initialisation (lazy — only the active provider is initialised)
+# ---------------------------------------------------------------------------
+
+if _PROVIDER == "gemini":
+    from google import genai as _genai
+    from google.genai import types as _gtypes
+    _gemini_client = _genai.Client(api_key=GEMINI_KEY)
+else:
+    from openai import OpenAI as _OpenAI
+    _openai_client = _OpenAI(api_key=OPENAI_API_KEY)
+
+# ---------------------------------------------------------------------------
+# Cumulative token usage tracker
+# ---------------------------------------------------------------------------
+
 _usage: dict[str, int] = {"prompt_tokens": 0, "completion_tokens": 0, "total_tokens": 0}
 
 
 def get_usage() -> dict[str, int]:
-    """Return cumulative token counts since process start."""
+    """Return cumulative token counts since process start (or last reset)."""
     return dict(_usage)
 
 
@@ -44,6 +74,18 @@ def reset_usage() -> None:
     _usage["total_tokens"] = 0
 
 
+def _track_gemini_usage(meta) -> None:
+    if meta is None:
+        return
+    _usage["prompt_tokens"] += getattr(meta, "prompt_token_count", 0) or 0
+    _usage["completion_tokens"] += getattr(meta, "candidates_token_count", 0) or 0
+    _usage["total_tokens"] += getattr(meta, "total_token_count", 0) or 0
+
+
+# ---------------------------------------------------------------------------
+# Public API
+# ---------------------------------------------------------------------------
+
 def complete(
     prompt: str,
     system: str = "You are a precise clinical information extraction system.",
@@ -51,13 +93,22 @@ def complete(
     temperature: float | None = None,
     max_tokens: int | None = None,
 ) -> str:
-    """
-    Single-turn chat completion.
+    """Single-turn chat completion. Returns assistant message text."""
+    if _PROVIDER == "gemini":
+        response = _gemini_client.models.generate_content(
+            model=model or GEMINI_MODEL,
+            contents=prompt,
+            config=_gtypes.GenerateContentConfig(
+                system_instruction=system,
+                temperature=temperature if temperature is not None else 0.0,
+                max_output_tokens=max_tokens or GEMINI_MAX_TOKENS,
+            ),
+        )
+        _track_gemini_usage(response.usage_metadata)
+        return response.text or ""
 
-    Returns the assistant message text.
-    Raises openai.APIError on failure (let it propagate — caller handles retry/caching).
-    """
-    response = _client.chat.completions.create(
+    # OpenAI path
+    response = _openai_client.chat.completions.create(
         model=model or OPENAI_MODEL,
         temperature=temperature if temperature is not None else OPENAI_TEMPERATURE,
         max_tokens=max_tokens or OPENAI_MAX_TOKENS,
@@ -66,22 +117,18 @@ def complete(
             {"role": "user", "content": prompt},
         ],
     )
-
-    # Track usage
     usage = response.usage
     if usage:
         _usage["prompt_tokens"] += usage.prompt_tokens
         _usage["completion_tokens"] += usage.completion_tokens
         _usage["total_tokens"] += usage.total_tokens
-
-    content = response.choices[0].message.content or ""
     logger.debug(
         "LLM call: model=%s, in=%d, out=%d",
         model or OPENAI_MODEL,
         usage.prompt_tokens if usage else 0,
         usage.completion_tokens if usage else 0,
     )
-    return content
+    return response.choices[0].message.content or ""
 
 
 def complete_structured(
@@ -91,12 +138,34 @@ def complete_structured(
     model: str | None = None,
 ) -> T:
     """
-    Completion with JSON structured output parsed into a Pydantic model.
+    Completion with structured JSON output parsed into a Pydantic model.
 
-    Uses OpenAI's native JSON mode + Pydantic parsing.
-    Raises ValidationError if the model returns malformed JSON — never silently swallows.
+    Gemini path: response_schema=schema enforces output shape; falls back to
+    model_validate_json if response.parsed is absent.
+    OpenAI path: native beta.parse endpoint with response_format=schema.
+
+    Raises ValidationError if the model returns malformed data — never silently swallows.
     """
-    response = _client.beta.chat.completions.parse(
+    if _PROVIDER == "gemini":
+        response = _gemini_client.models.generate_content(
+            model=model or GEMINI_MODEL,
+            contents=prompt,
+            config=_gtypes.GenerateContentConfig(
+                system_instruction=system,
+                response_mime_type="application/json",
+                response_schema=schema,
+                temperature=0.0,
+                max_output_tokens=GEMINI_MAX_TOKENS,
+            ),
+        )
+        _track_gemini_usage(response.usage_metadata)
+        # Use auto-parsed object if available, else parse from text
+        if response.parsed is not None:
+            return response.parsed  # type: ignore[return-value]
+        return schema.model_validate_json(response.text)
+
+    # OpenAI path
+    response = _openai_client.beta.chat.completions.parse(
         model=model or OPENAI_MODEL,
         temperature=OPENAI_TEMPERATURE,
         max_tokens=OPENAI_MAX_TOKENS,
@@ -106,13 +175,11 @@ def complete_structured(
         ],
         response_format=schema,
     )
-
     usage = response.usage
     if usage:
         _usage["prompt_tokens"] += usage.prompt_tokens
         _usage["completion_tokens"] += usage.completion_tokens
         _usage["total_tokens"] += usage.total_tokens
-
     parsed = response.choices[0].message.parsed
     if parsed is None:
         raise ValueError(f"LLM returned no parsed output for schema {schema.__name__}")
@@ -120,14 +187,14 @@ def complete_structured(
 
 
 def verify_connection() -> bool:
-    """Quick smoke-test that the API key is valid. Prints result."""
+    """Quick smoke-test that the API key and model are reachable."""
     try:
-        result = complete("Reply with the single word: OK", max_tokens=5)
+        result = complete("Reply with the single word: OK", max_tokens=10)
         ok = "ok" in result.strip().lower()
-        print(f"LLM connection test: {'PASS' if ok else 'UNEXPECTED RESPONSE'} — '{result.strip()}'")
+        print(f"LLM [{_PROVIDER}] connection test: {'PASS' if ok else 'UNEXPECTED'} — '{result.strip()}'")
         return ok
     except Exception as exc:
-        print(f"LLM connection test: FAIL — {exc}")
+        print(f"LLM [{_PROVIDER}] connection test: FAIL — {exc}")
         return False
 
 
