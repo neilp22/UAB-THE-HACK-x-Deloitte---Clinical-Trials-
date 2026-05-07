@@ -1,0 +1,337 @@
+{
+  "nct_id": "NCT00772486",
+  "trial_title": "A Phase Ib Study of ISF35 in Combination With Chemotherapy (FCR) in Subjects With Relapsed, Refractory, and/or 17p- CLL",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "The study is a Phase 1b open label, non-randomized, single institution clinical trial that is designed to evaluate the safety and tolerability of three repeat infusions of ISF35 followed by a standard regimen of three cycles of fludarabine, cyclophosphamide and rituximab (FCR) in subjects with refractory, resistant, and/or 17p- CLL.",
+  "eligibility_table": [
+    {
+      "criterion": "Subjects must have a diagnosis of B cell CLL including:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of CLL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lymphocytosis of monoclonal B-cells co-expressing ≥ one B-cell marker (CD19, CD20, or CD23) and CD5 in peripheral blood or lymph node AND",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lymphocytosis of monoclonal B-cells is not confirmed in the provided information.",
+      "clinical_question": "Does the patient have lymphocytosis of monoclonal B-cells co-expressing ≥ one B-cell marker (CD19, CD20, or CD23) and CD5 in peripheral blood or lymph node?"
+    },
+    {
+      "criterion": "Bone marrow with ≥ 30% mononuclear cells having the CLL/SLL phenotype",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient's bone marrow biopsy show ≥30% mononuclear cells with the CLL/SLL phenotype?"
+    },
+    {
+      "criterion": "Measurable disease, and at least one of the IWCLL 2008 Guidelines \"Indications for Treatment\" as follows:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has prior treatments and likely has measurable disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of progressive marrow failure as manifested by the development of, or worsening of, anemia and/or thrombocytopenia.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has elevated white count, which may indicate progressive marrow failure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Massive (i.e., >6 cm below the left costal margin) or progressive or asymptomatic splenomegaly.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided on splenomegaly size or progression.",
+      "clinical_question": "Does the patient have splenomegaly measuring greater than 6 cm below the left costal margin?"
+    },
+    {
+      "criterion": "Massive nodes (i.e., >10 cm in longest diameter) or progressive or symptomatic lymphadenopathy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have any lymph nodes measuring >10 cm in longest diameter?"
+    },
+    {
+      "criterion": "Progressive lymphocytosis with an increase of >50% over a 2-month period, or lymphocyte doubling time (LDT) of less than 6 months.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of elevated white count, suggesting progressive lymphocytosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Autoimmune anemia and/or thrombocytopenia poorly responsive to corticosteroids or other standard therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on autoimmune anemia or thrombocytopenia response to treatment.",
+      "clinical_question": "Does the patient have a hemoglobin level <10 g/dL or a platelet count <50,000/µL despite corticosteroid treatment?"
+    },
+    {
+      "criterion": "A minimum of any one of the following disease-related symptoms must be present:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific disease-related symptoms are mentioned.",
+      "clinical_question": "Does the patient exhibit any disease-related symptoms such as fever, night sweats, or weight loss in the past month?"
+    },
+    {
+      "criterion": "Presence of > 55% prolymphocytes or Richter's transformation",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has Richter's transformation, which is a criterion for exclusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chemotherapy (e.g., purine analogues, alkylating agents, or corticosteroids), antibody therapy, immunotherapy, radiation therapy, or participation in any investigational drug treatment within 4 weeks of enrollment into protocol or at any time during the study",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple chemotherapy treatments within the last 4 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ongoing toxicity from prior anti-neoplastic therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has undergone multiple prior therapies, but there is no specific mention of ongoing toxicity from these treatments.",
+      "clinical_question": "Has the patient experienced ongoing toxicity symptoms, such as grade 2 or higher adverse effects, from any prior anti-neoplastic therapy within the last 30 days?"
+    },
+    {
+      "criterion": "Untreated autoimmune hemolytic anemia or immune thrombocytopenia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about autoimmune hemolytic anemia or immune thrombocytopenia in the patient's profile.",
+      "clinical_question": "Does the patient have a documented history of untreated autoimmune hemolytic anemia or immune thrombocytopenia with a platelet count <100,000/µL?"
+    },
+    {
+      "criterion": "Active symptomatic fungal, bacterial and/or viral infection including active HIV or viral (A, B or C) hepatitis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No active infections are reported in the patient's profile, but this cannot be definitively confirmed without lab values.",
+      "clinical_question": "Does the patient currently have any active symptomatic fungal, bacterial, or viral infections, including a confirmed diagnosis of HIV or viral hepatitis (A, B, or C)?"
+    },
+    {
+      "criterion": "Positive serologies for HIV1,2 or HTLV I,II",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's serology status for HIV or HTLV is not provided, making it unclear.",
+      "clinical_question": "Does the patient have positive serologies for HIV1, HIV2, or HTLV I or II?"
+    },
+    {
+      "criterion": "CMV disease with positive DNA PCR",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of CMV disease or positive DNA PCR in the patient's profile.",
+      "clinical_question": "Is the patient's CMV DNA PCR result positive, indicating a viral load above the threshold of 1,000 copies/mL?"
+    },
+    {
+      "criterion": "Syphilis with positive VDRL",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not indicate syphilis or a positive VDRL test.",
+      "clinical_question": "Does the patient have a positive VDRL test result indicating syphilis?"
+    },
+    {
+      "criterion": "Acute Hepatitis A and C with positive serologies, and Hepatitis B, acutely or chronically infected based on CDC criteria",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding Hepatitis A, B, or C serologies in the patient's profile.",
+      "clinical_question": "Does the patient have a positive serology for Hepatitis A, Hepatitis B, or Hepatitis C based on CDC criteria?"
+    },
+    {
+      "criterion": "Any illness or condition that in opinion of the investigator may affect safety of treatment or evaluation of any study's endpoints",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's overall health status is good, but without further details, it's uncertain if any condition affects treatment safety.",
+      "clinical_question": "Does the patient have any active infections or other comorbidities that could increase the risk of treatment-related adverse events?"
+    },
+    {
+      "criterion": "Unintentional weight loss ≥10% within the previous 6 months.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of elevated white count and bulky lymphadenopathy, which may indicate unintentional weight loss.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Significant fatigue (i.e., ECOG PS 2 or worse; cannot work or unable to perform usual activities).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Has the patient reported an ECOG performance status of 2 or worse due to significant fatigue?"
+    },
+    {
+      "criterion": "Fevers of greater than 100.5 degrees F or 38.0 degrees C for 2 or more weeks without other evidence of infection.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of fevers in the patient's profile, but this cannot be confirmed without further information.",
+      "clinical_question": "Has the patient experienced fevers of greater than 100.5 degrees F (38.0 degrees C) for 2 or more weeks without other evidence of infection?"
+    },
+    {
+      "criterion": "Night sweats for more than 1 month without evidence of infection. Hypogammaglobulinemia or monoclonal or oligoclonal paraproteinemia does not by itself constitute a basis to initiate treatment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Night sweats are not documented in the patient profile, so it's unclear if this criterion is met.",
+      "clinical_question": "Has the patient experienced night sweats for more than 1 month without evidence of infection?"
+    },
+    {
+      "criterion": "Subjects must have CLL that is documented to be resistant or refractory to standard chemotherapy regimens containing alkylating agents and/or purine analogues. Chemotherapy refractory or resistant is defined as the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has CLL and has undergone multiple chemotherapy regimens, indicating resistance or refractoriness.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CLL progression during treatment (2 cycles) with chemotherapy; OR",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone multiple cycles of chemotherapy, suggesting progression during treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Failure to achieve a PR or CR after at least 2 cycles of chemotherapy; OR",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has received multiple chemotherapy regimens without achieving a complete or partial response.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No response to treatment or stable disease after at least 2 cycles of chemotherapy; OR",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not shown a response to treatment, indicating stable disease after multiple cycles.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Disease progression within 6 months of treatment with chemotherapy; OR",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone multiple treatments and has a history of disease progression.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CLL with cytogenetic changes documenting the loss of the short arm of chromosome 17 (17p-) associated with the loss of p53.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Cytogenetic changes are not documented in the patient profile, so it's unclear if this criterion is met.",
+      "clinical_question": "Does the patient have documented cytogenetic changes indicating the presence of 17p- associated with the loss of p53?"
+    },
+    {
+      "criterion": "Subjects must be age 18 years or older",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "For men and women of child-bearing potential, use of effective barrier contraceptive methods during the study and for one month following treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information on child-bearing potential or contraceptive methods.",
+      "clinical_question": "Is the patient currently using an effective barrier contraceptive method, and will he continue to do so during the study and for one month following treatment?"
+    },
+    {
+      "criterion": "Subjects must have ECOG performance scale of ≤ 2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status score of ≤ 2?"
+    },
+    {
+      "criterion": "Subjects must have adequate hematologic, renal, hepatic, and coagulation function defined as:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile lacks specific lab values to assess hematologic, renal, hepatic, and coagulation function.",
+      "clinical_question": "Does the patient have a platelet count of ≥100,000/µL?"
+    },
+    {
+      "criterion": "Adequate hematologic function:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide specific lab values to assess adequate hematologic function.",
+      "clinical_question": "Does the patient have an absolute neutrophil count (ANC) ≥1,500 cells/mm³?"
+    },
+    {
+      "criterion": "i) Platelet count ≥ 50,000/µL; AND",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's platelet count currently ≥ 50,000/µL?"
+    },
+    {
+      "criterion": "ii) Hemoglobin ≥ 10 g/dL (may be supported by erythropoietin or transfusion); AND",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's hemoglobin level currently ≥10 g/dL?"
+    },
+    {
+      "criterion": "Adequate renal function:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess renal function.",
+      "clinical_question": "Does the patient have a creatinine clearance of ≥60 mL/min?"
+    },
+    {
+      "criterion": "i) Calculated creatinine clearance ≥ 30 mL/min/1.73 m^2; OR",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's calculated creatinine clearance in mL/min/1.73 m²?"
+    },
+    {
+      "criterion": "ii) Serum creatinine ≤ 2 times upper limit of normal; AND",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Serum creatinine levels are not available to determine if they are ≤ 2 times upper limit of normal.",
+      "clinical_question": "Is the patient's serum creatinine level ≤ 2 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Total bilirubin ≤ 2.5 times upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Total bilirubin levels are not provided to assess if they are ≤ 2.5 times upper limit of normal.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 2.5 mg/dL?"
+    },
+    {
+      "criterion": "ALT ≤ 2.5 times upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "ALT levels are not available to determine if they are ≤ 2.5 times upper limit of normal.",
+      "clinical_question": "Is the patient's ALT level ≤ 2.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Prothrombin time international normalized ratio (INR) ≤ 1.5",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's prothrombin time international normalized ratio (INR) ≤ 1.5?"
+    },
+    {
+      "criterion": "Partial thromboplastin time ≤ 1.5 times upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Partial thromboplastin time is not provided to assess if it is ≤ 1.5 times upper limit of normal.",
+      "clinical_question": "Is the patient's partial thromboplastin time ≤ 37.5 seconds?"
+    },
+    {
+      "criterion": "Ability to understand the requirements of the study, provide written informed consent and authorization of use and disclosure of protected health information, and agree to abide by the study restrictions and return for the required assessments",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has excellent performance status and likely understands study requirements, but confirmation of consent ability is not explicitly stated.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Chemotherapy (e.g., purine analogues, alkylating agents, or corticosteroids), an",
+    "EXCLUSION UNCLEAR: Ongoing toxicity from prior anti-neoplastic therapy",
+    "EXCLUSION UNCLEAR: Untreated autoimmune hemolytic anemia or immune thrombocytopenia",
+    "EXCLUSION UNCLEAR: Active symptomatic fungal, bacterial and/or viral infection including active HIV",
+    "EXCLUSION UNCLEAR: Positive serologies for HIV1,2 or HTLV I,II",
+    "EXCLUSION UNCLEAR: CMV disease with positive DNA PCR",
+    "EXCLUSION UNCLEAR: Syphilis with positive VDRL",
+    "EXCLUSION UNCLEAR: Acute Hepatitis A and C with positive serologies, and Hepatitis B, acutely or ch",
+    "EXCLUSION UNCLEAR: Any illness or condition that in opinion of the investigator may affect safety o"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3111
+}

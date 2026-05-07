@@ -1,0 +1,99 @@
+{
+  "nct_id": "NCT00486239",
+  "trial_title": "Emotional Processing and Memory Evaluation in Epilepsy Patients",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of the study is to assess the effects of temporal lobe epilepsy (TLE) on memory and emotional functioning. The study will evaluate the known lateralized neurological dysfunction(Right TLE versus Left TLE) on emotional verbal and visual memory function. Study data will assess the ability of participants with known lateralized neurological dysfunction (Right TLE versus Left TLE) to differentially perceive emotional stimuli. Another component of the study will evaluate possible changes ",
+  "eligibility_table": [
+    {
+      "criterion": "Referred to neurological institute at University Hospitals Case Medical Center for care of seizures/epilepsy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of spontaneous intraventricular hemorrhage and arteriovenous malformation, but it is unclear if they have been referred specifically for seizures/epilepsy.",
+      "clinical_question": "Has the patient been diagnosed with epilepsy as confirmed by an electroencephalogram (EEG) showing epileptiform activity?"
+    },
+    {
+      "criterion": "Referred to neuropsychology laboratory for evaluation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about a referral to a neuropsychology laboratory for evaluation.",
+      "clinical_question": "Has the patient undergone a neuropsychological evaluation within the last 6 months?"
+    },
+    {
+      "criterion": "Participants must complete the routine check-in of all patients and sign consent and HIPAA forms.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient is compliant and willing to participate, they can complete routine check-ins and sign necessary forms.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Be, in the investigator's opinion, compliant, able to follow the investigator's instructions and visit the clinic on schedule, cooperative and reliable.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "While the patient is 32 years old, their ability to follow instructions and visit the clinic on schedule is not explicitly stated.",
+      "clinical_question": "Has the patient attended all scheduled follow-up appointments in the past six months?"
+    },
+    {
+      "criterion": "Be aged 18-64 years old.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 32.0 >= 64.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Be able to provide documented informed consent.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is an adult and can provide documented informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have a confirmed diagnosis of right or left temporal lobe epilepsy (TLE), which is made independent of their pre-surgical neuropsychological evaluation. Neurological disease must be confirmed by one (or more) of the following: (a) MRI study of the head, (b) CT study of the head, (c) EEG study, (d) Video-EEG study, (e) PET study of the head, (f) Neurological and Psychiatric exam by a physician.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a significant history of head injury and abnormal vasculature, which may not confirm a diagnosis of temporal lobe epilepsy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Referred from an attorney or their evaluation is part of a personal injury claim.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient was referred from an attorney or involved in a personal injury claim.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Be intoxicated from alcohol or other illicit substance.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no evidence suggesting the patient is intoxicated from alcohol or illicit substances.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Received Electroconvulsive (ECT) treatment within the last 21 days.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no record of the patient receiving Electroconvulsive (ECT) treatment within the last 21 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have an MMSE score of 25 or less",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Mini-Mental State Examination (MMSE) score of 25 or less?"
+    },
+    {
+      "criterion": "Have undergone Deep Brain Stimulator (DBS) surgery",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has undergone Deep Brain Stimulator (DBS) surgery.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Have an MMSE score of 25 or less",
+    "LOW INCLUSION MATCH: only 2 of 7 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

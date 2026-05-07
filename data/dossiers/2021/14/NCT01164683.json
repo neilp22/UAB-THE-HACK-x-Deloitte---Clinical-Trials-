@@ -1,0 +1,137 @@
+{
+  "nct_id": "NCT01164683",
+  "trial_title": "A Pilot Study of CPAP Adherence Promotion by Peer Buddies With Sleep Apnea",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "Obstructive sleep apnea (OSA) is a highly prevalent condition in veterans with some estimates as high as 47%. Poor adherence to the primary treatment of OSA -- continuous positive airway pressure (CPAP) therapy - is associated with increased risk for heart attacks, strokes and even death. The investigators plan to improve CPAP adherence in veterans through their interactions with peers who have successfully adopted CPAP therapy.\n\nSuch \"peer-buddies\" may promote the well-being of veterans while r",
+  "eligibility_table": [
+    {
+      "criterion": "Obstructive Sleep Apnea (defined by Apnea-hypopnea index [AHI] > 5 per hour; with hypopneas defined as greater than 30% reduction in airflow with 4 or greater drop in oxygen saturation). AHI will be determined by full night or split-night polysomnography.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's OSA diagnosis is not confirmed by AHI data from polysomnography.",
+      "clinical_question": "Does the patient have an Apnea-hypopnea index (AHI) greater than 5 per hour as determined by polysomnography?"
+    },
+    {
+      "criterion": "Age range 21 - 85 years old.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient aged between 21 and 85 years old?"
+    },
+    {
+      "criterion": "Stable medical history and no change in medications, including anti-hypertensive and thyroid replacement, in the previous 4 months.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple chronic conditions and is on medications that may have changed recently.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No regular use (> 3 times/week) of sedative or hypnotic medications in the last 4 months.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is using BiPAP, which suggests regular use of a device that may be considered sedative in nature.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Central sleep apnea (central apnea index > 5 per hour and >50% of Apnea-hypopnea index constituted by central apneas and non-obstructive hypopneas).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No data provided on central apnea index; cannot confirm or deny central sleep apnea.",
+      "clinical_question": "Does the patient have a central apnea index greater than 5 per hour, with more than 50% of the apnea-hypopnea index constituted by central apneas and non-obstructive hypopneas?"
+    },
+    {
+      "criterion": "Complex sleep apnea or CPAP emergent central apnea (Central apnea index > 5 per hour during CPAP titration with >50% of Apnea-hypopnea index constituted by central apneas and non-obstructive hypopneas).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No data provided on central apnea index during CPAP titration; cannot confirm or deny complex sleep apnea.",
+      "clinical_question": "Does the patient have a central apnea index greater than 5 per hour during CPAP titration, with more than 50% of the apnea-hypopnea index constituted by central apneas and non-obstructive hypopneas?"
+    },
+    {
+      "criterion": "Requiring oxygen or bi-level positive airway pressure for treatment of OSA or hypoventilation.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient requires BiPAP for treatment, which is a form of positive airway pressure therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Decompensated cardiac (heart failure or angina) or pulmonary (severe COPD or uncontrolled asthma) disease.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has decompensated heart failure (dCHF, CAD, CHF) and severe COPD.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic narcotic use",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided on chronic narcotic use.",
+      "clinical_question": "Is the patient currently using narcotic medications for pain management on a daily basis?"
+    },
+    {
+      "criterion": "Nasal obstruction (nasal congestion score > 15) or enlarged tonsils.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No nasal obstruction or tonsil size data provided.",
+      "clinical_question": "Does the patient have a nasal congestion score greater than 15 or evidence of enlarged tonsils?"
+    },
+    {
+      "criterion": "Diagnosis of another sleep disorder in addition to OSA based on PSG (e.g., periodic limb movement disorder [15 limb movements/hour of sleep with arousal], central sleep apnea [50% of apneas on diagnostic PSG are central apneas], insomnia, obesity hypoventilation syndrome, or narcolepsy).",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has obesity hypoventilation syndrome, which is another sleep disorder.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous treatment with positive airway pressure, home oxygen therapy, tracheotomy, uvulopalatopharyngoplasty, or other surgery for OSA.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of using BiPAP, which is a form of positive airway pressure therapy for OSA.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Night shift workers in situations or occupations where they regularly experience jet lag, or have irregular work schedules by history over the last 6 months.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's work schedule or night shift work, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient worked night shifts or experienced jet lag at least once per week over the last 6 months?"
+    },
+    {
+      "criterion": "Routine consumption of more than 2 alcoholic beverages per day.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's alcohol consumption, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Does the patient consume more than 2 alcoholic beverages per day?"
+    },
+    {
+      "criterion": "Recent or recurring history of recreational drug use leading to tolerance or dependence.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's history of recreational drug use, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient reported any recreational drug use in the past 12 months that has led to tolerance or dependence?"
+    },
+    {
+      "criterion": "Unable to perform tests due to inability to communicate verbally, inability to write and read in English; less than a 5th grade reading level; visual, hearing or cognitive impairment (e.g., previous head injury); or upper extremity motor deficit (e.g., previous stroke that prevents patient from using CPAP treatment).",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has difficulty with activities of daily living (ADLs) and may have cognitive or communication impairments, which could affect their ability to perform tests.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Central sleep apnea (central apnea index > 5 per hour and >50% of Apnea-hypopnea",
+    "EXCLUSION UNCLEAR: Complex sleep apnea or CPAP emergent central apnea (Central apnea index > 5 per ",
+    "EXCLUSION VIOLATED: Decompensated cardiac (heart failure or angina) or pulmonary (severe COPD or unc",
+    "EXCLUSION UNCLEAR: Chronic narcotic use",
+    "EXCLUSION UNCLEAR: Nasal obstruction (nasal congestion score > 15) or enlarged tonsils.",
+    "EXCLUSION VIOLATED: Diagnosis of another sleep disorder in addition to OSA based on PSG (e.g., perio",
+    "EXCLUSION VIOLATED: Previous treatment with positive airway pressure, home oxygen therapy, tracheoto",
+    "EXCLUSION UNCLEAR: Night shift workers in situations or occupations where they regularly experience",
+    "EXCLUSION UNCLEAR: Routine consumption of more than 2 alcoholic beverages per day.",
+    "EXCLUSION UNCLEAR: Recent or recurring history of recreational drug use leading to tolerance or dep",
+    "EXCLUSION VIOLATED: Unable to perform tests due to inability to communicate verbally, inability to w",
+    "LOW INCLUSION MATCH: only 0 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.4375
+}

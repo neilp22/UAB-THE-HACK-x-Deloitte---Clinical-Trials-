@@ -1,0 +1,254 @@
+{
+  "nct_id": "NCT03152318",
+  "trial_title": "A Study of the Treatment of Recurrent Malignant Glioma With rQNestin34.5v.2",
+  "phase": "PHASE1",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "This research study is evaluating an investigational drug, an oncolytic virus called rQNestin34.5v.2. This research study is a Phase I clinical trial, which tests the safety of an investigational drug and also tries to define the appropriate dose of the investigational drug as a possible treatment for this diagnosis of recurrent or progressive brain tumor.",
+  "eligibility_table": [
+    {
+      "criterion": "Frozen biopsy consistent with glioma by neuropathologist at the time of the first surgery in this longitudinal trial. Biopsy confirmation of glioma or infiltrative glioma at time of surgery will be acceptable, provided the subject has prior pathology confirmation of IDH wild-type glioma. Patients with reactive changes, gliosis or normal brain tissue only, without evidence of glioma at initial study surgery only will not receive study rQNestin34.5v.2 therapy and will be replaced. Confirmation of glioma at subsequent neurosurgical procedures beyond the initial surgery will not be required.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the frozen biopsy status or neuropathologist confirmation.",
+      "clinical_question": "Is there a frozen biopsy from the initial surgery that is consistent with glioma as confirmed by a neuropathologist?"
+    },
+    {
+      "criterion": "Participants must have prior diagnosis of IDH wild-type glial tumor including GBM, grade 3 anaplastic astrocytoma or oligodendroglioma or or grade 2 astrocytoma with genetic features consistent with GBM, as confirmed by a neuropathologist or by a previous local pathology report. IDH wild-type designation may be based on negative immunohistochemistry (IDH1 R132H mutation) or next generation sequencing for patients with grade 4 tumor and by negative next-generation sequencing for those with grade 2 or 3 tumors. Patients with negative immunohistochemistry study for IDH1 R132H who are identified to have an alternative mutation of IDH1 or 2 are also not eligible.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has anaplastic astrocytoma, which is consistent with IDH wild-type glial tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior history of external beam radiotherapy ≥ 5,000 cGy delivered to the tumor at least 4 weeks prior to OHRS registration. Participants over the age of 70 with prior history of hypofractionated external beam radiotherapy will also be accommodated, in accordance with NCCN guidelines.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has a history of external beam radiotherapy, but specific dose and timing details are not provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior history of temozolomide chemotherapy provided concurrent with external beam radiotherapy and after as per current standard of care. However, temozolomide is not required to have been provided concomitantly or after radiation if the patient had unmethylated MGMT promoter. At least 23 days must have passed from the last dose of temozolomide and first dose of rQNestin34.5v.2.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has received temozolomide as per standard care, but timing relative to last dose is unclear.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "For use of other investigational drug or other anti-tumor treatment, the following time periods must have elapsed from the projected start of scheduled study treatment: 4 weeks or 5 half-lives (whichever is shorter) from any investigational agent; 4 weeks from cytotoxic therapy (except 23 days for TMZ; 6 weeks from last dose for nitrosoureas); 12 weeks from completion of prior radiation therapy; 6 weeks from antibodies treatment; 4 weeks or 5 half-lives (whichever is shorter) from other anti-tumor therapies; 1 day from NOVO-TTF (Optune®) or prior cancer vaccine therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Insufficient information on elapsed time from other treatments to determine eligibility.",
+      "clinical_question": "Has the patient completed at least 4 weeks since the last dose of temozolomide or 5 half-lives of any investigational agent prior to the projected start of scheduled study treatment?"
+    },
+    {
+      "criterion": "The initial recurrent or residual gadolinium-enhancing lesion to be treated must be at least 1.0 cm in diameter and less than or equal to 2 cm in greatest maximal diameter, as determined by MRI. The initially treated lesion must be located in non-eloquent cortex, defined as non-dominant temporal, frontal, or occipital lobe. If located in the dominant cortex, the lesion must be in the occipital lobe. For lesions in dominant or non-dominant lobes, there should be a judgment that the subject will be able to tolerate multiple injections and biopsies, based on sufficient distance from the enhancing edge and eloquent cortex defined as speech (dominant mid-to posterior temporal lobe, parietal lobe and frontal lobe: Broca's area), memory (hippocampus and mesial dominant temporal lobe), or sensorimotor cortex. Subsequent injections (injections at day 15, 30, 60, 90, 120) will not be subject to the limitations of the initially treated lesion detailed above.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No MRI details provided to assess the size and location of the lesion.",
+      "clinical_question": "Is the recurrent or residual gadolinium-enhancing lesion in the patient at least 1.0 cm and less than or equal to 2 cm in greatest maximal diameter as determined by MRI?"
+    },
+    {
+      "criterion": "Normal hematological, renal and liver function as defined below before first injection: ANC ≥ 1000/mcL, platelets ≥100,000/mcL, PT or PTT <1.5 x institutional upper limit, Hemoglobin >9.0 g/dL, Total serum bilirubin ≤ 1.5 upper normal institutional limits, AST(SGOT)/ALT(SGPT) ≤2.5 × institutional upper limit of normal, and Serum creatinine ≤ 1.5 upper normal institutional limits OR Creatinine clearance ≥60 mL/min/1.73 m^2 for participants with creatinine levels above institutional normal.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to confirm normal hematological, renal, and liver function.",
+      "clinical_question": "Does the patient have an ANC ≥ 1000/mcL, platelets ≥ 100,000/mcL, Hemoglobin > 9.0 g/dL, and serum creatinine ≤ 1.5 upper normal institutional limits?"
+    },
+    {
+      "criterion": "Karnofsky Performance Score ≥70.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Karnofsky Performance Score of ≥70?"
+    },
+    {
+      "criterion": "Age ≥ 18 years;",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to understand and the willingness to sign a written informed consent document;",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming patient can understand and sign consent, as no information suggests otherwise.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants who exhibit any of the following conditions prior to initiating study treatment will not be eligible for this study:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific conditions listed that would disqualify the patient.",
+      "clinical_question": "Does the patient have any active infections or uncontrolled medical conditions that would contraindicate participation in the study?"
+    },
+    {
+      "criterion": "Prior systemic malignancy requiring or expected to require more than surgical therapy within the past 24 months.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior systemic malignancy or treatment within the past 24 months.",
+      "clinical_question": "Has the patient had any systemic malignancy requiring or expected to require more than surgical therapy within the past 24 months?"
+    },
+    {
+      "criterion": "Known chronic infections with HIV, hepatitis B or C; participants with a history of resolved Hepatitis A may be included in the trial.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about HIV, hepatitis B or C status; cannot determine eligibility.",
+      "clinical_question": "Does the patient have a documented history of chronic infections with HIV, hepatitis B, or hepatitis C?"
+    },
+    {
+      "criterion": "Participants with active viral, bacterial or fungal infection requiring concurrent antiviral or antibiotics.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about current infections; cannot determine eligibility.",
+      "clinical_question": "Does the patient currently have an active viral, bacterial, or fungal infection that requires the use of antiviral or antibiotic medications?"
+    },
+    {
+      "criterion": "Subjects with active HSV-1 infection on current valacyclovir, acyclovir or ganciclovir therapy must be off treatment with any of these agents at least 7 days prior to surgery.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about HSV-1 infection or treatment; cannot determine eligibility.",
+      "clinical_question": "Has the patient been off valacyclovir, acyclovir, or ganciclovir therapy for at least 7 days prior to surgery?"
+    },
+    {
+      "criterion": "Active, known, or suspected immunosuppressive disorders, such as acquired or congenital immune deficiency syndromes and autoimmune diseases.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is on high-dose steroids, which indicates an active immunosuppressive condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unacceptable anesthesia risk",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about anesthesia risk; cannot determine eligibility.",
+      "clinical_question": "Does the patient have a history of severe cardiovascular events or complications that would classify them as having an unacceptable anesthesia risk according to the American Society of Anesthesiologists (ASA) classification of ≥3?"
+    },
+    {
+      "criterion": "Pregnant or lactating females who are breastfeeding.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient is male; criterion does not apply.",
+      "clinical_question": "Is the patient currently pregnant or breastfeeding?"
+    },
+    {
+      "criterion": "Participants who are receiving other investigational agents or immunotherapeutic agents during the period of rQNestin34.5v.2 longitudinal injections.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is currently receiving Avastin, which is an investigational agent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, significant active hepatic or renal disease, an active infection requiring systemic therapy, need for continuous systemic anticoagulation that cannot be stopped or psychiatric illness/social situations that would limit compliance with study requirements.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has uncontrolled chronic pain and hypertension, which may indicate uncontrolled intercurrent illness.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women of child-bearing potential and men must agree to use adequate contraception prior to study entry and for the duration of study participation including 3 months following the study. Women of child-bearing potential must have a negative serum pregnancy test within 48 hours of study registration.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about contraception or pregnancy status; cannot determine eligibility.",
+      "clinical_question": "Has the patient agreed to use adequate contraception prior to study entry and for the duration of study participation, including 3 months following the study?"
+    },
+    {
+      "criterion": "No dexamethasone therapy for at least 14 days prior to the first rQNestin34.5v.2 inoculation. Patients who are on physiologic doses of corticosteroids for the treatment of adrenal insufficiency will be allowed to enroll.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is on high-dose steroids, which likely includes dexamethasone.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to undergo MRI scanning with contrast;",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is able to undergo MRI scanning with contrast as there are no contraindications mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have residual tumor or be at first or second relapse. Residual tumor is defined as contrast-enhancing tumor that is present after the initial surgery, radiation, and chemotherapy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has an unresectable tumor and has undergone prior treatments, indicating they have residual tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants must have recovered to grade 0 or 1 or pre-treatment baseline from clinically significant toxic effects of prior therapy.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on high-dose steroids and has ongoing chronic pain, suggesting they may not have fully recovered from prior therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants with tumor ≤ 1 cm proximity to the ventricles will be allowed to enroll. However the study agent may not be injected in any area that could lead to spillage into the ventricles regardless of where the tumor is located.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The proximity of the tumor to the ventricles is not specified, making it unclear if this criterion is met.",
+      "clinical_question": "Is the tumor located within ≤ 1 cm proximity to the ventricles as measured by imaging studies?"
+    },
+    {
+      "criterion": "Has received systemic immunosuppressive treatments, aside from systemic corticosteroids within six months of registration.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on high-dose steroids, which are considered systemic immunosuppressive treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Has received anti-VEGF or anti-VEGFR targeted agents.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received Avastin, which is an anti-VEGF agent, thus disqualifying them.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Has history of known coagulopathy that increases risk of bleeding or a history of clinically significant hemorrhage within 12 months of registration.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding a history of coagulopathy or significant hemorrhage.",
+      "clinical_question": "Has the patient experienced any clinically significant hemorrhage within the past 12 months?"
+    },
+    {
+      "criterion": "Has a known history of active TB (Bacillus Tuberculosis).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding a history of active TB.",
+      "clinical_question": "Has the patient ever been diagnosed with active tuberculosis (TB) or received treatment for TB in the past?"
+    },
+    {
+      "criterion": "Has gastrointestinal bleeding or any other hemorrhage/bleeding event CTCAE Grade > 3 within 6 months of registration.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding gastrointestinal bleeding or any other hemorrhage events.",
+      "clinical_question": "Has the patient experienced any gastrointestinal bleeding or other hemorrhage/bleeding event classified as CTCAE Grade > 3 within the last 6 months?"
+    },
+    {
+      "criterion": "Requires systemic anti-coagulation that cannot be halted for each intraoperative and peri-operative biopsy time period.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the need for systemic anti-coagulation.",
+      "clinical_question": "Is the patient currently receiving systemic anti-coagulation therapy that can be safely continued without interruption during the intraoperative and peri-operative biopsy time periods?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Participants who exhibit any of the following conditions prior to initiating stu",
+    "EXCLUSION UNCLEAR: Prior systemic malignancy requiring or expected to require more than surgical th",
+    "EXCLUSION UNCLEAR: Known chronic infections with HIV, hepatitis B or C; participants with a history",
+    "EXCLUSION UNCLEAR: Participants with active viral, bacterial or fungal infection requiring concurre",
+    "EXCLUSION UNCLEAR: Subjects with active HSV-1 infection on current valacyclovir, acyclovir or ganci",
+    "EXCLUSION VIOLATED: Active, known, or suspected immunosuppressive disorders, such as acquired or con",
+    "EXCLUSION UNCLEAR: Unacceptable anesthesia risk",
+    "EXCLUSION UNCLEAR: Pregnant or lactating females who are breastfeeding.",
+    "EXCLUSION VIOLATED: Participants who are receiving other investigational agents or immunotherapeutic",
+    "EXCLUSION VIOLATED: Uncontrolled intercurrent illness including, but not limited to, ongoing or acti",
+    "EXCLUSION UNCLEAR: Participants with tumor ≤ 1 cm proximity to the ventricles will be allowed to en",
+    "EXCLUSION VIOLATED: Has received systemic immunosuppressive treatments, aside from systemic corticos",
+    "EXCLUSION VIOLATED: Has received anti-VEGF or anti-VEGFR targeted agents.",
+    "EXCLUSION UNCLEAR: Has history of known coagulopathy that increases risk of bleeding or a history o",
+    "EXCLUSION UNCLEAR: Has a known history of active TB (Bacillus Tuberculosis).",
+    "EXCLUSION UNCLEAR: Has gastrointestinal bleeding or any other hemorrhage/bleeding event CTCAE Grade",
+    "EXCLUSION UNCLEAR: Requires systemic anti-coagulation that cannot be halted for each intraoperative"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.4375
+}

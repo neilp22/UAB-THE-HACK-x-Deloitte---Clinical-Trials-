@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT01241799",
+  "trial_title": "Yield of Endoscopic Ultrasound Guided Fine Needle Aspiration (EUS-FNA) With and Without the Use of a Stylet in the Biopsy Needle",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "Purpose:\n\nTo compare the diagnostic yield of endoscopic ultrasound guided fine needle aspiration biopsy (EUS-FNA) in patient with pancreatic masses with and without the use of a stylet in place within the biopsy needle.\n\nHypothesis:\n\nIn patients undergoing an EUS FNA for pancreatic indications, patients having a fine needle aspiration biopsy (FNA) without the internal stylet will have a greater diagnostic yield compared to those with the internal stylet.\n\nJustification:\n\nEUS-FNA is an increasing",
+  "eligibility_table": [
+    {
+      "criterion": "Patients 19 years of age and older",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient 19 years of age or older?"
+    },
+    {
+      "criterion": "Patients undergoing EUS FNA for solid lesions in the pancreas",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is undergoing EUS FNA for a solid lesion in the pancreas, which meets the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pancreatic cystic lesions without significant mass effect",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not specify the nature of the pancreatic lesion, so it is unclear if it is cystic without significant mass effect.",
+      "clinical_question": "Does the patient have pancreatic cystic lesions that do not exert significant mass effect as determined by imaging studies?"
+    },
+    {
+      "criterion": "Pancreatic masses that cannot be accessed by transduodenal FNA in surgically resectable cases",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide information on the accessibility of the pancreatic mass for transduodenal FNA.",
+      "clinical_question": "Is the pancreatic mass in this patient accessible for transduodenal fine needle aspiration based on imaging studies?"
+    },
+    {
+      "criterion": "Known chronic pancreatitis with pancreaticolithiasis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding chronic pancreatitis or pancreaticolithiasis in the patient's history.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of chronic pancreatitis with the presence of pancreaticolithiasis as evidenced by imaging studies?"
+    },
+    {
+      "criterion": "History of acute pancreatitis in the preceding 4 weeks",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has no reported history of acute pancreatitis in the last 4 weeks, but this is not explicitly stated.",
+      "clinical_question": "Has the patient experienced an episode of acute pancreatitis within the last 4 weeks?"
+    },
+    {
+      "criterion": "History of gastric surgery or symptoms of gastric outlet obstruction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not mention gastric surgery or symptoms of gastric outlet obstruction, but this is not confirmed.",
+      "clinical_question": "Has the patient undergone any gastric surgery in the past or currently exhibit symptoms of gastric outlet obstruction, such as vomiting, early satiety, or abdominal pain?"
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is female and 70 years old, but there is no information regarding pregnancy.",
+      "clinical_question": "Is the patient currently pregnant or has she been pregnant within the last 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Pancreatic cystic lesions without significant mass effect",
+    "EXCLUSION UNCLEAR: Pancreatic masses that cannot be accessed by transduodenal FNA in surgically res",
+    "EXCLUSION UNCLEAR: Known chronic pancreatitis with pancreaticolithiasis",
+    "EXCLUSION UNCLEAR: History of acute pancreatitis in the preceding 4 weeks",
+    "EXCLUSION UNCLEAR: History of gastric surgery or symptoms of gastric outlet obstruction",
+    "EXCLUSION UNCLEAR: Pregnancy"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.125
+}

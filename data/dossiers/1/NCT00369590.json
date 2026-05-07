@@ -1,0 +1,539 @@
+{
+  "nct_id": "NCT00369590",
+  "trial_title": "VEGF Trap in Treating Patients With Recurrent Malignant Gliomas That Did Not Respond to Temozolomide",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This phase II trial is studying how well VEGF Trap works in treating patients with recurrent malignant or anaplastic gliomas that did not respond to temozolomide. VEGF Trap may stop the growth of malignant or anaplastic gliomas by blocking blood flow to the tumor.",
+  "eligibility_table": [
+    {
+      "criterion": "International Normalized Ratio (INR) <= 1.5",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's International Normalized Ratio (INR) currently ≤ 1.5?"
+    },
+    {
+      "criterion": "Platelet count >= 100,000/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count ≥ 100,000/mm³?"
+    },
+    {
+      "criterion": "Hemoglobin >= 10 g/dL (transfusion allowed)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a hemoglobin level of ≥10 g/dL?"
+    },
+    {
+      "criterion": "Serum glutamic oxaloacetic transaminase (SGOT)/Serum glutamic pyruvic transaminase (SGPT) <= 2 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for SGOT/SGPT are not provided, making it unclear if they meet the criterion.",
+      "clinical_question": "Is the patient's serum glutamic oxaloacetic transaminase (SGOT) and serum glutamic pyruvic transaminase (SGPT) level ≤ 2 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication of being pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on a recent pregnancy test is provided.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "No previous Vascular endothelial growth factor (VEGF) Trap",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received a VEGF Trap previously.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 4 weeks since chemotherapy, surgery, or open biopsy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received chemotherapy (temozolomide and CPT-11) recently, likely within 4 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 2 weeks since vincristine",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the timing of vincristine administration is provided.",
+      "clinical_question": "Has the patient completed vincristine treatment at least 2 weeks prior to the initiation of VEGF Trap?"
+    },
+    {
+      "criterion": "At least 6 weeks since carmustine, lomustine, fotemustine, or radiation therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone radiation therapy, likely within 6 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 42 days since prior nitrosoureas",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the timing of prior nitrosoureas is provided.",
+      "clinical_question": "Has the patient received nitrosoureas within the last 42 days?"
+    },
+    {
+      "criterion": "At least 3 weeks since procarbazine",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the timing of procarbazine administration is provided.",
+      "clinical_question": "Has the patient completed procarbazine treatment at least 3 weeks prior to the initiation of VEGF Trap therapy?"
+    },
+    {
+      "criterion": "No previous Gliadel wafers or bevacizumab",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received bevacizumab (Avastin) as part of their treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Tumor did not respond to previous radiation therapy and temozolomide",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple treatments including radiation and temozolomide, indicating a potential lack of response.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Karnofsky performance status (KPS) 60-100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Karnofsky performance status is not provided; unable to assess.",
+      "clinical_question": "Does the patient have a Karnofsky performance status (KPS) score of 60 or higher?"
+    },
+    {
+      "criterion": "Life expectancy = > 8 weeks",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Given the patient's ongoing treatment and condition, a life expectancy of more than 8 weeks is likely.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "White blood count (WBC) = >3,000/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "White blood count is not provided; unable to assess.",
+      "clinical_question": "Is the patient's white blood cell count ≥3,000/mm³?"
+    },
+    {
+      "criterion": "Absolute neutrophil count = > 1,500/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Absolute neutrophil count is not provided; unable to assess.",
+      "clinical_question": "Is the patient's absolute neutrophil count currently greater than 1,500/mm³?"
+    },
+    {
+      "criterion": "Bilirubin <= 2 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided; unable to assess.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 2 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Creatinine <= 1.5 mg/dL OR creatinine clearance= > 60 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine levels are not provided; unable to assess.",
+      "clinical_question": "Is the patient's creatinine level ≤ 1.5 mg/dL or is their creatinine clearance > 60 mL/min?"
+    },
+    {
+      "criterion": "Creatinine clearance= > 60 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine clearance is not provided; unable to assess.",
+      "clinical_question": "What is the patient's current creatinine clearance value?"
+    },
+    {
+      "criterion": "Urine protein:creatinine ratio <= 1 OR 24-hour urine protein <= 500 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Urine protein:creatinine ratio is not provided; unable to assess.",
+      "clinical_question": "What is the patient's urine protein:creatinine ratio or 24-hour urine protein measurement?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception prior to, during, and for >= 6 months after completion of study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Fertility status and contraception use are not provided; unable to assess.",
+      "clinical_question": "Is the patient currently using an effective form of contraception and has he been using it for at least 6 months prior to the study treatment?"
+    },
+    {
+      "criterion": "No significant medical illnesses that, in the opinion of the investigator, cannot be adequately controlled with appropriate therapy or would preclude compliance with study treatment",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has hypertension, which may be considered a significant medical illness that could affect compliance with study treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No known hypersensitivity to Chinese hamster ovary cell products or other recombinant human antibodies",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of hypersensitivity to Chinese hamster ovary cell products or recombinant human antibodies in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of allergic reactions attributed to compounds of similar chemical or biological composition to other agents used in the study",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported history of allergic reactions to compounds similar to those used in the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of any other cancer (except nonmelanoma skin cancer or carcinoma in situ of the cervix), unless in complete remission and off of all therapy for that disease for >= 3 years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of anaplastic astrocytoma, which is a form of cancer, and is currently undergoing treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 7 days since prior noncytotoxic agents (e.g., interferon, tamoxifen, thalidomide, or isotretinoin [radiosensitizer does not count])",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently receiving temozolomide and has not been off therapy for 3 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 7 days since prior core biopsy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has recently undergone treatment with CPT-11 and Avastin, indicating they have not waited the required 7 days since prior noncytotoxic agents.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 28 days since prior investigational agents",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not had a core biopsy recently, but the exact timing is unclear, leading to uncertainty.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior bevacizumab or vascular endothelial growth factor receptor inhibitors",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received Avastin, which is a vascular endothelial growth factor receptor inhibitor, thus not meeting this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent full-dose anticoagulants (e.g., warfarin or low molecular-weight heparin)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on high-dose steroids, which may be considered a form of anticoagulation, thus not meeting this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No clinically significant cardiovascular disease, including any of the following:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has hypertension, which may be classified as clinically significant cardiovascular disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Cerebrovascular accident within the past 6 months",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of hypertension, which is a condition that may indicate uncontrolled hypertension, especially given the lack of recent blood pressure readings.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Uncontrolled hypertension, defined as blood pressure (BP) > 140/90 mm Hg or systolic BP > 180 mm Hg if diastolic BP < 90 mm Hg, on ≥ 2 repeated determinations on separate days within the past 3 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of hypertension, but there is no indication that it is currently uncontrolled based on the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Myocardial infarction, coronary artery bypass graft (CABG), or unstable angina pectoris within the past 6 months",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no mention of a myocardial infarction, CABG, or unstable angina in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "New York Heart Association class III-IV congestive heart failure",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's cardiac status is not detailed enough to assess for congestive heart failure.",
+      "clinical_question": "Does the patient have a documented ejection fraction of less than 40% or New York Heart Association class III-IV congestive heart failure?"
+    },
+    {
+      "criterion": "No serious cardiac arrhythmia requiring medication",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of serious cardiac arrhythmia requiring medication in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Clinically significant peripheral vascular disease within the past 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding peripheral vascular disease.",
+      "clinical_question": "Has the patient experienced any clinically significant symptoms or complications related to peripheral vascular disease, such as claudication or critical limb ischemia, within the past 6 months?"
+    },
+    {
+      "criterion": "Pulmonary embolism, deep vein thrombosis, or other thromboembolic event within the past 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not mention any thromboembolic events, but this information is not explicitly provided.",
+      "clinical_question": "Has the patient experienced any pulmonary embolism, deep vein thrombosis, or other thromboembolic event within the past 6 months?"
+    },
+    {
+      "criterion": "No evidence of bleeding diathesis or coagulopathy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no evidence of bleeding diathesis or coagulopathy mentioned in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No more than 1 prior chemotherapy regimen (initial treatment and treatment for 1 relapse)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple chemotherapy regimens, including temozolomide and CPT-11 with Avastin, which exceeds one prior regimen.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgical resection for relapsed disease with no anticancer therapy instituted for up to 12 weeks followed by another surgical resection is considered 1 relapse",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's surgical history does not provide enough detail to assess if surgical resection for relapsed disease has occurred.",
+      "clinical_question": "Has the patient undergone surgical resection for relapsed disease without any anticancer therapy for at least 12 weeks prior to the procedure?"
+    },
+    {
+      "criterion": "If prior therapy for a grade 3 glioma was given, surgical diagnosis of a high-grade glioma is considered the first relapse",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of anaplastic astrocytoma and has undergone multiple therapies, indicating that the surgical diagnosis of a high-grade glioma is considered the first relapse.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior surgical, interstitial brachytherapy, or stereotactic radiosurgery not considered prior therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not undergone surgical, interstitial brachytherapy, or stereotactic radiosurgery as prior therapy, thus meeting this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "If prior therapy included interstitial brachytherapy or stereotactic radiosurgery, must have confirmation of true progressive disease rather than radiation necrosis based upon either positron emission tomography (PET) scan, thallium scanning, Magnetic Resonance (MR) spectroscopy, or surgical documentation of disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about interstitial brachytherapy or stereotactic radiosurgery, making it unclear whether this criterion can be assessed.",
+      "clinical_question": "Has the patient undergone a PET scan, thallium scanning, MR spectroscopy, or surgical documentation to confirm true progressive disease rather than radiation necrosis?"
+    },
+    {
+      "criterion": "Must show unequivocal radiographic evidence of tumor progression by MRI",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current MRI results are not provided, so it is uncertain whether there is unequivocal radiographic evidence of tumor progression.",
+      "clinical_question": "Does the patient have unequivocal radiographic evidence of tumor progression by MRI within the last 30 days?"
+    },
+    {
+      "criterion": "Recent resection of recurrent or progressive tumor allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding any recent surgical resection of recurrent or progressive tumor, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient undergone a recent surgical resection of the recurrent or progressive tumor within the last 6 weeks?"
+    },
+    {
+      "criterion": "Residual disease not required",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any measurable residual tumor on imaging studies following the last treatment?"
+    },
+    {
+      "criterion": "Temozolomide-resistant recurrent glioblastoma is defined as tumor progression or tumor recurrence during or after treatment with temozolomide-based chemotherapy regimens",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has had multiple treatments with temozolomide and has not shown recovery from the effects of these therapies, indicating they may not be recovered from prior therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recovered from prior therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of other diseases that would obscure toxicity or alter drug metabolism, thus meeting this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other disease that would obscure toxicity or dangerously alter drug metabolism",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has chronic pain and hypertension, which could be considered uncontrolled intercurrent illnesses.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No uncontrolled intercurrent illness, including, but not limited to, any of the following:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of urinary retention and severe lower extremity weakness, which may indicate ongoing health issues that could be classified as uncontrolled intercurrent illnesses.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ongoing or active infection",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no information provided about the presence of ongoing or active infections, but given the patient's complex medical history, it is likely that this criterion is not met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Psychiatric illness or social situations that would limit compliance with study requirements",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about psychiatric illness or social situations that would limit compliance.",
+      "clinical_question": "Does the patient have any current psychiatric diagnoses or social circumstances that would likely result in non-compliance with study requirements?"
+    },
+    {
+      "criterion": "No serious or nonhealing wound, ulcer, or bone fracture",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No serious or nonhealing wounds, ulcers, or fractures mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of intracerebral or intratumoral hemorrhage",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No history of intracerebral or intratumoral hemorrhage reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within the past 28 days",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess reported in the last 28 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No significant traumatic injury within the past 28 days",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No significant traumatic injury reported in the last 28 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 28 days since prior cytotoxic therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has received cytotoxic therapy (temozolomide, CPT-11, Avastin) within the last 28 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Histologically confirmed diagnosis of 1 of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has a histologically confirmed diagnosis of anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Intracranial glioblastoma or gliosarcoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of intracranial glioblastoma or gliosarcoma based on histopathological evaluation?"
+    },
+    {
+      "criterion": "Anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic astrocytoma based on histopathological examination?"
+    },
+    {
+      "criterion": "Anaplastic oligodendroglioma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic oligodendroglioma based on histopathological examination?"
+    },
+    {
+      "criterion": "Anaplastic mixed oligoastrocytoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic mixed oligoastrocytoma based on histopathological evaluation?"
+    },
+    {
+      "criterion": "Malignant astrocytoma not otherwise specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of malignant astrocytoma not otherwise specified based on histopathological evaluation?"
+    },
+    {
+      "criterion": "NOTE: If original histology was grade 3 glioma, subsequent histological diagnosis of 1 of these diseases is allowed provided no prior diagnosis of grade 2 glioma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior diagnosis of grade 2 glioma.",
+      "clinical_question": "Has the patient ever been diagnosed with a grade 2 glioma?"
+    },
+    {
+      "criterion": "At least 20 unstained slides OR 1 tissue block available from original diagnostic biopsy/surgery or from biopsy/surgery at recurrence",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the availability of unstained slides or tissue blocks.",
+      "clinical_question": "Does the patient have at least 20 unstained slides or 1 tissue block available from the original diagnostic biopsy or from biopsy at recurrence?"
+    },
+    {
+      "criterion": "Patients presenting at the time of first recurrence or relapse, defined as progression after initial therapy (i.e., radiotherapy +/- chemotherapy if that was used as initial therapy) are eligible",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is presenting at the time of first recurrence after initial therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent investigational drugs",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on multiple medications including high-dose steroids, temozolomide, CPT-11, and Avastin, which are considered investigational drugs.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent investigational drugs",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on multiple medications including high-dose steroids, temozolomide, CPT-11, and Avastin, which are considered investigational drugs.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent cytotoxic or noncytotoxic therapy, including chemotherapy, radiotherapy, hormonal therapy, or immunotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is receiving chemotherapy (temozolomide and CPT-11) and Avastin, which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent major surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any recent major surgeries, but the patient's history does not indicate any.",
+      "clinical_question": "Has the patient undergone any major surgical procedures in the past 30 days?"
+    },
+    {
+      "criterion": "No concurrent combination antiretroviral therapy for HIV-positive patients",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to be HIV-positive, so this criterion is not applicable.",
+      "clinical_question": "Is the patient currently receiving any combination antiretroviral therapy for HIV?"
+    },
+    {
+      "criterion": "Concurrent anticonvulsant therapy allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about anticonvulsant therapy; thus, it is unclear if this criterion is met.",
+      "clinical_question": "Is the patient currently taking any anticonvulsant medications as part of their treatment regimen?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 17 of 75 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5333
+}

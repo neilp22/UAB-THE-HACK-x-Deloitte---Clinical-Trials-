@@ -1,0 +1,265 @@
+{
+  "nct_id": "NCT01202721",
+  "trial_title": "Beta Blockers and Angiotensin Receptor Blockers in Bicuspid Aortic Valve Disease Aortopathy (BAV Study)",
+  "phase": "PHASE3",
+  "status": "TERMINATED",
+  "brief_summary": "The purpose of this study is to determine whether long-term treatment with a beta-blocker (BB) such as atenolol and/or an angiotensin receptor blocker (ARB) such as telmisartan, given to adult patients with bicuspid aortic valve (BAV) disease (aortopathy) reduces the widening (dilatation) of the aorta from its baseline size.",
+  "eligibility_table": [
+    {
+      "criterion": "Age >= 18 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient aged 18 years or older?"
+    },
+    {
+      "criterion": "Men and women with BAV and ascending aorta measuring > 37mm.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a bicuspid aortic valve (BAV) and the profile suggests a dilated ascending aorta, likely > 37mm.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Written informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient is capable of providing written informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "General Study",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient meets general study criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of cardiac diseases, such as",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe aortic stenosis and worsening LV function, which is a history of cardiac disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Symptomatic aortic stenosis or aortic regurgitation referred for surgical intervention or asymptomatic severe aortic stenosis or regurgitation based on current guidelines",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has symptomatic severe aortic stenosis, which is a contraindication for inclusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Uncontrolled heart failure, right ventricular failure due to pulmonary hypertension",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient exhibits uncontrolled heart failure with an EF of 25% and severe global hypokinesis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Cardiogenic shock",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not in cardiogenic shock, but the severity of heart failure raises concerns.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Systolic blood pressure < 100 mmHg",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current systolic blood pressure measured at less than 100 mmHg?"
+    },
+    {
+      "criterion": "History of drug sensitivity, contraindication or adverse reaction to both BB and ARB. Participants who are able to tolerate only a BB will be allocated to the BB vs. placebo arm, and participants who are able to tolerate only an ARB will be allocated to the ARB vs. placebo arm, assuming no other exclusion criteria are met.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific history of drug sensitivity or adverse reactions to BB or ARB is provided.",
+      "clinical_question": "Does the patient have a documented history of drug sensitivity, contraindication, or adverse reaction to both beta blockers and angiotensin receptor blockers?"
+    },
+    {
+      "criterion": "Ascending aorta measuring >= 50mm, requiring prophylactic ascending aorta surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's ascending aorta currently measuring ≥ 50mm on the latest imaging study?"
+    },
+    {
+      "criterion": "Unable to provide informed consent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The ability to provide informed consent is assumed but not explicitly stated.",
+      "clinical_question": "Does the patient have a documented cognitive impairment or psychiatric condition that would prevent them from understanding the informed consent process?"
+    },
+    {
+      "criterion": "Need for both BB and ARB for treatment of concomitant medical conditions for which there are no other alternatives. Participants who are taking an ARB which cannot be discontinued will be allocated to the BB arm, and participants who are taking a BB which cannot be discontinued will be allocated to the ARB arm, if no other exclusion criteria are met.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on BB and may require both BB and ARB for treatment of their conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior surgery on ascending aorta or aortic root (balloon valvuloplasty, aortic valvotomy or post coarctation surgery are acceptable)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior surgery on ascending aorta or aortic root.",
+      "clinical_question": "Has the patient undergone any prior surgical procedures on the ascending aorta or aortic root, such as balloon valvuloplasty, aortic valvotomy, or post coarctation surgery?"
+    },
+    {
+      "criterion": "Women who are pregnant at screening visit",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient is male, so pregnancy is not applicable.",
+      "clinical_question": "Is the patient currently pregnant as determined by a positive pregnancy test at the screening visit?"
+    },
+    {
+      "criterion": "Contraindication to MRI (claustrophobia, pacemaker, metallic clip in eye or brain)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding contraindications to MRI.",
+      "clinical_question": "Does the patient have a documented history of claustrophobia or any implanted devices such as a pacemaker or metallic clip in the eye or brain that would contraindicate an MRI?"
+    },
+    {
+      "criterion": "History of any illness which limits the participants' ability to complete the study",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has severe LV dysfunction (EF 25%) which may limit ability to complete the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Additional Exclusion Criteria for BB arm only",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific additional exclusion criteria for BB arm provided.",
+      "clinical_question": "Does the patient have a history of significant bradycardia (heart rate <50 bpm) or symptomatic hypotension while on beta-blocker therapy?"
+    },
+    {
+      "criterion": "Heart rate <60 bpm",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's resting heart rate currently less than 60 bpm?"
+    },
+    {
+      "criterion": "Heart block (1st, 2nd and 3rd degree AV block on ECG), or sick sinus syndrome",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No ECG results provided to assess for heart block or sick sinus syndrome.",
+      "clinical_question": "Does the patient have a documented ECG showing 1st, 2nd, or 3rd degree AV block or evidence of sick sinus syndrome?"
+    },
+    {
+      "criterion": "Asthma of sufficient severity to represent a contraindication to BB use in the judgment of the patient's physician",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding asthma severity.",
+      "clinical_question": "Does the patient have a documented history of asthma with a severity that requires the discontinuation of beta-blocker therapy as determined by the physician?"
+    },
+    {
+      "criterion": "History of severe peripheral artery disorders",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding history of severe peripheral artery disorders.",
+      "clinical_question": "Does the patient have a documented history of severe peripheral artery disorders, defined as ≥50% stenosis in any major peripheral artery?"
+    },
+    {
+      "criterion": "History of pheochromocytoma without the use of alpha-adrenergic blockers",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding history of pheochromocytoma.",
+      "clinical_question": "Has the patient ever been diagnosed with pheochromocytoma and not received any alpha-adrenergic blockers?"
+    },
+    {
+      "criterion": "History of metabolic acidosis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding history of metabolic acidosis.",
+      "clinical_question": "Does the patient have a documented history of serum bicarbonate levels < 22 mEq/L indicating metabolic acidosis?"
+    },
+    {
+      "criterion": "Additional Exclusion Criteria for ARB arm only",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not specify if they are part of the ARB arm, so it is unclear if this exclusion applies.",
+      "clinical_question": "Does the patient have a history of angioedema or severe allergic reactions to angiotensin receptor blockers?"
+    },
+    {
+      "criterion": "Women who are pregnant, lactating or who intend to become pregnant during the course of the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion does not apply.",
+      "clinical_question": "Is the patient currently pregnant, lactating, or intending to become pregnant during the course of the study?"
+    },
+    {
+      "criterion": "Women who are of childbearing age and are not on reliable, accepted form of birth control",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion does not apply.",
+      "clinical_question": "Is the patient currently using a reliable, accepted form of birth control?"
+    },
+    {
+      "criterion": "Hyperkalemia [serum potassium > 5.5 mmol/L] or renal dysfunction [GFR<45% measured by MDRD)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess potassium levels or renal function (GFR).",
+      "clinical_question": "Is the patient's serum potassium level greater than 5.5 mmol/L or is the estimated GFR less than 45% as measured by the MDRD equation?"
+    },
+    {
+      "criterion": "Patients being treated with an ACE Inhibitor that cannot be discontinued. (These patients may be randomized in the BB arm if no exclusion criteria are met.)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on ACE Inhibitor use is provided, so it cannot be determined.",
+      "clinical_question": "Is the patient currently taking an ACE Inhibitor at the time of enrollment in the study?"
+    },
+    {
+      "criterion": "History of bilateral renal artery stenosis or unilateral renal artery stenosis to a solitary kidney",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of renal artery stenosis is mentioned, but it is not explicitly stated.",
+      "clinical_question": "Does the patient have a documented history of bilateral renal artery stenosis with ≥50% stenosis or unilateral renal artery stenosis to a solitary kidney?"
+    },
+    {
+      "criterion": "History of hepatic insufficiency and hepato-biliary obstruction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of hepatic insufficiency or hepato-biliary obstruction is mentioned.",
+      "clinical_question": "Does the patient have a documented history of hepatic insufficiency defined as a Child-Pugh score of ≥7 or evidence of hepato-biliary obstruction?"
+    },
+    {
+      "criterion": "History of fructose intolerance",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of fructose intolerance is mentioned.",
+      "clinical_question": "Does the patient have a documented history of fructose intolerance confirmed by a medical professional?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: History of cardiac diseases, such as",
+    "EXCLUSION VIOLATED: Symptomatic aortic stenosis or aortic regurgitation referred for surgical interv",
+    "EXCLUSION VIOLATED: Uncontrolled heart failure, right ventricular failure due to pulmonary hypertens",
+    "EXCLUSION VIOLATED: Cardiogenic shock",
+    "EXCLUSION UNCLEAR: Systolic blood pressure < 100 mmHg",
+    "EXCLUSION UNCLEAR: History of drug sensitivity, contraindication or adverse reaction to both BB and",
+    "EXCLUSION UNCLEAR: Ascending aorta measuring >= 50mm, requiring prophylactic ascending aorta surger",
+    "EXCLUSION UNCLEAR: Unable to provide informed consent",
+    "EXCLUSION VIOLATED: Need for both BB and ARB for treatment of concomitant medical conditions for whi",
+    "EXCLUSION UNCLEAR: Prior surgery on ascending aorta or aortic root (balloon valvuloplasty, aortic v",
+    "EXCLUSION UNCLEAR: Women who are pregnant at screening visit",
+    "EXCLUSION UNCLEAR: Contraindication to MRI (claustrophobia, pacemaker, metallic clip in eye or brai",
+    "EXCLUSION VIOLATED: History of any illness which limits the participants' ability to complete the st",
+    "EXCLUSION UNCLEAR: Additional Exclusion Criteria for BB arm only",
+    "EXCLUSION UNCLEAR: Heart rate <60 bpm",
+    "EXCLUSION UNCLEAR: Heart block (1st, 2nd and 3rd degree AV block on ECG), or sick sinus syndrome",
+    "EXCLUSION UNCLEAR: Asthma of sufficient severity to represent a contraindication to BB use in the j",
+    "EXCLUSION UNCLEAR: History of severe peripheral artery disorders",
+    "EXCLUSION UNCLEAR: History of pheochromocytoma without the use of alpha-adrenergic blockers",
+    "EXCLUSION UNCLEAR: History of metabolic acidosis",
+    "EXCLUSION UNCLEAR: Additional Exclusion Criteria for ARB arm only",
+    "EXCLUSION UNCLEAR: Women who are pregnant, lactating or who intend to become pregnant during the co",
+    "EXCLUSION UNCLEAR: Women who are of childbearing age and are not on reliable, accepted form of birt",
+    "EXCLUSION UNCLEAR: Hyperkalemia [serum potassium > 5.5 mmol/L] or renal dysfunction [GFR<45% measur",
+    "EXCLUSION UNCLEAR: Patients being treated with an ACE Inhibitor that cannot be discontinued. (These",
+    "EXCLUSION UNCLEAR: History of bilateral renal artery stenosis or unilateral renal artery stenosis t",
+    "EXCLUSION UNCLEAR: History of hepatic insufficiency and hepato-biliary obstruction",
+    "EXCLUSION UNCLEAR: History of fructose intolerance"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.2812
+}

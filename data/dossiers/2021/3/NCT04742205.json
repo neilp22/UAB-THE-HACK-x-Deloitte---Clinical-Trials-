@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT04742205",
+  "trial_title": "ITCH Trial: Protocol for a Randomized, Double Blind Placebo-controlled Trial",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Intracerebral hemorrhage is increasingly becoming a major burden in the society because of significant morbidity as well as mortality. Hematoma volume at the time of presentation as well as hematoma expansion and re-bleed or ongoing bleed further deteriorates the patient making a poor prognosis, however at present no therapy targets this pathological process. Though clinical studies do report benefit of using tranexamic acid in spontaneous intracerebral hemorrhage by reducing hematoma expansion ",
+  "eligibility_table": [
+    {
+      "criterion": "All patients presenting to the emergency department with symptom of hemorrhagic stroke within 24 hours from onset of symptom or last seen well.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is presenting with spontaneous intraventricular hemorrhage, which is a type of hemorrhagic stroke, and the profile indicates this occurred after a head injury, likely within 24 hours.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient who had a follow up",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether the patient had a follow-up after the initial presentation.",
+      "clinical_question": "Has the patient had a follow-up appointment within the last 30 days?"
+    },
+    {
+      "criterion": "Glasgow coma scale <8 after resuscitation (as this can lead to biasness; requires surgery)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Glasgow Coma Scale score of <8 after resuscitation?"
+    },
+    {
+      "criterion": "Contraindication to tranexamic acid",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific information regarding any contraindications to tranexamic acid in the patient's profile.",
+      "clinical_question": "Does the patient have a history of thromboembolic events or active thromboembolic disease that would contraindicate the use of tranexamic acid?"
+    },
+    {
+      "criterion": "Hemorrhagic stroke secondary to trauma",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's hemorrhagic stroke is secondary to a head injury, which qualifies as trauma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hemorrhage was caused by coagulopathy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any coagulopathy that could have caused the hemorrhage.",
+      "clinical_question": "Does the patient have an international normalized ratio (INR) ≥1.5 or a platelet count <50,000/µL indicating coagulopathy?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Glasgow coma scale <8 after resuscitation (as this can lead to biasness; require",
+    "EXCLUSION UNCLEAR: Contraindication to tranexamic acid",
+    "EXCLUSION UNCLEAR: Hemorrhage was caused by coagulopathy"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

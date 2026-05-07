@@ -1,0 +1,127 @@
+{
+  "nct_id": "NCT03332745",
+  "trial_title": "Mechanism of Decompensation Evaluation - Aortic Stenosis",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Aortic stenosis is the most common heart valve disease requiring intervention in high income countries. It is characterised by progressive valvular thickening, and restriction as well is hypertrophy and fibrosis of the left ventricle in response to pressure overload. The pathological processes in the left ventricle that ultimately result in heart failure and death are incompletely understood. Further elucidation of these processes and how they correlate with novel blood biomarkers may help us de",
+  "eligibility_table": [
+    {
+      "criterion": "Age over 18",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient's age over 18 years?"
+    },
+    {
+      "criterion": "Severe aortic stenosis with planned aortic valve replacement",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and is planned for aortic valve replacement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age over 18",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient's age over 18 years?"
+    },
+    {
+      "criterion": "Planned non-aortic valve cardiac or elective ascending aorta surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of planned non-aortic valve cardiac or elective ascending aorta surgery in the provided profile.",
+      "clinical_question": "Has the patient been evaluated for the need for aortic valve replacement surgery based on their current left ventricular ejection fraction (EF) of 25%?"
+    },
+    {
+      "criterion": "Coexistent severe aortic or mitral regurgitation",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has 2+ aortic insufficiency, which qualifies as coexistent severe aortic regurgitation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Coexistent mitral stenosis greater than mild in severity",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of mitral stenosis in the patient's profile.",
+      "clinical_question": "Does the patient have a mitral valve area of less than 1.5 cm² indicating moderate to severe mitral stenosis?"
+    },
+    {
+      "criterion": "Acute valvular heart disease (e.g. acute mitral regurgitation or endocarditis)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no evidence of acute valvular heart disease such as acute mitral regurgitation or endocarditis.",
+      "clinical_question": "Has the patient experienced any new or worsening symptoms of acute valvular heart disease, such as sudden onset of dyspnea or chest pain, within the last 30 days?"
+    },
+    {
+      "criterion": "Acute pulmonary oedema or cardiogenic shock",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of acute pulmonary edema or cardiogenic shock in the patient's profile.",
+      "clinical_question": "Has the patient experienced acute pulmonary oedema or cardiogenic shock as defined by the need for inotropic support or mechanical ventilation within the last 24 hours?"
+    },
+    {
+      "criterion": "Coexistent hypertrophic cardiomyopathy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of hypertrophic cardiomyopathy in the patient's history.",
+      "clinical_question": "Does the patient have a documented left ventricular wall thickness ≥15 mm consistent with hypertrophic cardiomyopathy?"
+    },
+    {
+      "criterion": "Unable to give informed consent",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is a male and there is no indication that he is unable to give informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Significant aortic valve disease (mild aortic stenosis / regurgitation or greater)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis, which is significant aortic valve disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Acute valvular heart disease (e.g. acute mitral regurgitation or endocarditis)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no evidence of acute valvular heart disease such as acute mitral regurgitation or endocarditis.",
+      "clinical_question": "Has the patient experienced any new or worsening symptoms of acute valvular heart disease, such as sudden onset of dyspnea or chest pain, within the last 30 days?"
+    },
+    {
+      "criterion": "Acute pulmonary oedema or cardiogenic shock",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has severe aortic stenosis and worsening LV function, which could potentially lead to acute pulmonary edema or cardiogenic shock, but there is no current indication of these conditions.",
+      "clinical_question": "Has the patient experienced acute pulmonary oedema or cardiogenic shock as defined by the need for inotropic support or mechanical ventilation within the last 24 hours?"
+    },
+    {
+      "criterion": "Coexistent hypertrophic cardiomyopathy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not explicitly mention hypertrophic cardiomyopathy, but the presence of severe aortic stenosis and left ventricular hypertrophy raises some concern; however, it cannot be definitively ruled out.",
+      "clinical_question": "Does the patient have a documented left ventricular wall thickness ≥15 mm consistent with hypertrophic cardiomyopathy?"
+    },
+    {
+      "criterion": "Unable to give informed consent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's ability to give informed consent, so it cannot be determined.",
+      "clinical_question": "Is the patient currently experiencing cognitive impairment that affects their ability to understand the risks and benefits of participating in the study, as assessed by a standardized cognitive evaluation tool?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Coexistent mitral stenosis greater than mild in severity",
+    "EXCLUSION UNCLEAR: Acute valvular heart disease (e.g. acute mitral regurgitation or endocarditis)",
+    "EXCLUSION UNCLEAR: Acute pulmonary oedema or cardiogenic shock",
+    "EXCLUSION UNCLEAR: Coexistent hypertrophic cardiomyopathy",
+    "EXCLUSION UNCLEAR: Acute valvular heart disease (e.g. acute mitral regurgitation or endocarditis)",
+    "EXCLUSION UNCLEAR: Acute pulmonary oedema or cardiogenic shock",
+    "EXCLUSION UNCLEAR: Coexistent hypertrophic cardiomyopathy",
+    "EXCLUSION UNCLEAR: Unable to give informed consent",
+    "LOW INCLUSION MATCH: only 1 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2667
+}

@@ -1,0 +1,198 @@
+{
+  "nct_id": "NCT05399641",
+  "trial_title": "Ibrexafungerp for the Treatment of Complicated Vulvovaginal Candidiasis",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "This study will treat subjects with complicated VVC who have failed prior fluconazole therapy with Ibrexafungerp for 1, 3 or 7 days of treatment.",
+  "eligibility_table": [
+    {
+      "criterion": "Subject is a post menarchal female ≥18 years of age at the time of signing the ICF.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has a diagnosis of symptomatic VVC that meets the following criteria at the Screening visit:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a diagnosis of symptomatic VVC, as there is no mention of vulvovaginal candidiasis in the profile.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of symptomatic vulvovaginal candidiasis based on clinical evaluation and laboratory testing?"
+    },
+    {
+      "criterion": "Minimum composite vulvovaginal signs and symptoms score of ≥4 with at least 2 signs or symptoms having a score of 2 (moderate) or greater on the VSS scale at baseline.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the vulvovaginal signs and symptoms score, making it impossible to assess this criterion.",
+      "clinical_question": "Does the patient have a minimum composite vulvovaginal signs and symptoms score of ≥4 with at least 2 signs or symptoms rated as 2 (moderate) or greater on the VSS scale at baseline?"
+    },
+    {
+      "criterion": "Positive microscopic examination with 10% KOH in a vaginal sample collected at Screening revealing yeast forms (hyphae/pseudohyphae) or budding yeasts.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No vaginal sample examination results are provided, so it cannot be determined if yeast forms were found.",
+      "clinical_question": "Has a vaginal sample been collected from the patient and examined microscopically with 10% KOH, revealing yeast forms (hyphae/pseudohyphae) or budding yeasts?"
+    },
+    {
+      "criterion": "Normal vaginal pH (≤ 4.5).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's vaginal pH ≤ 4.5?"
+    },
+    {
+      "criterion": "Has no other vaginal co-infections based on wet mount microscopic examination (and/or DNA probe).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding other vaginal co-infections based on wet mount microscopic examination.",
+      "clinical_question": "Has the patient undergone a wet mount microscopic examination and/or DNA probe testing that confirms the absence of any vaginal co-infections?"
+    },
+    {
+      "criterion": "Subject should also have: A VVC with persistent symptoms despite fluconazole therapy (last dose of fluconazole must have been administered at least 7 days prior, but no longer than 28 days prior to screening. OR A recurrent vulvovaginal candidiasis (RVVC) episode with breakthrough symptoms while receiving maintenance antifungal therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not been treated with fluconazole or reported recurrent vulvovaginal candidiasis, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient experienced persistent vulvovaginal candidiasis symptoms despite receiving fluconazole therapy within the last 7 to 28 days?"
+    },
+    {
+      "criterion": "Subject has any vaginal condition other than VVC that may interfere with the diagnosis or evaluation of response to therapy, such as concurrent causes of vulvovaginitis and/or cervicitis including bacterial vaginosis, Trichomonas, Herpes virus, Neisseria gonorrhoeae, Chlamydia, symptomatic human papillomavirus infection, or other mixed infections.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of vaginal spotting and other conditions, but no specific mention of other vaginal conditions that would interfere with diagnosis.",
+      "clinical_question": "Does the patient have any current vaginal infections or conditions, such as bacterial vaginosis, Trichomonas, or cervicitis, that could interfere with the diagnosis of vulvovaginal candidiasis?"
+    },
+    {
+      "criterion": "Subject received systemic and/or topical vaginal antifungal treatment, including prescription or over-the-counter products, within 7 days prior to the Screening visit.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating the patient has received any antifungal treatment within the last 7 days.",
+      "clinical_question": "Has the patient received any systemic or topical vaginal antifungal treatment within the 7 days prior to the Screening visit?"
+    },
+    {
+      "criterion": "Subject is receiving or anticipates requiring treatment with the prohibited medications within the specified timeframes per Appendix I.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about the patient's current medications or anticipated treatments that would be prohibited.",
+      "clinical_question": "Is the patient currently receiving or planning to receive any medications listed in Appendix I within the specified timeframes?"
+    },
+    {
+      "criterion": "Subject has active menstruation at the Screening visit.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not had a menstrual period for 10 weeks, indicating she is not actively menstruating.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has a history of or an active cervical/vaginal cancer.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a history of cervical or vaginal cancer in the patient's profile.",
+      "clinical_question": "Does the patient have a current diagnosis of cervical or vaginal cancer confirmed by histopathological examination?"
+    },
+    {
+      "criterion": "Subject has a known hypersensitivity to any of the components of the formulation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about hypersensitivity to components of the formulation.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to any of the components of the ibrexafungerp formulation?"
+    },
+    {
+      "criterion": "Subject has participated in any other investigational study within at least 30 days (or 5.5 half-lives of the investigational product) before signing the ICF.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about participation in other investigational studies.",
+      "clinical_question": "Has the patient participated in any other investigational study within the last 30 days before signing the informed consent form?"
+    },
+    {
+      "criterion": "Subject has received prior treatment with ibrexafungerp.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior treatment with ibrexafungerp.",
+      "clinical_question": "Has the patient received any prior treatment with ibrexafungerp?"
+    },
+    {
+      "criterion": "Subject has any other condition or laboratory abnormality (such as severe hepatic impairment) that, in the judgment of the investigator, would put the subject at unacceptable risk for participation in the study or may interfere with the assessments included in the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific conditions or laboratory abnormalities mentioned that would put the subject at risk.",
+      "clinical_question": "Does the patient have a serum β-hCG level greater than 5000 mIU/mL indicating a potential ectopic pregnancy or other complications?"
+    },
+    {
+      "criterion": "A VVC episode caused by a non-albicans candida species known to have either intrinsic resistance to fluconazole e.g. C.krusei or suspected resistance to fluconazole, e.g. C.glabrata, C. auris but likely without MIC data in hand.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of a VVC episode caused by non-albicans candida species with resistance to fluconazole.",
+      "clinical_question": "Is the patient's vulvovaginal candidiasis episode caused by a non-albicans Candida species known to have either intrinsic resistance to fluconazole, such as C. krusei, or suspected resistance to fluconazole, such as C. glabrata or C. auris, based on culture results?"
+    },
+    {
+      "criterion": "A VVC episode caused by Candida species with documented resistance to fluconazole based on MIC determination.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of a VVC episode caused by Candida species with documented resistance to fluconazole.",
+      "clinical_question": "What is the minimum inhibitory concentration (MIC) of fluconazole for the Candida species identified in this patient's vulvovaginal candidiasis episode?"
+    },
+    {
+      "criterion": "A known history of azole allergy or intolerance.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No known history of azole allergy or intolerance provided.",
+      "clinical_question": "Does the patient have a documented history of allergic reactions or intolerance to any azole antifungal medications?"
+    },
+    {
+      "criterion": "Subject is able to take oral tablets.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Can the patient swallow oral tablets without difficulty?"
+    },
+    {
+      "criterion": "Subject is not pregnant or lactating and plans not to become pregnant. Women of childbearing potential < 1 year post-menopausal must agree to and comply with using one barrier method (male condom, female condom, and diaphragm) plus one other highly effective method of birth control, or sexual abstinence, from the time of consent through 10 days after the completion of study therapy. Subjects must refrain from using any topical vaginal contraceptives as these may have an impact on the signs and symptoms of VVC. Note: Women of childbearing potential must have a negative urine pregnancy test prior to enrollment (performed by the site's local laboratory).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Subject is likely pregnant or at risk of pregnancy given the β-hCG levels and lack of a negative pregnancy test.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject is able to understand and sign a written ICF, which must be obtained prior to treatment and any study-related procedures.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the subject can understand and sign the ICF based on age and profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject is able to understand and sign a consent or authorization form, which shall permit the use, disclosure and transfer of the subject's personal health information (e.g., in the US Health Information Portability and Accountability Act Authorization form).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the subject can understand and sign the consent for health information disclosure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject is able to understand and follow all study-related procedures including study drug administration.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to understand and follow study-related procedures is not explicitly stated in the profile, making it uncertain.",
+      "clinical_question": "Can the patient accurately describe the study drug administration process and demonstrate understanding of the study-related procedures?"
+    },
+    {
+      "criterion": "Subject is unlikely to comply with protocol requirements.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of inconsistent use of barrier contraceptives raises concerns about compliance, but it is not definitive.",
+      "clinical_question": "Has the patient demonstrated a history of non-compliance with medical advice or treatment protocols in the past 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Subject has any vaginal condition other than VVC that may interfere with the dia",
+    "EXCLUSION UNCLEAR: Subject received systemic and/or topical vaginal antifungal treatment, including",
+    "EXCLUSION UNCLEAR: Subject is receiving or anticipates requiring treatment with the prohibited medi",
+    "EXCLUSION UNCLEAR: Subject has a history of or an active cervical/vaginal cancer.",
+    "EXCLUSION UNCLEAR: Subject has a known hypersensitivity to any of the components of the formulation",
+    "EXCLUSION UNCLEAR: Subject has participated in any other investigational study within at least 30 d",
+    "EXCLUSION UNCLEAR: Subject has received prior treatment with ibrexafungerp.",
+    "EXCLUSION UNCLEAR: Subject has any other condition or laboratory abnormality (such as severe hepati",
+    "EXCLUSION UNCLEAR: Subject is unlikely to comply with protocol requirements.",
+    "LOW INCLUSION MATCH: only 3 of 15 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2
+}

@@ -1,0 +1,546 @@
+{
+  "nct_id": "NCT00005985",
+  "trial_title": "Filgrastim and Chemotherapy Followed by Peripheral Stem Cell Transplant in Treating Patients With Hodgkin's Lymphoma or Non-Hodgkin's Lymphoma",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop cancer cells from dividing so they stop growing or die. Combining chemotherapy with peripheral stem cell transplant may allow the doctor to give higher doses of chemotherapy drugs and kill more cancer cells. Colony-stimulating factors such as filgrastim may increase the number of immune cells found in bone marrow or peripheral blood and may help a person's immune system recover from the side effects of chemotherapy.\n\nPURPOSE: This ",
+  "eligibility_table": [
+    {
+      "criterion": "One of the following histologically confirmed diagnoses",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL with large cell transformation and Richter's transformation, which does not fit the criteria for a histologically confirmed diagnosis listed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High grade non-Hodgkin's lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL with large cell transformation, which is not classified as high grade non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Immunoblastic or small noncleaved cell lymphoma (Burkitt's or non-Burkitt's) in complete or partial remission after initial therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have immunoblastic or small noncleaved cell lymphoma (Burkitt's or non-Burkitt's) as per the provided profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Localized (stage I or Zeigler stage A) small noncleaved (Burkitt's or non-Burkitt's) after relapse or incomplete response to initial therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have localized small noncleaved lymphoma; the profile indicates CLL with large cell transformation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lymphoblastic lymphoma in second or greater complete or partial response",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have lymphoblastic lymphoma; the diagnosis is CLL with large cell transformation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High risk lymphoblastic lymphoma in first complete remission or after initial therapy (high risk factors include stage IV disease, LDH greater than 2 times normal, and 2 or more extranodal sites)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have high risk lymphoblastic lymphoma; the profile indicates CLL with large cell transformation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Intermediate grade non-Hodgkin's lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL, which is not classified as intermediate grade non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse large cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have diffuse large cell lymphoma; the diagnosis is CLL with large cell transformation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse mixed cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have diffuse mixed cell lymphoma; the diagnosis is CLL with large cell transformation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse small cleaved cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of diffuse small cleaved cell lymphoma based on histopathological examination?"
+    },
+    {
+      "criterion": "Follicular large cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with follicular large cell lymphoma as per the latest biopsy results?"
+    },
+    {
+      "criterion": "In second or greater complete or partial remission",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not in second or greater complete or partial remission; the profile indicates ongoing treatment and transformation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High risk in first complete remission or after initial therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has CLL with Richter's transformation, indicating high risk but not in first complete remission.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High risk features include:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "High risk features are not clearly defined in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No complete response after 12 weeks of initial combination chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has undergone multiple therapies without achieving complete response.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Bulky disease (greater than 10 cm nodal masses or mediastinal disease involving greater than 1/3 of the chest diameter)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has bulky lymphadenopathy, indicating disease greater than 10 cm.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Malignant pleural effusion",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a malignant pleural effusion confirmed by cytological analysis?"
+    },
+    {
+      "criterion": "Liver involvement",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any evidence of liver involvement as indicated by imaging studies or liver function tests?"
+    },
+    {
+      "criterion": "LDH greater than 2 times upper limit of normal at diagnosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Elevated LDH suggests it is greater than 2 times the upper limit of normal.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 2 extranodal sites",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No evidence of at least 2 extranodal sites in the provided history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Low grade non-Hodgkin's lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has CLL, which is not classified as low grade non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Follicular small cleaved cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient does not have follicular small cleaved cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Follicular mixed cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient does not have follicular mixed cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse small lymphocytic lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient does not have diffuse small lymphocytic lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "In first or greater complete response",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple treatments but has not achieved a complete response.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Following initial treatment if complete response is not achieved",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not achieved a complete response after initial treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "In second or greater complete or partial response if treated at diagnosis without clinical symptoms necessitating treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a complex history with Richter's transformation, making it unclear if they meet this criterion.",
+      "clinical_question": "Has the patient achieved a second or greater complete or partial response as defined by the criteria of the International Working Group for lymphoma after the most recent treatment?"
+    },
+    {
+      "criterion": "T-cell lymphoma (nonlymphoblastic, intermediate, or high grade lymphomas) after initial therapy whether or not complete response is achieved",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL and large cell transformation, not T-cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hodgkin's lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stage I and II disease treated with primary radiotherapy and failure of at least one combination chemotherapy regimen",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's stage and treatment history do not clearly fit this criterion.",
+      "clinical_question": "Has the patient received at least one combination chemotherapy regimen prior to the current treatment?"
+    },
+    {
+      "criterion": "Stage III and IV disease with failure on mechlorethamine, vincristine, procarbazine, and prednisone (MOPP)-like regimen, alternative noncross resistant regimen (e.g., doxorubicin, bleomycin, vinblastine, and dacarbazine [ABVD]), or a combination (e.g., MOPP-ABV)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's treatment history does not clearly indicate failure on the specified regimens.",
+      "clinical_question": "Has the patient failed to respond to a MOPP-like regimen or an alternative noncross resistant regimen such as ABVD or a combination like MOPP-ABV?"
+    },
+    {
+      "criterion": "High risk features allowed including:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has high-risk features due to their complex condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Failure to achieve initial complete remission with MOPP and/or ABVD and crossover or hybrid therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not achieved initial complete remission with MOPP or ABVD.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Relapse within 6 months after initial therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's relapse timing is unclear based on the provided treatment history.",
+      "clinical_question": "Has the patient experienced a relapse of CLL or large cell transformation within 6 months after completing the last line of therapy?"
+    },
+    {
+      "criterion": "Relapse after initial radiotherapy with complete response longer than 1 year since initial therapy and subsequent failure on MOPP and/or ABVD or hybrid",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has CLL with Richter's transformation, but the specific criteria regarding initial radiotherapy and subsequent treatments do not apply.",
+      "clinical_question": "Has the patient experienced a complete response to initial radiotherapy for at least 1 year before the relapse?"
+    },
+    {
+      "criterion": "Bulky mediastinal disease after initial therapy and residual mass of at least 5 cm with other features of persisting disease (e.g., Gallium scan positive, high LDH, enlarging on serial x-rays, or positive biopsy)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has bulky lymphadenopathy, but the specific criteria regarding mediastinal disease and residual mass are not applicable.",
+      "clinical_question": "Does the patient have a residual mass of at least 5 cm with a positive Gallium scan or elevated LDH?"
+    },
+    {
+      "criterion": "No HIV or HTLV-1 associated lymphomas",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have HIV or HTLV-1 associated lymphomas.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No resistant or refractory lymphoma (no partial response following up to 3 courses of combination chemotherapy)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple treatments and has a history of large cell transformation, indicating refractory disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No active ischemic or degenerative CNS disease",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of active ischemic or degenerative CNS disease in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "70 and under",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 <= 70.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age 65-70 years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 57 years old, which does not meet the age criterion of 65-70 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Karnofsky 80-100%",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has an excellent performance status, which likely corresponds to a Karnofsky score of 80-100%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Under 65 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 < 65.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ECOG 0-1 (2 allowed if symptoms are directly related to lymphoma)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status of 0 or 1?"
+    },
+    {
+      "criterion": "Greater than 8 weeks",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced a treatment-free interval of greater than 8 weeks since the last chemotherapy regimen?"
+    },
+    {
+      "criterion": "Age 65-70 years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 57.0 >= 65.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age 65-70 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 <= 70.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Creatinine clearance greater than 60 mL/min (if creatinine at least 1.5 mg/dL)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There are no lab values provided to assess creatinine clearance, making it uncertain.",
+      "clinical_question": "Is the patient's creatinine clearance greater than 60 mL/min based on the most recent lab results?"
+    },
+    {
+      "criterion": "Creatinine no greater than 1.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level currently ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine clearance greater than 50 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's creatinine clearance currently greater than 50 mL/min?"
+    },
+    {
+      "criterion": "LVEF at least 45% by MUGA",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient undergone a MUGA scan that shows a left ventricular ejection fraction (LVEF) of at least 45%?"
+    },
+    {
+      "criterion": "No symptoms of cardiac disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There are no reported symptoms of cardiac disease in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No active ischemic heart disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of active ischemic heart disease in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No uncontrolled hypertension",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's blood pressure is not provided, so uncontrolled hypertension status is unknown.",
+      "clinical_question": "Is the patient's systolic blood pressure consistently below 140 mmHg and diastolic blood pressure consistently below 90 mmHg?"
+    },
+    {
+      "criterion": "Age 65-70 years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is 57 years old, which does not meet the age criterion of 65-70 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "If history of smoking or respiratory symptoms, spirometry and DLCO must be greater than 50% of predicted",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of smoking or respiratory symptoms is mentioned, but spirometry and DLCO results are not provided.",
+      "clinical_question": "Is the patient's spirometry and DLCO greater than 50% of predicted values?"
+    },
+    {
+      "criterion": "All ages",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The criterion allows for all ages, and the patient is 57.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No obstructive airway disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on obstructive airway disease is provided, making it unclear.",
+      "clinical_question": "Does the patient have a documented history of obstructive airway disease, such as asthma or COPD, as defined by a forced expiratory volume in 1 second (FEV1) < 70% of predicted?"
+    },
+    {
+      "criterion": "No resting hypoxemia (PO2 less than 80)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Resting oxygen levels (PO2) are not provided, so hypoxemia status is unknown.",
+      "clinical_question": "Is the patient's resting arterial oxygen partial pressure (PO2) ≥ 80 mmHg?"
+    },
+    {
+      "criterion": "DLCO at least 50% of predicted",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "DLCO results are not provided, making it unclear if the patient meets this criterion.",
+      "clinical_question": "Is the patient's DLCO ≥ 50% of the predicted value?"
+    },
+    {
+      "criterion": "No poorly controlled diabetes",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on diabetes management is provided, so status is unknown.",
+      "clinical_question": "Is the patient's HbA1c level ≤ 7%?"
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific details on prior concurrent therapy are provided, making it unclear.",
+      "clinical_question": "Has the patient received any prior stem cell transplant or autologous stem cell transplant before enrollment in the trial?"
+    },
+    {
+      "criterion": "Biologic therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on current biologic therapy is provided, so status is unknown.",
+      "clinical_question": "Has the patient received at least one prior line of biologic therapy for their CLL or large cell transformation?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is not specified, making it unclear whether the patient meets this requirement.",
+      "clinical_question": "Has the patient achieved a complete response after the last cycle of chemotherapy as defined by the absence of detectable disease on imaging and clinical evaluation?"
+    },
+    {
+      "criterion": "Chemotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone multiple chemotherapy regimens, fulfilling the requirement for prior chemotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The specific disease characteristics are not provided, making it difficult to assess eligibility.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of Hodgkin's lymphoma or non-Hodgkin's lymphoma with a measurable disease burden?"
+    },
+    {
+      "criterion": "Must have prior chemotherapy to attempt to achieve complete response",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has received prior chemotherapy with the intent to achieve a complete response.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Endocrine therapy:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not undergoing endocrine therapy, which is a requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is not specified, leading to uncertainty in assessment.",
+      "clinical_question": "Has the patient achieved a complete response after the last cycle of chemotherapy as defined by the absence of detectable disease on imaging and clinical evaluation?"
+    },
+    {
+      "criterion": "Radiotherapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The specific requirements for radiotherapy are not provided, making it unclear if the patient meets this criterion.",
+      "clinical_question": "Has the patient received any prior radiotherapy treatment for their CLL or large cell transformation?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The specific disease characteristics are not provided, making it difficult to assess eligibility.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of Hodgkin's lymphoma or non-Hodgkin's lymphoma with a measurable disease burden?"
+    },
+    {
+      "criterion": "No radiotherapy to residual disease prior to transplantation",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone radiotherapy to a cervical node, which may disqualify them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion regarding surgery is not specified, leading to uncertainty in assessment.",
+      "clinical_question": "Has the patient undergone any surgical interventions related to their lymphoma diagnosis prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The first criterion is not specified, making it impossible to assess eligibility definitively.",
+      "clinical_question": "Has the patient achieved a complete response after the last cycle of chemotherapy as defined by the absence of detectable disease on imaging and clinical evaluation?"
+    },
+    {
+      "criterion": "Other:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The second criterion is vague ('Other'), and without specific details, I cannot determine if the patient meets this criterion.",
+      "clinical_question": "Has the patient undergone a prior autologous stem cell transplant?"
+    },
+    {
+      "criterion": "Concurrent IV antibiotic therapy allowed for fever or signs of infection",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient may require concurrent IV antibiotic therapy due to their history of elevated white count and signs of infection, which aligns with the criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 14 of 75 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5789
+}

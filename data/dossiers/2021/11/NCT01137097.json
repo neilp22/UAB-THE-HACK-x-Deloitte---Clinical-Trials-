@@ -1,0 +1,26 @@
+{
+  "nct_id": "NCT01137097",
+  "trial_title": "Lateral Neck Sentinel Lymph Node Biopsy(LSLNB)in PTC",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Objective: To investigate the incidence of lateral neck node occult metastasis and to show the usefulness of sentinel lymph node biopsy (SLNB) in the detection of lateral neck node metastasis in thyroid carcinoma, the investigators used a radioisotope to detect the sentinel lymph node.\n\nSummary Background Data: Although occult lymph node metastasis to the lateral neck compartment is common in papillary thyroid carcinoma, the incidence and patterns of lateral neck node metastasis in papillary car",
+  "eligibility_table": [
+    {
+      "criterion": "Cases with tumors larger than 1 cm in size or with suspicious central neck node metastasis in Papillary thyroid cancer",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a large tumor size and is diagnosed with metastatic papillary thyroid cancer, which meets the inclusion criterion of having tumors larger than 1 cm.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The patient with definite metastatic lymph node in lateral neck compartment",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has metastatic disease to lymph nodes, which indicates definite metastatic lymph nodes in the lateral neck compartment, thus meeting the exclusion criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE",
+  "confidence_score": 1.0
+}

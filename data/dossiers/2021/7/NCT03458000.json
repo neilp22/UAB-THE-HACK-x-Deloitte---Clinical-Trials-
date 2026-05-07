@@ -1,0 +1,212 @@
+{
+  "nct_id": "NCT03458000",
+  "trial_title": "Capsule Endoscopy for HEmorrhage in the ER",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "This is a multi-center randomized controlled trial examining the use of Video Capsule Endoscopy (VCE) to discharge low-moderate risk patients with suspected upper gastrointestinal bleeds (UGIB) from the Emergency Department (ED.) The investigators will enroll 100 subjects at 4 sites who present with signs of hemodynamically stable UGIBs and compare VCE risk assessment to an Active Control (AC) group who receive inpatient upper endoscopy (EGD).",
+  "eligibility_table": [
+    {
+      "criterion": "Individuals aged ≥ 18 years presenting to the Emergency Department with likely upper GI bleed (bloody emesis and/or coffee ground vomiting and/or melena) that has occurred within the previous 48 hours.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 60.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Upper GI Bleed with hemodynamic instability (BP<90 mmHg, pulse>120 beats per minute, and Hgb < 9 g/dL)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient has a history of UGIB, but no current hemodynamic instability is documented.",
+      "clinical_question": "Is the patient's blood pressure currently less than 90 mmHg?"
+    },
+    {
+      "criterion": "Upper GI Bleed with hemodynamic instability (BP<90 mmHg, pulse>120 beats per minute, and Hgb < 9 g/dL)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Same as above; no current hemodynamic instability is documented.",
+      "clinical_question": "Is the patient's blood pressure currently less than 90 mmHg?"
+    },
+    {
+      "criterion": "Upper GI Bleed with hemodynamic instability (BP<90 mmHg, pulse>120 beats per minute, and Hgb < 9 g/dL)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Same as above; no current hemodynamic instability is documented.",
+      "clinical_question": "Is the patient's blood pressure currently less than 90 mmHg?"
+    },
+    {
+      "criterion": "High Risk Upper GI Bleed (Glasgow Blatchford Score* ≥ 6)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "Patient's history of UGIB and current conditions suggest a high risk, but specific Glasgow Blatchford Score is not provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Signs, symptoms or history of liver cirrhosis or liver failure",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "Patient has a known history of liver cirrhosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Signs, symptoms or history of decompensated heart failure or congestive heart failure",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No signs or symptoms of heart failure are mentioned in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Presumed Pregnant, trying to conceive or breastfeeding",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "Patient is male and there is no indication of pregnancy or breastfeeding.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known history of gastric cancer",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of gastric cancer is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known history of gastric or esophageal varices",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "Patient has grade II esophageal varices, which are a known complication of liver cirrhosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "GI surgery within the last 6 months",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No GI surgery is mentioned in the last 6 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior enrollment in the CHEER Study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior enrollment in the CHEER Study.",
+      "clinical_question": "Has the patient previously participated in the CHEER Study?"
+    },
+    {
+      "criterion": "Prisoner or Ward of State",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the patient's status as a prisoner or ward of state.",
+      "clinical_question": "Is the patient currently incarcerated or designated as a ward of the state?"
+    },
+    {
+      "criterion": "Trouble swallowing, suspected bowel obstruction or perforation, per treating clinician",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific information about swallowing difficulties or bowel obstruction is provided.",
+      "clinical_question": "Does the patient exhibit any signs of trouble swallowing, such as dysphagia or odynophagia, as reported by the treating clinician?"
+    },
+    {
+      "criterion": "Past UGI tract surgery (e.g., Bilroth I or II, esophagectomy, gastrectomy, bariatric procedure) that changes Gastrointestinal anatomy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of past UGI tract surgery is mentioned.",
+      "clinical_question": "Has the patient undergone any gastrointestinal surgery that alters the anatomy, such as a Bilroth I or II procedure, esophagectomy, gastrectomy, or a bariatric procedure?"
+    },
+    {
+      "criterion": "Known history of gastroparesis, esophageal stricture or Crohn's disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No known history of gastroparesis, esophageal stricture, or Crohn's disease is provided.",
+      "clinical_question": "Does the patient have a documented diagnosis of gastroparesis, esophageal stricture, or Crohn's disease?"
+    },
+    {
+      "criterion": "Altered mental status that limits the ability to swallow a capsule",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Altered mental status is not indicated, but no specific assessment is provided.",
+      "clinical_question": "Does the patient exhibit a Glasgow Coma Scale score of less than 15, indicating altered mental status that limits the ability to swallow a capsule?"
+    },
+    {
+      "criterion": "Expected to have Magnetic Resonance Imaging (MRI) examination within 7 days",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information about upcoming MRI examination is provided.",
+      "clinical_question": "Has the patient been scheduled for an MRI examination within the next 7 days?"
+    },
+    {
+      "criterion": "Consumed medications within the past 12 hours that may coat the upper GI tract such as antacids or sucralfate or Maalox and potentially limits capsule visualization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information about recent medication consumption that may coat the GI tract is provided.",
+      "clinical_question": "Has the patient consumed any medications that may coat the upper GI tract, such as antacids, sucralfate, or Maalox, within the past 12 hours?"
+    },
+    {
+      "criterion": "Patient either refuses or is unable to get traditional EGD",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information about refusal or inability to undergo traditional EGD is provided.",
+      "clinical_question": "Is the patient currently refusing or unable to undergo a traditional EGD due to medical or personal reasons?"
+    },
+    {
+      "criterion": "Patient does not have reliable contact information - no phone, no permanent address",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information about the reliability of contact information is provided.",
+      "clinical_question": "Does the patient have a permanent address or a reliable means of contact, such as a phone number, documented in their medical record?"
+    },
+    {
+      "criterion": "Patient refuses",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not indicate whether the patient has refused participation in the trial.",
+      "clinical_question": "Has the patient explicitly documented their refusal of capsule endoscopy in their medical record?"
+    },
+    {
+      "criterion": "Unable to provide written consent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ability to provide written consent.",
+      "clinical_question": "Is the patient currently able to communicate their understanding of the procedure and provide verbal consent for capsule endoscopy?"
+    },
+    {
+      "criterion": "Non-English speaker",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient’s language proficiency is not mentioned, so it is unclear if they are a non-English speaker.",
+      "clinical_question": "Is the patient able to communicate effectively in English to understand the instructions and information provided during the capsule endoscopy procedure?"
+    },
+    {
+      "criterion": "Suspected middle or lower GI bleeding",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of UGIB, but there is no current indication of active GI bleeding; however, caution is warranted.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Treating ED Physician is not amenable to admission or discharge based on randomization or Video Capsule Endoscopy results. As a modification, the GBS Score modified from the traditional GBS score to reduce the Hemoglobin cut-off for 6 points from 10g/dL to 9 g/dL",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the treating ED Physician's stance on admission or discharge based on the specified criteria.",
+      "clinical_question": "Does the patient's hemoglobin level fall below 9 g/dL?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Upper GI Bleed with hemodynamic instability (BP<90 mmHg, pulse>120 beats per min",
+    "EXCLUSION UNCLEAR: Upper GI Bleed with hemodynamic instability (BP<90 mmHg, pulse>120 beats per min",
+    "EXCLUSION UNCLEAR: Upper GI Bleed with hemodynamic instability (BP<90 mmHg, pulse>120 beats per min",
+    "EXCLUSION UNCLEAR: Prior enrollment in the CHEER Study",
+    "EXCLUSION UNCLEAR: Prisoner or Ward of State",
+    "EXCLUSION UNCLEAR: Trouble swallowing, suspected bowel obstruction or perforation, per treating cli",
+    "EXCLUSION UNCLEAR: Past UGI tract surgery (e.g., Bilroth I or II, esophagectomy, gastrectomy, baria",
+    "EXCLUSION UNCLEAR: Known history of gastroparesis, esophageal stricture or Crohn's disease",
+    "EXCLUSION UNCLEAR: Altered mental status that limits the ability to swallow a capsule",
+    "EXCLUSION UNCLEAR: Expected to have Magnetic Resonance Imaging (MRI) examination within 7 days",
+    "EXCLUSION UNCLEAR: Consumed medications within the past 12 hours that may coat the upper GI tract s",
+    "EXCLUSION UNCLEAR: Patient either refuses or is unable to get traditional EGD",
+    "EXCLUSION UNCLEAR: Patient does not have reliable contact information - no phone, no permanent addr",
+    "EXCLUSION UNCLEAR: Patient refuses",
+    "EXCLUSION UNCLEAR: Unable to provide written consent",
+    "EXCLUSION UNCLEAR: Non-English speaker",
+    "EXCLUSION UNCLEAR: Treating ED Physician is not amenable to admission or discharge based on randomi"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3462
+}

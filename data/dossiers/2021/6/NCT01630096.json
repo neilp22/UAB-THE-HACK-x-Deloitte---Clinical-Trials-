@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT01630096",
+  "trial_title": "Clostridial Infection and Oral Lavage -Improving Treatment Before Illness Becomes Severe",
+  "phase": "PHASE4",
+  "status": "UNKNOWN",
+  "brief_summary": "Once the lab test is positive for c. diff, the investigators will order the patient to have PEG 3350 solution, one 8oz glass every ten minutes until 6 liters are gone, but if still not clear 2 more liters may be ordered. At enrollment, the treatment arm will have an order for 500 cc Normal saline to be given I.V. The patient will continue with antibiotic treatment as well. The investigators will plan to check c. diff tests daily to see when they become negative. The investigators will perform ch",
+  "eligibility_table": [
+    {
+      "criterion": "18 years old or older male or female testing positive for c. diff",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is a 55-year-old female, and there is no information provided about pregnancy status. Therefore, it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the patient currently pregnant or has she been pregnant within the last 12 months?"
+    },
+    {
+      "criterion": "Less than 18 yrs of age",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 < 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Those sick enough to require surgery at diagnosis",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has End Stage Renal Disease (ESRD) and has been admitted to the ICU, which suggests a severe condition. This likely indicates that she is sick enough to require surgery at diagnosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe ileus or small bowel obstruction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of severe ileus or small bowel obstruction in the patient's profile, making it indeterminate.",
+      "clinical_question": "Does the patient exhibit signs of severe ileus or small bowel obstruction as defined by the presence of abdominal distension, inability to pass stool or gas, and imaging findings consistent with obstruction?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Pregnancy",
+    "EXCLUSION UNCLEAR: Severe ileus or small bowel obstruction"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6
+}

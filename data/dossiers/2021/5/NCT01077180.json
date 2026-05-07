@@ -1,0 +1,170 @@
+{
+  "nct_id": "NCT01077180",
+  "trial_title": "Rheos Feasibility Trial",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "The Rheos Feasibility Trial is designed to assess safety, device performance, and protocol parameters of the CVRx Rheos Baroreflex Therapy in patients with severe hypertension that are refractory to full drug therapy.",
+  "eligibility_table": [
+    {
+      "criterion": "Be at least 21 years of age.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient currently 21 years of age or older?"
+    },
+    {
+      "criterion": "Have been assessed to have bilateral carotid bifurcations located at or below C3-C4.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history indicates significant bilateral carotid stenosis, but the specific location of the bifurcations is not provided.",
+      "clinical_question": "Is the patient's carotid bifurcation located at or below the C3-C4 vertebral level?"
+    },
+    {
+      "criterion": "Have an office cuff systolic blood pressure greater than or equal to 160 mmHg and a 24-hour ambulatory systolic blood pressure greater than or equal to 150 mmHg despite at least one month of full therapy with at least three (3) anti-hypertensive medications, of which at least one (1) must be a diuretic.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has hypertension but there is no evidence of a systolic blood pressure greater than or equal to 160 mmHg or 24-hour ambulatory systolic blood pressure greater than or equal to 150 mmHg.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must be certified by the investigator hypertension specialist as compliant with taking full doses of medication.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's compliance with medication doses.",
+      "clinical_question": "Has the patient consistently taken 100% of their prescribed antihypertensive medications for the past three months as certified by their hypertension specialist?"
+    },
+    {
+      "criterion": "Have signed a CVRx approved informed consent for participation in this study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The status of informed consent is not mentioned in the profile.",
+      "clinical_question": "Has the patient signed a CVRx approved informed consent form for participation in the Rheos Feasibility Trial?"
+    },
+    {
+      "criterion": "Have been diagnosed with:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The specific exclusion criteria are not assessed without further details on the patient's cardiac history.",
+      "clinical_question": "Has the patient been diagnosed with Coronary Artery Disease (CAD) as evidenced by a coronary angiogram showing ≥50% stenosis in one or more coronary arteries?"
+    },
+    {
+      "criterion": "Baroreflex failure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding a diagnosis of baroreflex failure.",
+      "clinical_question": "Does the patient exhibit a baroreflex sensitivity of less than 3 ms/mmHg as measured by a standardized protocol?"
+    },
+    {
+      "criterion": "Cardiac bradyarrhythmias",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of cardiac bradyarrhythmias in the patient's history.",
+      "clinical_question": "Does the patient have a heart rate of less than 60 beats per minute on at least two separate occasions?"
+    },
+    {
+      "criterion": "Chronic atrial fibrillation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not indicate chronic atrial fibrillation.",
+      "clinical_question": "Does the patient have a documented history of persistent atrial fibrillation lasting ≥30 seconds within the last 6 months?"
+    },
+    {
+      "criterion": "Had a heart transplant",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication that the patient has had a heart transplant.",
+      "clinical_question": "Has the patient undergone a heart transplant within the last 10 years?"
+    },
+    {
+      "criterion": "Have carotid atherosclerosis producing a 50% or greater reduction in linear diameter as determined by ultrasound or angiographic evaluation as determined within six months of enrollment in the trial.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has significant carotid artery disease with 80% and 90% stenosis, which likely meets the exclusion criteria for carotid atherosclerosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have Grade C ulcerative plaques in the carotid artery as determined by ultrasound or angiographic evaluation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's significant bilateral carotid stenosis suggests potential for Grade C ulcerative plaques, but specific ultrasound or angiographic evaluation results are not provided.",
+      "clinical_question": "Does the patient have Grade C ulcerative plaques in the carotid artery as determined by ultrasound or angiographic evaluation?"
+    },
+    {
+      "criterion": "Have prior surgery or radiation in either carotid sinus region.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No prior surgery or radiation in the carotid sinus region is mentioned in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Currently have implanted electrical medical devices such as cardiac pacing, defibrillation or neurologic stimulation systems.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have any implanted electrical medical devices as per the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Are pregnant or contemplating pregnancy during the 13-month follow-up period.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication of pregnancy or contemplation of pregnancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Currently undergoing dialysis.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of the patient currently undergoing dialysis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have hypertension secondary to a treatable cause.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's hypertension is not indicated to be secondary to a treatable cause.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have clinically significant cardiac valvular disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not explicitly mention clinically significant cardiac valvular disease, but further evaluation may be needed.",
+      "clinical_question": "Does the patient have aortic stenosis with a valve area <1.0 cm² or mitral regurgitation classified as severe?"
+    },
+    {
+      "criterion": "Are unable or unwilling to fulfill the protocol medication compliance and follow-up requirements.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is unwilling or unable to comply with protocol requirements.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Are unlikely to survive the protocol follow-up period.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "While the patient's multiple health issues raise concerns, there is no clear indication that he is unlikely to survive the follow-up period.",
+      "clinical_question": "Is the patient's estimated survival probability less than 50% over the protocol follow-up period based on their current health status and comorbidities?"
+    },
+    {
+      "criterion": "Are enrolled in another concurrent clinical trial.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no information suggesting that the patient is enrolled in another concurrent clinical trial.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Have been diagnosed with:",
+    "EXCLUSION UNCLEAR: Baroreflex failure",
+    "EXCLUSION UNCLEAR: Cardiac bradyarrhythmias",
+    "EXCLUSION UNCLEAR: Chronic atrial fibrillation",
+    "EXCLUSION UNCLEAR: Had a heart transplant",
+    "EXCLUSION VIOLATED: Have carotid atherosclerosis producing a 50% or greater reduction in linear diam",
+    "EXCLUSION UNCLEAR: Have Grade C ulcerative plaques in the carotid artery as determined by ultrasoun",
+    "EXCLUSION UNCLEAR: Have clinically significant cardiac valvular disease.",
+    "EXCLUSION UNCLEAR: Are unlikely to survive the protocol follow-up period.",
+    "LOW INCLUSION MATCH: only 0 of 5 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.4286
+}

@@ -1,0 +1,105 @@
+{
+  "nct_id": "NCT02719119",
+  "trial_title": "Trial of Monthly Versus Bi-weekly Endoscopic Variceal Ligation for the Prevention of Esophageal Variceal Rebleeding",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "Many physicians suggest repeating EVL every 1-2 weeks until esophageal varices are obliterated to prevent variceal rebleeding， however, the evidences supporting the efficacy of EVL intervals of 1-2 weeks are insufficient.This randomized controlled study was conducted in order to compare the long-term results of EVL when performed at two different results from monthly and bi-weekly treatments.",
+  "eligibility_table": [
+    {
+      "criterion": "acute or recent bleeding from esophageal varices",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of UGIB, but it is unclear if this is acute or recent bleeding from esophageal varices.",
+      "clinical_question": "Has the patient experienced acute or recent bleeding from esophageal varices within the last 6 weeks?"
+    },
+    {
+      "criterion": "portal hypertension caused by cirrhosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has portal hypertension due to cirrhosis as indicated by the diagnosis of Hep C cirrhosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "age between 18 and 80 yr.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 60 years old, which falls within the age range of 18 to 80 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "history of endoscopic, pharmacological, interventional or surgical treatment of esophageal varices",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of prior treatment for esophageal varices, so this criterion is likely met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "presence of liver failure with a serum total bilirubin concentration greater than 3 mg/dL",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's total bilirubin levels are increased, but the exact value is not provided to confirm if it exceeds 3 mg/dL.",
+      "clinical_question": "Is the patient's serum total bilirubin concentration greater than 3 mg/dL?"
+    },
+    {
+      "criterion": "presence of hepatocellular carcinoma or other malignancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has increased AFP, which raises suspicion for hepatocellular carcinoma, but no definitive diagnosis is provided.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of hepatocellular carcinoma based on imaging or biopsy results?"
+    },
+    {
+      "criterion": "an association with a cerebral vascular accident, uremia, acute coronary syndrome, or other severe illness",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no clear indication of a recent severe illness, but the patient's overall health status is not fully detailed.",
+      "clinical_question": "Has the patient experienced a cerebral vascular accident, uremia, acute coronary syndrome, or any other severe illness within the last 12 months?"
+    },
+    {
+      "criterion": "history of gastric variceal bleeding",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of UGIB, but there is no specific mention of gastric variceal bleeding.",
+      "clinical_question": "Has the patient experienced any episodes of gastric variceal bleeding in the past 12 months?"
+    },
+    {
+      "criterion": "encephalopathy of stage II or worse",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on lactulose, which may indicate some level of encephalopathy, but the stage is not specified.",
+      "clinical_question": "Does the patient currently exhibit any signs of hepatic encephalopathy classified as stage II or worse, based on clinical assessment?"
+    },
+    {
+      "criterion": "failure to control initial variceal bleeding",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the control of initial variceal bleeding, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient experienced any episodes of variceal bleeding requiring intervention within the last 30 days?"
+    },
+    {
+      "criterion": "death within 48 h of admission",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information about the time of admission or death, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient experienced death within 48 hours of admission following an episode of upper gastrointestinal bleeding?"
+    },
+    {
+      "criterion": "refusal to participate in the trial",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's willingness to participate in the trial, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Has the patient explicitly stated a refusal to participate in the trial after being informed of the study details and potential risks?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: presence of liver failure with a serum total bilirubin concentration greater tha",
+    "EXCLUSION UNCLEAR: presence of hepatocellular carcinoma or other malignancy",
+    "EXCLUSION UNCLEAR: an association with a cerebral vascular accident, uremia, acute coronary syndrom",
+    "EXCLUSION UNCLEAR: history of gastric variceal bleeding",
+    "EXCLUSION UNCLEAR: encephalopathy of stage II or worse",
+    "EXCLUSION UNCLEAR: failure to control initial variceal bleeding",
+    "EXCLUSION UNCLEAR: death within 48 h of admission",
+    "EXCLUSION UNCLEAR: refusal to participate in the trial"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.25
+}

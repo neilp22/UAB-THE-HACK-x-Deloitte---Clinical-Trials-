@@ -1,0 +1,146 @@
+{
+  "nct_id": "NCT03933007",
+  "trial_title": "Relation Between Blood Concentration of Colchicine and Response to Colchicine Treatment in Gout Flare",
+  "phase": "PHASE4",
+  "status": "TERMINATED",
+  "brief_summary": "Gout, secondary to sodium urate crystal deposition, is responsible of recurrent inflammatory painful flares. Efficacy of colchicine which is the first line drug for the treatment and prophylaxis of gout flare varies and only half of treated patients experience good response. This study aims to optimize colchicine prescription for the treatment and prophylaxis of gout flare.\n\nCurrent data suggest that efficiency of colchicine relies on its maximum blood concentration (Cmax).\n\nIn this study, the i",
+  "eligibility_table": [
+    {
+      "criterion": "Patients (> 18 years old) with gout flare defined by following items :",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 22.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Identification of sodium urate crystals in synovial fluid analysis",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about synovial fluid analysis or presence of sodium urate crystals.",
+      "clinical_question": "Has the patient undergone a synovial fluid analysis that confirmed the presence of sodium urate crystals?"
+    },
+    {
+      "criterion": "Or gout flare diagnosis according to Nijmegen criteria (score > 8/13)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Nijmegen criteria score not provided; unable to assess gout flare diagnosis.",
+      "clinical_question": "Does the patient have a Nijmegen score greater than 8 out of 13 for the diagnosis of gout flare?"
+    },
+    {
+      "criterion": "Man (2 pts)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Cannot identify target gender from criterion text",
+      "clinical_question": "Is the patient's blood concentration of colchicine within the therapeutic range of 0.5 to 2.0 ng/mL during treatment for gout flare?"
+    },
+    {
+      "criterion": "History of flare (2 pts)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "History of flares not specified in terms of gout; patient has systemic mastocytosis.",
+      "clinical_question": "Has the patient experienced at least two gout flares in the past two months?"
+    },
+    {
+      "criterion": "Flare involving first metatarsophalangeal joint (2.5 pts)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on specific joint involvement; patient profile does not mention metatarsophalangeal joint.",
+      "clinical_question": "Does the patient have a gout flare involving the first metatarsophalangeal joint as confirmed by clinical examination and imaging?"
+    },
+    {
+      "criterion": "Maximum of flare within 24h (0.5pt)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No details on the timing of flare duration provided.",
+      "clinical_question": "What is the maximum severity score of the patient's gout flare within 24 hours of colchicine treatment, and does it reach at least 0.5 points?"
+    },
+    {
+      "criterion": "Redness (1 pt)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on redness associated with any flare.",
+      "clinical_question": "Is the patient's blood concentration of colchicine ≥1.0 ng/mL during the current gout flare?"
+    },
+    {
+      "criterion": "History of hypertension or cardiovascular diseases (1.5 pts)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has tachycardia, which may indicate cardiovascular issues, but no formal diagnosis of hypertension.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serum urate level > 360 µmol/l during flare (3.5 pts)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum urate level currently greater than 360 µmol/l during the gout flare?"
+    },
+    {
+      "criterion": "Duration of flare < 48 h",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Duration of flare not specified; unable to assess if < 48 hours.",
+      "clinical_question": "Did the patient's gout flare duration last less than 48 hours after initiating colchicine treatment?"
+    },
+    {
+      "criterion": "Monoarticular involvement",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on whether the flare is monoarticular.",
+      "clinical_question": "Does the patient have a gout flare involving only one joint?"
+    },
+    {
+      "criterion": "Hypersensitivity to colchicine, fexofenadine, benzodiazepine or the excipients of these drugs",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on hypersensitivity to colchicine, fexofenadine, or benzodiazepines.",
+      "clinical_question": "Has the patient experienced any hypersensitivity reactions, such as rash, swelling, or difficulty breathing, after taking colchicine, fexofenadine, benzodiazepine, or any excipients of these drugs?"
+    },
+    {
+      "criterion": "Contra-indication to colchicine : chronic kidney disease stage 4-5, severe hepatic impairment, treatment by macrolide antibiotics",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention chronic kidney disease or severe hepatic impairment, but it is unclear if the patient is currently on macrolide antibiotics.",
+      "clinical_question": "Does the patient have an estimated glomerular filtration rate (eGFR) of <30 mL/min indicating chronic kidney disease stage 4-5?"
+    },
+    {
+      "criterion": "Used of pain-killers other than acetaminophen",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on multiple medications, but it is not specified if any of them are pain-killers other than acetaminophen.",
+      "clinical_question": "Has the patient used any pain-killers other than acetaminophen during the current gout flare?"
+    },
+    {
+      "criterion": "Involvement in another clinical trial with drug administration",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient being involved in another clinical trial.",
+      "clinical_question": "Has the patient participated in any other clinical trial involving drug administration within the last 30 days?"
+    },
+    {
+      "criterion": "Illiteracy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not indicate any issues with literacy, but this is not explicitly stated.",
+      "clinical_question": "Is the patient able to read and understand written medical instructions and consent forms related to colchicine treatment?"
+    },
+    {
+      "criterion": "Pregnant woman or breastfeeding",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention pregnancy or breastfeeding, but this is not explicitly confirmed.",
+      "clinical_question": "Is the patient currently pregnant or breastfeeding?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Hypersensitivity to colchicine, fexofenadine, benzodiazepine or the excipients o",
+    "EXCLUSION UNCLEAR: Contra-indication to colchicine : chronic kidney disease stage 4-5, severe hepat",
+    "EXCLUSION UNCLEAR: Used of pain-killers other than acetaminophen",
+    "EXCLUSION UNCLEAR: Involvement in another clinical trial with drug administration",
+    "EXCLUSION UNCLEAR: Illiteracy",
+    "EXCLUSION UNCLEAR: Pregnant woman or breastfeeding",
+    "LOW INCLUSION MATCH: only 2 of 12 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1111
+}

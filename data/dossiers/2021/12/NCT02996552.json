@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT02996552",
+  "trial_title": "Annuloplasty for Not-Severe TR in Patients Undergoing MV Repair Versus Mitral Repair Only (NOSTRUM)",
+  "phase": "NA",
+  "status": "RECRUITING",
+  "brief_summary": "The surgical treatment of less than severe (≤2+/4+) functional tricuspid regurgitation (TR) in patient undergoing mitral valve surgery, is still controversial: some observational studies have suggested that performing tricuspid annuloplasty in patients undergoing mitral valve surgery with a dilated tricuspid annulus, and TR≤2+ may provide a clinical benefit, while in other observational studies such benefit has not been documented.\n\nThe ESC Guidelines assign the class IIa recommendation for surg",
+  "eligibility_table": [
+    {
+      "criterion": "age > 18 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 34.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ability to provide informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 34 years old and likely has the capacity to provide informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "patients scheduled for mitral valve regurgitation",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe mitral valve prolapse with regurgitation, which aligns with the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "TR ≤ 2+ with annular dilation",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's profile does not provide specific information on TR levels, but given the severe mitral valve condition, it is likely higher than 2+.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Tricuspid diastolic diameter ≥ 40 mm or 21 mm/m2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Tricuspid diastolic diameter is not provided in the lab values, making it impossible to assess.",
+      "clinical_question": "Is the patient's tricuspid diastolic diameter ≥ 40 mm or 21 mm/m2 as measured by echocardiography?"
+    },
+    {
+      "criterion": "patient's refusal",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of the patient's refusal to participate in the trial.",
+      "clinical_question": "Has the patient explicitly stated a refusal to participate in the annuloplasty procedure for not-severe tricuspid regurgitation?"
+    },
+    {
+      "criterion": "non-elective cardiac surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a planned mitral valve repair, but there is no information on whether this is elective or non-elective.",
+      "clinical_question": "Has the patient been admitted for non-elective cardiac surgery due to complications from severe mitral valve prolapse?"
+    },
+    {
+      "criterion": "organic disease of tricuspid valve",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any organic disease of the tricuspid valve.",
+      "clinical_question": "Does the patient have evidence of organic disease of the tricuspid valve as determined by echocardiographic findings?"
+    },
+    {
+      "criterion": "TR≥3",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The TR level is not specified, so it cannot be determined if it is ≥3.",
+      "clinical_question": "Does the patient have a tricuspid regurgitation (TR) severity of ≥3 as assessed by echocardiography?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: patient's refusal",
+    "EXCLUSION UNCLEAR: non-elective cardiac surgery",
+    "EXCLUSION UNCLEAR: organic disease of tricuspid valve",
+    "EXCLUSION UNCLEAR: TR≥3"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4444
+}

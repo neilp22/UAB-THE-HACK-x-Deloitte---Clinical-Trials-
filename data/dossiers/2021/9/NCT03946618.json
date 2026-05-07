@@ -1,0 +1,266 @@
+{
+  "nct_id": "NCT03946618",
+  "trial_title": "Neurophysiologically Based Brain State Tracking and Modulation in Focal Epilepsy",
+  "phase": "NA",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "Researchers are trying to determine if tracking seizure occurrence, seizure probability, behavioral state, cognition, and mood can be achieved using an implantable brain sensing and stimulation device (Medtronic RC+S Summit) coupled to an external, handheld, patient assistant device (PAD) with capability for patient interaction (patient data input). The system (RC+S \\& PAD) provides intracranial EEG (iEEG) sensing, electrical brain stimulation, and machine learning algorithms running on the RC+S",
+  "eligibility_table": [
+    {
+      "criterion": "Focal epilepsy, including seizures with and without impairment of consciousness, and secondarily generalized seizures",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has focal epilepsy with secondary generalization as indicated by the diagnosis of focal epilepsy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Disabling seizure counts >3 per month (Disabling seizures are those with significant negative impact on the patients life)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not had disabling seizures >3 per month; he went 20 years without seizures and only recently developed them.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Drug resistance to >2 appropriate seizure drugs with therapeutic serum concentrations",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of seizures but it is unclear if he has been resistant to >2 appropriate seizure drugs with therapeutic serum concentrations.",
+      "clinical_question": "Has the patient been treated with at least two appropriate seizure medications at therapeutic serum concentrations without achieving seizure control?"
+    },
+    {
+      "criterion": "Not a good candidate for resective surgery or at significant risk for verbal memory decline as determined by our institution's multidisciplinary Epilepsy Surgery Committee.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's eligibility for resective surgery is uncertain without further evaluation from the Epilepsy Surgery Committee.",
+      "clinical_question": "Does the patient have a verbal memory decline score of less than 70 on a standardized assessment tool?"
+    },
+    {
+      "criterion": "For 3 months prior to enrollment, subject's anti-seizure medication dosages have been stable and subject has had at least 6 disabling (as defined in Inclusion Criteria 1) seizures per month, on average, with a seizure-free interval not to exceed 30 days. Seizures must be separated by a minimum of eight hours not to be considered part of a cluster. A cluster of seizures, for the purpose of this criterion, shall be considered a single seizure.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not had stable anti-seizure medication dosages for 3 months, as he recently tapered off Dilantin.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "With the exception of epilepsy, subject must be medically and neurologically stable.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient appears to be medically and neurologically stable aside from his epilepsy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mayo Clinic Epilepsy Surgery Committee approval for brain stimulation therapy obtained on clinical grounds and without reference to this protocol.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether the patient has obtained approval from the Mayo Clinic Epilepsy Surgery Committee.",
+      "clinical_question": "Has the patient experienced ≥2 focal seizures with secondary generalization in the past year?"
+    },
+    {
+      "criterion": "Age 18 to 75",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 13.0 >= 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability and willingness to provide informed consent and participate in the study protocol. Subject is able to interpret and to respond, in accordance with the study protocol, to the advisory indicators provided by the device.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to provide informed consent is uncertain due to his severe intellectual disability.",
+      "clinical_question": "Can the patient demonstrate the ability to interpret and respond to the advisory indicators provided by the device during a standardized assessment?"
+    },
+    {
+      "criterion": "Subject has seizures that are distinct, stereotypical events that can be reliably counted by the patient or caregiver.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's seizures are described as distinct events, which can be counted by caregivers.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "For 3 months prior to enrollment, subject's anti-seizure medication dosages have not been stable, or subject has had more than 25 disabling (as defined in Inclusion Criteria 1) seizures per month, on average, or there was a seizure-free interval longer than 30 days within the past 3 months. Clinical seizures must be separated by a minimum of eight hours to not be considered part of a cluster. Cluster seizures are considered a single seizure event.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not had more than 25 disabling seizures per month, nor has he had a seizure-free interval longer than 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has a contraindication to magnetic resonance imaging.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of anoxic brain injury and current conditions may complicate MRI eligibility, but no specific contraindications are mentioned.",
+      "clinical_question": "Does the patient have any implanted medical devices or other conditions that contraindicate magnetic resonance imaging?"
+    },
+    {
+      "criterion": "Subject has a substance abuse history (alcohol, prescription, or illicit medications) within the preceding two years.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of substance abuse history in the provided profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject participated in another drug or device trial within the preceding 30 days.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no mention of participation in another trial within the last 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has been hospitalized for a psychiatric condition within the preceding two years or has had a history of psychosis within the preceding two years (excluding post-ictal psychosis).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of severe intellectual disability and epilepsy, but no psychiatric hospitalization or psychosis is documented.",
+      "clinical_question": "Has the patient been hospitalized for a psychiatric condition or experienced a history of psychosis within the last 2 years?"
+    },
+    {
+      "criterion": "Subject is implanted with pacemaker, implantable cardiac defibrillator, cardiac management product, or a medical device that interferes with the RC+S device. This includes, but is not limited to, direct brain neurostimulators, spinal cord stimulators, vagus nerve stimulators (VNS), and cochlear implants. Patients with a vagus nerve stimulator implanted but turned off through the duration of the study may be enrolled, provided their clinical status has been stable for at least one month with VNS turned off. Alternatively, patients with a VNS may have the previously disabled VNS removed at time of surgery to implant the Medtronic RC+S.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about implanted devices, but the patient's cardiac health is compromised due to CHF.",
+      "clinical_question": "Is the patient's vagus nerve stimulator currently turned off for at least one month prior to enrollment in the study?"
+    },
+    {
+      "criterion": "Subject has been diagnosed with psychogenic or non-epileptic seizures.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not been diagnosed with psychogenic or non-epileptic seizures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has been diagnosed with primary generalized seizures.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has focal epilepsy with secondary generalization, not primary generalized seizures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has experienced unprovoked status epilepticus in the preceding year.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of unprovoked status epilepticus in the past year.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has had therapeutic surgery to treat epilepsy that may interfere with electrode placement.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not had therapeutic surgery for epilepsy, but the potential for future surgery may be a concern.",
+      "clinical_question": "Has the patient undergone any therapeutic surgeries for epilepsy that could potentially interfere with electrode placement?"
+    },
+    {
+      "criterion": "Subject can reasonably be expected to maintain a seizure diary alone or with the assistance of a competent individual.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to maintain a seizure diary is uncertain due to severe intellectual disability, but assistance may be available.",
+      "clinical_question": "Can the patient accurately report seizure occurrences in a diary with assistance from a competent individual at least 4 times per week?"
+    },
+    {
+      "criterion": "Subject is able to complete regular office visits and telephone appointments in accordance with the study protocol requirements.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 13 years old and may not be able to complete regular office visits and telephone appointments independently.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A female subject must have a negative serum pregnancy test within two weeks prior to entering the study, and, if sexually active, must be using a reliable form of birth control, be surgically sterile, or be at least two years post-menopausal.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion does not apply.",
+      "clinical_question": "Has the patient had a negative serum pregnancy test within the last two weeks?"
+    },
+    {
+      "criterion": "Subject's seizure focus, based upon clinical semiology, intracranial electroencephalographic (iEEG) findings, and/or neuroimaging, shall demonstrate bilateral medial temporal lobe epilepsy or unilateral temporal lobe epilepsy of dominant temporal lobe origin.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's MRI shows atrophic changes in the left temporal lobe, indicating unilateral temporal lobe epilepsy, but it is not clear if it is of dominant temporal lobe origin.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has been informed of his or her eligibility for resective surgery as a potential alternative to the study, if such surgery is a reasonable option.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether the patient has been informed of resective surgery as an option.",
+      "clinical_question": "Has the patient been informed of their eligibility for resective surgery as a potential alternative to the study?"
+    },
+    {
+      "criterion": "Subject speaks and reads English.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 13 years old and may not be proficient in speaking and reading English.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has had a brain magnetic resonance imaging (MRI) epilepsy evaluation within the past two years.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's last MRI is not mentioned to be within the past two years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has iEEG documentation of ictal events consistent with his or her predominant current seizure type.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about iEEG documentation of ictal events.",
+      "clinical_question": "Does the patient have documented iEEG evidence of at least one ictal event consistent with his predominant seizure type of focal epilepsy with secondary generalization?"
+    },
+    {
+      "criterion": "Subject's anatomy will permit implantation of the Medtronic Investigational RC+S generator within 20 mm of the skin surface.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's anatomy and whether it permits implantation of the device.",
+      "clinical_question": "Is the distance from the patient's skin surface to the location of the Medtronic Investigational RC+S generator implantation site ≤20 mm?"
+    },
+    {
+      "criterion": "Subject can reasonably be expected to periodically check battery levels and recharge devices (Implanted neural stimulator (INS), Clinical Telemetry Module (CTM), and EPAD tablet) alone or with the assistance of a competent individual.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ability to check battery levels and recharge devices.",
+      "clinical_question": "Can the patient independently check battery levels and recharge devices at least once a week, or with assistance from a competent individual?"
+    },
+    {
+      "criterion": "Subject is on anticoagulants and is unable to discontinue them peri-surgically, as required by the neurosurgeon or Investigator.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's use of anticoagulants.",
+      "clinical_question": "Is the patient currently taking any anticoagulants, and if so, which specific medications are being used?"
+    },
+    {
+      "criterion": "Subject has significant platelet dysfunction from medical conditions or medications (including, particularly, aspirin or sodium valproate). If platelet dysfunction is suspected, subject can be enrolled only if a hematologist, the Investigator, and the neurosurgeon judge it to be advisable.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current medications include valium, Dilantin, and phenobarbital, but there is no specific information provided about platelet function. Without lab values or specific details on platelet dysfunction, it is uncertain whether this criterion is met.",
+      "clinical_question": "Does the patient have a platelet count <150,000/µL or a history of significant bleeding events related to platelet dysfunction?"
+    },
+    {
+      "criterion": "Subject is ineligible for cranial surgery.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of severe intellectual disability and anoxic brain injury may complicate eligibility for cranial surgery, but there is no explicit information indicating ineligibility. Further assessment by a medical professional would be required.",
+      "clinical_question": "Has the patient been evaluated and determined to have a seizure frequency of ≥2 seizures per month despite optimal medical therapy?"
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is a 13-year-old male, and pregnancy is not applicable.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: For 3 months prior to enrollment, subject's anti-seizure medication dosages have",
+    "EXCLUSION UNCLEAR: Subject has a contraindication to magnetic resonance imaging.",
+    "EXCLUSION VIOLATED: Subject has a substance abuse history (alcohol, prescription, or illicit medicat",
+    "EXCLUSION VIOLATED: Subject participated in another drug or device trial within the preceding 30 day",
+    "EXCLUSION UNCLEAR: Subject has been hospitalized for a psychiatric condition within the preceding t",
+    "EXCLUSION UNCLEAR: Subject is implanted with pacemaker, implantable cardiac defibrillator, cardiac ",
+    "EXCLUSION VIOLATED: Subject has been diagnosed with psychogenic or non-epileptic seizures.",
+    "EXCLUSION VIOLATED: Subject has been diagnosed with primary generalized seizures.",
+    "EXCLUSION VIOLATED: Subject has experienced unprovoked status epilepticus in the preceding year.",
+    "EXCLUSION UNCLEAR: Subject has had therapeutic surgery to treat epilepsy that may interfere with el",
+    "EXCLUSION UNCLEAR: Subject is on anticoagulants and is unable to discontinue them peri-surgically, ",
+    "EXCLUSION UNCLEAR: Subject has significant platelet dysfunction from medical conditions or medicati",
+    "EXCLUSION UNCLEAR: Subject is ineligible for cranial surgery.",
+    "EXCLUSION VIOLATED: Pregnancy",
+    "LOW INCLUSION MATCH: only 3 of 20 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.5
+}

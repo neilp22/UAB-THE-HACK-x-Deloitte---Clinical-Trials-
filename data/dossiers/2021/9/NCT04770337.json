@@ -1,0 +1,232 @@
+{
+  "nct_id": "NCT04770337",
+  "trial_title": "Pivotal-Safety and Therapeutic Measures of tDCS in Patients With Refractory Focal Epilepsy",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "This is a multiple site, randomized, double blinded parallel-group controlled study. The purpose of this study is to evaluate efficacy, safety, and tolerability of repeated, daily sessions with the STARSTIM device, which delivers transcranial cathodal direct current stimulation (tDCS). Subjects will be treated with STARTSTIM or sham device for 10 sessions over a 2-week period. The subjects will be followed for an additional 10 weeks post treatment. Quality of Life questionnaires and adverse even",
+  "eligibility_table": [
+    {
+      "criterion": "9 years old or older.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 13.0 >= 9.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diagnosis of epilepsy with focal seizures with or without focal to bilateral tonic-clonic seizures (International League Against Epilepsy classification). Diagnosis established by both clinical history and an EEG consistent with focal seizures.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of seizures but full EEG reports are pending, which are necessary to confirm the diagnosis of epilepsy with focal seizures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Note: A normal interictal EEG is consistent with focal seizures, if other data is adequate to provide localization.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The interictal EEG is pending, making it unclear if it is normal or not, thus the status of this criterion cannot be determined.",
+      "clinical_question": "Does the patient's interictal EEG show any abnormal findings consistent with focal seizures?"
+    },
+    {
+      "criterion": "Epilepsy is refractory to treatment, defined as: failure to achieve adequate seizure control despite demonstrated compliance, according to medical records, on at least two (2) FDA-approved ASDs at a daily dose considered therapeutic for the patient's demographic according to package labeling, within approximately the last 3 years.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not been on two FDA-approved ASDs for at least the last 3 years, as he was tapered off Dilantin and is currently on other medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Seizure frequency average of ≥3 per month, over the past year.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient experienced an average seizure frequency of ≥3 seizures per month over the past year?"
+    },
+    {
+      "criterion": "Currently on at least 1 ASDs with no changes in antiepileptic drug doses in the 3 weeks prior to baseline visit in the study and no planned dose changes during the trial. Changes after baseline visit are permitted only if clinically necessary.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on multiple ASDs, but there is no information indicating that there have been no changes in doses in the 3 weeks prior to the baseline visit.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "An MRI scan of the brain using a 1.5 Tesla magnet, or greater, with T1, T2 (recommended), and FLAIR sequences, acquired within the last 3 years for children (patients <18 years old), or within 5 years for adult patients ≥18 years old, as long as the MRI was obtained after the onset of epilepsy and without brain surgeries after the MRI images.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The MRI was performed but the details do not confirm it was done within the last 3 years or after the onset of epilepsy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Seizure focus that allows design of an appropriate stimulation montage. Note: Seizure focus can be identified within a lobe, or 2 adjacent lobes. Identification of the border of the seizure focus can be approximate (+/- 2 gyri).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The seizure focus has not been clearly identified due to pending EEG results and lack of detailed seizure localization data.",
+      "clinical_question": "Has the patient undergone a recent EEG that identifies the seizure focus within the left temporal lobe or adjacent lobes with an approximate border of ±2 gyri?"
+    },
+    {
+      "criterion": "Available seizure history and supporting data",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Seizure history is available, but the supporting data is incomplete due to pending EEG reports.",
+      "clinical_question": "Has the patient experienced ≥2 seizures in the past 12 months?"
+    },
+    {
+      "criterion": "All female study subjects of childbearing age are required to have a pregnancy test. Additionally, all females of childbearing potential will be required to use an effective method of birth control (defined as having a documented failure rate of <=1%; for women using enzyme-inducing ASDs hormonal contraceptives will not be considered as effective).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion does not apply.",
+      "clinical_question": "Has the patient undergone a pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Presence of a condition or abnormality that in the opinion of the Investigator would compromise the safety of the patient or the integrity of the data.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's multiple conditions and severe intellectual disability may compromise safety and data integrity.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence for more than one seizure focus. (NOTE: For this study, a seizure focus is defined as a cortical region confined to one hemisphere and either one lobe or on a junction of two adjacent lobes from which seizures arise, as documented by scalp or intracranial EEG, that is either supported or not refuted by MRI, and either supported or not refuted by clinical semiology). If the interictal EEG is normal, a seizure focus may be identified by the combination of structural findings on MRI and clinical signs/symptoms associated with the patient's seizures.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The presence of a single seizure focus is uncertain due to pending EEG results and lack of clear MRI findings.",
+      "clinical_question": "Does the patient have documented evidence of seizure activity from more than one cortical region as identified by scalp or intracranial EEG?"
+    },
+    {
+      "criterion": "Seizure focus is one of: interhemispheric, cingulate, or orbitofrontal",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The specific seizure focus is not clearly defined in the provided information, and further EEG reports are pending.",
+      "clinical_question": "Is the seizure focus identified in the patient's EEG report located in the interhemispheric, cingulate, or orbitofrontal regions?"
+    },
+    {
+      "criterion": "Seizure focus is hemispheric or poorly defined",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The seizure focus is not explicitly described as hemispheric or poorly defined; further EEG reports are needed.",
+      "clinical_question": "Is the seizure focus identified as hemispheric or poorly defined based on the full EEG reports?"
+    },
+    {
+      "criterion": "History of psychogenic non-epileptic seizures in past 2 years, or physiologic nonepileptic seizures and non-epileptogenic events, including suspicion for or a significant history of syncope, and any non-epileptic events must be clearly differentiable from patient's focal seizures based on previously recorded video EEG showing distinct clinical and electrographic features of the patient's psychogenic non-epileptic seizures (PNES) compared to their epileptic seizures.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of psychogenic non-epileptic seizures or differentiable events; however, the patient's history is complex.",
+      "clinical_question": "Has the patient experienced any psychogenic non-epileptic seizures in the past 2 years that can be clearly differentiated from their focal seizures based on previously recorded video EEG?"
+    },
+    {
+      "criterion": "Seizures of generalized onset",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has focal epilepsy, and there is no indication of generalized onset seizures.",
+      "clinical_question": "Has the patient experienced ≥2 seizures of generalized onset in the past 12 months?"
+    },
+    {
+      "criterion": "Status epilepticus in the last 12 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not had seizures for 20 years, but the status of recent seizures is unclear without full EEG reports.",
+      "clinical_question": "Has the patient experienced any episodes of status epilepticus in the last 12 months?"
+    },
+    {
+      "criterion": "Presence of any disease, medical condition or physical condition that, in the opinion of the Investigator, may compromise interfere, limit, affect or reduce the patient's ability to complete a study duration of 28 weeks (4 weeks screening, 12 weeks baseline, 2 weeks tDCS, 10 weeks follow-up).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's severe intellectual disability and other conditions may affect their ability to complete the study, but this is subjective.",
+      "clinical_question": "Does the patient have any comorbid conditions or complications that would prevent them from completing a study duration of 28 weeks?"
+    },
+    {
+      "criterion": "Presence of any disease, medical condition or physical condition that, in the opinion of the Investigator, may adversely impact the safety of the patient or the integrity of the data.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's multiple medical conditions could potentially impact safety and data integrity, but this is subjective.",
+      "clinical_question": "Does the patient have a current ejection fraction of less than 40% as assessed by echocardiogram?"
+    },
+    {
+      "criterion": "Damaged skin on scalp that may interfere with tDCS stimulation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the condition of the scalp; thus, it is uncertain.",
+      "clinical_question": "Does the patient have any visible skin lesions or abrasions on the scalp that could interfere with tDCS stimulation?"
+    },
+    {
+      "criterion": "Written informed consent obtained from study patient or patient's legal representative and ability for study patient to comply with the requirements of the study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Informed consent and compliance ability are not clearly established in the provided information.",
+      "clinical_question": "Has the patient or the patient's legal representative provided written informed consent for participation in the study?"
+    },
+    {
+      "criterion": "Assent from pediatric patients when appropriate.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Assent from the patient is not mentioned, and it is unclear if it is appropriate given the patient's age and condition.",
+      "clinical_question": "Has the patient provided verbal assent for participation in the study, as assessed by a trained clinician, given his age of 13 years and the presence of severe intellectual disability?"
+    },
+    {
+      "criterion": "Pregnant or unwilling to practice birth control during participation in the study.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and 13 years old, thus not pregnant and not applicable for birth control.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Nursing mothers.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and not a nursing mother.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any cranial metal implants (excluding ≦1 mm thick epicranial titanium skull plates and dental fillings) or medical devices (i.e., cardiac pacemaker, deep brain stimulator, medication infusion pump, cochlear implant). Note: Vagus nerve stimulator (VNS) is allowable if the device is in MR Mode (e.g., switched off) during tDCS stimulation and the VNS device is MR conditional.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about cranial metal implants or medical devices; further details are needed to assess.",
+      "clinical_question": "Does the patient have any cranial metal implants or medical devices, excluding epicranial titanium skull plates and dental fillings, that are thicker than 1 mm?"
+    },
+    {
+      "criterion": "Previous surgeries opening the skull leaving skull defects capable of allowing the insertion of a cylinder with a radius greater or equal to 5 mm.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about previous surgeries that may have left skull defects; further details are needed to assess.",
+      "clinical_question": "Does the patient have a skull defect with a radius ≥5 mm resulting from previous surgeries?"
+    },
+    {
+      "criterion": "Substance use disorder (including alcohol) according to Diagnostic and Statistical Manual, 5th edition (DSM-V) criteria in the past 3 years.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding substance use disorder; further details are needed to assess.",
+      "clinical_question": "Has the patient experienced any substance use disorder, including alcohol, as defined by DSM-V criteria, in the past 3 years?"
+    },
+    {
+      "criterion": "Participation in an interventional clinical trial within 30 days prior to screening.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about participation in other clinical trials; further details are needed to assess.",
+      "clinical_question": "Has the patient participated in any interventional clinical trial within the 30 days prior to screening?"
+    },
+    {
+      "criterion": "Patient's head circumference > 64 cm",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the patient's head circumference; further details are needed to assess.",
+      "clinical_question": "What is the patient's head circumference in centimeters?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Presence of a condition or abnormality that in the opinion of the Investigator w",
+    "EXCLUSION UNCLEAR: Evidence for more than one seizure focus. (NOTE: For this study, a seizure focus",
+    "EXCLUSION UNCLEAR: Seizure focus is one of: interhemispheric, cingulate, or orbitofrontal",
+    "EXCLUSION UNCLEAR: Seizure focus is hemispheric or poorly defined",
+    "EXCLUSION UNCLEAR: History of psychogenic non-epileptic seizures in past 2 years, or physiologic no",
+    "EXCLUSION UNCLEAR: Seizures of generalized onset",
+    "EXCLUSION UNCLEAR: Status epilepticus in the last 12 months",
+    "EXCLUSION UNCLEAR: Presence of any disease, medical condition or physical condition that, in the op",
+    "EXCLUSION UNCLEAR: Presence of any disease, medical condition or physical condition that, in the op",
+    "EXCLUSION UNCLEAR: Damaged skin on scalp that may interfere with tDCS stimulation.",
+    "EXCLUSION UNCLEAR: Any cranial metal implants (excluding ≦1 mm thick epicranial titanium skull plat",
+    "EXCLUSION UNCLEAR: Previous surgeries opening the skull leaving skull defects capable of allowing t",
+    "EXCLUSION UNCLEAR: Substance use disorder (including alcohol) according to Diagnostic and Statistic",
+    "EXCLUSION UNCLEAR: Participation in an interventional clinical trial within 30 days prior to screen",
+    "EXCLUSION UNCLEAR: Patient's head circumference > 64 cm",
+    "LOW INCLUSION MATCH: only 1 of 12 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.2759
+}

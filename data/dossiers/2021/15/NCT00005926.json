@@ -1,0 +1,140 @@
+{
+  "nct_id": "NCT00005926",
+  "trial_title": "Gemcitabine, Herceptin and Radiation to Treat Cancer of the Pancreas",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This study will examine the safety and effectiveness of the drugs Gemcitabine and Herceptin, given in conjunction with radiation therapy, for treating patients with cancer of the pancreas. Gemcitabine is standard therapy for advanced pancreatic cancer. It damages tumor cells and may enhance the effects of radiation therapy. Herceptin is a genetically engineered antibody that has prevented some tumors from growing in patients with breast cancer. Because breast and pancreatic cancer cells share an",
+  "eligibility_table": [
+    {
+      "criterion": "Patients must have regionally confined histologically or cytologically proven adenocarcinoma of the pancreas or Ampulla of Vater. Tumors must overexpress HER2 as demonstrated by greater than or equal to 2+ immunohistochemical staining of the biopsy specimen.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has pancreatic adenocarcinoma, but there is no information provided about HER2 overexpression, which is required for eligibility.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must sign an informed consent.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient signed the informed consent form for participation in the trial?"
+    },
+    {
+      "criterion": "Patients must have an ECOG performance status of less than or equal to 2.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "What is the patient's current ECOG performance status score?"
+    },
+    {
+      "criterion": "Patients should have a serum creatinine less than 1.5 mg/dl or creatinine clearance greater than 60 ml/hr; SGOT and SGPT less than 4 times the upper limit of normal.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's serum creatinine is 2.1 mg/dl, which exceeds the limit of 1.5 mg/dl.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have an ANC greater than 2000/mm(3) and platelets greater than 100,000/mm(3).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ANC and platelet counts, making it unclear if this criterion is met.",
+      "clinical_question": "What is the patient's absolute neutrophil count (ANC) and platelet count?"
+    },
+    {
+      "criterion": "Patients must be at least 18 years of age.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient 18 years of age or older?"
+    },
+    {
+      "criterion": "Patients of all racial and gender groups will be included.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient of a racial group that is included in the trial's eligibility criteria?"
+    },
+    {
+      "criterion": "Patients must not have received any prior gemcitabine, radiotherapy, or Herceptin therapy for pancreatic cancer.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any prior treatment with gemcitabine, radiotherapy, or Herceptin for pancreatic cancer?"
+    },
+    {
+      "criterion": "Patients cannot receive concurrent hormonal or immunotherapy treatment for pancreatic cancer.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any hormonal or immunotherapy treatment for pancreatic cancer within the last 6 months?"
+    },
+    {
+      "criterion": "Patients cannot receive any anti-tumor therapy within 30 days of protocol eligibility and must have recovered from any prior treatment related toxicity.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone angioplasty, which is a form of prior treatment, and it is unclear if they have waited the required 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must not have evidence of distant metastases (e.g., peritoneal, carcinomatosis, liver metastases).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any evidence of distant metastases, specifically in the peritoneum, liver, or other organs, as determined by imaging studies within the last 3 months?"
+    },
+    {
+      "criterion": "No concurrent second malignancy other than non-melanoma skin cancer or cervical carcinoma in situ.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any history of malignancies other than non-melanoma skin cancer or cervical carcinoma in situ?"
+    },
+    {
+      "criterion": "Must not have medical conditions that preclude undergoing surgery or receiving therapy or follow up, or have psychiatric disease which would prevent adequate informed consent or render receiving this therapy unsafe.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple medical conditions, including chronic kidney disease and anemia, which may preclude surgery or therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No patients with an LV ejection fraction less than the lower limit of normal as determined at the Clinical Center, NIH.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's LV ejection fraction, making it unclear if this criterion is met.",
+      "clinical_question": "What is the patient's left ventricular ejection fraction as measured by echocardiogram?"
+    },
+    {
+      "criterion": "Women must not be pregnant or nursing due to the unknown effects of this therapy on the unborn or nursing child.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "criterion targets female; patient is female",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must not have received prior abdominal or pelvic radiation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any prior abdominal or pelvic radiation therapy?"
+    },
+    {
+      "criterion": "Must not have recent myocardial infarction (less than 6 months prior), unstable angina, or congestive heart failure (NYHA class III or IV).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has coronary artery disease, which may indicate a recent myocardial infarction or unstable angina, but this is not confirmed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must not have active diseases which make the patient more susceptible to infection, including but not limited to AIDS, hepatitis, history of autoimmune disorders, because the experimental treatment being evaluated in this protocol may be unsafe in the absence of an intact immune system.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has chronic kidney disease and anemia, which may compromise the immune system, making them susceptible to infections.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 1 of 18 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3889
+}

@@ -1,0 +1,112 @@
+{
+  "nct_id": "NCT00002620",
+  "trial_title": "Radiation Therapy in Treating Patients With Brain Cancer",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Radiation therapy uses high-energy x-rays to damage tumor cells and may be an effective treatment for patients with anaplastic astrocytomas.\n\nPURPOSE: Randomized phase III trial to study the effectiveness of radiation therapy in treating patients with anaplastic astrocytomas.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed anaplastic astrocytoma Standard maximum resection or stereotactic biopsy required within 4 weeks prior to therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma but there is no indication of a recent standard maximum resection or stereotactic biopsy within the required 4 weeks prior to therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: Over 16",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 > 16.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: ECOG/ZUBROD/WHO 0-2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status score of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Life expectancy: At least 8 weeks",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's age and medical history suggest a life expectancy of at least 8 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hematopoietic: WBC greater than 4,000",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's white blood cell count greater than 4,000 cells per microliter?"
+    },
+    {
+      "criterion": "Platelets greater than 100,000",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a platelet count greater than 100,000?"
+    },
+    {
+      "criterion": "Hematocrit greater than 30%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's hematocrit level greater than 30%?"
+    },
+    {
+      "criterion": "Hepatic: Bilirubin less than 2 mg/dl",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level currently less than 2 mg/dl?"
+    },
+    {
+      "criterion": "Renal: Creatinine less than 1.5 mg/dl",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level currently less than 1.5 mg/dl?"
+    },
+    {
+      "criterion": "Creatinine clearance greater than 70 ml/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current creatinine clearance value?"
+    },
+    {
+      "criterion": "BUN less than 40 mg/dl",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current blood urea nitrogen (BUN) level?"
+    },
+    {
+      "criterion": "Other: No major medical illness",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple significant medical conditions including hypertension and chronic pain, which may be considered major medical illnesses.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No anticancer drugs between surgery and protocol treatment",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has been on multiple anticancer drugs (temozolomide, CPT-11, and Avastin) and there is no indication that there has been a gap between surgery and protocol treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No steroids after 10 days following surgery (may be resumed occasionally during radiotherapy)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on high-dose steroids, which would not meet the criterion of no steroids after 10 days following surgery.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 2 of 14 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4286
+}

@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT03000439",
+  "trial_title": "A Safety, Efficacy And Pharmacokinetics Study Of Tofacitinib In Pediatric Patients With sJIA",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "A randomized withdrawal study in which responders to open-label treatment with tofacitinib will be randomized in a 1:1 ratio to tofacitinib or placebo in a double-blind phase. In the double-blind phase \"time to sJIA flare\" will be evaluated as primary endpoint and subjects will be discontinued once they experience sJIA flare. An interim analysis for efficacy and futility will be conducted when at least 20 flares have been observed. If either criterion is met, the study will be stopped. If neithe",
+  "eligibility_table": [
+    {
+      "criterion": "active sJIA disease according to ILAR criteria before screening and at baseline (Day 1);",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has systemic mastocytosis, not systemic juvenile idiopathic arthritis (sJIA), and does not meet the ILAR criteria for active sJIA.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Treatment with stable doses of methotrexate (MTX) ≤25 mg/week or ≤20 mg/m2/week, whichever is lower, is permitted;",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on a prednisone taper, but the specific dose and stability of methotrexate treatment are not provided, making it unclear if this criterion is met.",
+      "clinical_question": "Is the patient currently receiving a stable dose of methotrexate at or below 25 mg/week or 20 mg/m2/week?"
+    },
+    {
+      "criterion": "Treatment with a stable dose of oral prednisone ≤1 mg/kg/day up to a maximum of 30 mg/day, or equivalent, for at least 1 week before the first study drug dose is permitted.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is on a prednisone taper, and if the dose is ≤1 mg/kg/day or ≤30 mg/day, this criterion is likely met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous juvenile idiopathic arthritis (JIA) treatment with tofacitinib.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about previous treatments with tofacitinib, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient previously received tofacitinib as a treatment for juvenile idiopathic arthritis (JIA)?"
+    },
+    {
+      "criterion": "Current symptoms or findings of myocarditis, endocarditis or more than minimal pericardial effusion associated with systemic juvenile idiopathic arthritis (sJIA). Current symptoms or findings of more than minimal pleuritis with sJIA.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has tachycardia and flushing, but there is no specific mention of myocarditis, endocarditis, or pleuritis, making it uncertain.",
+      "clinical_question": "Does the patient currently exhibit symptoms or findings of myocarditis, endocarditis, or more than minimal pericardial effusion as assessed by echocardiogram?"
+    },
+    {
+      "criterion": "Current infection or serious infection within 3 months of study enrollment.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on multiple medications and has a history of systemic mastocytosis, which may indicate a serious infection risk.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Previous juvenile idiopathic arthritis (JIA) treatment with tofacitinib.",
+    "EXCLUSION UNCLEAR: Current symptoms or findings of myocarditis, endocarditis or more than minimal p",
+    "EXCLUSION VIOLATED: Current infection or serious infection within 3 months of study enrollment."
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.5
+}

@@ -1,0 +1,287 @@
+{
+  "nct_id": "NCT00669318",
+  "trial_title": "Pentostatin, Alemtuzumab, and Rituximab in Treating Patients With Relapsed or Refractory Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as pentostatin, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as alemtuzumab and rituximab, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them. Giving pentostatin together with alemtuzumab and rituximab may kill mo",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically confirmed chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL) meeting the following criteria:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of chronic lymphocytic leukemia (CLL).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Minimum threshold peripheral blood lymphocyte count of 5 x 10^9/L (CLL variant) OR adenopathy > 1 cm or palpable splenomegaly (SLL variant)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has elevated white count and bulky lymphadenopathy, indicating significant disease burden.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Immunophenotypic demonstrations of a population of B lymphocytes (as defined by CD19+) that are monoclonal (by light chain exclusion) AND have ≥ 3 of the following characteristics:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific immunophenotypic data provided to confirm monoclonality or the required characteristics.",
+      "clinical_question": "Does the patient's B lymphocyte population demonstrate monoclonality by light chain exclusion and exhibit at least 3 of the specified immunophenotypic characteristics?"
+    },
+    {
+      "criterion": "CD5+",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific data provided regarding CD5 expression.",
+      "clinical_question": "Does the patient have ≥30% CD5+ cells in the peripheral blood or bone marrow?"
+    },
+    {
+      "criterion": "CD23+",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific data provided regarding CD23 expression.",
+      "clinical_question": "Does the patient have a CD23+ expression level of ≥20% in the biopsy of the left cervical node?"
+    },
+    {
+      "criterion": "Dim surface light chain expression",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific data provided regarding surface light chain expression.",
+      "clinical_question": "Does the patient exhibit dim surface light chain expression on flow cytometry analysis?"
+    },
+    {
+      "criterion": "Dim surface CD20 expression",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific data provided regarding surface CD20 expression.",
+      "clinical_question": "Does the patient have a dim surface CD20 expression level of ≤20% on their malignant B cells as determined by flow cytometry?"
+    },
+    {
+      "criterion": "FISH analysis is negative for IGH/CCND1 and/or immunostaining is negative for cyclin D1 expression",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No FISH analysis results provided to confirm IGH/CCND1 status.",
+      "clinical_question": "Is the FISH analysis negative for IGH/CCND1 and is the immunostaining negative for cyclin D1 expression in this patient?"
+    },
+    {
+      "criterion": "Must have progressive disease as indicated by any of the following characteristics (based on standard criteria for treatment):",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of progressive disease with multiple prior treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Symptomatic CLL characterized by any of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient exhibits symptoms of CLL, including elevated LDH and bulky lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Weight loss > 10% within the past 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient profile does not specify weight loss, making it unclear if the criterion is met.",
+      "clinical_question": "Has the patient experienced a weight loss of >10% within the past 6 months?"
+    },
+    {
+      "criterion": "Extreme fatigue",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on fatigue levels provided; cannot assess this criterion.",
+      "clinical_question": "Has the patient reported experiencing extreme fatigue defined as a fatigue score of ≥7 on a 10-point scale over the past week?"
+    },
+    {
+      "criterion": "Fevers > 38.5° C (not due to infection)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No temperature records are provided; unable to determine if fevers are present.",
+      "clinical_question": "Has the patient experienced fevers exceeding 38.5° C that are not attributable to any infectious cause?"
+    },
+    {
+      "criterion": "Drenching night sweats without evidence of infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No mention of night sweats in the profile; cannot assess this criterion.",
+      "clinical_question": "Has the patient experienced drenching night sweats occurring ≥3 times per week for the past month without evidence of infection?"
+    },
+    {
+      "criterion": "Evidence of progressive bone marrow failure with hemoglobin < 11 g/dL or platelet count < 100 x 10^9/L",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided; hemoglobin and platelet counts are unknown.",
+      "clinical_question": "Does the patient have a hemoglobin level < 11 g/dL or a platelet count < 100 x 10^9/L?"
+    },
+    {
+      "criterion": "Massive and progressive splenomegaly (> 6 cm below left costal margin)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on splenomegaly is provided; cannot assess this criterion.",
+      "clinical_question": "Is the patient's splenomegaly greater than 6 cm below the left costal margin?"
+    },
+    {
+      "criterion": "Massive (> 10 cm) or rapidly progressive lymphadenopathy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific measurements of lymphadenopathy are provided; unable to assess.",
+      "clinical_question": "Does the patient have lymphadenopathy measuring >10 cm in the largest dimension?"
+    },
+    {
+      "criterion": "PATIENT CHARACTERISTICS:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific patient characteristics are detailed; cannot assess this criterion.",
+      "clinical_question": "Has the patient experienced a relapse or refractory status after receiving at least two prior lines of therapy for chronic lymphocytic leukemia?"
+    },
+    {
+      "criterion": "ECOG performance status 0-3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status score of 0, 1, 2, or 3?"
+    },
+    {
+      "criterion": "Creatinine ≤ 2 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level ≤ 2 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Total bilirubin ≤ 3.0 times ULN OR direct bilirubin ≤ 1.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for bilirubin are not provided; unable to determine if this criterion is met.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 3.0 times the upper limit of normal (ULN) or is the direct bilirubin level ≤ 1.5 times the ULN?"
+    },
+    {
+      "criterion": "AST ≤ 3.0 times ULN (unless due to hemolysis or CLL)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for AST are not provided; unable to determine if this criterion is met.",
+      "clinical_question": "Is the patient's AST level ≤ 3.0 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Willing to provide mandatory blood samples for research studies",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely willing to provide blood samples as part of standard clinical trial procedures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male, so the criteria regarding pregnancy or nursing does not apply.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about a pregnancy test; unable to assess.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for up to 12 months after completion of study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on contraception use is provided; unable to assess.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, and can they confirm its use will continue during and for 12 months after completion of study treatment?"
+    },
+    {
+      "criterion": "No other active primary malignancy that requires treatment or limits survival to ≤ 2 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No other active primary malignancies are reported, and the patient's survival is not limited.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No active autoimmune hemolytic anemia, immune thrombocytopenia, or pure red blood cell aplasia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on autoimmune conditions is provided; unable to assess.",
+      "clinical_question": "Does the patient have a current diagnosis of active autoimmune hemolytic anemia, immune thrombocytopenia, or pure red blood cell aplasia as indicated by laboratory tests?"
+    },
+    {
+      "criterion": "No New York Heart Association class III or IV heart disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No evidence of heart disease is mentioned, and the patient has an excellent performance status.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No myocardial infarction within the past month",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on recent myocardial infarction is provided; unable to assess.",
+      "clinical_question": "Has the patient experienced a myocardial infarction within the past 30 days?"
+    },
+    {
+      "criterion": "No uncontrolled infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on infections is provided; unable to assess.",
+      "clinical_question": "Does the patient currently have a body temperature ≥ 38.0°C or a white blood cell count > 10,000 cells/mm³ indicating an uncontrolled infection?"
+    },
+    {
+      "criterion": "No HIV infection or AIDS",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on HIV status is provided; unable to assess.",
+      "clinical_question": "Does the patient have a documented negative HIV test result within the last 12 months?"
+    },
+    {
+      "criterion": "No active hepatitis B infection (i.e., HBsAg or HBeAg positivity) or hepatitis C infection by serology",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient profile does not provide information on hepatitis B or C serology, making it unclear if this criterion is met.",
+      "clinical_question": "Is the patient HBsAg and HBeAg negative, and is there serological evidence of no active hepatitis C infection?"
+    },
+    {
+      "criterion": "No other comorbid condition",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has multiple conditions including CLL, large cell transformation, and Richter's transformation, indicating comorbidities.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No more than 3 prior treatment regimens for CLL that included purine analogue drugs (e.g., fludarabine, pentostatin, or cladribine) OR previously untreated CLL in patients with high-risk disease due to 17p13 deletion on FISH analysis",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has undergone four treatment regimens (FCR, PCR, R-CVP), exceeding the limit of three prior regimens.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "More than 4 weeks since prior major surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the timing of any major surgeries, so it is unclear if this criterion is met.",
+      "clinical_question": "Has the patient undergone any major surgery within the last 4 weeks?"
+    },
+    {
+      "criterion": "More than 2 months since prior alemtuzumab",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the timing of prior alemtuzumab treatment, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient received alemtuzumab more than 2 months ago?"
+    },
+    {
+      "criterion": "Prior corticosteroids allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has received prior corticosteroids, which is allowed according to the criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent continuous systemic corticosteroids",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about current use of systemic corticosteroids, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient been on continuous systemic corticosteroids for the past 30 days?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 9 of 39 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2821
+}

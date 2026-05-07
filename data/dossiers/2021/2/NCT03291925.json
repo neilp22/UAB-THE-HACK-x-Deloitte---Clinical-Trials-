@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT03291925",
+  "trial_title": "Primary Non-invasive Cardiac Computed Tomography Versus Routine Invasive Angiography Prior to TAVI",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "This pilot study is a prospective, randomized, open-label trial that aims to assess the feasibility of comparing a primary Computed tomography/Cardiac computed tomography angiography (CT/CCTA) strategy (test arm) to a strategy combining routine use of CT/CCTA and invasive CA (control arm) prior to a Transcatheter aortic valve implantation (TAVI) procedure. The study will also estimate the rate of composite coronary adverse events (myocardial infarction, post procedural coronary revascularization",
+  "eligibility_table": [
+    {
+      "criterion": "Severe aortic stenosis (Peak transvalvular gradient of ≥ 40mmHg on TTE or stress Echo, Aortic valve area of < 1.0cm2)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis, which is indicated by the presence of aortic insufficiency and significant left ventricular dysfunction, consistent with the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Symptoms suggestive of aortic stenosis (dyspnea, syncope, angina)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient exhibits symptoms suggestive of aortic stenosis, including severe left ventricular dysfunction and likely dyspnea due to heart failure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Eligible for TAVI (Upon evaluation by a multidisciplinary team composed of at least one interventional cardiologist and one cardiothoracic surgeon)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "While the patient has severe aortic stenosis, it is unclear if they have been evaluated by a multidisciplinary team for TAVI eligibility.",
+      "clinical_question": "Has the patient been evaluated by at least one interventional cardiologist and one cardiothoracic surgeon for eligibility for TAVI?"
+    },
+    {
+      "criterion": "Severe renal dysfunction Glomerular filtration rate < 30 ml/min.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's glomerular filtration rate (GFR) less than 30 ml/min?"
+    },
+    {
+      "criterion": "Severe left ventricular dysfunction LVEF ≤ 30%",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) ≤ 30% as measured by echocardiogram or cardiac MRI?"
+    },
+    {
+      "criterion": "Recent coronary angiography ≤ 6months from randomization",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient underwent a cardiac catheterization recently, which is considered a recent coronary angiography.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recent PCI ≤ 6months from randomization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any recent PCI, so it cannot be determined if this criterion is met or not.",
+      "clinical_question": "Has the patient undergone a percutaneous coronary intervention (PCI) within the last 6 months prior to randomization?"
+    },
+    {
+      "criterion": "Recent or active acute coronary syndrome (New or worsening angina with or without positive biomarkers or ECG changes)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of worsening LV function and may have symptoms consistent with acute coronary syndrome, but there are no specific details provided to confirm or deny this.",
+      "clinical_question": "Has the patient experienced new or worsening angina in the past 30 days, with or without positive biomarkers or ECG changes?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Severe renal dysfunction Glomerular filtration rate < 30 ml/min.",
+    "EXCLUSION UNCLEAR: Severe left ventricular dysfunction LVEF ≤ 30%",
+    "EXCLUSION UNCLEAR: Recent PCI ≤ 6months from randomization",
+    "EXCLUSION UNCLEAR: Recent or active acute coronary syndrome (New or worsening angina with or withou"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.375
+}

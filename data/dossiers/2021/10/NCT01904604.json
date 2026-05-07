@@ -1,0 +1,189 @@
+{
+  "nct_id": "NCT01904604",
+  "trial_title": "Peanut Epicutaneous Phase II Immunotherapy Clinical Trial",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Food allergy occurs when the immune system reacts against foods. The immune system is the part of the body that protects us from illness and germs, but it can also cause allergies. Peanut allergy occurs in 1 - 2% of people in the United States and other Western countries. There is proof that allergy to peanut is increasing. Allergic reactions to peanut can be severe and life threatening. The only way that you can prevent an allergic reaction is to avoid exposure to peanuts. However, peanut prote",
+  "eligibility_table": [
+    {
+      "criterion": "Physician-diagnosed peanut allergy OR convincing history of peanut allergy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention a peanut allergy or history of peanut allergy, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient have a documented history of anaphylaxis or other severe allergic reaction to peanuts?"
+    },
+    {
+      "criterion": "A skin prick test positive to peanut (wheal diameter ≥3mm greater than the saline control) OR detectable peanut specific Immunoglobulin E (IgE) (ImmunoCAP >0.35 kUA/L)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess for peanut-specific IgE or skin prick test results.",
+      "clinical_question": "Is the patient's skin prick test result positive for peanut with a wheal diameter ≥3mm greater than the saline control?"
+    },
+    {
+      "criterion": "Positive reaction to a cumulative dose of ≤1044 mg peanut protein in the initial qualifying Oral Food Challenge (OFC)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the patient's response to an Oral Food Challenge (OFC) is available.",
+      "clinical_question": "Has the patient demonstrated a positive reaction to a cumulative dose of ≤1044 mg peanut protein during the initial qualifying Oral Food Challenge (OFC)?"
+    },
+    {
+      "criterion": "Use of an effective method of contraception by females of childbearing potential to prevent pregnancy and agree to continue to practice an acceptable method of contraception for the duration of their participation in the study",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is a female of childbearing potential and likely uses contraception, but this is not explicitly stated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to perform spirometry maneuvers in accordance with the American Thoracic Society (ATS) guidelines (1994). Children ages 4-11 years who have documented inability to adequately perform spirometry may be enrolled if Peak Expiratory Flow (PEF) is >80% of predicted",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided on the patient's ability to perform spirometry maneuvers.",
+      "clinical_question": "Is the patient's Peak Expiratory Flow (PEF) greater than 80% of the predicted value?"
+    },
+    {
+      "criterion": "Provide signed informed consent or assent where indicated",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient can provide informed consent as she is 22 years old.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of anaphylaxis to peanut resulting in hypotension, neurological compromise or requiring mechanical ventilation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of systemic mastocytosis, but no specific mention of anaphylaxis to peanut.",
+      "clinical_question": "Has the patient experienced anaphylaxis to peanut that resulted in hypotension (systolic blood pressure <90 mmHg), neurological compromise, or required mechanical ventilation?"
+    },
+    {
+      "criterion": "Participation in a study using an investigational new drug in the last 30 days",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on participation in other studies using investigational drugs in the last 30 days.",
+      "clinical_question": "Has the patient participated in any study using an investigational new drug within the last 30 days?"
+    },
+    {
+      "criterion": "Participation in any interventional study for the treatment of food allergy in the past 6 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on participation in interventional studies for food allergy in the past 6 months.",
+      "clinical_question": "Has the patient participated in any interventional study for the treatment of food allergy in the past 6 months?"
+    },
+    {
+      "criterion": "Pregnancy or lactation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to be pregnant or lactating, but this is not explicitly confirmed.",
+      "clinical_question": "Is the patient currently pregnant or breastfeeding?"
+    },
+    {
+      "criterion": "Current or known allergy to the Viaskin Peanut/Placebo patch device or excipients",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has systemic mastocytosis, which may complicate the assessment of allergies to the Viaskin Peanut patch or its excipients.",
+      "clinical_question": "Does the patient have a documented allergy to any component of the Viaskin Peanut patch or its excipients?"
+    },
+    {
+      "criterion": "Current or known allergy to the placebo allergen (oat flour) in oral food challenge (OFC)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of systemic mastocytosis and adverse reactions to medications makes it unclear if she has an allergy to oat flour.",
+      "clinical_question": "Does the patient have a documented allergy to oat flour confirmed by an oral food challenge?"
+    },
+    {
+      "criterion": "Currently in a build-up phase of any allergen immunotherapy",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is currently undergoing any allergen immunotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe or poorly controlled atopic dermatitis or greater than a mild flare of active disease at enrollment",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of systemic mastocytosis and is experiencing flares, indicating poorly controlled disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Forced Expiratory Volume in 1 Second (FEV1) value <80% predicted or any clinical features of moderate or severe persistent asthma baseline severity (as defined by the 2007 NHLBI Guidelines) and greater than high daily doses of inhaled corticosteroids (>500mcg of Fluticasone or equivalent)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's FEV1 is not provided, and her respiratory status is unclear due to systemic mastocytosis.",
+      "clinical_question": "Is the patient's Forced Expiratory Volume in 1 Second (FEV1) value less than 80% of the predicted value?"
+    },
+    {
+      "criterion": "Use of steroid medications in the following manners: history of daily oral steroid dosing for >1 month during the past year, or burst or steroid course in the past 3 months, or >1 burst oral steroid course in the past year or use of oral or parenteral steroids for a non-asthma indication within the past 30 days",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on a steroid taper and has used steroids in the past year, which does not meet the exclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Asthma requiring >1 hospitalization in the past year for asthma or >1 Emergency Department (ED) visit in the past 6 months for asthma",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not specify hospitalizations or ED visits for asthma, but her systemic mastocytosis may complicate asthma management.",
+      "clinical_question": "Has the patient had ≥1 hospitalization for asthma in the past year or ≥1 Emergency Department visit for asthma in the past 6 months?"
+    },
+    {
+      "criterion": "Any previous intubation/mechanical ventilation due to allergies or asthma",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of intubation or mechanical ventilation due to allergies or asthma in the patient's profile.",
+      "clinical_question": "Has the patient ever required intubation or mechanical ventilation due to an allergic reaction or asthma exacerbation?"
+    },
+    {
+      "criterion": "Use of omalizumab or other non-traditional forms of allergen immunotherapy or immunomodulatory or biologic therapy in the past year",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on multiple medications, but it is unclear if she has used omalizumab or similar therapies in the past year.",
+      "clinical_question": "Has the patient used omalizumab or any other non-traditional forms of allergen immunotherapy or immunomodulatory or biologic therapy in the past 12 months?"
+    },
+    {
+      "criterion": "Use of beta-adrenergic blockers, angiotensin-converting enzyme inhibitors, angiotensin-receptor blockers, or calcium channel blockers in the past 30 days",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on calcium and other medications, but there is no specific mention of beta-blockers or ACE inhibitors in the past 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Inability to discontinue antihistamines for skin testing and OFC",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is currently on antihistamines, but it is unclear if they can be discontinued for skin testing and OFC. More information is needed regarding the patient's ability to stop these medications.",
+      "clinical_question": "Has the patient been able to discontinue all antihistamines for at least 7 days prior to skin testing and oral food challenge?"
+    },
+    {
+      "criterion": "History of alcohol or drug abuse",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of a history of alcohol or drug abuse in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of cardiovascular disease, uncontrolled hypertension, arrhythmias, chronic lung disease, active eosinophilic gastrointestinal disease, or other medical conditions including immunologic disorders or HIV infection which, in the opinion of the investigator, make the subject unsuitable for treatment or at increased risk of anaphylaxis or poor outcome",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of tachycardia, which may be considered a cardiovascular issue, and could increase the risk of anaphylaxis or poor outcomes.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: History of anaphylaxis to peanut resulting in hypotension, neurological compromi",
+    "EXCLUSION UNCLEAR: Participation in a study using an investigational new drug in the last 30 days",
+    "EXCLUSION UNCLEAR: Participation in any interventional study for the treatment of food allergy in t",
+    "EXCLUSION UNCLEAR: Pregnancy or lactation",
+    "EXCLUSION UNCLEAR: Current or known allergy to the Viaskin Peanut/Placebo patch device or excipient",
+    "EXCLUSION UNCLEAR: Current or known allergy to the placebo allergen (oat flour) in oral food challe",
+    "EXCLUSION VIOLATED: Severe or poorly controlled atopic dermatitis or greater than a mild flare of ac",
+    "EXCLUSION UNCLEAR: Forced Expiratory Volume in 1 Second (FEV1) value <80% predicted or any clinical",
+    "EXCLUSION VIOLATED: Use of steroid medications in the following manners: history of daily oral stero",
+    "EXCLUSION UNCLEAR: Asthma requiring >1 hospitalization in the past year for asthma or >1 Emergency ",
+    "EXCLUSION UNCLEAR: Any previous intubation/mechanical ventilation due to allergies or asthma",
+    "EXCLUSION UNCLEAR: Use of omalizumab or other non-traditional forms of allergen immunotherapy or im",
+    "EXCLUSION VIOLATED: Use of beta-adrenergic blockers, angiotensin-converting enzyme inhibitors, angio",
+    "EXCLUSION UNCLEAR: Inability to discontinue antihistamines for skin testing and OFC",
+    "EXCLUSION VIOLATED: History of cardiovascular disease, uncontrolled hypertension, arrhythmias, chron"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3478
+}

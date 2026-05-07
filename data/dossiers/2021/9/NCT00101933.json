@@ -1,0 +1,85 @@
+{
+  "nct_id": "NCT00101933",
+  "trial_title": "SANTE - Stimulation of the Anterior Nucleus of the Thalamus for Epilepsy",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this research is to study the safety and effectiveness of bilateral stimulation of the anterior nucleus of the thalamus as adjunctive therapy for reducing the frequency of seizures in adults diagnosed with epilepsy characterized by partial-onset seizures, with or without secondary generalization, that are refractory to antiepileptic medications.",
+  "eligibility_table": [
+    {
+      "criterion": "Partial-onset seizures with or without secondary generalization. The final determination shall be made by the Investigator based on a clinical description of the seizures and previous diagnostic testing that includes, at a minimum, video/clinical EEG that captured at least one ictal event.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has focal epilepsy with secondary generalization, but the first seizure occurred at age 13 and there is no evidence of video/clinical EEG capturing an ictal event.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anticipated average of 6 or more partial-onset seizures (with or without secondary generalized seizures) per month during the Baseline Phase, with no more than 30 days between seizures during the Baseline Phase.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not had seizures for 20 years, indicating they do not meet the requirement of 6 or more seizures per month during the Baseline Phase.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Refractory to antiepileptic drugs (AEDs). Patients will be considered refractory if they have failed at least three AEDs due to lack of efficacy.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has only been treated with two AEDs (Dilantin and phenobarbital) and has not failed three AEDs due to lack of efficacy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Receiving one to four currently marketed AEDs",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently receiving two AEDs (valium and phenobarbital), which is within the allowed range of one to four marketed AEDs.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Be between 18 and 65 years of age at the time of lead implant",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 13 years old, which is below the minimum age requirement of 18 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Be between 65 and 18 years of age at the time of lead implant",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 13 years old, which does not meet the age requirement of being between 65 and 18 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Multilobar (>3 different lobes) anatomic areas of seizure onset",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's seizure onset is focal, and there is no clear indication of multilobar seizure onset based on the provided information.",
+      "clinical_question": "Does the patient have seizure onset from ≥3 different lobes as confirmed by EEG findings?"
+    },
+    {
+      "criterion": "Symptomatic generalized epilepsy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has focal epilepsy, not symptomatic generalized epilepsy, which does not meet the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous diagnosis of psychogenic/non-epileptic seizures",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of a previous diagnosis of psychogenic or non-epileptic seizures in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Presence of implanted electrical stimulation medical device anywhere in the body (e.g., cardiac pacemakers, spinal cord stimulator) or any metallic implants in the head (e.g., aneurysm clip, cochlear implant). Vagal nerve stimulators are allowed if the device has been turned off for at least 30 days prior to the Baseline Week -12 visit and the patient agrees to have the generator explanted prior to or at the time of the Kinetra Neurostimulator implant.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no mention of any implanted electrical stimulation medical device or metallic implants in the head.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Multilobar (>3 different lobes) anatomic areas of seizure onset",
+    "LOW INCLUSION MATCH: only 1 of 9 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.9
+}

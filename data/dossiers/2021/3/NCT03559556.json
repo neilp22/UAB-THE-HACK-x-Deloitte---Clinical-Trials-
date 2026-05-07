@@ -1,0 +1,121 @@
+{
+  "nct_id": "NCT03559556",
+  "trial_title": "Treating Arteriovenous Malformation With Stereotactic Radiosurgery Using CT Angiography for Treatment Planning",
+  "phase": "EARLY_PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "Evaluate whether a treatment plan based on CT angiography can accurately and precisely identify the target nidus as compared to standard cerebral arteriography fused to MRI.",
+  "eligibility_table": [
+    {
+      "criterion": "Documented AVM with draining vein(s).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a documented arteriovenous malformation (AVM) with abnormal vasculature and draining veins.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Adequate renal function (serum Creatinine < 1.5 mg/dl within 30 days of SRS) to undergo contrast CT and interventional cerebral arteriography on the same day, as determined by treating physicians.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's renal function (serum creatinine levels) to assess eligibility.",
+      "clinical_question": "Is the patient's serum creatinine level < 1.5 mg/dl within the last 30 days?"
+    },
+    {
+      "criterion": "AVM must be physically separated from the optic pathway, brainstem or spinal cord.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The location of the AVM in relation to the optic pathway, brainstem, or spinal cord is not specified.",
+      "clinical_question": "Is the arteriovenous malformation located at least 3 mm away from the optic pathway, brainstem, and spinal cord?"
+    },
+    {
+      "criterion": "The maximum diameter of AVM nidus must be less than 3.5 cm and/or less than 12 cc.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The maximum diameter of the AVM nidus is not provided, making it impossible to assess this criterion.",
+      "clinical_question": "What is the maximum diameter of the patient's AVM nidus in centimeters?"
+    },
+    {
+      "criterion": "Age ≥ 10 years.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 10.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "All men, as well as women of child-bearing potential must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation. Should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is a 32-year-old female and can agree to use contraception if required.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A female of child-bearing potential is any woman (regardless of sexual orientation, having undergone a tubal ligation, or remaining celibate by choice) who meets the following criteria:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is a female of child-bearing potential, as she is 32 years old and has not undergone a hysterectomy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Has not undergone a hysterectomy or bilateral oophorectomy; or",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not undergone a hysterectomy or bilateral oophorectomy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Has not been naturally postmenopausal for at least 12 consecutive months (i.e., has had menses at any time in the preceding 12 consecutive months).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's menstrual history to determine if she is postmenopausal.",
+      "clinical_question": "Has the patient had any menstrual bleeding in the past 12 consecutive months?"
+    },
+    {
+      "criterion": "Ability to understand and the willingness to sign a written informed consent.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The ability to understand and willingness to sign informed consent is not addressed in the provided information.",
+      "clinical_question": "Does the patient demonstrate an understanding of the study protocol and is she willing to sign the informed consent form?"
+    },
+    {
+      "criterion": "Patients without a documented AVM.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a documented AVM, fulfilling the exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with a contraindication to CT or MRI such as contrast allergy, kidney failure or implanted metal devices or foreign bodies or severe claustrophobia.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has no reported contraindications to CT or MRI, but further information about any potential allergies or implanted devices is needed.",
+      "clinical_question": "Does the patient have a documented allergy to contrast agents, a history of kidney failure, implanted metal devices, or severe claustrophobia?"
+    },
+    {
+      "criterion": "Use of Nephrotoxic drugs, such as gentamycin, high-dose nonsteroidal anti-inflammatory drugs, or certain chemotherapeutic drugs within 10 days of the procedure.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on pain medication, which is not listed as nephrotoxic, and there is no indication of recent use of nephrotoxic drugs.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Psychiatric illness/social situations that would limit compliance with study requirements.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's psychiatric history or social situations that may affect compliance.",
+      "clinical_question": "Does the patient have a history of psychiatric illness or social situations that would limit compliance with study requirements, as defined by the presence of any diagnosed mental health disorder or significant social instability?"
+    },
+    {
+      "criterion": "Patients must not be pregnant at the time of SRS treatment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's pregnancy status is not mentioned, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Is there a confirmed negative pregnancy test for the patient within the last 7 days prior to the stereotactic radiosurgery treatment?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients with a contraindication to CT or MRI such as contrast allergy, kidney f",
+    "EXCLUSION UNCLEAR: Psychiatric illness/social situations that would limit compliance with study req",
+    "EXCLUSION UNCLEAR: Patients must not be pregnant at the time of SRS treatment."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4667
+}

@@ -1,0 +1,36 @@
+{
+  "nct_id": "NCT03269734",
+  "trial_title": "Evaluation of the Accuracy of the Vessel Navigator Tool for Catheterization of Supra-aortic Vessels - ARCHIBALD",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "This study compares the accuracy of fusion imaging (Fusion Roadmap) versus real-time X-ray imaging (Roadmap) during catheterization of supra-aortic trunks of in patients with aneurysms or arteriovenous malformations.",
+  "eligibility_table": [
+    {
+      "criterion": "Preoperative assessment or systematic follow-up of aneurysms or arteriovenous malformations, arterial cervical or intracranial stenosis, head and neck vascular tumors.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has an arteriovenous malformation (AVM), which qualifies her for preoperative assessment or systematic follow-up as per the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with contraindication to intravenous contrast.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on pain medication, but there is no specific information provided about contraindications to intravenous contrast. Therefore, it is not clear if she meets this exclusion criterion.",
+      "clinical_question": "Does the patient have any contraindications to intravenous contrast, such as a history of severe allergic reactions or renal impairment?"
+    },
+    {
+      "criterion": "Patients with catheterization of the supra-aortic vessels in an emergency settings (Stroke, acute bleeding).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not indicate recent catheterization of the supra-aortic vessels, but the details of her emergency treatment are not provided, making it uncertain whether this exclusion applies.",
+      "clinical_question": "Was the Vessel Navigator Tool used for catheterization of the supra-aortic vessels during the emergency procedure for this patient?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients with contraindication to intravenous contrast.",
+    "EXCLUSION UNCLEAR: Patients with catheterization of the supra-aortic vessels in an emergency settin"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

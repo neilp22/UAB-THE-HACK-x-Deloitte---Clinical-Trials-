@@ -1,0 +1,165 @@
+{
+  "nct_id": "NCT03426384",
+  "trial_title": "FLARE Lupus Research Study Systemic Lupus Erythematosus",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "The first phase of this pilot study will assess changes in quality of life at the end of a 16-week Mymee program in patients with moderate to severe SLE. The second phase will assess changes in healthcare utilization and cost over a one year period after program end.",
+  "eligibility_table": [
+    {
+      "criterion": "≥ 18 years of age who can consent for themselves",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 22.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Location - U.S.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is located in the U.S.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Proficient in English (speaking, reading, and writing)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is not proficient in English.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Own or have reliable access to a smartphone (iPhone or Android)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient likely has access to a smartphone, as it is common for individuals in this demographic.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Provision of medical record",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can provide medical records as part of standard care.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diagnosis of Lupus SLE as indicated in medical record",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has systemic mastocytosis, not Lupus SLE.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Symptomatic lupus as indicated by a score of at least 6 on one or more of BPI-SF questions 3, 5, or 6 and/or a score of at least 3 on one or more of the first four questions on the FACIT",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's scores on BPI-SF or FACIT.",
+      "clinical_question": "Does the patient have a score of at least 6 on one or more of the BPI-SF questions 3, 5, or 6, or a score of at least 3 on one or more of the first four questions on the FACIT?"
+    },
+    {
+      "criterion": "Current prescription for one or more of the following medications: 20mg/day of oral prednisone (or other oral corticosteroid equivalent dose); methotrexate and/or other immunosuppressive therapy of any dosage such as cyclophosphamide (Cytoxan®), methotrexate (Rheumatrex™), or azathioprine (muran®), adalimumab (Humira Pen, Humira Pen Crohn's-UC-HS Start, Humira Pediatric Crohn's Start, Humira, and Humira Pen Psoriasis-Uveitis), Plaquenil, Cellcept; monoclonal antibodies (mAbs) such as Benlysta® (belimuab, formerly called LymphoStat-B™); rituximab (Rituxan, MabThera and others)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not on any of the specified medications for lupus.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Able and willing to consent to study protocol",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old and can consent to the study protocol.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Medications which have been stable for 3 months",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's medications have changed recently due to a steroid taper.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnant and/or planning to get pregnant before end of 16-week intervention",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's pregnancy status.",
+      "clinical_question": "Is the patient currently pregnant or has she confirmed plans to become pregnant before the end of the 16-week intervention period?"
+    },
+    {
+      "criterion": "In prison during any part of the 16-month study period",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not in prison.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Resident of a nursing home, wards of the state, or Institutionalized during any part of the 16-month study period",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not a resident of a nursing home or institutionalized.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Persons with decisional incapacity/cognitive impairment",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of decisional incapacity or cognitive impairment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participating in another clinical trial, interventional or observational research during the study period",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not participating in another clinical trial.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Plan or intention to receive/start during the 16-week (112 day) intervention period either:",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no plan or intention to start any new treatment during the intervention period.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "a standing dose of oral steroid agents at a 20mg dose of prednisone (or other oral corticosteroid equivalent dose);",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on a taper of prednisone, which may exceed the exclusion criteria for oral steroid agents.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "pulses or tapers of steroids for flares for more than a total of 30 days within the observation period",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has been on a steroid taper, which may exceed the 30-day limit for flares.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "any pulse/taper dose of steroids during the last 4 weeks of the intervention period;",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on a taper of steroids, which may violate the exclusion for steroid use in the last 4 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "immunosuppressive agents, or biologic response modifiers.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on immunosuppressive agents (steroids), which are excluded.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diagnosed with cancer",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not been diagnosed with cancer.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Pregnant and/or planning to get pregnant before end of 16-week intervention",
+    "EXCLUSION VIOLATED: a standing dose of oral steroid agents at a 20mg dose of prednisone (or other or",
+    "EXCLUSION VIOLATED: pulses or tapers of steroids for flares for more than a total of 30 days within ",
+    "EXCLUSION VIOLATED: any pulse/taper dose of steroids during the last 4 weeks of the intervention per",
+    "EXCLUSION VIOLATED: immunosuppressive agents, or biologic response modifiers."
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.9048
+}

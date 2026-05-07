@@ -1,0 +1,79 @@
+{
+  "nct_id": "NCT03283306",
+  "trial_title": "Prognostic Value of Carotid CEUS in Acute Ischemic Stroke Patients",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "Contrast-enhanced ultrasound(CEUS) of carotid artery plaque is a novel method that enabled direct visualization of neovessels in the vulnerable plaque. Plaque enhancement with CEUS showed correlation with the histologic density of neovessels within the carotid plaque and the previous cardiovascular events. Vulnerable plaques with a high risk of thromboembolic complications and rapid progression is associated with acute ischemic stroke. The prognostic value of vulnerable carotid artery plaque dep",
+  "eligibility_table": [
+    {
+      "criterion": "Patients older than 19 years presenting acute ischemic stroke.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient older than 19 years at the time of presenting with acute ischemic stroke?"
+    },
+    {
+      "criterion": "Compatible neurologic symptom within 14 days",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of a prior cerebrovascular accident, but it is unclear if there are any current neurologic symptoms compatible with the trial's inclusion criteria.",
+      "clinical_question": "Has the patient experienced any neurologic symptoms compatible with acute ischemic stroke within the last 14 days?"
+    },
+    {
+      "criterion": "Compatible MRI finding (one or more positive DWI lesions in the territory of unilateral ICA: ACA or MCA territory) - interpretable MRI image obtained in SNUBH or outside hospital",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's MRI findings, making it impossible to determine if they meet this criterion.",
+      "clinical_question": "Does the patient have one or more positive DWI lesions in the territory of the unilateral internal carotid artery (ICA) as seen on an interpretable MRI image?"
+    },
+    {
+      "criterion": "Etiology of acute ischemic stroke: except cardioembolic stroke (Atrial fibrillation) and other determined etiology",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The etiology of the patient's stroke is not specified, and without this information, we cannot assess eligibility.",
+      "clinical_question": "Does the patient have a confirmed etiology of acute ischemic stroke that is not classified as cardioembolic or due to other determined causes, based on imaging and clinical evaluation?"
+    },
+    {
+      "criterion": "Ipsilateral extracranial carotid artery stenosis on MRA (CE-MRA), CTA or Doppler ultrasound",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has significant bilateral carotid stenosis, which likely meets the requirement for ipsilateral extracranial carotid artery stenosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of ipsilateral carotid stent or endarterectomy",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of a history of ipsilateral carotid stent or endarterectomy in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Carotid intervention during hospital stay",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of any carotid intervention during the hospital stay.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Contraindication to ultrasound contrast agent (SonoVue) A. Right to left, bi-directional, or transient right to left cardiac shunts B. History of hypersensitivity reactions to sulfur hexafluoride lipid microsphere components or any ultrasound contrast agent C. Pregnant or lactating woman D. Unstable cardiopulmonary conditions (acute myocardial infarction, acute coronary artery syndromes, worsening congestive heart failure, or serious ventricular arrhythmias)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not provide sufficient information to assess contraindications to ultrasound contrast agents.",
+      "clinical_question": "Does the patient have any history of hypersensitivity reactions to sulfur hexafluoride lipid microsphere components or any ultrasound contrast agent?"
+    },
+    {
+      "criterion": "Expected life span less than 12 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's expected life span is not clearly defined, making it difficult to assess this criterion.",
+      "clinical_question": "What is the patient's estimated prognosis based on the presence of significant comorbidities and the severity of carotid artery disease, specifically is the estimated life span less than 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Contraindication to ultrasound contrast agent (SonoVue) A. Right to left, bi-dir",
+    "EXCLUSION UNCLEAR: Expected life span less than 12 months",
+    "LOW INCLUSION MATCH: only 1 of 5 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

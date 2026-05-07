@@ -1,0 +1,255 @@
+{
+  "nct_id": "NCT01214200",
+  "trial_title": "High Intensity Non-Invasive Positive Pressure Ventilation (HINPPV)",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this pilot study is to evaluate the effect of high intensity non-invasive positive pressure ventilation (HINPPV) for stable, hypercapnic COPD patients. The investigators believe that HINPPV, used at least 6 hours nocturnally over three months, will benefit the stable hypercapnic COPD patient through a reduction in the daytime partial pressure of carbon dioxide in arterial blood (PaCO2) levels.",
+  "eligibility_table": [
+    {
+      "criterion": "Patient diagnosed with chronic obstructive pulmonary disease (COPD)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of COPD.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age < or = to 80 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient's age 80 years or younger?"
+    },
+    {
+      "criterion": "Forced expiratory volume in one second (FEV1) < 50% of predicted value",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "FEV1 value is not provided; unable to assess if it is < 50% of predicted.",
+      "clinical_question": "What is the patient's forced expiratory volume in one second (FEV1) as a percentage of the predicted value?"
+    },
+    {
+      "criterion": "FEV1/Forced vital capacity (FVC) < 70% of predicted value",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "FVC value is not provided; unable to assess FEV1/FVC ratio.",
+      "clinical_question": "What is the patient's most recent FEV1 and FVC measured as a percentage of the predicted value?"
+    },
+    {
+      "criterion": "Total lung capacity (TLC) > 90% predicted by plethysmography",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Total lung capacity (TLC) value is not provided; unable to assess if it is > 90% predicted.",
+      "clinical_question": "Is the patient's total lung capacity (TLC) greater than 90% of the predicted value as measured by plethysmography?"
+    },
+    {
+      "criterion": "Body Mass Index (BMI) < 35",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient's obesity hypoventilation syndrome suggests a BMI likely > 35.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient has provided written informed consent using a form that has been approved by the Internal Review Board (IRB)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on written informed consent status.",
+      "clinical_question": "Has the patient signed a written informed consent form that has been approved by the Internal Review Board (IRB)?"
+    },
+    {
+      "criterion": "Daytime PaCO2 ≥ 52 mm Hg, at rest on room air (Denver > 48 mm Hg) with one of the following symptoms of hypercapnia:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "PaCO2 value is not provided; unable to assess if it is ≥ 52 mm Hg.",
+      "clinical_question": "Is the patient's daytime PaCO2 level ≥ 52 mm Hg while at rest on room air?"
+    },
+    {
+      "criterion": "Fatigue",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient exhibits fatigue as a symptom.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Sleepiness",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient exhibits sleepiness as a symptom.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "FEV1 < 15% of predicted value",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "FEV1 value is not provided; unable to assess if it is < 15% of predicted.",
+      "clinical_question": "Is the patient's FEV1 value less than 15% of the predicted value based on their age, gender, and height?"
+    },
+    {
+      "criterion": "Diagnosis of obstructive sleep apnea (OSA) [Apnea hypopnea index (AHI) > 15 per hour]",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a diagnosis of obstructive sleep apnea (OSA), which is an exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Current Non-invasive Positive Pressure Ventilation (NIPPV), Positive Airway Pressure (PAP) or Non-invasive Ventilation (NIV) users",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently using BiPAP, which is a form of non-invasive positive pressure ventilation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Signs / symptoms of acute exacerbation within the previous month: two of the following criteria:",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has signs of acute exacerbation, including decreased appetite and difficulty with ADLs, which may indicate worsening respiratory status.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Increasing cough",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "While the patient has chronic cough, it is unclear if it is increasing; further assessment is needed.",
+      "clinical_question": "Has the patient experienced an increase in cough frequency of at least 2 episodes per day over the past week?"
+    },
+    {
+      "criterion": "Purulent sputum",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about sputum characteristics, making it indeterminate.",
+      "clinical_question": "Does the patient have a sputum culture that shows the presence of purulent material?"
+    },
+    {
+      "criterion": "Current use of antibiotics",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No current use of antibiotics is mentioned, but it is unclear if the patient has recently completed a course.",
+      "clinical_question": "Is the patient currently receiving any antibiotics for an active infection?"
+    },
+    {
+      "criterion": "pH < 7.35",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No pH values are provided, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the patient's arterial blood pH currently measured at less than 7.35?"
+    },
+    {
+      "criterion": "Any major non COPD disease or condition that interferes with completion of initial or follow-up assessments, such as uncontrolled malignancy, end-stage heart disease, liver or renal insufficiency (that requires current evaluation for liver or renal transplantation or dialysis), amyotrophic lateral sclerosis, or severe stroke, or other as deemed appropriate by investigator as determined by review of medical history and / or patient reported medical history",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple major conditions, including dCHF and CAD, which could interfere with trial assessments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of pneumothorax",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of pneumothorax in the provided information.",
+      "clinical_question": "Has the patient ever experienced a pneumothorax requiring medical intervention?"
+    },
+    {
+      "criterion": "Headaches",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of headaches in the patient profile, making it indeterminate.",
+      "clinical_question": "Has the patient reported experiencing headaches with a frequency of ≥3 times per week since starting High Intensity Non-Invasive Positive Pressure Ventilation (HINPPV)?"
+    },
+    {
+      "criterion": "Post hospital discharge at least one month prior to screening visit",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is post hospital discharge and has been home for more than one month.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participant is willing and able to complete all required assessments and procedures",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient appears willing to engage in treatment, but the complexity of her conditions may affect her ability to complete assessments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participant has no child bearing potential OR a negative pregnancy test in a woman of childbearing potential",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is a female with childbearing potential and no documented negative pregnancy test.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anatomical facial abnormalities precluding placement of a nasal or facial mask",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about anatomical facial abnormalities; further assessment is needed.",
+      "clinical_question": "Does the patient have any anatomical facial abnormalities, such as severe craniofacial deformities or significant skin conditions, that would prevent the placement of a nasal or facial mask?"
+    },
+    {
+      "criterion": "Diffuse parenchymal lung disease other than emphysema",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's lung disease is primarily COPD; further clarification on the presence of diffuse parenchymal lung disease is needed.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of diffuse parenchymal lung disease, as evidenced by high-resolution CT imaging or lung biopsy findings?"
+    },
+    {
+      "criterion": "Inability to maintain Oxygen (O2) saturation >90% on 5L/min (five liters) nasal O2 at rest",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has O2 saturation levels in the 60s-70s at home, indicating an inability to maintain >90% saturation on 5L/min.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Sustained need for >10 mg prednisone daily or equivalent dose of other systemic corticosteroid",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the patient's current use of systemic corticosteroids; further details are required.",
+      "clinical_question": "Has the patient been prescribed and taken >10 mg of prednisone daily or an equivalent dose of another systemic corticosteroid for at least the past 30 days?"
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to be pregnant, but confirmation is needed.",
+      "clinical_question": "Is the patient currently pregnant or has she been pregnant within the last 12 months?"
+    },
+    {
+      "criterion": "Excessive alcohol intake (≥ 6oz hard liquor daily), or illicit drug use",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding alcohol intake or illicit drug use; further assessment is needed.",
+      "clinical_question": "Has the patient consumed ≥6 ounces of hard liquor daily in the past month?"
+    },
+    {
+      "criterion": "Daily use of narcotics (greater than 30 mg morphine equivalent)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current use of narcotics is not specified; further information is required.",
+      "clinical_question": "Has the patient been prescribed and taken more than 30 mg of morphine equivalent daily in the past month?"
+    },
+    {
+      "criterion": "Patient is currently enrolled in another interventional clinical trial",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention current enrollment in another interventional clinical trial, but this information is not explicitly provided, leading to a 'NEI' verdict.",
+      "clinical_question": "Is the patient currently enrolled in any interventional clinical trial, including those that involve investigational drugs or devices?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: FEV1 < 15% of predicted value",
+    "EXCLUSION VIOLATED: Diagnosis of obstructive sleep apnea (OSA) [Apnea hypopnea index (AHI) > 15 per ",
+    "EXCLUSION VIOLATED: Current Non-invasive Positive Pressure Ventilation (NIPPV), Positive Airway Pres",
+    "EXCLUSION VIOLATED: Signs / symptoms of acute exacerbation within the previous month: two of the fol",
+    "EXCLUSION UNCLEAR: Increasing cough",
+    "EXCLUSION UNCLEAR: Purulent sputum",
+    "EXCLUSION UNCLEAR: Current use of antibiotics",
+    "EXCLUSION UNCLEAR: pH < 7.35",
+    "EXCLUSION VIOLATED: Any major non COPD disease or condition that interferes with completion of initi",
+    "EXCLUSION UNCLEAR: History of pneumothorax",
+    "EXCLUSION UNCLEAR: Anatomical facial abnormalities precluding placement of a nasal or facial mask",
+    "EXCLUSION UNCLEAR: Diffuse parenchymal lung disease other than emphysema",
+    "EXCLUSION VIOLATED: Inability to maintain Oxygen (O2) saturation >90% on 5L/min (five liters) nasal ",
+    "EXCLUSION UNCLEAR: Sustained need for >10 mg prednisone daily or equivalent dose of other systemic ",
+    "EXCLUSION UNCLEAR: Pregnancy",
+    "EXCLUSION UNCLEAR: Excessive alcohol intake (≥ 6oz hard liquor daily), or illicit drug use",
+    "EXCLUSION UNCLEAR: Daily use of narcotics (greater than 30 mg morphine equivalent)",
+    "EXCLUSION UNCLEAR: Patient is currently enrolled in another interventional clinical trial"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.375
+}

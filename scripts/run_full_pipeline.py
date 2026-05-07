@@ -169,8 +169,8 @@ def _derive_label(summary: dict) -> str:
     if nei_ratio > 0.5:
         return "NEI"
 
-    # Gate 2: very weak inclusion match → NEI
-    if inc_ratio < 0.2:
+    # Gate 2: weak inclusion match → NEI
+    if inc_ratio < 0.3:
         return "NEI"
 
     if inc_met > 0:

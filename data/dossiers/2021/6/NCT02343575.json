@@ -1,0 +1,154 @@
+{
+  "nct_id": "NCT02343575",
+  "trial_title": "Valproic Acid for Treatment of Hyperactive or Mixed Delirium in ICU",
+  "phase": "PHASE4",
+  "status": "TERMINATED",
+  "brief_summary": "Delirium is the most often encountered psychiatric diagnosis in the general hospital, with incidence up to 85% in the intensive care unit (ICU) setting and with significant consequences on patients' morbidity and mortality. Currently, although not FDA approved, antipsychotics are often considered the first-line pharmacological treatment. However, there can be limitations to their use, including side effects or lack of efficacy. Valproic acid (VPA) is one of the alternatives at times used in such",
+  "eligibility_table": [
+    {
+      "criterion": "patients 18 years of age and older",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "admitted to surgical ICU",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has been admitted to the ICU, which meets the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "diagnosed with hyperactive or mixed delirium",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's mental status or diagnosis of delirium.",
+      "clinical_question": "Has the patient exhibited a Confusion Assessment Method (CAM) score of ≥4 indicating hyperactive or mixed delirium?"
+    },
+    {
+      "criterion": "hypoactive delirium",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the presence of hypoactive delirium.",
+      "clinical_question": "Does the patient exhibit a Confusion Assessment Method (CAM) score of less than 4, indicating hypoactive delirium?"
+    },
+    {
+      "criterion": "primary team does not think patient is appropriate to participate",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The primary team's opinion on the patient's appropriateness for participation is not provided.",
+      "clinical_question": "Does the primary team consider the patient's current renal function, specifically her estimated glomerular filtration rate (eGFR), to be below 30 mL/min?"
+    },
+    {
+      "criterion": "no oral access (PO or NGT)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's ability to take oral medications.",
+      "clinical_question": "Does the patient have a contraindication for oral or nasogastric tube access due to their current medical conditions?"
+    },
+    {
+      "criterion": "non-English speaking",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's language proficiency is not mentioned.",
+      "clinical_question": "Is the patient able to communicate effectively in English during clinical assessments?"
+    },
+    {
+      "criterion": "contraindication to study medications",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating any contraindications to the study medications.",
+      "clinical_question": "Does the patient have a serum creatinine level ≥1.5 mg/dL due to End Stage Renal Disease (ESRD)?"
+    },
+    {
+      "criterion": "pregnant women or woman of child-bearing age not on documented contraception",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is a 55-year-old female; pregnancy status and contraception use are not documented.",
+      "clinical_question": "Is the patient currently using a documented form of contraception, such as hormonal birth control or an intrauterine device?"
+    },
+    {
+      "criterion": "QTc = or greater than 480",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's QTc interval ≥480 ms as measured on an ECG?"
+    },
+    {
+      "criterion": "hepatic dysfunction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's liver function.",
+      "clinical_question": "Does the patient have a serum alanine aminotransferase (ALT) level greater than 3 times the upper limit of normal?"
+    },
+    {
+      "criterion": "decreased platelets or platelet dysfunction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's platelet count or function.",
+      "clinical_question": "Does the patient have a platelet count <150,000/µL or evidence of platelet dysfunction?"
+    },
+    {
+      "criterion": "bleeding disorder, current major bleeding",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention a bleeding disorder or current major bleeding, but without specific lab values, it's uncertain.",
+      "clinical_question": "Does the patient have a current major bleeding event as defined by a drop in hemoglobin of ≥2 g/dL or the need for a blood transfusion?"
+    },
+    {
+      "criterion": "history of NMS, epilepsy, or PD",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a history of Neuroleptic Malignant Syndrome (NMS), epilepsy, or Parkinson's Disease (PD) in the profile.",
+      "clinical_question": "Does the patient have a documented history of neuroleptic malignant syndrome (NMS), epilepsy, or Parkinson's disease (PD)?"
+    },
+    {
+      "criterion": "diagnosis of schizophrenia, bipolar disorder or schizoaffective disorder",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a diagnosis of schizophrenia, bipolar disorder, or schizoaffective disorder listed.",
+      "clinical_question": "Does the patient have a documented diagnosis of schizophrenia, bipolar disorder, or schizoaffective disorder?"
+    },
+    {
+      "criterion": "on warfarin or carbapenems",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to be on warfarin or carbapenems, but this is not explicitly confirmed.",
+      "clinical_question": "Is the patient currently taking warfarin or any carbapenem antibiotics?"
+    },
+    {
+      "criterion": "delirium due to alcohol withdrawal",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of delirium due to alcohol withdrawal in the patient's history.",
+      "clinical_question": "Has the patient experienced alcohol withdrawal symptoms, such as tremors or agitation, within the last 48 hours?"
+    },
+    {
+      "criterion": "treated with antipsychotics for more than 48 hours prior to study enrollment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention any treatment with antipsychotics prior to study enrollment.",
+      "clinical_question": "Has the patient been treated with antipsychotics for ≥48 hours prior to study enrollment?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: hypoactive delirium",
+    "EXCLUSION UNCLEAR: primary team does not think patient is appropriate to participate",
+    "EXCLUSION UNCLEAR: no oral access (PO or NGT)",
+    "EXCLUSION UNCLEAR: non-English speaking",
+    "EXCLUSION UNCLEAR: contraindication to study medications",
+    "EXCLUSION UNCLEAR: pregnant women or woman of child-bearing age not on documented contraception",
+    "EXCLUSION UNCLEAR: QTc = or greater than 480",
+    "EXCLUSION UNCLEAR: hepatic dysfunction",
+    "EXCLUSION UNCLEAR: decreased platelets or platelet dysfunction",
+    "EXCLUSION UNCLEAR: bleeding disorder, current major bleeding",
+    "EXCLUSION UNCLEAR: history of NMS, epilepsy, or PD",
+    "EXCLUSION UNCLEAR: diagnosis of schizophrenia, bipolar disorder or schizoaffective disorder",
+    "EXCLUSION UNCLEAR: on warfarin or carbapenems",
+    "EXCLUSION UNCLEAR: delirium due to alcohol withdrawal",
+    "EXCLUSION UNCLEAR: treated with antipsychotics for more than 48 hours prior to study enrollment"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1111
+}

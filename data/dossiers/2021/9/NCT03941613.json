@@ -1,0 +1,224 @@
+{
+  "nct_id": "NCT03941613",
+  "trial_title": "SEEG Guided RF-TC v.s. ATL for mTLE With HS",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "Mesial temporal lobe epilepsy (mTLE) is the most classical subtype of temporal lobe epilepsy, which is the indication of surgical intervention after evaluation. Until now, anterior temporal lobectomy (ATL) is still the recommended treatment for mTLE. However, evidences are accumulated including post ATL tetartanopia and memory deterioration and new minimized invasive treatments are introduced. Stereotactic EEG (SEEG) guided radio-frequency thermocoagulation (RF-TC) is one of the option with lowe",
+  "eligibility_table": [
+    {
+      "criterion": "Clinical diagnosis of drug resistant epilepsy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of seizures but it is unclear if they are drug resistant as full EEG reports are pending.",
+      "clinical_question": "Has the patient experienced ≥2 unprovoked seizures despite being on antiepileptic medication?"
+    },
+    {
+      "criterion": "At least one or more anti-epileptic drugs (AEDs) regular administered for more than 2 years, one of which was either Dilantin, Tegretol, Carbatrol, or Trileptal used in appropriate doses, have failed due to inefficacy, not intolerance",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient was tapered off Dilantin, indicating it may not have been used for more than 2 years or was not used in appropriate doses.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Persistence of disabling seizures at least 3 times per 3 months or greater, and once or more in recent 1 month",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not had seizures for 20 years, which does not meet the requirement of persistence of disabling seizures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "14 years or older at enrollment",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 13.0 >= 14.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Simple and complex partial seizures, with or without secondarily generalized seizures beginning in childhood or later, with or without febrile convulsions earlier",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has focal epilepsy with secondary generalization, which fits the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Auras that occur in isolation and are not primary sensory other than olfactory or gustatory",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about auras, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient experienced ≥2 isolated auras that are not primary sensory, other than olfactory or gustatory, in the past year?"
+    },
+    {
+      "criterion": "I.Q. of greater than 70",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have an IQ score greater than 70?"
+    },
+    {
+      "criterion": "Hippocampal atrophy on MRI T1 imaging with increased ipsilateral mesial signal on T2 imaging",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The MRI shows atrophic changes but does not confirm hippocampal atrophy or increased mesial signal.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Interictal EEG shows focal or lateralized spikes on temporal, frontal zone, or sphenoid electrode",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Interictal EEG reports are pending, so it is unknown if there are focal or lateralized spikes.",
+      "clinical_question": "Does the interictal EEG show ≥2 focal or lateralized spikes on temporal, frontal zone, or sphenoid electrodes?"
+    },
+    {
+      "criterion": "Ictal EEG onset is focal or lateralized on the ipsilateral side",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Ictal EEG onset information is not available, making it impossible to assess this criterion.",
+      "clinical_question": "Is there evidence of ictal EEG onset being focal or lateralized on the ipsilateral side during the patient's most recent seizure monitoring?"
+    },
+    {
+      "criterion": "A history of serious cerebral insult after the age of 5",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of anoxic brain injury at birth, which is considered a serious cerebral insult before age 5.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A progressive neurological disorder; mental retardation (I.Q. less than 70)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have an IQ score of less than 70 as assessed by a standardized intelligence test?"
+    },
+    {
+      "criterion": "Psychogenic seizures",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of psychogenic seizures in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Focal neurological deficits other than memory disturbances",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe intellectual disability, which may indicate focal neurological deficits.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any unexplained focal or lateralized neurological deficits other than memory dysfunction.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's history of seizures and intellectual disability suggests potential unexplained focal neurological deficits.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Temporal neocortical or extratemporal lesions on MRI",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "MRI shows atrophic changes in the left temporal lobe, which may be considered a temporal lesion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Psychosis, current or recent substance abuse, suicidality, anorexia, or psychogenic seizures",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe intellectual disability and epilepsy, which may indicate underlying psychological issues.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe systemic diseases",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CHF and epilepsy, which could be considered severe systemic diseases.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unequivocal focal extratemporal EEG slowing or interictal spikes",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Full EEG reports are pending, making it unclear if there are unequivocal focal extratemporal EEG findings.",
+      "clinical_question": "Does the patient's EEG show unequivocal focal extratemporal slowing or interictal spikes with a frequency of ≥1 Hz?"
+    },
+    {
+      "criterion": "Lesions on MRI outside of the mesial temporal area",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The MRI findings suggest atrophic changes in the left temporal lobe, which may not be confined to the mesial temporal area.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ipsilateral temporal focal hypometabolism on PET",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no PET scan data provided to confirm ipsilateral temporal focal hypometabolism.",
+      "clinical_question": "Does the patient exhibit ipsilateral temporal focal hypometabolism on PET imaging with a standardized uptake value (SUV) threshold of <2.0?"
+    },
+    {
+      "criterion": "Must be agreed by a consensus of ipsilateral mesial temporal origin by a multidisciplinary discussion",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on whether a multidisciplinary discussion has occurred regarding the patient's condition.",
+      "clinical_question": "Has a multidisciplinary team reached a consensus on the ipsilateral mesial temporal origin of the patient's seizures based on available imaging and clinical data?"
+    },
+    {
+      "criterion": "Must be able to understand and speak Mandarin",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ability to understand and speak Mandarin.",
+      "clinical_question": "Can the patient demonstrate the ability to understand and speak Mandarin fluently?"
+    },
+    {
+      "criterion": "Diffuse unilateral or bilateral hypometabolism on positron emission tomography (PET)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone a PET scan, so it is unclear if there is diffuse unilateral or bilateral hypometabolism.",
+      "clinical_question": "Does the patient's PET scan show diffuse unilateral or bilateral hypometabolism with a standardized uptake value (SUV) threshold of <2.0?"
+    },
+    {
+      "criterion": "Contralateral or extratemporal ictal onset",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's seizure onset is not clearly documented as contralateral or extratemporal; further EEG results are pending.",
+      "clinical_question": "Does the patient exhibit any contralateral or extratemporal ictal onset on the full EEG reports?"
+    },
+    {
+      "criterion": "Persistent extratemporal, or predominant contralateral focal interictal spikes or slowing, or generalized interictal spikes",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about interictal spikes or slowing from EEG reports, making it impossible to assess this criterion.",
+      "clinical_question": "Does the patient exhibit ≥3 persistent contralateral focal interictal spikes on EEG recordings?"
+    },
+    {
+      "criterion": "Patient who was included in any clinical trial",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient participated in any clinical trial for epilepsy treatment prior to the age of 13?"
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently pregnant or has the patient been pregnant in the past 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: A progressive neurological disorder; mental retardation (I.Q. less than 70)",
+    "EXCLUSION VIOLATED: Psychogenic seizures",
+    "EXCLUSION VIOLATED: Focal neurological deficits other than memory disturbances",
+    "EXCLUSION VIOLATED: Any unexplained focal or lateralized neurological deficits other than memory dys",
+    "EXCLUSION VIOLATED: Temporal neocortical or extratemporal lesions on MRI",
+    "EXCLUSION VIOLATED: Psychosis, current or recent substance abuse, suicidality, anorexia, or psychoge",
+    "EXCLUSION VIOLATED: Severe systemic diseases",
+    "EXCLUSION UNCLEAR: Unequivocal focal extratemporal EEG slowing or interictal spikes",
+    "EXCLUSION VIOLATED: Lesions on MRI outside of the mesial temporal area",
+    "EXCLUSION UNCLEAR: Diffuse unilateral or bilateral hypometabolism on positron emission tomography (",
+    "EXCLUSION UNCLEAR: Contralateral or extratemporal ictal onset",
+    "EXCLUSION UNCLEAR: Persistent extratemporal, or predominant contralateral focal interictal spikes o",
+    "EXCLUSION UNCLEAR: Patient who was included in any clinical trial",
+    "EXCLUSION UNCLEAR: Pregnancy",
+    "LOW INCLUSION MATCH: only 1 of 13 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.4643
+}

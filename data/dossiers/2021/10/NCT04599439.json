@@ -1,0 +1,104 @@
+{
+  "nct_id": "NCT04599439",
+  "trial_title": "CMR Based Prediction of Ventricular Tachycardia Events in Healed Myocardial Infarction (DEVELOP-VT)",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "Fibrotic tissue is known to be the substrate for the appearance of scar-related reentrant ventricular arrhythmias (VA) in chronic ischemic cardiomyopathy (ICM). Late gadolinium enhancement cardiac magnetic resonance (LGE-CMR) has proven to be a useful technique in the non-invasive characterization of the scarred tissue and the underlying arrhythmogenic substrate. Previous studies identified the presence of significant scarring (\\> 5% of the left ventricular -LV- mass) is an independent predictor",
+  "eligibility_table": [
+    {
+      "criterion": "Age > 18 years.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 22.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic (> 3 months after the index coronary event), stable ischemic heart disease, irrespectively of the LVEF.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has systemic mastocytosis and tachycardia, but there is no information provided about ischemic heart disease.",
+      "clinical_question": "Does the patient have a documented history of stable ischemic heart disease for more than 3 months following the index coronary event?"
+    },
+    {
+      "criterion": "Life expectancy of > 1 year with a good functional status.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old and has a chronic condition, but there is no indication of a poor functional status.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Signed informed consent.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient signed the informed consent form for participation in the DEVELOP-VT trial?"
+    },
+    {
+      "criterion": "Age < 18 years.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 22.0 < 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnancy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's pregnancy status.",
+      "clinical_question": "Is the patient currently pregnant or has she been pregnant within the last 12 months?"
+    },
+    {
+      "criterion": "Life expectancy of < 1 year, or bad functional status (NYHA IV functional class).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's life expectancy is uncertain due to systemic mastocytosis, but there is no clear indication of a bad functional status.",
+      "clinical_question": "Does the patient have a New York Heart Association (NYHA) functional class of IV or worse?"
+    },
+    {
+      "criterion": "Other concomitant structural heart diseases (e.g. congenital, non-ischemic, etc.).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has systemic mastocytosis, but there is no information about other structural heart diseases.",
+      "clinical_question": "Does the patient have any documented history of congenital or non-ischemic structural heart diseases, such as cardiomyopathy or valvular heart disease?"
+    },
+    {
+      "criterion": "Previously documented sustained ventricular arrhythmias.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any previously documented sustained ventricular arrhythmias.",
+      "clinical_question": "Has the patient experienced any documented episodes of sustained ventricular arrhythmias in the past?"
+    },
+    {
+      "criterion": "Impossibility or contraindications to undergo a contrast-enhanced CMR study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to undergo a contrast-enhanced CMR study is not mentioned.",
+      "clinical_question": "Does the patient have a history of severe allergic reactions to gadolinium-based contrast agents?"
+    },
+    {
+      "criterion": "Concomitant investigation treatments.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information about any concomitant investigation treatments.",
+      "clinical_question": "Has the patient received any concomitant antiarrhythmic medications for the management of tachycardia events?"
+    },
+    {
+      "criterion": "Medical, geographical and social factors that make study participation impractical, and inability to give written informed consent. Patient's refusal to participate in the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information about medical, geographical, or social factors affecting study participation.",
+      "clinical_question": "Does the patient have any medical, geographical, or social factors that would prevent her from providing written informed consent for participation in the study?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Pregnancy.",
+    "EXCLUSION UNCLEAR: Life expectancy of < 1 year, or bad functional status (NYHA IV functional class)",
+    "EXCLUSION UNCLEAR: Other concomitant structural heart diseases (e.g. congenital, non-ischemic, etc.",
+    "EXCLUSION UNCLEAR: Previously documented sustained ventricular arrhythmias.",
+    "EXCLUSION UNCLEAR: Impossibility or contraindications to undergo a contrast-enhanced CMR study.",
+    "EXCLUSION UNCLEAR: Concomitant investigation treatments.",
+    "EXCLUSION UNCLEAR: Medical, geographical and social factors that make study participation impractic"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.25
+}

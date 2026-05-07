@@ -1,0 +1,193 @@
+{
+  "nct_id": "NCT00623649",
+  "trial_title": "Safety,Tolerability and Pharmacokinetics of Multiple Ascending Doses of VCH 916 in Subjects With Chronic Hep C Infection",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is to determine whether a 3-day course of therapy with orally administered VCH-916 given at different dosages can effectively reduce the amount of circulating virus (i.e., viral load) in patients with early-stage chronic hepatitis C-infection. This study will also evaluate the safety and tolerability of treatment with VCH-916. Blood samples will also be taken to measure the levels of VCH-916 present in plasma at various time points during the treatment period.",
+  "eligibility_table": [
+    {
+      "criterion": "Males and females 18 to 60 years of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 60.0 >= 60.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No evidence of cirrhosis or have liver fibrosis corresponding to Metavir Stages 0 to 3",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has Hep C cirrhosis, which does not meet the criterion of having no evidence of cirrhosis or liver fibrosis corresponding to Metavir Stages 0 to 3.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject's liver disease is stable with ALT values < 5 X ULN",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's liver disease is not stable due to the presence of cirrhosis and other complications, which likely results in ALT values being above the threshold.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serologic evidence of detectable plasma HCV-RNA of ≥ 100,000 IU/ml at screening",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to confirm the serologic evidence of detectable plasma HCV-RNA of ≥ 100,000 IU/ml.",
+      "clinical_question": "Does the patient have serologic evidence of detectable plasma HCV-RNA of ≥ 100,000 IU/ml at screening?"
+    },
+    {
+      "criterion": "Documented HCV Genotype 1 chronic hepatitis C.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the HCV genotype; cannot confirm if it is documented as HCV Genotype 1.",
+      "clinical_question": "Does the patient have a documented HCV genotype of 1?"
+    },
+    {
+      "criterion": "Judged to be in good health on the basis of medical history and physical examination",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has multiple health issues (Hep C cirrhosis, HTN, UGIB) which may not classify him as being in good health.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "All other hematology and clinical chemistry must be within normal limits or show no clinically significant abnormalities.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's lab values are not provided, but the presence of cirrhosis and other conditions likely indicates clinically significant abnormalities.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Be treatment-naïve or experienced.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is treatment-experienced due to prior interferon treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "For female subjects, must not be pregnant or breastfeeding and must be postmenopausal, surgically sterile, abstinent, or using two proven methods of birth control.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Not applicable as the patient is male; no pregnancy or breastfeeding concerns.",
+      "clinical_question": "Is the patient currently using two proven methods of birth control, or is he postmenopausal, surgically sterile, or abstinent?"
+    },
+    {
+      "criterion": "Sexually active male subjects, must be practicing acceptable methods of contraception during the treatment period",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "As a sexually active male, the patient is expected to practice acceptable methods of contraception.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Be participating in any other clinical studies or have participated in another clinical trial within the last 30 days before study drug administration, or participation in more than 2 drug studies in the last 12 months (exclusive of the current study).",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of participating in prior treatments and may not meet the exclusion criteria regarding participation in other clinical trials.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Be actively taking hard illicit drugs within 12 months prior to the screening visit or alcohol.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a negative urine toxicology for alcohol and has been off alcohol for a year, meeting this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have a Child-Pugh score > than 5.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Hep C cirrhosis, which typically corresponds to a Child-Pugh score greater than 5.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have evidence of liver cirrhosis including histological evidence of hepatic cirrhosis on any liver biopsy.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a documented diagnosis of liver cirrhosis, which is a clear exclusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have any cause of liver disease other than chronic hepatitis C-infection",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Hep C cirrhosis, which is a cause of liver disease, thus excluding them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active or malignant disease or suspicion or history of malignant disease within five previous years (except for adequately treated basal cell carcinoma).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of malignancy is unclear; no active or malignant disease is reported, but further evaluation may be needed.",
+      "clinical_question": "Has the patient been diagnosed with any active or malignant disease, or had any suspicion or history of malignant disease within the last five years, excluding adequately treated basal cell carcinoma?"
+    },
+    {
+      "criterion": "Have clinically significant electrocardiogram abnormalities and/or cardiovascular dysfunction within the previous 6 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific information on cardiovascular health is provided; further assessment would be required to determine eligibility.",
+      "clinical_question": "Has the patient experienced any clinically significant electrocardiogram abnormalities or cardiovascular dysfunction, such as a history of myocardial infarction or heart failure, within the previous 6 months?"
+    },
+    {
+      "criterion": "Have significant renal, pulmonary, gastrointestinal absorption, or neurological diseases, or neoplasia.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has multiple conditions, but no specific significant renal, pulmonary, or gastrointestinal issues are detailed.",
+      "clinical_question": "Does the patient have a glomerular filtration rate (GFR) <60 mL/min, indicating significant renal impairment?"
+    },
+    {
+      "criterion": "Have a history of psychiatric disorders determined by the investigator to contraindicate therapy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of psychiatric disorders is mentioned, but the investigator's assessment is necessary for a definitive verdict.",
+      "clinical_question": "Does the patient have a history of psychiatric disorders, such as major depressive disorder or bipolar disorder, that would contraindicate therapy as determined by the investigator?"
+    },
+    {
+      "criterion": "Have uncontrolled Type 1 or Type II diabetes.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's diabetes status is not mentioned; further information is needed to assess this criterion.",
+      "clinical_question": "Does the patient have an HbA1c level ≥6.5% indicating uncontrolled Type 1 or Type II diabetes?"
+    },
+    {
+      "criterion": "Female subjects of childbearing potential must have a negative serum ß-HCG pregnancy test at screening and a negative urine pregnancy test on Day 1 before the first dose of study drugs.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion does not apply.",
+      "clinical_question": "Has the patient undergone a serum ß-HCG pregnancy test at screening that returned a negative result?"
+    },
+    {
+      "criterion": "Agree not to participate in other clinical trials for the duration of his/her participation in this clinical trial.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient participated in any other clinical trials within the last 30 days?"
+    },
+    {
+      "criterion": "Antinuclear antibody titer ≥1:320.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide information on antinuclear antibody titer levels, making it unclear whether this criterion is met or not.",
+      "clinical_question": "Is the patient's antinuclear antibody titer ≥1:320?"
+    },
+    {
+      "criterion": "Coinfection with hepatitis B and/or HIV 1 or HIV 2.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a positive serology for hepatitis B or HIV-1/HIV-2?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Be participating in any other clinical studies or have participated in another c",
+    "EXCLUSION VIOLATED: Have a Child-Pugh score > than 5.",
+    "EXCLUSION VIOLATED: Have evidence of liver cirrhosis including histological evidence of hepatic cirr",
+    "EXCLUSION VIOLATED: Have any cause of liver disease other than chronic hepatitis C-infection",
+    "EXCLUSION UNCLEAR: Active or malignant disease or suspicion or history of malignant disease within ",
+    "EXCLUSION UNCLEAR: Have clinically significant electrocardiogram abnormalities and/or cardiovascula",
+    "EXCLUSION UNCLEAR: Have significant renal, pulmonary, gastrointestinal absorption, or neurological ",
+    "EXCLUSION UNCLEAR: Have a history of psychiatric disorders determined by the investigator to contra",
+    "EXCLUSION UNCLEAR: Have uncontrolled Type 1 or Type II diabetes.",
+    "EXCLUSION UNCLEAR: Antinuclear antibody titer ≥1:320.",
+    "EXCLUSION UNCLEAR: Coinfection with hepatitis B and/or HIV 1 or HIV 2.",
+    "LOW INCLUSION MATCH: only 3 of 12 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.5
+}

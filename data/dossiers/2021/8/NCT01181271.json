@@ -1,0 +1,361 @@
+{
+  "nct_id": "NCT01181271",
+  "trial_title": "Tandem Auto-Allo Transplant for Lymphoma",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Relapse remains a principle cause of treatment failure for patients with aggressive lymphoma after autologous transplantation. Non-myeloablative allogeneic transplantation allows patients to receive an infusion of donor cells in an attempt to induce a graft versus lymphoma effect. This study will assess the feasibility, safety and efficacy of the combination of autologous stem cell transplantation followed by non-myeloablative transplantation for patients with poor-risk aggressive lymphoma.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with high-risk diffuse large B cell or transformed low grade lymphoma defined as:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Richter's transformation, which is a form of transformed low-grade lymphoma, indicating high-risk diffuse large B cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Residual disease after at least 6 cycles of anthracycline-based chemotherapy (with residual disease defined as persistent bone marrow involvement and/or persistent measurable lymph node or solid organ masses that are PET or gallium avid)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not undergone at least 6 cycles of anthracycline-based chemotherapy; he has received FCR and other therapies but not specifically anthracycline-based chemotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Progressive disease after at least 2 cycles of anthracycline-based chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not experienced progressive disease after at least 2 cycles of anthracycline-based chemotherapy, as he has not received such treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with an initial complete response but subsequent relapse within 6 months after completion of anthracycline-based chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not had an initial complete response followed by relapse within 6 months after anthracycline-based chemotherapy, as he has not received this type of chemotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with any T-cell non-Hodgkin's lymphoma as defined as:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have any T-cell non-Hodgkin's lymphoma; his conditions are related to CLL and its transformation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Peripheral T-cell lymphoma (ALK negative PTCL-U) including PTCL-NOS, HSGD (hepato-splenic gamma-delta TCL), AITL (angioimmunoblastic T-cell lymphoma), EATL (enteropathy associated T-cell lymphoma), ALK-negative anaplastic large cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have peripheral T-cell lymphoma or any of the specified T-cell lymphomas.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any T-cell histology (except LGL) with residual disease after at least 4 cycles of anthracycline-based chemotherapy (with residual disease defined as persistent bone marrow involvement and/or persistent measurable lymph node or solid organ masses that are PET or gallium avid)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have any T-cell histology, as his conditions are related to CLL and its transformation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with mantle cell lymphoma at any time in therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have mantle cell lymphoma; his diagnosis is CLL with transformation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with \"double-hit\" lymphoma as characterized by the presence of concurrent overexpression of Bcl-2 and c-myc",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have 'double-hit' lymphoma, as there is no indication of concurrent overexpression of Bcl-2 and c-myc.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with Hodgkin's lymphoma that is",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have Hodgkin's lymphoma; his conditions are related to CLL and its transformation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients will be re-evaluated after autologous transplant prior to proceeding to non-myeloablative transplant",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone an autologous transplant, so it is unclear if they will be re-evaluated prior to a non-myeloablative transplant.",
+      "clinical_question": "Has the patient achieved a complete response or partial response as defined by the International Working Group criteria after the autologous transplant?"
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently pregnant or has he been pregnant within the last 12 months?"
+    },
+    {
+      "criterion": "Evidence of HIV infection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented positive HIV test result?"
+    },
+    {
+      "criterion": "Heart failure uncontrolled by medications or ejection fraction less than 45%",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the patient's heart function or ejection fraction.",
+      "clinical_question": "Does the patient have an ejection fraction of ≥45% as measured by echocardiogram?"
+    },
+    {
+      "criterion": "Active involvement of the CNS by lymphoma",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any evidence of central nervous system involvement by lymphoma, as determined by MRI or lumbar puncture results?"
+    },
+    {
+      "criterion": "Inability to provide informed consent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Can the patient demonstrate an understanding of the risks and benefits of the tandem auto-allo transplant procedure as assessed by a standardized informed consent evaluation tool?"
+    },
+    {
+      "criterion": "Previous autologous or allogeneic stem cell transplant",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient previously undergone an autologous or allogeneic stem cell transplant?"
+    },
+    {
+      "criterion": "Creatinine greater than 2 gm/dL or 24 hour urine creatinine clearance < 50 cc/minute (does not have to satisfy both)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for creatinine are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's serum creatinine level greater than 2 gm/dL or is the 24-hour urine creatinine clearance less than 50 cc/minute?"
+    },
+    {
+      "criterion": "Total bilirubin greater than 2 times the upper limit of normal except when due to Gilbert's syndrome or hemolysis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Total bilirubin levels are not provided, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the patient's total bilirubin level greater than 2 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Transaminases greater than 3 times the upper limit of normal",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Transaminase levels are not provided, preventing an assessment of this criterion.",
+      "clinical_question": "Are the patient's transaminase levels greater than 3 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Refractory to first-line therapy and at least one second line chemotherapy regimen",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone multiple lines of therapy, indicating they are refractory to first-line therapy and have received second-line chemotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Relapsed Hodgkin's lymphoma which is refractory to at least one salvage chemotherapy regimen.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL and not Hodgkin's lymphoma, so this criterion does not apply.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with CLL/SLL with 17p- cytogenetic abnormality",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no mention of a 17p- cytogenetic abnormality in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age 18 years and greater",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ECOG performance status 0-2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status score of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Ability to understand and the willingness to sign a written informed consent document.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is described as having an excellent performance status and is likely able to understand and sign consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Responsive disease to last therapy as determined by at least one of the following:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's response to the last therapy.",
+      "clinical_question": "Has the patient demonstrated a ≥50% reduction in tumor size following the last therapy as assessed by imaging studies?"
+    },
+    {
+      "criterion": "At least PR by Revised Response Criteria",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's response to treatment is not clearly defined in the profile; need lab values to assess PR.",
+      "clinical_question": "Has the patient achieved at least a partial response (PR) according to the Revised Response Criteria following the most recent treatment?"
+    },
+    {
+      "criterion": "At least PR by traditional Cheson Criteria",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Similar to inclusion criterion 1, the response to treatment by traditional Cheson Criteria is not provided.",
+      "clinical_question": "Has the patient achieved at least a partial response (PR) as defined by the traditional Cheson Criteria following the most recent treatment?"
+    },
+    {
+      "criterion": "< 10% of overall cellularity involved with disease on bone marrow biopsy for patients with involvement of the bone marrow",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the overall cellularity involved with disease on the patient's bone marrow biopsy less than 10%?"
+    },
+    {
+      "criterion": "FVC or DLCO of less than 50% of predicted (DLCO corrected for hemoglobin level)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess FVC or DLCO; cannot determine eligibility.",
+      "clinical_question": "Does the patient have an FVC or DLCO value of less than 50% of the predicted value, corrected for hemoglobin level?"
+    },
+    {
+      "criterion": "Already known to not possess suitably HLA-matched related or unrelated donor",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on HLA matching status provided; cannot assess this criterion.",
+      "clinical_question": "Does the patient have an HLA typing result indicating a lack of suitably matched related or unrelated donor?"
+    },
+    {
+      "criterion": "Eligibility to proceed to allogeneic transplant Cannot be admitted for allogeneic transplant earlier than 40 days and no later than 180 days after autologous stem cell transplant.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior transplant status or timing provided; cannot assess eligibility.",
+      "clinical_question": "Has the patient undergone autologous stem cell transplant between 40 and 180 days prior to the planned allogeneic transplant?"
+    },
+    {
+      "criterion": "HLA identical (A, B, C and DR) related or unrelated donor available. HLA typing of class I loci (HLA- A, B, C) will be based on complement dependent cytotoxicity assay or PCR of sequence specific oligonucleotide primers (SSOP). Typing of HLA class II (DRB1) will be based on PCR of sequence specific oligonucleotide primers (SSOP).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on availability of HLA identical donor; cannot assess this criterion.",
+      "clinical_question": "Is the patient HLA identical at the A, B, C, and DR loci with a related or unrelated donor based on complement dependent cytotoxicity assay or PCR of sequence specific oligonucleotide primers?"
+    },
+    {
+      "criterion": "No need for intravenous hydration in the previous 2 weeks",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on hydration needs in the past 2 weeks; cannot assess this criterion.",
+      "clinical_question": "Has the patient required intravenous hydration at any point in the previous 14 days?"
+    },
+    {
+      "criterion": "Resolved mucositis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on mucositis status provided; cannot assess this criterion.",
+      "clinical_question": "Has the patient experienced complete resolution of mucositis as defined by a mucositis score of 0 on the NCI Common Terminology Criteria for Adverse Events (CTCAE) scale?"
+    },
+    {
+      "criterion": "Renal, cardiac, pulmonary, and hepatic function meet standard criteria for nonmyeloablative SCT as listed below:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on renal, cardiac, pulmonary, and hepatic function provided; cannot assess this criterion.",
+      "clinical_question": "Does the patient have a creatinine clearance of ≥60 mL/min, an ejection fraction of ≥50%, a forced expiratory volume in 1 second (FEV1) of ≥70% predicted, and a total bilirubin level of ≤2 mg/dL?"
+    },
+    {
+      "criterion": "Serum Cr < 2 gm/dL",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level less than 2 mg/dL?"
+    },
+    {
+      "criterion": "LV ejection fraction > 30% and no uncontrolled symptoms of congestive heart failure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction greater than 30%?"
+    },
+    {
+      "criterion": "DLCO > 50% of predicted value (corrected for hemoglobin)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current DLCO percentage of the predicted value, corrected for hemoglobin?"
+    },
+    {
+      "criterion": "Minimum of 2 x 106 CD34+ cells / kg already collected and frozen. These stem cells may have been collected from PBSC pheresis, bone marrow harvest, or the combination.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on CD34+ cell collection status provided; cannot assess this criterion.",
+      "clinical_question": "Have at least 2 x 10^6 CD34+ cells/kg been collected and frozen for this patient?"
+    },
+    {
+      "criterion": "Transaminases < 5X the institution upper limit of normal",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Transaminase levels are not provided in the lab values, making it unclear if they meet the criterion.",
+      "clinical_question": "Are the patient's transaminase levels less than 5 times the institution's upper limit of normal?"
+    },
+    {
+      "criterion": "Bilirubin < 3X the institution upper limit of normal except when Gilbert's Syndrome or hemolysis is present",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided in the lab values, making it unclear if they meet the criterion.",
+      "clinical_question": "Is the patient's total bilirubin level less than 3 times the institution's upper limit of normal?"
+    },
+    {
+      "criterion": "ECOG PS ≤ 2",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG Performance Status score of ≤2?"
+    },
+    {
+      "criterion": "No intravenous antimicrobials within 2 weeks",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the use of intravenous antimicrobials within the last 2 weeks.",
+      "clinical_question": "Has the patient received any intravenous antimicrobials in the past 14 days?"
+    },
+    {
+      "criterion": "No evidence of progressive disease, defined as a 25% increase from nadir in the sum of the product of the diameters (SPD) of any lymph node previously identified as abnormal prior to autologous transplant or the appearance of any new lymph node greater than 1.5 cm in greatest diameter, new bone marrow involvement, or new solid organ nodule greater than 1 cm in diameter. This restaging study will be performed at least 28 days after the autologous transplant and within 60 days prior to admission for allogeneic transplant. Status of stable disease (SD) is acceptable to proceed to allogeneic transplant.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the current status of disease progression or restaging results.",
+      "clinical_question": "Has the patient undergone a restaging study that shows no evidence of progressive disease, defined as a 25% increase from nadir in the sum of the product of the diameters of any previously abnormal lymph node or the appearance of any new lymph node greater than 1.5 cm in diameter?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients will be re-evaluated after autologous transplant prior to proceeding to",
+    "EXCLUSION UNCLEAR: Pregnancy",
+    "EXCLUSION UNCLEAR: Evidence of HIV infection",
+    "EXCLUSION UNCLEAR: Heart failure uncontrolled by medications or ejection fraction less than 45%",
+    "EXCLUSION UNCLEAR: Active involvement of the CNS by lymphoma",
+    "EXCLUSION UNCLEAR: Inability to provide informed consent",
+    "EXCLUSION UNCLEAR: Previous autologous or allogeneic stem cell transplant",
+    "EXCLUSION UNCLEAR: Creatinine greater than 2 gm/dL or 24 hour urine creatinine clearance < 50 cc/mi",
+    "EXCLUSION UNCLEAR: Total bilirubin greater than 2 times the upper limit of normal except when due t",
+    "EXCLUSION UNCLEAR: Transaminases greater than 3 times the upper limit of normal",
+    "EXCLUSION UNCLEAR: FVC or DLCO of less than 50% of predicted (DLCO corrected for hemoglobin level)",
+    "EXCLUSION UNCLEAR: Already known to not possess suitably HLA-matched related or unrelated donor",
+    "EXCLUSION UNCLEAR: Eligibility to proceed to allogeneic transplant Cannot be admitted for allogenei",
+    "EXCLUSION UNCLEAR: HLA identical (A, B, C and DR) related or unrelated donor available. HLA typing ",
+    "EXCLUSION UNCLEAR: No need for intravenous hydration in the previous 2 weeks",
+    "EXCLUSION UNCLEAR: Resolved mucositis",
+    "EXCLUSION UNCLEAR: Renal, cardiac, pulmonary, and hepatic function meet standard criteria for nonmy",
+    "EXCLUSION UNCLEAR: Serum Cr < 2 gm/dL",
+    "EXCLUSION UNCLEAR: LV ejection fraction > 30% and no uncontrolled symptoms of congestive heart fail",
+    "EXCLUSION UNCLEAR: DLCO > 50% of predicted value (corrected for hemoglobin)",
+    "EXCLUSION UNCLEAR: Transaminases < 5X the institution upper limit of normal",
+    "EXCLUSION UNCLEAR: Bilirubin < 3X the institution upper limit of normal except when Gilbert's Syndr",
+    "EXCLUSION UNCLEAR: ECOG PS ≤ 2",
+    "EXCLUSION UNCLEAR: No intravenous antimicrobials within 2 weeks",
+    "EXCLUSION UNCLEAR: No evidence of progressive disease, defined as a 25% increase from nadir in the ",
+    "LOW INCLUSION MATCH: only 4 of 21 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3261
+}

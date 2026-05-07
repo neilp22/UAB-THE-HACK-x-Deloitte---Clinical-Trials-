@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT03925610",
+  "trial_title": "Recovery of Ventilation After General Anesthesia in Morbidly Obese Patients",
+  "phase": "",
+  "status": "TERMINATED",
+  "brief_summary": "This is an observational study of morbidly obese patients recovering from general anesthesia after weight-loss surgery. The investigators aim to assess ventilatory function and how this is influenced by the diagnosis of obstructive sleep apnea (OSA), baseline ventilatory status, as well as pharyngeal collapsibility of patients who are recovering from anesthesia and treated for pain with opioids. The investigators hypothesize that patients with OSA, chronic (baseline) hypoventilation and increase",
+  "eligibility_table": [
+    {
+      "criterion": "Body mass index (BMI) equal or greater than 35 kg/m2.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's obesity hypoventilation syndrome and other conditions suggest a high BMI, but specific BMI data is not provided. Given the conditions, it is likely that the BMI is not confirmed to be equal or greater than 35 kg/m2.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "American Society of Anesthesiologists (ASA) physical status I - III patients.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple serious conditions (COPD, dCHF, CAD, etc.) which likely place her at a higher ASA physical status than III.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Scheduled to undergo laparoscopic roux-en-Y gastric bypass or gastric sleeve placement surgery for weight loss.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a complex medical history, and while she may be scheduled for weight loss surgery, this is not explicitly stated.",
+      "clinical_question": "Does the patient have a body mass index (BMI) of ≥40 kg/m² or a BMI of ≥35 kg/m² with obesity-related comorbidities?"
+    },
+    {
+      "criterion": "Chronic obstructive pulmonary disorder (COPD).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented history of COPD with a forced expiratory volume in 1 second (FEV1) less than 70% of predicted values?"
+    },
+    {
+      "criterion": "Treatment with continuous positive airway pressure (CPAP) in the past three months.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently using Bipap, which is a form of CPAP, indicating treatment within the past three months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe neurological, cardiopulmonary, psychiatric, or untreated thyroid disorder.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of schizophrenia, which is a psychiatric disorder, and other serious conditions that may be considered severe.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic pain condition that was being treated with opioids.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient reports chronic right thigh pain, which may indicate a chronic pain condition, and there is no information provided about opioid treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with a hematocrit lower than 35%.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There are no lab values provided to assess hematocrit levels, making it impossible to determine eligibility based on this criterion.",
+      "clinical_question": "Is the patient's hematocrit level currently less than 35%?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Chronic obstructive pulmonary disorder (COPD).",
+    "EXCLUSION UNCLEAR: Patients with a hematocrit lower than 35%.",
+    "LOW INCLUSION MATCH: only 0 of 3 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.625
+}

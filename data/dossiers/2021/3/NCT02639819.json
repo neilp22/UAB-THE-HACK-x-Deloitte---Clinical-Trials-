@@ -1,0 +1,225 @@
+{
+  "nct_id": "NCT02639819",
+  "trial_title": "Management of Intracerebral Hemorrhage With Aminocaproic Acid - Pilot Study",
+  "phase": "PHASE1",
+  "status": "WITHDRAWN",
+  "brief_summary": "This is single-arm, open-label, safety and feasibility pilot study of ɛ-aminocaproic acid in ICH patients.\n\nConsecutive ICH volume with hematoma volume less than 30 mL by ABC/2 method presenting within 3 hours of symptom onset, meeting all inclusion criteria, and without exclusions will be consented and enrolled. Subjects will receive 5 grams of intravenous ɛ-aminocaproic acid over 1 hour, followed by the same at 1 mg/hour for 23 hours. Comupted tomography (CT) head will be done at 24 hours in o",
+  "eligibility_table": [
+    {
+      "criterion": "Age 18-80 years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 32.0 >= 80.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Supratentorial ICH ≤ 30 mL in volume and seen on ≥ 2 slices on a 0.5 mm CT head",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The volume of the supratentorial ICH is not specified in the profile, making it unclear if it meets the ≤ 30 mL requirement.",
+      "clinical_question": "Is the volume of the supratentorial intracerebral hemorrhage ≤ 30 mL as measured on a 0.5 mm CT head?"
+    },
+    {
+      "criterion": "IVH involving < 50% of the ipsilateral lateral ventricle will be allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The extent of IVH involvement in the lateral ventricle is not provided, so it cannot be determined if it is < 50%.",
+      "clinical_question": "Does the patient have intraventricular hemorrhage involving < 50% of the ipsilateral lateral ventricle?"
+    },
+    {
+      "criterion": "Treatment initiated within 1 hour of baseline CT and 3 hours of onset or last known normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The timing of treatment initiation relative to baseline CT and onset is not mentioned, leaving uncertainty about this criterion.",
+      "clinical_question": "Was the treatment with aminocaproic acid initiated within 1 hour of the baseline CT scan and within 3 hours of the onset of symptoms or the last known normal?"
+    },
+    {
+      "criterion": "Baseline mRS ≥ 2",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a significant head injury and likely has a modified Rankin Scale (mRS) score ≥ 2 due to the conditions described.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Infratentorial hemorrhage (brainstem/cerebellum)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify if there is infratentorial hemorrhage, making it uncertain.",
+      "clinical_question": "Does the patient have evidence of infratentorial hemorrhage on neuroimaging?"
+    },
+    {
+      "criterion": "Any supratentorial hemorrhage extending to the brainstem",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate if there is any supratentorial hemorrhage extending to the brainstem.",
+      "clinical_question": "Does the patient have a supratentorial hemorrhage that extends to the brainstem as confirmed by imaging studies?"
+    },
+    {
+      "criterion": "ICH > 30 mL",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The volume of ICH is not provided, so it cannot be determined if it exceeds 30 mL.",
+      "clinical_question": "Does the patient have an intracerebral hemorrhage volume greater than 30 mL as measured by a CT scan?"
+    },
+    {
+      "criterion": "Patients who undergo surgical evacuation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on whether the patient has undergone surgical evacuation.",
+      "clinical_question": "Has the patient undergone surgical evacuation of the intracerebral hemorrhage?"
+    },
+    {
+      "criterion": "Presenting outside of the 3 hour window",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify the timing of presentation relative to the 3-hour window.",
+      "clinical_question": "Was the patient presenting to the hospital more than 3 hours after the onset of symptoms related to the intracerebral hemorrhage?"
+    },
+    {
+      "criterion": "Intraventricular extension > 1/2 of one lateral ventricle",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The extent of intraventricular extension is not detailed, so it cannot be assessed.",
+      "clinical_question": "Does the patient's imaging show intraventricular extension of hemorrhage that occupies >50% of one lateral ventricle?"
+    },
+    {
+      "criterion": "Intraventricular extension into the 3rd or 4th ventricle, or the aqueduct or involving >50% of the ipsilateral lateral ventricle",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not specify the extent of intraventricular hemorrhage, making it unclear if the criterion is met.",
+      "clinical_question": "Does the patient's imaging show intraventricular hemorrhage extending into the 3rd or 4th ventricle, the aqueduct, or involving >50% of the ipsilateral lateral ventricle?"
+    },
+    {
+      "criterion": "ICH due to trauma",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of head injury, which indicates that the ICH is likely due to trauma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ICH due to aneurysm of arteriovenous malformation",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The presence of an arteriovenous malformation (AVM) suggests that the ICH could be due to the AVM.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ICH due to underlying neoplasm or infectious mass",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about an underlying neoplasm or infectious mass.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of an underlying neoplasm or infectious mass contributing to the intracerebral hemorrhage?"
+    },
+    {
+      "criterion": "ICH due to Warfarin or other oral or intravenous anticoagulants",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on pain medication, but there is no specific mention of anticoagulants.",
+      "clinical_question": "Has the patient been treated with warfarin or any other oral or intravenous anticoagulants in the past 30 days?"
+    },
+    {
+      "criterion": "International normalization ratio > 1.4",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided, so the INR status is unknown.",
+      "clinical_question": "Is the patient's international normalization ratio currently greater than 1.4?"
+    },
+    {
+      "criterion": "Life expectancy < 1 year (prior to ICH onset); due to any cause.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old, which indicates a life expectancy greater than 1 year.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of recent ischemic stroke (within the past 3 months)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a recent ischemic stroke in the patient's history.",
+      "clinical_question": "Has the patient experienced an ischemic stroke within the past 3 months?"
+    },
+    {
+      "criterion": "History of deep vein thrombosis or pulmonary embolism",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not indicate any prior deep vein thrombosis or pulmonary embolism.",
+      "clinical_question": "Has the patient ever been diagnosed with deep vein thrombosis or pulmonary embolism?"
+    },
+    {
+      "criterion": "History of recent myocardial infarction (within the past 3 months)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding a recent myocardial infarction.",
+      "clinical_question": "Has the patient experienced a myocardial infarction within the past 3 months?"
+    },
+    {
+      "criterion": "Known history of hypercoagulable state",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention a known history of hypercoagulable state, but this information is not explicitly provided.",
+      "clinical_question": "Does the patient have a documented history of a hypercoagulable state, such as Factor V Leiden mutation or antiphospholipid syndrome?"
+    },
+    {
+      "criterion": "History of cancer",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a history of cancer in the patient profile, but it is unclear if there are any undiagnosed conditions.",
+      "clinical_question": "Has the patient been diagnosed with any type of cancer in the past or currently?"
+    },
+    {
+      "criterion": "Glomerular filtration rate < 60 mL/min",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for glomerular filtration rate are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's glomerular filtration rate (GFR) less than 60 mL/min?"
+    },
+    {
+      "criterion": "Received any hemostatic therapy for any indication (last 14 days)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not received any hemostatic therapy in the last 14 days according to the profile, but this is not explicitly stated.",
+      "clinical_question": "Has the patient received any hemostatic therapy, such as aminocaproic acid, within the last 14 days?"
+    },
+    {
+      "criterion": "Received any investigational therapy in last 90 days",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of any investigational therapy received in the last 90 days, but this information is not confirmed.",
+      "clinical_question": "Has the patient received any investigational therapy within the last 90 days?"
+    },
+    {
+      "criterion": "\"Do Not Resuscitate\" order in place or expected, advance directives that could limit aggressive treatment measures.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not indicate a 'Do Not Resuscitate' order or advance directives, but this information is not explicitly provided.",
+      "clinical_question": "Does the patient have a documented \"Do Not Resuscitate\" order or advance directives limiting aggressive treatment measures?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Baseline mRS ≥ 2",
+    "EXCLUSION UNCLEAR: Infratentorial hemorrhage (brainstem/cerebellum)",
+    "EXCLUSION UNCLEAR: Any supratentorial hemorrhage extending to the brainstem",
+    "EXCLUSION UNCLEAR: ICH > 30 mL",
+    "EXCLUSION UNCLEAR: Patients who undergo surgical evacuation",
+    "EXCLUSION UNCLEAR: Presenting outside of the 3 hour window",
+    "EXCLUSION UNCLEAR: Intraventricular extension > 1/2 of one lateral ventricle",
+    "EXCLUSION UNCLEAR: Intraventricular extension into the 3rd or 4th ventricle, or the aqueduct or inv",
+    "EXCLUSION VIOLATED: ICH due to trauma",
+    "EXCLUSION VIOLATED: ICH due to aneurysm of arteriovenous malformation",
+    "EXCLUSION UNCLEAR: ICH due to underlying neoplasm or infectious mass",
+    "EXCLUSION UNCLEAR: ICH due to Warfarin or other oral or intravenous anticoagulants",
+    "EXCLUSION UNCLEAR: International normalization ratio > 1.4",
+    "EXCLUSION UNCLEAR: History of recent ischemic stroke (within the past 3 months)",
+    "EXCLUSION UNCLEAR: History of deep vein thrombosis or pulmonary embolism",
+    "EXCLUSION UNCLEAR: History of recent myocardial infarction (within the past 3 months)",
+    "EXCLUSION UNCLEAR: Known history of hypercoagulable state",
+    "EXCLUSION UNCLEAR: History of cancer",
+    "EXCLUSION UNCLEAR: Glomerular filtration rate < 60 mL/min",
+    "EXCLUSION UNCLEAR: Received any hemostatic therapy for any indication (last 14 days)",
+    "EXCLUSION UNCLEAR: Received any investigational therapy in last 90 days",
+    "EXCLUSION UNCLEAR: \"Do Not Resuscitate\" order in place or expected, advance directives that could l",
+    "LOW INCLUSION MATCH: only 0 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.1852
+}

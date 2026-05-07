@@ -1,0 +1,181 @@
+{
+  "nct_id": "NCT04521803",
+  "trial_title": "High vs. Standard Dose Rifampicin for Effusive Tuberculous Pericarditis",
+  "phase": "PHASE2",
+  "status": "RECRUITING",
+  "brief_summary": "The investigators hypothesise that high dose RIF (RIF35) will increase pericardial fluid RIF exposure and so enhance mycobacterial clearance, compared to standard of care dosing (RIF10).\n\nThis Phase 2b randomized, placebo-controlled, double-blinded trial will evaluate the efficacy and safety of RIF 35mg/kg compared 10mg/kg, added to standard first-line ATT, for the treatment of PCTB.",
+  "eligibility_table": [
+    {
+      "criterion": "Aged >18 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 44.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Suspected PCTB with confirmed pericardial effusion on echocardiography (i.e., echo free space of ≥1 cm anterior to the right ventricle in diastole)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile indicates a large pericardial effusion, but it is unclear if the echocardiography confirms an echo-free space of ≥1 cm anterior to the right ventricle.",
+      "clinical_question": "Does the echocardiography report indicate an echo-free space of ≥1 cm anterior to the right ventricle in diastole?"
+    },
+    {
+      "criterion": "Consent to study participation including testing for HIV-1 (if HIV status is unknown)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can consent to study participation, and there is no indication of HIV status being unknown.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Microbiologically detected Mtb in PCF or diagnosis of probable PCTB. Probable PCTB (in the absence of a positive pericardial fluid culture) will be defined as per Mayosi et al.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no microbiological detection of Mtb in pericardial fluid (PCF) mentioned, nor is there a clear diagnosis of probable PCTB.",
+      "clinical_question": "Has the patient undergone microbiological testing of the pericardial fluid that confirms the presence of Mycobacterium tuberculosis (Mtb) or meets the diagnostic criteria for probable effusive tuberculous pericarditis as defined by Mayosi et al.?"
+    },
+    {
+      "criterion": "Evidence of pericarditis with microbiologic confirmation of Mtb- infection elsewhere in the body and/or",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no evidence of microbiologic confirmation of Mtb infection elsewhere in the body provided in the profile.",
+      "clinical_question": "Does the patient have microbiologic confirmation of Mycobacterium tuberculosis infection from a site other than the pericardium?"
+    },
+    {
+      "criterion": "Exudative, lymphocyte predominant effusion with elevated adenosine deaminase (≥35 U/L)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient's pericardial fluid analysis show an adenosine deaminase level of ≥35 U/L?"
+    },
+    {
+      "criterion": "Participant will undergo pericardiocentesis (as per clinical indication)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of pericardial effusion and may require pericardiocentesis based on clinical indication.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Within 5 days of ATT initiation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on whether the patient has initiated anti-tuberculosis treatment (ATT) within the last 5 days.",
+      "clinical_question": "Has the patient initiated anti-tuberculosis therapy (ATT) within the last 5 days?"
+    },
+    {
+      "criterion": "Glomerular filtration rate <30ml/min or renal failure requiring dialysis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's glomerular filtration rate currently <30 ml/min?"
+    },
+    {
+      "criterion": "Rifampin-resistant TB",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not mention rifampin resistance, but it is unclear without further testing.",
+      "clinical_question": "Has the patient undergone testing for rifampicin resistance in their Mycobacterium tuberculosis strain?"
+    },
+    {
+      "criterion": "Severe concurrent opportunistic infection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any concurrent opportunistic infections.",
+      "clinical_question": "Does the patient have a documented severe opportunistic infection, defined as an infection that requires hospitalization or intravenous treatment, at the time of evaluation?"
+    },
+    {
+      "criterion": "Contraindication to placement of intra-pericardial catheter",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify any contraindications to the placement of an intra-pericardial catheter.",
+      "clinical_question": "Does the patient have any anatomical abnormalities or conditions that would contraindicate the placement of an intra-pericardial catheter?"
+    },
+    {
+      "criterion": "Failed pericardiocentesis procedure and/or failure of placement of intra-pericardial catheter",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the success or failure of any previous pericardiocentesis procedures.",
+      "clinical_question": "Has the patient experienced a failed pericardiocentesis procedure or a failure of placement of an intra-pericardial catheter within the last 30 days?"
+    },
+    {
+      "criterion": "Any disease or condition in which the use of the standard anti-TB drugs (or any of their components) are contraindicated. This includes, but is not limited to, allergy to any TB drug or their components.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about allergies to TB drugs, so unable to assess.",
+      "clinical_question": "Does the patient have a documented allergy to any standard anti-TB drugs or their components?"
+    },
+    {
+      "criterion": "In females: a positive urine pregnancy test result",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No urine pregnancy test result provided; cannot confirm status.",
+      "clinical_question": "Is the patient's urine pregnancy test result positive?"
+    },
+    {
+      "criterion": "Confirmed autoimmune disorders (e.g. systemic lupus erythematosus)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No confirmed autoimmune disorders listed, but history of lymphoma may complicate assessment.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of systemic lupus erythematosus based on the American College of Rheumatology criteria?"
+    },
+    {
+      "criterion": "Additional Exclusions for Gadolinium contrasted CMR",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific information on additional exclusions for gadolinium contrast provided.",
+      "clinical_question": "Does the patient have any contraindications for gadolinium-based contrast agents, such as a history of severe allergic reactions or renal impairment?"
+    },
+    {
+      "criterion": "Any implanted devices that are not MR compatible (e.g. pacemaker, defibrillators, cerebral aneurysm clips, cochlear implants etc.)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on implanted devices provided; cannot confirm compatibility.",
+      "clinical_question": "Does the patient have any implanted devices that are not MR compatible, such as a pacemaker or defibrillator?"
+    },
+    {
+      "criterion": "Claustrophobia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on claustrophobia provided; cannot confirm status.",
+      "clinical_question": "Does the patient have a documented history of claustrophobia that would prevent them from undergoing MRI imaging?"
+    },
+    {
+      "criterion": "Gadolinium allergy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on gadolinium allergy provided; cannot confirm status.",
+      "clinical_question": "Does the patient have a documented history of an allergic reaction to gadolinium-based contrast agents?"
+    },
+    {
+      "criterion": "Inability to lie on a flat surface for prolonged periods of time (e.g. severe congestive cardiac failure)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient's ability to lie flat is uncertain due to multiple health issues; cannot confirm.",
+      "clinical_question": "Does the patient exhibit signs of severe congestive cardiac failure, such as elevated jugular venous pressure or pulmonary edema, that would prevent her from lying flat for prolonged periods?"
+    },
+    {
+      "criterion": "Breastfeeding",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on breastfeeding status provided; cannot confirm.",
+      "clinical_question": "Is the patient currently breastfeeding an infant?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Glomerular filtration rate <30ml/min or renal failure requiring dialysis",
+    "EXCLUSION UNCLEAR: Rifampin-resistant TB",
+    "EXCLUSION UNCLEAR: Severe concurrent opportunistic infection",
+    "EXCLUSION UNCLEAR: Contraindication to placement of intra-pericardial catheter",
+    "EXCLUSION UNCLEAR: Failed pericardiocentesis procedure and/or failure of placement of intra-pericar",
+    "EXCLUSION UNCLEAR: Any disease or condition in which the use of the standard anti-TB drugs (or any ",
+    "EXCLUSION UNCLEAR: In females: a positive urine pregnancy test result",
+    "EXCLUSION UNCLEAR: Confirmed autoimmune disorders (e.g. systemic lupus erythematosus)",
+    "EXCLUSION UNCLEAR: Additional Exclusions for Gadolinium contrasted CMR",
+    "EXCLUSION UNCLEAR: Any implanted devices that are not MR compatible (e.g. pacemaker, defibrillators",
+    "EXCLUSION UNCLEAR: Claustrophobia",
+    "EXCLUSION UNCLEAR: Gadolinium allergy",
+    "EXCLUSION UNCLEAR: Inability to lie on a flat surface for prolonged periods of time (e.g. severe co",
+    "EXCLUSION UNCLEAR: Breastfeeding"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1364
+}

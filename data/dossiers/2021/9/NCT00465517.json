@@ -1,0 +1,326 @@
+{
+  "nct_id": "NCT00465517",
+  "trial_title": "A Randomized, Controlled Trial of Ganaxolone in Adult Uncontrolled Partial-Onset Seizures",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "The study will evaluate the effectiveness and safety of an investigational drug-ganaxolone - on partial seizure frequency in adults with epilepsy taking a maximum of 3 antiepileptic medications (AEDs). The study will also evaluate the effectiveness of ganaxolone in females with catamenial epilepsy.\n\nCatamenial epilepsy refers to a relationship between seizure frequency and a woman's menstrual cycle, where the number of seizures increases around the time of a woman's menstrual cycle.",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosis of epilepsy with POS with or without secondary generalized seizures according to the International League Against Epilepsy [ILAE] Classification of Epileptic Seizures (1981). Diagnosis should have been established by clinical history and CT or MRI of the brain to rule out progressive structural lesions and EEG with results consistent with partial-onset epilepsy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of epilepsy with focal seizures and has MRI findings consistent with atrophic changes, which supports the diagnosis of epilepsy according to ILAE criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "During the 8 week baseline period preceding randomization visit (Visit 4), participants should have a documented seizure frequency of ≥ 3CPS per 4 weeks on average.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not had any seizures for 20 years, which does not meet the requirement of ≥ 3 CPS per 4 weeks during the baseline period.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants should not be seizure free for more than 28 consecutive days during treatment with a stable dose of AEDs.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has been seizure-free for more than 28 consecutive days, which disqualifies him from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Treatment with a stable dose of up to 3 (FDA approved) current AEDs for 1 month prior to screening.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on multiple AEDs, but there is no indication of a stable dose for 1 month prior to screening, especially since he was tapered off Dilantin.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Maintenance of current AEDs without a change in dosing for the duration of study.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's medication regimen may not have been stable for the required duration, as he has recently tapered off Dilantin.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concomitant vigabatrin not permitted;",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is receiving vigabatrin, thus this criterion is met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Felbamate is allowed if the participant has been on felbamate for at least 18 months and has stable laboratory tests for the course of the study.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not been on felbamate for at least 18 months, as there is no mention of this medication in his profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants receiving treatment with a vagal nerve stimulator (VNS) may be included as long as the VNS has been in place for at least 12 months prior to entry into the study, the VNS battery is not due for replacement during subject participation, and stimulation parameters have been kept constant for 1 month prior to screening. VNS will be counted as 1 of the 3 concomitant AEDs.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is only 13 years old, which does not meet the age requirement of 18 to 69 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Male or female, 18 to 69 years of age (inclusive).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's ECG results, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient aged between 18 and 69 years old, inclusive?"
+    },
+    {
+      "criterion": "A 12-lead electrocardiogram (ECG) w/o clinically significant abnormalities.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's lab values are not provided, so it is unclear if there are any clinically significant abnormalities.",
+      "clinical_question": "Does the patient have a 12-lead electrocardiogram (ECG) that shows no clinically significant abnormalities?"
+    },
+    {
+      "criterion": "Presence of non-motor simple partial seizures only.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has focal epilepsy with secondary generalization, which does not fit the criterion of non-motor simple partial seizures.",
+      "clinical_question": "Has the patient experienced non-motor simple partial seizures at least twice in the past month?"
+    },
+    {
+      "criterion": "History of pseudoseizures in the last 5 years.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of pseudoseizures in the patient's history, but the last 5 years are not clearly defined.",
+      "clinical_question": "Has the patient experienced any episodes of pseudoseizures in the last 5 years?"
+    },
+    {
+      "criterion": "History of a primary generalized seizure in the last 5 years.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of seizures but has not had a primary generalized seizure in the last 5 years, though the exact timeline is unclear.",
+      "clinical_question": "Has the patient experienced any primary generalized seizures in the last 5 years?"
+    },
+    {
+      "criterion": "Past use of vigabatrin without stable visual fields tested twice over the 12 months after the last dose of vigabatrin (Concomitant use of vigabatrin is not allowed).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no record of past use of vigabatrin, so this criterion is not applicable.",
+      "clinical_question": "Has the patient undergone stable visual field testing twice within the 12 months following the last dose of vigabatrin?"
+    },
+    {
+      "criterion": "Seizures secondary to illicit drug or alcohol use, infection, neoplasia, demyelinating disease, degenerative neurological disease, or CNS disease deemed progressive, metabolic illness, or progressive degenerative disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's seizures are due to focal epilepsy and not secondary to the listed causes, but further details on the nature of the seizures are needed.",
+      "clinical_question": "Has the patient been diagnosed with seizures secondary to any of the following: illicit drug or alcohol use, infection, neoplasia, demyelinating disease, degenerative neurological disease, or a progressive metabolic illness?"
+    },
+    {
+      "criterion": "Status epilepticus within the last year prior to randomization.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of status epilepticus in the patient's history.",
+      "clinical_question": "Has the patient experienced any episodes of status epilepticus in the past 12 months?"
+    },
+    {
+      "criterion": "Clinically unstable psychiatric disorder within the last 2 years.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about the patient's psychiatric history, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient experienced any clinically unstable psychiatric disorder within the last 2 years?"
+    },
+    {
+      "criterion": "Suicidal attempt within the last 5 years or current significant suicidal ideation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of suicidal attempts or significant suicidal ideation in the patient's history.",
+      "clinical_question": "Has the patient experienced any suicidal attempts or reported significant suicidal ideation within the last 5 years?"
+    },
+    {
+      "criterion": "History of psychosis within the last 5 years. (Note: Participants who suffered a psychosis that can well be explained by exogenous factors may be allowed to enter the study after discussion with and approval by the Medical Monitor.)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of psychosis in the patient's profile.",
+      "clinical_question": "Has the patient experienced any episodes of psychosis within the last 5 years?"
+    },
+    {
+      "criterion": "Current use of neuroleptics for psychosis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not currently using neuroleptics for psychosis, as there is no mention of such treatment.",
+      "clinical_question": "Is the patient currently prescribed any neuroleptics for the treatment of psychosis?"
+    },
+    {
+      "criterion": "Be properly informed of the nature and risks of the study and give informed consent in writing, prior to entering the study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is 13 years old and may not be able to provide informed consent themselves, as they are a minor. Consent may need to be obtained from a guardian.",
+      "clinical_question": "Has the patient provided written informed consent after being fully informed of the nature and risks of the study?"
+    },
+    {
+      "criterion": "Able to participate for the full term of study.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's severe intellectual disability may hinder their ability to participate for the full term of the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Able to keep a seizure & medication diary throughout the course of the study.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Due to severe intellectual disability, the patient may not be able to keep a seizure and medication diary throughout the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Sexually active women of childbearing potential (WCBP) must be using a medically acceptable method of birth control and have a negative qualitative β-human chorionic growth hormone (β-HCG) pregnancy test result from a urine sample collected at the initial screening visit.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and does not fall under the criteria for sexually active women of childbearing potential.",
+      "clinical_question": "Is the patient currently using a medically acceptable method of birth control and has a negative qualitative β-HCG pregnancy test result?"
+    },
+    {
+      "criterion": "Participants with a history of depression who are stable and may be taking 1 anti-depressant medication.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of seizures but no mention of depression or anti-depressant use.",
+      "clinical_question": "Is the patient currently taking one stable anti-depressant medication for their history of depression?"
+    },
+    {
+      "criterion": "A significant medical or surgical condition at screening which might compromise the hematologic, cardiovascular, pulmonary, renal, gastrointestinal, or hepatic systems or other conditions that would place the subject at increased risk.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has multiple significant medical conditions, including CHF and epilepsy, which may compromise their health.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known sensitivity or allergy to progesterone or related steroid compounds.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about sensitivity or allergy to progesterone or related steroid compounds.",
+      "clinical_question": "Does the patient have a documented history of sensitivity or allergy to progesterone or related steroid compounds?"
+    },
+    {
+      "criterion": "History of drug use or alcohol abuse within the past 5 years.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of drug or alcohol abuse is mentioned, but the patient's history is limited.",
+      "clinical_question": "Has the patient had any history of drug use or alcohol abuse within the past 5 years?"
+    },
+    {
+      "criterion": "Sexually active WCBP who are unwilling to use a double-barrier method and establish that they are currently not pregnant by submitting to a pregnancy test.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and does not fall under the criteria for sexually active women of childbearing potential.",
+      "clinical_question": "Has the patient submitted to a pregnancy test within the last 7 days to confirm they are currently not pregnant?"
+    },
+    {
+      "criterion": "Females who are currently breastfeeding.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and does not fall under the criteria for breastfeeding females.",
+      "clinical_question": "Is the patient currently breastfeeding?"
+    },
+    {
+      "criterion": "History of chronic noncompliance with drug regimens.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of compliance is not explicitly stated, making it unclear if they have a history of chronic noncompliance.",
+      "clinical_question": "Has the patient missed ≥3 doses of their prescribed antiepileptic medications in the past month?"
+    },
+    {
+      "criterion": "Exposure to any other investigational drug or device within 30 days prior to screening.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about exposure to investigational drugs or devices within the last 30 days.",
+      "clinical_question": "Has the patient been exposed to any investigational drug or device within the 30 days prior to screening?"
+    },
+    {
+      "criterion": "Alanine transferase (ALT; SGPT) or Aspartate transferase (AST; SGOT) levels > 3 times upper limits of normal (ULN) at screening.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for ALT and AST are not provided, so it cannot be determined if they exceed the limits.",
+      "clinical_question": "Are the patient's alanine transferase (ALT) or aspartate transferase (AST) levels greater than 3 times the upper limit of normal (ULN) at screening?"
+    },
+    {
+      "criterion": "Benzodiazepines may be used intermittently for the control of seizure clustering as a one time rescue up to a maximum of 4 occasions as follows:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on benzodiazepines, but it is unclear how often they are used for seizure control.",
+      "clinical_question": "Has the patient used benzodiazepines for seizure clustering on more than 4 occasions?"
+    },
+    {
+      "criterion": "Participants who need benzodiazepines for control of seizures more than once per month or more than 4 times total during the Titration and Maintenance Phases will be discontinued.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The frequency of benzodiazepine use is not specified, making it uncertain if it exceeds the allowed limits.",
+      "clinical_question": "Has the patient required benzodiazepines for seizure control more than once per month or more than 4 times total during the Titration and Maintenance Phases?"
+    },
+    {
+      "criterion": "Once during the Titration Phase",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is vague; it is unclear if the patient has used benzodiazepines during the Titration Phase.",
+      "clinical_question": "Did the patient experience at least one seizure during the Titration Phase of the trial?"
+    },
+    {
+      "criterion": "No more than once per month during the Maintenance Phase",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's use of benzodiazepines during the Maintenance Phase is not specified.",
+      "clinical_question": "Has the patient experienced more than one seizure per month during the Maintenance Phase of treatment?"
+    },
+    {
+      "criterion": "Each occasion may be a period of 24 hours, during which up to 3 doses of benzodiazepine may be used.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's benzodiazepine use is not detailed enough to confirm compliance with this criterion.",
+      "clinical_question": "Has the patient used benzodiazepines on ≥3 occasions within a 24-hour period?"
+    },
+    {
+      "criterion": "If a participant is taking a benzodiazepine chronically for epilepsy and non-epilepsy conditions, it will be counted as 1 of the 3 AEDs and the dose cannot be changed during the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's chronic use of benzodiazepines is not clearly defined, making it uncertain how it affects AED count.",
+      "clinical_question": "Is the patient currently taking a benzodiazepine chronically for epilepsy or non-epilepsy conditions at a stable dose?"
+    },
+    {
+      "criterion": "Participant has history of repetitive seizures within the 12-month period preceding study entry where the individual seizures cannot be counted.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's seizure history is complex, and it is unclear if they meet the criteria for repetitive seizures.",
+      "clinical_question": "Has the patient experienced ≥2 uncontrolled partial-onset seizures within the 12-month period preceding study entry?"
+    },
+    {
+      "criterion": "Inability to withhold grapefruit and grapefruit juice from diet for the entire clinical trial.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's dietary restrictions regarding grapefruit and grapefruit juice are not specified in the provided profile, making it unclear whether they can comply.",
+      "clinical_question": "Has the patient consumed any grapefruit or grapefruit juice in the past 30 days?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Presence of non-motor simple partial seizures only.",
+    "EXCLUSION UNCLEAR: History of pseudoseizures in the last 5 years.",
+    "EXCLUSION UNCLEAR: History of a primary generalized seizure in the last 5 years.",
+    "EXCLUSION UNCLEAR: Past use of vigabatrin without stable visual fields tested twice over the 12 mon",
+    "EXCLUSION UNCLEAR: Seizures secondary to illicit drug or alcohol use, infection, neoplasia, demyeli",
+    "EXCLUSION UNCLEAR: Status epilepticus within the last year prior to randomization.",
+    "EXCLUSION UNCLEAR: Clinically unstable psychiatric disorder within the last 2 years.",
+    "EXCLUSION UNCLEAR: Suicidal attempt within the last 5 years or current significant suicidal ideatio",
+    "EXCLUSION UNCLEAR: History of psychosis within the last 5 years. (Note: Participants who suffered a",
+    "EXCLUSION UNCLEAR: Current use of neuroleptics for psychosis.",
+    "EXCLUSION UNCLEAR: Known sensitivity or allergy to progesterone or related steroid compounds.",
+    "EXCLUSION UNCLEAR: History of drug use or alcohol abuse within the past 5 years.",
+    "EXCLUSION UNCLEAR: Sexually active WCBP who are unwilling to use a double-barrier method and establ",
+    "EXCLUSION UNCLEAR: Females who are currently breastfeeding.",
+    "EXCLUSION UNCLEAR: History of chronic noncompliance with drug regimens.",
+    "EXCLUSION UNCLEAR: Exposure to any other investigational drug or device within 30 days prior to scr",
+    "EXCLUSION UNCLEAR: Alanine transferase (ALT; SGPT) or Aspartate transferase (AST; SGOT) levels > 3 ",
+    "EXCLUSION UNCLEAR: Benzodiazepines may be used intermittently for the control of seizure clustering",
+    "EXCLUSION UNCLEAR: Participants who need benzodiazepines for control of seizures more than once per",
+    "EXCLUSION UNCLEAR: Once during the Titration Phase",
+    "EXCLUSION UNCLEAR: No more than once per month during the Maintenance Phase",
+    "EXCLUSION UNCLEAR: Each occasion may be a period of 24 hours, during which up to 3 doses of benzodi",
+    "EXCLUSION UNCLEAR: If a participant is taking a benzodiazepine chronically for epilepsy and non-epi",
+    "EXCLUSION UNCLEAR: Participant has history of repetitive seizures within the 12-month period preced",
+    "EXCLUSION UNCLEAR: Inability to withhold grapefruit and grapefruit juice from diet for the entire c",
+    "LOW INCLUSION MATCH: only 2 of 15 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2683
+}

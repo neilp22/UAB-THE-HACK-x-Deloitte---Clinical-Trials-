@@ -1,0 +1,248 @@
+{
+  "nct_id": "NCT00001586",
+  "trial_title": "Treatment of Chronic Lymphocytic Leukemia/Small Lymphocytic Lymphoma (CLL/SLL): DNA Microarray Gene Expression Analysis",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Background:\n\n* Combined therapy with rituximab and fludarabine is the treatment of choice for advanced stage chronic lymphocytic leukemia/small lymphocytic lymphoma (CLL/SLL).\n* A new technology called deoxyribonucleic acid (DNA) microarray can be used to gain knowledge about the genetic basis of CLL/SLL.\n* Genetic studies of CLL/SLL may improve our understanding of what happens in the disease, help determine which patients are most likely to respond to treatment with fludarabine and rituximab, ",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosis of chronic lymphocytic lymphoma (CLL)/small lymphocytic lymphoma (SLL) will be made according to the World Health Organization (WHO) diagnostic classification. A lymphocyte count in excess of 5000/mcl is typically found in the leukemic variant but is not a pre-requisite for a diagnosis of SLL. Low, Intermediate or High-Risk Category of CLL/SLL, using the Modified Three-Stage Rai Staging System as follows:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of CLL, which aligns with the WHO classification. The elevated white count suggests a leukemic variant.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Risk Category: Low Risk",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of elevated white count and bulky lymphadenopathy, indicating a higher risk category than Low Risk.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Rai Stage: 0",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not Rai Stage 0 due to the presence of bulky lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Clinical Features: Elevated blood and marrow lymphocyte numbers only (L). (lymphocytes greater than 5000/microl in blood, and lymphocytes greater than 30 percent in marrow).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has elevated lymphocyte counts but also has enlarged lymph nodes, which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Risk Category: Intermediate Risk",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not meet the criteria for Low Risk due to the presence of bulky lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Rai Stage: I",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not Rai Stage I as they have bulky lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Clinical Features: L + enlarged lymph nodes (LN)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has elevated lymphocyte counts and enlarged lymph nodes, fitting the criteria for L + enlarged LN.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Risk Category: Intermediate Risk",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not meet the criteria for Intermediate Risk due to the presence of bulky lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Rai Stage: II",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not Rai Stage II as they have bulky lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Clinical Features: L + enlarged spleen or liver",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not meet the criteria for L + enlarged spleen or liver due to the presence of bulky lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must not be pregnant or breastfeeding.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and there is no indication of pregnancy or breastfeeding.",
+      "clinical_question": "Is the patient currently pregnant or breastfeeding?"
+    },
+    {
+      "criterion": "Patients with active autoimmune hemolytic anemia (AIHA) grade III or higher (transfusion or steroids indicated) or immune thrombocytopenia (ITP) grade III or higher (platelets less than 50,000/microL) shall not be enrolled. Patients with a history of prior therapy to control either AIHA or ITP will be eligible, provided they do not require maintenance corticosteroids, and have not received monoclonal antibody therapy in the past 6 months. Patients developing AIHA or ITP on protocol may be managed as medically indicated on protocol but will generally not undergo fludarabine/rituximab treatment until resolution of hemolysis or thrombocytopenia to less than grade III.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about AIHA or ITP; thus, it cannot be determined if the patient meets this criterion.",
+      "clinical_question": "Does the patient currently have a diagnosis of autoimmune hemolytic anemia (AIHA) grade III or higher or immune thrombocytopenia (ITP) grade III or higher, defined as platelets less than 50,000/microL?"
+    },
+    {
+      "criterion": "Any patient with a medical condition that requires chronic use of corticosteroids shall not be enrolled.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the chronic use of corticosteroids; therefore, the eligibility is uncertain.",
+      "clinical_question": "Does the patient have a medical condition that requires chronic use of corticosteroids?"
+    },
+    {
+      "criterion": "Risk Category: High Risk",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a genomic profile indicating high-risk features as defined by the DNA microarray gene expression analysis?"
+    },
+    {
+      "criterion": "Rai Stage: III",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a Rai Stage III classification based on their clinical presentation and laboratory findings?"
+    },
+    {
+      "criterion": "Clinical Features: L + anemia (Hemoglobin less than 11 gm/dl)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's hemoglobin level is not provided, so it cannot be determined if they have anemia.",
+      "clinical_question": "Is the patient's hemoglobin level currently less than 11 gm/dl?"
+    },
+    {
+      "criterion": "Risk Category: High Risk",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a genomic profile indicating high-risk features as defined by the DNA microarray gene expression analysis?"
+    },
+    {
+      "criterion": "Rai Stage: IV",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a Rai Stage IV classification based on the presence of lymphocytosis and bulky lymphadenopathy?"
+    },
+    {
+      "criterion": "Clinical Features: L + thrombocytopenia (platelets less than 100,000/microl)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's platelet count is not provided, making it impossible to assess for thrombocytopenia.",
+      "clinical_question": "Does the patient have a platelet count of less than 100,000/microl?"
+    },
+    {
+      "criterion": "Patients in the modified Rai high risk group and select patients in the intermediate risk group will undergo treatment with Rituximab Fludarabine. To meet treatment criteria patients in the intermediate risk group should have evidence of active disease as demonstrated by at least one of the following criteria:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have evidence of active disease as indicated by an elevated white blood cell count (≥ 100,000 cells/µL) or an elevated LDH level (≥ 1.5 times the upper limit of normal)?"
+    },
+    {
+      "criterion": "massive or progressive splenomegaly or lymphadenopathy;",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a spleen size greater than 20 cm or lymphadenopathy with a diameter greater than 10 cm?"
+    },
+    {
+      "criterion": "presence of weight loss greater than 10% over the preceding 6 months;",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on weight loss over the preceding 6 months.",
+      "clinical_question": "Has the patient experienced a weight loss of greater than 10% over the preceding 6 months?"
+    },
+    {
+      "criterion": "constitutional symptoms of extreme fatigue, night sweats or recurrent fever of greater than 100 degrees F (documented fevers must be occurring without evidence of specific infection), and bone pain;",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not reported constitutional symptoms, but this information is not explicitly stated.",
+      "clinical_question": "Has the patient experienced constitutional symptoms of extreme fatigue, night sweats, or recurrent fever of greater than 100 degrees F without evidence of specific infection in the past month?"
+    },
+    {
+      "criterion": "progressive lymphocytosis with an increase of greater than 50% over a 2 month period, or an anticipated doubling time of less than 6 months;",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's lymphocyte count trend is not provided, so it cannot be assessed for progressive lymphocytosis.",
+      "clinical_question": "Has the patient's lymphocyte count increased by more than 50% over the past 2 months?"
+    },
+    {
+      "criterion": "chronic infections either increased number or prolonged infections;",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding chronic infections.",
+      "clinical_question": "Has the patient experienced ≥3 episodes of chronic infections lasting >4 weeks in the past 6 months?"
+    },
+    {
+      "criterion": "other high risk prognostic indicators such as excess elevation of beta-2-microglobulin, cluster differentiation 38 (CD38) expression and adverse cytogenetics may be used to better appraise the risk in each individual patient.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient’s beta-2-microglobulin levels and cytogenetics are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's beta-2-microglobulin level ≥3.5 mg/L?"
+    },
+    {
+      "criterion": "Patients with a diagnosis of CLL/SLL who do not meet the eligibility criteria for receiving Rituximab and Fludarabine (are not intermediate- or high-risk CLL/SLL), can enroll on the protocol for the purpose of donating cellular products. Such patients will not receive rituximab and fludarabine chemotherapy. At a later date, if it is documented that the patient does meet the criteria, then the patient may receive Rituximab and Fludarabine (after discussion with the Principal Investigator).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL with large cell transformation and Richter's transformation, indicating a high-risk status, which does not meet the criteria for low-risk CLL/SLL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "In a limited number of cases, patients with low-risk CLL/SLL may be initiated on Rituximab and Fludarabine treatment. For example, individuals who are candidates for bone marrow transplantation may be started on Rituximab Fludarabine as an induction regimen prior to transplantation. Additionally, some low-risk patients may be started on Rituximab and Fludarabine for psychological reasons (patient insistence on starting chemotherapy prior to disease progression). However, it must be stressed that low-risk CLL/SLL patients will be discouraged from initiating therapy except in these specific cases.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not classified as low-risk due to the presence of large cell transformation and Richter's transformation, which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age greater than or equal to 18 years of age.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have received no prior cytotoxic or monoclonal antibody therapy.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple prior therapies including FCR, PCR, and R-CVP, which are considered cytotoxic and monoclonal antibody therapies.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status of 0 to 2.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an Eastern Cooperative Oncology Group (ECOG) performance status score of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Required initial laboratory tests: Blood urea nitrogen (BUN) and Creatinine values must be less than or equal to 1.5 times the normal values; alternatively, patients with creatinine clearance of greater than 50 ml per minute will also be eligible. Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) values must be less than or equal to 2.0 times normal values; patients with laboratory values greater than these levels may be enrolled on the protocol (after a specific approval from the Principal Investigator) if the values are due to a known, pre-existing liver disease. Bilirubin must be less than or equal to 2.0 mg/dl unless due to Gilbert's disease.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided, making it impossible to assess the eligibility based on BUN, creatinine, AST, ALT, and bilirubin levels.",
+      "clinical_question": "Are the patient's blood urea nitrogen (BUN) and creatinine values less than or equal to 1.5 times the normal values, or is the creatinine clearance greater than 50 ml per minute?"
+    },
+    {
+      "criterion": "The patient must be competent to sign an informed consent, and sign the protocol consent form.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 57 years old and there is no indication of incompetence to sign informed consent, thus meeting this criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients must not be pregnant or breastfeeding.",
+    "EXCLUSION UNCLEAR: Patients with active autoimmune hemolytic anemia (AIHA) grade III or higher (tra",
+    "EXCLUSION UNCLEAR: Any patient with a medical condition that requires chronic use of corticosteroid",
+    "LOW INCLUSION MATCH: only 4 of 30 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4545
+}

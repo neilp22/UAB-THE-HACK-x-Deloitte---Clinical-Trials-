@@ -1,0 +1,137 @@
+{
+  "nct_id": "NCT00211614",
+  "trial_title": "Proton Pump Inhibitor Therapy for Mild to Moderate Obstructive Sleep Apnea",
+  "phase": "NA",
+  "status": "WITHDRAWN",
+  "brief_summary": "Obstructive Sleep Apnea (OSA) is common in modern society, affecting up to 5% of working middle-aged adults in the United States. Obesity is the number one risk factor for the development of OSA. Consequences of untreated OSA are varied and significant and included numerous neuropsychiatric parameters such as mood alterations, depression, anxiety, diminished social interactions, and decreased quality of life. Mounting evidence suggests that treatment of OSA can improve many of these outcomes. Th",
+  "eligibility_table": [
+    {
+      "criterion": "Adults (> 18 years old) with mild to moderate OSA (as defined by an apnea-hypopnea index between 5 and 30) currently on no therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient's apnea-hypopnea index between 5 and 30?"
+    },
+    {
+      "criterion": "GERD as documented by 24 pH probe (> 6% of the time with pH < 4).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No documentation of GERD provided in the patient profile.",
+      "clinical_question": "Has the patient undergone a 24-hour pH probe study that documented a pH < 4 for more than 6% of the time?"
+    },
+    {
+      "criterion": "Agreeable to participating in the study",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has not indicated any refusal to participate in the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Those not meeting the inclusion criteria",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Cannot determine if the patient meets all inclusion criteria due to lack of information.",
+      "clinical_question": "Does the patient have a documented history of obstructive sleep apnea (OSA) with an apnea-hypopnea index (AHI) of ≥5 events per hour?"
+    },
+    {
+      "criterion": "Prisoners, minors, incompetent subjects, unconscious subjects, house staff and students, pregnant women",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "Patient is not a prisoner, minor, incompetent, unconscious, house staff, student, or pregnant.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Oxygen dependent, requiring supplemental oxygen during sleep, or significant hypoxia during the initial PSG (O2 sats < 85% for > 5 minutes of sleep)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is oxygen dependent with O2 sats in the 60s-70s.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe cardiac or pulmonary disease (CHF with EF < 40%, active coronary ischemia or unstable angina, uncontrolled arrythmias, COPD or other lung condition requiring supplemental oxygen or documented hypercapnia of a pCO2 > 45).",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has CHF with EF of 55%, which does not meet the exclusion criteria for EF < 40% but has significant pulmonary disease requiring oxygen.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Neuromuscular disease with hypercapnia (pCO2 > 45)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No pCO2 values provided to assess for hypercapnia.",
+      "clinical_question": "Is the patient's arterial blood gas analysis showing a pCO2 level greater than 45 mmHg?"
+    },
+    {
+      "criterion": "Any cancer with a prognosis of < 1 year survival",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on cancer diagnosis or prognosis provided.",
+      "clinical_question": "Does the patient have a cancer diagnosis with a prognosis of less than 1 year survival?"
+    },
+    {
+      "criterion": "Use of H2 blocker therapy or PPI therapy within 14 days of the initial PSG.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the use of H2 blockers or PPI therapy within the last 14 days.",
+      "clinical_question": "Has the patient received H2 blocker therapy or PPI therapy within 14 days of the initial polysomnography (PSG)?"
+    },
+    {
+      "criterion": "Individuals requiring routine use of sleep aids (i.e. benzodiazepines or other sedatives)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the use of sleep aids.",
+      "clinical_question": "Has the patient used benzodiazepines or other sedatives for sleep at least 3 times per week over the past month?"
+    },
+    {
+      "criterion": "Individuals with active alcohol or substance abuse",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention any history of alcohol or substance abuse, but without explicit information, it is uncertain.",
+      "clinical_question": "Has the patient experienced any episodes of alcohol or substance abuse in the past 12 months?"
+    },
+    {
+      "criterion": "Night shift workers or those working rotating shifts",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's work schedule, making it unclear if they are a night shift or rotating shift worker.",
+      "clinical_question": "Has the patient worked night shifts or rotating shifts for at least 3 months in the past year?"
+    },
+    {
+      "criterion": "Disabling sleepiness (Epworth Sleepiness Scale > 17 or history of accidents related to sleepiness) that places individual at risk for accidents.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has multiple conditions that could contribute to sleepiness, but there is no specific mention of an Epworth Sleepiness Scale score or accidents related to sleepiness.",
+      "clinical_question": "Does the patient have an Epworth Sleepiness Scale score greater than 17 or a documented history of accidents related to sleepiness?"
+    },
+    {
+      "criterion": "Inability to complete study questionnaires",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to complete study questionnaires is not addressed in the profile, leaving uncertainty about their cognitive function.",
+      "clinical_question": "Has the patient completed at least 80% of the study questionnaires required for the trial?"
+    },
+    {
+      "criterion": "Allergy to lansoprazole",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of an allergy to lansoprazole in the patient profile, but without explicit confirmation, it remains uncertain.",
+      "clinical_question": "Does the patient have a documented allergy to lansoprazole?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Those not meeting the inclusion criteria",
+    "EXCLUSION VIOLATED: Oxygen dependent, requiring supplemental oxygen during sleep, or significant hyp",
+    "EXCLUSION VIOLATED: Severe cardiac or pulmonary disease (CHF with EF < 40%, active coronary ischemia",
+    "EXCLUSION UNCLEAR: Neuromuscular disease with hypercapnia (pCO2 > 45)",
+    "EXCLUSION UNCLEAR: Any cancer with a prognosis of < 1 year survival",
+    "EXCLUSION UNCLEAR: Use of H2 blocker therapy or PPI therapy within 14 days of the initial PSG.",
+    "EXCLUSION UNCLEAR: Individuals requiring routine use of sleep aids (i.e. benzodiazepines or other s",
+    "EXCLUSION UNCLEAR: Individuals with active alcohol or substance abuse",
+    "EXCLUSION UNCLEAR: Night shift workers or those working rotating shifts",
+    "EXCLUSION UNCLEAR: Disabling sleepiness (Epworth Sleepiness Scale > 17 or history of accidents rela",
+    "EXCLUSION UNCLEAR: Inability to complete study questionnaires",
+    "EXCLUSION UNCLEAR: Allergy to lansoprazole"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.25
+}

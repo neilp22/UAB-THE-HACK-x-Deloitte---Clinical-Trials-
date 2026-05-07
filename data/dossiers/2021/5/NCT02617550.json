@@ -1,0 +1,168 @@
+{
+  "nct_id": "NCT02617550",
+  "trial_title": "Vericiguat Drug-drug Interaction With Nitroglycerin in Stable Coronary Artery Disease Patients",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "This study is intended to investigate the effect of nitroglycerin on vericiguat in patients with stable coronary artery disease (CAD). Nitroglycerin is the standard therapy to treat acute crisis of angina. Thus there is a high likelihood of co-administration of both drugs in the target indication of vericiguat, worsening heart failure (HF). Therefore, it is important to investigate the safety and tolerability of vericiguat and nitroglycerin, which may be used as unprescribed on-demand treatment ",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with stable CAD defined by coronary artery stenosis in any of the 3 main coronary vessels > 50% documented by coronary angiography within last 36 months or history of myocardial infarction",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of significant coronary artery disease with documented stenosis, which meets the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: 30 to 80 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient aged between 30 and 80 years old?"
+    },
+    {
+      "criterion": "Age: 30 to 80 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient aged between 30 and 80 years old?"
+    },
+    {
+      "criterion": "Body mass index (BMI): above/equal 18.0 and below/equal 36.0 kg / m²",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "BMI is not provided in the profile, making it impossible to assess this criterion.",
+      "clinical_question": "What is the patient's current body mass index (BMI), and is it between 18.0 and 36.0 kg/m²?"
+    },
+    {
+      "criterion": "Body mass index (BMI): above/equal 18.0 and below/equal 36.0 kg / m²",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "BMI is not provided in the profile, making it impossible to assess this criterion.",
+      "clinical_question": "What is the patient's current body mass index (BMI), and is it between 18.0 and 36.0 kg/m²?"
+    },
+    {
+      "criterion": "Female subjects must be of non-childbearing potential",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is male, thus does not meet the requirement for female subjects of non-childbearing potential.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Intervention e.g. revascularization by percutaneous coronary intervention (PCI) and/or coronary artery bypass graft (CABG) during the last 3 months",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone CABG, which is a revascularization procedure, within the last 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Progressive angina with symptoms of worsening of angina within the < 3 months",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of significant bilateral carotid stenosis and prior cerebrovascular accident, indicating potential worsening of angina.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of recent (< 6 months prior to the first screening examination) myocardial infarction or unstable angina",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of prior cerebrovascular accident, which may indicate recent instability.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Symptomatic carotid stenosis, or transient ischemic attack or stroke within 3 months prior or patients with stroke at more than 3 months prior with significant residual neurologic involvement",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of prior cerebrovascular accident and significant carotid stenosis, which indicates residual neurologic involvement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Insulin dependent diabetes mellitus",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has diabetes mellitus type II, which is not insulin-dependent, but the presence of diabetes with complications raises concerns.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Clinically relevant cardiac ischemia",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's history of significant coronary artery disease and prior CABG suggests clinically relevant cardiac ischemia.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Clinical significant persistent ischemia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide specific information about persistent ischemia, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient experienced ≥1 episode of angina or ischemic symptoms lasting ≥10 minutes in the past month?"
+    },
+    {
+      "criterion": "Atrial fibrillation, pacemaker, defibrillator, atrial ventricular (AV)-block II and III",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of atrial fibrillation, pacemaker, or AV-block in the patient's history, but this information is not explicitly confirmed.",
+      "clinical_question": "Does the patient have a history of atrial fibrillation or any documented episodes of AV-block II or III?"
+    },
+    {
+      "criterion": "Systolic blood pressure below 110 or above 160 mmHg",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Systolic blood pressure values are not provided, so it is uncertain if this criterion is met.",
+      "clinical_question": "Is the patient's current systolic blood pressure measured at or below 110 mmHg or at or above 160 mmHg?"
+    },
+    {
+      "criterion": "Systolic blood pressure below 110 or above 160 mmHg",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Systolic blood pressure values are not provided, so it is uncertain if this criterion is met.",
+      "clinical_question": "Is the patient's current systolic blood pressure measured at or below 110 mmHg or at or above 160 mmHg?"
+    },
+    {
+      "criterion": "Diastolic blood pressure above 100 mmHg",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Diastolic blood pressure values are not provided, so it is uncertain if this criterion is met.",
+      "clinical_question": "Is the patient's diastolic blood pressure currently measured at or above 100 mmHg?"
+    },
+    {
+      "criterion": "Heart rate below 50 or above 100 beats / min",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Heart rate values are not provided, so it is uncertain if this criterion is met.",
+      "clinical_question": "Is the patient's heart rate currently below 50 beats per minute or above 100 beats per minute?"
+    },
+    {
+      "criterion": "Heart rate below 50 or above 100 beats / min",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Heart rate values are not provided, so it is uncertain if this criterion is met.",
+      "clinical_question": "Is the patient's heart rate currently below 50 beats per minute or above 100 beats per minute?"
+    },
+    {
+      "criterion": "Estimated glomerular filtration rate < 30 mL/min/1.73m2",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Estimated glomerular filtration rate is not provided, making it unclear if this criterion is met.",
+      "clinical_question": "Is the patient's estimated glomerular filtration rate (eGFR) less than 30 mL/min/1.73m²?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Intervention e.g. revascularization by percutaneous coronary intervention (PCI) ",
+    "EXCLUSION VIOLATED: Progressive angina with symptoms of worsening of angina within the < 3 months",
+    "EXCLUSION VIOLATED: History of recent (< 6 months prior to the first screening examination) myocardi",
+    "EXCLUSION VIOLATED: Symptomatic carotid stenosis, or transient ischemic attack or stroke within 3 mo",
+    "EXCLUSION VIOLATED: Insulin dependent diabetes mellitus",
+    "EXCLUSION VIOLATED: Clinically relevant cardiac ischemia",
+    "EXCLUSION UNCLEAR: Clinical significant persistent ischemia",
+    "EXCLUSION UNCLEAR: Atrial fibrillation, pacemaker, defibrillator, atrial ventricular (AV)-block II ",
+    "EXCLUSION UNCLEAR: Systolic blood pressure below 110 or above 160 mmHg",
+    "EXCLUSION UNCLEAR: Systolic blood pressure below 110 or above 160 mmHg",
+    "EXCLUSION UNCLEAR: Diastolic blood pressure above 100 mmHg",
+    "EXCLUSION UNCLEAR: Heart rate below 50 or above 100 beats / min",
+    "EXCLUSION UNCLEAR: Heart rate below 50 or above 100 beats / min",
+    "EXCLUSION UNCLEAR: Estimated glomerular filtration rate < 30 mL/min/1.73m2",
+    "LOW INCLUSION MATCH: only 1 of 6 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.4
+}

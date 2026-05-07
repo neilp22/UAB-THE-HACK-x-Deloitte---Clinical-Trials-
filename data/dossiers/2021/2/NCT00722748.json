@@ -1,0 +1,492 @@
+{
+  "nct_id": "NCT00722748",
+  "trial_title": "Genomic Investigation of Cardiovascular Diseases",
+  "phase": "",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "This proposal puts forward a research plan to initiate a genetic databank, henceforth referred to as The Genebank at Scripps Clinic Registry. This database will usher in genomic research at Scripps as we strive to stay at the forefront of cardiovascular research in the new century. Human subject donation allows for the creation of the proposed genebank.",
+  "eligibility_table": [
+    {
+      "criterion": "Candidates for this study must meet ALL of the following criteria:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has severe aortic stenosis and worsening LV function, but it is unclear if they meet all inclusion criteria.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (EF) of ≤30%?"
+    },
+    {
+      "criterion": "Age 18 years or older",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient's age 18 years or older?"
+    },
+    {
+      "criterion": "Be reliable, cooperative and willing to comply with all protocol-specified procedures and sub-study if consented.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely reliable and willing to comply, given their extensive prior treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Able to understand and grant informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is able to understand and grant informed consent, as they have undergone multiple preoperative evaluations.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have at least one of the following (a-g):",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis, which qualifies under the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Coronary Artery Disease (defined as):",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's coronary artery status is not clearly defined; further information is needed.",
+      "clinical_question": "Does the patient have a documented coronary artery stenosis of ≥50% in any major coronary artery based on recent cardiac catheterization results?"
+    },
+    {
+      "criterion": "Coronary artery bypass surgery or",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior coronary artery bypass surgery.",
+      "clinical_question": "Has the patient undergone coronary artery bypass surgery within the last 12 months?"
+    },
+    {
+      "criterion": "Lesion >70% on cardiac or CT angiogram or",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No cardiac or CT angiogram results provided to assess lesion severity.",
+      "clinical_question": "Does the patient have a lesion greater than 70% on their cardiac or CT angiogram?"
+    },
+    {
+      "criterion": "Percutaneous Coronary Intervention",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior percutaneous coronary intervention.",
+      "clinical_question": "Has the patient undergone a successful percutaneous coronary intervention with a residual stenosis of <50% in the target vessel?"
+    },
+    {
+      "criterion": "Myocardial infarction (defined as):",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No documented history of myocardial infarction is provided.",
+      "clinical_question": "Has the patient experienced chest pain or other symptoms consistent with myocardial infarction within the last 30 days?"
+    },
+    {
+      "criterion": "Patients will be excluded if ANY of the following conditions apply:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No exclusion criteria are clearly met based on the provided information.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (EF) of less than 30%?"
+    },
+    {
+      "criterion": "Previously enrolled in The Genebank at Scripps Clinic Registry",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about previous enrollment in The Genebank at Scripps Clinic Registry.",
+      "clinical_question": "Has the patient been previously enrolled in The Genebank at Scripps Clinic Registry?"
+    },
+    {
+      "criterion": "Any active bleeding (i.e. GI bleed).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No active bleeding is reported, but the patient's condition may complicate assessment.",
+      "clinical_question": "Has the patient experienced any episodes of active gastrointestinal bleeding within the last 30 days?"
+    },
+    {
+      "criterion": "Has a significant medical condition which in the investigator's opinion may interfere with the patient's optimal participation in the study",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's severe aortic stenosis and worsening LV function may interfere with optimal participation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Treatment with any investigational agents or devices within 30 days preceding enrollment in the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on investigational agents or devices taken within the last 30 days.",
+      "clinical_question": "Has the patient received any investigational agents or devices within the 30 days preceding enrollment in the study?"
+    },
+    {
+      "criterion": "Been administered or taken any CNS sedatives or depressants in the past 12 hours.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on CNS sedatives or depressants taken in the past 12 hours.",
+      "clinical_question": "Has the patient taken any CNS sedatives or depressants within the last 12 hours?"
+    },
+    {
+      "criterion": "Been administered or taken any CNS sedatives or depressants in the past 12 hours.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Duplicate criterion; same reasoning as above.",
+      "clinical_question": "Has the patient taken any CNS sedatives or depressants within the last 12 hours?"
+    },
+    {
+      "criterion": "Subject's qualifying diagnosis is Atrial fibrillation and they are known to have any one of the following:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's qualifying diagnosis is not atrial fibrillation, so this criterion does not apply.",
+      "clinical_question": "Does the patient have a documented left ventricular ejection fraction (LVEF) of ≤30%?"
+    },
+    {
+      "criterion": "Prior myocardial infarction, coronary artery bypass surgery, or percutaneous coronary intervention",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior myocardial infarction, CABG, or PCI.",
+      "clinical_question": "Has the patient experienced a prior myocardial infarction, undergone coronary artery bypass surgery, or received percutaneous coronary intervention?"
+    },
+    {
+      "criterion": "EF < 45% at time of diagnosis (excluding tachycardia induced cardiomyopathy diagnosed by a cardiologist)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "EF is reported at 25%, which is below the threshold of 45%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diagnosed by elevated troponin level",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about troponin levels.",
+      "clinical_question": "Is the patient's troponin level ≥0.04 ng/mL?"
+    },
+    {
+      "criterion": "Diagnosed by ST segment elevations on EKG",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about EKG findings related to ST segment elevations.",
+      "clinical_question": "Does the patient have ST segment elevations of ≥1 mm in two or more contiguous leads on their EKG?"
+    },
+    {
+      "criterion": "Diagnosed by pathologic Q waves on EKG",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about EKG findings related to pathologic Q waves.",
+      "clinical_question": "Does the patient have pathologic Q waves present on their EKG?"
+    },
+    {
+      "criterion": "Documented in the medical record or by self report",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has multiple documented conditions and prior treatments indicating a significant medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Atrial Fibrillation (defined as)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the presence of Atrial Fibrillation.",
+      "clinical_question": "Does the patient have a documented episode of atrial fibrillation lasting ≥30 seconds on an ECG or Holter monitor?"
+    },
+    {
+      "criterion": "Lone Atrial fibrillation (paroxysmal, persistent or permanent)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the presence of Lone Atrial Fibrillation.",
+      "clinical_question": "Has the patient experienced episodes of atrial fibrillation lasting ≥30 seconds in the past 12 months?"
+    },
+    {
+      "criterion": "Lone Atrial Flutter (paroxysmal, persistent or permanent)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the presence of Lone Atrial Flutter.",
+      "clinical_question": "Has the patient experienced episodes of paroxysmal atrial flutter lasting ≥30 seconds in the past 12 months?"
+    },
+    {
+      "criterion": "Automatic Internal Cardiac Defibrillator",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the presence of an Automatic Internal Cardiac Defibrillator.",
+      "clinical_question": "Does the patient have an ejection fraction (EF) of ≤35% to qualify for an Automatic Internal Cardiac Defibrillator?"
+    },
+    {
+      "criterion": "Aortic Stenosis (defined by)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has severe aortic stenosis, which meets the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Calculated Aortic Valve Area ≤ 1.0 cm²",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's calculated aortic valve area ≤ 1.0 cm²?"
+    },
+    {
+      "criterion": "Elevated left atrial pressures (> 20 mmHg)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left atrial pressure measured at > 20 mmHg during right heart catheterization?"
+    },
+    {
+      "criterion": "Dilated left atrium (> 4.0 cm or >2.0 cm/m2 body surface)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient's left atrium is likely dilated given the severe LV dysfunction and other cardiac findings.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mitral valve disease with significant valve pathology",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has mild MR and other significant cardiac issues indicating potential mitral valve disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mitral regurgitation/insufficiency greater than trace to mild on echo as determined by reading physician",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has mild mitral regurgitation (MR), which is less than the exclusion threshold of trace to mild.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Rheumatic mitral valve disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding rheumatic mitral valve disease; therefore, it cannot be determined.",
+      "clinical_question": "Does the patient have a history of rheumatic fever or rheumatic heart disease that has led to mitral valve involvement?"
+    },
+    {
+      "criterion": "Congestive heart failure prior to diagnosis",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe left ventricular dysfunction (EF 25%), indicating congestive heart failure prior to diagnosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hypertrophic cardiomyopathy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding hypertrophic cardiomyopathy; therefore, it cannot be determined.",
+      "clinical_question": "Does the patient have a left ventricular wall thickness ≥15 mm on echocardiogram?"
+    },
+    {
+      "criterion": "Diagnosis following coronary artery bypass or valve replacement surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding a diagnosis following coronary artery bypass or valve replacement surgery; therefore, it cannot be determined.",
+      "clinical_question": "Has the patient undergone coronary artery bypass grafting or valve replacement surgery within the last 12 months?"
+    },
+    {
+      "criterion": "Post heart transplant",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding post heart transplant status; therefore, it cannot be determined.",
+      "clinical_question": "Has the patient undergone a heart transplant within the last 12 months?"
+    },
+    {
+      "criterion": "Congenital heart disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding congenital heart disease; therefore, it cannot be determined.",
+      "clinical_question": "Does the patient have a documented diagnosis of congenital heart disease confirmed by echocardiogram or cardiac MRI?"
+    },
+    {
+      "criterion": "Mean Pressure Gradient ≥ 40 mmHg",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's severe aortic stenosis likely results in a mean pressure gradient ≥ 40 mmHg.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Peak Pressure Gradient ≥ 64 mmHg",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific peak pressure gradient value provided; therefore, it cannot be determined.",
+      "clinical_question": "What is the patient's peak aortic valve pressure gradient measured during cardiac catheterization?"
+    },
+    {
+      "criterion": "Dimensionless Index < .25",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the dimensionless index; therefore, it cannot be determined.",
+      "clinical_question": "Is the patient's Dimensionless Index less than 0.25?"
+    },
+    {
+      "criterion": "Prior or planned Aortic Valve Replacement for Aortic Stenosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and has undergone a preoperative workup for valve replacement, indicating prior or planned Aortic Valve Replacement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mitral Regurgitation (insufficiency) (defined as)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has mild MR (Mitral Regurgitation), which meets the inclusion criterion for having mitral regurgitation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Moderate to Severe (equivalent to +3 to +4) mitral regurgitation (insufficiency) on transthoracic echocardiogram as determined by the reading physician and structurally abnormal valve (i.e. myxomatous) and/or thickened or redundant leaflets; OR",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has mild MR, which does not meet the criteria for moderate to severe mitral regurgitation (defined as +3 to +4).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior or planned Mitral Valve repair or replacement for mitral regurgitation",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of prior or planned Mitral Valve repair or replacement for mitral regurgitation in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Idiopathic (non-ischemic) Cardiomyopathy (defined as):",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe aortic stenosis and other cardiac issues, but there is no indication of idiopathic (non-ischemic) cardiomyopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diagnosed < age 40; OR",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is male and over the age of 40, thus does not meet the age criterion for idiopathic cardiomyopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Non-ischemic etiology confirmed by cardiac angiography or CT angiography (may have non-obstructive or stable coronary artery disease if diagnosis of non-ischemic etiology of CM is established by cardiologist).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no evidence of a non-ischemic etiology confirmed by cardiac angiography or CT angiography in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diagnosed in setting of hyperthyroid",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication that the patient was diagnosed in the setting of hyperthyroidism.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "COPD",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not explicitly mention COPD, but tobacco abuse raises concern; further information is needed.",
+      "clinical_question": "Does the patient have a documented history of COPD with a forced expiratory volume in 1 second (FEV1) less than 70%?"
+    },
+    {
+      "criterion": "Obstructive sleep apnea",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not explicitly mention obstructive sleep apnea; further information is needed to assess this criterion.",
+      "clinical_question": "Does the patient have an apnea-hypopnea index (AHI) ≥15 events per hour on a sleep study?"
+    },
+    {
+      "criterion": "Subject's qualifying diagnosis is Aortic Stenosis and they are known to have any one of the following:",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The subject has a qualifying diagnosis of Aortic Stenosis and does not have any of the specified exclusions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Bicuspid valve or other congenital abnormality of the aorta or aortic valve",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The subject has a bicuspid aortic valve, which is a known congenital abnormality.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of Rheumatic involvement of the Aortic Valve",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no evidence provided regarding rheumatic involvement of the aortic valve.",
+      "clinical_question": "Does the patient have evidence of rheumatic fever or rheumatic heart disease documented in their medical history?"
+    },
+    {
+      "criterion": "Subject's qualifying diagnosis is Mitral regurgitation (insufficiency) and they are known to have any one of the following:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The subject's qualifying diagnosis is Aortic Stenosis, not Mitral regurgitation.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (EF) of less than 30%?"
+    },
+    {
+      "criterion": "Ejection fraction <50%",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The subject has an ejection fraction of 25%, which is below the threshold of 50%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of significant ischemic disease with regions of akinetic myocardium",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific evidence provided regarding significant ischemic disease or akinetic myocardium.",
+      "clinical_question": "Does the patient have evidence of significant ischemic disease as defined by a left ventricular ejection fraction (LVEF) of <35% and regions of akinetic myocardium on imaging studies?"
+    },
+    {
+      "criterion": "Rheumatic changes on echocardiogram (as determined by the reading physician)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no echocardiogram evidence provided to assess for rheumatic changes.",
+      "clinical_question": "Does the echocardiogram show evidence of rheumatic changes, such as valvular thickening or regurgitation, as assessed by the reading physician?"
+    },
+    {
+      "criterion": "Significant Mitral stenosis (greater than \"mild\" on echocardiogram as determined by the reading physician)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no echocardiogram evidence provided to assess for significant mitral stenosis.",
+      "clinical_question": "Is the patient's mitral valve stenosis classified as greater than \"mild\" based on the most recent echocardiogram findings?"
+    },
+    {
+      "criterion": "Evidence of valve perforation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no evidence provided regarding valve perforation.",
+      "clinical_question": "Does the patient have evidence of valve perforation as confirmed by echocardiogram or cardiac MRI?"
+    },
+    {
+      "criterion": "Evidence of congenital abnormality (i.e. cleft valve)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no evidence provided regarding congenital abnormalities other than the known bicuspid aortic valve.",
+      "clinical_question": "Does the patient have a documented history of a cleft valve or any other congenital heart defect?"
+    },
+    {
+      "criterion": "Subject's qualifying diagnosis is Idiopathic (non-ischemic) cardiomyopathy and they are known to have any one of the following: Ischemic cardiomyopathy, Hypertrophic cardiomyopathy, Viral cardiomyopathy, Alcohol/drug induced cardiomyopathy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has severe aortic stenosis and worsening LV function, but does not have a diagnosis of idiopathic cardiomyopathy or any of the specified types of cardiomyopathy listed in the exclusion criteria.",
+      "clinical_question": "Does the patient have a documented diagnosis of idiopathic (non-ischemic) cardiomyopathy?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients will be excluded if ANY of the following conditions apply:",
+    "EXCLUSION UNCLEAR: Previously enrolled in The Genebank at Scripps Clinic Registry",
+    "EXCLUSION UNCLEAR: Any active bleeding (i.e. GI bleed).",
+    "EXCLUSION UNCLEAR: Treatment with any investigational agents or devices within 30 days preceding en",
+    "EXCLUSION UNCLEAR: Been administered or taken any CNS sedatives or depressants in the past 12 hours",
+    "EXCLUSION UNCLEAR: Been administered or taken any CNS sedatives or depressants in the past 12 hours",
+    "EXCLUSION UNCLEAR: Subject's qualifying diagnosis is Atrial fibrillation and they are known to have",
+    "EXCLUSION UNCLEAR: Prior myocardial infarction, coronary artery bypass surgery, or percutaneous cor",
+    "EXCLUSION VIOLATED: EF < 45% at time of diagnosis (excluding tachycardia induced cardiomyopathy diag",
+    "EXCLUSION UNCLEAR: Elevated left atrial pressures (> 20 mmHg)",
+    "EXCLUSION VIOLATED: Dilated left atrium (> 4.0 cm or >2.0 cm/m2 body surface)",
+    "EXCLUSION VIOLATED: Mitral valve disease with significant valve pathology",
+    "EXCLUSION UNCLEAR: Rheumatic mitral valve disease",
+    "EXCLUSION VIOLATED: Congestive heart failure prior to diagnosis",
+    "EXCLUSION UNCLEAR: Hypertrophic cardiomyopathy",
+    "EXCLUSION UNCLEAR: Diagnosis following coronary artery bypass or valve replacement surgery",
+    "EXCLUSION UNCLEAR: Post heart transplant",
+    "EXCLUSION UNCLEAR: Congenital heart disease",
+    "EXCLUSION VIOLATED: Diagnosed in setting of hyperthyroid",
+    "EXCLUSION UNCLEAR: COPD",
+    "EXCLUSION UNCLEAR: Obstructive sleep apnea",
+    "EXCLUSION UNCLEAR: Evidence of Rheumatic involvement of the Aortic Valve",
+    "EXCLUSION UNCLEAR: Subject's qualifying diagnosis is Mitral regurgitation (insufficiency) and they ",
+    "EXCLUSION VIOLATED: Ejection fraction <50%",
+    "EXCLUSION UNCLEAR: Evidence of significant ischemic disease with regions of akinetic myocardium",
+    "EXCLUSION UNCLEAR: Rheumatic changes on echocardiogram (as determined by the reading physician)",
+    "EXCLUSION UNCLEAR: Significant Mitral stenosis (greater than \"mild\" on echocardiogram as determined",
+    "EXCLUSION UNCLEAR: Evidence of valve perforation",
+    "EXCLUSION UNCLEAR: Evidence of congenital abnormality (i.e. cleft valve)",
+    "EXCLUSION UNCLEAR: Subject's qualifying diagnosis is Idiopathic (non-ischemic) cardiomyopathy and t",
+    "LOW INCLUSION MATCH: only 8 of 30 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3594
+}

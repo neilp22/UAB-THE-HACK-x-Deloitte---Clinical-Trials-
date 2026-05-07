@@ -1,0 +1,36 @@
+{
+  "nct_id": "NCT04686227",
+  "trial_title": "Prevalence of Uterine Malformations in Newly Married Unselected Population",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "Uterine malformation is occur due to the abnormal development of Mullerian canal during embryogenesis and it is known that it reduces the fertility and live birth rate and also increases the abortion and preterm birth rate. There are different classification methods have been used for defining the uterine malformations. The most common used classification method in the World is American Society of Reproductive Medicine (ASRM)'s system. In addition European Society of Human Reproduction and Embry",
+  "eligibility_table": [
+    {
+      "criterion": "Husband is under 45 years old",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 < 45.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Azospermia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is female and the criterion specifically mentions azospermia, which is a male condition. Therefore, it is not applicable to this patient.",
+      "clinical_question": "Does the patient have a semen analysis showing a sperm count of < 0.1 million sperm per milliliter?"
+    },
+    {
+      "criterion": "Women with Premature Ovarian Failure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ovarian function or any indication of premature ovarian failure. Thus, it cannot be determined if this criterion is met or not.",
+      "clinical_question": "Does the patient have a diagnosis of premature ovarian failure as defined by the cessation of ovarian function before the age of 40?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Azospermia",
+    "EXCLUSION UNCLEAR: Women with Premature Ovarian Failure"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

@@ -1,0 +1,81 @@
+{
+  "nct_id": "NCT04191018",
+  "trial_title": "GastrOesophageal Varices After Sustained Virological Response",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "Chronic hepatitis C remains a public health issue because up to 70 million people are chronically infected by hepatitis C virus (HCV) worldwide. Presence of advanced fibrosis/cirrhosis might be associated with liver-related complications, such as hepatocellular carcinoma and oesophageal varices bleeding. Oesophageal varices (OV) might be present in up to 40% of patients with liver cirrhosis have and the mortality rates from bleeding might be up to 20% per episode. Early diagnosis of advanced fib",
+  "eligibility_table": [
+    {
+      "criterion": "Age ≥ 18 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 60.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Presence of advanced fibrosis or cirrhosis (stage F≥3 METAVIR) based on liver stiffness by transient elastography (≥ 9,5 kPa) or liver biopsy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Hep C cirrhosis, which indicates advanced fibrosis (F≥3).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Gastrointestinal endoscopy at least 24 months before start of direct-acting agents for HCV treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the timing of the gastrointestinal endoscopy relative to the start of direct-acting agents.",
+      "clinical_question": "Has the patient undergone a gastrointestinal endoscopy within the last 24 months prior to starting direct-acting agents for HCV treatment?"
+    },
+    {
+      "criterion": "Liver stiffness measurement at least 18 months after SVR",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not achieved SVR, so liver stiffness measurement after SVR is not applicable.",
+      "clinical_question": "Has the patient undergone a liver stiffness measurement that indicates a value of at least 18 kPa at least 18 months after achieving sustained virological response?"
+    },
+    {
+      "criterion": "Autoimmune hepatitis, hepatosplenic schistosomiasis or cholestasis diseases",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of autoimmune hepatitis, hepatosplenic schistosomiasis, or cholestasis diseases is provided, but cannot be confirmed without further lab values.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of autoimmune hepatitis, hepatosplenic schistosomiasis, or cholestasis diseases?"
+    },
+    {
+      "criterion": "Liver transplantation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of liver transplantation in the patient's history.",
+      "clinical_question": "Has the patient achieved a sustained virological response (SVR) defined as undetectable HCV RNA at 12 weeks post-treatment?"
+    },
+    {
+      "criterion": "Presence of high volume ascites or hepatocellular carcinoma",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has increased AFP, which raises suspicion for hepatocellular carcinoma, but no definitive diagnosis is provided.",
+      "clinical_question": "Does the patient have a high volume of ascites defined as ≥5 liters or a diagnosis of hepatocellular carcinoma based on imaging or biopsy?"
+    },
+    {
+      "criterion": "Participation in programs of esophageal band ligation for eradication of esophageal varices",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about participation in esophageal band ligation programs.",
+      "clinical_question": "Has the patient participated in at least one session of esophageal band ligation for the eradication of esophageal varices?"
+    },
+    {
+      "criterion": "Presence of signs of acute decompensated liver disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has grade II esophageal varices, but no clear signs of acute decompensated liver disease are documented.",
+      "clinical_question": "Does the patient exhibit any signs of acute decompensated liver disease, such as ascites, hepatic encephalopathy, or jaundice, at the time of evaluation?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Autoimmune hepatitis, hepatosplenic schistosomiasis or cholestasis diseases",
+    "EXCLUSION UNCLEAR: Liver transplantation",
+    "EXCLUSION UNCLEAR: Presence of high volume ascites or hepatocellular carcinoma",
+    "EXCLUSION UNCLEAR: Participation in programs of esophageal band ligation for eradication of esophag",
+    "EXCLUSION UNCLEAR: Presence of signs of acute decompensated liver disease"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2222
+}

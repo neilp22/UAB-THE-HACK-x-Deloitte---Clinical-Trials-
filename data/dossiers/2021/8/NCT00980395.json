@@ -1,0 +1,246 @@
+{
+  "nct_id": "NCT00980395",
+  "trial_title": "Bortezomib, Cladribine, and Rituximab in Treating Patients With Advanced Mantle Cell Lymphoma or Indolent Lymphoma",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Bortezomib may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Drugs used in chemotherapy, such as cladribine, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as rituximab, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing subs",
+  "eligibility_table": [
+    {
+      "criterion": "Voluntary consent before performance of any study-related procedure",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can provide voluntary consent as a competent adult.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Female subject is either post-menopausal or surgically sterilized or willing to use an acceptable method of birth control",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male; therefore, this criterion does not apply.",
+      "clinical_question": "Is the patient post-menopausal, surgically sterilized, or willing to use an acceptable method of birth control during the trial?"
+    },
+    {
+      "criterion": "Male subject agrees to use an acceptable method for contraception for the duration of the study.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "As a male subject, the patient can agree to use acceptable contraception.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biopsy-proven mantle cell, marginal zone, lymphoplasmacytic, small lymphocytic lymphoma, or follicular lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL and Richter's transformation, which does not meet the criteria for the specified lymphomas.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CD20-positive disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's lab values are not provided; however, CLL is typically CD20-positive.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of CD20-positive lymphoma based on immunohistochemistry results from the biopsy?"
+    },
+    {
+      "criterion": "Patients with marginal zone, lymphoplasmacytic, small lymphocytic, or follicular lymphoma - at least one criterion for initiation of treatment must be met:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL, which does not fall under the specified lymphoma types.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Symptomatic disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has elevated white count and bulky lymphadenopathy, indicating symptomatic disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Cytopenia related to lymphoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has elevated white count, which indicates cytopenia related to lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Leukemic phase (> 5,000 malignant lymphocytes/µl)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has elevated white count, indicating leukemic phase.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mass over 5 cm in greatest diameter",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The size of the masses is not specified; therefore, it cannot be determined if this criterion is met.",
+      "clinical_question": "Does the patient have a lymphadenopathy mass measuring >5 cm in greatest diameter?"
+    },
+    {
+      "criterion": "Platelet count of < 100 X10 /L within 14 days before enrollment, unless due to bone marrow infiltration with lymphoma, or due to autoimmune thrombocytopenia because of lymphoma.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Platelet count is not provided; unable to assess if < 100 X10/L.",
+      "clinical_question": "Is the patient's platelet count < 100 X10^9/L within 14 days before enrollment?"
+    },
+    {
+      "criterion": "Patient has an absolute neutrophil count of < 1.0 X 10/L within 14 days before registration, unless due to bone marrow infiltration with lymphoma.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Absolute neutrophil count is not provided; unable to assess if < 1.0 X 10/L.",
+      "clinical_question": "Is the patient's absolute neutrophil count ≥ 1.0 X 10^9/L within 14 days before registration?"
+    },
+    {
+      "criterion": "Patient has a calculated or measured creatinine clearance of <20 mL/minute within 14 days before registration.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine clearance is not provided; unable to assess if < 20 mL/min.",
+      "clinical_question": "What is the patient's calculated or measured creatinine clearance within 14 days before registration?"
+    },
+    {
+      "criterion": "Patient has ≥ Grade 2 peripheral neuropathy within 14 days before registration.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on peripheral neuropathy; unable to assess if ≥ Grade 2.",
+      "clinical_question": "Does the patient currently report experiencing ≥ Grade 2 peripheral neuropathy within the last 14 days?"
+    },
+    {
+      "criterion": "Myocardial infarction within 6 months prior to registration or has New York Heart Association (NYHA) Class III or IV heart failure, uncontrolled angina, severe uncontrolled ventricular arrhythmias, or electrocardiographic evidence of acute ischemia or active conduction system abnormalities.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No cardiac history provided; unable to assess for myocardial infarction or heart failure.",
+      "clinical_question": "Has the patient experienced a myocardial infarction within the last 6 months or does he have New York Heart Association (NYHA) Class III or IV heart failure?"
+    },
+    {
+      "criterion": "Hypersensitivity to bortezomib, boron or mannitol.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on hypersensitivity to bortezomib, boron, or mannitol.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to bortezomib, boron, or mannitol?"
+    },
+    {
+      "criterion": "Female subject is pregnant or breast-feeding. Confirmation that the subject is not pregnant",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient is male; pregnancy and breastfeeding criteria do not apply.",
+      "clinical_question": "Has the patient undergone a pregnancy test within the last 7 days with a negative result?"
+    },
+    {
+      "criterion": "Patient received other investigational drugs with 14 days before registration",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on investigational drug use within 14 days; unable to assess.",
+      "clinical_question": "Has the patient received any investigational drugs within the 14 days prior to registration?"
+    },
+    {
+      "criterion": "Serious medical or psychiatric illness likely to interfere with study participation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on serious medical or psychiatric illness; unable to assess.",
+      "clinical_question": "Does the patient have any serious medical or psychiatric illness, such as uncontrolled diabetes or severe depression, that would likely interfere with study participation?"
+    },
+    {
+      "criterion": "Diagnosed or treated for another malignancy within 3 years of registration, w/ the exception of complete resection of basal cell carcinoma or squamous cell carcinoma of the skin, an in situ malignancy, or low-risk prostate cancer after curative therapy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on other malignancies; unable to assess if diagnosed or treated within 3 years.",
+      "clinical_question": "Has the patient been diagnosed or treated for any malignancy other than basal cell carcinoma, squamous cell carcinoma of the skin, an in situ malignancy, or low-risk prostate cancer within the last 3 years?"
+    },
+    {
+      "criterion": "For lymphoplasmacytic lymphoma: additional treatment criteria are serum viscosity ≥ 4 cp, serum monoclonal protein > 5 g/L, concurrent primary systemic AL amyloidosis, cold agglutinin disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has CLL and large cell transformation, but the specific criteria for lymphoplasmacytic lymphoma are not applicable.",
+      "clinical_question": "Is the patient's serum viscosity ≥ 4 cp?"
+    },
+    {
+      "criterion": "For lymphoplasmacytic lymphoma: additional treatment criteria are serum viscosity ≥ 4 cp, serum monoclonal protein > 5 g/L, concurrent primary systemic AL amyloidosis, cold agglutinin disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Same reasoning as criterion 1; the patient does not have lymphoplasmacytic lymphoma.",
+      "clinical_question": "Is the patient's serum viscosity ≥ 4 cp?"
+    },
+    {
+      "criterion": "Age over 18",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior treatment with bortezomib and/or rituximab is acceptable",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has prior treatment with rituximab (R-CVP), which is acceptable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "For follicular lymphoma only, at least one prior treatment",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL, not follicular lymphoma, and thus does not meet this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CNS involvement with lymphoma.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about CNS involvement; therefore, it cannot be determined.",
+      "clinical_question": "Does the patient have any evidence of central nervous system involvement as determined by imaging studies or cerebrospinal fluid analysis?"
+    },
+    {
+      "criterion": "Known HIV-positive.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's HIV status is not provided, so it cannot be assessed.",
+      "clinical_question": "Is the patient currently diagnosed with HIV and receiving antiretroviral therapy?"
+    },
+    {
+      "criterion": "History of disease refractory to a purine analog (defined as remission duration of < 6 months to therapy that included fludarabine, pentostatin, or cladribine).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on remission duration or refractory status to purine analogs.",
+      "clinical_question": "What was the duration of remission following the patient's last treatment with a purine analog, specifically fludarabine, pentostatin, or cladribine?"
+    },
+    {
+      "criterion": "History of intolerance of bortezomib, boron, mannitol, cladribine, or rituximab.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of intolerance to the specified medications.",
+      "clinical_question": "Has the patient experienced any adverse reactions or intolerances to bortezomib, cladribine, or rituximab during previous treatments?"
+    },
+    {
+      "criterion": "Patient has > 1.5 X ULN Total Bilirubin",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Total bilirubin levels are not provided, so this criterion cannot be assessed.",
+      "clinical_question": "Is the patient's total bilirubin level greater than 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Radiation therapy within 3 weeks before randomization. Enrollment of subjects who require concurrent radiotherapy (which must be localized in its field size) should be deferred until the radiotherapy is completed and 3 weeks have elapsed since the last date of therapy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding recent radiation therapy, making it impossible to assess this criterion.",
+      "clinical_question": "Has the patient received radiation therapy within the 3 weeks prior to randomization?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Platelet count of < 100 X10 /L within 14 days before enrollment, unless due to b",
+    "EXCLUSION UNCLEAR: Patient has an absolute neutrophil count of < 1.0 X 10/L within 14 days before r",
+    "EXCLUSION UNCLEAR: Patient has a calculated or measured creatinine clearance of <20 mL/minute withi",
+    "EXCLUSION UNCLEAR: Patient has ≥ Grade 2 peripheral neuropathy within 14 days before registration.",
+    "EXCLUSION UNCLEAR: Myocardial infarction within 6 months prior to registration or has New York Hear",
+    "EXCLUSION UNCLEAR: Hypersensitivity to bortezomib, boron or mannitol.",
+    "EXCLUSION UNCLEAR: Female subject is pregnant or breast-feeding. Confirmation that the subject is n",
+    "EXCLUSION UNCLEAR: Patient received other investigational drugs with 14 days before registration",
+    "EXCLUSION UNCLEAR: Serious medical or psychiatric illness likely to interfere with study participat",
+    "EXCLUSION UNCLEAR: Diagnosed or treated for another malignancy within 3 years of registration, w/ t",
+    "EXCLUSION UNCLEAR: CNS involvement with lymphoma.",
+    "EXCLUSION UNCLEAR: Known HIV-positive.",
+    "EXCLUSION UNCLEAR: History of disease refractory to a purine analog (defined as remission duration ",
+    "EXCLUSION UNCLEAR: History of intolerance of bortezomib, boron, mannitol, cladribine, or rituximab.",
+    "EXCLUSION UNCLEAR: Patient has > 1.5 X ULN Total Bilirubin",
+    "EXCLUSION UNCLEAR: Radiation therapy within 3 weeks before randomization. Enrollment of subjects wh"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3226
+}

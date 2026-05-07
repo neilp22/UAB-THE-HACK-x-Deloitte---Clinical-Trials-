@@ -1,0 +1,216 @@
+{
+  "nct_id": "NCT00862095",
+  "trial_title": "Medical Therapies for Chronic Post-Traumatic Headaches",
+  "phase": "PHASE4",
+  "status": "TERMINATED",
+  "brief_summary": "To determine if propranolol, amitriptyline, or topiramate decreases headache frequency in patients with chronic post-traumatic headaches.",
+  "eligibility_table": [
+    {
+      "criterion": "Patient meets ICHD criteria for chronic post-traumatic headaches (see below).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide sufficient information to determine if they meet the ICHD criteria for chronic post-traumatic headaches.",
+      "clinical_question": "Has the patient experienced headache episodes on ≥15 days per month for at least 3 consecutive months since the head injury?"
+    },
+    {
+      "criterion": "Patient is 18-50 years old.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 32.0 >= 50.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient has experienced 6 or more days of headache per month for each of the last 2 months.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient experienced headaches on at least 6 days per month for each of the last 2 months?"
+    },
+    {
+      "criterion": "Patient has full capacity to provide informed consent.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old and likely has the capacity to provide informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient will be available for all study-related visits over the next 4 months.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's availability for study-related visits.",
+      "clinical_question": "Will the patient be able to attend all scheduled study-related visits over the next 4 months without any conflicts?"
+    },
+    {
+      "criterion": "Patient must be eligible to receive care at Madigan Army Medical Center",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The eligibility to receive care at Madigan Army Medical Center is not specified in the patient's profile.",
+      "clinical_question": "Does the patient have a documented history of receiving care at Madigan Army Medical Center within the last 12 months?"
+    },
+    {
+      "criterion": "International Classification of Headache Disorders (version 2) diagnostic criteria for chronic post-traumatic headaches attributed to mild head injury:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide enough information to confirm if they meet the ICHD diagnostic criteria for chronic post-traumatic headaches.",
+      "clinical_question": "Has the patient experienced headache symptoms on ≥15 days per month for at least 3 consecutive months following the head injury?"
+    },
+    {
+      "criterion": "Headaches beginning within 1 week of mild traumatic head injury.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient experienced headaches following a head injury, which aligns with the criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Headaches persisting > 3 months after head trauma.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a significant history of headaches following head trauma, suggesting persistence beyond 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Head trauma with all of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient experienced head trauma as described, which meets the requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient has another headache disorder not attributable to head trauma which accounts for at least half of the patient's headache episodes.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating the presence of another headache disorder that accounts for the patient's headache episodes.",
+      "clinical_question": "Does the patient experience headache episodes that are attributable to another headache disorder for at least 50% of the time?"
+    },
+    {
+      "criterion": "Patient is currently taking propranolol, amitriptyline, or topiramate for any reason.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to be taking propranolol, amitriptyline, or topiramate, but this is not explicitly confirmed.",
+      "clinical_question": "Is the patient currently taking propranolol, amitriptyline, or topiramate for any reason?"
+    },
+    {
+      "criterion": "Patient previously tried propranolol, amitriptyline, or topiramate for headache treatment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about previous trials of propranolol, amitriptyline, or topiramate.",
+      "clinical_question": "Has the patient previously tried at least one of the following medications: propranolol, amitriptyline, or topiramate for headache treatment?"
+    },
+    {
+      "criterion": "Patient started a new treatment for headache prevention within the last 6 weeks. Prophylactic treatments initiated prior to 6 weeks ago are allowed as long as the dose or regimen is stable. Medications for aborting acute headaches are also allowed.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the timing of any new treatments for headache prevention.",
+      "clinical_question": "Has the patient started a new treatment for headache prevention within the last 6 weeks?"
+    },
+    {
+      "criterion": "Patient previously tried more than two medications for headache prevention.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the number of medications previously tried for headache prevention.",
+      "clinical_question": "Has the patient previously tried ≥2 different medications specifically for headache prevention?"
+    },
+    {
+      "criterion": "Patient is using narcotic analgesics on average more than 10 days a month.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient used narcotic analgesics for more than 10 days in the past month?"
+    },
+    {
+      "criterion": "Patient has a medical condition or is taking a medication that is considered a contraindication for propranolol, topiramate, or amitriptyline. Medical conditions include liver disease, renal impairment, cardiac dysrhythmias, untreated thyroid disease, orthostatic hypotension, asthma requiring treatment with inhalers, glaucoma, kidney stones, insulin-requiring diabetes, or pregnancy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific contraindications for propranolol, topiramate, or amitriptyline are mentioned.",
+      "clinical_question": "Does the patient have any contraindications for propranolol, topiramate, or amitriptyline based on her current medical conditions, including liver disease, renal impairment, cardiac dysrhythmias, untreated thyroid disease, orthostatic hypotension, asthma requiring treatment with inhalers, glaucoma, kidney stones, insulin-requiring diabetes, or pregnancy?"
+    },
+    {
+      "criterion": "Patient has known hepatic, renal, or cardiac disorders.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No known hepatic, renal, or cardiac disorders are reported, but this is not explicitly confirmed.",
+      "clinical_question": "Does the patient have a history of hepatic, renal, or cardiac disorders as defined by any documented diagnosis or lab values indicating dysfunction in these organ systems?"
+    },
+    {
+      "criterion": "Patient drinks on average more than two servings of alcohol (2 oz hard liquor, 5 oz wine, 12 oz beer) per day or more than 3 servings at one time on a weekly basis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the patient's alcohol consumption.",
+      "clinical_question": "Does the patient consume more than 2 servings of alcohol per day or more than 3 servings at one time on a weekly basis?"
+    },
+    {
+      "criterion": "Patient has abnormalities on baseline EKG.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about baseline EKG results.",
+      "clinical_question": "Does the patient have any EKG abnormalities such as ST segment changes, arrhythmias, or prolonged QT interval?"
+    },
+    {
+      "criterion": "no loss of consciousness or loss of consciousness < 30 minutes",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not lost consciousness or has lost consciousness for less than 30 minutes.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Glasgow Coma Score (GCS) 13-15",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Glasgow Coma Score (GCS) of 13 or higher?"
+    },
+    {
+      "criterion": "symptoms or signs diagnostic of concussion",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has symptoms or signs that could be diagnostic of concussion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient has major depression defined as a score >15 on the Patient Health Questionnaire-9.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Patient Health Questionnaire-9 score greater than 15?"
+    },
+    {
+      "criterion": "Patient is pregnant, planning to become pregnant in the next year, or is a female of reproductive potential who is not using a reliable form of birth control.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about pregnancy status or birth control use.",
+      "clinical_question": "Is the patient currently using a reliable form of birth control, such as hormonal contraception or an intrauterine device?"
+    },
+    {
+      "criterion": "Patient has cognitive impairment defined as mini-mental status exam score <27.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's Mini-Mental Status Exam score?"
+    },
+    {
+      "criterion": "SBP < 90, HR < 50, or HR > 100.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's vital signs (SBP and HR) are not provided, making it impossible to assess this criterion definitively.",
+      "clinical_question": "Is the patient's systolic blood pressure currently less than 90 mmHg, heart rate less than 50 bpm, or heart rate greater than 100 bpm?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patient has another headache disorder not attributable to head trauma which acco",
+    "EXCLUSION UNCLEAR: Patient is currently taking propranolol, amitriptyline, or topiramate for any re",
+    "EXCLUSION UNCLEAR: Patient previously tried propranolol, amitriptyline, or topiramate for headache ",
+    "EXCLUSION UNCLEAR: Patient started a new treatment for headache prevention within the last 6 weeks.",
+    "EXCLUSION UNCLEAR: Patient previously tried more than two medications for headache prevention.",
+    "EXCLUSION UNCLEAR: Patient is using narcotic analgesics on average more than 10 days a month.",
+    "EXCLUSION UNCLEAR: Patient has a medical condition or is taking a medication that is considered a c",
+    "EXCLUSION UNCLEAR: Patient has known hepatic, renal, or cardiac disorders.",
+    "EXCLUSION UNCLEAR: Patient drinks on average more than two servings of alcohol (2 oz hard liquor, 5",
+    "EXCLUSION UNCLEAR: Patient has abnormalities on baseline EKG.",
+    "EXCLUSION UNCLEAR: Patient has major depression defined as a score >15 on the Patient Health Questi",
+    "EXCLUSION UNCLEAR: Patient is pregnant, planning to become pregnant in the next year, or is a femal",
+    "EXCLUSION UNCLEAR: Patient has cognitive impairment defined as mini-mental status exam score <27.",
+    "EXCLUSION UNCLEAR: SBP < 90, HR < 50, or HR > 100."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2593
+}

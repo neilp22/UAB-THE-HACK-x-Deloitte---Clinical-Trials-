@@ -1,0 +1,403 @@
+{
+  "nct_id": "NCT00263341",
+  "trial_title": "Safety and Efficacy of a Contraceptive Vaginal Ring Delivering Nestorone® and Ethinyl Estradiol",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this 1-year study is to evaluate the efficacy and safety of a new contraceptive vaginal ring (CVR) delivering low doses of Nestorone (NES), a new, nonandrogenic progestin, and ethinyl estradiol (EE), an estrogen used in oral contraceptives. The CVR, which is made of silicone rubber, is designed to be used for 1 year (13 menstrual cycles) before replacement is required.",
+  "eligibility_table": [
+    {
+      "criterion": "Healthy women who meet the following criteria:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has vaginal spotting and elevated β-hCG levels, indicating a potential pregnancy or abnormality, which does not align with being healthy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Aged 18-<40 years who wish to use a combined hormonal contraceptive.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 < 40.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women not intending to become pregnant for 13 months.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of inconsistent use of barrier contraceptives and is currently experiencing vaginal spotting, suggesting she may not be in a position to avoid pregnancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Intact uterus and both ovaries.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has an intact uterus and both ovaries, as there is no indication of surgical removal.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior history of regular menstrual cycles of 28 ± 7 days when not using hormonal contraception; if postpartum or postabortal, history of regular menstrual cycles of 21-35 days in length and at least one cycle (2 menses) with a cycle length consistent with her past cycles.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not had a menstrual period for 10 weeks, which does not support a history of regular menstrual cycles.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Sexually active (currently) and willing to discontinue current contraceptive method to participate in the study.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is sexually active and has a history of multiple male partners, indicating willingness to discontinue current contraceptive methods.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "In the opinion of the investigator, able to comply with the protocol, e.g. live within the clinic catchment area or within a reasonable distance from the clinic.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is insufficient information about the patient's ability to comply with the protocol, as it depends on her living situation.",
+      "clinical_question": "Does the patient reside within a 30-mile radius of the clinic?"
+    },
+    {
+      "criterion": "Do not meet any of the",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is vague; it is unclear what specific conditions would disqualify the patient.",
+      "clinical_question": "Has the patient had a serum β-hCG level ≤5 mIU/mL to confirm non-pregnancy?"
+    },
+    {
+      "criterion": "Signed informed consent prior to entry into the trial.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not yet signed informed consent, but this is a requirement prior to trial entry.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "[For pharmacokinetics study only; 39 subjects already recruited]",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is specific to a pharmacokinetics study, which is not applicable to this patient based on the provided information.",
+      "clinical_question": "Is the patient's serum β-hCG level ≤5 mIU/mL to confirm non-pregnancy before initiating the contraceptive vaginal ring?"
+    },
+    {
+      "criterion": "Willing to undergo frequent blood sampling",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's willingness to undergo frequent blood sampling is not addressed in the profile.",
+      "clinical_question": "Is the patient willing to undergo blood sampling at least once every two weeks for the duration of the trial?"
+    },
+    {
+      "criterion": "Exclusion Criteria:",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a known or suspected pregnancy indicated by elevated serum β-hCG levels.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Contraindications for enrollment will be the same as those for use with combined hormonal contraceptives in addition to contraindications specific to this clinical trial including:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has no known contraindications to combined hormonal contraceptives, but specific trial contraindications are not detailed.",
+      "clinical_question": "Does the patient have a serum β-hCG level ≤5 mIU/mL to rule out pregnancy?"
+    },
+    {
+      "criterion": "Known hypersensitivity to estrogens or progestins.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on hypersensitivity to estrogens or progestins is provided.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to any estrogen or progestin medications?"
+    },
+    {
+      "criterion": "Known hypersensitivity to silicone rubber.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on hypersensitivity to silicone rubber is provided.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to silicone rubber?"
+    },
+    {
+      "criterion": "Known or suspected pregnancy.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has elevated β-hCG levels, indicating a known or suspected pregnancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of infertility of >1.0 year in woman or her male partner.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of infertility is mentioned, but the patient's relationship history is complex.",
+      "clinical_question": "Has the patient or her male partner had a documented history of infertility lasting ≥1.0 year?"
+    },
+    {
+      "criterion": "History of vasectomy or sterility in male partner; tubal ligation (sterilization) in women.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of vasectomy or sterilization is mentioned for the male partner.",
+      "clinical_question": "Has the patient's male partner undergone a vasectomy or is he confirmed to be sterile?"
+    },
+    {
+      "criterion": "Undiagnosed abnormal genital bleeding.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undiagnosed abnormal genital bleeding (vaginal spotting).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Undiagnosed vaginal discharge or vaginal lesions or abnormalities. (Subjects diagnosed at screening with a chlamydia or gonococcus infection may be included in the trial following treatment; partner treatment is also recommended. Investigators should make a determination if subjects are at high risk for reinfection, e.g. multiple sex partners, untreated partner, and whether such subjects can be included.)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No undiagnosed vaginal discharge or lesions are mentioned, but the patient's sexual history raises concerns.",
+      "clinical_question": "Does the patient have any current signs of undiagnosed vaginal discharge or vaginal lesions as assessed by a pelvic examination?"
+    },
+    {
+      "criterion": "History of pelvic inflammatory disease since last pregnancy episode.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of pelvic inflammatory disease is mentioned, but the patient's history of complicated UTIs may be relevant.",
+      "clinical_question": "Has the patient experienced one or more episodes of pelvic inflammatory disease since her last pregnancy episode?"
+    },
+    {
+      "criterion": "History of toxic shock syndrome.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about a history of toxic shock syndrome.",
+      "clinical_question": "Has the patient ever experienced an episode of toxic shock syndrome?"
+    },
+    {
+      "criterion": "Current abnormal Pap smear (women who have abnormal Paps but are ASCUS HPV negative may participate provided there is follow up for this finding per standard of care).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the status of the patient's Pap smear.",
+      "clinical_question": "Does the patient have a current abnormal Pap smear result that is not classified as ASCUS HPV negative?"
+    },
+    {
+      "criterion": "Cystoceles or rectoceles or other anatomical abnormality that would preclude use of a vaginal ring.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about anatomical abnormalities such as cystoceles or rectoceles.",
+      "clinical_question": "Does the patient have any documented cystoceles or rectoceles on pelvic examination or imaging studies?"
+    },
+    {
+      "criterion": "Women planning to undergo major surgery.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about plans for major surgery.",
+      "clinical_question": "Has the patient been advised to avoid major surgery for at least 4 weeks after the last use of the contraceptive vaginal ring?"
+    },
+    {
+      "criterion": "Smoking in women who are 35 years and over or will be 35 years during the course of the trial; women < 35yrs who smoke 15 cigarettes or more must be evaluated by the PI for inclusion based on risk factors that would increase their risk for CVD, e.g. lipid levels, glucose level, BP, BMI, family history of CVD at a young age.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "Patient is under 35 years old and no smoking history is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Breastfeeding.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about breastfeeding status.",
+      "clinical_question": "Is the patient currently breastfeeding, and if so, is the infant less than 6 months old?"
+    },
+    {
+      "criterion": "Current or past thrombophlebitis or thromboembolic disorders.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about current or past thrombophlebitis or thromboembolic disorders.",
+      "clinical_question": "Does the patient have a current or past diagnosis of thrombophlebitis or any thromboembolic disorder, such as deep vein thrombosis or pulmonary embolism?"
+    },
+    {
+      "criterion": "History of venous thrombosis or embolism in a first-degree relative, <55 years of age suggesting a familial defect in the blood coagulation system, which in the opinion of the PI, suggests use of a hormonal contraceptive could pose a significant risk.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about family history of venous thrombosis or embolism.",
+      "clinical_question": "Does the patient have a first-degree relative with a history of venous thrombosis or embolism before the age of 55?"
+    },
+    {
+      "criterion": "Cerebrovascular or cardiovascular disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about cerebrovascular or cardiovascular disease.",
+      "clinical_question": "Does the patient have a history of cerebrovascular or cardiovascular disease, including conditions such as hypertension, stroke, or myocardial infarction?"
+    },
+    {
+      "criterion": "History of retinal vascular lesions, unexplained partial or complete loss of vision.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about history of retinal vascular lesions or vision loss.",
+      "clinical_question": "Has the patient experienced any episodes of retinal vascular lesions or unexplained partial or complete loss of vision in the past year?"
+    },
+    {
+      "criterion": "Known or suspected carcinoma of the breast.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about breast carcinoma; cannot confirm or deny.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of carcinoma of the breast based on imaging or biopsy results?"
+    },
+    {
+      "criterion": "Carcinoma of the endometrium or other known or suspected estrogen-dependent neoplasia.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about endometrial carcinoma or estrogen-dependent neoplasia.",
+      "clinical_question": "Does the patient have a current diagnosis of carcinoma of the endometrium or any other known or suspected estrogen-dependent neoplasia?"
+    },
+    {
+      "criterion": "Past history of any other carcinoma unless in remission for more than 5 years.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of carcinoma mentioned; cannot confirm remission status.",
+      "clinical_question": "Has the patient been diagnosed with any carcinoma in the past, and if so, has it been in remission for less than 5 years?"
+    },
+    {
+      "criterion": "Current or history of medically diagnosed severe depression, which, in the opinions of the investigator, could be exacerbated by use of a hormonal contraceptive.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on current or past severe depression; cannot assess.",
+      "clinical_question": "Has the patient ever been diagnosed with severe depression by a healthcare professional, and if so, has she experienced any exacerbation of symptoms related to hormonal contraceptive use?"
+    },
+    {
+      "criterion": "Headaches with focal neurological symptoms.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on headaches or neurological symptoms; cannot assess.",
+      "clinical_question": "Has the patient experienced any headaches with focal neurological symptoms lasting ≥24 hours in the past month?"
+    },
+    {
+      "criterion": "Severe constipation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on constipation; cannot assess.",
+      "clinical_question": "Has the patient experienced a bowel movement frequency of less than three times per week for the past month?"
+    },
+    {
+      "criterion": "History of cholestatic jaundice of pregnancy or jaundice with prior steroid use.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of cholestatic jaundice or jaundice with steroid use provided.",
+      "clinical_question": "Has the patient ever experienced cholestatic jaundice during pregnancy or jaundice related to prior steroid use?"
+    },
+    {
+      "criterion": "Benign or malignant liver tumors; active liver disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on liver tumors or active liver disease; cannot assess.",
+      "clinical_question": "Does the patient have any history of benign or malignant liver tumors or active liver disease as indicated by liver function tests or imaging studies?"
+    },
+    {
+      "criterion": "Diastolic blood pressure (BP) 85 mm Hg and/or systolic BP 135 mm Hg after 5-10 minutes rest.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No blood pressure readings provided; cannot assess.",
+      "clinical_question": "Is the patient's diastolic blood pressure ≥85 mm Hg and/or systolic blood pressure ≥135 mm Hg after 5-10 minutes of rest?"
+    },
+    {
+      "criterion": "Known or suspected alcoholism or drug abuse.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on alcoholism or drug abuse; cannot assess.",
+      "clinical_question": "Has the patient consumed alcohol or used illicit drugs in the past 12 months?"
+    },
+    {
+      "criterion": "Abnormal serum chemistry values according to the physician's judgment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No serum chemistry values provided, and physician's judgment is not available.",
+      "clinical_question": "Does the patient have any serum chemistry values outside the normal range as determined by the physician's judgment?"
+    },
+    {
+      "criterion": "Participation in another clinical trial within last 30 days.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on participation in another clinical trial within the last 30 days.",
+      "clinical_question": "Has the patient participated in any clinical trial within the last 30 days?"
+    },
+    {
+      "criterion": "Weight >95 kg or >209 lbs.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Weight is not provided; unable to assess.",
+      "clinical_question": "Does the patient weigh more than 95 kg (209 lbs)?"
+    },
+    {
+      "criterion": "Use of liver enzyme inducers on a regular basis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the use of liver enzyme inducers.",
+      "clinical_question": "Does the patient regularly use any medications known to induce liver enzymes, such as rifampin or phenytoin, at least twice a week?"
+    },
+    {
+      "criterion": "Use of monthly injectable contraceptives (e.g. cyclofem) unless suspended 2 months before initiation of treatment. Use of Depo-Provera [depo-medroxyprogesterone (DMPA)] unless suspended 6 months before treatment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the use of injectable contraceptives.",
+      "clinical_question": "Has the patient suspended the use of monthly injectable contraceptives, such as cyclofem, for at least 2 months prior to the initiation of treatment?"
+    },
+    {
+      "criterion": "Current use of implanted hormonal contraceptives, including Mirena® [progestin containing intrauterine system (IUS)], Jadelle®, Norplant® or Implanon® (subjects using any of these methods who request removal for reasons unrelated to the purpose of enrollment in this study may be considered for participation).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the use of implanted hormonal contraceptives.",
+      "clinical_question": "Has the patient used an implanted hormonal contraceptive, such as Mirena®, Jadelle®, Norplant®, or Implanon®, within the last 12 months?"
+    },
+    {
+      "criterion": "Current use of a non-hormonal IUD. Subjects with IUDs who request removal for reasons unrelated to the purpose of enrollment in this study may be considered for participation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the use of a non-hormonal IUD.",
+      "clinical_question": "Has the patient requested removal of her non-hormonal IUD for reasons unrelated to the purpose of enrollment in this study?"
+    },
+    {
+      "criterion": "Known HIV infection.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed positive HIV test result?"
+    },
+    {
+      "criterion": "Women at high risk of contracting HIV, e.g. women with multiple sex partners who need to use condoms consistently, injection drug users. If women enrolled in the study do use condoms to protect against STIs, they should be instructed that this occasional use should be with non-N-9 containing condoms and they should record condom use in their diaries. Women found to have an STI at screening will be treated prior to inclusion in the study (with the exception of those infected with HIV).",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has multiple male partners and inconsistent use of barrier contraceptives, indicating a high risk of contracting HIV.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: [For pharmacokinetics study only; 39 subjects already recruited]",
+    "EXCLUSION UNCLEAR: Willing to undergo frequent blood sampling",
+    "EXCLUSION VIOLATED: Exclusion Criteria:",
+    "EXCLUSION UNCLEAR: Contraindications for enrollment will be the same as those for use with combined",
+    "EXCLUSION UNCLEAR: Known hypersensitivity to estrogens or progestins.",
+    "EXCLUSION UNCLEAR: Known hypersensitivity to silicone rubber.",
+    "EXCLUSION VIOLATED: Known or suspected pregnancy.",
+    "EXCLUSION UNCLEAR: History of infertility of >1.0 year in woman or her male partner.",
+    "EXCLUSION UNCLEAR: History of vasectomy or sterility in male partner; tubal ligation (sterilization",
+    "EXCLUSION VIOLATED: Undiagnosed abnormal genital bleeding.",
+    "EXCLUSION UNCLEAR: Undiagnosed vaginal discharge or vaginal lesions or abnormalities. (Subjects dia",
+    "EXCLUSION UNCLEAR: History of pelvic inflammatory disease since last pregnancy episode.",
+    "EXCLUSION UNCLEAR: History of toxic shock syndrome.",
+    "EXCLUSION UNCLEAR: Current abnormal Pap smear (women who have abnormal Paps but are ASCUS HPV negat",
+    "EXCLUSION UNCLEAR: Cystoceles or rectoceles or other anatomical abnormality that would preclude use",
+    "EXCLUSION UNCLEAR: Women planning to undergo major surgery.",
+    "EXCLUSION UNCLEAR: Breastfeeding.",
+    "EXCLUSION UNCLEAR: Current or past thrombophlebitis or thromboembolic disorders.",
+    "EXCLUSION UNCLEAR: History of venous thrombosis or embolism in a first-degree relative, <55 years o",
+    "EXCLUSION UNCLEAR: Cerebrovascular or cardiovascular disease.",
+    "EXCLUSION UNCLEAR: History of retinal vascular lesions, unexplained partial or complete loss of vis",
+    "EXCLUSION UNCLEAR: Known or suspected carcinoma of the breast.",
+    "EXCLUSION UNCLEAR: Carcinoma of the endometrium or other known or suspected estrogen-dependent neop",
+    "EXCLUSION UNCLEAR: Past history of any other carcinoma unless in remission for more than 5 years.",
+    "EXCLUSION UNCLEAR: Current or history of medically diagnosed severe depression, which, in the opini",
+    "EXCLUSION UNCLEAR: Headaches with focal neurological symptoms.",
+    "EXCLUSION UNCLEAR: Severe constipation.",
+    "EXCLUSION UNCLEAR: History of cholestatic jaundice of pregnancy or jaundice with prior steroid use.",
+    "EXCLUSION UNCLEAR: Benign or malignant liver tumors; active liver disease.",
+    "EXCLUSION UNCLEAR: Diastolic blood pressure (BP) 85 mm Hg and/or systolic BP 135 mm Hg after 5-10 m",
+    "EXCLUSION UNCLEAR: Known or suspected alcoholism or drug abuse.",
+    "EXCLUSION UNCLEAR: Abnormal serum chemistry values according to the physician's judgment.",
+    "EXCLUSION UNCLEAR: Participation in another clinical trial within last 30 days.",
+    "EXCLUSION UNCLEAR: Weight >95 kg or >209 lbs.",
+    "EXCLUSION UNCLEAR: Use of liver enzyme inducers on a regular basis.",
+    "EXCLUSION UNCLEAR: Use of monthly injectable contraceptives (e.g. cyclofem) unless suspended 2 mont",
+    "EXCLUSION UNCLEAR: Current use of implanted hormonal contraceptives, including Mirena® [progestin c",
+    "EXCLUSION UNCLEAR: Current use of a non-hormonal IUD. Subjects with IUDs who request removal for re",
+    "EXCLUSION UNCLEAR: Known HIV infection.",
+    "EXCLUSION VIOLATED: Women at high risk of contracting HIV, e.g. women with multiple sex partners who"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.24
+}

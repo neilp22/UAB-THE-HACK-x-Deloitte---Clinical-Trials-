@@ -1,0 +1,133 @@
+{
+  "nct_id": "NCT06529029",
+  "trial_title": "Low Amplitude Pulse Seizure Therapy Versus Standard Ultra-Brief Right Unilateral Electroconvulsive Therapy",
+  "phase": "PHASE2",
+  "status": "RECRUITING",
+  "brief_summary": "This protocol proposes an initial randomized clinical trial that includes all patients with suicidal ideation (SI) at baseline, and with SI as the primary outcome measure to examine whether Right Unilateral Low-Amplitude Pulse - Seizure Therapy (RUL LAP-ST) treatment has more magnitude and rate of remission of SI as conventional pulse amplitude Right Unilateral Electroconvulsive Therapy (RUL ECT) (based on our prior secondary analysis). Our central hypothesis is that RUL LAP-ST has significantly",
+  "eligibility_table": [
+    {
+      "criterion": "Patients in whom ECT is clinically indicated: The referrals to ECT by the primary psychiatrist (before a consult by the ECT consultant) will serve to both increase the feasibility of the study and address any ethical concerns that the patient would not undergo ECT without having a valid full indication for the procedure as well as increase the external validity and generalizability of the study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has severe intellectual disability and a complex medical history, making it unclear if ECT is clinically indicated without further evaluation.",
+      "clinical_question": "Has the primary psychiatrist documented a clinical indication for ECT in the patient's medical record?"
+    },
+    {
+      "criterion": "Male or female patients 18 to 90 years of age",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 13.0 >= 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Male or female patients 18 to 90 years of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 13.0 <= 90.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Current DSM-5 criteria for MDE with any SI of major depressive, bipolar, or schizoaffective disorders",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current mental health status is not fully assessed; the presence of major depressive episodes or suicidal ideation is not confirmed.",
+      "clinical_question": "Does the patient currently exhibit symptoms of a major depressive episode as defined by the DSM-5 criteria, including at least five of the specified symptoms lasting for a minimum of two weeks?"
+    },
+    {
+      "criterion": "Montgomery-Asberg depression rating scale (MADRS) with 2 or more on SI item",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Montgomery-Asberg depression rating scale (MADRS) score of ≥2 on the suicidal ideation item?"
+    },
+    {
+      "criterion": "Use of effective method of birth control for women of child-bearing capacity",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion is not applicable.",
+      "clinical_question": "Is the patient currently using a reliable method of birth control, such as hormonal contraception or an intrauterine device, as defined by the study protocol?"
+    },
+    {
+      "criterion": "Patient is medically stable",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple serious medical conditions (CHF, epilepsy) which may indicate instability.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No anticipated need to alter psychotropic medications for the duration of the study (except for urgent/emergent situations)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medication regimen may require adjustments, but it is unclear without further information.",
+      "clinical_question": "Has the patient experienced any changes in their psychotropic medication regimen in the past 30 days?"
+    },
+    {
+      "criterion": "Ability of patient to fully participate in the informed consent process",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Due to severe intellectual disability, the patient may not be able to fully participate in the informed consent process.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unstable or serious medical condition that substantially increases risks of ECT or cognitive impairment",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has serious medical conditions (CHF, epilepsy) that could increase risks associated with ECT.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Female patients who are pregnant or plan to be pregnant during the study or are breast-feeding",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion is not applicable.",
+      "clinical_question": "Is the patient currently pregnant, planning to become pregnant during the study, or breastfeeding?"
+    },
+    {
+      "criterion": "History of neurological disorder if deemed by the treating ECT physician or PI to pose a significant risk with ECT, or if there is any metal in the head or history of known structural brain lesion or skull defect that is deemed to affect cognition or safe ECT treatment",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of neurological issues (anoxic brain injury, epilepsy) that may pose significant risks with ECT.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Implanted devices that make ECT unsafe",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about implanted devices, so it is unclear if this criterion is met.",
+      "clinical_question": "Does the patient have any implanted devices, such as a pacemaker or defibrillator, that would contraindicate the use of electroconvulsive therapy?"
+    },
+    {
+      "criterion": "Clinical presentation of delirium or dementia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has severe intellectual disability, which may complicate the assessment of delirium or dementia. Without clear evidence of these conditions, the status remains indeterminate.",
+      "clinical_question": "Has the patient exhibited any signs of delirium or dementia as assessed by a standardized cognitive evaluation tool within the last month?"
+    },
+    {
+      "criterion": "Active substance use disorders within 1 week of randomization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding substance use disorders, making it unclear whether this criterion is met or not.",
+      "clinical_question": "Has the patient engaged in any substance use within the past 7 days?"
+    },
+    {
+      "criterion": "ECT in the past 1 month or prior failure to respond to an adequate course of ECT as deemed by the ECT physician treating the patient or the PI",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of ECT treatment in the patient's history, so it is uncertain whether this criterion applies.",
+      "clinical_question": "Has the patient received ECT within the past 30 days?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Unstable or serious medical condition that substantially increases risks of ECT ",
+    "EXCLUSION UNCLEAR: Female patients who are pregnant or plan to be pregnant during the study or are ",
+    "EXCLUSION VIOLATED: History of neurological disorder if deemed by the treating ECT physician or PI t",
+    "EXCLUSION UNCLEAR: Implanted devices that make ECT unsafe",
+    "EXCLUSION UNCLEAR: Clinical presentation of delirium or dementia",
+    "EXCLUSION UNCLEAR: Active substance use disorders within 1 week of randomization",
+    "EXCLUSION UNCLEAR: ECT in the past 1 month or prior failure to respond to an adequate course of ECT",
+    "LOW INCLUSION MATCH: only 1 of 9 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.375
+}

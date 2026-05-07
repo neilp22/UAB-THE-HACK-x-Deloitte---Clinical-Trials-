@@ -1,0 +1,280 @@
+{
+  "nct_id": "NCT00040690",
+  "trial_title": "Combination Chemotherapy in Treating Patients With Burkitt's Lymphoma or Burkitt's Leukemia",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop cancer cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells.\n\nPURPOSE: Phase II trial to study the effectiveness of combination chemotherapy in treating patients who have Burkitt's lymphoma or Burkitt's leukemia.",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosis of diffuse B-cell lymphoma in a nodal or an extranodal site",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which is a type of B-cell lymphoma, but the criterion specifically requires diffuse B-cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CD20 and CD79 positive",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide specific information about CD20 and CD79 positivity; further testing would be needed to confirm.",
+      "clinical_question": "Does the patient have a CD20 expression level of ≥20% in the tumor cells?"
+    },
+    {
+      "criterion": "100% expression of Ki67 (MIB1) in all of the tumor cells",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the Ki67 expression in the tumor cells; additional lab results would be necessary.",
+      "clinical_question": "Does the tumor biopsy show 100% expression of Ki67 (MIB1) in all of the tumor cells?"
+    },
+    {
+      "criterion": "Diagnosis of bone marrow replacement/leukemia comprising mature B-cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which does not meet the criterion of bone marrow replacement/leukemia comprising mature B-cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "sIg and CD19 positive",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify whether sIg and CD19 are positive; further testing is required.",
+      "clinical_question": "Does the patient have a sIg expression level of ≥20% and CD19 positivity confirmed by flow cytometry?"
+    },
+    {
+      "criterion": "CD34 and Tdt negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding CD34 and Tdt status; additional testing would be needed.",
+      "clinical_question": "Is the patient's CD34 expression level <1% and Tdt expression level <1% in the bone marrow or peripheral blood?"
+    },
+    {
+      "criterion": "Patients in the low-risk group must meet at least 3 of the following criteria",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's risk group status is not specified, and the low-risk criteria are not assessed in the profile.",
+      "clinical_question": "Does the patient have a serum lactate dehydrogenase (LDH) level that is ≤1.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Normal lactate dehydrogenase (LDH) level",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's profile does not indicate a normal LDH level; further lab results would be needed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "WHO performance status 0-1",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The WHO performance status is not provided in the profile; further assessment is required.",
+      "clinical_question": "Does the patient have a WHO performance status score of 0 or 1?"
+    },
+    {
+      "criterion": "Ann Arbor stage I or II",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a primary cardiac lymphoma, which does not meet the Ann Arbor stage I or II requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No more than 1 extranodal site (e.g., bone marrow, gastrointestinal tract, or CNS)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of primary cardiac lymphoma, which indicates involvement of the heart as an extranodal site, and the presence of Burkitt's lymphoma suggests more than one extranodal site.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients in the high-risk group must meet at least 2 of the following criteria:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not meet the high-risk criteria as there is no information provided about raised LDH levels or other specific criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Raised LDH level",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no lab value provided for LDH levels, making it unclear whether the criterion is met.",
+      "clinical_question": "Is the patient's serum lactate dehydrogenase (LDH) level greater than 250 U/L?"
+    },
+    {
+      "criterion": "WHO performance status 2-4",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The WHO performance status is not provided, so it cannot be determined if it falls within the required range.",
+      "clinical_question": "Does the patient have a WHO performance status score of 2, 3, or 4?"
+    },
+    {
+      "criterion": "Ann Arbor stage III or IV",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a diagnosis of Burkitt's lymphoma, which is typically classified as stage IV due to the presence of extranodal involvement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "More than 1 extranodal site",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has more than one extranodal site due to the involvement of the heart and potentially other sites.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: 16 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 44.0 >= 16.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Performance status is not specified, making it impossible to assess.",
+      "clinical_question": "What is the patient's Eastern Cooperative Oncology Group (ECOG) performance status score?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not detailed, so eligibility cannot be assessed.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of Burkitt's lymphoma based on histological examination and the presence of Myc rearrangement?"
+    },
+    {
+      "criterion": "Life expectancy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Life expectancy is not specified, making it unclear if the patient meets this criterion.",
+      "clinical_question": "What is the patient's estimated life expectancy based on current clinical guidelines for a 44-year-old female with Burkitt's lymphoma and significant comorbidities?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is not specified, so it cannot be assessed.",
+      "clinical_question": "Has the patient experienced a complete response to prior chemotherapy as defined by the absence of detectable disease on imaging and normalization of relevant lab values?"
+    },
+    {
+      "criterion": "Hematopoietic:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which is a hematologic malignancy, and may not meet the criteria for hematopoietic inclusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not specified, making it unclear if the patient's conditions align with the trial's requirements.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of Burkitt's lymphoma based on histological examination and the presence of Myc rearrangement?"
+    },
+    {
+      "criterion": "Hepatic:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific hepatic criteria provided; the patient's liver function is unknown.",
+      "clinical_question": "Does the patient have a baseline hepatic function test showing alanine aminotransferase (ALT) and aspartate aminotransferase (AST) levels within normal limits (ALT < 40 U/L and AST < 40 U/L)?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not specified, making it unclear if the patient's conditions align with the trial's requirements.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of Burkitt's lymphoma based on histological examination and the presence of Myc rearrangement?"
+    },
+    {
+      "criterion": "Renal:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific renal criteria provided; the patient's renal function is unknown.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Not specified; unclear what this criterion entails.",
+      "clinical_question": "Has the patient experienced a complete response to prior chemotherapy as defined by the absence of detectable disease on imaging and normalization of relevant lab values?"
+    },
+    {
+      "criterion": "No mental or physical status that would preclude study",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of significant neurological issues (seizure/stroke) which may affect mental or physical status.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other disease or prior malignancy that would preclude study",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a current malignancy (Burkitt's lymphoma) which precludes participation due to the presence of another disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient's HIV status confirmed as negative through a recent laboratory test?"
+    },
+    {
+      "criterion": "Not pregnant",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently pregnant, as confirmed by a urine or serum pregnancy test?"
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is of childbearing age and does not appear to be using effective contraception, which is required.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Prior concurrent therapy details are not specified; unclear if the patient's treatment history aligns with the trial's requirements.",
+      "clinical_question": "Has the patient received any prior systemic chemotherapy or radiation therapy for Burkitt's lymphoma or Burkitt's leukemia?"
+    },
+    {
+      "criterion": "Biologic therapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion mentions 'biologic therapy' but does not specify what is required. The patient's profile does not indicate any biologic therapy, but without specific details on the inclusion criteria, it's uncertain.",
+      "clinical_question": "Has the patient received any biologic therapy for Burkitt's lymphoma prior to this treatment?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is not specified, making it impossible to assess eligibility. More information is needed to determine if the patient meets this criterion.",
+      "clinical_question": "Has the patient experienced a complete response to prior chemotherapy as defined by the absence of detectable disease on imaging and normalization of relevant lab values?"
+    },
+    {
+      "criterion": "No prior chemotherapy except 1 course of preinduction chemotherapy (e.g., CHOP [cyclophosphamide, doxorubicin, vincristine, and prednisone] or a related regimen)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of Burkitt's lymphoma and has undergone multiple prior treatments, which likely includes chemotherapy. The criterion specifies no prior chemotherapy except for one course, which the patient does not meet.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior radiotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any form of radiotherapy prior to this treatment?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 1 of 38 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3684
+}

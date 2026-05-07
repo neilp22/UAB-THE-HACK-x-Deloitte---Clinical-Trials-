@@ -1,0 +1,357 @@
+{
+  "nct_id": "NCT00389818",
+  "trial_title": "Combination Chemotherapy and Rituximab in Treating Patients With Newly Diagnosed AIDS-Related B-Cell Non-Hodgkin's Lymphoma",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as rituximab, can block cancer growth in different ways. Some find cancer cells and help kill them or carry cancer-killing substances to them. Others interfere with the ability of cancer cells to grow and spread. Giving combination chemotherapy together with rituximab may kill more cancer cells.\n\nPURPOSE: This ",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically confirmed AIDS-related B-cell non-Hodgkin's lymphoma (NHL), including any of the following subtypes:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which is not classified as AIDS-related B-cell non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Grade III follicular large cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have grade III follicular large cell lymphoma; she has Burkitt's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse large B-cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, not diffuse large B-cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Immunoblastic lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which is not immunoblastic lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Plasmablastic lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, not plasmablastic lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Primary effusion lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, not primary effusion lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previously untreated disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has previously received treatments, indicating she is not untreated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any stage disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Burkitt's lymphoma, which can be classified as any stage disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CD20 positive disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Burkitt's lymphoma is typically CD20 positive.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have documented HIV infection",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no documentation of HIV infection in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Documentation may be by serology (enzyme-linked immunosorbent assay, western blot), culture, or quantitative polymerase chain reaction or branched DNA assays",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific lab values provided to confirm documentation of serology or PCR results.",
+      "clinical_question": "Has the patient undergone serological testing for HIV using enzyme-linked immunosorbent assay or western blot, with results confirming a positive diagnosis?"
+    },
+    {
+      "criterion": "Prior documentation of HIV seropositivity allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's HIV status is not mentioned; cannot confirm prior documentation of HIV seropositivity.",
+      "clinical_question": "Has the patient been tested for HIV and received a positive serology result prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "Measurable or nonmeasurable disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has Burkitt's lymphoma, which qualifies as measurable disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Currently receiving effective highly active anti-retroviral therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on current anti-retroviral therapy; cannot assess this criterion.",
+      "clinical_question": "Is the patient currently receiving a highly active anti-retroviral therapy regimen that includes at least three antiretroviral drugs?"
+    },
+    {
+      "criterion": "No primary CNS lymphoma, including parenchymal brain or spinal cord lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has primary cardiac lymphoma, which is a form of CNS lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No presence of leptomeningeal disease (positive cerebrospinal fluid for lymphoma) or presence of metastatic disease to brain, in terms of any mass lesion",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Presence of primary cardiac lymphoma suggests potential for leptomeningeal disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ECOG performance status (PS) 0-2 OR Karnofsky PS 50-100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "ECOG performance status not provided; cannot assess this criterion.",
+      "clinical_question": "Does the patient have an ECOG performance status of 0, 1, or 2, or a Karnofsky performance status of 50% or higher?"
+    },
+    {
+      "criterion": "Life expectancy ≥ 2 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient's life expectancy is likely greater than 2 months given current conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absolute granulocyte (neutrophil) count ≥ 1,000/mm³ (unless secondary to lymphomatous involvement of bone marrow)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No absolute granulocyte count provided; cannot assess this criterion.",
+      "clinical_question": "Is the patient's absolute granulocyte (neutrophil) count ≥ 1,000/mm³?"
+    },
+    {
+      "criterion": "Platelet count ≥ 75,000/mm³ (unless secondary to lymphomatous involvement of bone marrow or due to HIV-related thrombocytopenia)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No platelet count provided; cannot assess this criterion.",
+      "clinical_question": "Is the patient's platelet count currently ≥ 75,000/mm³?"
+    },
+    {
+      "criterion": "Bilirubin ≤ 2.0 mg/dL (unless elevated secondary to lymphomatous involvement of liver or biliary system or due to other HIV medications [e.g., indinavir, tenofavir, or atazanavir])",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided; unable to assess if ≤ 2.0 mg/dL.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 2.0 mg/dL?"
+    },
+    {
+      "criterion": "SGOT ≤ 5 times upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "SGOT levels are not provided; unable to assess if ≤ 5 times upper limit of normal.",
+      "clinical_question": "Is the patient's SGOT level ≤ 250 U/L?"
+    },
+    {
+      "criterion": "Creatinine ≤ 2.0 mg/dL OR creatinine clearance ≥ 60 mL/min (unless secondary to renal involvement by lymphoma)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine levels are not provided; unable to assess if ≤ 2.0 mg/dL or creatinine clearance.",
+      "clinical_question": "Is the patient's creatinine level ≤ 2.0 mg/dL or is her creatinine clearance ≥ 60 mL/min?"
+    },
+    {
+      "criterion": "LVEF normal by MUGA or echocardiogram",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "LVEF status is not provided; unable to assess if normal by MUGA or echocardiogram.",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) ≥55% as measured by MUGA or echocardiogram?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently pregnant or nursing?"
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a pregnancy test within the last 7 days, and did it return a negative result?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 6 months after completion of study treatment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is female and of childbearing age; contraception is likely applicable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other malignancy, except nonmelanoma skin cancer, carcinoma in situ of the cervix, or Kaposi's sarcoma that does not require systemic therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has Burkitt's lymphoma, which is a malignancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No serious, ongoing, nonmalignant disease or infection that would preclude study compliance, in the opinion of the investigator",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has multiple serious conditions (e.g., Burkitt's lymphoma, DVT) that may preclude compliance.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of cutaneous or mucocutaneous reactions, or diseases in the past, due to any cause, severe enough to cause hospitalization or an inability to eat or drink for ≥ 2 days",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of severe cutaneous reactions is documented; unable to fully assess.",
+      "clinical_question": "Has the patient experienced any cutaneous or mucocutaneous reactions, or diseases severe enough to cause hospitalization or an inability to eat or drink for ≥2 days in the past?"
+    },
+    {
+      "criterion": "No acute, intercurrent infection that would preclude study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No acute infections are documented; unable to fully assess.",
+      "clinical_question": "Does the patient currently have any acute intercurrent infections, as defined by the presence of fever, chills, or other signs of infection within the last 14 days?"
+    },
+    {
+      "criterion": "Patients with Mycobacterium avium are eligible",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on Mycobacterium avium status; unable to assess eligibility.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of Mycobacterium avium infection?"
+    },
+    {
+      "criterion": "No cardiovascular problems, including any of the following:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of primary cardiac lymphoma and a mass in the right atrium, indicating significant cardiovascular problems.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Myocardial infarction within the past 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No recent myocardial infarction is documented, but the patient's cardiac history raises concerns.",
+      "clinical_question": "Has the patient experienced a myocardial infarction within the past 6 months?"
+    },
+    {
+      "criterion": "New York Heart Association class II-IV heart failure",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's heart failure status is unclear; further assessment needed due to cardiac mass.",
+      "clinical_question": "Does the patient have a New York Heart Association class II, III, or IV heart failure classification based on their current cardiac function assessment?"
+    },
+    {
+      "criterion": "Uncontrolled angina",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Uncontrolled angina status is not provided; further evaluation required.",
+      "clinical_question": "Does the patient report experiencing angina episodes with a frequency of ≥2 times per week?"
+    },
+    {
+      "criterion": "Severe uncontrolled ventricular arrhythmias",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on ventricular arrhythmias; further cardiac evaluation needed.",
+      "clinical_question": "Does the patient have a documented history of severe uncontrolled ventricular arrhythmias as defined by episodes lasting longer than 30 seconds or requiring intervention?"
+    },
+    {
+      "criterion": "Clinically significant pericardial disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has clinically significant pericardial disease as indicated by large pericardial effusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ECG evidence of acute ischemic or active conduction system abnormalities.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No ECG results provided; need to assess for ischemic or conduction abnormalities.",
+      "clinical_question": "Does the patient have an ECG showing ST-segment elevation or depression, or any evidence of active conduction system abnormalities such as a new bundle branch block or atrioventricular block?"
+    },
+    {
+      "criterion": "No shortness of breath at rest",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of shortness of breath due to cardiac issues.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Arterial PO2 ≥ 70 or pulse oximeter-derived O2 saturation ≥ 94% on room air (unless due to lymphomatous involvement of the lungs)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No arterial PO2 or O2 saturation values provided; need further assessment.",
+      "clinical_question": "Is the patient's arterial PO2 ≥ 70 mmHg or is the pulse oximeter-derived O2 saturation ≥ 94% on room air?"
+    },
+    {
+      "criterion": "Able to comply with study and provide adequate informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is able to provide informed consent as per standard practice.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 4 weeks since prior major surgery (except diagnostic surgery)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone knee surgery, which is considered a major surgery, within the last 4 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 12 months since prior rituximab unless it was only given for indications other than the treatment of aggressive lymphoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about prior rituximab treatment, making it unclear if the criterion is met.",
+      "clinical_question": "Has the patient received rituximab within the last 12 months for the treatment of aggressive lymphoma?"
+    },
+    {
+      "criterion": "No prior cytotoxic chemotherapy or radiotherapy for this lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of Burkitt's lymphoma and has undergone treatments that may include cytotoxic chemotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concurrent radiotherapy, with or without steroids, for emergency conditions secondary to lymphoma (i.e., CNS tumor or cord compression) allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current treatment status regarding concurrent radiotherapy is not specified.",
+      "clinical_question": "Has the patient experienced any emergency conditions secondary to lymphoma, such as CNS tumor or cord compression, requiring concurrent radiotherapy?"
+    },
+    {
+      "criterion": "No zidovudine or zidovudine-containing regimen (including Combivir® or Trizivir®) during and for 2 months after completion of chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the use of zidovudine or zidovudine-containing regimens.",
+      "clinical_question": "Has the patient received any zidovudine or zidovudine-containing regimens during the treatment period or within 2 months after completing chemotherapy?"
+    },
+    {
+      "criterion": "Concurrent erythropoietin or filgrastim (G-CSF) allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There are no contraindications noted for concurrent erythropoietin or filgrastim (G-CSF) use.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Growth factor therapy must be discontinued ≥ 24 hours prior to study entry",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current status regarding growth factor therapy prior to study entry is not provided.",
+      "clinical_question": "Has the patient received any growth factor therapy within the 24 hours prior to study entry?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 7 of 49 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4898
+}

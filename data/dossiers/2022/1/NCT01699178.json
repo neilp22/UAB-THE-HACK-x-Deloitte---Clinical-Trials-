@@ -1,0 +1,103 @@
+{
+  "nct_id": "NCT01699178",
+  "trial_title": "Open-label, Follow-up Study of Oral Testosterone Undecanoate in Hypogonadal Men",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this one year extension (follow-up) study is to gather additional safety data in hypogonadal men treated with oral TU or AndroGel who have completed the 12-month Phase III study CLAR-09007.",
+  "eligibility_table": [
+    {
+      "criterion": "Subjects were to have completed Study CLAR-09007.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about whether the patient completed Study CLAR-09007.",
+      "clinical_question": "Has the patient completed Study CLAR-09007 with a follow-up assessment indicating a serum testosterone level of at least 300 ng/dL?"
+    },
+    {
+      "criterion": "Subjects were to have adequate venous access in the left or right arm to allow collection of a number of blood samples via a venous cannula.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 19 years old and likely has adequate venous access.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subjects were required to remain off all forms of T except for study medication throughout the entire study.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently on testosterone therapy, as indicated by the absence of medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subjects voluntarily gave written informed consent to participate in this study.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient is capable of providing consent, as they are 19 years old.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subjects meeting any of the following criteria were not eligible for participation in this study:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific criteria listed to assess eligibility.",
+      "clinical_question": "Is the patient's serum testosterone level ≥300 ng/dL?"
+    },
+    {
+      "criterion": "Significant intercurrent disease of any type, in particular liver, kidney, uncontrolled or poorly controlled heart disease, or psychiatric illness developed during the Phase III study that would, in the opinion of the Investigator, require exclusion from this study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the presence of significant intercurrent diseases.",
+      "clinical_question": "Does the patient have any significant intercurrent disease, specifically liver, kidney, uncontrolled or poorly controlled heart disease, or psychiatric illness, as assessed by clinical evaluation and relevant lab tests?"
+    },
+    {
+      "criterion": "Untreated, severe obstructive sleep apnea (diagnosed during previous Phase III study).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the diagnosis of obstructive sleep apnea.",
+      "clinical_question": "Does the patient have a diagnosis of severe obstructive sleep apnea, defined as an apnea-hypopnea index (AHI) of ≥30 events per hour?"
+    },
+    {
+      "criterion": "Serum transaminases >2 times upper limit of normal (ULN), serum bilirubin >2.0 mg/dL and serum creatinine >2.0 mg/dL at the final visit for Study CLAR 09007.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess serum transaminases, bilirubin, or creatinine.",
+      "clinical_question": "Does the patient have serum transaminases greater than 2 times the upper limit of normal, serum bilirubin greater than 2.0 mg/dL, or serum creatinine greater than 2.0 mg/dL at the final visit?"
+    },
+    {
+      "criterion": "Abnormal prostate digital rectal examination (palpable nodule[s]) or elevated PSA (serum PSA >4 ng/mL) at the final visit for Study CLAR-09007.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prostate examination or PSA levels available.",
+      "clinical_question": "Does the patient have a serum PSA level greater than 4 ng/mL at the final visit?"
+    },
+    {
+      "criterion": "Use of dietary supplement saw palmetto or phytoestrogens and use of any dietary supplements that may increase serum T, such as androstenedione or dehydroepiandrosterone (DHEA).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No dietary supplements reported that would affect serum testosterone levels.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known malabsorption syndrome and/or current treatment with oral lipase inhibitors (e.g., orlistat [Xenical]) and bile acid-binding resins (e.g., cholestyramine [Questran], colestipol [Colestid]).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a known malabsorption syndrome or current treatment with oral lipase inhibitors or bile acid-binding resins, but the absence of specific lab values related to malabsorption makes it uncertain.",
+      "clinical_question": "Does the patient have a diagnosed malabsorption syndrome or is currently taking oral lipase inhibitors or bile acid-binding resins?"
+    },
+    {
+      "criterion": "Poor compliers with study medication, study procedures, or study visits in Study CLAR 09007.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's compliance with study medication or procedures, making it unclear whether they would be considered poor compliers.",
+      "clinical_question": "Has the patient missed ≥2 scheduled study visits or failed to take the study medication on ≥3 occasions during the trial?"
+    },
+    {
+      "criterion": "Concomitant use of antiandrogens, estrogens, potent oral CYP3A4 inducers (e.g., barbiturates, glucocorticoids [pharmacologic doses of glucocorticoids for replacement therapy were not exclusionary]) and potent CYP3A4 inhibitors (e.g., human immunodeficiency virus [HIV] antivirals [indinavir, nelfinavir, ritonavir, saquinavir, delaviridine], amiodarone, azithromycin, ciprofloxacin, ketoconazole). (Note: Short-term ciprofloxacin administration completed more than 7 days prior to study visits was not exclusionary during the study.)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not currently on any medications, including antiandrogens or estrogens, but the lack of detailed medication history leaves some uncertainty regarding past treatments.",
+      "clinical_question": "Has the patient used any antiandrogens, estrogens, or potent CYP3A4 inducers or inhibitors within the last 30 days?"
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3077
+}

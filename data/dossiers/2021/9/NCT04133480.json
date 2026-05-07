@@ -1,0 +1,225 @@
+{
+  "nct_id": "NCT04133480",
+  "trial_title": "Investigation of Cognitive Outcomes With Cannabidiol Oral Solution",
+  "phase": "PHASE4",
+  "status": "WITHDRAWN",
+  "brief_summary": "This study is being conducted to evaluate the effects of GWP42003-P on cognition in pediatric participants, aged 3 to 10 years, with Lennox-Gastaut Syndrome (LGS).",
+  "eligibility_table": [
+    {
+      "criterion": "Participant is male or female aged 3-10 years.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 13.0 >= 10.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants' parent(s)/legal representative is willing and able to give informed consent for participation in the trial; where the participant possesses adequate understanding, informed assent should also be taken.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The participant is a minor, so informed consent will be provided by the parent or legal representative, and the participant may be able to provide assent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participant and their caregiver are willing and able (in the investigator's opinion) to comply with all trial requirements.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The participant and caregiver are likely willing to comply, but the investigator's opinion is not explicitly stated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participant must have a clinical diagnosis of Lennox-Gastaut Syndrome (LGS), with onset within the last 5 years. This includes certification from the investigator of prior electroencephalogram (EEG) documenting slow spike wave (< 3 Hertz [Hz]) during the participant's history and evidence of more than 1 type of generalized seizure, including drop seizures (atonic, tonic, or tonic-clonic), for at least 6 months.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The participant does not have a clinical diagnosis of Lennox-Gastaut Syndrome (LGS) and has not had the required EEG documentation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Investigator can confirm that the addition of GWP42003-P to the participant's existing antiepileptic drug (AED) regimen is warranted.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "It is unclear if the addition of GWP42003-P is warranted without further information on the participant's current treatment efficacy.",
+      "clinical_question": "Has the patient experienced ≥2 seizures in the past month despite being on a stable regimen of antiepileptic drugs?"
+    },
+    {
+      "criterion": "Participant must have at least 1 drop seizure each week during the first 28 days of the baseline period.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient experienced at least 1 drop seizure each week during the first 28 days of the baseline period?"
+    },
+    {
+      "criterion": "A minimum level of general intellectual functioning as assessed at screening with the Peabody Picture Vocabulary Test",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The participant has severe intellectual disability, which likely precludes a minimum level of general intellectual functioning as assessed by the Peabody Picture Vocabulary Test.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participant's parent(s)/legal representative is willing to allow the responsible authorities to be notified of participation in the trial, if mandated by local law.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The parent or legal representative is likely willing to allow notification of participation as it is a common requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participant's parent(s)/legal representative is willing to allow his or her primary care practitioner (if they have one) and consultant (if they have one) to be notified of participation in the trial, if the primary care practitioner/consultant is different to the investigator.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The parent or legal representative is likely willing to allow notification of the primary care practitioner and consultant, as it is standard practice.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Key",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is unclear as it is labeled 'Key' without specific details provided.",
+      "clinical_question": "Has the patient experienced a reduction in seizure frequency of at least 50% after 12 weeks of treatment with cannabidiol oral solution?"
+    },
+    {
+      "criterion": "Participant has clinically significant unstable medical conditions other than epilepsy.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The participant has clinically significant unstable medical conditions (CHF and severe intellectual disability) that may affect eligibility.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participant experiences > 300 total seizures within the first 28 days of the baseline period.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient experienced >300 total seizures within the first 28 days of the baseline period?"
+    },
+    {
+      "criterion": "Participant has any prior exposure to GWP42003-P.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The participant has prior exposure to Dilantin, which is a known antiepileptic drug, but there is no mention of prior exposure to GWP42003-P.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participant has initiated felbamate within the last 12 months.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of felbamate.",
+      "clinical_question": "Has the patient initiated felbamate treatment within the last 12 months?"
+    },
+    {
+      "criterion": "Participant has initiated mammalian target of rapamycin (mTOR) inhibitors for epilepsy within the last 4 weeks.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of mTOR inhibitors.",
+      "clinical_question": "Has the patient initiated mTOR inhibitors for epilepsy within the last 4 weeks?"
+    },
+    {
+      "criterion": "Participant is currently using or has in the past used recreational or medicinal cannabis or synthetic cannabinoid-based medications (including Sativex®) within the 3 months prior to trial entry.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of cannabis or cannabinoid medications.",
+      "clinical_question": "Has the patient used any form of recreational or medicinal cannabis or synthetic cannabinoid-based medications within the 3 months prior to trial entry?"
+    },
+    {
+      "criterion": "Participant has had clinically relevant symptoms or a clinically significant illness, other than epilepsy, in the 4 weeks prior to screening or Visit 2.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has severe intellectual disability and multiple significant health conditions, which may be considered clinically significant illnesses.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participant has laboratory values at screening or Visit 2 that are clinically significantly abnormal in the investigator's opinion.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No laboratory values provided to assess for abnormalities.",
+      "clinical_question": "Do the patient's laboratory values indicate any clinically significant abnormalities, such as a sodium level <135 mEq/L or a potassium level >5.5 mEq/L?"
+    },
+    {
+      "criterion": "Participant tests positive for Δ9-tetrahydrocannabinol (THC) or cannabidiol (CBD) at screening.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about THC or CBD testing.",
+      "clinical_question": "Does the patient test positive for Δ9-tetrahydrocannabinol (THC) or cannabidiol (CBD) at the screening threshold of ≥0.1 ng/mL?"
+    },
+    {
+      "criterion": "Participant has any known or suspected hypersensitivity to cannabinoids or any of the excipients of GWP42003-P.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about hypersensitivity to cannabinoids.",
+      "clinical_question": "Does the patient have any documented history of hypersensitivity reactions to cannabinoids or any of the excipients of GWP42003-P?"
+    },
+    {
+      "criterion": "Participant has significantly impaired hepatic function at the screening visit, defined as any of the following:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about hepatic function.",
+      "clinical_question": "Does the patient have a Child-Pugh score of ≥7 indicating significantly impaired hepatic function?"
+    },
+    {
+      "criterion": "Serum alanine aminotransferase (ALT) or aspartate aminotransferase (AST) > 5 × upper limit of normal (ULN);",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about ALT or AST levels.",
+      "clinical_question": "Is the patient's serum alanine aminotransferase (ALT) or aspartate aminotransferase (AST) level greater than 5 × the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Serum ALT or AST > 3 × ULN and (total bilirubin [TBL] > 2 × ULN or international normalized ratio [INR] > 1.5);",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about ALT, AST, bilirubin, or INR levels.",
+      "clinical_question": "Is the patient's serum ALT or AST level greater than 3 × ULN, and is the total bilirubin level greater than 2 × ULN or the international normalized ratio greater than 1.5?"
+    },
+    {
+      "criterion": "Serum ALT or AST > 3 × ULN with the presence of fatigue, nausea, vomiting, right upper quadrant pain or tenderness, fever, rash, and/or eosinophilia (> 5%).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess ALT or AST levels, and no symptoms of liver dysfunction are reported.",
+      "clinical_question": "Is the patient's serum ALT or AST level greater than 3 × ULN while experiencing any of the following symptoms: fatigue, nausea, vomiting, right upper quadrant pain or tenderness, fever, rash, or eosinophilia (> 5%)?"
+    },
+    {
+      "criterion": "Participant has received an investigational medical product within the 3 months prior to the screening visit.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No mention of receiving an investigational medical product within the last 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participant has any other significant disease or disorder, which, in the opinion of the investigator, may either put the participant at risk because of participation in the trial, may influence the result of the trial, or may affect the participant's ability to take part in the trial.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The participant has severe intellectual disability, CHF, epilepsy, and anoxic brain injury, which may significantly impact trial participation and safety.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any abnormalities identified following a physical examination of the participant that, in the opinion of the investigator, would jeopardize the safety of the participant if he/she took part in the trial.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No physical examination results provided; thus, it is unclear if any abnormalities exist that would jeopardize safety.",
+      "clinical_question": "Does the patient have any significant cardiovascular abnormalities, such as a left ventricular ejection fraction (LVEF) < 40%, that would jeopardize their safety if they participated in the trial?"
+    },
+    {
+      "criterion": "Participant has been previously enrolled into this trial.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No prior enrollment in this trial is indicated.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Participant has clinically significant unstable medical conditions other than ep",
+    "EXCLUSION UNCLEAR: Participant experiences > 300 total seizures within the first 28 days of the bas",
+    "EXCLUSION VIOLATED: Participant has any prior exposure to GWP42003-P.",
+    "EXCLUSION UNCLEAR: Participant has initiated felbamate within the last 12 months.",
+    "EXCLUSION UNCLEAR: Participant has initiated mammalian target of rapamycin (mTOR) inhibitors for ep",
+    "EXCLUSION UNCLEAR: Participant is currently using or has in the past used recreational or medicinal",
+    "EXCLUSION VIOLATED: Participant has had clinically relevant symptoms or a clinically significant ill",
+    "EXCLUSION UNCLEAR: Participant has laboratory values at screening or Visit 2 that are clinically si",
+    "EXCLUSION UNCLEAR: Participant tests positive for Δ9-tetrahydrocannabinol (THC) or cannabidiol (CBD",
+    "EXCLUSION UNCLEAR: Participant has any known or suspected hypersensitivity to cannabinoids or any o",
+    "EXCLUSION UNCLEAR: Participant has significantly impaired hepatic function at the screening visit, ",
+    "EXCLUSION UNCLEAR: Serum alanine aminotransferase (ALT) or aspartate aminotransferase (AST) > 5 × u",
+    "EXCLUSION UNCLEAR: Serum ALT or AST > 3 × ULN and (total bilirubin [TBL] > 2 × ULN or international",
+    "EXCLUSION UNCLEAR: Serum ALT or AST > 3 × ULN with the presence of fatigue, nausea, vomiting, right",
+    "EXCLUSION VIOLATED: Participant has any other significant disease or disorder, which, in the opinion",
+    "EXCLUSION UNCLEAR: Any abnormalities identified following a physical examination of the participant"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.4643
+}

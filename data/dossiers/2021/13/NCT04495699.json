@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT04495699",
+  "trial_title": "Asymptomatic Renal Calculi in Recurrent Urinary Tract Infections",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "This study will assess patients who have recurrent urinary tract infections and kidney stones which are not blocking the kidney or causing other problems. Currently, we don't know if taking out these stones will improve recurrent urinary tract infections or not. Patients will make a decision with their surgeon about removing or monitoring their stone(s). Whether or not their infections continue with surgery or monitoring will be noted, and this information may help to inform future treatment dec",
+  "eligibility_table": [
+    {
+      "criterion": "recurrent UTIs, defined as 3 positive urine cultures of specific organisms with symptoms within 12 months (or 2 positive cultures with symptoms within 6 months) prior to clinical assessment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of recurrent UTIs, evidenced by multiple infections and treatments for urosepsis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "non-obstructing renal stone(s) on imaging within 6 months of initial visit",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about recent imaging to confirm the presence or absence of non-obstructing renal stones.",
+      "clinical_question": "Has the patient undergone imaging within the last 6 months that confirms the presence of non-obstructing renal stone(s)?"
+    },
+    {
+      "criterion": "age < 18 years",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 62.0 < 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "pregnancy",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is male and therefore not applicable for pregnancy exclusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "hydronephrosis or evidence of obstruction",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of hydronephrosis or obstruction in the provided medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "presence of a foreign body in urinary tract (e.g. Foley, ureteral stent, nephrostomy tube) at the time of UTI diagnosis",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a suprapubic catheter, which is considered a foreign body in the urinary tract.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "concurrent bladder calculi",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no mention of concurrent bladder calculi in the patient's medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Urinary diversion or previous surgery involving segments of bowel interposed into the urinary tract (ileal conduit, ileal ureter etc.)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone a colostomy, which qualifies as a urinary diversion involving bowel segments.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: pregnancy",
+    "EXCLUSION VIOLATED: hydronephrosis or evidence of obstruction",
+    "EXCLUSION VIOLATED: concurrent bladder calculi"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.875
+}

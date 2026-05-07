@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT01452165",
+  "trial_title": "Peripheral Artery Disease in Vastmanland",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "The main purposes of this study are:\n\n* to describe the prevalence and degree of reduced left ventricular function and hypertrophy in patients with peripheral arterial disease in comparison to controls from the general population,\n* to evaluate factors of importance to left ventricular dysfunction and hypertrophy in patients with peripheral arterial disease, and\n* to assess the impact of cardiac function and left ventricular hypertrophy on long-term prognosis in patients with peripheral artery d",
+  "eligibility_table": [
+    {
+      "criterion": "Fulfillment of at least one of the following criteria:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has significant bilateral carotid stenosis (80% on the right and 90% on the left), fulfilling the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ankle-brachial-index (ABI) <= 0.9",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's ankle-brachial index (ABI) ≤ 0.9?"
+    },
+    {
+      "criterion": "stenosis of > 30% of the internal carotid artery",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has stenosis of > 30% of the internal carotid artery, specifically 80% and 90% stenosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "symptoms typical for claudication and corresponding stenotic findings on the ultrasound examination.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of peripheral vascular disease, but there is no specific mention of symptoms typical for claudication or corresponding ultrasound findings.",
+      "clinical_question": "Does the patient exhibit claudication symptoms with a walking distance of less than 200 meters and have ultrasound findings indicating ≥50% stenosis in the affected peripheral arteries?"
+    },
+    {
+      "criterion": "age less than 18 years",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient currently under 18 years of age?"
+    },
+    {
+      "criterion": "severly impaired communication capabilities",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's communication capabilities, making it unclear if they are severely impaired.",
+      "clinical_question": "Does the patient have a score of ≤10 on the Montreal Cognitive Assessment (MoCA)?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: age less than 18 years",
+    "EXCLUSION UNCLEAR: severly impaired communication capabilities"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

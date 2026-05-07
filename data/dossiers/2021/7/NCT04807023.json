@@ -1,0 +1,122 @@
+{
+  "nct_id": "NCT04807023",
+  "trial_title": "Decompensation of Cirrhosis and Iron Metabolism",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "Iron is a crucial metal whose metabolism is tightly regulated. Iron deficiency or iron overload are both deleterious at the cellular, organic and systemic levels. In line with the major role of the liver in iron homeostasis, links between iron metabolism and acute on chronic liver failure have been highlighted. Nevertheless, due to the difficulty of accurately assessing iron metabolism in this situation, therapeutic intervention on iron metabolism in this setting is currently not codified.\n\nA be",
+  "eligibility_table": [
+    {
+      "criterion": "Age ≥ 18 years old.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 60.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diagnosis of cirrhosis, previously known or not, of any etiology, histologically proven or not.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of Hep C cirrhosis, which qualifies under the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hospitalization for acute on chronic liver failure:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of hospitalization for acute on chronic liver failure in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ascites decompensation.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have documented ascites decompensation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Or spontaneous infection of the ascites fluid (defined as PNN > 250/mm3 of ascites).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no evidence of spontaneous infection of the ascites fluid provided in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Or digestive hemorrhage related to portal hypertension (digestive fibroscopy showing active bleeding or stigmas of recent bleeding from esophageal and/or gastric varices).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has grade II esophageal varices, which indicates a risk of digestive hemorrhage related to portal hypertension.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Or hepatic encephalopathy (clinically defined +/- increase in ammonia and/or by electroencephalogram and classified in stages according to West-Haven).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no mention of hepatic encephalopathy in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Or hepato-renal syndrome (HRS-AKI criteria, EASL 2018).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not meet the criteria for hepato-renal syndrome as per the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Or bacterial infection (defined by a bacteremia identified by at least one blood culture and/or an infectious site authenticated on imaging).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no evidence of bacterial infection as defined by the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Or Acute Alcoholic Hepatitis (histologically proven or not).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a history of Acute Alcoholic Hepatitis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Non-opposition of the patient, relative or legal representative.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The profile indicates no opposition from the patient or their representatives.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Treatment with oral or intravenous iron in the month prior to hospitalization.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not specify recent treatment with oral or intravenous iron, but without lab values, it is uncertain.",
+      "clinical_question": "Has the patient received oral or intravenous iron treatment within the last 30 days prior to hospitalization?"
+    },
+    {
+      "criterion": "Implementation of a TIPS in the month prior to admission.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a TIPS procedure in the patient's history, but the timeframe is not explicitly confirmed.",
+      "clinical_question": "Has the patient undergone a transjugular intrahepatic portosystemic shunt (TIPS) procedure within the month prior to admission?"
+    },
+    {
+      "criterion": "Presence of hepatocellular carcinoma with an expected survival < 3 months or any other progressive cancer.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has increased AFP, which raises suspicion for hepatocellular carcinoma, but no definitive diagnosis is provided.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of hepatocellular carcinoma with an expected survival of less than 3 months based on current clinical evaluation?"
+    },
+    {
+      "criterion": "Adult person subject to legal protection (safeguard of justice, curatorship, guardianship), person deprived of liberty.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding legal protection or deprivation of liberty in the patient's profile.",
+      "clinical_question": "Is the patient currently under legal protection due to curatorship or guardianship status?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Treatment with oral or intravenous iron in the month prior to hospitalization.",
+    "EXCLUSION UNCLEAR: Implementation of a TIPS in the month prior to admission.",
+    "EXCLUSION UNCLEAR: Presence of hepatocellular carcinoma with an expected survival < 3 months or any",
+    "EXCLUSION UNCLEAR: Adult person subject to legal protection (safeguard of justice, curatorship, gua"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.7333
+}

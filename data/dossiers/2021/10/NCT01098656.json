@@ -1,0 +1,336 @@
+{
+  "nct_id": "NCT01098656",
+  "trial_title": "Lenalidomide Maintenance Post-debulking in Advanced CTCL",
+  "phase": "PHASE3",
+  "status": "TERMINATED",
+  "brief_summary": "RATIONALE: Observation is watching a patient's condition but not giving treatment unless symptoms appear or change. Lenalidomide may stop the growth of cancer cells by blocking blood flow to the cancer. It is not yet known whether observation or lenalidomide is more effective in treating patients who are in complete or partial response after receiving previous gemcitabine hydrochloride or doxorubicin hydrochloride liposome for cutaneous T-cell lymphoma or mycosis fungoides/Sézary syndrome.\n\nPURP",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnoses of advanced T-cell cutaneous lymphoma or mycosis fungoides/Sézary syndrome",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has systemic mastocytosis, not advanced T-cell cutaneous lymphoma or mycosis fungoides/Sézary syndrome.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stage IIB-IV disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The stage of the patient's systemic mastocytosis is not specified; thus, it cannot be determined if it meets the criteria for Stage IIB-IV.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of advanced cutaneous T-cell lymphoma (CTCL) classified as Stage IIB-IV?"
+    },
+    {
+      "criterion": "Achieved complete or partial response after undergoing prior debulking therapy with 1 of the following recommended regimens with or without radiotherapy:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not undergone any debulking therapy for T-cell cutaneous lymphoma or mycosis fungoides/Sézary syndrome.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Gemcitabine hydrochloride IV over 30 minutes on days 1, 8, and 15 of a 28-day course at a dose of 1,000 to 1,200 mg/m² for a total of four courses",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not received gemcitabine hydrochloride as part of a treatment regimen.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pegylated liposomal doxorubicin hydrochloride IV over 1 hour on days 1 and 15 of a 28-day course at a dose of 20 mg/m² for a total of four courses",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not received pegylated liposomal doxorubicin hydrochloride as part of a treatment regimen.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Sézary cell burden must be decreased by at least 50% after debulking in patients with Sézary syndrome",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient's Sézary cell burden decreased by at least 50% after debulking?"
+    },
+    {
+      "criterion": "Disease not appropriate for skin-directed therapy per local institution standards",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "It is unclear if the patient's disease is appropriate for skin-directed therapy, as this is not applicable to systemic mastocytosis.",
+      "clinical_question": "Is the patient's disease classified as stage IV CTCL according to the current staging guidelines?"
+    },
+    {
+      "criterion": "No disease progression between registration and randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about disease progression between registration and randomization.",
+      "clinical_question": "Has the patient experienced any disease progression, defined as an increase in serum tryptase levels above 84 or new symptoms related to systemic mastocytosis, between registration and randomization?"
+    },
+    {
+      "criterion": "No CNS involvement",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding CNS involvement.",
+      "clinical_question": "Does the patient have any evidence of central nervous system involvement as determined by imaging studies or neurological assessment?"
+    },
+    {
+      "criterion": "PATIENT CHARACTERISTICS:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have T-cell cutaneous lymphoma or mycosis fungoides/Sézary syndrome, so patient characteristics are not applicable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "WHO performance status 0-2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The WHO performance status of the patient is not provided, making it impossible to assess.",
+      "clinical_question": "Does the patient have a WHO performance status score of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Life expectancy > 12 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "At 22 years old, the patient is likely to have a life expectancy greater than 12 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hemoglobin ≥ 10 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a hemoglobin level of ≥10 g/dL?"
+    },
+    {
+      "criterion": "Absolute neutrophil count ≥ 1.5 x 10^9/L",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count currently ≥ 1.5 x 10^9/L?"
+    },
+    {
+      "criterion": "Platelet count ≥ 60 x 10^9/L",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count ≥ 60 x 10^9/L?"
+    },
+    {
+      "criterion": "Total bilirubin ≤ 1.5 times upper limit of normal (UNL)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Total bilirubin levels are not provided; unable to assess if it is ≤ 1.5 times UNL.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Alkaline phosphatase ≤ 3 times UNL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Alkaline phosphatase levels are not provided; unable to assess if it is ≤ 3 times UNL.",
+      "clinical_question": "Is the patient's alkaline phosphatase level ≤ 3 times the upper normal limit (UNL)?"
+    },
+    {
+      "criterion": "ALT/AST ≤ 3 times UNL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "ALT/AST levels are not provided; unable to assess if they are ≤ 3 times UNL.",
+      "clinical_question": "Is the patient's most recent ALT level ≤ 3 times the upper normal limit (UNL)?"
+    },
+    {
+      "criterion": "Electrolytes (including sodium, potassium, and chloride) normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Electrolyte levels are not provided; unable to assess if they are normal.",
+      "clinical_question": "Are the patient's serum sodium, potassium, and chloride levels within the normal reference ranges?"
+    },
+    {
+      "criterion": "Creatinine normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine levels are not provided; unable to assess if they are normal.",
+      "clinical_question": "Is the patient's serum creatinine level within the normal range of 0.6 to 1.1 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine clearance ≥ 60 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current creatinine clearance value?"
+    },
+    {
+      "criterion": "Uric acid and calcium normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Uric acid and calcium levels are not provided; unable to assess if they are normal.",
+      "clinical_question": "Is the patient's serum uric acid level ≤6.0 mg/dL and serum calcium level within the normal range of 8.5-10.5 mg/dL?"
+    },
+    {
+      "criterion": "Free T4 and TSH ≤ 1.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Free T4 and TSH levels are not provided; unable to assess if they are ≤ 1.5 times ULN.",
+      "clinical_question": "Is the patient's Free T4 and TSH level ≤ 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Patients with a buffer range from the normal values of +/- 10% for hematology and biochemistry are acceptable",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hematology and biochemistry values are not provided; unable to assess if they fall within the acceptable buffer range.",
+      "clinical_question": "Are the patient's most recent hematology and biochemistry lab values within ±10% of the normal range?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is a 22-year-old female, but there is no information provided about a recent pregnancy test.",
+      "clinical_question": "Has the patient had a negative serum or urine pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception 4 weeks prior to, during, and for 4 weeks after completion of study therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is female and of childbearing age, but there is no information on whether she is using effective contraception.",
+      "clinical_question": "Has the patient been using an effective form of contraception for at least 4 weeks prior to the initiation of study therapy?"
+    },
+    {
+      "criterion": "Males must agree not to donate semen during and for 1 week after completion of study therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is female, so this criterion does not apply.",
+      "clinical_question": "Is the patient male?"
+    },
+    {
+      "criterion": "Patients with high risk for or history of a thromboembolic event must agree to receive prophylactic anticoagulation therapy (e.g., vitamin K) to keep INR in the range of 2-3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has systemic mastocytosis and a history of adverse reactions, but there is no information on whether she has a history of thromboembolic events.",
+      "clinical_question": "Has the patient agreed to receive prophylactic anticoagulation therapy to maintain an INR in the range of 2-3?"
+    },
+    {
+      "criterion": "No New York Heart Association class III-IV disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a New York Heart Association classification of I or II?"
+    },
+    {
+      "criterion": "No blood donating during and for 1 week after completion of study therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient donated blood during the study therapy or within 1 week after completing the study therapy?"
+    },
+    {
+      "criterion": "No uncontrolled infectious disease, autoimmune disease, or immunodeficiency",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any active uncontrolled infections, autoimmune diseases, or immunodeficiencies as defined by a CD4 count <200 cells/mm³?"
+    },
+    {
+      "criterion": "No second malignancies within the past 3 years except surgically cured carcinoma in situ of the cervix, in situ breast cancer, incidental finding of stage T1a or T1b prostate cancer, and basal or squamous cell carcinoma of the skin",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient had any second malignancies within the past 3 years, excluding surgically cured carcinoma in situ of the cervix, in situ breast cancer, incidental finding of stage T1a or T1b prostate cancer, and basal or squamous cell carcinoma of the skin?"
+    },
+    {
+      "criterion": "No psychological, familial, sociological, or geographical condition potentially hampering compliance with the study protocol and follow-up schedule",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any psychological, familial, sociological, or geographical conditions that would prevent her from attending follow-up appointments at least once every month for the duration of the study?"
+    },
+    {
+      "criterion": "No Lapp lactase deficiency or history of glucose-galactose malabsorption",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented history of Lapp lactase deficiency or glucose-galactose malabsorption?"
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of systemic mastocytosis and has undergone prior treatments, but details on specific prior concurrent therapies are not provided.",
+      "clinical_question": "Has the patient received any prior systemic therapy for systemic mastocytosis within the last 6 months?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The disease characteristics are not specified in the patient profile.",
+      "clinical_question": "Does the patient have a serum tryptase level ≥20 ng/mL?"
+    },
+    {
+      "criterion": "No other prior intravenous chemotherapy for this cancer",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any prior intravenous chemotherapy for advanced cutaneous T-cell lymphoma?"
+    },
+    {
+      "criterion": "For purposes of this protocol, the definition of intravenous chemotherapy also includes denileukin diftitox, antibodies, or antibody conjugates",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not specify any prior use of intravenous chemotherapy or related treatments.",
+      "clinical_question": "Has the patient received any form of intravenous chemotherapy, including denileukin diftitox, antibodies, or antibody conjugates, prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "No prior splenectomy or splenic irradiation",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of systemic mastocytosis, and there is no mention of a prior splenectomy or splenic irradiation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent topical corticosteroids",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on systemic corticosteroids, but it is unclear if she is using any concurrent topical corticosteroids.",
+      "clinical_question": "Has the patient used any topical corticosteroids in the past 30 days?"
+    },
+    {
+      "criterion": "Concurrent systemic corticosteroids allowed for treatment of tumor flare reactions",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is on systemic corticosteroids for treatment of tumor flare reactions, which is allowed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No radiation or drug-based therapy (including steroids) between registration and randomization",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on a prednisone taper and receiving IV steroids, which disqualifies her from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent drugs (including steroids) during the debulking regimen",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on multiple medications, including IV steroids, which counts as concurrent drugs during the debulking regimen.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Low-dose steroids as premedication allowed at the investigator's discretion",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "While the patient is on steroids, the use of low-dose steroids as premedication is at the investigator's discretion, and it is unclear if her current steroid use would be considered low-dose or premedication.",
+      "clinical_question": "Has the patient been administered low-dose steroids as premedication prior to treatment with lenalidomide?"
+    },
+    {
+      "criterion": "No other concurrent anticancer treatments",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of systemic mastocytosis and is currently on multiple medications, which may be considered anticancer treatments, thus not meeting this criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 3 of 46 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2609
+}

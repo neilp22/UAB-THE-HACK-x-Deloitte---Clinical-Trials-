@@ -1,0 +1,327 @@
+{
+  "nct_id": "NCT00003537",
+  "trial_title": "Antineoplaston Therapy in Treating Adult Patients With Anaplastic Astrocytoma",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Current therapies for adults with anaplastic astrocytoma provide limited benefit to the patient. The anti-cancer properties of Antineoplaston therapy suggest that it may prove beneficial in the treatment of adults with anaplastic astrocytoma.\n\nPURPOSE: This study is being performed to determine the effects (good and bad) that Antineoplaston therapy has on adults with anaplastic astrocytoma.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically confirmed diagnosis of anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of anaplastic astrocytoma of the spine.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Tumor subtotally resected or biopsied prior to therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has an unresectable tumor, indicating it was not subtotally resected or biopsied.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of residual tumor by MRI scan performed within two weeks prior to study entry",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No MRI scan results are provided to confirm evidence of residual tumor.",
+      "clinical_question": "Does the patient have evidence of residual tumor on an MRI scan performed within two weeks prior to study entry?"
+    },
+    {
+      "criterion": "No brain stem tumors",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have a brain stem tumor, as the tumor is located in the spine.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: 18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: Karnofsky 60-100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have a Karnofsky Performance Status score of ≥60?"
+    },
+    {
+      "criterion": "Life expectancy: More than 2 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 45 years old and likely has a life expectancy greater than 2 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "WBC at least 1,500/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a white blood cell count of at least 1,500/mm^3?"
+    },
+    {
+      "criterion": "Platelet count at least 50,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count at least 50,000/mm^3?"
+    },
+    {
+      "criterion": "Hemoglobin at least 10 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a hemoglobin level of at least 10 g/dL?"
+    },
+    {
+      "criterion": "Bilirubin no greater than 2.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level currently ≤2.5 mg/dL?"
+    },
+    {
+      "criterion": "SGOT and SGPT no greater than 5 times upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for SGOT and SGPT are not provided, making it unclear if they are within limits.",
+      "clinical_question": "Are the patient's SGOT and SGPT levels currently ≤ 5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "No hepatic failure",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding hepatic function or failure.",
+      "clinical_question": "Does the patient have a serum alanine aminotransferase (ALT) level ≤40 U/L?"
+    },
+    {
+      "criterion": "Creatinine no greater than 2.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level currently ≤2.5 mg/dL?"
+    },
+    {
+      "criterion": "No renal failure",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding renal function or failure.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.2 mg/dL?"
+    },
+    {
+      "criterion": "No prior congestive heart failure",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of prior congestive heart failure in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No coronary artery disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of coronary artery disease in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No myocardial infarction within the past year",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported history of myocardial infarction within the past year.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No angina requiring medication",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of angina requiring medication in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No uncontrolled hypertension",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of hypertension, which is considered uncontrolled given the ongoing treatment with high-dose steroids.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No moderate to severe chronic obstructive pulmonary disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of chronic obstructive pulmonary disease in the patient's conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific details provided regarding other inclusion criteria; further information is needed.",
+      "clinical_question": "Has the patient experienced a measurable reduction in tumor size as assessed by MRI after completing at least 4 cycles of antineoplaston therapy?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication of pregnancy or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 4 weeks after study participation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's fertility status and contraception use are not specified.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, and will he continue to do so during and for 4 weeks after study participation?"
+    },
+    {
+      "criterion": "No active infection",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no active infection reported in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent serious disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple serious conditions including anaplastic astrocytoma and chronic pain, which may be considered serious diseases.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other prior malignancy except carcinoma in situ of the cervix or superficial nonmelanoma skin cancer",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no history of other malignancies except for the current diagnosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple prior treatments including high-dose steroids and temozolomide, which may be considered concurrent therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biologic therapy:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on Avastin, which is a biologic therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior immunotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has received any prior immunotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent immunomodulating agents",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently on any immunomodulating agents.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chemotherapy:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple cycles of chemotherapy, including temozolomide and CPT-11.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior myelosuppressive chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received myelosuppressive chemotherapy (temozolomide and CPT-11) in the past.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Endocrine therapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any endocrine therapy the patient may have received.",
+      "clinical_question": "Has the patient received any form of endocrine therapy in the past 6 months?"
+    },
+    {
+      "criterion": "Concurrent corticosteroids for cerebral edema allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Concurrent corticosteroids are allowed, and the patient is on high-dose steroids for cerebral edema.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Radiotherapy:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone prior radiation therapy as part of their treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior myelosuppressive radiotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has received myelosuppressive radiotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently receiving Avastin, which is an antineoplastic agent, indicating concurrent treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is vague; it does not specify the type of surgery or the timeframe for recovery.",
+      "clinical_question": "Has the patient undergone any surgical intervention for the anaplastic astrocytoma within the last 6 months?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The disease characteristics are not provided, making it impossible to assess eligibility based on this criterion.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic astrocytoma based on histopathological examination?"
+    },
+    {
+      "criterion": "Recovered from any prior surgery",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple prior treatments, including surgery and radiation, which may not meet the recovery requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is too broad and lacks specific details to assess eligibility.",
+      "clinical_question": "Has the patient experienced a measurable reduction in tumor size as assessed by MRI after completing at least 4 cycles of antineoplaston therapy?"
+    },
+    {
+      "criterion": "No prior cytodifferentiating agents",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received temozolomide, which is considered a cytodifferentiating agent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior antineoplaston therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not received antineoplaston therapy, but this criterion is not applicable as the patient has other antineoplastic treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent antineoplastic agents",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on multiple antineoplastic agents, including temozolomide and Avastin.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6444
+}

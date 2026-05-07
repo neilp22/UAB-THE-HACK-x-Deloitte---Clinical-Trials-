@@ -1,0 +1,104 @@
+{
+  "nct_id": "NCT04528784",
+  "trial_title": "Feasibility Study of Transcutaneous Tibial Nerve Stimulation for Urinary Symptoms in People With Multiple Sclerosis",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "Neurogenic lower urinary tract dysfunction is common among people with Multiple sclerosis with a pooled prevalence of 68.41% using self-report measures and 63.95% using urodynamic studies. Transcutaneous Tibial Nerve Stimulation (TTNS) is a non-invasive treatment option to manage bladder storage symptoms, however, the potential efficacy of TTNS among people with multiple sclerosis is based on a small number of studies with the absence of high-quality evidence relating to efficacy, and lack of cl",
+  "eligibility_table": [
+    {
+      "criterion": "Self-reported diagnosis of any type of Multiple Sclerosis",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of SLE with transverse myelitis, which is related to Multiple Sclerosis, but there is no self-reported diagnosis of MS.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Male or female",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "criterion targets female; patient is male",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Aged ≥18 years old",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 62.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ambulatory",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's conditions and history suggest significant mobility issues, particularly with a history of CVA and altered mental status.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least one bladder storage related symptom (e.g. urinary frequency, urinary urgency, nocturia with or without incontinence).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a neurogenic bladder, which typically includes bladder storage symptoms.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "People with an indwelling urethral catheter or indwelling suprapubic catheter",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a suprapubic catheter, which is considered an indwelling catheter.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Urologic disease including bladder malignancy",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of Non-hodgkins Marginal Zone Lymphoma, which could be considered a urologic disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diabetic mellitus",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of diabetes mellitus in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnant women or planning to be pregnant during the study time",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is male and there is no indication of pregnancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recent pelvic related surgery <1 year",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has had a colostomy, which is a pelvic-related surgery within the last year.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pacemaker or other metallic internal devices",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of significant medical interventions, but there is no mention of a pacemaker or metallic devices.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Urinary tract infections (UTIs) during recruitment phase.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has recurrent UTIs, which disqualifies them during the recruitment phase.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: People with an indwelling urethral catheter or indwelling suprapubic catheter",
+    "EXCLUSION VIOLATED: Urologic disease including bladder malignancy",
+    "EXCLUSION VIOLATED: Diabetic mellitus",
+    "EXCLUSION VIOLATED: Pregnant women or planning to be pregnant during the study time",
+    "EXCLUSION VIOLATED: Recent pelvic related surgery <1 year",
+    "EXCLUSION VIOLATED: Pacemaker or other metallic internal devices",
+    "EXCLUSION VIOLATED: Urinary tract infections (UTIs) during recruitment phase."
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 1.0
+}

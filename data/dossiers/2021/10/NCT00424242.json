@@ -1,0 +1,208 @@
+{
+  "nct_id": "NCT00424242",
+  "trial_title": "Pemetrexed Disodium in the Cerebrospinal Fluid of Patients With Leptomeningeal Metastases",
+  "phase": "EARLY_PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Pemetrexed disodium may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Studying samples of cerebrospinal fluid and blood from patients with cancer in the laboratory may help doctors learn how pemetrexed disodium works in the body and identify biomarkers related to cancer.\n\nPURPOSE: This clinical trial is studying the side effects and how well pemetrexed disodium works in treating patients with leptomeningeal metastases.",
+  "eligibility_table": [
+    {
+      "criterion": "DISEASE CHARACTERISTICS:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of systemic mastocytosis, which meets the disease characteristic inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diagnosis of systemic malignancy (solid tumor or hematologic malignancy) or primary CNS lymphoma with leptomeningeal metastases (LM) as documented by MRI, cerebrospinal fluid, or both",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a diagnosis of systemic malignancy or primary CNS lymphoma with leptomeningeal metastases.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients may have brain metastases in addition to LM",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has systemic mastocytosis but there is no information regarding brain metastases or LM.",
+      "clinical_question": "Does the patient have confirmed leptomeningeal metastases in addition to brain metastases?"
+    },
+    {
+      "criterion": "Patients with clinically significant interstitial fluid with effusion controlled by drainage are eligible",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about clinically significant interstitial fluid with effusion.",
+      "clinical_question": "Does the patient have clinically significant interstitial fluid effusion that is currently controlled by drainage?"
+    },
+    {
+      "criterion": "PATIENT CHARACTERISTICS:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old, which is within the acceptable age range for trial participation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Karnofsky performance status 60-100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have a Karnofsky performance status score of 60 or higher?"
+    },
+    {
+      "criterion": "Life expectancy > 2 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely to have a life expectancy greater than 2 months given her current health status.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Creatinine clearance ≥ 45 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current creatinine clearance value in mL/min?"
+    },
+    {
+      "criterion": "Bilirubin < 1.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level less than 1.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Transaminases < 3.0 times ULN (5 times ULN for hepatic metastasis)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Are the patient's transaminase levels less than 3.0 times the upper limit of normal?"
+    },
+    {
+      "criterion": "WBC \\> 3,000/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to confirm WBC count.",
+      "clinical_question": "Is the patient's white blood cell count greater than 3,000/mm³?"
+    },
+    {
+      "criterion": "Neutrophil count \\> 1,500/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to confirm neutrophil count.",
+      "clinical_question": "Is the patient's neutrophil count greater than 1,500/mm³?"
+    },
+    {
+      "criterion": "Platelet count \\> 100,000/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to confirm platelet count.",
+      "clinical_question": "Is the patient's platelet count greater than 100,000/mm³?"
+    },
+    {
+      "criterion": "Hemoglobin \\> 10 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to confirm hemoglobin level.",
+      "clinical_question": "Is the patient's hemoglobin level greater than 10 g/dL?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old and there is no indication of being pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pregnancy test results are provided, making it unclear if the patient has a negative pregnancy test.",
+      "clinical_question": "Has the patient undergone a pregnancy test within the last 7 days, and was the result negative?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 3 months after completion of study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is female and of childbearing age, but there is no information on contraception use.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as hormonal birth control or an intrauterine device, and will she continue to do so during and for 3 months after completion of study treatment?"
+    },
+    {
+      "criterion": "Able to undergo lumbar puncture (i.e., no noncommunicating hydrocephalus or spinal block) or has an Ommaya reservoir in place",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of noncommunicating hydrocephalus or spinal block, and the patient should be able to undergo lumbar puncture.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Able to take steroids, cyanocobalamin (vitamin B12), and folic acid",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently taking steroids and has no contraindications to taking cyanocobalamin or folic acid.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other active cancer except nonmelanoma skin cancer or carcinoma in situ of the cervix",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has systemic mastocytosis but no other active cancer is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with prior malignancies who are in complete remission and are off all therapy for that malignancy for ≥ 3 years are eligible",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of systemic mastocytosis but no information on prior malignancies or their remission status.",
+      "clinical_question": "Has the patient been in complete remission from any prior malignancies for at least 3 years and is currently off all therapy for those malignancies?"
+    },
+    {
+      "criterion": "No significant medical or psychiatric illness that would interfere with study compliance",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's psychiatric and medical history is not fully detailed, making it unclear if there are significant illnesses affecting compliance.",
+      "clinical_question": "Does the patient have any significant medical or psychiatric illness, as defined by the presence of conditions that would require ongoing treatment or hospitalization, that would interfere with study compliance?"
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific information is provided regarding prior concurrent therapy.",
+      "clinical_question": "Has the patient received any systemic therapy for leptomeningeal metastases within the last 30 days?"
+    },
+    {
+      "criterion": "More than 2 weeks since prior radiotherapy and recovered",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on whether the patient has received prior radiotherapy.",
+      "clinical_question": "Has the patient completed prior radiotherapy more than 2 weeks ago and demonstrated recovery from any associated side effects?"
+    },
+    {
+      "criterion": "No concurrent radiotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not reported to be receiving any concurrent radiotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No nonsteroidal anti-inflammatory drugs (NSAIDs) or acetylsalicylic acid within 2 days before or after study treatment (5 days for long-acting NSAIDs)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of an adverse reaction to aspirin, indicating they may have used acetylsalicylic acid recently, which could violate the criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent cytotoxic chemotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is currently receiving any cytotoxic chemotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concurrent hormonal or biological therapy allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The criterion allows for concurrent hormonal or biological therapy, and there is no evidence that the patient is currently on such treatments.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4286
+}

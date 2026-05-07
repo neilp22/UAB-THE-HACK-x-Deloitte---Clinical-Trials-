@@ -1,0 +1,153 @@
+{
+  "nct_id": "NCT03996057",
+  "trial_title": "Methenamine in a Non-antibiotic, Multimodal Approach to UTI Prevention",
+  "phase": "PHASE4",
+  "status": "WITHDRAWN",
+  "brief_summary": "Urinary tract infections (UTIs) are the most common bacterial infection and are especially common in postmenopausal women, who often experience recurrent UTIs. Women with recurrent UTIs are commonly treated with antibiotics, but side effects, collateral damage to commensal bacteria, and antimicrobial resistance result from frequent antibiotic use. It is paramount that researchers develop non-antibiotic treatment strategies for UTIs.\n\nSeveral non-antibiotic strategies may be successful in prevent",
+  "eligibility_table": [
+    {
+      "criterion": "Postmenopausal women",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient a postmenopausal woman aged 55 years or older?"
+    },
+    {
+      "criterion": "History of recurrent UTI (>=3 culture proven UTIs in one year or >=2 in 6 months)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of recurrent UTIs, as indicated by recurrent UTIs and relevant history of urosepsis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recurrent, culture proven UTI while on vaginal estrogen for at least 4 weeks + d-mannose prophylaxis",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication that the patient has been on vaginal estrogen or d-mannose prophylaxis, which are required for this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "English speaker",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient able to communicate effectively in English, as assessed by a standardized language proficiency test?"
+    },
+    {
+      "criterion": "Not postmenopausal",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently postmenopausal, defined as having not had a menstrual period for at least 12 consecutive months?"
+    },
+    {
+      "criterion": "Complicated UTIs",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced ≥3 episodes of complicated UTIs in the past 12 months?"
+    },
+    {
+      "criterion": "Known renal tract anomaly",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented renal tract anomaly, such as a congenital malformation or obstructive uropathy, confirmed by imaging studies?"
+    },
+    {
+      "criterion": "Liver dysfunction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a current Child-Pugh score of ≥7 indicating moderate to severe liver dysfunction?"
+    },
+    {
+      "criterion": "Neurogenic bladder",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced ≥2 recurrent urinary tract infections (UTIs) in the past 12 months despite appropriate management of their neurogenic bladder?"
+    },
+    {
+      "criterion": "Incomplete bladder emptying (PVR > 150 cc when voided volume >150 cc)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medical history suggests possible incomplete bladder emptying, but specific post-void residual (PVR) values are not provided.",
+      "clinical_question": "What is the patient's post-void residual (PVR) volume measured in cc after voiding?"
+    },
+    {
+      "criterion": "Self-catheterization or use of indwelling catheter",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone self-catheterization or had an indwelling catheter in place for at least 30 consecutive days within the last 6 months?"
+    },
+    {
+      "criterion": "Contraindication to vaginal estrogen, methenamine hippurate, or d-mannose, including allergic reactions",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any documented allergic reactions to vaginal estrogen, methenamine hippurate, or d-mannose?"
+    },
+    {
+      "criterion": "History of or current endometrial cancer",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a current diagnosis of endometrial cancer as confirmed by histopathological examination?"
+    },
+    {
+      "criterion": "History of estrogen sensitive breast cancer without approval of patient, patient's oncologist, oncologic surgeon, or primary care physician to use vaginal estrogen after counseling",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of estrogen-sensitive breast cancer in the patient's profile, but the lack of explicit approval from relevant medical professionals cannot be confirmed.",
+      "clinical_question": "Has the patient received approval from their oncologist or primary care physician to use vaginal estrogen after counseling?"
+    },
+    {
+      "criterion": "History of interstitial cystitis/painful bladder syndrome",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with interstitial cystitis or painful bladder syndrome by a urologist or specialist within the last 5 years?"
+    },
+    {
+      "criterion": "Urothelial cancer",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with urothelial cancer within the last 5 years?"
+    },
+    {
+      "criterion": "Enrolled in other clinical trials for UTIs other than Washington University study IRB# 201711120",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been enrolled in any clinical trials for UTIs other than the Washington University study IRB# 201711120 in the past 12 months?"
+    },
+    {
+      "criterion": "Currently on daily antibiotic prophylaxis and unwilling to stop this intervention",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on antibiotics, but the profile does not indicate unwillingness to stop, thus meeting the criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Not postmenopausal",
+    "EXCLUSION UNCLEAR: Complicated UTIs",
+    "EXCLUSION UNCLEAR: Known renal tract anomaly",
+    "EXCLUSION UNCLEAR: Liver dysfunction",
+    "EXCLUSION UNCLEAR: Neurogenic bladder",
+    "EXCLUSION UNCLEAR: Incomplete bladder emptying (PVR > 150 cc when voided volume >150 cc)",
+    "EXCLUSION UNCLEAR: Self-catheterization or use of indwelling catheter",
+    "EXCLUSION UNCLEAR: Contraindication to vaginal estrogen, methenamine hippurate, or d-mannose, inclu",
+    "EXCLUSION UNCLEAR: History of or current endometrial cancer",
+    "EXCLUSION UNCLEAR: History of estrogen sensitive breast cancer without approval of patient, patient",
+    "EXCLUSION UNCLEAR: History of interstitial cystitis/painful bladder syndrome",
+    "EXCLUSION UNCLEAR: Urothelial cancer",
+    "EXCLUSION UNCLEAR: Enrolled in other clinical trials for UTIs other than Washington University stud",
+    "LOW INCLUSION MATCH: only 1 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1667
+}

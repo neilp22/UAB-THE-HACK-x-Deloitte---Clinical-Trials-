@@ -1,0 +1,150 @@
+{
+  "nct_id": "NCT05787509",
+  "trial_title": "Prolonged Progesterone to Prevent Preterm Birth From IVF - ET",
+  "phase": "PHASE4",
+  "status": "UNKNOWN",
+  "brief_summary": "To investigate the incidence of preterm birth in IVF fresh embryo transplantation cycle patients after prolonged vaginal progesterone treatment",
+  "eligibility_table": [
+    {
+      "criterion": "20-40 years old",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 32.0 >= 40.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "20-40 years old",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 32.0 <= 20.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "met the conditions of assisted reproductive technology and underwent IVF fresh embryo transplantation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone IVF fresh embryo transplantation, but it is unclear if they meet the conditions for assisted reproductive technology.",
+      "clinical_question": "Has the patient undergone a fresh embryo transfer as part of an IVF cycle within the last 10 weeks?"
+    },
+    {
+      "criterion": "Singleton pregnancy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is currently experiencing vaginal spotting and has no confirmed gestational sac, making it uncertain if they have a singleton pregnancy.",
+      "clinical_question": "Is there a visible gestational sac in the uterus on the current ultrasound?"
+    },
+    {
+      "criterion": "Patients volunteered and signed informed consent prior to the trial.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can volunteer and sign informed consent as there are no indications of incapacity.",
+      "clinical_question": null
+    },
+    {
+      "criterion": ">40 years old",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 > 40.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of miscarriage or cervical insufficiency in the second trimester",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of vaginal spotting, but there is no explicit mention of miscarriage or cervical insufficiency.",
+      "clinical_question": "Has the patient experienced ≥2 consecutive miscarriages or a documented diagnosis of cervical insufficiency in the second trimester?"
+    },
+    {
+      "criterion": "Abnormal ovarian function or surgical history: decline in ovarian reserve, premature ovarian failure, Turner's syndrome, ovarian cyst excision, PCOS perforation/coning, chocolate cyst surgery, ovarian cone resection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's surgical history does not indicate any of the specified conditions affecting ovarian function.",
+      "clinical_question": "Does the patient have a documented serum AMH level <1.0 ng/mL indicating a decline in ovarian reserve?"
+    },
+    {
+      "criterion": "Uterine deformities: including single horn uterus, double horn uterus, residual horn uterus, saddle uterus, infantile uterus, double uterus, mediastinal uterus",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about uterine deformities, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of any uterine deformity, such as a single horn uterus or double uterus, based on imaging studies like a hysterosalpingogram or MRI?"
+    },
+    {
+      "criterion": "Diseases affecting uterine shape: uterine adhesions, uterine submucosal myomas or polyps, adenomyosis, chronic inflammation of the endometrium",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of thin endometrium and vaginal spotting raises concerns, but there is no definitive evidence of diseases affecting uterine shape.",
+      "clinical_question": "Does the patient have any documented uterine abnormalities such as uterine adhesions, submucosal myomas, polyps, or adenomyosis identified via ultrasound or hysteroscopy?"
+    },
+    {
+      "criterion": "Abnormalities in cervical morphology or function.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about cervical morphology or function abnormalities.",
+      "clinical_question": "Does the patient have a cervical length measurement of <25 mm on transvaginal ultrasound?"
+    },
+    {
+      "criterion": "History of total cervicectomy, conical excision, and cervical insufficiency",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not reported a history of total cervicectomy or conical excision, but the presence of vaginal spotting raises concerns.",
+      "clinical_question": "Has the patient undergone a total cervicectomy or conical excision, or been diagnosed with cervical insufficiency?"
+    },
+    {
+      "criterion": "Vaginal inflammation: refractory candida vaginitis, bacterial vaginosis, persistent mycoplasma-positive vaginosis, persistent chlamydia-positive vaginosis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about vaginal inflammation or infections, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient been diagnosed with any of the following vaginal infections: refractory candida vaginitis, bacterial vaginosis, persistent mycoplasma-positive vaginosis, or persistent chlamydia-positive vaginosis?"
+    },
+    {
+      "criterion": "B ultrasonography indicates twin or multiple pregnancies",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the results of a B ultrasonography, so it is unclear if the patient has twin or multiple pregnancies.",
+      "clinical_question": "Does the patient have a confirmed twin or multiple pregnancy as indicated by a B ultrasonography?"
+    },
+    {
+      "criterion": "Patients with severe medical and surgical diseases",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not appear to have severe medical or surgical diseases based on the provided profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants who had participated in other clinical trials during the 90 days or had received any investigational clinical drug during the 30 days prior to the trial",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has participated in other clinical trials or received investigational drugs recently.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with no long-term follow-up or poor compliance",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's compliance is not explicitly mentioned, and while there are concerns about her history, it is not clear if this would affect long-term follow-up.",
+      "clinical_question": "Has the patient attended all scheduled follow-up appointments in the past 10 weeks?"
+    },
+    {
+      "criterion": "The investigator believes that there are any factors that may affect participants' participation in the study or the evaluation of the results",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The investigator's beliefs about factors affecting participation are not provided, making it uncertain whether any such factors exist.",
+      "clinical_question": "Does the patient have a history of ≥2 episodes of vaginal spotting or complications related to urinary tract infections that could affect study participation?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: History of miscarriage or cervical insufficiency in the second trimester",
+    "EXCLUSION UNCLEAR: Abnormal ovarian function or surgical history: decline in ovarian reserve, prema",
+    "EXCLUSION UNCLEAR: Uterine deformities: including single horn uterus, double horn uterus, residual ",
+    "EXCLUSION UNCLEAR: Diseases affecting uterine shape: uterine adhesions, uterine submucosal myomas o",
+    "EXCLUSION UNCLEAR: Abnormalities in cervical morphology or function.",
+    "EXCLUSION UNCLEAR: History of total cervicectomy, conical excision, and cervical insufficiency",
+    "EXCLUSION UNCLEAR: Vaginal inflammation: refractory candida vaginitis, bacterial vaginosis, persist",
+    "EXCLUSION UNCLEAR: B ultrasonography indicates twin or multiple pregnancies",
+    "EXCLUSION UNCLEAR: Patients with no long-term follow-up or poor compliance",
+    "EXCLUSION UNCLEAR: The investigator believes that there are any factors that may affect participant",
+    "LOW INCLUSION MATCH: only 1 of 5 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

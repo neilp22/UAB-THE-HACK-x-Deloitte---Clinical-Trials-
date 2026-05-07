@@ -1,0 +1,315 @@
+{
+  "nct_id": "NCT00058461",
+  "trial_title": "Combination Chemotherapy and Rituximab in Treating Young Patients With Recurrent or Refractory Non-Hodgkin's Lymphoma or Acute Lymphoblastic Leukemia",
+  "phase": "PHASE2",
+  "status": "TERMINATED",
+  "brief_summary": "This phase II trial is studying how well rituximab together with ifosfamide, carboplatin, and etoposide works in treating young patients with recurrent or refractory non-Hodgkin's lymphoma or acute lymphoblastic leukemia. Chemotherapy drugs, such as ifosfamide, carboplatin, and etoposide, work in different ways to stop cancer cells from dividing so they stop growing or die. Monoclonal antibodies such as rituximab can locate cancer cells and either kill them or deliver cancer-killing substances t",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed B-cell non-Hodgkin's lymphoma OR acute lymphoblastic leukemia",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has histologically confirmed Burkitt's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CD20+ (confirmed by flow cytometry of tumor tissue, involved marrow, or CD20 immunostaining)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's tumor is likely CD20+ given the nature of Burkitt's lymphoma, but specific flow cytometry results are not provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The following histologies are generally CD20+ and are eligible:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion lists specific eligible histologies, but does not clarify if Burkitt's lymphoma is included in this specific context.",
+      "clinical_question": "Does the patient's Burkitt's lymphoma exhibit CD20 expression as determined by immunohistochemistry?"
+    },
+    {
+      "criterion": "Diffuse large B-cell lymphoma, mediastinal (thymic) large B-cell lymphoma, or follicular lymphoma, grade III (rare), documented by flow cytometry or appropriate immunohistochemistry, any stage",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has Burkitt's lymphoma, but the specific histology details required for this criterion are not provided.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of diffuse large B-cell lymphoma, mediastinal large B-cell lymphoma, or follicular lymphoma, grade III, documented by flow cytometry or appropriate immunohistochemistry?"
+    },
+    {
+      "criterion": "Burkitt's lymphoma or atypical Burkitt's/Burkitt-like lymphoma, any stage",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Burkitt's lymphoma, which is explicitly mentioned as eligible.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "B-cell acute lymphoblastic leukemia, with FABL3 morphology and/or demonstration of surface immunoglobin by flow cytometry",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has Burkitt's lymphoma, but there is no information on B-cell acute lymphoblastic leukemia or its morphology.",
+      "clinical_question": "Does the patient demonstrate surface immunoglobulin by flow cytometry with a positive result for B-cell acute lymphoblastic leukemia?"
+    },
+    {
+      "criterion": "Atypical precursor B-cell lymphoblastic lymphoma or other unusual histologies that are CD20+",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's specific histology is Burkitt's lymphoma, but it is unclear if it fits the atypical precursor B-cell lymphoblastic lymphoma category.",
+      "clinical_question": "Does the patient's atypical precursor B-cell lymphoblastic lymphoma express CD20 at a level sufficient for targeted therapy?"
+    },
+    {
+      "criterion": "Measurable disease by clinical, radiographic, or histologic criteria",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has measurable disease as indicated by the cardiac MRI showing a mass.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must be in first or later recurrence or have disease that is primarily refractory to conventional therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Burkitt's lymphoma and is likely in recurrence or refractory state given the history of treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No isolated CNS disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have isolated CNS disease, as the lymphoma is primarily cardiac.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status - ECOG 0-2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Performance status is not provided; cannot assess ECOG.",
+      "clinical_question": "Does the patient have an ECOG performance status score of 0, 1, or 2?"
+    },
+    {
+      "criterion": "At least 2 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Duration of prior treatments is not specified; cannot confirm if at least 2 months.",
+      "clinical_question": "Has the patient received combination chemotherapy and rituximab for at least 2 months?"
+    },
+    {
+      "criterion": "Absolute neutrophil count ≥ 1,000/mm^3*",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count currently ≥ 1,000/mm^3?"
+    },
+    {
+      "criterion": "Platelet count ≥ 100,000/mm^3 (transfusion independent)*",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count ≥ 100,000/mm^3?"
+    },
+    {
+      "criterion": "Hemoglobin ≥ 10.0 g/dL (RBC transfusion allowed)*",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a hemoglobin level of ≥10.0 g/dL?"
+    },
+    {
+      "criterion": "Bilirubin ≤ 1.5 times normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided; cannot assess if ≤ 1.5 times normal.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 times the normal upper limit?"
+    },
+    {
+      "criterion": "ALT < 2.5 times normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "ALT levels are not provided; cannot assess if < 2.5 times normal.",
+      "clinical_question": "Is the patient's alanine aminotransferase (ALT) level less than 2.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "No chronic renal insufficiency",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on renal function; cannot confirm chronic renal insufficiency.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.2 mg/dL?"
+    },
+    {
+      "criterion": "Renal insufficiency allowed provided it is secondary to tumor lysis syndrome",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on renal function; cannot confirm if renal insufficiency is secondary to tumor lysis syndrome.",
+      "clinical_question": "Is the patient's renal insufficiency confirmed to be secondary to tumor lysis syndrome, with a creatinine level exceeding 1.5 mg/dL?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on pregnancy status; cannot confirm if not pregnant or nursing.",
+      "clinical_question": "Is the patient currently pregnant or nursing?"
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a serum or urine pregnancy test within the last 7 days, and did the result return negative?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 3 months after study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on contraception use; cannot confirm if effective contraception is being used.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, and has she been using it for at least 3 months prior to the study treatment?"
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient's HIV status confirmed as negative through a recent laboratory test?"
+    },
+    {
+      "criterion": "No active uncontrolled infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient currently have any signs or symptoms of an active uncontrolled infection, such as fever, elevated white blood cell count, or positive cultures?"
+    },
+    {
+      "criterion": "Seizure disorder allowed if well controlled with anticonvulsants",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "History of seizures is noted, but control status with anticonvulsants is not provided.",
+      "clinical_question": "Is the patient's seizure disorder currently well controlled with anticonvulsants, as evidenced by no seizures occurring in the past six months?"
+    },
+    {
+      "criterion": "No CNS toxicity greater than grade II",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced any CNS toxicity greater than grade II during previous treatments?"
+    },
+    {
+      "criterion": "At least 24 hours since prior growth factor(s)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior growth factor administration; cannot confirm if at least 24 hours have passed.",
+      "clinical_question": "Has the patient received any growth factor(s) within the last 24 hours?"
+    },
+    {
+      "criterion": "At least 60 days since prior biologic (antineoplastic) therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of multiple treatments, but no specific information on the timing of prior biologic therapy is provided.",
+      "clinical_question": "Has the patient received any biologic (antineoplastic) therapy within the last 60 days?"
+    },
+    {
+      "criterion": "Prior stem cell transplantation allowed provided the following criteria are met:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone stem cell transplantation, so this criterion is not applicable.",
+      "clinical_question": "Has the patient undergone a prior stem cell transplantation that meets the eligibility criteria for this trial?"
+    },
+    {
+      "criterion": "More than 60 days since transplantation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone stem cell transplantation, so this criterion is not applicable.",
+      "clinical_question": "Has the patient undergone a stem cell transplantation more than 60 days ago?"
+    },
+    {
+      "criterion": "Hematopoietic lab value requirements are met (See Hematopoietic)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No hematopoietic lab values are provided to assess if the requirements are met.",
+      "clinical_question": "Does the patient have an absolute neutrophil count (ANC) of ≥1,000 cells/mm³, a platelet count of ≥75,000 cells/mm³, and a hemoglobin level of ≥8 g/dL?"
+    },
+    {
+      "criterion": "No evidence of graft-versus-host disease (if post-allogeneic transplantation)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone stem cell transplantation, so this criterion is not applicable.",
+      "clinical_question": "Has the patient experienced any signs or symptoms of graft-versus-host disease, such as skin rash, diarrhea, or liver dysfunction, since undergoing post-allogeneic transplantation?"
+    },
+    {
+      "criterion": "Prior monoclonal antibody therapy allowed (including rituximab)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding prior monoclonal antibody therapy.",
+      "clinical_question": "Has the patient received prior treatment with rituximab or any other monoclonal antibody therapy?"
+    },
+    {
+      "criterion": "No other concurrent immunomodulating agents",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding concurrent immunomodulating agents.",
+      "clinical_question": "Has the patient received any concurrent immunomodulating agents in the past 30 days?"
+    },
+    {
+      "criterion": "More than 2 weeks since prior myelosuppressive chemotherapy (4 weeks for nitrosoureas)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the timing of prior myelosuppressive chemotherapy.",
+      "clinical_question": "Has the patient received myelosuppressive chemotherapy within the last 2 weeks?"
+    },
+    {
+      "criterion": "No other concurrent chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding concurrent chemotherapy.",
+      "clinical_question": "Has the patient received any concurrent chemotherapy within the last 30 days?"
+    },
+    {
+      "criterion": "No concurrent steroids (except for rituximab infusion-related symptoms)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding concurrent steroid use.",
+      "clinical_question": "Has the patient received any corticosteroids in the past 30 days, excluding those administered for rituximab infusion-related symptoms?"
+    },
+    {
+      "criterion": "At least 2 weeks since prior local palliative radiotherapy (small port)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the timing of prior local palliative radiotherapy.",
+      "clinical_question": "Has the patient undergone local palliative radiotherapy (small port) within the last 2 weeks?"
+    },
+    {
+      "criterion": "At least 6 weeks since prior substantial bone marrow radiotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the timing of prior substantial bone marrow radiotherapy.",
+      "clinical_question": "Has the patient received substantial bone marrow radiotherapy within the last 6 weeks?"
+    },
+    {
+      "criterion": "At least 6 months since prior craniospinal radiotherapy or radiotherapy to 50% or more of the pelvis",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the timing of prior craniospinal radiotherapy or radiotherapy to the pelvis.",
+      "clinical_question": "Has the patient undergone craniospinal radiotherapy or radiotherapy to 50% or more of the pelvis within the last 6 months?"
+    },
+    {
+      "criterion": "Concurrent radiotherapy to localized painful, airway-compromising, or other acute organ-threatening lesions allowed provided at least 1 measurable lesion is not irradiated",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the presence of measurable lesions or concurrent radiotherapy.",
+      "clinical_question": "Is there at least one measurable lesion in the patient that has not been irradiated?"
+    },
+    {
+      "criterion": "Recovered from prior therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about recovery status from prior therapy.",
+      "clinical_question": "Has the patient recovered from all acute effects of prior therapies, including any complications from pericardiocentesis and lumbar puncture, for at least 4 weeks prior to enrollment?"
+    },
+    {
+      "criterion": "No concurrent participation in another phase II study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about participation in another phase II study.",
+      "clinical_question": "Is the patient currently participating in any other phase II clinical trial?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 6 of 43 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1395
+}

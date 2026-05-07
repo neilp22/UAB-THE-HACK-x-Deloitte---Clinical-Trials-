@@ -1,0 +1,182 @@
+{
+  "nct_id": "NCT02562716",
+  "trial_title": "S1505: Combination Chemotherapy or Gemcitabine Hydrochloride and Paclitaxel Albumin-Stabilized Nanoparticle Formulation Before Surgery in Treating Patients With Pancreatic Cancer That Can Be Removed by Surgery",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This randomized phase II trial studies how well fluorouracil, irinotecan hydrochloride, and oxaliplatin (combination chemotherapy) works and compares to gemcitabine hydrochloride and paclitaxel albumin-stabilized nanoparticle formulation before surgery in treating patients with pancreatic cancer that can be removed by surgery. Drugs used in chemotherapy, such as fluorouracil, irinotecan hydrochloride, oxaliplatin, gemcitabine hydrochloride, and paclitaxel albumin-stabilized nanoparticle formulat",
+  "eligibility_table": [
+    {
+      "criterion": "Patients must have histologically or cytologically proven pancreatic adenocarcinoma; histologies other than adenocarcinoma, or any mixed histologies, will NOT be eligible",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have histologically or cytologically proven pancreatic adenocarcinoma confirmed by a biopsy?"
+    },
+    {
+      "criterion": "Patients must have measurable disease in the pancreas; computed tomography (CT) scans or magnetic resonance imaging (MRIs) used to assess measurable disease must have been completed within 28 days prior to registration; all disease must be assessed and documented on the baseline tumor assessment form",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has pancreatic adenocarcinoma, but there is no information provided about measurable disease or recent imaging within the required timeframe.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have resectable primary tumor based on contrast-enhanced CT or MRI (CT or MRI without contrast as part of positron emission tomography [PET]/CT or PET/MRI is NOT acceptable; CT or MRI with contrast as part of PET/CT or PET/MRI is acceptable) of the chest, abdomen, and pelvis, where resectable is defined as:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's tumor status is unknown, and there is no evidence of resectability based on the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No involvement of the celiac artery, common hepatic artery, and superior mesenteric artery (and, if present, replaced right hepatic artery)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any imaging results indicating involvement of the celiac artery, common hepatic artery, or superior mesenteric artery?"
+    },
+    {
+      "criterion": "No involvement, or < 180° interface between tumor and vessel wall, of the portal vein and/or superior mesenteric vein; and patent portal vein/splenic vein confluence",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The involvement of the portal vein or superior mesenteric vein is not specified, making it unclear if this criterion is met.",
+      "clinical_question": "Is there evidence of portal vein or superior mesenteric vein involvement with the tumor, specifically an interface of ≥180° between the tumor and vessel wall?"
+    },
+    {
+      "criterion": "No evidence of metastatic disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any evidence of metastatic disease based on imaging studies conducted within the last 30 days?"
+    },
+    {
+      "criterion": "Note: for tumors of the body and tail of the pancreas, involvement of the splenic artery and vein of any degree is considered resectable disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The status of the splenic artery and vein involvement is not provided, making it uncertain if this criterion is met.",
+      "clinical_question": "Does the imaging report indicate any degree of involvement of the splenic artery or vein in the patient's pancreatic tumor?"
+    },
+    {
+      "criterion": "CT scans or MRIs used to assess disease at baseline must be submitted for central review",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no evidence that CT scans or MRIs have been submitted for central review.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have surgical consult to verify patient is a surgical candidate within 21 days prior to registration",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No surgical consult has been documented within the required timeframe.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must not have received prior surgery, radiation therapy, chemotherapy, targeted therapy, or any investigational therapy for pancreatic cancer",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone angioplasty, which is considered a prior surgery, thus disqualifying her.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have a Zubrod performance status of 0-1",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's age and health conditions likely indicate a performance status greater than 1, but specific Zubrod status is not provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) >= 1,500/mcL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count (ANC) ≥ 1,500/mcL?"
+    },
+    {
+      "criterion": "Platelets >= 100,000/mcL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a platelet count of ≥100,000/mcL?"
+    },
+    {
+      "criterion": "Hemoglobin >= 9 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's hemoglobin level currently ≥9 g/dL?"
+    },
+    {
+      "criterion": "Total bilirubin =< 1.5 x institutional upper limit of normal (IULN)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's total bilirubin level is not provided, but given her chronic kidney disease and other conditions, it is likely elevated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) =< 2.5 x IULN",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's AST and ALT levels are not provided, but given her health conditions, they are likely elevated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serum albumin >= 3 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum albumin level ≥3 g/dL?"
+    },
+    {
+      "criterion": "Serum creatinine =< IULN within 14 days prior to registration",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's serum creatinine is 2.1, which exceeds the upper limit of normal (IULN) for creatinine.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with uncontrolled intercurrent illness including, but not limited to ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements will NOT be eligible",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple uncontrolled intercurrent illnesses, including coronary artery disease, chronic kidney disease, and ongoing infections.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior malignancy is allowed except for adequately treated basal (or squamous cell) skin cancer, in situ cervical cancer, in situ breast (ductal or lobular) cancer, or other cancer for which the patient has been disease and treatment-free for two years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has pancreatic adenocarcinoma, which is a prior malignancy not allowed under the criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must not be pregnant or nursing; women/men of reproductive potential must have agreed to use an effective contraceptive method for up to 3 months after the final administered dose of chemotherapy; a woman is considered to be of 'reproductive potential' if she has had menses at any time in the preceding 12 consecutive months; in addition to routine contraceptive methods, 'effective contraception' also includes heterosexual celibacy and surgery intended to prevent pregnancy (or with a side-effect of pregnancy prevention) defined as a hysterectomy, bilateral oophorectomy or bilateral tubal ligation; however, if at any point a previously celibate patient chooses to become heterosexually active during the time period for use of contraceptive measures, he/she is responsible for beginning contraceptive measures",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is a 70-year-old female, which indicates she is of reproductive potential, but there is no indication of effective contraceptive measures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Sites must seek additional patient consent for the future use of specimens",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion regarding additional patient consent for future use of specimens is not explicitly addressed in the provided profile.",
+      "clinical_question": "Has the patient provided consent for the future use of specimens collected during the trial?"
+    },
+    {
+      "criterion": "Patients must be informed of the investigational nature of this study and must sign and give written informed consent in accordance with institutional and federal guidelines",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not provide information on whether the patient has been informed of the investigational nature of the study or if informed consent has been obtained.",
+      "clinical_question": "Has the patient signed and provided written informed consent for participation in the study in accordance with institutional and federal guidelines?"
+    },
+    {
+      "criterion": "As a part of the OPEN registration process the treating institution's identity is provided in order to ensure that the current (within 365 days) date of institutional review board approval for this study has been entered in the system",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not include information about the treating institution's identity or the status of the institutional review board approval.",
+      "clinical_question": "Has the institutional review board approved the S1505 study within the last 365 days?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 0 of 24 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

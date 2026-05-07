@@ -1,0 +1,156 @@
+{
+  "nct_id": "NCT05750173",
+  "trial_title": "The EASE-IT CT Registry",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "ICA is not always required for a pre-TAVI workup of octogenarians and can be substituted by CTA resulting in a streamlined pre-procedural workup of patients without compromising patient safety.",
+  "eligibility_table": [
+    {
+      "criterion": "Investigational CTA-only Cohort",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not part of the investigational CTA-only cohort as they have severe aortic stenosis and other conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Consecutive adult patients ≥ 75 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Does the patient have a documented left ventricular ejection fraction (LVEF) of ≤30%?"
+    },
+    {
+      "criterion": "Consecutive patients with severe AS (symptomatic or asymptomatic) with a guideline-based indication to undergo implantation of a transcatheter heart valve of the SAPIEN family",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and is indicated for transcatheter heart valve implantation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to undergo CTA",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is capable of undergoing CTA based on their medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient is scheduled to undergo a 30 Day and 3 Months follow-up",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is scheduled for follow-up, which is a requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CTA+ICA control Cohort",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not qualify for the CTA+ICA control cohort due to their severe aortic stenosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Consecutive adult patients ≥ 75 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Does the patient have a documented left ventricular ejection fraction (LVEF) of ≤30%?"
+    },
+    {
+      "criterion": "Consecutive patients underwent implantation of a transcatheter heart valve of the SAPIEN family because of severe aortic stenosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient underwent implantation of a transcatheter heart valve due to severe aortic stenosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to undergo CTA and ICA",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is able to undergo both CTA and ICA.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "investigational CTA-only Cohort",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not qualify for the investigational CTA-only cohort due to their severe aortic stenosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with already diagnosed proximal stenosis of the left anterior descending artery (LAD) OR the left main coronary artery (LM) ≥50%",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has moderate heterogeneous plaque with bilateral ICA stenosis, which disqualifies them.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any prior coronary revascularization / prior aortic valve replacement",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not undergone any prior coronary revascularization or aortic valve replacement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy below 12 months",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's severe aortic stenosis and worsening LV function suggest a significantly reduced life expectancy, likely below 12 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lack of informed consent / data protection statement",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's ability to provide informed consent or the presence of a data protection statement.",
+      "clinical_question": "Has the patient provided a signed informed consent form that includes a data protection statement prior to enrollment in the EASE-IT CT Registry?"
+    },
+    {
+      "criterion": "CTA+ICA control Cohort",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not specify whether they are part of a CTA+ICA control cohort.",
+      "clinical_question": "Does the patient have ≥50% stenosis in either the internal carotid artery (ICA) as determined by imaging studies?"
+    },
+    {
+      "criterion": "Patients diagnosed with proximal stenosis of the left anterior descending artery (LAD) OR the left main coronary artery (LM) ≥50% already at baseline",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's coronary artery status is not detailed enough to confirm or deny the presence of proximal stenosis of the LAD or LM.",
+      "clinical_question": "Does the patient have a proximal stenosis of the left anterior descending artery (LAD) or the left main coronary artery (LM) that is ≥50% at baseline?"
+    },
+    {
+      "criterion": "Any prior coronary revascularization / prior aortic valve replacement",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone prior cardiac procedures, including a preoperative workup for valvular replacement, which may indicate prior aortic valve replacement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy below 12 months",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's severe aortic stenosis and worsening LV function suggest a significantly reduced life expectancy, likely below 12 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lack of informed consent / data protection statement",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's ability to provide informed consent or the presence of a data protection statement.",
+      "clinical_question": "Has the patient provided a signed informed consent form that includes a data protection statement prior to enrollment in the EASE-IT CT Registry?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Investigational CTA-only Cohort",
+    "EXCLUSION VIOLATED: CTA+ICA control Cohort",
+    "EXCLUSION VIOLATED: Patients with already diagnosed proximal stenosis of the left anterior descendin",
+    "EXCLUSION VIOLATED: Any prior coronary revascularization / prior aortic valve replacement",
+    "EXCLUSION VIOLATED: Life expectancy below 12 months",
+    "EXCLUSION UNCLEAR: Lack of informed consent / data protection statement",
+    "EXCLUSION UNCLEAR: Patients diagnosed with proximal stenosis of the left anterior descending artery",
+    "EXCLUSION VIOLATED: Any prior coronary revascularization / prior aortic valve replacement",
+    "EXCLUSION VIOLATED: Life expectancy below 12 months",
+    "EXCLUSION UNCLEAR: Lack of informed consent / data protection statement"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.6842
+}

@@ -1,0 +1,131 @@
+{
+  "nct_id": "NCT00631137",
+  "trial_title": "Testosterone Gel in Preventing Weakness Caused by Steroid Therapy in Men With Glioma",
+  "phase": "NA",
+  "status": "TERMINATED",
+  "brief_summary": "RATIONALE: Testosterone gel may be effective in preventing or lessening muscle weakness caused by steroid therapy in men receiving glucocorticoids for newly diagnosed high-grade glioma.\n\nPURPOSE: This randomized clinical trial is studying how well testosterone gel works in preventing weakness caused by steroid therapy in men receiving glucocorticoids for newly diagnosed high-grade glioma.",
+  "eligibility_table": [
+    {
+      "criterion": "Newly diagnosed high-grade glioma, including the following subtypes:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma, which is a subtype of high-grade glioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma, meeting the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic oligodendroglioma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have anaplastic oligodendroglioma; they have anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Glioblastoma multiforme",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have glioblastoma multiforme; they have anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Requires dexamethasone at a dose of > 4 mg/day to control symptoms of tumor-related edema at time of study enrollment AND has been on a stable dose of steroids for ≥ 5 days prior to study enrollment",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on high-dose steroids, but the specific dose and duration of stable dosing are not provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Completed ≥ 80% of prescribed radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no information indicating that the patient has completed ≥ 80% of prescribed radiotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hypogonadal, defined as serum testosterone level < 350 ng/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No serum testosterone level is provided to assess hypogonadal status.",
+      "clinical_question": "Is the patient's serum testosterone level currently < 350 ng/dL?"
+    },
+    {
+      "criterion": "No history of prostate or breast cancer",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported history of prostate or breast cancer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No benign prostatic hypertrophy requiring therapy OR AUA score of ≥ 8",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding benign prostatic hypertrophy or AUA score.",
+      "clinical_question": "Does the patient have an AUA score of <8?"
+    },
+    {
+      "criterion": "PSA ≤ 4 ng/mL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No PSA level is provided to assess eligibility.",
+      "clinical_question": "Is the patient's most recent PSA level ≤ 4 ng/mL?"
+    },
+    {
+      "criterion": "Karnofsky performance status 60-100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Karnofsky performance status is not provided; unable to assess.",
+      "clinical_question": "Does the patient have a Karnofsky performance status score of 60 or higher?"
+    },
+    {
+      "criterion": "Able to keep daily records or has a care provider that agrees to keep daily records of drug administration",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient can likely keep daily records or has a care provider.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No clinical history of congestive heart failure requiring therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No history of congestive heart failure mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No psychotic disorder requiring active treatment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No psychotic disorder requiring treatment is noted.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No structured exercise program involving exercise for > 3 hours/week",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on structured exercise program is provided.",
+      "clinical_question": "Has the patient engaged in a structured exercise program involving exercise for ≤3 hours/week in the past month?"
+    },
+    {
+      "criterion": "No polycythemia (i.e., hematocrit > 52%)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess for polycythemia.",
+      "clinical_question": "Is the patient's hematocrit level ≤52%?"
+    },
+    {
+      "criterion": "More than 6 months since prior androgen therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior androgen therapy is provided.",
+      "clinical_question": "Has the patient received any androgen therapy within the last 6 months?"
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5882
+}

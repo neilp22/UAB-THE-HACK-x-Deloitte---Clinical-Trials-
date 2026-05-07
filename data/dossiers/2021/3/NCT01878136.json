@@ -1,0 +1,135 @@
+{
+  "nct_id": "NCT01878136",
+  "trial_title": "Effect of Intraventricular tPA Following Aneurysmal Subarachnoid Hemorrhage",
+  "phase": "PHASE1",
+  "status": "WITHDRAWN",
+  "brief_summary": "This study will evaluate the hypothesis that the administration of intraventricular tPA reduces the rates of cerebral vasospasm and ventriculoperitoneal shunt-dependent hydrocephalus in patients with aneurysmal subarachnoid hemorrhage.",
+  "eligibility_table": [
+    {
+      "criterion": "Age greater than 18 years old.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "SAH due to aneurysm, as determined by CT angiogram or cerebral angiogram.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has spontaneous intraventricular hemorrhage due to arteriovenous malformation (AVM), not due to an aneurysm.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Modified Fisher (mF) grade 3 or 4 SAH, defined as thick cisternal blood without (grade 3) or with (grade 4) intraventricular blood.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The modified Fisher grade is not specified in the profile; further imaging would be needed to determine this.",
+      "clinical_question": "Does the patient have a modified Fisher grade of 3 or 4 based on the presence of thick cisternal blood and/or intraventricular blood?"
+    },
+    {
+      "criterion": "Exclusion of the aneurysm from the parent circulation by endovascular embolization (Raymond class I or II) within 48 hours of ictus.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding endovascular embolization or the status of any aneurysm.",
+      "clinical_question": "Has the patient undergone endovascular embolization of the aneurysm resulting in Raymond class I or II within 48 hours of ictus?"
+    },
+    {
+      "criterion": "Ventriculostomy placement must occur prior to randomization.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention whether a ventriculostomy has been placed.",
+      "clinical_question": "Has the patient undergone ventriculostomy placement prior to randomization?"
+    },
+    {
+      "criterion": "Informed consent obtained from the patient or patient's decision maker.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming informed consent can be obtained from the patient or decision maker.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Determination by treating physician(s) that no ventriculostomy is needed.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The treating physician's determination regarding the need for ventriculostomy is not provided.",
+      "clinical_question": "Does the treating physician determine that the patient's intracranial pressure is stable and does not require a ventriculostomy based on current clinical assessment?"
+    },
+    {
+      "criterion": "Presence of intrinsic clotting disorders (e.g. due to hepatic failure, nephrotic syndrome, etc). Subjects whose pharmacologic anticoagulation is reversed, as determined by PT/INR, PTT within our institution's normal range, will be permitted to participate in this study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding intrinsic clotting disorders or anticoagulation status.",
+      "clinical_question": "Is the patient's PT/INR and PTT within the institution's normal range?"
+    },
+    {
+      "criterion": "Presence of significant anemia, defined as hemoglobin < 8 gm/dL.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's hemoglobin level currently < 8 gm/dL?"
+    },
+    {
+      "criterion": "Patients who undergo endovascular techniques requiring post-operative dual anti-platelet therapy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate whether the patient underwent endovascular techniques requiring dual anti-platelet therapy.",
+      "clinical_question": "Has the patient undergone any endovascular techniques that require post-operative dual anti-platelet therapy?"
+    },
+    {
+      "criterion": "Residual aneurysm sac filling (Raymond class III occlusion).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the status of any residual aneurysm sac filling.",
+      "clinical_question": "Is the residual aneurysm sac filling classified as Raymond class III occlusion on the latest imaging study?"
+    },
+    {
+      "criterion": "Aneurysm or vessel perforation during the endovascular procedure.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention any complications such as aneurysm or vessel perforation during procedures.",
+      "clinical_question": "Did the endovascular procedure result in any visible aneurysm or vessel perforation as confirmed by post-procedure imaging?"
+    },
+    {
+      "criterion": "Presence of craniectomy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention a craniectomy, but it is unclear if any surgical intervention has occurred.",
+      "clinical_question": "Has the patient undergone a craniectomy procedure since the diagnosis of aneurysmal subarachnoid hemorrhage?"
+    },
+    {
+      "criterion": "Significant neurologic disability prior to the onset of SAH.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a significant medical history but does not explicitly state the level of neurologic disability prior to the hemorrhage.",
+      "clinical_question": "Does the patient have a modified Rankin Scale score of ≥3 prior to the onset of subarachnoid hemorrhage?"
+    },
+    {
+      "criterion": "Determination that administration of tPA/placebo cannot be initiated within 72 hours of symptom onset.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The onset of symptoms is not specified, making it impossible to determine if tPA/placebo can be administered within the required timeframe.",
+      "clinical_question": "Has the patient experienced symptom onset from the aneurysmal subarachnoid hemorrhage for more than 72 hours?"
+    },
+    {
+      "criterion": "Presence of untreated intracranial aneurysms larger than 3mm on CT angiography or cerebral angiogram.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have any untreated intracranial aneurysms larger than 3mm as identified on CT angiography or cerebral angiogram?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Determination by treating physician(s) that no ventriculostomy is needed.",
+    "EXCLUSION UNCLEAR: Presence of intrinsic clotting disorders (e.g. due to hepatic failure, nephrotic",
+    "EXCLUSION UNCLEAR: Presence of significant anemia, defined as hemoglobin < 8 gm/dL.",
+    "EXCLUSION UNCLEAR: Patients who undergo endovascular techniques requiring post-operative dual anti-",
+    "EXCLUSION UNCLEAR: Residual aneurysm sac filling (Raymond class III occlusion).",
+    "EXCLUSION UNCLEAR: Aneurysm or vessel perforation during the endovascular procedure.",
+    "EXCLUSION UNCLEAR: Presence of craniectomy.",
+    "EXCLUSION UNCLEAR: Significant neurologic disability prior to the onset of SAH.",
+    "EXCLUSION UNCLEAR: Determination that administration of tPA/placebo cannot be initiated within 72 h",
+    "EXCLUSION UNCLEAR: Presence of untreated intracranial aneurysms larger than 3mm on CT angiography o"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1875
+}

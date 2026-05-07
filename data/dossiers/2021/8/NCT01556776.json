@@ -1,0 +1,418 @@
+{
+  "nct_id": "NCT01556776",
+  "trial_title": "A Study of Lenalidomide Maintenance for High-risk Patients With CLL Following First-line Therapy",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "CLLM1 is a phase 3, multicenter, randomized, double-blind, placebo-controlled, parallel-group study that compares the efficacy and safety of oral lenalidomide maintenance therapy to that of placebo maintenance therapy in high-risk subjects with Chronic Lymphocytic Leukemia (CLL) who have achieved at least a partial response (PR) and either:\n\n* MRD levels of ≥ 10-2 or\n* MRD levels of ≥ 10-4 - \\< 10-2 combined with at least one of the following factors:\n\n  * an unmutated IGHV-status\n  * 17p-deleti",
+  "eligibility_table": [
+    {
+      "criterion": "Must understand and voluntarily sign an informed consent form.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 57 years old and likely has the capacity to understand and sign an informed consent form.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age ≥ 18 years at the time of signing the informed consent form.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must be able to adhere to the study visit schedule and other protocol requirements.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has an excellent performance status, suggesting they can adhere to the study visit schedule.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have a documented diagnosis of CLL (IWCLL guidelines for the diagnosis and treatment of chronic lymphocytic leukemia).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a documented diagnosis of CLL, as indicated by their medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have been treated with one of the first line induction therapies: fludarabine/cyclophosphamide, fludarabine/rituximab, fludarabine/cyclophosphamide/rituximab, pentostatin/cyclophosphamide/rituximab or bendamustine/rituximab.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has been treated with FCR therapy, which is one of the first-line induction therapies listed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have achieved a response of at least PR following completion (minimum 4 cycles) of first line induction therapy prior to randomization, and have either:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's response to first-line induction therapy is not clearly documented; further information is needed.",
+      "clinical_question": "Has the patient achieved a response of at least a partial response (PR) following the completion of four cycles of first-line induction therapy?"
+    },
+    {
+      "criterion": "MRD levels in the peripheral blood at final restaging of ≥10-2.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's minimal residual disease (MRD) level in the peripheral blood at final restaging, and is it ≥10^-2?"
+    },
+    {
+      "criterion": "MRD levels in the peripheral blood at final restaging of ≥10-4 - <10-2 combined with an unmutated IGHV-status or 17p-deletion or TP53 mutation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about MRD levels or genetic mutations; this criterion cannot be assessed.",
+      "clinical_question": "What are the patient's MRD levels in the peripheral blood at final restaging, and are they ≥10^-4 and <10^-2?"
+    },
+    {
+      "criterion": "Must have completed last cycle of at least 4 cycles of first-line induction no less than 8 weeks (56 days) and no greater than 20 weeks (140 days) prior to randomization.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient completed their last cycle of first-line induction therapy more than 8 weeks ago, likely within the 20-week window.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subjects who completed first-line induction treatment with less than 6 cycles but at least 4 cycles should document reason for early discontinuation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has completed 8 cycles of treatment but the reason for any early discontinuation is not documented.",
+      "clinical_question": "What was the documented reason for the patient's early discontinuation of first-line induction treatment after completing four cycles of FCR therapy?"
+    },
+    {
+      "criterion": "A CIRS Score of more than 6 or a single score of 4 for an organ system limiting the ability to receive an intensive treatment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the CIRS Score; thus, it cannot be assessed.",
+      "clinical_question": "Does the patient have a CIRS score greater than 6 or a score of 4 for any single organ system?"
+    },
+    {
+      "criterion": "Active infections requiring systemic antibiotics.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding active infections; this criterion cannot be assessed.",
+      "clinical_question": "Has the patient experienced any active infections requiring systemic antibiotics within the last 30 days?"
+    },
+    {
+      "criterion": "Systemic infection CTC grade 3 or 4 that has not resolved > 2 months prior to randomization in spite of adequate anti-infective therapy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about systemic infections, so unable to assess.",
+      "clinical_question": "Has the patient experienced a systemic infection classified as CTC grade 3 or 4 that has not resolved for more than 2 months despite adequate anti-infective therapy?"
+    },
+    {
+      "criterion": "Autologous or allogeneic bone marrow transplant as first line therapy.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "Patient has not undergone any bone marrow transplant.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnant or lactating females.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "Patient is male, thus not applicable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Systemic treatment for CLL in the interval between completing the last cycle of first-line induction therapy and randomization.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient has received multiple treatments, but it's unclear if they fall within the specified interval.",
+      "clinical_question": "Has the patient received any systemic treatment for CLL in the interval between completing the last cycle of first-line induction therapy and randomization?"
+    },
+    {
+      "criterion": "Participation in any clinical study or having taken any investigational therapy which would interfere with the study drug for a disease other than CLL within 28 days prior to initiating maintenance therapy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on participation in other clinical studies or investigational therapies.",
+      "clinical_question": "Has the patient participated in any clinical study or taken any investigational therapy for a disease other than CLL within the 28 days prior to initiating maintenance therapy?"
+    },
+    {
+      "criterion": "Known presence of alcohol and/or drug abuse.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding alcohol or drug abuse.",
+      "clinical_question": "Has the patient reported any history of alcohol or drug abuse within the past 12 months?"
+    },
+    {
+      "criterion": "Central nervous system (CNS) involvement as documented by spinal fluid cytology or imaging. Subjects who have signs or symptoms suggestive of leukemic meningitis or a history of leukemic meningitis must have a lumbar puncture procedure performed within two weeks prior to randomization.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about CNS involvement or symptoms.",
+      "clinical_question": "Has the patient undergone a lumbar puncture within the last two weeks to assess for CNS involvement?"
+    },
+    {
+      "criterion": "Prior history of malignancies, other than CLL, unless the subject has been free of the disease for ≥5 years. Exceptions include the following:",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of CLL and large cell transformation, which is a malignancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have an Eastern Cooperative Oncology Group (ECOG see appendix 11.13) performance status score of ≤2.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "What is the patient's current Eastern Cooperative Oncology Group (ECOG) performance status score?"
+    },
+    {
+      "criterion": "Negative serological Hepatitis B test or negative PCR in case of positive serological test without evidence of an active infection, negative testing of Hepatitis C RNA, negative HIV test within 6 weeks prior to randomization.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess Hepatitis B, C, or HIV status.",
+      "clinical_question": "Has the patient tested negative for Hepatitis B serology or negative for PCR if previously positive, and is there a negative Hepatitis C RNA test and a negative HIV test within 6 weeks prior to randomization?"
+    },
+    {
+      "criterion": "Females of childbearing potential (FCBP) must:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Criterion pertains to females of childbearing potential, not applicable to this male patient.",
+      "clinical_question": "Is the patient currently taking any medications that could affect fertility or is he planning to father a child during the study period?"
+    },
+    {
+      "criterion": "Have two negative medically supervised pregnancy tests prior to starting of study therapy. She must agree to ongoing pregnancy testing during the course of the study, and after end of study therapy. This applies even if the subject practices complete and continued sexual abstinence.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, and the criterion applies to female subjects.",
+      "clinical_question": "Has the patient had two negative medically supervised pregnancy tests within the required timeframe prior to starting study therapy?"
+    },
+    {
+      "criterion": "Either commit to continued abstinence from heterosexual intercourse (which must be reviewed on a monthly basis) or agree to use, and be able to comply with, two reliable forms of effective contraception simultaneously to achieve a PEARL-Index <1 without without interruption (Highly effective methods: Intrauterine device (IUD), Hormonal (birth control pills, injections, implants), Tubal ligation, Partner's vasectomy, Additional effective methods: Male condom, Diaphragm, Cervical Cap). 28 days prior to starting study drug, during the study therapy (including dose interruptions), and for 28 days after discontinuation of study therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, and the criterion applies to female subjects.",
+      "clinical_question": "Has the patient committed to continued abstinence from heterosexual intercourse or agreed to use two reliable forms of effective contraception to achieve a PEARL-Index <1 for the required duration?"
+    },
+    {
+      "criterion": "Male subjects must:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and does not have any restrictions regarding this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Agree to use a condom during sexual contact with a FCBP, even if they have had a vasectomy, throughout study drug therapy, during any dose interruption and after cessation of study therapy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and can agree to use a condom during sexual contact.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Agree to not donate semen during study drug therapy and for a period after end of study drug therapy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can agree to not donate semen during the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "All subjects must:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is vague and does not specify any exclusion for the patient.",
+      "clinical_question": "Has the patient completed at least one line of therapy for CLL prior to enrollment in the study?"
+    },
+    {
+      "criterion": "Have an understanding that the study drug could have a potential teratogenic risk.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can understand the potential teratogenic risk of the study drug.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Basal cell carcinoma of the skin",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with basal cell carcinoma of the skin within the last five years?"
+    },
+    {
+      "criterion": "Squamous cell carcinoma of the skin",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with squamous cell carcinoma of the skin within the last 5 years?"
+    },
+    {
+      "criterion": "Carcinoma in situ of the cervix",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a diagnosis of carcinoma in situ of the cervix confirmed by biopsy within the last 12 months?"
+    },
+    {
+      "criterion": "Carcinoma in situ of the breast",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a diagnosis of carcinoma in situ of the breast confirmed by biopsy?"
+    },
+    {
+      "criterion": "Incidental histological finding of prostate cancer (TNM stage of T1a or T1b)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a histological diagnosis of prostate cancer classified as TNM stage T1a or T1b?"
+    },
+    {
+      "criterion": "History of renal failure requiring dialysis.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of renal failure in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior therapy with lenalidomide.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no record of prior therapy with lenalidomide in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any of the following laboratory abnormalities:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific laboratory values are provided to assess this criterion.",
+      "clinical_question": "Does the patient have any laboratory abnormalities, specifically an elevated white blood cell count (≥ 10,000 cells/µL) or elevated lactate dehydrogenase (LDH) levels (≥ 250 U/L)?"
+    },
+    {
+      "criterion": "Calculated (method of Cockcroft-Gault) creatinine clearance of <60 mL/min",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's calculated creatinine clearance using the Cockcroft-Gault method, and is it <60 mL/min?"
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) < 1,000/μL (1.0 X 109/L)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count (ANC) currently less than 1,000/μL (1.0 X 10^9/L)?"
+    },
+    {
+      "criterion": "Agree to abstain from donating blood while taking study drug therapy and following discontinuation of study drug therapy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can agree to abstain from donating blood while on study drug therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Agree not to share study medication with another person.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can agree not to share study medication with others.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Be counseled about pregnancy precautions and risks of fetal exposure.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can be counseled about pregnancy precautions and risks of fetal exposure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Willingness to inform the general practitioner",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is willing to inform their general practitioner.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Platelet count < 50,000/μL (50 X 10^9/L)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count ≥ 50,000/μL (50 X 10^9/L)?"
+    },
+    {
+      "criterion": "Serum aspartate aminotransferase (AST)/serum glutamic-oxaloacetic transaminase (SGOT) or alanine transaminase (ALT)/serum glutamate pyruvate transaminase (SGPT) > 3.0 x upper limit of normal (ULN)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided; cannot confirm AST/ALT levels.",
+      "clinical_question": "Is the patient's serum aspartate aminotransferase (AST) or alanine transaminase (ALT) level greater than 3.0 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Serum total bilirubin > 2.0 mg/dL (with the exception of Gilbert's Syndrome)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum total bilirubin level ≤2.0 mg/dL?"
+    },
+    {
+      "criterion": "Uncontrolled hyperthyroidism or hypothyroidism.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on thyroid function is provided; cannot confirm hyperthyroidism or hypothyroidism.",
+      "clinical_question": "Does the patient have a thyroid-stimulating hormone (TSH) level outside the normal range of 0.4 to 4.0 mIU/L?"
+    },
+    {
+      "criterion": "Venous thromboembolism within one year.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of venous thromboembolism is mentioned; cannot confirm status.",
+      "clinical_question": "Has the patient experienced any episodes of venous thromboembolism, such as deep vein thrombosis or pulmonary embolism, within the past 12 months?"
+    },
+    {
+      "criterion": "≥ Grade-2 neuropathy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on neuropathy grade is provided; cannot confirm grade.",
+      "clinical_question": "Has the patient experienced any neuropathy symptoms rated as ≥ Grade-2 since starting treatment?"
+    },
+    {
+      "criterion": "Uncontrolled autoimmune hemolytic anemia or thrombocytopenia.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on autoimmune hemolytic anemia or thrombocytopenia is provided.",
+      "clinical_question": "Does the patient have a documented history of uncontrolled autoimmune hemolytic anemia or thrombocytopenia, defined as a hemoglobin level <10 g/dL or a platelet count <50,000/µL?"
+    },
+    {
+      "criterion": "Disease transformation (active) (i.e. Richter's Syndrome, prolymphocytic leukemia).",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Richter's transformation, which is considered active disease transformation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known allergy to allopurinol if the subject has bulky disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has bulky disease, but there is no information provided about an allergy to allopurinol, making it unclear whether this criterion is met.",
+      "clinical_question": "Does the patient have a documented allergy to allopurinol?"
+    },
+    {
+      "criterion": "Prisoners, or subjects who are institutionalized by regulatory or court order or persons who are who are in dependence to the sponsor or an investigator.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is a prisoner or institutionalized, so this criterion is met.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: A CIRS Score of more than 6 or a single score of 4 for an organ system limiting ",
+    "EXCLUSION UNCLEAR: Active infections requiring systemic antibiotics.",
+    "EXCLUSION UNCLEAR: Systemic infection CTC grade 3 or 4 that has not resolved > 2 months prior to ra",
+    "EXCLUSION UNCLEAR: Systemic treatment for CLL in the interval between completing the last cycle of ",
+    "EXCLUSION UNCLEAR: Participation in any clinical study or having taken any investigational therapy ",
+    "EXCLUSION UNCLEAR: Known presence of alcohol and/or drug abuse.",
+    "EXCLUSION UNCLEAR: Central nervous system (CNS) involvement as documented by spinal fluid cytology ",
+    "EXCLUSION VIOLATED: Prior history of malignancies, other than CLL, unless the subject has been free ",
+    "EXCLUSION UNCLEAR: Basal cell carcinoma of the skin",
+    "EXCLUSION UNCLEAR: Squamous cell carcinoma of the skin",
+    "EXCLUSION UNCLEAR: Carcinoma in situ of the cervix",
+    "EXCLUSION UNCLEAR: Carcinoma in situ of the breast",
+    "EXCLUSION UNCLEAR: Incidental histological finding of prostate cancer (TNM stage of T1a or T1b)",
+    "EXCLUSION VIOLATED: History of renal failure requiring dialysis.",
+    "EXCLUSION VIOLATED: Prior therapy with lenalidomide.",
+    "EXCLUSION UNCLEAR: Any of the following laboratory abnormalities:",
+    "EXCLUSION UNCLEAR: Calculated (method of Cockcroft-Gault) creatinine clearance of <60 mL/min",
+    "EXCLUSION UNCLEAR: Absolute neutrophil count (ANC) < 1,000/μL (1.0 X 109/L)",
+    "EXCLUSION UNCLEAR: Platelet count < 50,000/μL (50 X 10^9/L)",
+    "EXCLUSION UNCLEAR: Serum aspartate aminotransferase (AST)/serum glutamic-oxaloacetic transaminase (",
+    "EXCLUSION UNCLEAR: Serum total bilirubin > 2.0 mg/dL (with the exception of Gilbert's Syndrome)",
+    "EXCLUSION UNCLEAR: Uncontrolled hyperthyroidism or hypothyroidism.",
+    "EXCLUSION UNCLEAR: Venous thromboembolism within one year.",
+    "EXCLUSION UNCLEAR: ≥ Grade-2 neuropathy.",
+    "EXCLUSION UNCLEAR: Uncontrolled autoimmune hemolytic anemia or thrombocytopenia.",
+    "EXCLUSION VIOLATED: Disease transformation (active) (i.e. Richter's Syndrome, prolymphocytic leukemi",
+    "EXCLUSION UNCLEAR: Known allergy to allopurinol if the subject has bulky disease."
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3889
+}

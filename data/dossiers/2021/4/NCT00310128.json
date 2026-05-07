@@ -1,0 +1,378 @@
+{
+  "nct_id": "NCT00310128",
+  "trial_title": "Combination Chemotherapy Followed by Rituximab and Yttrium Y 90 Ibritumomab Tiuxetan in Treating Patients With Relapsed or Refractory AIDS-Related Non-Hodgkin's Lymphoma",
+  "phase": "PHASE2",
+  "status": "WITHDRAWN",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as etoposide, methylprednisolone, cytarabine, and cisplatin, work in different ways to stop the growth of cancer cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as rituximab and yttrium Y 90 ibritumomab tiuxetan, can block cancer growth in different ways. Some block the ability of cancer cells to grow and spread. Others find cancer cells and help kill them or carry cancer-killing substances to them with",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically documented B-cell non-Hodgkin's lymphoma, including any of the following histologic types:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Burkitt's lymphoma, which is a type of B-cell non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Follicular large B-cell lymphoma (follicular, grade 3)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have follicular large B-cell lymphoma (grade 3) as per the provided history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Follicular mixed cell lymphoma (follicular, grade 2)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have follicular mixed cell lymphoma (grade 2) as per the provided history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse mixed cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have diffuse mixed cell lymphoma as per the provided history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse large B-cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have diffuse large B-cell lymphoma as per the provided history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Immunoblastic lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have immunoblastic lymphoma as per the provided history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Burkitt or Burkitt-like lymphoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Burkitt's lymphoma, which qualifies under this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic large cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have anaplastic large cell lymphoma as per the provided history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Primary effusion lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have primary effusion lymphoma as per the provided history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "All stages eligible",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with relapsed or refractory AIDS-related non-Hodgkin's lymphoma at any stage?"
+    },
+    {
+      "criterion": "Seropositive for HIV by any approved test or positive HIV-1 RNA in plasma at anytime in the past",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's HIV status is not provided; therefore, it cannot be determined.",
+      "clinical_question": "Has the patient tested positive for HIV-1 RNA in plasma at any time in the past?"
+    },
+    {
+      "criterion": "Prior documentation of HIV seropositivity allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's HIV status is not documented, making it unclear if prior documentation of HIV seropositivity is applicable.",
+      "clinical_question": "Has the patient been documented as HIV seropositive prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "Received 1 prior anthracycline-based regimen of curative intent",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No prior anthracycline-based regimen of curative intent is mentioned in the patient's treatment history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No more than 1 prior regimen",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received no more than 1 prior regimen of systemic therapy for Burkitt's lymphoma?"
+    },
+    {
+      "criterion": "Measurable or evaluable disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Burkitt's lymphoma, which is a measurable disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evaluable disease defined as not having bidimensional measurements (i.e., gastric or marrow involvement) but can be followed for response by other diagnostic tests, such as gallium scan, positron emission tomography (PET) imaging and/or bone marrow biopsy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "While the patient has evaluable disease, the specific criteria for evaluable disease without bidimensional measurements are not clearly met.",
+      "clinical_question": "Can the patient's disease be evaluated using a gallium scan, PET imaging, or bone marrow biopsy to confirm the absence of bidimensional measurements?"
+    },
+    {
+      "criterion": "No primary CNS lymphoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any evidence of primary CNS lymphoma based on imaging studies or neurological evaluation?"
+    },
+    {
+      "criterion": "Lymphomatous meningitis or brain metastasis eligible provided other measurable systemic lymphomatous disease is also present",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of central nervous system involvement (viral encephalitis/meningitis) and has measurable systemic lymphomatous disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Less than 25% bone marrow involvement with lymphoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the percentage of bone marrow involvement with lymphoma in this patient?"
+    },
+    {
+      "criterion": "Concurrent effective highly active anti-retroviral therapy (HAART) required at study entry",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the patient's use of HAART is provided, making it unclear if this criterion is met.",
+      "clinical_question": "Is the patient currently receiving a highly active anti-retroviral therapy (HAART) regimen that includes at least three antiretroviral drugs?"
+    },
+    {
+      "criterion": "HIV viral load < 100,000 copies/mL if HAART was not used previously",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "HIV viral load information is not provided, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the patient's HIV viral load currently < 100,000 copies/mL?"
+    },
+    {
+      "criterion": "Karnofsky performance status 50-100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Karnofsky performance status is not documented, making it unclear if the patient meets this criterion.",
+      "clinical_question": "Does the patient have a Karnofsky performance status score of ≥50%?"
+    },
+    {
+      "criterion": "Bilirubin ≤ 2.0 mg/dL (unless elevated due to lymphomatous involvement of the liver or biliary tract OR due to other HIV medications [e.g., indinavir or atazanavir])",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 2.0 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine < 2.0 mg/dL (< 2.6 mg/dL if due to use of tenofovir or truvada) OR creatinine clearance ≥ 60 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine levels are not provided, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the patient's creatinine level < 2.0 mg/dL or creatinine clearance ≥ 60 mL/min?"
+    },
+    {
+      "criterion": "Granulocyte count > 1,000/mm^3 (unless abnormal due to lymphomatous involvement of the bone marrow)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's granulocyte count greater than 1,000/mm^3?"
+    },
+    {
+      "criterion": "Platelet count > 75,000/mm^3 (unless abnormal due to lymphomatous involvement of the bone marrow or HIV-related thrombocytopenia)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's platelet count currently greater than 75,000/mm^3?"
+    },
+    {
+      "criterion": "No acute intercurrent infection that may interfere with study participation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on acute intercurrent infections is provided, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient currently have any acute intercurrent infections, such as pneumonia or urinary tract infection, that could interfere with study participation?"
+    },
+    {
+      "criterion": "Mycobacterium avium allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No evidence of Mycobacterium avium infection in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No second active tumor except nonmelanomatous skin cancer, carcinoma in situ of the cervix, or Kaposi's sarcoma not requiring systemic chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has Burkitt's lymphoma, which is an active tumor and does not fall under the exceptions listed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's pregnancy status is not provided; cannot confirm if pregnant or nursing.",
+      "clinical_question": "Is the patient currently pregnant or nursing?"
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pregnancy test results provided; cannot confirm if negative.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for ≥ 6 months after completion of study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on contraception use provided; cannot assess compliance.",
+      "clinical_question": "Is the patient currently using effective contraception and will she continue to do so for at least 6 months after completing the study treatment?"
+    },
+    {
+      "criterion": "No serious, ongoing nonmalignant disease or infection that would compromise study objectives",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has multiple serious conditions (e.g., DVT, obesity, hypertension) that may compromise study objectives.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No antimurine antibody (HAMA) reactivity",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on HAMA reactivity provided; cannot assess.",
+      "clinical_question": "Does the patient have a HAMA reactivity level of <1:100?"
+    },
+    {
+      "criterion": "No history of any cutaneous or mucocutaneous reaction from prior rituximab administration",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of rituximab administration mentioned; cannot confirm history of reactions.",
+      "clinical_question": "Has the patient experienced any cutaneous or mucocutaneous reactions from prior rituximab administration?"
+    },
+    {
+      "criterion": "No history of cutaneous or mucocutaneous reactions or diseases severe enough to cause hospitalization or an inability to eat for ≥ 2 days",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of severe conditions (e.g., viral encephalitis, intracranial hemorrhage) that could indicate severe reactions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior concurrent therapy provided; cannot assess.",
+      "clinical_question": "Has the patient received any prior treatment with rituximab or other anti-CD20 monoclonal antibodies?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Burkitt's lymphoma, which is consistent with the disease characteristics required for inclusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fully recovered from all toxicities associated with prior surgery, radiotherapy, chemotherapy, or immunotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of multiple prior treatments and surgeries, indicating potential unresolved toxicities.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior chronic therapy with potentially myelosuppressive agents allowed provided hematologic criteria are met at study entry",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not specify current hematologic status, making it unclear if hematologic criteria are met.",
+      "clinical_question": "Does the patient have a hemoglobin level of ≥10 g/dL, a platelet count of ≥100,000/mm³, and an absolute neutrophil count of ≥1,500/mm³ at study entry?"
+    },
+    {
+      "criterion": "No radiotherapy within the past 4 weeks, unless for emergency conditions secondary to lymphoma (i.e., cord compression)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of radiotherapy within the past 4 weeks in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No anticancer therapy within the past 3 weeks (6 weeks for nitrosourea or mitomycin C)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple treatments, and it is likely that anticancer therapy has occurred within the past 3 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No rituximab within 6 weeks before study radioimmunotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not specify the use of rituximab, making it uncertain if this criterion is met.",
+      "clinical_question": "Has the patient received rituximab within the 6 weeks prior to the study radioimmunotherapy?"
+    },
+    {
+      "criterion": "No investigational agent(s) within the past 4 weeks, unless these are antiretroviral agents available on a compassionate use basis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of investigational agents used in the past 4 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior external beam radiotherapy to > 25% of active bone marrow (involved field or regional)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not provide details on prior external beam radiotherapy to active bone marrow.",
+      "clinical_question": "Has the patient received any prior external beam radiotherapy to more than 25% of active bone marrow?"
+    },
+    {
+      "criterion": "No major surgery, other than diagnostic surgery, within the past 4 weeks",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has had knee surgery, which is considered major surgery, within the past 4 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior myeloablative therapies with autologous bone marrow transplantation, peripheral blood stem cell rescue, or failed stem cell collection",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of prior myeloablative therapies or stem cell transplantation in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior radioimmunotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no documented history of prior radioimmunotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No pegfilgrastim within 4 weeks before study radioimmunotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the use of pegfilgrastim within the specified timeframe.",
+      "clinical_question": "Has the patient received pegfilgrastim within the 4 weeks prior to the study radioimmunotherapy?"
+    },
+    {
+      "criterion": "No other growth factors within 2 weeks before and after study radioimmunotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medication history does not specify the use of other growth factors, making it unclear.",
+      "clinical_question": "Has the patient received any growth factors within 2 weeks before or after the study radioimmunotherapy?"
+    },
+    {
+      "criterion": "No other concurrent myelosuppressive antineoplastic agents after receipt of study radioimmunotherapy until blood counts recover",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not indicate the use of concurrent myelosuppressive agents after radioimmunotherapy.",
+      "clinical_question": "Have the patient's blood counts recovered to within normal limits following the last dose of radioimmunotherapy?"
+    },
+    {
+      "criterion": "No zidovudine-containing regimens (including lamivudine and trizivir) during and for ≥ 2 months after completion of study radioimmunotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of the patient being on zidovudine-containing regimens.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 11 of 52 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4808
+}

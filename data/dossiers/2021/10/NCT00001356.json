@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT00001356",
+  "trial_title": "Characteristics of Mast Cells in Mastocytosis",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "This study will determine what growth factors are involved in promoting and inhibiting mastocytosis-an abnormal increase of mast cells in one or more organ systems. Mast cells release chemicals that can cause itching, blisters, flushing, bone pain, and abdominal pain. Little is known about the disease and there is no cure. Steroids and antihistamines can help reduce some symptoms.\n\nPatients from birth to 80 years of age with increased mast cells in at least one organ system may be eligible for t",
+  "eligibility_table": [
+    {
+      "criterion": "Subjects include children and adults from birth to 80 years of age.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 22.0 >= 80.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants must have histologic evidence of an increased mast cell number in at least one organ system.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has systemic mastocytosis, but there is no specific mention of histologic evidence of increased mast cell numbers in the provided profile.",
+      "clinical_question": "Does the patient have histologic evidence of mast cell infiltration with a count of ≥20 mast cells per high power field in any organ system?"
+    },
+    {
+      "criterion": "Must be willing to be seen at the NIH according to protocol guidelines.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's willingness to be seen at NIH is not explicitly stated in the profile.",
+      "clinical_question": "Is the patient willing to attend follow-up appointments at the NIH every 3 months for the duration of the study protocol?"
+    },
+    {
+      "criterion": "Routine medical care must be available through their referral physician.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely to have routine medical care available through their referral physician, as they are on multiple medications and treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with mastocytosis now followed at the NIH on protocol 88-I-0190 will be continued on this study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate whether the patient is currently followed at the NIH on protocol 88-I-0190.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of systemic mastocytosis as defined by a serum tryptase level ≥20 ng/mL or the presence of a D816V mutation in the KIT gene?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 1 of 5 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4
+}

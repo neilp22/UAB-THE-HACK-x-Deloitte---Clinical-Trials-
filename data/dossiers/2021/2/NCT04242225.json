@@ -1,0 +1,234 @@
+{
+  "nct_id": "NCT04242225",
+  "trial_title": "Accuracy of Using 2D Transesophageal Echocardiography Compared to Balloon Sizing in Determining Valve Size During Transcatheter Aortic Valve Implantation",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "The method of transcatheter aortic valve implantation (TAVI) introduced in 2002 by Alain Cribier et al. has offered new prospects for patients with severe aortic stenosis and multiple comorbidities, who are at high operative risk(1).\n\nThe PARTNER series of randomized controlled trials has firmly established the role of TAVI with the balloon-expandable Edwards Sapien valve in patients with severe symptomatic aortic stenosis (AS) at prohibitive risk of surgery (PARTNER IA), high risk for surgery (",
+  "eligibility_table": [
+    {
+      "criterion": "Patients must have severe degenerative high flow AS (echocardiographic criteria: aortic valve (AV) effective orifice area (EOA) of < 1 cm2, mean AV gradient of > 40 mmHg, or AV peak systolic velocity of > 4.0 m/s) in presence of normal ejection fraction (EF).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe aortic stenosis but with an EF of 25%, which does not meet the requirement of having a normal ejection fraction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must be symptomatic from the AS (dyspnea in NYHA-class II or greater, angina pectoris, or syncope), or asymptomatic but with decreased left ventricular ejection fraction, positive stress test, Pulmonary hypertension (systolic pulmonary artery pressure >60 mmHg).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is symptomatic with severe aortic stenosis and has a significantly reduced ejection fraction, which meets the criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Symptomatic patients with severe low-flow, low-gradient (<40 mmHg) aortic stenosis with reduced ejection fraction and evidence of flow (contractile) reserve.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has severe aortic stenosis with reduced EF, but the flow reserve is not clearly established from the provided information.",
+      "clinical_question": "Does the patient have a measured aortic valve area of ≤1.0 cm² during echocardiography?"
+    },
+    {
+      "criterion": "Patients survival time more than one year.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's profile suggests a survival time of more than one year, given the chronic nature of his conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients have contraindications for open chest surgery, such as: Presence of comorbidities not adequately reflected by risk scores.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has multiple comorbidities that may not be fully captured by standard risk scores, indicating potential contraindications for open chest surgery.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Procelain aorta",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of a porcelain aorta.",
+      "clinical_question": "Does the patient have evidence of porcelain aorta as defined by the presence of extensive calcification of the aorta on preoperative imaging?"
+    },
+    {
+      "criterion": "Squelae of chest radiation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any history of chest radiation.",
+      "clinical_question": "Has the patient experienced any sequelae of chest radiation, defined as any new cardiovascular or pulmonary complications, within 12 months following the procedure?"
+    },
+    {
+      "criterion": "Severe chest deformation or scoliosis.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding severe chest deformation or scoliosis.",
+      "clinical_question": "Does the patient have a documented diagnosis of severe chest deformation or scoliosis as assessed by a physical examination or imaging studies?"
+    },
+    {
+      "criterion": "Previous cardiac surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any previous cardiac surgeries.",
+      "clinical_question": "Has the patient undergone any previous cardiac surgeries, such as valve replacement or coronary artery bypass grafting?"
+    },
+    {
+      "criterion": "Evidence of an acute myocardial infarction 30 days before the intended treatment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no evidence provided of an acute myocardial infarction within the last 30 days.",
+      "clinical_question": "Has the patient experienced an acute myocardial infarction within the 30 days prior to the intended transcatheter aortic valve implantation?"
+    },
+    {
+      "criterion": "Aortic valve is a congenital unicuspid or congenital bicuspid valve, or is noncalcified.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a bicuspid aortic valve, which is a congenital condition, but it is not classified as unicuspid or noncalcified.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mixed aortic stenosis and aortic regurgitation with predominant aortic regurgitation > 3+).",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has 2+ aortic insufficiency, which indicates some degree of aortic regurgitation, but it is not specified as predominant or > 3+.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hemodynamic or respiratory instability within 30 days of screening evaluation.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has worsening LV function and severe aortic stenosis, which may indicate hemodynamic instability, but there is no specific evidence of instability within 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Need for emergency surgery for any reason.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the need for emergency surgery, so it cannot be determined.",
+      "clinical_question": "Did the patient require emergency surgery within 30 days following the transcatheter aortic valve implantation procedure?"
+    },
+    {
+      "criterion": "Hypertrophic cardiomyopathy with or without obstruction.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have hypertrophic cardiomyopathy; he has severe aortic stenosis and LV dysfunction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe left ventricular dysfunction with LVEF <20%.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) measured at less than 20%?"
+    },
+    {
+      "criterion": "Severe pulmonary hypertension and RV dysfunction.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has mild pulmonary artery systolic hypertension but does not have severe pulmonary hypertension or RV dysfunction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Echocardiographic evidence of intracardiac mass, thrombus or vegetation.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no echocardiographic evidence of intracardiac mass, thrombus, or vegetation mentioned in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A known contraindication to all anticoagulation regimens, or inability to be anticoagulated for the study procedure.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about contraindications to anticoagulation or ability to be anticoagulated.",
+      "clinical_question": "Does the patient have any documented contraindications to anticoagulation therapy, such as active bleeding or a history of heparin-induced thrombocytopenia?"
+    },
+    {
+      "criterion": "MRI confirmed stroke or transient ischemic attack within 6 months (180 days) of the procedure.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any recent strokes or transient ischemic attacks.",
+      "clinical_question": "Has the patient experienced an MRI-confirmed stroke or transient ischemic attack within the last 180 days?"
+    },
+    {
+      "criterion": "Renal insufficiency (creatinine >3mg) and / or end stage renal insufficiency requiring chronic dialysis at the time of screening.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's profile does not indicate renal insufficiency or chronic dialysis; therefore, this criterion is not met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Estimated life expectancy<12 month.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's estimated life expectancy is not explicitly stated, but given the severe conditions, it is uncertain.",
+      "clinical_question": "Does the patient have an estimated life expectancy of less than 12 months based on their current clinical status and comorbidities?"
+    },
+    {
+      "criterion": "Severe incapacitating dementia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's cognitive function or presence of dementia.",
+      "clinical_question": "Does the patient have a documented diagnosis of severe incapacitating dementia as defined by an inability to perform activities of daily living and a score of ≤10 on the Mini-Mental State Examination?"
+    },
+    {
+      "criterion": "Significant aortic disease, including abdominal aortic or thoracic aneurysm defined as maximal luminal diameter 5 cm or greater; marked tortuosity (hyperacute bend), aortic arch atheroma [especially if thick (>5 mm), protruding or ulcerated] or narrowing of the abdominal or thoracic aorta, severe tortuosity of the thoracic aorta.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a dilated ascending aorta, which may indicate significant aortic disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A minimum iliac or femoral artery diameter of less than 6 mm may be deemed unsuitable for femoral approach.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific measurements of iliac or femoral artery diameter are provided, making it unclear.",
+      "clinical_question": "What is the diameter of the patient's iliac or femoral artery, and is it less than 6 mm?"
+    },
+    {
+      "criterion": "Severe mitral regurgitation.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has mild mitral regurgitation, which may be considered significant in the context of other cardiac issues.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Annulus size out of range of available prostheses (<18mm and >29mm).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the annulus size, making it impossible to determine eligibility.",
+      "clinical_question": "Is the patient's aortic annulus size measured by 2D transesophageal echocardiography less than 18mm or greater than 29mm?"
+    },
+    {
+      "criterion": "Untreated coronary artery disease requiring revascularization.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has moderate heterogeneous plaque with bilateral ICA stenosis, indicating untreated coronary artery disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Elevated risk of coronary ostium obstruction (asymmetric valve calcification, short distance between annulus and coronary ostium less than 10mm).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific information regarding the distance between the annulus and coronary ostium.",
+      "clinical_question": "Is the distance between the annulus and the coronary ostium less than 10mm as measured by preoperative imaging?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Evidence of an acute myocardial infarction 30 days before the intended treatment",
+    "EXCLUSION VIOLATED: Mixed aortic stenosis and aortic regurgitation with predominant aortic regurgita",
+    "EXCLUSION VIOLATED: Hemodynamic or respiratory instability within 30 days of screening evaluation.",
+    "EXCLUSION UNCLEAR: Need for emergency surgery for any reason.",
+    "EXCLUSION VIOLATED: Hypertrophic cardiomyopathy with or without obstruction.",
+    "EXCLUSION UNCLEAR: Severe left ventricular dysfunction with LVEF <20%.",
+    "EXCLUSION VIOLATED: Severe pulmonary hypertension and RV dysfunction.",
+    "EXCLUSION UNCLEAR: A known contraindication to all anticoagulation regimens, or inability to be ant",
+    "EXCLUSION UNCLEAR: MRI confirmed stroke or transient ischemic attack within 6 months (180 days) of ",
+    "EXCLUSION VIOLATED: Renal insufficiency (creatinine >3mg) and / or end stage renal insufficiency req",
+    "EXCLUSION UNCLEAR: Estimated life expectancy<12 month.",
+    "EXCLUSION UNCLEAR: Severe incapacitating dementia",
+    "EXCLUSION VIOLATED: Significant aortic disease, including abdominal aortic or thoracic aneurysm defi",
+    "EXCLUSION UNCLEAR: A minimum iliac or femoral artery diameter of less than 6 mm may be deemed unsui",
+    "EXCLUSION VIOLATED: Severe mitral regurgitation.",
+    "EXCLUSION UNCLEAR: Annulus size out of range of available prostheses (<18mm and >29mm).",
+    "EXCLUSION VIOLATED: Untreated coronary artery disease requiring revascularization.",
+    "EXCLUSION UNCLEAR: Elevated risk of coronary ostium obstruction (asymmetric valve calcification, sh"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.4828
+}

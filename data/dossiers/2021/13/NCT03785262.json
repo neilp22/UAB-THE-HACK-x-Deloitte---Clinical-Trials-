@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT03785262",
+  "trial_title": "Low Energy Surface Waves for Neurogenic Bladder Patients With Indwelling Catheters",
+  "phase": "NA",
+  "status": "TERMINATED",
+  "brief_summary": "The Uroshield device is a commercially available device with two parts: a disposable actuator which attaches to the external portion of the catheter and a portable battery. The device sends out low-frequency ultrasound waves which run along the surfaces of the catheter. These acoustic waves prevent bacteria from adhering to the catheter and prevent the formation of biofilm. Our objective is to conduct a pilot study to determine if the UroShield device can reduce bacteriuria and catheter biofilm ",
+  "eligibility_table": [
+    {
+      "criterion": ">18 years of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 62.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Spinal cord injury (>1 year), multiple sclerosis (>1 year), spina bifida, parkinsons (>1 year)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of SLE with transverse myelitis, which qualifies as a spinal cord injury (>1 year).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Indwelling catheter (urethral or suprapubic) for >3 months, and used as primary bladder management mechanism",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a suprapubic catheter in place, which has been used for bladder management for more than 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": ">1 urinary tract infection in the last 12 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of recurrent UTIs, indicating more than one urinary tract infection in the last 12 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Intravesical botox in the last 6 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the use of intravesical botox in the last 6 months.",
+      "clinical_question": "Has the patient received intravesical botox treatment within the last 6 months?"
+    },
+    {
+      "criterion": "Chronic antibiotic suppressive therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on antibiotics (vanc and meropenem), but it is unclear if this is considered chronic suppressive therapy.",
+      "clinical_question": "Has the patient been on chronic antibiotic suppressive therapy for at least 6 months prior to enrollment?"
+    },
+    {
+      "criterion": "Active symptomatic UTI on day of randomization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current status regarding an active symptomatic UTI on the day of randomization is not provided.",
+      "clinical_question": "Does the patient currently exhibit symptoms of a urinary tract infection, such as fever, dysuria, or increased urinary urgency, on the day of randomization?"
+    },
+    {
+      "criterion": "Unable to understand written and spoken English",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is unable to understand written and spoken English.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior/current utilization of the Uroshield device",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding prior or current utilization of the Uroshield device.",
+      "clinical_question": "Has the patient utilized the Uroshield device for at least 30 consecutive days prior to enrollment?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Intravesical botox in the last 6 months",
+    "EXCLUSION UNCLEAR: Chronic antibiotic suppressive therapy",
+    "EXCLUSION UNCLEAR: Active symptomatic UTI on day of randomization",
+    "EXCLUSION UNCLEAR: Prior/current utilization of the Uroshield device"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5556
+}

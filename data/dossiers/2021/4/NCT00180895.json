@@ -1,0 +1,131 @@
+{
+  "nct_id": "NCT00180895",
+  "trial_title": "Rituximab in Children and Adolescents With Relapsed and Refractory B-Cell NHL/L3ALL",
+  "phase": "PHASE2",
+  "status": "TERMINATED",
+  "brief_summary": "This is a multicentric phase II study of Mabthera (rituximab) in children and adolescents with relapsed and refractory B-cell NHL/L3ALL. The primary objective is to determine the response rate of Rituximab as single agent in relapsed or refractory Burkitt lymphoma, L3 acute leukemia, large B-cell lymphoma and non subclassified aggressive B-cell NHL",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically proven B-cell malignancies, either Burkitt NHL or L3 ALL or large B-cell lymphoma or aggressive B-cell NHL, with the exception of diffuse large B-cell lymphoma arising in the mediastinum.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of Burkitt's lymphoma, which is a B-cell malignancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Immunohistochemistry showing CD20 positivity",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about immunohistochemistry results, specifically regarding CD20 positivity.",
+      "clinical_question": "Does the patient's tumor tissue demonstrate ≥30% CD20 positive B cells as determined by immunohistochemistry?"
+    },
+    {
+      "criterion": "Measurable (at least one bi-dimensionally measurable lesion) or evaluable (bone marrow, bone involvement) disease in progression since the last evaluation",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a cardiac mass consistent with Burkitt's lymphoma, indicating measurable disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "First relapsed or refractory disease after LMB or BFM protocol, except the isolated CNS relapses",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's treatment history does not specify if they have had a first relapse or refractory disease after LMB or BFM protocol.",
+      "clinical_question": "Has the patient experienced a first relapse or refractory disease after completing the LMB or BFM protocol, excluding any isolated CNS relapses?"
+    },
+    {
+      "criterion": "Life expectancy > 4 weeks",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 44 years old and has a life expectancy greater than 4 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status (Karnofsky) > 30",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have a Karnofsky performance status score greater than 30?"
+    },
+    {
+      "criterion": "Adequate hepatic, renal and cardiac functions",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific information provided regarding the patient's hepatic, renal, and cardiac functions.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.2 mg/dL, a total bilirubin level ≤1.2 mg/dL, and an ejection fraction ≥50%?"
+    },
+    {
+      "criterion": "Wash out of 3 weeks in case of recent chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on whether the patient has had recent chemotherapy and the required washout period.",
+      "clinical_question": "Has the patient completed their last chemotherapy treatment at least 3 weeks prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "Complete initial work-up within 8 days prior to treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the completion of the initial work-up within the specified timeframe.",
+      "clinical_question": "Has the patient completed all required initial work-up tests within 8 days prior to the start of rituximab treatment?"
+    },
+    {
+      "criterion": "Able to comply with scheduled follow-up and with management of toxicity",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the patient's ability to comply with follow-up and management of toxicity.",
+      "clinical_question": "Can the patient attend all scheduled follow-up appointments and manage any potential toxicity associated with rituximab treatment?"
+    },
+    {
+      "criterion": "Written inform consent form from adult patients and from parents and legal guardians for minor children",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the written informed consent.",
+      "clinical_question": "Has written informed consent been obtained from the patient's legal guardian for participation in the trial?"
+    },
+    {
+      "criterion": "Active viral infection, especially chronic hepatitis B",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of viral encephalitis/meningitis, but there is no specific mention of an active viral infection or chronic hepatitis B.",
+      "clinical_question": "Does the patient have a positive hepatitis B surface antigen (HBsAg) test result?"
+    },
+    {
+      "criterion": "previous salvage therapy for relapse",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of Burkitt's lymphoma but there is no indication of previous salvage therapy for relapse.",
+      "clinical_question": "Has the patient received at least one prior salvage therapy for relapse of B-cell NHL or L3ALL?"
+    },
+    {
+      "criterion": "Prior or current history of severe allergy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of severe allergies in the patient's profile.",
+      "clinical_question": "Does the patient have a documented history of severe allergic reactions, such as anaphylaxis, to any medications or substances?"
+    },
+    {
+      "criterion": "Primary large B-cell lymphoma of the mediastinum",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has primary cardiac lymphoma, not primary large B-cell lymphoma of the mediastinum.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of primary large B-cell lymphoma of the mediastinum based on imaging and histopathological evaluation?"
+    },
+    {
+      "criterion": "Isolated CNS relapse",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not indicate an isolated CNS relapse; the primary concern is cardiac involvement.",
+      "clinical_question": "Has the patient experienced a documented isolated CNS relapse of B-cell NHL or L3ALL within the last 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Active viral infection, especially chronic hepatitis B",
+    "EXCLUSION UNCLEAR: previous salvage therapy for relapse",
+    "EXCLUSION UNCLEAR: Prior or current history of severe allergy",
+    "EXCLUSION UNCLEAR: Primary large B-cell lymphoma of the mediastinum",
+    "EXCLUSION UNCLEAR: Isolated CNS relapse",
+    "LOW INCLUSION MATCH: only 3 of 11 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1875
+}

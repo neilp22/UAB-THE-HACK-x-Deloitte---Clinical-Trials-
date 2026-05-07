@@ -1,0 +1,175 @@
+{
+  "nct_id": "NCT07217223",
+  "trial_title": "Spaced Transcranial Direct Current Stimulation for Treatment-Resistant Depression: A Home-Based Feasibility and Safety Study",
+  "phase": "NA",
+  "status": "RECRUITING",
+  "brief_summary": "The investigators propose a single-arm, open-label study to evaluate the effectiveness, safety, tolerability and feasibility of at-home transcranial direct current stimulation (tDCS) as a treatment for depression, particularly in cases where patients have not responded well to traditional therapies. Treatment will be delivered over a 2-week period with daily weekday treatments i.e., five tDCS sessions, each lasting 20 minutes, spaced by approximately 20-minute inter-session intervals, for a tota",
+  "eligibility_table": [
+    {
+      "criterion": "People between the ages of 18 and 85 at the time of screening.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 13.0 >= 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "People between the ages of 18 and 85 at the time of screening.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 13.0 <= 85.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Currently diagnosed with Major Depressive Disorder (MDD) as measured by the MINI and a MADRS score of ≥ 20.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a diagnosis of Major Depressive Disorder (MDD) as per the provided profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Safe for TMS as measures by the TMS Adult Safety Screening (TASS).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's safety for TMS as measured by the TMS Adult Safety Screening (TASS).",
+      "clinical_question": "Does the patient have a score of 0 on the TMS Adult Safety Screening (TASS)?"
+    },
+    {
+      "criterion": "Medical records confirming a history of failing to achieve clinical response to an adequate antidepressant trial as defined an Antidepressant Treatment History Form (ATHF) score ≥ 3 or shown intolerance to at least two inadequate trials (score 1 or 2), without psychiatric illness due to a general medical condition.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's antidepressant treatment history or response, making it unclear if they meet this criterion.",
+      "clinical_question": "Has the patient been prescribed at least two different antidepressants that were deemed inadequate, resulting in an Antidepressant Treatment History Form (ATHF) score of 1 or 2?"
+    },
+    {
+      "criterion": "Stable internet connection and a device compatible with Microsoft Teams.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient has access to a stable internet connection and a compatible device, this criterion is likely met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of psychotic or bipolar disorder or depression with psychotic features;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of severe intellectual disability and other conditions, but there is no specific mention of psychotic or bipolar disorder.",
+      "clinical_question": "Has the patient ever been diagnosed with a psychotic disorder or bipolar disorder, or experienced depression with psychotic features?"
+    },
+    {
+      "criterion": "Significant borderline personality disorder;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about borderline personality disorder in the patient's profile.",
+      "clinical_question": "Does the patient have a diagnosis of significant borderline personality disorder as assessed by a qualified mental health professional using standardized diagnostic criteria?"
+    },
+    {
+      "criterion": "Significant comorbid obsessive-compulsive or post-traumatic stress;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention any obsessive-compulsive disorder or post-traumatic stress disorder.",
+      "clinical_question": "Does the patient have a diagnosis of obsessive-compulsive disorder or post-traumatic stress disorder as defined by DSM-5 criteria?"
+    },
+    {
+      "criterion": "Current moderate or severe substance use disorder or demonstrating signs of acute substance withdrawal;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding current substance use disorder or signs of acute withdrawal.",
+      "clinical_question": "Has the patient experienced any signs of acute substance withdrawal or been diagnosed with a moderate or severe substance use disorder within the past 12 months?"
+    },
+    {
+      "criterion": "Clinically significant suicidality disorder;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of clinically significant suicidality disorder in the patient's profile.",
+      "clinical_question": "Has the patient experienced any suicidal thoughts or behaviors in the past month, as assessed by a standardized suicidality scale?"
+    },
+    {
+      "criterion": "Chronic depression (defined as of over 5 years duration);",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of depression is not clearly defined in terms of duration, making it unclear if it meets the chronic depression criterion.",
+      "clinical_question": "Has the patient experienced symptoms of depression continuously for at least 5 years?"
+    },
+    {
+      "criterion": "Pregnancy or lactation, lack of adequate birth control in women of childbearing age;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and under 18, so pregnancy or lactation is not applicable.",
+      "clinical_question": "Is the patient currently using an effective form of birth control, such as hormonal contraception or an intrauterine device, to prevent pregnancy?"
+    },
+    {
+      "criterion": "History of significant neurologic disease, including dementia, Parkinson's or Huntington's disease, brain tumor, seizure disorder, subdural hematoma, multiple sclerosis, or history of significant head trauma with persistent symptoms;",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of significant neurologic disease, specifically epilepsy and anoxic brain injury.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unstable medical illness;",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has congestive heart failure (CHF) which may be considered an unstable medical illness.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Contraindication to receiving tDCS (e.g., ferromagnetic implant, history of seizure, known brain lesion);",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of seizures and an MRI showing atrophic changes, indicating a known brain lesion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of TMS (greater than 15 sessions) without a clinically meaningful response.; History of ketamine (greater than 4 sessions) without a clinically meaningful response;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of TMS or ketamine treatment is mentioned, so this criterion is not applicable.",
+      "clinical_question": "Has the patient undergone more than 15 sessions of TMS without a clinically meaningful response?"
+    },
+    {
+      "criterion": "Require a benzodiazepine with a dose > lorazepam 2 mg/day;",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on benzodiazepines (20 mg valium), which exceeds the threshold of lorazepam 2 mg/day.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Dermatological conditions contraindicating tDCS;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No dermatological conditions are mentioned that would contraindicate tDCS.",
+      "clinical_question": "Does the patient have any active dermatological conditions, such as eczema or psoriasis, that would contraindicate the use of transcranial direct current stimulation?"
+    },
+    {
+      "criterion": "Non-correctable sensory impairments;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No sensory impairments are mentioned that would be non-correctable.",
+      "clinical_question": "Does the patient have any non-correctable sensory impairments, such as blindness or profound hearing loss, that would prevent participation in the study?"
+    },
+    {
+      "criterion": "Inability to consent or participate as an outpatient;",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe intellectual disability, which likely affects the ability to consent or participate as an outpatient.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: History of psychotic or bipolar disorder or depression with psychotic features;",
+    "EXCLUSION UNCLEAR: Significant borderline personality disorder;",
+    "EXCLUSION UNCLEAR: Significant comorbid obsessive-compulsive or post-traumatic stress;",
+    "EXCLUSION UNCLEAR: Current moderate or severe substance use disorder or demonstrating signs of acut",
+    "EXCLUSION UNCLEAR: Clinically significant suicidality disorder;",
+    "EXCLUSION UNCLEAR: Chronic depression (defined as of over 5 years duration);",
+    "EXCLUSION UNCLEAR: Pregnancy or lactation, lack of adequate birth control in women of childbearing ",
+    "EXCLUSION VIOLATED: History of significant neurologic disease, including dementia, Parkinson's or Hu",
+    "EXCLUSION VIOLATED: Unstable medical illness;",
+    "EXCLUSION VIOLATED: Contraindication to receiving tDCS (e.g., ferromagnetic implant, history of seiz",
+    "EXCLUSION UNCLEAR: History of TMS (greater than 15 sessions) without a clinically meaningful respon",
+    "EXCLUSION VIOLATED: Require a benzodiazepine with a dose > lorazepam 2 mg/day;",
+    "EXCLUSION UNCLEAR: Dermatological conditions contraindicating tDCS;",
+    "EXCLUSION UNCLEAR: Non-correctable sensory impairments;",
+    "EXCLUSION VIOLATED: Inability to consent or participate as an outpatient;"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.4286
+}

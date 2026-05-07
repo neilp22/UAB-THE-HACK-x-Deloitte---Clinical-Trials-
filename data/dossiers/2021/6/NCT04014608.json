@@ -1,0 +1,28 @@
+{
+  "nct_id": "NCT04014608",
+  "trial_title": "Protocol for Admission Toxigenic C. Difficile Surveillance",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Background: Clostridioides (formerly Clostridium) difficile Infection (CDI) is a persistent healthcare issue. In the US, CDI is the most common infectious cause of hospital-onset (HO) diarrhea.\n\nObjective: Assess the impact of admission testing for toxigenic C. difficile colonization on the incidence of clinical disease.\n\nDesign: Pragmatic stepped-wedge Infection Control initiative. Setting: NorthShore University HealthSystem (NorthShore) is a four-hospital system near Chicago, Illinois.\n\nPatien",
+  "eligibility_table": [
+    {
+      "criterion": "Hospital admission",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently experiencing severe conditions (ESRD, C. difficile infection, Sepsis) which typically necessitate hospital admission.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "None",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There are no specific exclusion criteria provided, but the patient's complex medical history raises concerns about eligibility for certain trials.",
+      "clinical_question": "Has the patient had a documented positive stool test for toxigenic C. difficile within the last 30 days?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: None"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

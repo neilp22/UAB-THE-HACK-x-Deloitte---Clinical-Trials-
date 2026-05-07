@@ -1,0 +1,145 @@
+{
+  "nct_id": "NCT01500148",
+  "trial_title": "St. Jude Medical Percutaneous Mitral Valve Repair Study",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this proof-of-concept study is to assess the relative safety and feasibility of the SJM Percutaneous Mitral Valve Repair (PMVr) Device.",
+  "eligibility_table": [
+    {
+      "criterion": "Subject has symptomatic or asymptomatic moderate (2+) or severe (3-4+) mitral regurgitation.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe mitral valve prolapse with regurgitation, which indicates severe mitral regurgitation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has an ejection fraction (EF) ≥ 30%.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current ejection fraction (EF) ≥ 30% as measured by transthoracic echocardiogram (TTE)?"
+    },
+    {
+      "criterion": "Subject is of legal age (≥18 years old).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 34.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject is planned to undergo surgical repair or replacement of the mitral valve for symptomatic or asymptomatic posterior leaflet mitral prolapse.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is planned to undergo mitral valve repair, which aligns with the criterion for surgical intervention for mitral prolapse.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject requires a complex mitral valve repair or has isolated anterior prolapse.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's specific type of mitral valve prolapse (posterior leaflet vs. anterior) is not detailed, making it unclear if it is isolated anterior prolapse.",
+      "clinical_question": "Does the patient have a documented echocardiographic assessment indicating the presence of isolated anterior mitral valve prolapse?"
+    },
+    {
+      "criterion": "Subject has mitral valve stenosis in which the annulus opening is <10mm. Subject has valve disease other than mitral which requires surgical intervention.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about mitral valve stenosis or other valve diseases requiring surgical intervention.",
+      "clinical_question": "Is the mitral valve annulus opening in this patient less than 10mm?"
+    },
+    {
+      "criterion": "Subject requires a concomitant procedure.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's surgical plan does not specify if any concomitant procedures are required.",
+      "clinical_question": "Does the patient require a concomitant surgical procedure during the planned mitral valve repair?"
+    },
+    {
+      "criterion": "Subject has a pre-existing prosthetic valve in any position.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a pre-existing prosthetic valve in the patient's profile.",
+      "clinical_question": "Does the patient have a pre-existing prosthetic mitral valve or any other prosthetic valve in any position?"
+    },
+    {
+      "criterion": "Subject had stenting or PCI within 6 months before the planned procedure, or is anticipated to require stenting or PCI within 6 months post-procedure.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not had stenting or PCI, but there is no information on future requirements for these procedures.",
+      "clinical_question": "Has the patient undergone any stenting or PCI procedures within the last 6 months?"
+    },
+    {
+      "criterion": "Subject has calcification of the mitral leaflets or annulus which in the medical opinion of the surgical investigator would limit repair and /or implantation of the investigational device.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding calcification of the mitral leaflets or annulus.",
+      "clinical_question": "Is there evidence of calcification of the mitral leaflets or annulus on echocardiogram that would limit repair and/or implantation of the investigational device?"
+    },
+    {
+      "criterion": "Subject has renal insufficiency or is on chronic dialysis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's renal function is not detailed, so it is unclear if there is renal insufficiency or chronic dialysis.",
+      "clinical_question": "Does the patient have a serum creatinine level ≥1.5 mg/dL or is she currently on chronic dialysis?"
+    },
+    {
+      "criterion": "Subject has had a cerebral vascular accident (CVA) or transient ischemic attack (TIA) within the past 6 months.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding any history of CVA or TIA in the past 6 months.",
+      "clinical_question": "Has the patient experienced a cerebral vascular accident (CVA) or transient ischemic attack (TIA) within the past 6 months?"
+    },
+    {
+      "criterion": "Subject has a history of endocarditis or has active endocarditis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a documented history of endocarditis, but the presence of severe mitral valve prolapse raises concern for potential risk.",
+      "clinical_question": "Has the patient ever been diagnosed with endocarditis or currently exhibit any signs or symptoms of active endocarditis?"
+    },
+    {
+      "criterion": "Subject has a history of autoimmune disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has Marfan's syndrome, which is associated with connective tissue disorders, but it is not explicitly classified as an autoimmune disease.",
+      "clinical_question": "Does the patient have a documented diagnosis of an autoimmune disease, such as lupus or rheumatoid arthritis?"
+    },
+    {
+      "criterion": "Subject has significant known carotid artery disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding carotid artery disease; thus, it cannot be determined if this criterion is met.",
+      "clinical_question": "Does the patient have a carotid artery stenosis of ≥50% as determined by Doppler ultrasound or angiography?"
+    },
+    {
+      "criterion": "Subject has an aorto-mitral angle of <110 degrees.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The aorto-mitral angle is not provided in the patient's profile, making it impossible to assess this criterion.",
+      "clinical_question": "What is the patient's aorto-mitral angle measurement in degrees?"
+    },
+    {
+      "criterion": "Subject has hypertrophic obstructive cardiomyopathy (HOCM's Disease).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of hypertrophic obstructive cardiomyopathy in the patient's history, but without specific echocardiographic data, this cannot be confirmed.",
+      "clinical_question": "Does the patient have a documented left ventricular outflow tract gradient of ≥30 mmHg on echocardiogram?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Subject requires a complex mitral valve repair or has isolated anterior prolapse",
+    "EXCLUSION UNCLEAR: Subject has mitral valve stenosis in which the annulus opening is <10mm. Subject",
+    "EXCLUSION UNCLEAR: Subject requires a concomitant procedure.",
+    "EXCLUSION UNCLEAR: Subject has a pre-existing prosthetic valve in any position.",
+    "EXCLUSION UNCLEAR: Subject had stenting or PCI within 6 months before the planned procedure, or is ",
+    "EXCLUSION UNCLEAR: Subject has calcification of the mitral leaflets or annulus which in the medical",
+    "EXCLUSION UNCLEAR: Subject has renal insufficiency or is on chronic dialysis.",
+    "EXCLUSION UNCLEAR: Subject has had a cerebral vascular accident (CVA) or transient ischemic attack ",
+    "EXCLUSION UNCLEAR: Subject has a history of endocarditis or has active endocarditis.",
+    "EXCLUSION UNCLEAR: Subject has a history of autoimmune disease.",
+    "EXCLUSION UNCLEAR: Subject has significant known carotid artery disease.",
+    "EXCLUSION UNCLEAR: Subject has an aorto-mitral angle of <110 degrees.",
+    "EXCLUSION UNCLEAR: Subject has hypertrophic obstructive cardiomyopathy (HOCM's Disease)."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1765
+}

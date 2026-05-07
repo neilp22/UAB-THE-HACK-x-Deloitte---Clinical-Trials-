@@ -1,0 +1,121 @@
+{
+  "nct_id": "NCT00177970",
+  "trial_title": "IVIG Versus Placebo for the Treatment of Patients With Severe C-Diff",
+  "phase": "PHASE4",
+  "status": "TERMINATED",
+  "brief_summary": "In this trial, eligible patients will be randomly assigned to receive a single dose of 400 mg/kg of IVIG or a normal saline infusion as placebo over 4-6 hours, in addition to their usual medications for CDAD. We expect to enroll approximately 40 patients over a period of two years from UPMC Shadyside Hospital, McKeesport Hospital, and St. Margaret's Hospital who are unresponsive to standard antimicrobial therapy for CDAD.\n\nDuring the course of this study we expect that IVIG group compared with p",
+  "eligibility_table": [
+    {
+      "criterion": "Males and female greater than 18 years of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Positive stool C. difficile cytotoxin assay and/or biopsy evidence of Pseudomembranous Colitis (PMC) at onset of illness",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No stool C. difficile cytotoxin assay or biopsy evidence provided in the profile.",
+      "clinical_question": "Does the patient have a positive stool C. difficile cytotoxin assay or biopsy evidence of Pseudomembranous Colitis (PMC) at the onset of illness?"
+    },
+    {
+      "criterion": "Current history of severe, relapsing CDAD or Current history of severe, refractory CDAD",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has a current history of severe, relapsing C. difficile infection.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A score of 6 or 7 on the C.Diff Severity and Prognosis Score (CDSPS) scale OR failure to respond (as identified by a score of 4 or more on the CDSPS scale below) to any of the following: a 4-day or more course of oral or IV metronidazole 500 mg po TID or QID; or to a 4-day course of oral vancomycin 125-500 mg po Q6 hours; or to a 4-day course of vancomycin enemas; or failure to respond to a 4-day course of combination therapy of oral vancomycin 125-500 mg po Q6 hours and IV metronidazole 500mg IV Q8 or Q6 hours and/or vancomycin enemas.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has failed prior antibiotic treatments for C. difficile, indicating a score of 4 or more on the CDSPS scale.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CDSPS SCALE (each item is scored as one point for a 7 point maximum total)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "CDSPS scale score not provided; cannot assess without specific scoring.",
+      "clinical_question": "Does the patient have a CDSPS score of ≤3?"
+    },
+    {
+      "criterion": "underlying immunosuppression/chronic medical condition",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has End Stage Renal Disease (ESRD), which is a chronic medical condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "altered or depressed mental status as defined by medical chart documentation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No documentation of altered or depressed mental status in the profile.",
+      "clinical_question": "Has the patient exhibited any documented episodes of altered or depressed mental status as defined by a Glasgow Coma Scale score of <15 during their hospital stay?"
+    },
+    {
+      "criterion": "abdominal pain and/or distention",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient likely experiences abdominal pain and/or distention due to C. difficile infection.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "WBC > 20,000 or < 1,500 and/or bandemia > 10%",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Leukocytosis is indicated by the history of WBC > 20,000.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "hypoalbuminemia (<3 mg/dL)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum albumin level currently <3 mg/dL?"
+    },
+    {
+      "criterion": "ascites (clinically or per CT scan findings per medical chart)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No mention of ascites in the profile.",
+      "clinical_question": "Does the patient have ascites as determined by a CT scan or clinical examination?"
+    },
+    {
+      "criterion": "abnormal CT scan findings per medical chart",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No abnormal CT scan findings provided in the profile.",
+      "clinical_question": "Does the patient have any abnormal findings on their most recent CT scan related to the C. difficile infection?"
+    },
+    {
+      "criterion": "Pregnant or lactating women",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is a 55-year-old female, and there is no information provided about her being pregnant or lactating. Therefore, it is not explicitly clear if this criterion is met or not.",
+      "clinical_question": "Is the patient currently pregnant or lactating?"
+    },
+    {
+      "criterion": "Selective IgA deficiency",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's immunoglobulin levels or any diagnosis of selective IgA deficiency, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient have a serum IgA level of <7 mg/dL to confirm selective IgA deficiency?"
+    },
+    {
+      "criterion": "Hypersensitivity to immune globulin, human albumin, or thimerosal",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medical history does not mention any hypersensitivity to immune globulin, human albumin, or thimerosal, but without specific testing or documentation, it cannot be definitively assessed.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to immune globulin, human albumin, or thimerosal?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Pregnant or lactating women",
+    "EXCLUSION UNCLEAR: Selective IgA deficiency",
+    "EXCLUSION UNCLEAR: Hypersensitivity to immune globulin, human albumin, or thimerosal"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4
+}

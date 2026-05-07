@@ -1,0 +1,28 @@
+{
+  "nct_id": "NCT00837421",
+  "trial_title": "The Ohio State University Sepsis Registry",
+  "phase": "",
+  "status": "TERMINATED",
+  "brief_summary": "Specific Aim #1: To collect follow-up information about patients with sepsis in the OSUMC MICU who survive to hospital discharge for future retrospective IRB-approved studies.\n\nSpecific Aim #2: To collect a registry of patients who would be interested in hearing more information about future prospective IRB-approved studies for survivors of sepsis.\n\nSpecific Aim #3: To collect a blood sample from patients with sepsis admitted to the OSUMC MICU for future retrospective IRB-approved studies.",
+  "eligibility_table": [
+    {
+      "criterion": "Admitted to OSUMC MICU, ≥ 18 years, have consensus criteria for sepsis (infection plus two of four systemic inflammatory response syndrome [SIRS] signs [tachycardia, tachypnea, fever or hypothermia, leukocytosis or leukopenia]).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Consent not available or declined, prisoner, died before discharge (excluded from Follow-up Registry only), died before blood collected (excluded from Blood Bank only), onset of sepsis more than 24 hours prior to ICU admission. Patients who have sepsis onset more than 24 hours prior to ICU admission but spent the ENTIRETY of the current admission in the OSUMC ED will be eligible.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile indicates a history of sepsis, but it does not specify the exact timing of sepsis onset relative to ICU admission. Therefore, it is unclear if the criterion regarding sepsis onset timing is met.",
+      "clinical_question": "Did the patient experience the onset of sepsis within the last 24 hours prior to ICU admission?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Consent not available or declined, prisoner, died before discharge (excluded fro"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

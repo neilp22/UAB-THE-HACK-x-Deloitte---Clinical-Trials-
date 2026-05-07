@@ -1,0 +1,122 @@
+{
+  "nct_id": "NCT04077749",
+  "trial_title": "Probiotic Bladder Instillation for Prevention of Catheter Associated UTIs in Chronically Catheterized Patients",
+  "phase": "EARLY_PHASE1",
+  "status": "WITHDRAWN",
+  "brief_summary": "The proposed study is a randomized, placebo-controlled clinical trial to test the efficacy of an oral Lactobacillus product dissolved in sterile saline and instilled into the urinary bladder in an attempt to colonize the urinary bladder as well as prevent UTIs.",
+  "eligibility_table": [
+    {
+      "criterion": "≥ 18 years of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 62.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic indwelling urethral catheter or supra-pubic tube for >6 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has a suprapubic catheter in place, which is a type of chronic indwelling catheter.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior symptomatic UTI while catheter in place",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has a history of recurrent UTIs, indicating prior symptomatic UTI while catheter is in place.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Immunosuppressed (HIV, transplant immunosuppression, uncontrolled diabetes)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of SLE with transverse myelitis and is likely immunosuppressed due to ongoing treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active infection (may be considered after treatment of active infection)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of urosepsis, indicating an active infection that may not be resolved.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior urosepsis requiring ICU admission",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of urosepsis requiring ICU admission, which is a disqualifying factor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Significant gross hematuria resulting from catheter exchanges",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided on hematuria; cannot determine if significant gross hematuria is present.",
+      "clinical_question": "Has the patient experienced any episodes of significant gross hematuria (defined as visible blood in urine) following catheter exchanges in the past 30 days?"
+    },
+    {
+      "criterion": "Supravesical urinary diversion",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided on urinary diversion; cannot determine if supravesical urinary diversion is present.",
+      "clinical_question": "Does the patient have a documented history of supravesical urinary diversion procedures?"
+    },
+    {
+      "criterion": "Upper urinary tract anatomical abnormality",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided on upper urinary tract anatomy; cannot determine if there is an anatomical abnormality.",
+      "clinical_question": "Does the patient have any documented upper urinary tract anatomical abnormalities, such as hydronephrosis or ureteral strictures, identified through imaging studies?"
+    },
+    {
+      "criterion": "Obstructing urolithiasis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided on urolithiasis; cannot determine if obstructing urolithiasis is present.",
+      "clinical_question": "Does the patient have any evidence of obstructing urolithiasis on imaging studies conducted within the last 6 months?"
+    },
+    {
+      "criterion": "Ongoing antibiotic therapy for non-urological infection",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is on ongoing antibiotic therapy (vanc and meropenem) for non-urological infections.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Indwelling nephrostomy tube or ureteral stent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention an indwelling nephrostomy tube or ureteral stent, but without specific lab values or imaging, it cannot be definitively confirmed.",
+      "clinical_question": "Does the patient currently have an indwelling nephrostomy tube or ureteral stent in place?"
+    },
+    {
+      "criterion": "Radiation cystitis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of radiation cystitis in the patient's history, but without detailed medical records, it cannot be completely ruled out.",
+      "clinical_question": "Has the patient experienced any episodes of radiation cystitis as defined by the presence of hematuria or bladder pain following radiation therapy within the last 12 months?"
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is male, and pregnancy is not applicable, thus this criterion is not met.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Immunosuppressed (HIV, transplant immunosuppression, uncontrolled diabetes)",
+    "EXCLUSION VIOLATED: Active infection (may be considered after treatment of active infection)",
+    "EXCLUSION VIOLATED: Prior urosepsis requiring ICU admission",
+    "EXCLUSION UNCLEAR: Significant gross hematuria resulting from catheter exchanges",
+    "EXCLUSION UNCLEAR: Supravesical urinary diversion",
+    "EXCLUSION UNCLEAR: Upper urinary tract anatomical abnormality",
+    "EXCLUSION UNCLEAR: Obstructing urolithiasis",
+    "EXCLUSION VIOLATED: Ongoing antibiotic therapy for non-urological infection",
+    "EXCLUSION UNCLEAR: Indwelling nephrostomy tube or ureteral stent",
+    "EXCLUSION UNCLEAR: Radiation cystitis",
+    "EXCLUSION VIOLATED: Pregnancy"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.5714
+}

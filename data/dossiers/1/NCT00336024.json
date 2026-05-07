@@ -1,0 +1,224 @@
+{
+  "nct_id": "NCT00336024",
+  "trial_title": "Combination Chemotherapy Followed By Peripheral Stem Cell Transplant in Treating Young Patients With Newly Diagnosed Supratentorial Primitive Neuroectodermal Tumors or High-Risk Medulloblastoma",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "This randomized phase III trial is studying two different combination chemotherapy regimens to compare how well they work in treating young patients with newly diagnosed supratentorial primitive neuroectodermal tumors or high-risk medulloblastoma when given before additional intense chemotherapy followed by peripheral blood stem cell rescue. It is not yet known which combination chemotherapy regimen is more effective when given before a peripheral stem cell transplant in treating supratentorial ",
+  "eligibility_table": [
+    {
+      "criterion": "High-risk medulloblastoma defined by any of the following:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma of the spine, not medulloblastoma, making this criterion not applicable.",
+      "clinical_question": "Does the patient have a newly diagnosed high-risk medulloblastoma as defined by the presence of metastasis, residual tumor greater than 1.5 cm², or an age of less than 3 years at diagnosis?"
+    },
+    {
+      "criterion": "> 1.5 cm^2 residual disease for any medulloblastoma histology, or",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma of the spine, not medulloblastoma, making this criterion not applicable.",
+      "clinical_question": "Does the patient have > 1.5 cm² of residual disease as assessed by imaging studies following the most recent treatment?"
+    },
+    {
+      "criterion": "Lumbar cerebral spinal fluid (CSF) cytology positive for tumor cells by analysis of fluid collected either before definitive surgery or at least 10 days after definitive surgery unless contraindicated, or",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma of the spine, not medulloblastoma, making this criterion not applicable.",
+      "clinical_question": "Is there lumbar cerebrospinal fluid (CSF) cytology available that shows positive tumor cells collected either before definitive surgery or at least 10 days after definitive surgery?"
+    },
+    {
+      "criterion": "Magnetic resonance imaging (MRI) evidence of M2 or M3 metastatic disease, or",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma of the spine, not medulloblastoma, making this criterion not applicable.",
+      "clinical_question": "Does the patient have MRI evidence of M2 or M3 metastatic disease?"
+    },
+    {
+      "criterion": "M4 disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma of the spine, not medulloblastoma, making this criterion not applicable.",
+      "clinical_question": "Does the patient have evidence of M4 disease as defined by the presence of metastases in the cerebrospinal fluid or other sites?"
+    },
+    {
+      "criterion": "Supratentorial primitive neuroectodermal tumor (PNET) (any M-stage) will be eligible for study entry",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma of the spine, not medulloblastoma, making this criterion not applicable.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of supratentorial primitive neuroectodermal tumor (PNET) based on histopathological evaluation?"
+    },
+    {
+      "criterion": "Children less than 8 months of age at the time of definitive surgery with or without measurable radiographic residual tumor with M0 stage medulloblastoma will be eligible for study entry",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma of the spine, not medulloblastoma, making this criterion not applicable.",
+      "clinical_question": "Is the patient less than 8 months of age at the time of definitive surgery for medulloblastoma?"
+    },
+    {
+      "criterion": "Patients with anaplastic medulloblastoma are eligible regardless of M-stage or residual tumor",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma of the spine, not medulloblastoma, making this criterion not applicable.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic medulloblastoma?"
+    },
+    {
+      "criterion": "Patients with M0 classic, non-desmoplastic medulloblastoma (R1) with radiographically measurable residual disease < 1.5 cm^2 are eligible",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma of the spine, not medulloblastoma, making this criterion not applicable.",
+      "clinical_question": "Does the patient have radiographically measurable residual disease of less than 1.5 cm²?"
+    },
+    {
+      "criterion": "Cranial MRI (with and without gadolinium) must be done pre-operatively; post-operatively, cranial MRI (with and without gadolinium) must be done, preferably within 48 hours of surgery; entire spinal MRI must be obtained either pre-operatively (with gadolinium) or post-operatively (at least 10 days following surgery) prior to study enrollment (with and without gadolinium); patients with MRI evidence of spinal disease are eligible for this study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma of the spine, not medulloblastoma, making this criterion not applicable.",
+      "clinical_question": "Has the patient undergone a cranial MRI (with and without gadolinium) pre-operatively and a post-operative cranial MRI (with and without gadolinium) within 48 hours of surgery?"
+    },
+    {
+      "criterion": "Evaluation of lumbar CSF cytology (cytospin preparation for microscopic evaluation) must be performed either pre-operatively or at least 10 days after definitive surgery unless contraindicated",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about lumbar CSF cytology evaluation.",
+      "clinical_question": "Has the patient undergone lumbar CSF cytology evaluation either pre-operatively or at least 10 days after definitive surgery?"
+    },
+    {
+      "criterion": "Patient must have a life expectancy > 8 weeks",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is 45 years old and likely has a life expectancy greater than 8 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient must have received no prior radiation therapy or chemotherapy other than corticosteroids; corticosteroids are allowable for all patients",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has received prior radiation therapy and multiple chemotherapy treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Creatinine clearance or radioisotope glomerular filtration rate >= 60 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's creatinine clearance or radioisotope glomerular filtration rate ≥ 60 mL/min?"
+    },
+    {
+      "criterion": "Total bilirubin <= 1.5 x upper limit of normal (ULN) for age",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Total bilirubin levels are not provided.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 x upper limit of normal (ULN) for his age?"
+    },
+    {
+      "criterion": "Serum glutamic oxaloacetic transaminase (SGOT) (aspartate aminotransferase [AST]) and serum glutamic pyruvic transaminase (SGPT) (alanine transaminase [ALT]) < 2 x ULN for age",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "SGOT and SGPT levels are not provided.",
+      "clinical_question": "Is the patient's serum glutamic oxaloacetic transaminase (SGOT) and serum glutamic pyruvic transaminase (SGPT) level less than 2 times the upper limit of normal (ULN) for his age?"
+    },
+    {
+      "criterion": "Shortening fraction >= 27% by echocardiogram",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient's echocardiogram show a shortening fraction of ≥27%?"
+    },
+    {
+      "criterion": "Ejection fraction >= 47% by radionuclide angiogram",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient undergone a radionuclide angiogram that shows an ejection fraction of ≥47%?"
+    },
+    {
+      "criterion": "No evidence of dyspnea at rest",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding evidence of dyspnea at rest.",
+      "clinical_question": "Does the patient exhibit any signs of dyspnea at rest, as assessed by a respiratory rate greater than 20 breaths per minute or oxygen saturation below 92%?"
+    },
+    {
+      "criterion": "Pulse oximetry > 94% on room air",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's pulse oximetry reading ≥94% on room air?"
+    },
+    {
+      "criterion": "Peripheral absolute neutrophil count (ANC) > 1,000/uL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Peripheral absolute neutrophil count is not provided.",
+      "clinical_question": "Is the patient's peripheral absolute neutrophil count (ANC) currently greater than 1,000/uL?"
+    },
+    {
+      "criterion": "Platelet count > 100,000/uL (transfusion independent)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Platelet count is not provided.",
+      "clinical_question": "Is the patient's current platelet count greater than 100,000/uL?"
+    },
+    {
+      "criterion": "Hemoglobin greater than 8 g/dL (may have received red blood cell [RBC] transfusions allowed)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hemoglobin level is not provided.",
+      "clinical_question": "Is the patient's hemoglobin level currently greater than 8 g/dL?"
+    },
+    {
+      "criterion": "Hold trimethoprim/sulfamethoxazole (Bactrim) on the day of high-dose methotrexate (HDMTX) infusion and continue to hold until the methotrexate level is less than 0.1 micromolar (1 x 10-7 M)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the use of trimethoprim/sulfamethoxazole.",
+      "clinical_question": "Is the patient's methotrexate level currently less than 0.1 micromolar (1 x 10^-7 M)?"
+    },
+    {
+      "criterion": "Avoid probenecid, penicillins, cephalosporins, aspirin, proton pump inhibitors and nonsteroidal anti-inflammatory drug (NSAIDS) on the day of methotrexate and continue until the methotrexate level is less than 0.1 micromolar (1 x 10-7 M) as renal excretion of methotrexate is inhibited by these agents",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on high-dose steroids and multiple chemotherapy agents, but there is no specific information on the use of the prohibited medications on the day of methotrexate.",
+      "clinical_question": "Has the patient taken probenecid, penicillins, cephalosporins, aspirin, proton pump inhibitors, or nonsteroidal anti-inflammatory drugs on the day of methotrexate administration or until the methotrexate level is less than 0.1 micromolar?"
+    },
+    {
+      "criterion": "Avoid IV contrast media, urinary acidifiers, phenytoin, and fosphenytoin on the day of methotrexate and until the methotrexate level is less than 0.1 micromolar (1 x 10-7 M)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Similar to criterion 1, the patient's current medication regimen does not provide clear evidence of the use of prohibited agents on the day of methotrexate.",
+      "clinical_question": "Has the patient's methotrexate level been measured and is it less than 0.1 micromolar (1 x 10^-7 M)?"
+    },
+    {
+      "criterion": "Concurrent use of enzyme inducing anticonvulsants (e.g. phenytoin, phenobarbital, and carbamazepine) should be avoided",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to be on enzyme-inducing anticonvulsants, but there is no confirmation of their avoidance.",
+      "clinical_question": "Has the patient been prescribed any enzyme-inducing anticonvulsants such as phenytoin, phenobarbital, or carbamazepine in the past 30 days?"
+    },
+    {
+      "criterion": "Clinically significant drug interactions have been reported when using vincristine with strong cytochrome P450 (CYP450) family 3 subfamily A member 4 (3A4) inhibitors and inducers; selected strong inhibitors of cytochrome P450 3A4 include azole antifungals, such as fluconazole, voriconazole, itraconazole, ketoconazole, and strong inducers include drugs such as rifampin, phenytoin, phenobarbitol, carbamazepine, and St. John's wort; the use of these drugs should be avoided with vincristine",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on multiple medications, but there is no specific information regarding the use of strong CYP450 3A4 inhibitors or inducers.",
+      "clinical_question": "Has the patient been prescribed any strong CYP450 3A4 inhibitors or inducers, such as azole antifungals or rifampin, during their treatment with vincristine?"
+    },
+    {
+      "criterion": "All patients and/or their parents or legal guardians must sign a written informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient or their legal guardian can provide consent, this criterion is likely met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "All institutional, Food and Drug administration (FDA), and National Cancer Institute (NCI) requirements for human studies must be met",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "As long as the trial adheres to regulatory requirements, this criterion is likely met.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 3 of 30 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1333
+}

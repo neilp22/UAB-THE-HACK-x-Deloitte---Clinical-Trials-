@@ -1,0 +1,609 @@
+{
+  "nct_id": "NCT00110058",
+  "trial_title": "Fludarabine and Radiation Therapy in Treating Patients Who Are Undergoing Donor Stem Cell Transplant for Chronic Phase or Accelerated Phase Chronic Myelogenous Leukemia",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Giving low doses of chemotherapy, such as fludarabine, and radiation therapy before a donor peripheral blood stem cell transplant helps stop the growth of cancer cells. It also stops the patient's immune system from rejecting the donor's stem cells. The donated stem cells may replace the patient's immune system and help destroy any remaining cancer cells (graft-versus-tumor effect). Giving an infusion of the donor's T cells (donor lymphocyte infusion) or interferon alfa after the tran",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosis of Philadelphia chromosome-positive (Ph+) chronic myelogenous leukemia, meeting 1 of the following criteria:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a diagnosis of Philadelphia chromosome-positive chronic myelogenous leukemia.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic phase",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with chronic phase chronic myelogenous leukemia as defined by the presence of Philadelphia chromosome or BCR-ABL fusion gene without evidence of blast phase?"
+    },
+    {
+      "criterion": "Ph+ by cytogenetics or fluorescent in situ hybridization (FISH) assay",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not undergone cytogenetic or FISH assay testing for Ph+.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Accelerated phase, meeting any of the following criteria:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not in the accelerated phase of chronic myelogenous leukemia.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "More than 10% but < 30% myeloblasts and promyelocytes in marrow or peripheral blood",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no evidence of myeloblasts or promyelocytes in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any additional clonal cytogenetic abnormalities",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No additional clonal cytogenetic abnormalities are mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Increasing splenomegaly",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of increasing splenomegaly in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Extramedullary tumor",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have an extramedullary tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "WBC, platelet count, or hematocrit perturbations not controlled by therapy with hydroxyurea, interferon, or imatinib mesylate",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There are no WBC, platelet count, or hematocrit perturbations mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Persistent unexplained fever or bone pain",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not report persistent unexplained fever or bone pain.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Less than 5% blasts in the marrow at time of transplantation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have less than 5% blasts in the bone marrow at the time of transplantation?"
+    },
+    {
+      "criterion": "Not eligible for OR refused conventional myeloablative allogeneic stem cell transplantation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's eligibility regarding stem cell transplantation is unclear based on the provided information.",
+      "clinical_question": "Has the patient been assessed for eligibility for conventional myeloablative allogeneic stem cell transplantation and received a formal recommendation against it?"
+    },
+    {
+      "criterion": "Failed OR suboptimal response to prior imatinib mesylate, as defined by 1 of the following:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of interferon treatment but there is no mention of imatinib mesylate treatment, making it unclear if this criterion can be assessed.",
+      "clinical_question": "Has the patient demonstrated a failure to achieve a complete or partial response to imatinib mesylate after at least 3 months of treatment?"
+    },
+    {
+      "criterion": "Absence of complete hematologic response after > 3 months of treatment with imatinib mesylate",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Similar to criterion 1, there is no evidence of treatment with imatinib mesylate, so this criterion cannot be evaluated.",
+      "clinical_question": "Has the patient demonstrated a complete hematologic response after ≥3 months of treatment with imatinib mesylate?"
+    },
+    {
+      "criterion": "Absence of cytogenetic response, as defined by 1 of the following:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on cytogenetic response to imatinib mesylate is provided, thus this criterion is not applicable.",
+      "clinical_question": "Does the patient have a cytogenetic response defined by the presence of Philadelphia chromosome or BCR-ABL fusion gene in their bone marrow or peripheral blood?"
+    },
+    {
+      "criterion": "Absence of any cytogenetic response (< 95% Ph+ or BCR/ABL+ cells by cytogenetic or FISH analysis, respectively) after 6 months of treatment with imatinib mesylate",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not been treated with imatinib mesylate, making it impossible to assess cytogenetic response after 6 months.",
+      "clinical_question": "Does the patient have ≥95% Ph+ or BCR/ABL+ cells as determined by cytogenetic or FISH analysis after 6 months of treatment with imatinib mesylate?"
+    },
+    {
+      "criterion": "Absence of major cytogenetic response (< 35% Ph+ or BCR/ABL+ cells by cytogenetic or FISH analysis, respectively) after 1 year of treatment with imatinib mesylate",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no data regarding treatment with imatinib mesylate, so this criterion cannot be evaluated.",
+      "clinical_question": "Does the patient have ≥35% Ph+ or BCR/ABL+ cells as determined by cytogenetic or FISH analysis after 1 year of treatment with imatinib mesylate?"
+    },
+    {
+      "criterion": "Absence of complete cytogenetic response (no Ph+ cells by cytogenetic analysis OR BCR/ABL+ cells within normal limits by FISH analysis) after 18 months of treatment with imatinib mesylate",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The absence of treatment with imatinib mesylate means this criterion cannot be assessed.",
+      "clinical_question": "Has the patient undergone cytogenetic analysis or FISH analysis to confirm the presence of Ph+ cells or BCR/ABL+ cells after 18 months of treatment with imatinib mesylate?"
+    },
+    {
+      "criterion": "Hematologic evidence of disease progression",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No hematologic evidence of disease progression can be determined without treatment history related to imatinib mesylate.",
+      "clinical_question": "Does the patient have any hematologic evidence of disease progression, defined as a rise in white blood cell count to >10,000 cells/mm³ or an increase in blast cells to ≥5% in peripheral blood or bone marrow?"
+    },
+    {
+      "criterion": "Cytogenetic evidence of disease progression",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Cytogenetic evidence of disease progression cannot be evaluated due to lack of treatment with imatinib mesylate.",
+      "clinical_question": "Does the patient have cytogenetic evidence of disease progression, defined as the presence of Philadelphia chromosome or BCR-ABL fusion gene in bone marrow or peripheral blood samples?"
+    },
+    {
+      "criterion": "Increase in Ph+ cells or BCR/ABL+ cells by > 20% with at least 1 month between sequential testing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Increase in Ph+ or BCR/ABL+ cells cannot be assessed without prior treatment with imatinib mesylate.",
+      "clinical_question": "Has the patient had sequential testing for Ph+ cells or BCR/ABL+ cells that shows an increase of >20% over at least one month?"
+    },
+    {
+      "criterion": "Molecular evidence of disease progression",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Molecular evidence of disease progression cannot be determined without treatment history related to imatinib mesylate.",
+      "clinical_question": "Does the patient have detectable molecular markers of disease progression, such as BCR-ABL transcript levels ≥1% on quantitative PCR?"
+    },
+    {
+      "criterion": "More than 10-fold increase in BCR/ABL mRNA levels by quantitative polymerase chain reaction (Q-PCR) with at least 1 month between 2 sequential tests",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess BCR/ABL mRNA levels.",
+      "clinical_question": "Has the patient had a quantitative polymerase chain reaction (Q-PCR) test that shows a more than 10-fold increase in BCR/ABL mRNA levels compared to a previous test conducted at least 1 month prior?"
+    },
+    {
+      "criterion": "Experienced adverse events during treatment with imatinib mesylate that precluded further administration of the drug",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on previous treatment with imatinib mesylate.",
+      "clinical_question": "Has the patient experienced any grade 3 or higher adverse events during treatment with imatinib mesylate that precluded further administration of the drug?"
+    },
+    {
+      "criterion": "No CNS disease refractory to intrathecal chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on CNS disease status.",
+      "clinical_question": "Has the patient undergone a recent lumbar puncture to assess for CNS disease, and were the results negative for malignant cells?"
+    },
+    {
+      "criterion": "HLA identical related donor available",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on availability of an HLA identical related donor.",
+      "clinical_question": "Is there documentation confirming the availability of an HLA identical related donor for this patient?"
+    },
+    {
+      "criterion": "Phenotypically matched at HLA-A, -B, -C, DRQ1, and DBQ1",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on HLA matching.",
+      "clinical_question": "Is the patient phenotypically matched at HLA-A, -B, -C, DRQ1, and DBQ1 with the donor?"
+    },
+    {
+      "criterion": "No presence of circulating leukemic blasts by standard pathology",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on presence of circulating leukemic blasts.",
+      "clinical_question": "Have circulating leukemic blasts been assessed and confirmed to be absent in the patient's blood by standard pathology methods?"
+    },
+    {
+      "criterion": "Age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is 60 years old, which is acceptable for many trials.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Trial includes any age, so this criterion is met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No performance status provided.",
+      "clinical_question": "Does the patient have an Eastern Cooperative Oncology Group (ECOG) performance status of 0-2?"
+    },
+    {
+      "criterion": "Karnofsky 70-100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Karnofsky performance status score of ≥70?"
+    },
+    {
+      "criterion": "Lansky 70-100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Lansky performance status score of 70 or higher?"
+    },
+    {
+      "criterion": "Life expectancy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on life expectancy.",
+      "clinical_question": "Does the patient have a life expectancy of at least 6 months based on current clinical assessments and comorbidities?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is not specified, making it unclear if the patient meets this requirement.",
+      "clinical_question": "Does the patient have a performance status of 0-2 on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "Hematopoietic",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Hep C cirrhosis, which may affect hematopoietic function.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not provided, making it difficult to assess.",
+      "clinical_question": "Does the patient have a performance status of 0-2 on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "Hepatic",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Hep C cirrhosis, indicating hepatic impairment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No fulminant liver failure",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of fulminant liver failure in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No cirrhosis of the liver with evidence of portal hypertension or bridging fibrosis",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has cirrhosis of the liver with evidence of portal hypertension.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No alcoholic hepatitis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a negative history for alcoholic hepatitis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No esophageal varices",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has grade II esophageal varices.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of bleeding esophageal varices",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of esophageal varices, which is a disqualifying factor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No hepatic encephalopathy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on lactulose, indicating no hepatic encephalopathy at this time.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No uncorrectable hepatic synthetic dysfunction evidenced by prolongation of PT",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Hep C cirrhosis, which suggests hepatic synthetic dysfunction, likely indicated by increased bilirubin levels.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No ascites related to portal hypertension",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The presence of grade II esophageal varices indicates portal hypertension, which is often associated with ascites.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No bacterial or fungal liver abscess",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of a bacterial or fungal liver abscess in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No biliary obstruction",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No biliary obstruction is mentioned in the patient's medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No chronic viral hepatitis AND bilirubin > 3 mg/dL",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has chronic viral hepatitis (Hep C) and increased bilirubin levels, which exceeds 3 mg/dL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No symptomatic biliary disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of symptomatic biliary disease in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Renal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific renal criteria are provided; further information is needed to assess renal function.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "Renal failure allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's renal status is unclear; additional lab values are needed to determine renal failure.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "Cardiovascular",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific cardiovascular criteria are provided; further information is needed to assess cardiovascular health.",
+      "clinical_question": "Does the patient have a history of cardiovascular events, such as myocardial infarction or stroke, within the past 12 months?"
+    },
+    {
+      "criterion": "No symptomatic coronary artery disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's cardiovascular status is not detailed; more information is required to assess for symptomatic coronary artery disease.",
+      "clinical_question": "Does the patient have a coronary artery disease assessment indicating no significant stenosis or other abnormalities on a recent cardiac stress test or coronary angiography?"
+    },
+    {
+      "criterion": "Ejection fraction ≥ 35%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a documented ejection fraction of ≥35% from a recent echocardiogram?"
+    },
+    {
+      "criterion": "No other cardiac failure requiring therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient has a history of hypertension (HTN), but no specific blood pressure reading is provided to assess control.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) of ≥50% as assessed by echocardiogram?"
+    },
+    {
+      "criterion": "No poorly controlled hypertension (blood pressure ≥ 150/90 mm Hg) on standard medication",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on cardiac failure is provided, making it unclear if this criterion is met.",
+      "clinical_question": "Is the patient's blood pressure currently ≤ 150/90 mm Hg while on standard antihypertensive medication?"
+    },
+    {
+      "criterion": "Pulmonary",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pulmonary conditions are mentioned, but lack of specific information prevents a definitive assessment.",
+      "clinical_question": "Does the patient have a pulmonary function test showing FEV1/FVC ratio ≥70%?"
+    },
+    {
+      "criterion": "DLCO ≥ 30%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a DLCO value of ≥30%?"
+    },
+    {
+      "criterion": "Total lung capacity ≥ 30%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a total lung capacity of ≥30% as measured by pulmonary function tests?"
+    },
+    {
+      "criterion": "FEV_1 ≥ 30%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a forced expiratory volume in 1 second (FEV_1) of ≥30%?"
+    },
+    {
+      "criterion": "No requirement for continuous supplementary oxygen",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the need for supplementary oxygen is provided.",
+      "clinical_question": "Does the patient require continuous supplementary oxygen to maintain oxygen saturation levels above 90%?"
+    },
+    {
+      "criterion": "No fungal pneumonia with radiological progression after treatment with amphotericin or mold-active azoles for > 1 month",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of fungal pneumonia is mentioned, but lack of specific information prevents a definitive assessment.",
+      "clinical_question": "Has the patient been free of fungal pneumonia with radiological progression after treatment with amphotericin or mold-active azoles for more than 1 month?"
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific details provided to assess this criterion.",
+      "clinical_question": "Does the patient have a performance status of 0-2 on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient is male, so pregnancy or nursing is not applicable.",
+      "clinical_question": "Is the patient currently pregnant or nursing?"
+    },
+    {
+      "criterion": "Fertile patients must use effective barrier contraception during and for 12 months after completion of study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's fertility status is not provided, making it unclear if contraception is needed.",
+      "clinical_question": "Is the patient currently using effective barrier contraception, and has he been using it for at least 12 months following the completion of study treatment?"
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "HIV status is not mentioned, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the patient's HIV status confirmed as negative through a recent laboratory test?"
+    },
+    {
+      "criterion": "No other disease that severely limits life expectancy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient has multiple serious conditions, but no specific life expectancy assessment is provided.",
+      "clinical_question": "Does the patient have a life expectancy of at least 12 months based on their current health status and liver function?"
+    },
+    {
+      "criterion": "No other active malignancy except localized nonmelanoma skin cancer",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported active malignancies other than the specified conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No nonhematologic malignancy within the past 5 years that is currently in complete remission and has a > 20% risk of disease recurrence except for nonmelanoma skin cancer",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no history of nonhematologic malignancy within the past 5 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No systemic uncontrolled infection",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No evidence of systemic uncontrolled infection is provided in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No active bacterial or fungal infection unresponsive to medical therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No active bacterial or fungal infections are reported as unresponsive to medical therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion regarding prior concurrent therapy is vague; no specific details are provided.",
+      "clinical_question": "Has the patient received any prior systemic therapy for chronic myelogenous leukemia other than interferon?"
+    },
+    {
+      "criterion": "Biologic therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding prior biologic therapy.",
+      "clinical_question": "Has the patient received any form of biologic therapy prior to the donor stem cell transplant?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not specified in the profile.",
+      "clinical_question": "Does the patient have a performance status of 0-2 on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "Chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding prior chemotherapy.",
+      "clinical_question": "Has the patient received ≥2 prior lines of chemotherapy for chronic myelogenous leukemia?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not specified in the profile.",
+      "clinical_question": "Does the patient have a performance status of 0-2 on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "Endocrine therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding prior endocrine therapy.",
+      "clinical_question": "Has the patient received any form of endocrine therapy prior to the donor stem cell transplant?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The inclusion criteria are not specified, making it impossible to determine eligibility.",
+      "clinical_question": "Does the patient have a performance status of 0-2 on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "Radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of Hep C cirrhosis and UGIB, which may contraindicate radiotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The inclusion criteria are not specified, making it impossible to determine eligibility.",
+      "clinical_question": "Does the patient have a performance status of 0-2 on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "Surgery",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's liver condition (Hep C cirrhosis) and varices likely disqualify them from surgical interventions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The inclusion criteria are not specified, making it impossible to determine eligibility.",
+      "clinical_question": "Does the patient have a performance status of 0-2 on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The inclusion criteria are not specified, making it impossible to determine eligibility.",
+      "clinical_question": "Does the patient have a performance status of 0-2 on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "At least 48 hours since prior imatinib mesylate",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received imatinib mesylate within the last 48 hours?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 12 of 85 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3647
+}

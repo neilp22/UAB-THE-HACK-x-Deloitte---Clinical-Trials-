@@ -1,0 +1,192 @@
+{
+  "nct_id": "NCT03815331",
+  "trial_title": "Xiaflex® Plus Testosterone Treatment Pilot Study Protocol",
+  "phase": "PHASE4",
+  "status": "COMPLETED",
+  "brief_summary": "In this open-label, six-month, pilot study of men with Peyronie's disease there will be one subject group consisting of 20 subjects. All subjects will receive Xiaflex® plus testosterone (T) treatment (Aveed®). Males included in the study must be 18-70 years old; have a history of PD for more than six months; and have at two serum total testosterone level less than 350 ng/dL within 30 days prior to enrollment. The primary objective of this pilot study is to determine whether testosterone therapy ",
+  "eligibility_table": [
+    {
+      "criterion": "Ability to read, write, and understand English",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 19 years old and likely has the ability to read, write, and understand English.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age greater than or equal to 18",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 19.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age less than or equal to 70",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 19.0 <= 70.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Identification of acquired penile curvature of greater than 30 degrees and less than 90 degrees associated with palpable penile plaque on physical examination at screening",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about penile curvature or the presence of palpable plaque.",
+      "clinical_question": "Does the patient have an acquired penile curvature of greater than 30 degrees and less than 90 degrees associated with palpable penile plaque on physical examination?"
+    },
+    {
+      "criterion": "Screening total testosterone of less than 350 ng/dL, twice within 30 days of treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient had a total testosterone level measured that is less than 350 ng/dL on two separate occasions within the last 30 days?"
+    },
+    {
+      "criterion": "Screening free testosterone of less than 1.5ng/dL (analog assay) or 100pg/mL (calculated)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's screening free testosterone level less than 1.5 ng/dL (analog assay) or 100 pg/mL (calculated)?"
+    },
+    {
+      "criterion": "Planning to initiate Xiaflex® injections at MHB",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not indicate any plans for Xiaflex® injections.",
+      "clinical_question": "Has the patient been assessed for the presence of penile curvature or deformity that would warrant the initiation of Xiaflex® injections?"
+    },
+    {
+      "criterion": "Willingness to initiate testosterone therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Given the patient's hypogonadism, willingness to initiate testosterone therapy is likely.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Willing to be followed at MHB for the next 3 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely willing to be followed for the next 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Willing to provide informed consent for this study",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely willing to provide informed consent for the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior history of treatment for PD that includes surgery",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no prior history of treatment for PD that includes surgery.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior treatment with oral therapy for PD unless at least stopped 2 weeks prior to signing the informed consent (e.g. Potaba, Vitamin E, colchicines)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received oral therapy for PD, as there are no prior treatments listed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous exposure to exogenous T, clomiphene citrate, or other Selective Estrogen Receptor Modulators, unless off therapy for at least 12 weeks",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of previous exposure to exogenous testosterone or related therapies.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Presence of dense calcified plaque by ultrasound at screening",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of dense calcified plaque by ultrasound.",
+      "clinical_question": "Does the patient have dense calcified plaque present on ultrasound at screening?"
+    },
+    {
+      "criterion": "Hypersensitivity to testosterone, stearic acid, or polyvinylpyrolidone (the constituents of Aveed®)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about hypersensitivity to testosterone or its constituents.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to testosterone, stearic acid, or polyvinylpyrolidone?"
+    },
+    {
+      "criterion": "Unwillingness to start testosterone therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient's willingness to start testosterone therapy is not documented.",
+      "clinical_question": "Does the patient explicitly express a refusal to initiate testosterone therapy despite being informed of its potential benefits?"
+    },
+    {
+      "criterion": "Screening total testosterone of greater than 350 ng/dL",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a total testosterone level greater than 350 ng/dL?"
+    },
+    {
+      "criterion": "Screening free testosterone of more than 1.5ng/dL (analog assay) or 100pg/mL (calculated)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's screening free testosterone level greater than 1.5 ng/dL (analog assay) or 100 pg/mL (calculated)?"
+    },
+    {
+      "criterion": "Unable to achieve adequate erection with penile injection to assess degree of curvature",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the ability to achieve adequate erection with penile injection.",
+      "clinical_question": "Can the patient achieve an erection sufficient for penile injection assessment with a minimum intracavernosal pressure of 60 mmHg?"
+    },
+    {
+      "criterion": "Prior history of definitive treatment for prostate cancer, bladder cancer, or other pelvic malignancies including surgery, external beam radiation therapy, brachytherapy, cryotherapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of definitive treatment for pelvic malignancies is documented.",
+      "clinical_question": "Has the patient undergone any definitive treatment for prostate cancer, bladder cancer, or other pelvic malignancies, including surgery, external beam radiation therapy, brachytherapy, or cryotherapy?"
+    },
+    {
+      "criterion": "Prior history of prostate cancer, hematologic disorders, chronic liver disease including cirrhosis and hepatitis C, disorders affecting the immune system, including infection with human immunodeficiency virus, or psychiatric disorders including major depression, schizophrenia, bipolar disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No prior history of the specified conditions is mentioned.",
+      "clinical_question": "Does the patient have a prior history of prostate cancer, hematologic disorders, chronic liver disease, immune system disorders, or psychiatric disorders?"
+    },
+    {
+      "criterion": "Prior history of cerebrovascular accident, history of deep venous thrombosis within the past 5 years or history of untreated or severe sleep apnea",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of cerebrovascular accident or deep venous thrombosis is documented.",
+      "clinical_question": "Does the patient have a history of cerebrovascular accident, deep venous thrombosis within the past 5 years, or untreated/severe sleep apnea?"
+    },
+    {
+      "criterion": "Screening PSA more than 4.0 ng/mL, unless prostate cancer has been excluded to the Investigator's satisfaction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No PSA screening results provided to assess eligibility.",
+      "clinical_question": "Has the patient undergone a prostate-specific antigen (PSA) test with a result ≤4.0 ng/mL, or has prostate cancer been definitively excluded?"
+    },
+    {
+      "criterion": "Incapable of giving informed consent or complying with the protocol",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient's capability to give informed consent is not addressed.",
+      "clinical_question": "Can the patient demonstrate an understanding of the study protocol and provide informed consent as assessed by a standardized consent comprehension test with a minimum score of 70%?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Presence of dense calcified plaque by ultrasound at screening",
+    "EXCLUSION UNCLEAR: Hypersensitivity to testosterone, stearic acid, or polyvinylpyrolidone (the cons",
+    "EXCLUSION UNCLEAR: Unwillingness to start testosterone therapy",
+    "EXCLUSION UNCLEAR: Screening total testosterone of greater than 350 ng/dL",
+    "EXCLUSION UNCLEAR: Screening free testosterone of more than 1.5ng/dL (analog assay) or 100pg/mL (ca",
+    "EXCLUSION UNCLEAR: Unable to achieve adequate erection with penile injection to assess degree of cu",
+    "EXCLUSION UNCLEAR: Prior history of definitive treatment for prostate cancer, bladder cancer, or ot",
+    "EXCLUSION UNCLEAR: Prior history of prostate cancer, hematologic disorders, chronic liver disease i",
+    "EXCLUSION UNCLEAR: Prior history of cerebrovascular accident, history of deep venous thrombosis wit",
+    "EXCLUSION UNCLEAR: Screening PSA more than 4.0 ng/mL, unless prostate cancer has been excluded to t",
+    "EXCLUSION UNCLEAR: Incapable of giving informed consent or complying with the protocol"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.375
+}

@@ -1,0 +1,161 @@
+{
+  "nct_id": "NCT00040326",
+  "trial_title": "Early Surgical Intervention to Treat Epilepsy",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this trial is to compare the effectiveness of early surgical intervention for mesial temporal lobe epilepsy to continued treatment with antiepileptic drugs.",
+  "eligibility_table": [
+    {
+      "criterion": "Intractability: Two AEDs, one of which was either Dilantin, Tegretol, Carbatrol, or Trileptal used in appropriate doses, have failed due to inefficacy, not intolerance.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has only tapered off Dilantin and has not documented the failure of two AEDs due to inefficacy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Frequency and Duration: Persistence of disabling seizures at 6 per year or greater for less than two years after onset, or after recurrence if initial treatment resulted in seizure freedom for 6 or more months.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has only had seizures for a short duration since onset at age 13, and there is no evidence of persistence of disabling seizures at the required frequency.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: 12 years or older at baseline visit.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 13.0 >= 12.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History: Simple and complex partial seizures, with or without secondarily generalized seizures beginning in childhood or later, with or without febrile convulsions earlier.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of complex partial seizures with secondary generalization, which aligns with the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absence of a history of serious cerebral insult after the age of 5; a progressive neurological disorder; mental retardation (I.Q. less than 70); psychogenic seizures; focal neurological deficits other than memory disturbances; unequivocal focal extratemporal EEG slowing or interictal spikes; or lesions on neuroimaging outside of the mesial temporal area.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe intellectual disability, which is considered mental retardation (I.Q. less than 70), disqualifying him from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Seizure semiology: Auras that occur in isolation and are not primary sensory other than olfactory or gustatory. Absence of initial focal motor movements other than automatisms or dystonic posturing. Presence of postictal confusion.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The information provided does not specify the nature of auras or the presence of postictal confusion, making it unclear.",
+      "clinical_question": "Does the patient experience auras that occur in isolation without initial focal motor movements, and is there evidence of postictal confusion following these auras?"
+    },
+    {
+      "criterion": "Neurological examination: No unexplained focal or lateralized neurological deficits other than memory dysfunction.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe intellectual disability, which may affect the neurological examination results.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Baseline QOL and ancillary outcome data: Adolescents - QOLIE-48-AD, CHQ, CBCL, PANAS, Life Events Scale, FAC, FEICS-PC completed.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the completion of the required quality of life assessments.",
+      "clinical_question": "Has the patient completed the QOLIE-48-AD, CHQ, CBCL, PANAS, Life Events Scale, FAC, and FEICS-PC assessments?"
+    },
+    {
+      "criterion": "Adults - QOLIE-82/ESI55, locus of control, PANAS, Life Events Scale, FAD, FEICS-PC completed.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the completion of the required assessments for adults.",
+      "clinical_question": "Has the patient completed the QOLIE-82/ESI55, locus of control, PANAS, Life Events Scale, FAD, and FEICS-PC assessments?"
+    },
+    {
+      "criterion": "Global rating scale completed.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the completion of the global rating scale.",
+      "clinical_question": "Has the global rating scale been completed with a score of ≥70 for this patient?"
+    },
+    {
+      "criterion": "Baseline ancillary outcomes completed. Psychiatric evaluation: No evidence of psychosis, current or recent substance abuse, suicidality, anorexia, or psychogenic seizures. Baseline BSI and MINI or KSADS completed.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe intellectual disability, which may complicate the psychiatric evaluation and the completion of the required assessments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Neuropsychological testing: I.Q. of greater than 70. No significant focal neurocognitive dysfunction inconsistent with MRI and PET findings. Baseline neuropsychological testing completed.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a current I.Q. score greater than 70 based on the completed neuropsychological testing?"
+    },
+    {
+      "criterion": "Neuroimaging: Hippocampal atrophy on MRI T1 imaging with either increased ipsilateral mesial signal on T2 imaging, or ipsilateral hypometabolism on PET (Class I), or either hippocampal atrophy on MRI only, or temporal hypometabolism on PET only (Class II).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Neuroimaging results are pending, making it unclear if hippocampal atrophy or other required features are present.",
+      "clinical_question": "Does the patient's MRI show hippocampal atrophy with either increased ipsilateral mesial signal on T2 imaging or ipsilateral hypometabolism on PET?"
+    },
+    {
+      "criterion": "Absence of temporal neocortical or extratemporal lesions on MRI, or diffuse unilateral or bilateral hypometabolism on PET.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "MRI results are not fully available, so the presence or absence of temporal neocortical or extratemporal lesions cannot be confirmed.",
+      "clinical_question": "Does the patient's MRI show any temporal neocortical or extratemporal lesions, or diffuse unilateral or bilateral hypometabolism?"
+    },
+    {
+      "criterion": "Video-EEG Monitoring:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Full EEG reports are pending, and without them, we cannot assess the video-EEG monitoring requirement.",
+      "clinical_question": "Has the patient undergone video-EEG monitoring for a minimum duration of 24 hours to assess seizure activity?"
+    },
+    {
+      "criterion": "If neuroimaging is Class I, ictal EEG onset is lateralized to the ipsilateral side; if neuroimaging is Class II, ictal EEG onset is focal on the ipsilateral side.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Ictal EEG onset cannot be evaluated without the EEG reports, which are still pending.",
+      "clinical_question": "Is the ictal EEG onset lateralized to the ipsilateral side or focal on the ipsilateral side as per the full EEG reports?"
+    },
+    {
+      "criterion": "Absence of contralateral or extratemporal ictal onset.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The absence of contralateral or extratemporal ictal onset cannot be determined without EEG results.",
+      "clinical_question": "Does the patient's EEG show ictal onset localized exclusively to the left temporal lobe without any contralateral or extratemporal activity?"
+    },
+    {
+      "criterion": "Absence of persistent extratemporal, or predominant contralateral focal interictal spikes or slowing, or generalized interictal spikes.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The presence of persistent extratemporal or contralateral spikes cannot be assessed without EEG results.",
+      "clinical_question": "Does the patient's EEG show any persistent extratemporal, predominant contralateral focal interictal spikes or slowing, or generalized interictal spikes?"
+    },
+    {
+      "criterion": "Absence of psychogenic seizures.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding psychogenic seizures, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient experienced any psychogenic seizures in the past 12 months?"
+    },
+    {
+      "criterion": "Seizure log, seizure report forms, and seizure severity scale completed.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on whether a seizure log or report forms have been completed.",
+      "clinical_question": "Has the patient completed a seizure log documenting at least 3 seizures over the past month?"
+    },
+    {
+      "criterion": "In those randomized to surgery only, contralateral hemisphere can support memory.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The ability of the contralateral hemisphere to support memory cannot be assessed without further information.",
+      "clinical_question": "Does the patient demonstrate contralateral hemisphere support for memory as assessed by neuropsychological testing with a score of ≥85 on the memory index?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 2 of 21 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

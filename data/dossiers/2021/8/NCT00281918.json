@@ -1,0 +1,210 @@
+{
+  "nct_id": "NCT00281918",
+  "trial_title": "Fludarabine and Cyclophosphamide With or Without Rituximab in Patients With Previously Untreated Chronic B-Cell Lymphocytic Leukemia",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "This randomized phase III trial is studying fludarabine, cyclophosphamide, and rituximab to see how well they work compared to fludarabine and cyclophosphamide in treating patients with B-cell chronic lymphocytic leukemia.",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosed B-cell chronic lymphocytic leukemia (CLL) defined by the National Cancer Institute (NCI) Working Group criteria",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of CLL as per the provided conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Binet stage C disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a Binet stage C classification based on the presence of anemia, thrombocytopenia, or the involvement of three or more lymphoid areas?"
+    },
+    {
+      "criterion": "Binet stage B disease AND ≥ 1 of the following signs or symptoms",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Binet stage B disease, indicated by bulky lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "B symptoms (night sweats, weight loss ≥ 10% within the previous 6 months, fevers > 38°C or 100.4°F for ≥ 2 weeks without evidence of infection), or constitutional symptoms (fatigue)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific information on B symptoms or constitutional symptoms is provided.",
+      "clinical_question": "Has the patient experienced night sweats, weight loss of ≥10% within the previous 6 months, or fevers >38°C for ≥2 weeks without evidence of infection?"
+    },
+    {
+      "criterion": "Continuous progression (doubling of peripheral lymphocyte count within the past 6 months and absolute lymphocyte count > 50 G/I)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of continuous progression is provided; lymphocyte counts are not specified.",
+      "clinical_question": "Has the patient experienced a doubling of the peripheral lymphocyte count within the past 6 months, with an absolute lymphocyte count exceeding 50 G/I?"
+    },
+    {
+      "criterion": "Evidence of progressive marrow failure as manifested by the development/worsening of anemia and/or thrombocytopenia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values indicating anemia or thrombocytopenia are provided.",
+      "clinical_question": "Has the patient experienced a decrease in hemoglobin levels to <10 g/dL or a platelet count <100,000/µL since the initiation of treatment?"
+    },
+    {
+      "criterion": "Massive, progressive or painful splenomegaly or hypersplenism",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on splenomegaly or hypersplenism is provided.",
+      "clinical_question": "Does the patient have a spleen size greater than 20 cm or experience symptoms of hypersplenism such as pain or significant cytopenias?"
+    },
+    {
+      "criterion": "Massive lymph nodes or lymph node clusters (> 10 cm in longest diameter), danger of organ complications through large lymphoma (e.g., vascular compression or tracheal narrowing), or progressive lymphadenopathy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has bulky lymphadenopathy, which suggests progressive lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Occurrence of symptomatic hyperviscosity problems at leukocyte counts > 200 G/I (symptomatic leukostasis)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on hyperviscosity problems or leukocyte counts is provided.",
+      "clinical_question": "Has the patient experienced any symptoms of hyperviscosity at leukocyte counts exceeding 200 G/I?"
+    },
+    {
+      "criterion": "No Binet stage A disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a Binet stage classification of B or C?"
+    },
+    {
+      "criterion": "No transformation to an aggressive B-cell malignancy (e.g., diffuse large cell lymphoma, Richter's syndrome, or prolymphocytic leukemia)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced any transformation to an aggressive B-cell malignancy, such as diffuse large cell lymphoma or Richter's syndrome, since the initiation of treatment?"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status 0-1",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1?"
+    },
+    {
+      "criterion": "Cumulative Illness Rating Scale (CIRS) score > 6",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No CIRS score is provided; thus, it cannot be assessed.",
+      "clinical_question": "Does the patient have a Cumulative Illness Rating Scale (CIRS) score greater than 6?"
+    },
+    {
+      "criterion": "Life expectancy > 6 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's excellent performance status suggests a life expectancy greater than 6 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Bilirubin ≤ 2 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided, so it is unclear if they meet the criterion.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 2 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Alkaline phosphatase and transaminases ≤ 2 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Alkaline phosphatase and transaminases levels are not provided, making it impossible to assess.",
+      "clinical_question": "Are the patient's alkaline phosphatase and transaminase levels ≤ 2 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Creatinine clearance ≥ 70 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current creatinine clearance value?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication of being pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on a pregnancy test result is available.",
+      "clinical_question": "Has the patient undergone a pregnancy test within the last 7 days, and was the result negative?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 2 months after study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on contraception use is provided.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, and will he continue to do so during and for 2 months after study treatment?"
+    },
+    {
+      "criterion": "No known hypersensitivity with anaphylactic reaction to humanized monoclonal antibodies or any of the study drugs",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of hypersensitivity reactions is mentioned, but it cannot be confirmed.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity or anaphylactic reaction to any humanized monoclonal antibodies or the study drugs?"
+    },
+    {
+      "criterion": "No cerebral dysfunction that precludes chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on cerebral dysfunction is provided.",
+      "clinical_question": "Does the patient have a score of 0 on the Mini-Mental State Examination (MMSE) indicating no cerebral dysfunction?"
+    },
+    {
+      "criterion": "No active bacterial, viral, or fungal infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on active infections is available.",
+      "clinical_question": "Does the patient currently have any signs or symptoms of an active bacterial, viral, or fungal infection?"
+    },
+    {
+      "criterion": "No clinically significant autoimmune cytopenia or Coombs-positive hemolytic anemia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on autoimmune cytopenia or hemolytic anemia is provided.",
+      "clinical_question": "Does the patient have a Coombs test result that is negative for hemolytic anemia?"
+    },
+    {
+      "criterion": "No other active malignancy requiring concurrent treatment except basal cell carcinoma or tumors treated curatively by surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on other active malignancies is available.",
+      "clinical_question": "Does the patient have any active malignancies requiring concurrent treatment, excluding basal cell carcinoma or tumors treated curatively by surgery?"
+    },
+    {
+      "criterion": "No medical or psychological condition that would preclude study therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of multiple treatments for CLL, but no specific medical or psychological conditions are mentioned that would preclude study therapy.",
+      "clinical_question": "Does the patient have any medical or psychological conditions, such as uncontrolled hypertension or severe depression, that would preclude study therapy?"
+    },
+    {
+      "criterion": "No concurrent disease that requires prolonged (> 1 month) therapy involving glucocorticoids",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about concurrent diseases requiring glucocorticoids, making it unclear whether this criterion is met.",
+      "clinical_question": "Does the patient require prolonged glucocorticoid therapy for more than 1 month due to any concurrent disease?"
+    },
+    {
+      "criterion": "No previous treatment of CLL by chemotherapy, radiotherapy, or immunotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple prior treatments for CLL, including chemotherapy (FCR, PCR, R-CVP), which disqualifies them from this criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 5 of 28 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2143
+}

@@ -1,0 +1,56 @@
+{
+  "nct_id": "NCT05887362",
+  "trial_title": "The Power of Hand Reflexology in Ameliorating Anxiety, Pain, and Fatigue Among Patients Undergoing Coronary Angiography",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "Reflexology influences pain perception and pain-impulse transmission by releasing endorphins (12). Patients with a variety of medical illnesses can benefit from hand reflexology by lessening their physical and emotional discomfort (13, 14). Therefore, this study was done to investigate the power of hand reflexology in ameliorating anxiety, pain, and fatigue among patients undergoing coronary angiography",
+  "eligibility_table": [
+    {
+      "criterion": "Patients between the ages of 20 and 60 who were scheduled for non-emergency CA",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient between the ages of 20 and 60 years old?"
+    },
+    {
+      "criterion": "Patients between the ages of 20 and 60 who were scheduled for non-emergency CA",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient between the ages of 20 and 60 years old?"
+    },
+    {
+      "criterion": "Absence of any hands' sensory motor disorders, or upper limb vascular injuries",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient profile does not indicate any sensory motor disorders or upper limb vascular injuries.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No abnormalities such as amputations, burns, skin lesions, and intervertebral disc herniation",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There are no reported abnormalities such as amputations, burns, skin lesions, or intervertebral disc herniation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of mental illnesses",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of any mental illnesses in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with severe mental problems",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "While there is no explicit mention of severe mental problems, the patient's overall health profile and conditions may warrant further evaluation to rule out any underlying issues.",
+      "clinical_question": "Does the patient have a diagnosed mental health disorder with a severity rating of moderate to severe on a standardized assessment tool?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients with severe mental problems"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

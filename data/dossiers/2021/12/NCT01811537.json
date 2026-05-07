@@ -1,0 +1,19 @@
+{
+  "nct_id": "NCT01811537",
+  "trial_title": "Safety and Efficacy Study of a New Device for Making Neochordae in Mitral Valve Repair",
+  "phase": "PHASE1",
+  "status": "UNKNOWN",
+  "brief_summary": "Mitral prolapse is a common cardiac disease whose patients are at higher risk for serious complications. Mitral valve (MV) repair offers several important advantages compared with valve replacement and it achieves excellent midterm and long-term results. Two major problems of using pre-measured expanded polytetrafluoroethylene(ePTFE) neochordae (the loop technique) are deciding the length of the neochordae and tying the knot at the intended length. Therefore, a great need still exists to find ne",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with Mitral valve prolapse who undergo mitral valve repair using neochorda",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe mitral valve prolapse and has a planned mitral valve repair, which aligns with the inclusion criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE",
+  "confidence_score": 1.0
+}

@@ -1,0 +1,204 @@
+{
+  "nct_id": "NCT05934630",
+  "trial_title": "Testing Cerebrospinal Fluid for Cell-free Tumor DNA in Children, Adolescents, and Young Adults With Brain Tumors",
+  "phase": "",
+  "status": "TERMINATED",
+  "brief_summary": "Recent advances in technology have allowed for the detection of cell-free DNA (cfDNA). cfDNA is tumor DNA that can be found in the fluid that surrounds the brain and spinal cord (called cerebrospinal fluid or CSF) and in the blood of patients with brain tumors. The detection of cfDNA in blood and CSF is known as a \"liquid biopsy\" and is non-invasive, meaning it does not require a surgery or biopsy of tumor tissue. Multiple studies in other cancer types have shown that cfDNA can be used for diagn",
+  "eligibility_table": [
+    {
+      "criterion": "All patients must have a known or suspected diagnosis (based on pathology or imaging) of a primary brain tumor. All children and adolescent/young adult (AYA) patients ≤ 21 years of age are eligible.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a known diagnosis of anaplastic astrocytoma, which is a primary brain tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "AYA patients < 40 are eligible with a primary brain tumor entity more common in children than adults.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 45 years old, which exceeds the age limit for AYA eligibility.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "medulloblastoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of medulloblastoma based on histopathological examination?"
+    },
+    {
+      "criterion": "non-medulloblastoma embryonal brain tumors",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of a non-medulloblastoma embryonal brain tumor?"
+    },
+    {
+      "criterion": "atypical teratoid rhabdoid tumors (ATRT)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of atypical teratoid rhabdoid tumor (ATRT) based on histopathological examination?"
+    },
+    {
+      "criterion": "ependymoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of ependymoma based on histopathological examination?"
+    },
+    {
+      "criterion": "CNS germ cell tumors",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of a CNS germ cell tumor based on histopathological evaluation?"
+    },
+    {
+      "criterion": "Diffuse midline glioma, H3K27M-altered",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of diffuse midline glioma with H3K27M alteration based on histopathological analysis?"
+    },
+    {
+      "criterion": "Diffuse hemispheric glioma, H3 G34-mutant",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of diffuse hemispheric glioma with an H3 G34 mutation?"
+    },
+    {
+      "criterion": "pineoblastoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of pineoblastoma based on histopathological examination?"
+    },
+    {
+      "criterion": "Given the extremely low rate of CSF cfDNA positivity in patients with localized, non-disseminated low-grade glioma, those patients will be excluded from participation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's tumor is not classified as a low-grade glioma, so the exclusion criterion does not apply.",
+      "clinical_question": "Is the cerebrospinal fluid cell-free tumor DNA test result positive for this patient with anaplastic astrocytoma?"
+    },
+    {
+      "criterion": "diffuse leptomeningeal glioneuronal tumor",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the cerebrospinal fluid analysis show the presence of cell-free tumor DNA specific to diffuse leptomeningeal glioneuronal tumor?"
+    },
+    {
+      "criterion": "diffuse brainstem glioma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of diffuse brainstem glioma based on imaging and histopathological evaluation?"
+    },
+    {
+      "criterion": "pilocytic astrocytoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of pilocytic astrocytoma based on histopathological evaluation?"
+    },
+    {
+      "criterion": "choroid plexus carcinoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of choroid plexus carcinoma based on histopathological examination?"
+    },
+    {
+      "criterion": "ELIGIBLE PATIENTS WILL BE STRATIFIED BY DIAGNOSIS AS FOLLOWS:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "This criterion is about stratification and does not provide a clear eligibility requirement.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic astrocytoma of the spine?"
+    },
+    {
+      "criterion": "Stratum 1: Medulloblastoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of medulloblastoma based on histopathological evaluation?"
+    },
+    {
+      "criterion": "Stratum 2: High-grade glioma (IDH-wildtype) and DIPG",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of high-grade glioma (IDH-wildtype) or DIPG based on histopathological evaluation?"
+    },
+    {
+      "criterion": "o DIPG patients must meet clinical and imaging requirements for DIPG diagnosis. Patients with newly diagnosed diffuse intrinsic pontine gliomas (DIPGs), defined as tumors with a pontine epicenter and diffuse involvement of 2/5 or more of the pons, are eligible without histologic confirmation. Patients with brainstem tumors that do not meet these criteria or not considered to be typical intrinsic pontine gliomas will only be eligible for Stratum B if the tumors have been biopsied and are proven to be an anaplastic astrocytoma, glioblastoma multiforme, gliosarcoma, anaplastic mixed glioma or fibrillary astrocytoma.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have DIPG, and the eligibility for Stratum B is not applicable without further details on the tumor's characteristics.",
+      "clinical_question": "Does the patient's brainstem tumor have a pontine epicenter and diffuse involvement of 2/5 or more of the pons?"
+    },
+    {
+      "criterion": "Stratum 3: Low-grade glioma (IDH-wildtype) with multifocal/disseminated and/or leptomeningeal disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of low-grade glioma (IDH-wildtype) with evidence of multifocal/disseminated and/or leptomeningeal disease as determined by imaging studies?"
+    },
+    {
+      "criterion": "Stratum 4: Diffuse Leptomeningeal Glioneuronal Tumor",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of diffuse leptomeningeal glioneuronal tumor based on histopathological evaluation?"
+    },
+    {
+      "criterion": "Stratum 5: Pineoblastoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have pineoblastoma, which is required for Stratum 5.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stratum 6: All other eligible tumor types",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma, which may or may not fall under 'other eligible tumor types' without further classification.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of an eligible tumor type as defined by the study protocol?"
+    },
+    {
+      "criterion": "DISEASE STATUS: Participants will be eligible at any stage of disease.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is eligible at any stage of disease, and the current status is not specified as advanced or terminal.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "AGE: All children and adolescent/young adult (AYA) patients =< 21 years of age are eligible. AYA patients < 40 are eligible with a primary brain tumor entity more common in children than adults",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is over 21 years old, thus not eligible for the AYA criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CEREBROSPINAL FLUID (CSF) COLLECTION: Patients must have a clinical indication for at least one CSF (lumbar, cisternal or ventricular) collection, or clinical circumstance where CSF sampling is feasible with no or minimal risk (e.g., endoscopic third ventriculostomy, external ventricular drain).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The clinical indication for CSF collection is not provided, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient have a clinical indication for a cerebrospinal fluid collection due to their anaplastic astrocytoma of the spine?"
+    },
+    {
+      "criterion": "INFORMED CONSENT: The patient or parent/guardian can understand the consent and is willing to sign a written informed consent document according to institutional guidelines.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ability to understand the consent or willingness to sign.",
+      "clinical_question": "Can the patient or parent/guardian demonstrate an understanding of the informed consent document by accurately summarizing its key points?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Given the extremely low rate of CSF cfDNA positivity in patients with localized,",
+    "LOW INCLUSION MATCH: only 2 of 26 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1852
+}

@@ -1,0 +1,65 @@
+{
+  "nct_id": "NCT02085486",
+  "trial_title": "Ultrasound Assisted Puncture of AV Fistulas in Chronic Hemodialysis Patients",
+  "phase": "NA",
+  "status": "WITHDRAWN",
+  "brief_summary": "The puncture of the vascular access in hemodialysis patients remains challenging even in the hands of experienced dialysis nurses. Unsuccessful punctures are associated with resource wastage, traumatism of the AV shunts, shortening of the effective dialysis time and poor patient satisfaction.\n\nThe use of ultrasound by emergency department nurses and technicians without prior ultrasound experience in patients with difficult intravenous access showed in several studies to be very efficient. The in",
+  "eligibility_table": [
+    {
+      "criterion": "Forearm or upper arm AV-shunt (native, mixed, graft)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has an arteriovenous malformation (AVM), but there is no specific information about the presence of an AV-shunt.",
+      "clinical_question": "Does the patient have a forearm or upper arm AV-shunt (native, mixed, or graft) suitable for ultrasound-assisted puncture?"
+    },
+    {
+      "criterion": "Patients with recognized difficult vascular access at any time (potentially each patient)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of difficult vascular access due to her AVM and hemorrhage.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Written informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient is capable of providing informed consent given her age and condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recent AV-shunt surgery (< 48 h)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about recent AV-shunt surgery; unclear if it has occurred within the last 48 hours.",
+      "clinical_question": "Has the patient undergone AV-shunt surgery within the last 48 hours?"
+    },
+    {
+      "criterion": "Presence of large bandages or severe skin lesions in the area of interest",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No details on the presence of bandages or skin lesions in the area of interest.",
+      "clinical_question": "Does the patient have any large bandages or severe skin lesions in the area of the AV fistula site?"
+    },
+    {
+      "criterion": "Inability to understand the aim of the study and to give a written informed consent",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old and likely capable of understanding the study aims.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Single needle",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of a single needle; unclear if this applies.",
+      "clinical_question": "Has the patient undergone a single needle ultrasound-assisted puncture of the AV fistula during their hemodialysis sessions?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Recent AV-shunt surgery (< 48 h)",
+    "EXCLUSION UNCLEAR: Presence of large bandages or severe skin lesions in the area of interest",
+    "EXCLUSION UNCLEAR: Single needle"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4286
+}

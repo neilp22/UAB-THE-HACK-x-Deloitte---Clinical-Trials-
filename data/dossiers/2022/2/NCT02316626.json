@@ -1,0 +1,103 @@
+{
+  "nct_id": "NCT02316626",
+  "trial_title": "Subcutaneous Progesterone Versus Vaginal Progesterone Gel for Luteal Phase Support",
+  "phase": "PHASE4",
+  "status": "COMPLETED",
+  "brief_summary": "It is well known that implantation of the developing blastocyst occurs during the luteal phase of the menstrual cycle when the endometrium is under the direct influence of Progesterone (P).Several prospective randomized controlled trials have evaluated the benefits of luteal phase P support in ovulation induction cycles and a recent review and meta-analysis demonstrated that it may be of benefit to patients undergoing ovulation induction with gonadotropins in intrauterine insemination (IUI) cycl",
+  "eligibility_table": [
+    {
+      "criterion": "<38 years of age with either primary or secondary infertility for at least 1 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old, which is under the age limit of 38 years, and has a history of infertility.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "body mass index between 19 and 30 kg/m2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's body mass index (BMI) is not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's body mass index (BMI) between 19 and 30 kg/m²?"
+    },
+    {
+      "criterion": "body mass index between 19 and 30 kg/m2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's body mass index (BMI) is not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's body mass index (BMI) between 19 and 30 kg/m²?"
+    },
+    {
+      "criterion": "Day 2 serum FSH <15 IU/ml",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Day 2 serum FSH level is not provided, so we cannot determine if it is <15 IU/ml.",
+      "clinical_question": "Is the patient's Day 2 serum FSH level <15 IU/ml?"
+    },
+    {
+      "criterion": "normal serum prolactin level",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Normal serum prolactin level is not provided, so we cannot assess this criterion.",
+      "clinical_question": "Is the patient's serum prolactin level ≤25 ng/mL?"
+    },
+    {
+      "criterion": "normal uterine cavity on hysterosalpingography or hysteroscopy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on uterine cavity status from hysterosalpingography or hysteroscopy is provided.",
+      "clinical_question": "Has the patient undergone hysterosalpingography or hysteroscopy to confirm a normal uterine cavity?"
+    },
+    {
+      "criterion": "female partners with previous ovarian surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding any previous ovarian surgery.",
+      "clinical_question": "Has the patient undergone any previous ovarian surgeries, including cystectomies or oophorectomies?"
+    },
+    {
+      "criterion": "female partners with one ovary",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the presence of one ovary.",
+      "clinical_question": "Does the patient have a history of surgical removal of one ovary?"
+    },
+    {
+      "criterion": "female partners with polycystic ovaries on ultrasound examination",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No ultrasound examination results are provided to assess for polycystic ovaries.",
+      "clinical_question": "Does the patient have a polycystic ovary morphology on ultrasound examination?"
+    },
+    {
+      "criterion": "female partners with other endocrine abnormalities (i.e., polycystic ovarian syndrome, thyroid disorders, hyperprolactinemia, hypogonadotropic hypogonadism)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding other endocrine abnormalities.",
+      "clinical_question": "Does the patient have a diagnosis of polycystic ovarian syndrome, thyroid disorders, hyperprolactinemia, or hypogonadotropic hypogonadism?"
+    },
+    {
+      "criterion": "female partners with diminished ovarian reserve (basal FSH level >15 IU/mL)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's basal FSH level is not provided, making it unclear if she meets the exclusion criterion for diminished ovarian reserve.",
+      "clinical_question": "Is the patient's basal FSH level greater than 15 IU/mL?"
+    },
+    {
+      "criterion": "female partners with age of >38 years",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old, which is below the exclusion age of 38 years.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: female partners with previous ovarian surgery",
+    "EXCLUSION UNCLEAR: female partners with one ovary",
+    "EXCLUSION UNCLEAR: female partners with polycystic ovaries on ultrasound examination",
+    "EXCLUSION UNCLEAR: female partners with other endocrine abnormalities (i.e., polycystic ovarian syn",
+    "EXCLUSION UNCLEAR: female partners with diminished ovarian reserve (basal FSH level >15 IU/mL)",
+    "LOW INCLUSION MATCH: only 1 of 6 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1667
+}

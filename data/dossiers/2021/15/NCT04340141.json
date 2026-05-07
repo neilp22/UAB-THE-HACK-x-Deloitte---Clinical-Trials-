@@ -1,0 +1,168 @@
+{
+  "nct_id": "NCT04340141",
+  "trial_title": "Testing the Use of the Usual Chemotherapy Before and After Surgery for Removable Pancreatic Cancer",
+  "phase": "PHASE3",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "This phase III trial compares perioperative chemotherapy (given before and after surgery) versus adjuvant chemotherapy (given after surgery) for the treatment of pancreatic cancer that can be removed by surgery (removable/resectable). Chemotherapy drugs, such as fluorouracil, irinotecan, leucovorin, and oxaliplatin, work in different ways to stop the growth of tumor cells, either by killing the cells, by stopping them from dividing, or by stopping them from spreading. Giving chemotherapy before ",
+  "eligibility_table": [
+    {
+      "criterion": "Histologic or cytologic proof of pancreatic adenocarcinoma or adenosquamous carcinoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of pancreatic adenocarcinoma, which provides histologic proof.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Tx-4, N0-1, M0 (M0 disease does not include spread to distant lymph nodes and organs)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The staging information (Tx-4, N0-1, M0) is not provided in the profile, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient have a clinical staging of Tx-4, N0-1, M0 based on imaging and pathology results?"
+    },
+    {
+      "criterion": "Local radiographic reading must be consistent with resectable disease defined as the following on 1) arterial and venous phase contrast-enhanced abdominal/pelvic CT scan or abdominal/pelvic magnetic resonance imaging (MRI) scan and 2) chest CT",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values or imaging results are provided to confirm if the disease is resectable based on imaging criteria.",
+      "clinical_question": "Does the patient's abdominal/pelvic CT or MRI scan show no evidence of vascular invasion or distant metastasis, indicating resectable pancreatic adenocarcinoma?"
+    },
+    {
+      "criterion": "No involvement or abutment of the celiac artery, common hepatic artery, superior mesenteric artery, or replaced right hepatic artery (if applicable)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the involvement or abutment of major arteries, making it uncertain.",
+      "clinical_question": "Does the imaging report indicate that there is no involvement or abutment of the celiac artery, common hepatic artery, superior mesenteric artery, or replaced right hepatic artery?"
+    },
+    {
+      "criterion": "Less than 180 degree interface between tumor and vessel wall of the portal vein or superior mesenteric vein, and patent portal vein/splenic vein confluence",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not provide details on the interface between the tumor and vessel wall, nor the status of the portal vein.",
+      "clinical_question": "Is the angle between the tumor and the vessel wall of the portal vein or superior mesenteric vein less than 180 degrees?"
+    },
+    {
+      "criterion": "No evidence of metastatic disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any evidence of metastatic disease based on imaging studies conducted within the last 3 months?"
+    },
+    {
+      "criterion": "Measurable disease or non-measurable disease o Non-measurable disease is defined as cytologic or histologic confirmation of adenocarcinoma of adenosquamous carcinoma by fine needle aspiration or core-biopsy of the pancreas without measurable disease by radiographic imaging",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has histologic confirmation of adenocarcinoma, which meets the non-measurable disease criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Confirmation of resectable disease by real-time central imaging review by the Alliance Imaging Core Lab at Imaging and Radiation Oncology Core (IROC) Ohio",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on whether the disease has been confirmed as resectable by the required imaging review.",
+      "clinical_question": "Has the patient undergone a real-time central imaging review confirming resectable pancreatic adenocarcinoma by the Alliance Imaging Core Lab?"
+    },
+    {
+      "criterion": "Determined to be appropriate candidate for curative-intent pancreatectomy by surgeon intending to perform the resection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate whether the surgeon has determined the patient to be an appropriate candidate for surgery.",
+      "clinical_question": "Is the patient's estimated glomerular filtration rate (eGFR) ≥ 60 mL/min to ensure safe administration of chemotherapy?"
+    },
+    {
+      "criterion": "No prior radiation therapy, chemotherapy, targeted therapy, investigational therapy, or surgery for pancreatic cancer",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any prior treatment for pancreatic cancer, including radiation therapy, chemotherapy, targeted therapy, investigational therapy, or surgery?"
+    },
+    {
+      "criterion": "Not pregnant and not nursing, because this study involves an agent that has known genotoxic, mutagenic, and teratogenic effects.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is female and there is no indication of pregnancy or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Therefore, for women of childbearing potential only, a negative pregnancy test done =\\< 14 days prior to registration is required",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding a recent pregnancy test, which is required for women of childbearing potential.",
+      "clinical_question": "Has the patient had a negative pregnancy test done ≤14 days prior to registration?"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status 0-1",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status score of 0 or 1?"
+    },
+    {
+      "criterion": "Total Neuropathy Score < 2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's Total Neuropathy Score currently less than 2?"
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) >= 1,500/uL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count (ANC) currently ≥ 1,500/uL?"
+    },
+    {
+      "criterion": "Platelet count >= 100,000/uL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count ≥ 100,000/uL?"
+    },
+    {
+      "criterion": "Total bilirubin =\\< 1.5 x upper limit of normal (ULN) (If obstructive jaundice is present, then biliary drainage must be initiated and total bilirubin =\\< 3.0)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Total bilirubin levels are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "What is the patient's total bilirubin level?"
+    },
+    {
+      "criterion": "Creatinine =\\< 1.5 x ULN OR calculated (Calc.) creatinine clearance >= 30 mL/min (Calculated using the Cockcroft-Gault equation)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Creatinine level is 2.1, which exceeds the 1.5 x ULN threshold.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No known Gilbert's Syndrome or known homozygosity for UGAT1A1*28 polymorphism",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding Gilbert's Syndrome or UGAT1A1*28 polymorphism.",
+      "clinical_question": "Does the patient have a known homozygosity for the UGAT1A1*28 polymorphism based on genetic testing results?"
+    },
+    {
+      "criterion": "No comorbid conditions that would prohibit curative-intent pancreatectomy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The presence of pancreatic adenocarcinoma and chronic kidney disease may prohibit curative-intent pancreatectomy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic concomitant treatment with strong inhibitors of CYP3A4 is not allowed on this study. Patients on strong CYP3A4 inhibitors must discontinue the drug prior to registration",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is currently on Zosyn and Ceftriaxone, which may include strong CYP3A4 inhibitors.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic concomitant treatment with strong inducers of CYP3A4 is not allowed on this study. Patients on strong CYP3A4 inducers must discontinue the drug prior to registration",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the use of strong CYP3A4 inducers.",
+      "clinical_question": "Has the patient been treated with any strong CYP3A4 inducers in the past 30 days?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 3 of 22 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2727
+}

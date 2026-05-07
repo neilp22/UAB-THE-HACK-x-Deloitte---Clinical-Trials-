@@ -1,0 +1,85 @@
+{
+  "nct_id": "NCT00949741",
+  "trial_title": "Observational Study for the Cytofluorimetric Analysis of Cerebrospinal Fluid in Non-Hodgkin's Lymphoma Patients",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is to define if flow cytometry has more sensitivity for detecting neoplastic cells in cerebrospinal fluid versus conventional cytology.",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosis of",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is diagnosed with Burkitt's lymphoma, which is a type of lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse large cell lymphoma HIV positive,",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, not Diffuse Large Cell Lymphoma (DLCL), and HIV status is unknown.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lymphoblastic lymphoma,",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, not Lymphoblastic lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Burkitt's lymphoma,",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of Burkitt's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mantle cell lymphoma blastoid type.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, not Mantle cell lymphoma blastoid type.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "DLCL patients who presented one risk factor for leptomeningeal involvement as:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "This criterion applies specifically to DLCL patients; the patient has Burkitt's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "testis, bone marrow, orbit, palate, paranasal cavity or peridural disease localization,",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "While a bone marrow biopsy was performed, the results indicating disease localization in the bone marrow or other specified sites are not provided.",
+      "clinical_question": "Does the patient have evidence of testis, bone marrow, orbit, palate, paranasal cavity, or peridural disease localization as determined by imaging or biopsy results?"
+    },
+    {
+      "criterion": "2-3 age-adjusted IPI score with more than 1 extranodal site and LDH \\> normal.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "LDH levels and other components required to calculate the age-adjusted IPI score are not available in the profile.",
+      "clinical_question": "Does the patient have an age-adjusted IPI score of 2-3 with more than 1 extranodal site and an LDH level greater than the normal range?"
+    },
+    {
+      "criterion": "Patients with cytologic and flow cytometry on cerebrospinal fluid at diagnosis.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "A lumbar puncture was performed, but the specific results of cytologic and flow cytometry analysis of the CSF at diagnosis are not documented.",
+      "clinical_question": "Does the cerebrospinal fluid analysis show ≥5 atypical lymphoid cells per microliter consistent with Non-Hodgkin's lymphoma?"
+    },
+    {
+      "criterion": "1\\. Patients with clinical or strumental evidence of meningeal localization disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of meningitis and CSF leak, but it is unclear if there is clinical or instrumental evidence of lymphomatous meningeal localization.",
+      "clinical_question": "Does the patient have clinical or instrumental evidence of meningeal localization disease, as indicated by the presence of malignant cells in the cerebrospinal fluid (CSF) or imaging studies showing leptomeningeal enhancement?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: 1\\. Patients with clinical or strumental evidence of meningeal localization dise",
+    "LOW INCLUSION MATCH: only 2 of 9 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6
+}

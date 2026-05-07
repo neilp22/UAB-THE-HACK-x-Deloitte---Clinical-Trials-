@@ -1,0 +1,170 @@
+{
+  "nct_id": "NCT03702244",
+  "trial_title": "The PRECISE Protocol: Prospective Randomized Trial of the Optimal Evaluation of Cardiac Symptoms and Revascularization",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "The study will be a prospective, pragmatic, randomized clinical trial of the comparative effectiveness of diagnostic evaluation strategies for stable CAD, to be performed in outpatient settings, including primary care and cardiology practices.",
+  "eligibility_table": [
+    {
+      "criterion": "Age ≥18 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Does the patient have a documented age of ≥18 years?"
+    },
+    {
+      "criterion": "Stable typical or atypical symptoms suggesting possible significant coronary artery disease (CAD) with further non-emergent testing or elective catheterization recommended to evaluate the presence of suspected significant CAD. Stable chest pain (or equivalent) includes those who have fully been ruled out for Acute Coronary Syndrome (ACS) and for whom elective testing is recommended, regardless of the venue in which they are seen.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has stable symptoms and has been ruled out for ACS, making them eligible for elective testing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "If prior CV testing has occurred, it must have been performed greater than one year prior to randomization, and the following must be met:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about prior CV testing dates, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient undergone any cardiovascular testing within the last year prior to randomization?"
+    },
+    {
+      "criterion": "cCTA or invasive coronary angiography (ICA) with stenosis < 50%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No details on the results of cCTA or ICA stenosis are provided, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Does the patient have a coronary artery stenosis of < 50% as determined by cCTA or invasive coronary angiography?"
+    },
+    {
+      "criterion": "Quantified coronary artery calcium (CAC) < 100 AG",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's coronary artery calcium score is not provided, making it impossible to assess this criterion.",
+      "clinical_question": "What is the quantified coronary artery calcium (CAC) score for this patient, and is it less than 100 AG?"
+    },
+    {
+      "criterion": "Safe performance of cCTA:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's ability to safely perform cCTA.",
+      "clinical_question": "Is the patient's estimated glomerular filtration rate (eGFR) ≥60 mL/min to safely perform a coronary computed tomography angiography (cCTA)?"
+    },
+    {
+      "criterion": "Creatinine clearance ≥45 ml/min per most recent measurement within 90 days",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's most recent creatinine clearance measurement ≥45 ml/min within the last 90 days?"
+    },
+    {
+      "criterion": "For a female participant of childbearing potential (those who have not been surgically sterilized or are not postmenopausal), a pregnancy test must be performed with negative results known within 7 days prior to randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion does not apply.",
+      "clinical_question": "Has a pregnancy test been performed for this male participant within the last 7 days, and what were the results?"
+    },
+    {
+      "criterion": "Willingness to comply with all aspects of the protocol, including adherence to the assigned strategy and follow-up visits",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of compliance with medical protocols, suggesting willingness to adhere to the study protocol.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Acute chest pain (in patients who have not been ruled out for ACS)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of prior CVA, which indicates potential acute chest pain risk.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unstable clinical status",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's multiple comorbidities suggest an unstable clinical status.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Noninvasive or invasive CV testing for CAD within 1 year. CV testing for CAD refers to any stress tests, invasive coronary angiography (ICA) and cCTA (including calcium scoring) only.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone CABG and other procedures, indicating recent invasive CV testing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Resting ECG, resting echocardiogram and resting CMR (MRI) are not exclusionary regardless of when were performed",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "Resting ECG, echocardiogram, and CMR are not exclusionary regardless of when performed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lifetime history of known obstructive CAD (prior myocardial infarction, CABG or PCI, stenosis ≥50%), known EF ≤40% or other moderate to severe valvular or congenital cardiac disease",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a lifetime history of known obstructive CAD (CABG) and an EF of 60%, which does not meet the exclusion criteria of EF ≤40%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Contraindications to cCTA including but not limited to creatinine clearance (GFR) <45 ml/min as per most recent measurement taken within 90 days",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's most recent creatinine clearance (GFR) measurement within the last 90 days?"
+    },
+    {
+      "criterion": "Exceeds the site's weight or size limit for cCTA or cardiac catheterization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the patient's weight or size in relation to the site's limits for cCTA or cardiac catheterization.",
+      "clinical_question": "Does the patient's body weight exceed the site's limit of 300 pounds for cCTA or cardiac catheterization?"
+    },
+    {
+      "criterion": "Any condition leading to possible inability to comply with the protocol procedures or follow-up",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has multiple comorbidities (e.g., diabetes with retinopathy, peripheral neuropathy, anemia) that may lead to inability to comply with protocol procedures or follow-up.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any condition that might interfere with the study procedures or follow-up",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient's multiple conditions (e.g., CAD, diabetes, PVD) may interfere with study procedures or follow-up.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to provide written informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is capable of providing written informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Enrolled in an investigational trial that involves a non-approved cardiac drug or device which has not reached its primary endpoint",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about enrollment in any investigational trial involving non-approved cardiac drugs or devices.",
+      "clinical_question": "Has the patient been enrolled in a trial involving a non-approved cardiac drug or device that has not yet reached its primary endpoint?"
+    },
+    {
+      "criterion": "Life expectancy less than 2 years due to non-cardiovascular comorbidities",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has multiple non-cardiovascular comorbidities that may reduce life expectancy below 2 years.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Acute chest pain (in patients who have not been ruled out for ACS)",
+    "EXCLUSION VIOLATED: Unstable clinical status",
+    "EXCLUSION VIOLATED: Noninvasive or invasive CV testing for CAD within 1 year. CV testing for CAD ref",
+    "EXCLUSION VIOLATED: Lifetime history of known obstructive CAD (prior myocardial infarction, CABG or ",
+    "EXCLUSION UNCLEAR: Contraindications to cCTA including but not limited to creatinine clearance (GFR",
+    "EXCLUSION UNCLEAR: Exceeds the site's weight or size limit for cCTA or cardiac catheterization",
+    "EXCLUSION VIOLATED: Any condition leading to possible inability to comply with the protocol procedur",
+    "EXCLUSION VIOLATED: Any condition that might interfere with the study procedures or follow-up",
+    "EXCLUSION UNCLEAR: Enrolled in an investigational trial that involves a non-approved cardiac drug o",
+    "EXCLUSION VIOLATED: Life expectancy less than 2 years due to non-cardiovascular comorbidities"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.5238
+}
