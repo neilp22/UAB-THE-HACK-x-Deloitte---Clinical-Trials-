@@ -229,6 +229,52 @@ class TestHelpers:
 
 
 # ---------------------------------------------------------------------------
+# Biomarker word-boundary and context restriction
+# ---------------------------------------------------------------------------
+
+class TestBiomarkerWordBoundary:
+    def test_biomarker_in_medication_list_not_detected(self):
+        """Biomarker appearing only in the medications list must not fire."""
+        profile = PatientProfile(
+            conditions=["breast cancer"],
+            medications=["metformin"],  # "met" only in medication, not conditions
+            prior_treatments=[],
+            relevant_history=[],
+        )
+        queries = plan_clinical_queries(profile, "patient with breast cancer")
+        biomarker_terms = [q.query for q in queries if "Biomarker" in q.reason]
+        assert "met" not in biomarker_terms
+
+    def test_exact_biomarker_word_in_conditions_detected(self):
+        """Biomarker as a standalone word in conditions text triggers a query."""
+        profile = PatientProfile(
+            conditions=["lung cancer", "EGFR mutation"],
+            medications=[],
+            prior_treatments=[],
+            relevant_history=[],
+        )
+        queries = plan_clinical_queries(profile, "patient with EGFR positive lung cancer")
+        biomarker_terms = [q.query for q in queries if "Biomarker" in q.reason]
+        assert "egfr" in biomarker_terms
+
+    def test_word_boundary_blocks_substring_match(self):
+        """'alk' must not be detected inside 'alkaline'; 'met' not inside 'metastatic'."""
+        profile = PatientProfile(
+            conditions=["elevated alkaline phosphatase", "metastatic colorectal cancer"],
+            medications=[],
+            prior_treatments=[],
+            relevant_history=[],
+        )
+        queries = plan_clinical_queries(
+            profile,
+            "patient with alkaline phosphatase elevation and metastatic disease",
+        )
+        biomarker_terms = [q.query for q in queries if "Biomarker" in q.reason]
+        assert "alk" not in biomarker_terms
+        assert "met" not in biomarker_terms
+
+
+# ---------------------------------------------------------------------------
 # Integration: build_queries_clinical returns NCT IDs for topic 1
 # ---------------------------------------------------------------------------
 
