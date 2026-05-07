@@ -18,6 +18,7 @@ import diskcache
 import requests
 
 from src.config import CACHE_DIR, CT_POLITE_DELAY
+from src.parsing.patient_normalizer import PatientProfile
 from src.retrieval.ct_client import search_trials
 
 logger = logging.getLogger(__name__)
@@ -223,3 +224,89 @@ def retrieve_candidates(
         len(merged), len(all_variants),
     )
     return merged
+
+
+def build_queries_clinical(
+    patient_text: str,
+    profile: PatientProfile,
+    max_candidates: int = 800,
+    per_query_limit: int = 200,
+    use_cache: bool = True,
+    cache: diskcache.Cache | None = None,
+) -> list[str]:
+    """
+    Retrieve NCT IDs using ClinicalQueryPlanner + MeSH expansion.
+
+    Combines structured clinical queries (condition/term) from the planner
+    with existing MeSH-expanded queries.  Deduplicates across both paths.
+
+    Returns up to max_candidates unique NCT IDs (strings, not dicts).
+    """
+    from src.retrieval.clinical_query_planner import plan_clinical_queries
+
+    if use_cache and cache is None:
+        cache = diskcache.Cache(str(CACHE_DIR / "query_builder"))
+
+    seen_nct: set[str] = set()
+    results: list[str] = []
+
+    def _fetch(query_cond: str | None, query_term: str | None) -> None:
+        remaining = max_candidates - len(results)
+        if remaining <= 0:
+            return
+        n = min(per_query_limit, remaining)
+        ck = f"cqb:{'c' if query_cond else 't'}:{query_cond or query_term}:n{n}"
+        if use_cache and cache is not None and cache.get(ck) is not None:
+            trials = cache[ck]
+        else:
+            try:
+                trials = search_trials(
+                    query_cond=query_cond,
+                    query_term=query_term,
+                    max_results=n,
+                )
+                time.sleep(CT_POLITE_DELAY)
+                if use_cache and cache is not None:
+                    cache[ck] = trials
+            except Exception as exc:
+                logger.warning("Clinical query failed (%s/%s): %s", query_cond, query_term, exc)
+                trials = []
+        for t in trials:
+            nct = t.get("nct_id", "")
+            if nct and nct not in seen_nct:
+                seen_nct.add(nct)
+                results.append(nct)
+
+    # Path 1: structured clinical queries from planner
+    specs = plan_clinical_queries(profile, patient_text, max_queries=12)
+    for spec in specs:
+        if len(results) >= max_candidates:
+            break
+        if spec.query_type == "condition":
+            words = spec.query.split()
+            # CT API hard limit: max 2 terms for query.cond
+            _fetch(query_cond=" ".join(words[:2]), query_term=None)
+        else:
+            # CT API hard limit: max 3 words for query.term (enforced by _clean_query)
+            _fetch(query_cond=None, query_term=spec.query)
+
+    # Path 2: MeSH expansion via existing retrieve_candidates
+    if profile.conditions and len(results) < max_candidates:
+        mesh_trials = retrieve_candidates(
+            conditions=profile.conditions,
+            max_total=max_candidates - len(results),
+            per_query_limit=per_query_limit,
+            use_cache=use_cache,
+            cache=cache,
+        )
+        for t in mesh_trials:
+            nct = t.get("nct_id", "")
+            if nct and nct not in seen_nct:
+                seen_nct.add(nct)
+                results.append(nct)
+
+    logger.info(
+        "build_queries_clinical: %d unique NCT IDs (planner+MeSH, cap=%d)",
+        len(results), max_candidates,
+    )
+    return results[:max_candidates]
