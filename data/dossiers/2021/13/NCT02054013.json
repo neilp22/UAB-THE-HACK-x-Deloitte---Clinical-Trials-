@@ -1,0 +1,165 @@
+{
+  "nct_id": "NCT02054013",
+  "trial_title": "Prostatic Artery Embolization vs. Conventional Transurethral Prostatectomy in the Treatment of Benign Prostatic Hyperplasia",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "Benign prostatic hyperplasia (BPH) is a prevalent entity, affecting over 50% of men older than 60 years. The clinical picture of the disease includes lower urinary tract symptoms such as interrupted and weak urinary stream, nocturia, urgency and leaking and even sexual dysfunction in some individuals. Medical therapy is usually the first-line treatment. However, the efficacy of drugs like alpha-blockers is limited, and as disease progresses more invasive treatment options have to be taken into c",
+  "eligibility_table": [
+    {
+      "criterion": "Men older than 40",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 62.0 > 40.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient must be a candidate for TURP",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of BPH suggests they may be a candidate for TURP, but further assessment is needed to confirm.",
+      "clinical_question": "Does the patient have a prostate volume of ≥30 mL and a maximum urinary flow rate of <10 mL/s?"
+    },
+    {
+      "criterion": "Refractory to medical therapy or patient is not willing to consider (further) medical treatment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of recurrent UTIs and other conditions indicating they may be refractory to medical therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient has a prostate size of at least 25 ml and not more than 80 ml, measured by ultrasound",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Prostate size is not provided; ultrasound measurement is needed to determine eligibility.",
+      "clinical_question": "What is the measured prostate size in milliliters as determined by ultrasound?"
+    },
+    {
+      "criterion": "IPSS ≥8",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have an International Prostate Symptom Score (IPSS) of ≥8?"
+    },
+    {
+      "criterion": "QoL ≥3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient reported a quality of life score of ≥3 on the validated assessment tool following treatment?"
+    },
+    {
+      "criterion": "Qmax<12 and/or urinary retention",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Qmax is not provided; further assessment is required to evaluate urinary retention.",
+      "clinical_question": "Does the patient have a Qmax value of less than 12 mL/s?"
+    },
+    {
+      "criterion": "Written informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient can provide informed consent despite their medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mild symptoms (IPSS <8)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have an International Prostate Symptom Score (IPSS) of less than 8?"
+    },
+    {
+      "criterion": "Severe atherosclerosis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the presence or severity of atherosclerosis; further evaluation needed.",
+      "clinical_question": "Does the patient have a documented history of coronary artery disease or peripheral vascular disease, or has he undergone any imaging studies that indicate the presence of severe atherosclerosis?"
+    },
+    {
+      "criterion": "Severe tortuosity in the aortic bifurcation or internal iliac arteries",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the condition of the aortic bifurcation or iliac arteries; further evaluation needed.",
+      "clinical_question": "Does the patient have a documented imaging study that shows severe tortuosity in the aortic bifurcation or internal iliac arteries?"
+    },
+    {
+      "criterion": "Acontractile detrusor",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on detrusor contractility; further assessment is required.",
+      "clinical_question": "Does the patient exhibit a detrusor contraction pressure of <10 cm H2O during urodynamic testing?"
+    },
+    {
+      "criterion": "Neurogenic lower urinary tract dysfunction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on neurogenic lower urinary tract dysfunction; further evaluation needed.",
+      "clinical_question": "Does the patient have a documented history of neurogenic lower urinary tract dysfunction as defined by the presence of detrusor overactivity or underactivity on urodynamic studies?"
+    },
+    {
+      "criterion": "Urethral stenosis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on urethral stenosis; further assessment is required.",
+      "clinical_question": "Has the patient experienced urethral stenosis requiring intervention within 12 months following either prostatic artery embolization or conventional transurethral prostatectomy?"
+    },
+    {
+      "criterion": "Bladder diverticulum",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a neurogenic bladder, but there is no specific mention of a bladder diverticulum in the provided profile.",
+      "clinical_question": "Does the patient have a bladder diverticulum as confirmed by imaging studies such as ultrasound or CT scan?"
+    },
+    {
+      "criterion": "Bladder stone with surgical indication",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the presence of bladder stones or any surgical indications for them in the patient's profile.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of bladder stones requiring surgical intervention as indicated by imaging studies?"
+    },
+    {
+      "criterion": "Allergy to intravenous contrast media",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient’s profile does not indicate any known allergies to intravenous contrast media.",
+      "clinical_question": "Does the patient have a documented allergy to intravenous contrast media?"
+    },
+    {
+      "criterion": "Contraindication for MRI imaging",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any contraindications for MRI imaging in the patient's medical history.",
+      "clinical_question": "Does the patient have any implanted devices or metallic foreign bodies that would contraindicate an MRI?"
+    },
+    {
+      "criterion": "Preinterventionally proven adenocarcinoma of the prostate",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a documented diagnosis of adenocarcinoma of the prostate in the provided conditions.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of adenocarcinoma of the prostate based on a biopsy performed within the last 12 months?"
+    },
+    {
+      "criterion": "Renal failure (GFR<60ml/min)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current estimated glomerular filtration rate (GFR) in ml/min?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Mild symptoms (IPSS <8)",
+    "EXCLUSION UNCLEAR: Severe atherosclerosis",
+    "EXCLUSION UNCLEAR: Severe tortuosity in the aortic bifurcation or internal iliac arteries",
+    "EXCLUSION UNCLEAR: Acontractile detrusor",
+    "EXCLUSION UNCLEAR: Neurogenic lower urinary tract dysfunction",
+    "EXCLUSION UNCLEAR: Urethral stenosis",
+    "EXCLUSION UNCLEAR: Bladder diverticulum",
+    "EXCLUSION UNCLEAR: Bladder stone with surgical indication",
+    "EXCLUSION UNCLEAR: Allergy to intravenous contrast media",
+    "EXCLUSION UNCLEAR: Contraindication for MRI imaging",
+    "EXCLUSION UNCLEAR: Preinterventionally proven adenocarcinoma of the prostate",
+    "EXCLUSION UNCLEAR: Renal failure (GFR<60ml/min)"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.15
+}

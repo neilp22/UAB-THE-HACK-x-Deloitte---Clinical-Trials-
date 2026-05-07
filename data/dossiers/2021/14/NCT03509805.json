@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT03509805",
+  "trial_title": "Sleep Apnea Syndrome in Obese Women During Pregnancy",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "Excess weight or obesity is associated with an increased risk of health disorders: high blood pressure, diabetes, cardiovascular risks, dyslipidemia and sleep apneas. During pregnancy in obese women, the risk of preeclampsia increases by three and the risk of fetal death in utero by five. Snoring and Obstructive sleep apnea (OSA) may be associated with increased risk of adverse pregnancy outcomes, including maternal cardio pulmonary status, fetal heart rate and fetal acidosis-basis status by rec",
+  "eligibility_table": [
+    {
+      "criterion": "age >18 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient currently over the age of 18 years?"
+    },
+    {
+      "criterion": "BMI > 35",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a BMI greater than 35?"
+    },
+    {
+      "criterion": "> 24th weeks of pregnancy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not pregnant, therefore cannot be 24 weeks or more into a pregnancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can provide informed consent as there is no indication of incapacity to do so.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "health assurance",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient appears to have health assurance based on the medications and treatments listed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "no informed consent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "While the patient can provide informed consent, the criterion is specifically about exclusion, which is not applicable here.",
+      "clinical_question": "Has the patient provided informed consent for participation in the study on Sleep Apnea Syndrome in Obese Women During Pregnancy?"
+    },
+    {
+      "criterion": "twin pregnancy or more",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not pregnant with twins or more, but this criterion is not applicable as it is an exclusion.",
+      "clinical_question": "Does the patient have a confirmed twin pregnancy or more as evidenced by ultrasound findings?"
+    },
+    {
+      "criterion": "no health assurance",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has health assurance, but this criterion is an exclusion, which is not applicable here.",
+      "clinical_question": "Has the patient been assessed for health assurance coverage for treatment of sleep apnea syndrome during pregnancy?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: no informed consent",
+    "EXCLUSION UNCLEAR: twin pregnancy or more",
+    "EXCLUSION UNCLEAR: no health assurance"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.375
+}

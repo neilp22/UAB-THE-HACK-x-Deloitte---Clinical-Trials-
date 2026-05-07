@@ -1,0 +1,112 @@
+{
+  "nct_id": "NCT03370926",
+  "trial_title": "FET-PET and Multiparametric MRI for High-grade Glioma Patients Undergoing Radiotherapy",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "Glioblastoma is the most common malignant brain tumor in adults. The primary treatment consists of maximal tumor removal followed by radiotherapy (RT) with concomitant and adjuvant temozolomide. Tumor recurrence after chemoradiotherapy has previously been shown to be predominantly within or at the margin of the irradiated volume, but distant failure are not rare, especially in patients with MGMT methylation.Traditionally, RT has been planned based on on planning CT with co-registered postoperati",
+  "eligibility_table": [
+    {
+      "criterion": "18 Years or older",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Histologically confirmed newly diagnosed glioblastoma or anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a histologically confirmed diagnosis of anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have undergone surgery with macroscopic complete resection or incomplete resection with residual disease less than 5 cm on MRI",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has an unresectable tumor and has not undergone surgery with complete or incomplete resection.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "An MRI or a scan 48h after surgery should be available",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about an MRI or scan performed 48 hours after surgery.",
+      "clinical_question": "Was an MRI or scan performed on the patient within 48 hours after surgery?"
+    },
+    {
+      "criterion": "WHO ≤ 2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Karnofsky Performance Status score of ≥60?"
+    },
+    {
+      "criterion": "Indication for adjuvant radiotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely to require adjuvant radiotherapy due to the nature of the tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery must have been performed 45 days before the start of radiotherapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the timing of surgery relative to the start of radiotherapy.",
+      "clinical_question": "Was the patient's surgery performed exactly 45 days or more before the start of radiotherapy?"
+    },
+    {
+      "criterion": "Ability to understand and to give consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 45 years old and can likely understand and give consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age < 18 Years.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 < 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior radiation therapy to the brain",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has received prior radiation therapy to the brain.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any usual formal indication against MRI (claustrophobia, metallic objects or implanted medical devices in body: pacemaker, clips, prostheses ...)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no information suggesting any contraindications for MRI.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Allergic reaction to FET",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of an allergic reaction to FET.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnant women or nursing mothers",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Refusal to use effective contraception at study entry and throughout the study if patient is of childbearing age.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is a 45-year-old male, which typically does not require contraception considerations. Therefore, the criterion is not applicable.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a hormonal implant, IUD, or sterilization, at study entry and throughout the study?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Refusal to use effective contraception at study entry and throughout the study i"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.7143
+}

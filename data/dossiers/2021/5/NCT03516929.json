@@ -1,0 +1,163 @@
+{
+  "nct_id": "NCT03516929",
+  "trial_title": "Assessment of Carotid Artery Stenosis and Lower Limb Peripheral Ischemia Prior to CABG",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "From our experience among Egyptian population in our institution, there is an increased prevalence of hidden subclinical peripheral artery disease along with carotid artery affection. Thus, increasing the risk of post-operative morbid complications.We aim to evaluate routine/ non-selective carotid and peripheral arterial screening in asymptomatic patients undergoing coronary artery bypass grafting in the Egyptian populationIt is a prospective, non-randomized, comparative study including two grou",
+  "eligibility_table": [
+    {
+      "criterion": "The acceptance of the patients to participate in the study in the form of a written consent.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information on whether the patient has accepted to participate in the study or provided written consent.",
+      "clinical_question": "Has the patient provided a signed written consent form to participate in the study?"
+    },
+    {
+      "criterion": "Patients of both sexes.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Cannot identify target gender from criterion text",
+      "clinical_question": "Does the patient have a documented carotid artery stenosis of ≥70% in either carotid artery?"
+    },
+    {
+      "criterion": "Three vessels disease for CABG.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of Coronary Artery Bypass Grafting (CABG) which typically indicates three vessels disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients' age: from 35 to 75 years old.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's age is not specified in the profile, making it unclear if he falls within the required age range.",
+      "clinical_question": "Does the patient have a carotid artery stenosis of ≥70% in either carotid artery?"
+    },
+    {
+      "criterion": "Elective, isolated, primary cases of CABG.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify if the CABG was elective, isolated, or primary.",
+      "clinical_question": "Does the patient have a documented assessment of carotid artery stenosis showing ≥70% stenosis in either internal carotid artery prior to the elective CABG?"
+    },
+    {
+      "criterion": "Patients with ejection fraction above 40%.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's ejection fraction is 60%, which is above the required threshold of 40%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Inclusion criteria for the high-risk group will include:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The specific criteria for the high-risk group are not detailed in the profile.",
+      "clinical_question": "Does the patient have ≥70% stenosis in both carotid arteries?"
+    },
+    {
+      "criterion": "Patients with preoperative history of cerebrovascular events or symptoms suggestive of CVS eg.TIA, transient blindness in one eye, Dizziness, Confusion, Drowsiness, Headache, Temporary inability to speak or move.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a prior cerebrovascular accident (CVA), which qualifies as a preoperative history of cerebrovascular events.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Carotid bruit",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient exhibit a carotid bruit upon auscultation of the carotid arteries?"
+    },
+    {
+      "criterion": "Left main stem coronary artery disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have ≥50% stenosis in the left main stem coronary artery?"
+    },
+    {
+      "criterion": "Presence of other peripheral vascular disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a history of significant peripheral artery disease defined as ≥50% stenosis in any major lower limb artery?"
+    },
+    {
+      "criterion": "Patients refusing to participate in the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate whether the patient is refusing to participate in the study.",
+      "clinical_question": "Has the patient explicitly stated a refusal to participate in the study after being informed of the risks and benefits?"
+    },
+    {
+      "criterion": "Age 76 years or above",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Does the patient have a documented carotid artery stenosis of ≥70% in either carotid artery?"
+    },
+    {
+      "criterion": "Morbid obese patients (body mass index more than 35).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's body mass index (BMI) is not provided, so it is unclear if he is morbidly obese.",
+      "clinical_question": "Is the patient's body mass index (BMI) greater than 35?"
+    },
+    {
+      "criterion": "Patients who underwent coronary stenting before.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone coronary stenting prior to the assessment of carotid artery stenosis and lower limb peripheral ischemia?"
+    },
+    {
+      "criterion": "Patients who underwent previous cardiac operation before.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone any previous cardiac operations, specifically any prior Coronary Artery Bypass Grafting (CABG) procedures?"
+    },
+    {
+      "criterion": "Patients with impaired renal functions (serum creatinine > 1.5 mg/dl, blood urea > 100 mg/dl and K+ > 5 meq/L).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not provide serum creatinine, blood urea, or potassium levels, making it impossible to assess renal function.",
+      "clinical_question": "Is the patient's serum creatinine level greater than 1.5 mg/dl?"
+    },
+    {
+      "criterion": "Patients with preoperative hemoglobin < 9 gm/dl, white blood cells > 15,000 cells/mcl, platelets count < 140,000 per microliter.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's hemoglobin level is not provided, making it unclear if it meets the criterion of being >= 9 gm/dl. Therefore, the eligibility is indeterminate.",
+      "clinical_question": "Is the patient's preoperative hemoglobin level < 9 gm/dl?"
+    },
+    {
+      "criterion": "Patients with rhythm defects by electrocardiography (ECG).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any documented rhythm defects on their most recent electrocardiogram (ECG)?"
+    },
+    {
+      "criterion": "Patients with preoperative O2 saturation < 90 % by pulse oximetry.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's O2 saturation level is not provided, so it is unknown if it meets the criterion of being >= 90%. Thus, the eligibility is indeterminate.",
+      "clinical_question": "Is the patient's preoperative oxygen saturation level measured by pulse oximetry < 90%?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients refusing to participate in the study.",
+    "EXCLUSION UNCLEAR: Age 76 years or above",
+    "EXCLUSION UNCLEAR: Morbid obese patients (body mass index more than 35).",
+    "EXCLUSION UNCLEAR: Patients who underwent coronary stenting before.",
+    "EXCLUSION UNCLEAR: Patients who underwent previous cardiac operation before.",
+    "EXCLUSION UNCLEAR: Patients with impaired renal functions (serum creatinine > 1.5 mg/dl, blood urea",
+    "EXCLUSION UNCLEAR: Patients with preoperative hemoglobin < 9 gm/dl, white blood cells > 15,000 cell",
+    "EXCLUSION UNCLEAR: Patients with rhythm defects by electrocardiography (ECG).",
+    "EXCLUSION UNCLEAR: Patients with preoperative O2 saturation < 90 % by pulse oximetry.",
+    "LOW INCLUSION MATCH: only 3 of 11 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.15
+}

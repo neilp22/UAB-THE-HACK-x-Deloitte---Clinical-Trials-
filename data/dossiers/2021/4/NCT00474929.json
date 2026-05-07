@@ -1,0 +1,420 @@
+{
+  "nct_id": "NCT00474929",
+  "trial_title": "Sorafenib and Everolimus in Treating Patients With Relapsed or Refractory Lymphoma or Multiple Myeloma",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Sorafenib and everolimus may stop the growth of cancer cells by blocking blood flow to the cancer and by blocking some of the enzymes needed for cell growth.\n\nPURPOSE: This phase I/II trial is studying the side effects and best dose of sorafenib and everolimus and to see how well they work in treating patients with relapsed or refractory non-Hodgkin's lymphoma, Hodgkin's lymphoma, or multiple myeloma.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically confirmed diagnosis of multiple myeloma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, not multiple myeloma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Histologically or cytologically confirmed diagnosis of Non-Hodgkin's lymphoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a histologically confirmed diagnosis of Burkitt's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Histologically or cytologically confirmed diagnosis of Hodgkin's lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Histologically or cytologically confirmed diagnosis of relapsed or refractory disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma but there is no indication of relapsed or refractory disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Measurable disease, as defined according to diagnosis as follows: Multiple myeloma, meeting 1 of the following criteria:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have multiple myeloma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serum monoclonal protein ≥ 1.0 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a serum monoclonal protein level of ≥1.0 g/dL?"
+    },
+    {
+      "criterion": "Urine monoclonal protein ≥ 200 mg by 24-hour electrophoresis",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a urine monoclonal protein level of ≥200 mg as measured by 24-hour electrophoresis?"
+    },
+    {
+      "criterion": "Serum immunoglobulin free light chain ≥ 10 mg/dL AND abnormal serum immunoglobulin kappa to lambda free light chain ratio",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have multiple myeloma and therefore cannot meet this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Monoclonal bone marrow plasmacytosis ≥ 30% (evaluable disease)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have multiple myeloma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lymphoma, meeting 1 of the following criteria:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has measurable disease with a cardiac mass consistent with Burkitt's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Measurable disease by CT scan or MRI or PET/CT scan, defined as ≥ 1 lesion that has a single diameter of ≥ 2 cm OR tumor cells in the blood ≥ 5 x10^9/L",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have tumor cells in the blood or lesions defined by the criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Skin lesions can be used if the area is ≥ 2 cm in ≥ 1 diameter and photographed with a ruler",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about skin lesions.",
+      "clinical_question": "Is there a skin lesion present on the patient that measures ≥2 cm in at least one diameter and has been photographed with a ruler?"
+    },
+    {
+      "criterion": "Lymphoplasmacytic lymphoma without measurable lymphadenopathy, meeting both of the following criteria:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which does not meet the inclusion criterion for lymphoplasmacytic lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Bone marrow lymphoplasmacytosis with > 10% lymphoplasmacytic cells or aggregates, sheets, lymphocytes, plasma cells, or lymphoplasmacytic cells on bone marrow biopsy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No bone marrow biopsy results provided to assess lymphoplasmacytosis.",
+      "clinical_question": "Does the patient's bone marrow biopsy show ≥10% lymphoplasmacytic cells or aggregates, sheets, lymphocytes, plasma cells, or lymphoplasmacytic cells?"
+    },
+    {
+      "criterion": "Quantitative IgM monoclonal protein > 1,000 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess quantitative IgM monoclonal protein levels.",
+      "clinical_question": "Is the patient's quantitative IgM monoclonal protein level greater than 1,000 mg/dL?"
+    },
+    {
+      "criterion": "Not a candidate for known standard potentially curative therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has multiple prior treatments indicating they may not be candidates for standard curative therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ECOG performance status 0-2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "ECOG performance status is not provided.",
+      "clinical_question": "Does the patient have an ECOG performance status score of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Life expectancy ≥ 12 weeks",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Given the patient's complex medical history, a life expectancy of at least 12 weeks is likely.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ANC ≥ 1,500/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count (ANC) ≥ 1,500/mm³?"
+    },
+    {
+      "criterion": "Hemoglobin ≥ 9 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current hemoglobin level ≥ 9 g/dL?"
+    },
+    {
+      "criterion": "Platelet count ≥ 75,000/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count ≥ 75,000/mm³?"
+    },
+    {
+      "criterion": "Bilirubin ≤ 1.5 times upper limit of normal (ULN) OR direct bilirubin normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 times the upper limit of normal (ULN) or is the direct bilirubin level normal?"
+    },
+    {
+      "criterion": "AST ≤ 3 times ULN (5 times ULN if liver involvement)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "AST levels are not provided.",
+      "clinical_question": "Is the patient's AST level ≤ 3 times the upper limit of normal (ULN) given her current liver function tests?"
+    },
+    {
+      "criterion": "Creatinine ≤ 2.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine levels are not provided.",
+      "clinical_question": "Is the patient's serum creatinine level ≤ 2.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "INR < 1.5 or activated PTT < 1.5 times ULN (no concurrent anticoagulants)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "INR or activated PTT levels are not provided.",
+      "clinical_question": "Is the patient's INR less than 1.5 or activated PTT less than 1.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not pregnant or nursing, as there is no indication of pregnancy in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient had a negative serum or urine pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective barrier contraception during and for at least 2 weeks after completion of study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is female and of childbearing age, but there is no information on contraception use.",
+      "clinical_question": "Is the patient currently using an effective barrier contraception method and will she continue to do so during and for at least 2 weeks after completion of study treatment?"
+    },
+    {
+      "criterion": "No uncontrolled infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient currently have a body temperature ≥38.0°C or a white blood cell count <1,000 cells/mm³ indicating an uncontrolled infection?"
+    },
+    {
+      "criterion": "No NYHA class III-IV congestive heart failure",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented NYHA class I or II heart failure status?"
+    },
+    {
+      "criterion": "No unstable angina (anginal symptoms at rest) or new onset angina (began within the last 3 months)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of unstable angina or new onset angina in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No myocardial infarction within the past 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced any myocardial infarction within the past 6 months?"
+    },
+    {
+      "criterion": "No uncontrolled hypertension, defined as systolic blood pressure (BP) > 150 mm Hg or diastolic BP > 90 mm Hg, despite optimal medical management",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of hypertension (HTN) and may have uncontrolled hypertension, which needs to be assessed further.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No known HIV positivity",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been tested for HIV and received a negative result within the last 12 months?"
+    },
+    {
+      "criterion": "No other active malignancy requiring treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any active malignancies other than Burkitt's lymphoma that require treatment?"
+    },
+    {
+      "criterion": "No inability to swallow",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Can the patient swallow solid oral medications without difficulty?"
+    },
+    {
+      "criterion": "No gastrointestinal (GI) function impairment or GI disease that may significantly alter the absorption of the study drugs (e.g., ulcerative disease, uncontrolled nausea, vomiting, or diarrhea, malabsorption syndrome, or small bowel resection) or preclude use of oral medications",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of gastrointestinal function impairment or GI disease that would affect drug absorption.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No thrombolic or embolic events (e.g., cerebrovascular accident, including transient ischemic attacks) within the past 6 months",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of deep vein thrombosis (DVT), which may be considered a thrombolic event.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No pulmonary hemorrhage or bleeding event ≥ grade 3 within the past 4 weeks",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of pulmonary hemorrhage or bleeding events in the patient's recent history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No severe or uncontrolled medical conditions or other conditions that would preclude study compliance",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple severe medical conditions, including Burkitt's lymphoma and obesity, which may complicate study compliance.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No liver disease, such as cirrhosis, chronic hepatitis or chronic persistent hepatitis, or uncontrolled infections",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of liver disease or chronic infections in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No serious nonhealing wound, ulcer, or bone fracture",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of significant medical issues, which may include nonhealing wounds or complications from surgeries.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No evidence or history of serious bleeding diathesis or coagulopathy, such as hemophilia or von Willebrand's disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of deep vein thrombosis (DVT), which suggests a potential bleeding diathesis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No significant traumatic injury within the past 4 weeks",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of significant traumatic injury in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No known hypersensitivity to everolimus or other rapamycins (sirolimus, temsirolimus)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No known hypersensitivity to everolimus or other rapamycins is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is incomplete; it does not specify what is required for prior concurrent therapy.",
+      "clinical_question": "Has the patient received any prior treatment with systemic chemotherapy or targeted therapy for Burkitt's lymphoma?"
+    },
+    {
+      "criterion": "More than 3 weeks since prior myelosuppressive chemotherapy or biological therapy and recovered",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple treatments, including pericardiocentesis and other invasive procedures, which may indicate recent myelosuppressive therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "More than 4 weeks since prior major surgery or open biopsy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has had knee surgery, which may be considered a major surgery, within the past 4 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lymph node biopsy within past 4 weeks allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No lymph node biopsy is reported within the past 4 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior everolimus allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding prior use of everolimus.",
+      "clinical_question": "Has the patient received everolimus as a prior treatment for their lymphoma?"
+    },
+    {
+      "criterion": "No concurrent immunosuppressant therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of DVT, which may require anticoagulation therapy, indicating potential concurrent immunosuppressant therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concurrent stable chronic doses of steroids (≤ 20 mg of prednisone per day) for disorders other than lymphoma (i.e., rheumatoid arthritis, polymyalgia rheumatica, adrenal insufficiency, asthma) or for pruritus or fever associated with lymphoma allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's steroid use is not specified; thus, it is unclear if they are on stable chronic doses.",
+      "clinical_question": "Is the patient currently taking a stable dose of prednisone ≤ 20 mg per day for a condition other than lymphoma?"
+    },
+    {
+      "criterion": "Concurrent corticosteroids at the lowest possible dose necessary to control symptoms in patients with CNS lymphoma allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not appear to be on corticosteroids, and the use of the lowest possible dose for symptom control is allowed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent CYP450 enzyme-inducing antiepileptic drugs (e.g., phenytoin, carbamazepine, or phenobarbital), rifampin, or Hypericum perforatum (St. John's wort)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of the patient using any CYP450 enzyme-inducing antiepileptic drugs or other listed substances.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent immunotherapy, radiotherapy, or chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of Burkitt's lymphoma and may have received prior treatments that could be considered as chemotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent chronic oxygen therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of the patient requiring chronic oxygen therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent warfarin or heparin",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of deep vein thrombosis (DVT), which may require anticoagulation therapy such as warfarin or heparin.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent investigational therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is currently enrolled in any other investigational therapy.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 16 of 58 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5862
+}

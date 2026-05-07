@@ -1,0 +1,112 @@
+{
+  "nct_id": "NCT02649335",
+  "trial_title": "To Study the Effect of Nonselective Beta Blockers in Advanced Stage Liver Disease With Ascites",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "Cirrhosis is the leading cause of death in India and worldwide and leading causes in developed world include alcoholic liver disease, hepatitis C, and more recently, non-alcoholic fatty liver disease (NAFLD), non-alcoholic steatohepatitis (NASH). As cirrhosis advances, portal hypertension develops, resulting in complications such as ascites, hepatic encephalopathy, and variceal hemorrhage.\n\nAscites is the most common major complication of cirrhosis, occurring in 50-60% of patients within ten yea",
+  "eligibility_table": [
+    {
+      "criterion": "Cirrhosis of any etiology with grade 2 ascites including refractory patients and varices/variceal hemorrhage requiring prophylaxis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has cirrhosis with grade II esophageal varices, which requires prophylaxis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Cirrhosis diagnosed by clinical, analytical, and ultrasonographic findings or available histological findings",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Cirrhosis is likely diagnosed based on clinical and analytical findings, though no specific ultrasonographic or histological data is provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Both inpatient and outpatient",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented history of ascites requiring therapeutic paracentesis or diuretics within the last 6 months?"
+    },
+    {
+      "criterion": "Child B or C status",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's condition aligns with Child B status due to the presence of complications from cirrhosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Exclusion",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a history of significant cardiac disease, defined as a prior myocardial infarction or congestive heart failure requiring hospitalization?"
+    },
+    {
+      "criterion": "Active infection or recent infection < 2 weeks",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of an active infection or recent infection within the last 2 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hepatic encephalopathy grade 2 or higher",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of hepatic encephalopathy, which is classified as grade II.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Renal dysfunction at the time of inclusion",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding renal function; thus, it cannot be determined.",
+      "clinical_question": "Does the patient have a serum creatinine level ≥1.5 mg/dL at the time of inclusion?"
+    },
+    {
+      "criterion": "Presence of hepatocellular carcinoma or portal vein thrombosis",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no evidence of hepatocellular carcinoma or portal vein thrombosis in the provided history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active alcoholism",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient consumed any alcoholic beverages in the past 30 days?"
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently pregnant or has the patient had a positive pregnancy test within the last 30 days?"
+    },
+    {
+      "criterion": "HIV infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed HIV infection with a CD4 count <200 cells/mm³?"
+    },
+    {
+      "criterion": "Severe heart, respiratory or contraindications for beta blockers(severe chronic obstructive pulmonary disease, severe asthma, severe insulin-dependent diabetes mellitus, bradyarrhythmia)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific information is provided regarding severe heart or respiratory conditions or contraindications for beta blockers.",
+      "clinical_question": "Does the patient have a history of severe chronic obstructive pulmonary disease, severe asthma, severe insulin-dependent diabetes mellitus, or bradyarrhythmia?"
+    },
+    {
+      "criterion": "Not giving consent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient explicitly declined to participate in the study after being provided with all relevant information about the trial?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 4 of 14 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4286
+}

@@ -1,0 +1,225 @@
+{
+  "nct_id": "NCT00336648",
+  "trial_title": "Preop Chemoradiation Resectable Pancreas",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Primary Objective:\n\n1\\. To assess resectability rate in patients undergoing gemcitabine plus Avastin-based chemoradiation followed by pancreaticoduodenectomy for adenocarcinoma of the pancreas.\n\nSecondary Objectives:\n\n1. To assess disease free survival and overall survival\n2. To assess margin resection rate (R0 vs. R1) in these patients\n3. To assess patterns of failure",
+  "eligibility_table": [
+    {
+      "criterion": "Cytologic or histologic proof of adenocarcinoma of the pancreatic head or uncinate process is required prior to treatment. Islet cell tumors are not eligible.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have cytologic or histologic proof of adenocarcinoma of the pancreatic head or uncinate process obtained prior to treatment?"
+    },
+    {
+      "criterion": "Patients must be staged with a physical exam, CXR, and contrast-enhanced CT. Only potentially resectable patients are eligible. Potentially resectable defined as: a) no extra pancreatic disease, b) no evidence (on CT) of tumor extension to the celiac axis or SMA, and c) no evidence (CT or angiogram) of occlusion of the SMV or SMPV confluence. Visceral angiography is optional. Laparoscopic staging is not part of the pretreatment evaluation for this study. Laparoscopy may be performed prior to planned laparotomy at surgeon's discretion. Staging needs to be done within 28 days of enrollment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Staging details are not provided; cannot confirm if the patient is potentially resectable.",
+      "clinical_question": "Does the patient have any evidence of tumor extension to the celiac axis or SMA on the contrast-enhanced CT performed within 28 days of enrollment?"
+    },
+    {
+      "criterion": "Patients cannot have known hepatic or peritoneal metastases detected by ultrasound (US), CT scan, or laparotomy prior to chemoradiation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Have imaging studies (US or CT scan) confirmed the absence of hepatic or peritoneal metastases prior to the initiation of chemoradiation?"
+    },
+    {
+      "criterion": "There will be no upper age restriction; patients with Karnofsky performance status greater than 70 are eligible.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No upper age restriction; patient is 70 years old and Karnofsky performance status is not provided but assumed to be adequate.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Adequate renal, and bone marrow function: Leukocytes greater than or equal to 3,000/uL; Absolute neutrophil count greater than or equal to 1,500/uL; Platelets greater than or equal to 100,000/U1; Serum creatinine less than or equal to 2.0-mg/dL and urine protein: creatinine ratio less than or equal to 1.0 at screening",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Serum creatinine is 2.1 mg/dL, which exceeds the limit of 2.0 mg/dL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Adequate renal, and bone marrow function: Leukocytes greater than or equal to 3,000/uL; Absolute neutrophil count greater than or equal to 1,500/uL; Platelets greater than or equal to 100,000/U1; Serum creatinine less than or equal to 2.0-mg/dL and urine protein: creatinine ratio less than or equal to 1.0 at screening",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Same as criterion 3; serum creatinine is above the acceptable level.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Adequate renal, and bone marrow function: Leukocytes greater than or equal to 3,000/uL; Absolute neutrophil count greater than or equal to 1,500/uL; Platelets greater than or equal to 100,000/U1; Serum creatinine less than or equal to 2.0-mg/dL and urine protein: creatinine ratio less than or equal to 1.0 at screening",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Same as criterion 3; serum creatinine is above the acceptable level.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Adequate renal, and bone marrow function: Leukocytes greater than or equal to 3,000/uL; Absolute neutrophil count greater than or equal to 1,500/uL; Platelets greater than or equal to 100,000/U1; Serum creatinine less than or equal to 2.0-mg/dL and urine protein: creatinine ratio less than or equal to 1.0 at screening",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Same as criterion 3; serum creatinine is above the acceptable level.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Adequate renal, and bone marrow function: Leukocytes greater than or equal to 3,000/uL; Absolute neutrophil count greater than or equal to 1,500/uL; Platelets greater than or equal to 100,000/U1; Serum creatinine less than or equal to 2.0-mg/dL and urine protein: creatinine ratio less than or equal to 1.0 at screening",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Same as criterion 3; serum creatinine is above the acceptable level.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hepatic function (endoscopic or percutaneous drainage as needed) Total bilirubin less than or equal to 2 X institutional upper limits of normal (ULN); AST (SGOT)/ALT (SGPT) less than or equal to 5 X institutional ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided for bilirubin or liver enzymes; cannot assess hepatic function.",
+      "clinical_question": "Is the patient's total bilirubin level less than or equal to 2 times the institutional upper limit of normal?"
+    },
+    {
+      "criterion": "Patients must have no fever or evidence of infection or other coexisting medical condition that would preclude protocol therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on fever or infection; cannot determine eligibility.",
+      "clinical_question": "Does the patient currently have a body temperature below 100.4°F and show no signs of infection?"
+    },
+    {
+      "criterion": "Pregnant women with a positive (blood B-HCG) pregnancy test are excluded from this study; women of childbearing potential (defined as those who have not undergone a hysterectomy or who have not been postmenopausal for at least 24 consecutive months) must agree to practice adequate contraception and to refrain from breast feeding, as specified in the informed consent.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on pregnancy status or contraception practices; cannot assess eligibility.",
+      "clinical_question": "Has the patient undergone a hysterectomy or been postmenopausal for at least 24 consecutive months?"
+    },
+    {
+      "criterion": "Patients must sign a study-specific consent form.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can sign a study-specific consent form.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Tumors in the body or tail of the pancreas (to the left of the portal -SMV confluence) are not eligible.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the tumor located in the body or tail of the pancreas, specifically to the left of the portal-superior mesenteric vein confluence?"
+    },
+    {
+      "criterion": "Patients with uncontrolled hypertension, baseline blood pressure of greater than 150/100 mmHg",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's blood pressure is not provided; therefore, it is unclear if it exceeds 150/100 mmHg.",
+      "clinical_question": "Is the patient's baseline blood pressure greater than 150/100 mmHg?"
+    },
+    {
+      "criterion": "Unstable angina or New York Heart Association (NYHA) Grade II or greater congestive heart failure.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not specify unstable angina or NYHA Grade II or greater heart failure.",
+      "clinical_question": "Does the patient have a documented history of unstable angina or a New York Heart Association (NYHA) classification of II or greater for congestive heart failure?"
+    },
+    {
+      "criterion": "History of myocardial infarction, stroke, DVT, or pulmonary embolism within 6 months of the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on myocardial infarction, stroke, DVT, or pulmonary embolism within the last 6 months.",
+      "clinical_question": "Has the patient experienced a myocardial infarction, stroke, DVT, or pulmonary embolism within the last 6 months?"
+    },
+    {
+      "criterion": "Clinically significant peripheral vascular disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding clinically significant peripheral vascular disease.",
+      "clinical_question": "Does the patient have a history of claudication or rest pain in the lower extremities, or an ankle-brachial index (ABI) <0.9?"
+    },
+    {
+      "criterion": "Known history of bleeding diathesis coagulopathy. If patient has prior documented PT, INR then INR should be less than 2.0 (patients on anticoagulation for atrial fibrillation, other cardiac disorders, and for remote history of thrombosis are not excluded). Lab results should be within 2 weeks of patient enrollment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented PT or INR value provided to assess bleeding diathesis.",
+      "clinical_question": "Is the patient's most recent INR value documented and is it less than 2.0?"
+    },
+    {
+      "criterion": "Known presence of central nervous system or brain metastases.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any imaging studies indicating the presence of central nervous system or brain metastases within the last 6 months?"
+    },
+    {
+      "criterion": "Major surgical procedure, open biopsy, or significant traumatic injury within 28 days prior to Day 0, anticipation of need for major surgical procedure during the course of the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding any major surgical procedures within the last 28 days.",
+      "clinical_question": "Has the patient undergone any major surgical procedure, open biopsy, or experienced a significant traumatic injury within the 28 days prior to Day 0?"
+    },
+    {
+      "criterion": "Minor surgical procedures such as fine needle aspirations or core biopsies within 7 days prior to Day 0",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding any minor surgical procedures within the last 7 days.",
+      "clinical_question": "Has the patient undergone any minor surgical procedures, such as fine needle aspirations or core biopsies, within the 7 days prior to Day 0?"
+    },
+    {
+      "criterion": "Urine protein: creatinine ratio greater than 1.0 at screening; a 24 hour urine protein should be obtained and the level must be less than 1gm/24 hours in order for the patient to be eligible.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No urine protein: creatinine ratio or 24-hour urine protein results are provided.",
+      "clinical_question": "Is the patient's 24-hour urine protein level less than 1 gram?"
+    },
+    {
+      "criterion": "History of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within 6 months prior to Day 0",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding a history of abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess.",
+      "clinical_question": "Has the patient experienced an abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within the 6 months prior to Day 0?"
+    },
+    {
+      "criterion": "Serious, non-healing wound, ulcer, or bone fracture",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of diverticulitis, but there is no specific information provided about any serious, non-healing wounds, ulcers, or fractures.",
+      "clinical_question": "Does the patient have a serious, non-healing wound, ulcer, or bone fracture as defined by the presence of a wound or ulcer that has not healed for at least 4 weeks or a fracture that has not shown signs of healing on imaging studies?"
+    },
+    {
+      "criterion": "Evidence of duodenal invasion",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding duodenal invasion in the patient's profile, making it unclear.",
+      "clinical_question": "Does imaging evidence indicate any direct invasion of the duodenum by the pancreatic adenocarcinoma?"
+    },
+    {
+      "criterion": "Inability to comply with study and/or follow-up procedures",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to comply with study and follow-up procedures is not explicitly stated, leaving uncertainty.",
+      "clinical_question": "Can the patient attend all scheduled follow-up appointments and complete the required study procedures within the next 6 months?"
+    },
+    {
+      "criterion": "Patients less than 18 years of age",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient less than 18 years of age?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Tumors in the body or tail of the pancreas (to the left of the portal -SMV confl",
+    "EXCLUSION UNCLEAR: Patients with uncontrolled hypertension, baseline blood pressure of greater than",
+    "EXCLUSION UNCLEAR: Unstable angina or New York Heart Association (NYHA) Grade II or greater congest",
+    "EXCLUSION UNCLEAR: History of myocardial infarction, stroke, DVT, or pulmonary embolism within 6 mo",
+    "EXCLUSION UNCLEAR: Clinically significant peripheral vascular disease.",
+    "EXCLUSION UNCLEAR: Known history of bleeding diathesis coagulopathy. If patient has prior documente",
+    "EXCLUSION UNCLEAR: Known presence of central nervous system or brain metastases.",
+    "EXCLUSION UNCLEAR: Major surgical procedure, open biopsy, or significant traumatic injury within 28",
+    "EXCLUSION UNCLEAR: Minor surgical procedures such as fine needle aspirations or core biopsies withi",
+    "EXCLUSION UNCLEAR: Urine protein: creatinine ratio greater than 1.0 at screening; a 24 hour urine p",
+    "EXCLUSION UNCLEAR: History of abdominal fistula, gastrointestinal perforation, or intra-abdominal a",
+    "EXCLUSION UNCLEAR: Serious, non-healing wound, ulcer, or bone fracture",
+    "EXCLUSION UNCLEAR: Evidence of duodenal invasion",
+    "EXCLUSION UNCLEAR: Inability to comply with study and/or follow-up procedures",
+    "EXCLUSION UNCLEAR: Patients less than 18 years of age",
+    "LOW INCLUSION MATCH: only 2 of 13 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.25
+}

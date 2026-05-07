@@ -1,0 +1,375 @@
+{
+  "nct_id": "NCT02029443",
+  "trial_title": "ACP-196 (Acalabrutinib), a Novel Bruton Tyrosine Kinase (BTK) Inhibitor, for Treatment of Chronic Lymphocytic Leukemia, Richter's Syndrome or Prolymphocytic Leukemia",
+  "phase": "PHASE1",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "This study is evaluating the safety and efficacy of a new BTK inhibitor, acalabrutinib, for the treatment of chronic lymphocytic leukemia (CLL)/small lymphocytic lymphoma (SLL).",
+  "eligibility_table": [
+    {
+      "criterion": "Men and women ≥ 18 years of age with a confirmed diagnosis of CLL/SLL, which has relapsed after, or been refractory to, ≥ 2 previous treatments for CLL/SLL.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have measurable CLL/SLL defined as ≥ 1 lymph node ≥ 2 cm as measured in the longest diameter.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have at least one lymph node measuring ≥2 cm in the longest diameter?"
+    },
+    {
+      "criterion": "Evidence of progressive marrow failure as manifested by the development of, or worsening of, anemia (hemoglobin < 10 g/dL) and/or thrombocytopenia (platelets < 100,000/μL).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess hemoglobin or platelet counts.",
+      "clinical_question": "Does the patient have a hemoglobin level < 10 g/dL or a platelet count < 100,000/μL?"
+    },
+    {
+      "criterion": "Massive (i.e., ≥ 6 cm below the left costal margin), progressive, or symptomatic splenomegaly.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have splenomegaly measuring ≥6 cm below the left costal margin?"
+    },
+    {
+      "criterion": "Massive nodes (i.e., ≥ 10 cm in the longest diameter), progressive, or symptomatic lymphadenopathy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have any lymph nodes measuring ≥10 cm in the longest diameter?"
+    },
+    {
+      "criterion": "Progressive lymphocytosis with an increase of > 50% over a 2-month period or a lymphocyte doubling time (LDT) of < 6 months.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific lymphocyte counts or changes over time provided.",
+      "clinical_question": "Has the patient experienced a lymphocyte doubling time (LDT) of < 6 months based on the most recent lymphocyte counts?"
+    },
+    {
+      "criterion": "Autoimmune anemia and/or thrombocytopenia that is poorly responsive to standard therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on autoimmune conditions or response to therapy.",
+      "clinical_question": "Does the patient have a hemoglobin level <10 g/dL or a platelet count <50,000/µL despite receiving standard therapy for autoimmune anemia and/or thrombocytopenia?"
+    },
+    {
+      "criterion": "Constitutional symptoms documented in the participant's chart with supportive objective measures, as appropriate, defined as ≥ 1 of the following disease-related symptoms or signs:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No documented constitutional symptoms or objective measures provided.",
+      "clinical_question": "Does the patient exhibit ≥1 documented constitutional symptom related to their CLL or Richter's transformation, supported by objective measures?"
+    },
+    {
+      "criterion": "Unintentional weight loss ≥ 10% within the previous 6 months before screening.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient experienced an unintentional weight loss of ≥10% within the previous 6 months before screening?"
+    },
+    {
+      "criterion": "Prior malignancy, except for adequately treated basal cell, squamous cell skin cancer or in situ cervical cancer. Participants with other prior malignancies from which the participant has been disease free for ≥ 2 years may be included if approved by the medical monitor.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of CLL and Richter's transformation, which is a prior malignancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A life-threatening illness, medical condition or organ system dysfunction which, in the investigator's opinion, could compromise the participant's safety, interfere with the absorption or metabolism of acalabrutinib, or put the study outcomes at undue risk.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific life-threatening illness or organ dysfunction details provided.",
+      "clinical_question": "Does the patient have any organ system dysfunction, as indicated by a creatinine clearance <30 mL/min or a total bilirubin >2 mg/dL?"
+    },
+    {
+      "criterion": "Significant cardiovascular disease such as uncontrolled or symptomatic arrhythmias, congestive heart failure, or myocardial infarction within 6 months of screening, or any Class 3 or 4 cardiac disease as defined by the New York Heart Association Functional Classification, or left ventricular ejection fraction (LVEF) ≤ 40%.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on cardiovascular health or recent events.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) greater than 40%?"
+    },
+    {
+      "criterion": "Malabsorption syndrome, disease significantly affecting gastrointestinal function, or resection of the stomach or small bowel, symptomatic inflammatory bowel disease, partial or complete bowel obstruction, or gastric restrictions and bariatric surgery, such as gastric bypass.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No details on gastrointestinal health or surgeries provided.",
+      "clinical_question": "Does the patient have a history of malabsorption syndrome or any gastrointestinal surgery, such as gastric bypass, that could affect drug absorption?"
+    },
+    {
+      "criterion": "Any immunotherapy within 4 weeks of first dose of study drug.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on recent immunotherapy provided.",
+      "clinical_question": "Has the patient received any immunotherapy within the 4 weeks prior to the first dose of ACP-196?"
+    },
+    {
+      "criterion": "For participants with recent chemotherapy or experimental therapy the first dose of study drug must occur after 5 times the half-life of the agent(s).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No details on recent chemotherapy or half-lives of agents provided.",
+      "clinical_question": "What is the half-life of the last chemotherapy or experimental therapy the patient received, and has at least 5 times that duration elapsed since the last dose?"
+    },
+    {
+      "criterion": "Relapsed after, or refractory to, prior BTK inhibitor therapy (Note: Does not apply to Ibrutinib R/R or Richter's Syndrome Group).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of Richter's transformation, but the note indicates this does not apply to the Richter's Syndrome Group.",
+      "clinical_question": "Has the patient experienced disease progression or relapse after receiving at least one prior BTK inhibitor therapy?"
+    },
+    {
+      "criterion": "Any history of Richter's transformation (Note: Does not apply to Richter's Syndrome Group).",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a documented history of Richter's transformation, which is an exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Central nervous system (CNS) involvement by lymphoma.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about CNS involvement by lymphoma.",
+      "clinical_question": "Does the patient have evidence of central nervous system involvement by lymphoma, as determined by imaging studies or cerebrospinal fluid analysis?"
+    },
+    {
+      "criterion": "Grade ≥ 2 toxicity (other than alopecia) continuing from prior anticancer therapy including radiation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific grade ≥ 2 toxicity is mentioned, but prior treatments may have caused some toxicity.",
+      "clinical_question": "Does the patient have any grade ≥ 2 toxicities (other than alopecia) that have persisted since completing prior anticancer therapies?"
+    },
+    {
+      "criterion": "Known history of human immunodeficiency virus (HIV) or serologic status indicating active hepatitis C virus (HCV) or hepatitis B virus (HBV) infection or any uncontrolled active systemic infection. Participants with hepatitis B core antibody positive who are surface antigen negative or who are hepatitis C antibody positive will need to have a negative polymerase chain reaction (PCR) result before enrollment. Those who are hepatitis B surface antigen positive or hepatitis B PCR positive and those who are hepatitis C PCR positive will be excluded.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on HIV or hepatitis status is provided, making it unclear.",
+      "clinical_question": "Is the patient's hepatitis B surface antigen status negative and is the hepatitis C PCR result negative?"
+    },
+    {
+      "criterion": "Fevers higher than 100.5°F or 38.0°C for 2 or more weeks before screening without evidence of infection.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on fevers is provided, so it cannot be determined.",
+      "clinical_question": "Has the patient experienced fevers higher than 100.5°F (38.0°C) for 2 or more weeks prior to screening without evidence of infection?"
+    },
+    {
+      "criterion": "Night sweats for > 1 month before screening without evidence of infection.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on night sweats is provided, so it cannot be determined.",
+      "clinical_question": "Has the patient experienced night sweats for ≥1 month prior to screening without any signs of infection?"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status of ≤ 2.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an Eastern Cooperative Oncology Group (ECOG) performance status score of ≤ 2?"
+    },
+    {
+      "criterion": "Agreement to use highly effective methods of contraception during the study and for 2 days after the last dose of study drug if sexually active and able to bear or beget children.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can agree to use contraception if sexually active.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Willing and able to participate in all required evaluations and procedures in this study protocol including swallowing capsules without difficulty.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient appears willing and able to participate in required evaluations.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to understand the purpose and risks of the study and provide signed and dated informed consent and authorization to use protected health information (in accordance with national and local participant privacy regulations).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely able to understand the study's purpose and risks, assuming no cognitive impairments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Inclusion Criteria for Treatment Subgroups",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The inclusion criteria for treatment subgroups are not specified in the patient profile.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of Richter's transformation based on histological evaluation?"
+    },
+    {
+      "criterion": "Treatment Naive only: Men and women ≥ 18 years of age with confirmed diagnosis of CLL/SLL, who require treatment per National Cancer Institute (NCI) or International Working Group guidelines and a) do not want to receive chemoimmunotherapy or b) have comorbidities that would preclude chemoimmunotherapy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ibrutinib Intolerant only: Men and women ≥ 18 years of age with confirmed diagnosis of CLL/SLL who are not tolerating ibrutinib due to ibrutinib-related AEs.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Richter's Syndrome/Prolymphocytic Leukemia Transformation only: Men and women ≥ 18 years of age and biopsy proven diffuse large B cell lymphoma (DLBCL) Richter's transformation or prolymphocytic leukemia transformation.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Uncontrolled autoimmune hemolytic anemia (AIHA) or immune thrombocytopenic purpura (ITP) defined as declining hemoglobin or platelet count secondary to autoimmune destruction within the screening period or requirement for high doses of steroids (> 20 mg daily of prednisone daily or equivalent).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on autoimmune hemolytic anemia or immune thrombocytopenic purpura is provided.",
+      "clinical_question": "Has the patient experienced a decline in hemoglobin levels below 10 g/dL or a platelet count below 100,000/µL due to autoimmune destruction within the screening period?"
+    },
+    {
+      "criterion": "History of stroke or intracranial hemorrhage within 6 months prior to the first dose of study drug.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a history of stroke or intracranial hemorrhage in the patient profile.",
+      "clinical_question": "Has the patient experienced a stroke or intracranial hemorrhage within the last 6 months?"
+    },
+    {
+      "criterion": "Requires treatment with proton-pump inhibitors (eg, omeprazole, esomeprazole, lansoprazole, dexlansoprazole, rabeprazole, or pantoprazole).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not indicate the use of proton-pump inhibitors.",
+      "clinical_question": "Is the patient currently taking a proton-pump inhibitor, such as omeprazole or pantoprazole, on a daily basis?"
+    },
+    {
+      "criterion": "Requires anticoagulation with warfarin or equivalent vitamin K antagonists (eg, phenprocoumon) within 7 days of first dose of study drug.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding anticoagulation with warfarin or similar medications.",
+      "clinical_question": "Has the patient been on anticoagulation with warfarin or an equivalent vitamin K antagonist within the last 7 days?"
+    },
+    {
+      "criterion": "Major surgery within 4 weeks before first dose of study drug.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention any major surgeries within the specified timeframe.",
+      "clinical_question": "Has the patient undergone any major surgery within the 4 weeks prior to the first dose of ACP-196?"
+    },
+    {
+      "criterion": "ANC < 0.75 x 10^9/L or platelet count < 50 x 10^9/L unless there is bone marrow involvement.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided, making it impossible to assess ANC or platelet count.",
+      "clinical_question": "Is the patient's absolute neutrophil count (ANC) less than 0.75 x 10^9/L or is the platelet count less than 50 x 10^9/L?"
+    },
+    {
+      "criterion": "Total bilirubin > 1.5 x upper limit of normal (ULN) (total bilirubin ≤ 2.5 x ULN allowed in participants with autoimmune hemolytic anemia that is otherwise controlled); and aspartate aminotransferase (AST) or alanine aminotransferase (ALT) > 3.0 x ULN unless disease related.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values are provided to assess total bilirubin or liver enzyme levels.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 2.5 x upper limit of normal (ULN) and are the aspartate aminotransferase (AST) and alanine aminotransferase (ALT) levels ≤ 3.0 x ULN?"
+    },
+    {
+      "criterion": "Serum amylase > 1.5 x ULN or serum lipase > 1.5 x ULN.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not include serum amylase or lipase levels.",
+      "clinical_question": "Is the patient's serum amylase level greater than 1.5 times the upper limit of normal (ULN) or is the serum lipase level greater than 1.5 times the ULN?"
+    },
+    {
+      "criterion": "Significant screening electrocardiogram (ECG) abnormalities including, 2nd degree AV block type II, 3rd degree block, Grade 2 or higher bradycardia, or QTc ≥ 480 ms.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's ECG results.",
+      "clinical_question": "Does the patient have a screening ECG that shows a QTc interval of ≥480 ms?"
+    },
+    {
+      "criterion": "Cardiac troponin I levels above the limit of normal as specified by the manufacturer.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Cardiac troponin I levels are not provided in the patient profile, making it unclear if they are above the limit of normal.",
+      "clinical_question": "Is the patient's cardiac troponin I level above the manufacturer's specified limit of normal?"
+    },
+    {
+      "criterion": "Breast feeding or pregnant.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention pregnancy or breastfeeding status.",
+      "clinical_question": "Is the patient currently pregnant or breastfeeding?"
+    },
+    {
+      "criterion": "History of bleeding diathesis (eg, hemophilia, von Willebrand disease).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding a history of bleeding diathesis.",
+      "clinical_question": "Does the patient have a documented history of bleeding diathesis, such as hemophilia or von Willebrand disease, confirmed by laboratory tests?"
+    },
+    {
+      "criterion": "Concurrent participation in another therapeutic clinical trial.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not indicate concurrent participation in another therapeutic clinical trial.",
+      "clinical_question": "Is the patient currently enrolled in any other therapeutic clinical trial?"
+    },
+    {
+      "criterion": "Estimated creatinine clearance of < 30 mL/min, calculated using the formula of Cockcroft and Gault [(140-Age) • Mass (kg)/(72 • creatinine mg/dL); multiply by 0.85 if female].",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Estimated creatinine clearance is not provided; therefore, it cannot be assessed.",
+      "clinical_question": "What is the patient's current creatinine level in mg/dL to calculate the creatinine clearance using the Cockcroft and Gault formula?"
+    },
+    {
+      "criterion": "Presence of a gastrointestinal ulcer diagnosed by endoscopy within 3 months before screening.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the presence of a gastrointestinal ulcer diagnosed by endoscopy.",
+      "clinical_question": "Has the patient been diagnosed with a gastrointestinal ulcer by endoscopy within the last 3 months?"
+    },
+    {
+      "criterion": "Men and women ≥ 18 years of age with confirmed diagnosis of CLL/SLL",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ibrutinib relapsed/refractory (R/R) only",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL with large cell transformation and Richter's transformation, which does not fit the criteria for R/R Ibrutinib.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "whose best response after 2 cycles of ibrutinib therapy was stable disease or nonresponse or who initially responded to ibrutinib therapy and now have signs of clinical progression",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not undergone ibrutinib therapy, thus cannot meet the response criteria related to ibrutinib.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Prior malignancy, except for adequately treated basal cell, squamous cell skin c",
+    "EXCLUSION UNCLEAR: A life-threatening illness, medical condition or organ system dysfunction which,",
+    "EXCLUSION UNCLEAR: Significant cardiovascular disease such as uncontrolled or symptomatic arrhythmi",
+    "EXCLUSION UNCLEAR: Malabsorption syndrome, disease significantly affecting gastrointestinal functio",
+    "EXCLUSION UNCLEAR: Any immunotherapy within 4 weeks of first dose of study drug.",
+    "EXCLUSION UNCLEAR: For participants with recent chemotherapy or experimental therapy the first dose",
+    "EXCLUSION UNCLEAR: Relapsed after, or refractory to, prior BTK inhibitor therapy (Note: Does not ap",
+    "EXCLUSION VIOLATED: Any history of Richter's transformation (Note: Does not apply to Richter's Syndr",
+    "EXCLUSION UNCLEAR: Central nervous system (CNS) involvement by lymphoma.",
+    "EXCLUSION UNCLEAR: Grade ≥ 2 toxicity (other than alopecia) continuing from prior anticancer therap",
+    "EXCLUSION UNCLEAR: Known history of human immunodeficiency virus (HIV) or serologic status indicati",
+    "EXCLUSION UNCLEAR: Uncontrolled autoimmune hemolytic anemia (AIHA) or immune thrombocytopenic purpu",
+    "EXCLUSION UNCLEAR: History of stroke or intracranial hemorrhage within 6 months prior to the first ",
+    "EXCLUSION UNCLEAR: Requires treatment with proton-pump inhibitors (eg, omeprazole, esomeprazole, la",
+    "EXCLUSION UNCLEAR: Requires anticoagulation with warfarin or equivalent vitamin K antagonists (eg, ",
+    "EXCLUSION UNCLEAR: Major surgery within 4 weeks before first dose of study drug.",
+    "EXCLUSION UNCLEAR: ANC < 0.75 x 10^9/L or platelet count < 50 x 10^9/L unless there is bone marrow ",
+    "EXCLUSION UNCLEAR: Total bilirubin > 1.5 x upper limit of normal (ULN) (total bilirubin ≤ 2.5 x ULN",
+    "EXCLUSION UNCLEAR: Serum amylase > 1.5 x ULN or serum lipase > 1.5 x ULN.",
+    "EXCLUSION UNCLEAR: Significant screening electrocardiogram (ECG) abnormalities including, 2nd degre",
+    "EXCLUSION UNCLEAR: Cardiac troponin I levels above the limit of normal as specified by the manufact",
+    "EXCLUSION UNCLEAR: Breast feeding or pregnant.",
+    "EXCLUSION UNCLEAR: History of bleeding diathesis (eg, hemophilia, von Willebrand disease).",
+    "EXCLUSION UNCLEAR: Concurrent participation in another therapeutic clinical trial.",
+    "EXCLUSION UNCLEAR: Estimated creatinine clearance of < 30 mL/min, calculated using the formula of C",
+    "EXCLUSION UNCLEAR: Presence of a gastrointestinal ulcer diagnosed by endoscopy within 3 months befo"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.25
+}

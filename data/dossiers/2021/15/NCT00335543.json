@@ -1,0 +1,182 @@
+{
+  "nct_id": "NCT00335543",
+  "trial_title": "Gemcitabine, Cisplatin, and Radiation Therapy Followed By Surgery or Surgery Alone in Treating Patients With Localized Pancreatic Cancer That Can Be Removed By Surgery",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as gemcitabine and cisplatin, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Radiation therapy uses high-energy x-rays to kill tumor cells. Giving chemotherapy together with radiation therapy before surgery may make the tumor smaller and reduce the amount of normal tissue that needs to be removed. Giving chemotherapy after surgery may kill any tumor cells that remain after surger",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically confirmed adenocarcinoma of the pancreatic head",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has pancreatic adenocarcinoma, which is a type of adenocarcinoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No tumors of the body or tail, as defined by a tumor lying between the left border of the superior mesenteric vein and the left border of the aorta and/or the left border of the aorta and the hilum of the spleen",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The specific location of the tumor (head, body, or tail) is not provided, making it unclear if the tumor is only in the head.",
+      "clinical_question": "Is there evidence of tumors located between the left border of the superior mesenteric vein and the left border of the aorta, or between the left border of the aorta and the hilum of the spleen in this patient?"
+    },
+    {
+      "criterion": "Locally resectable disease by CT scan",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no CT scan information provided to confirm if the disease is locally resectable.",
+      "clinical_question": "Does the patient's CT scan confirm the presence of locally resectable pancreatic adenocarcinoma with no evidence of vascular invasion or distant metastasis?"
+    },
+    {
+      "criterion": "Major vessels (e.g., portal vein, confluence of mesenteric and splenic vein, superior mesenteric artery, celiac trunk, splenic artery, hepatic artery, or superior mesenteric vein) maximally enclosed ≤ 180° by the tumor",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the tumor surrounding the major vessels (e.g., portal vein, confluence of mesenteric and splenic vein, superior mesenteric artery, celiac trunk, splenic artery, hepatic artery, or superior mesenteric vein) maximally enclosed ≤ 180°?"
+    },
+    {
+      "criterion": "No infiltration of extrapancreatic organs except the duodenum",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The infiltration of extrapancreatic organs is not specified, so it is unclear if there is any infiltration.",
+      "clinical_question": "Does imaging confirm the absence of infiltration of extrapancreatic organs, except for the duodenum, in this patient?"
+    },
+    {
+      "criterion": "No carcinoma of the ampulla of Vater",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has pancreatic adenocarcinoma, which does not involve the ampulla of Vater.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No metastasis",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Given the patient's history of pancreatic adenocarcinoma, it is likely that there is metastasis, especially considering the age and other conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No peritoneal carcinoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The presence of pancreatic adenocarcinoma raises concerns for peritoneal carcinomatosis, especially in advanced cases.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Karnofsky performance status 70-100%",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's Karnofsky performance status is not provided, but given the age and multiple comorbidities, it is likely below 70%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Creatinine clearance > 70 mL/min",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's creatinine level (SCr 2.1) suggests impaired kidney function, likely resulting in a creatinine clearance below 70 mL/min.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Creatinine < 1.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level currently less than 1.5 mg/dL?"
+    },
+    {
+      "criterion": "Platelet count > 100,000/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count greater than 100,000/mm³?"
+    },
+    {
+      "criterion": "No liver cirrhosis",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding liver cirrhosis, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient have a history of liver cirrhosis as defined by clinical diagnosis or imaging findings?"
+    },
+    {
+      "criterion": "Not pregnant",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is female and there is no indication of pregnancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No New York Heart Association class III or IV heart disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has coronary artery disease, which may indicate potential heart issues.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No respiratory insufficiency",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about respiratory status; cannot determine if there is respiratory insufficiency.",
+      "clinical_question": "Does the patient have a respiratory rate within the normal range of 12-20 breaths per minute?"
+    },
+    {
+      "criterion": "No grade III or IV cardiac arrhythmias",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about cardiac arrhythmias; cannot determine if there are grade III or IV arrhythmias.",
+      "clinical_question": "Has the patient experienced any grade III or IV cardiac arrhythmias in the past 6 months?"
+    },
+    {
+      "criterion": "No pathology on EKG",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No EKG results provided; cannot assess for pathology on EKG.",
+      "clinical_question": "Does the patient have a normal EKG with no evidence of ischemia or arrhythmia?"
+    },
+    {
+      "criterion": "No other severe cardiopulmonary disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about other severe cardiopulmonary diseases; cannot assess.",
+      "clinical_question": "Does the patient have a New York Heart Association (NYHA) functional classification of I or II?"
+    },
+    {
+      "criterion": "No HIV infection",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No indication of HIV infection in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other disease that renders the patient unsuitable for one treatment option",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's other conditions may or may not render her unsuitable for treatment; insufficient information.",
+      "clinical_question": "Does the patient have a New York Heart Association (NYHA) functional classification of ≤ II for their coronary artery disease?"
+    },
+    {
+      "criterion": "No other malignancy except nonmelanoma skin cancer, carcinoma in situ of the cervix, or other cancer for which the patient was treated with surgery only and has been in complete remission for ≥ 10 years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has pancreatic adenocarcinoma, which is a malignancy that does not meet the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 3 months since prior participation in another clinical trial",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior clinical trial participation; cannot determine if 3 months have passed.",
+      "clinical_question": "Has the patient participated in any clinical trial within the last 3 months?"
+    },
+    {
+      "criterion": "No prior or other concurrent treatment for carcinoma of the pancreas",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of pancreatic adenocarcinoma, indicating prior treatment for this condition, which disqualifies her from this criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 4 of 24 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4583
+}

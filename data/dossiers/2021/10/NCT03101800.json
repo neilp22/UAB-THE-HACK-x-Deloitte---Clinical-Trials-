@@ -1,0 +1,117 @@
+{
+  "nct_id": "NCT03101800",
+  "trial_title": "Beneficial and Harmful Effects of Azathioprine and Allopurinol Versus Standard Azathioprine Therapy for Patients With Ulcerative Colitis",
+  "phase": "PHASE3",
+  "status": "UNKNOWN",
+  "brief_summary": "Azathioprine is considered first line immunomodulatory therapy for patients with ulcerative colitis. Up to 50% are treatment failures or experience adverse events leading to treatment withdrawal. Recent evidence suggests that the combination of allopurinol and low dose azathioprine increases the proportion of treatment responders and reduce the risk of adverse events.\n\nObjectives: To evaluate the beneficial and harmful effects of low dose azathioprine and allopurinol versus standard azathioprine",
+  "eligibility_table": [
+    {
+      "criterion": "Willingness to comply with all trial procedures and being available for the duration of the trial.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old and likely willing to comply with trial procedures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Clinically and histologically verified ulcerative colitis eligible for treatment with thiopurines due to steroid dependence (failure to taper steroid or starting a second course of systemic steroids within 1 year) or patients with the need for rescue therapy with anti-TumorNecrosisFactorα (anti-TNFα)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has systemic mastocytosis, not ulcerative colitis, and does not meet the criteria for thiopurines or anti-TNFα.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A sigmoidoscopy or colonoscopy showing active inflammation during the present disease flare",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of active inflammation in the colon or rectum as the patient has systemic mastocytosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative stool test for pathogen bacteria incl. Clostridium difficile",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No stool test results provided; cannot confirm if the test for pathogen bacteria is negative.",
+      "clinical_question": "Has the patient tested negative for Clostridium difficile and other pathogenic bacteria in their stool sample?"
+    },
+    {
+      "criterion": "Informed consent.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient is capable of providing informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Normal TPMT genotype (homozygous wild-type).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on TPMT genotype provided; cannot confirm normal genotype.",
+      "clinical_question": "Does the patient have a normal TPMT genotype (homozygous wild-type)?"
+    },
+    {
+      "criterion": "Oral 5-Asa dose stable for 2 weeks",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on oral 5-ASA medication usage provided; cannot confirm stability.",
+      "clinical_question": "Has the patient been on a stable oral 5-ASA dose of at least 2.4 g/day for the past 2 weeks?"
+    },
+    {
+      "criterion": "Kidney disease with a GlomerularFiltration Rate (GFR) < 50 ml/min.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No GFR value provided; cannot assess kidney disease status.",
+      "clinical_question": "Does the patient have a Glomerular Filtration Rate (GFR) < 50 ml/min?"
+    },
+    {
+      "criterion": "Persistent alanine aminotransferase U/L (ALT) twice above upper limit of the normal range.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No ALT levels provided; cannot confirm if persistent ALT is above normal range.",
+      "clinical_question": "Has the patient had persistent alanine aminotransferase (ALT) levels measured that are ≥80 U/L?"
+    },
+    {
+      "criterion": "Participation in other interventional clinical trials.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on participation in other trials provided; cannot confirm eligibility.",
+      "clinical_question": "Has the patient participated in any interventional clinical trials within the last 30 days?"
+    },
+    {
+      "criterion": "Pregnancy or breastfeeding.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is 22 years old and female, but there is no information provided about pregnancy or breastfeeding status.",
+      "clinical_question": "Is the patient currently pregnant or breastfeeding?"
+    },
+    {
+      "criterion": "Previous thiopurin treatment.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of previous thiopurin treatment in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous or current treatment with other biologics than anti-TNFα",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not been treated with any biologics other than anti-TNFα, as there is no indication of such treatments in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not being able to comply with the study, assessed by investigator",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to comply with the study is not explicitly stated, and it would depend on the investigator's assessment.",
+      "clinical_question": "Has the patient experienced any adverse reactions to medications that would prevent compliance with the study protocol?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Kidney disease with a GlomerularFiltration Rate (GFR) < 50 ml/min.",
+    "EXCLUSION UNCLEAR: Persistent alanine aminotransferase U/L (ALT) twice above upper limit of the nor",
+    "EXCLUSION UNCLEAR: Participation in other interventional clinical trials.",
+    "EXCLUSION UNCLEAR: Pregnancy or breastfeeding.",
+    "EXCLUSION UNCLEAR: Not being able to comply with the study, assessed by investigator",
+    "LOW INCLUSION MATCH: only 2 of 7 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4286
+}

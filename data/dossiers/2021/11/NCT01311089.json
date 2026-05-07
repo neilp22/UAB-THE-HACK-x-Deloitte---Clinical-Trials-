@@ -1,0 +1,74 @@
+{
+  "nct_id": "NCT01311089",
+  "trial_title": "A Comparative Study of Robotic Thyroidectomy Using Transaxillary Approach Versus Conventional Open Thyroidectomy",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Most patients with thyroid tumors are effectively treated surgically by practitioners experienced in the techniques of thyroidectomy. Many patients, especially women, undergoing thyroid surgery are concerned about the postoperative cosmetic appearance of the neck. Robotic thyroidectomy which can hide the operative scar was associated with a higher degree of patient cosmetic satisfaction.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with papillary thyroid carcinoma who underwent thyroidectomy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has metastatic papillary thyroid cancer but there is no indication of having undergone a thyroidectomy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age was over 20 years old",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 75.0 > 20.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Keloid",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the presence of keloids in the patient's history.",
+      "clinical_question": "Has the patient developed a keloid scar following any previous surgical procedures?"
+    },
+    {
+      "criterion": "Previous neck or anterior chest operation history",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of neck mass resection, which may be considered a previous neck operation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The patients who underwent combined radical neck dissection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has had neck mass resection but it is unclear if this qualifies as a combined radical neck dissection.",
+      "clinical_question": "Has the patient undergone a combined radical neck dissection as part of their treatment for metastatic papillary thyroid cancer?"
+    },
+    {
+      "criterion": "The patient with postoperative wound problem",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific information about any postoperative wound problems in the patient's history.",
+      "clinical_question": "Did the patient experience any postoperative wound complications, defined as infection, dehiscence, or hematoma, within 30 days following the thyroidectomy?"
+    },
+    {
+      "criterion": "The patient with underlying systemic disease which can make influences on the wound healing process",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's underlying systemic diseases are not clearly defined, making it difficult to assess their impact on wound healing.",
+      "clinical_question": "Does the patient have a history of wound healing complications or infections following previous surgeries?"
+    },
+    {
+      "criterion": "The patient who can not read and understand the questionnaire",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's ability to read and understand the questionnaire.",
+      "clinical_question": "Can the patient demonstrate understanding of the questionnaire content through a verbal explanation or summary?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Keloid",
+    "EXCLUSION UNCLEAR: The patients who underwent combined radical neck dissection",
+    "EXCLUSION UNCLEAR: The patient with postoperative wound problem",
+    "EXCLUSION UNCLEAR: The patient with underlying systemic disease which can make influences on the wo",
+    "EXCLUSION UNCLEAR: The patient who can not read and understand the questionnaire"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.375
+}

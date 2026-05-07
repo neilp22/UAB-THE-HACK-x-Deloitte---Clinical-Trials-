@@ -1,0 +1,100 @@
+{
+  "nct_id": "NCT02330094",
+  "trial_title": "Gabapentin for Headache in Aneurysmal Subarachnoid Hemorrhage",
+  "phase": "PHASE4",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is to see how much gabapentin will reduce headaches associated with subarachnoid hemorrhage (SAH) and to reduce the amount of narcotic pain medication prescribed.",
+  "eligibility_table": [
+    {
+      "criterion": "18 years of age or older",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have aneurysmal subarachnoid hemorrhage (aSAH) diagnosed by CT scan of the brain and/or angiogram evidence of intracranial aneurysm (CTA or digital subtraction angiogram or MRA)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has spontaneous intraventricular hemorrhage and arteriovenous malformation (AVM), but there is no mention of aneurysmal subarachnoid hemorrhage (aSAH) or evidence of an intracranial aneurysm.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have symptomatic headache",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient may have a headache due to the head injury and hemorrhage, but it is not explicitly stated whether the headache is symptomatic.",
+      "clinical_question": "Does the patient report a headache intensity of ≥4 on a scale of 0 to 10?"
+    },
+    {
+      "criterion": "Able to swallow and verbalize pain score",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely able to swallow and verbalize pain score, as she is conscious and able to communicate.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No known allergy to gabapentin or fentanyl",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of any known allergies to gabapentin or fentanyl in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Numeric pain score ≥ 5",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a numeric pain score of ≥5 at the time of assessment?"
+    },
+    {
+      "criterion": "Ability to provide written personal consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "At 32 years old, the patient is likely capable of providing written personal consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Gabapentin use prior to SAH admission",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is currently on pain medication, but it is unclear if gabapentin was used prior to SAH admission.",
+      "clinical_question": "Has the patient used gabapentin for at least 7 days prior to admission for subarachnoid hemorrhage?"
+    },
+    {
+      "criterion": "Renal failure with creatinine clearance less than 30 mL/min",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current creatinine clearance value?"
+    },
+    {
+      "criterion": "Unable to receive standard of care pain medications",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is unable to receive standard of care pain medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnant or breastfeeding patients",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no information suggesting that the patient is pregnant or breastfeeding.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of severe depression defined by the Diagnostic and Statistical Manual of Mental Disorders, 4th Edition, Text Revision (DSM IV)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not mention severe depression, but there is insufficient information to definitively assess this criterion.",
+      "clinical_question": "Has the patient ever been diagnosed with severe depression as defined by the DSM IV criteria?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Gabapentin use prior to SAH admission",
+    "EXCLUSION UNCLEAR: Renal failure with creatinine clearance less than 30 mL/min",
+    "EXCLUSION UNCLEAR: History of severe depression defined by the Diagnostic and Statistical Manual of"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5833
+}

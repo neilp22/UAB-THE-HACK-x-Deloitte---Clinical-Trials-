@@ -1,0 +1,169 @@
+{
+  "nct_id": "NCT03328676",
+  "trial_title": "The Effect of Cannabis on Dementia Related Agitation and Aggression",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "The most common syndrome in patients with severe dementia is agitated behavior, which is often characterized by a combination of violent behavior (physical or verbal), restlessness, and inappropriate loudness. The treatment options for this syndrome are limited and lead to severe side effects. In vivo experiments on animals and clinical studies on adults show that cannabinoids could have a beneficial effect on behavioral disorders in general, and in dementia-related disorders in particular.\n\nAdd",
+  "eligibility_table": [
+    {
+      "criterion": "Male or female subjects > 60 years old.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is female and over 60 years old.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Written informed consent from participants legally authorized representative.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the legally authorized representative provided written informed consent for the patient to participate in the trial?"
+    },
+    {
+      "criterion": "Subjects who are residing either in an institutionalized setting (e.g. dementia unit, nursing home, assisted living facility, or other residential care facility) or in a non-institutionalized setting where the subject is not living alone and is receiving 24-hour supervision via home health care or a family member. Subjects must have been at their current location for at least 14 days before screening and plan to remain at the same location for the duration of the trial.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's living situation is not specified; it is unclear if she is receiving 24-hour supervision.",
+      "clinical_question": "Has the patient been residing in a non-institutionalized setting with 24-hour supervision for at least 14 days prior to screening?"
+    },
+    {
+      "criterion": "Diagnosis of Dementia (NCD) according to the Diagnostic and Statistical Manual of Mental Disorders, Fifth Edition (DSM-V) Criteria for at least 6 months prior to screening.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a diagnosis of schizophrenia, which disqualifies her from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mini-Mental State Examination (MMSE) < 26.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Mini-Mental State Examination (MMSE) score of less than 26?"
+    },
+    {
+      "criterion": "Clinically relevant Behavioral and Psychological Symptoms of Dementia (BPSD) operationally defined as NPI-NH agitation/ aggression sub score of ≥3 at screening.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a NPI-NH agitation/aggression sub score of ≥3 at screening?"
+    },
+    {
+      "criterion": "Documented history of clinically relevant BPSD.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient exhibited ≥2 episodes of clinically relevant behavioral and psychological symptoms of dementia (BPSD) in the past month?"
+    },
+    {
+      "criterion": "Ability to participate in study evaluation and ingest oral medication.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Can the patient ingest oral medication without assistance and participate in study evaluations as evidenced by a score of ≥24 on the Mini-Mental State Examination (MMSE)?"
+    },
+    {
+      "criterion": "Subjects will be on stable concomitant medications regimen for the treatment of BPSD for at least one month prior to the screening visit.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medication regimen for BPSD is not specified; it is unclear if she has been stable for one month.",
+      "clinical_question": "Has the patient been on a stable regimen of medications for the treatment of behavioral and psychological symptoms of dementia (BPSD) for at least one month prior to the screening visit?"
+    },
+    {
+      "criterion": "Subjects will be on stable concomitant medications regimen for the treatment of concurrent conditions for at least one month prior to the screening visit.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medication regimen for concurrent conditions is not specified; it is unclear if she has been stable for one month.",
+      "clinical_question": "Has the patient been on a stable regimen of concomitant medications for the treatment of concurrent conditions for at least one month prior to the screening visit?"
+    },
+    {
+      "criterion": "Patients receiving any of the following medications: Astemizole, Cisapride, Pimozide or Terfenadine.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any of the following medications: Astemizole, Cisapride, Pimozide, or Terfenadine in the past 30 days?"
+    },
+    {
+      "criterion": "The agitation/aggression is attributable to concomitant medications, environmental conditions or psychiatric condition.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's agitation/aggression is likely related to her psychiatric condition (schizophrenia) rather than medications or environmental factors.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with severe heart disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented history of severe heart disease, defined as an ejection fraction (EF) of <40% or New York Heart Association (NYHA) Class III or IV heart failure?"
+    },
+    {
+      "criterion": "Subjects suffering from Epilepsy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a diagnosis of epilepsy as defined by experiencing at least two unprovoked seizures?"
+    },
+    {
+      "criterion": "Subjects suffering from anxiety disorder.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a diagnosed anxiety disorder as defined by the DSM-5 criteria?"
+    },
+    {
+      "criterion": "Subjects who had psychiatric condition in the past OR suffering from psychosis.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of schizophrenia, which is a psychiatric condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Schizophrenia OR family history of Schizophrenia OR any other mental disorder.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has schizophrenia, which is a mental disorder.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subjects with any other condition, which in the judgment of the investigator would prevent the subject from completing the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's multiple chronic conditions may complicate her ability to complete the study, but it is not explicitly stated.",
+      "clinical_question": "Does the patient have any acute or chronic respiratory failure requiring continuous oxygen therapy or mechanical ventilation?"
+    },
+    {
+      "criterion": "Any condition that the Investigator believes would interfere with the intent of the study or would make participation not in the best interest of the patient.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's multiple health issues may interfere with the study, but it is not clear if participation is against her best interest.",
+      "clinical_question": "Does the patient have a current exacerbation of COPD or OSA that requires hospitalization or increased oxygen support?"
+    },
+    {
+      "criterion": "Patients suffering from alcohol and/or substance abuse.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced alcohol and/or substance abuse within the past 12 months?"
+    },
+    {
+      "criterion": "Surgery within 30 days prior to screening or scheduled surgery during the study period.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of recent surgery (s/p 4 vessel CABG), which likely falls within the 30-day exclusion period.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients receiving any of the following medications: Astemizole, Cisapride, Pimo",
+    "EXCLUSION UNCLEAR: Patients with severe heart disease.",
+    "EXCLUSION UNCLEAR: Subjects suffering from Epilepsy.",
+    "EXCLUSION UNCLEAR: Subjects suffering from anxiety disorder.",
+    "EXCLUSION UNCLEAR: Subjects with any other condition, which in the judgment of the investigator wou",
+    "EXCLUSION UNCLEAR: Any condition that the Investigator believes would interfere with the intent of ",
+    "EXCLUSION UNCLEAR: Patients suffering from alcohol and/or substance abuse.",
+    "EXCLUSION VIOLATED: Surgery within 30 days prior to screening or scheduled surgery during the study ",
+    "LOW INCLUSION MATCH: only 1 of 10 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.2857
+}

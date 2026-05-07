@@ -1,0 +1,108 @@
+{
+  "nct_id": "NCT03910413",
+  "trial_title": "Dual Energy CT as a Noninvasive Method to Screen for Gastroesophageal Varices",
+  "phase": "NA",
+  "status": "TERMINATED",
+  "brief_summary": "Cirrhosis leads to portal hypertension and development of gastroesophageal varices, which are the most common cause for bleeding in cirrhosis and a major cause of death. The American Association for the Study of Liver Disease (AASLD) recommends screening endoscopy every 2 years to evaluate for gastroesophageal varices, and annual surveillance for those with small varices on endoscopy. Unfortunately, endoscopy is costly, requires sedation, is poorly tolerated, is subject to high inter-observer va",
+  "eligibility_table": [
+    {
+      "criterion": "Adult patients with cirrhosis presenting to UAB Endoscopy for surveillance endoscopy to detect and grade gastroesophageal varices",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has cirrhosis and is presenting for surveillance endoscopy, which aligns with the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Inability to provide written informed consent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Can the patient demonstrate an understanding of the study's purpose and procedures sufficient to provide written informed consent?"
+    },
+    {
+      "criterion": "History of bleeding gastroesophageal varices, variceal intervention or portosystemic shunt",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced any episodes of bleeding from gastroesophageal varices in the past 12 months?"
+    },
+    {
+      "criterion": "Prior liver transplant",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a liver transplant prior to the current evaluation?"
+    },
+    {
+      "criterion": "History of malignancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with any malignancy within the last 5 years?"
+    },
+    {
+      "criterion": "Severe chronic kidney disease with estimated glomerular filtration rate (GFR) < 30 mL/min/1.73 m2",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's GFR is not provided, making it unclear if they meet the exclusion for severe chronic kidney disease.",
+      "clinical_question": "Is the patient's estimated glomerular filtration rate (GFR) < 30 mL/min/1.73 m²?"
+    },
+    {
+      "criterion": "Presence of acute kidney injury",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced an increase in serum creatinine levels of ≥0.3 mg/dL within 48 hours?"
+    },
+    {
+      "criterion": "Prior iodinated contrast allergy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented history of an allergic reaction to iodinated contrast agents?"
+    },
+    {
+      "criterion": "Patient weight > 300 lbs",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's weight is not specified, so it cannot be determined if they exceed the weight exclusion limit.",
+      "clinical_question": "Does the patient weigh more than 300 lbs?"
+    },
+    {
+      "criterion": "Multiphasic liver CT within 3 months of upper endoscopy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a multiphasic liver CT within the last 3 months prior to the upper endoscopy?"
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently pregnant or has a confirmed pregnancy test within the last 30 days?"
+    },
+    {
+      "criterion": "Inclusion of all races and ethnic groups are eligible for this trial. There is no bias towards age or race in this trial. The trial is open the accrual of women and men.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient of any race or ethnic group other than those specified in the trial's inclusion criteria?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Inability to provide written informed consent",
+    "EXCLUSION UNCLEAR: History of bleeding gastroesophageal varices, variceal intervention or portosyst",
+    "EXCLUSION UNCLEAR: Prior liver transplant",
+    "EXCLUSION UNCLEAR: History of malignancy",
+    "EXCLUSION UNCLEAR: Severe chronic kidney disease with estimated glomerular filtration rate (GFR) < ",
+    "EXCLUSION UNCLEAR: Presence of acute kidney injury",
+    "EXCLUSION UNCLEAR: Prior iodinated contrast allergy",
+    "EXCLUSION UNCLEAR: Patient weight > 300 lbs",
+    "EXCLUSION UNCLEAR: Multiphasic liver CT within 3 months of upper endoscopy",
+    "EXCLUSION UNCLEAR: Pregnancy",
+    "EXCLUSION UNCLEAR: Inclusion of all races and ethnic groups are eligible for this trial. There is n"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.0833
+}

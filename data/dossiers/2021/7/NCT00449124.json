@@ -1,0 +1,410 @@
+{
+  "nct_id": "NCT00449124",
+  "trial_title": "TG4040 in Patients With Chronic HCV",
+  "phase": "PHASE1",
+  "status": "WITHDRAWN",
+  "brief_summary": "The purpose of this study is to evaluate the safety and effectiveness of an investigational vaccine (TG4040) to prevent hepatitis C virus (HCV) infection. The primary goal of this study is to determine the safety of increasing doses of TG4040 versus placebo (an inactive substance) in subjects chronically infected with HCV. Approximately 85 patients, ages 18-65 years, with chronic HCV infection will be enrolled in this study at two sites, Saint Louis University and Cincinnati Children's Hospital.",
+  "eligibility_table": [
+    {
+      "criterion": "Informed consent obtained and signed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient signed the informed consent form for participation in the TG4040 trial?"
+    },
+    {
+      "criterion": "Male or female patients, age 18-65 years old (inclusive)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 60.0 <= 65.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Female patients will be menopausal for at least 12 months, surgically sterile or agree not to become pregnant from the time of study enrollment until at least 28 days after the administration of vaccine or placebo.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion does not apply.",
+      "clinical_question": "Is the patient currently male and does he have a history of surgical sterilization or a documented agreement not to become pregnant for at least 28 days after the administration of vaccine or placebo?"
+    },
+    {
+      "criterion": "If the volunteer is female, of childbearing potential, and sexually active, she agrees to use acceptable contraception.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion does not apply.",
+      "clinical_question": "Is the patient currently using an acceptable form of contraception, such as hormonal birth control or an intrauterine device?"
+    },
+    {
+      "criterion": "A woman is eligible if she is monogamous with a vasectomized male or abstinent, without the additional need for hormonal or barrier birth control methods upon review of a reproductive history.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion does not apply.",
+      "clinical_question": "Is the patient in a monogamous relationship with a vasectomized male partner or is he abstinent?"
+    },
+    {
+      "criterion": "With chronic hepatitis C evidenced by:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has chronic hepatitis C as indicated by the diagnosis of Hep C cirrhosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "HCV RNA detectable in blood",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for HCV RNA are not provided; cannot confirm if HCV RNA is detectable.",
+      "clinical_question": "Is the patient's HCV RNA level currently detectable in their blood, with a threshold of ≥15 IU/mL?"
+    },
+    {
+      "criterion": "A liver biopsy compatible with chronic hepatitis C",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No liver biopsy results are provided; cannot confirm compatibility with chronic hepatitis C.",
+      "clinical_question": "Does the patient have a liver biopsy result indicating chronic hepatitis C with a histological score of at least F2 on the METAVIR scale?"
+    },
+    {
+      "criterion": "Infected with HCV genotype 1",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on HCV genotype is provided; cannot confirm if infected with genotype 1.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of HCV genotype 1 based on recent laboratory testing?"
+    },
+    {
+      "criterion": "Co-infection with HBV (indicated by the presence of hepatitis B surface antigen (HBsAg) in serum) or HIV (anti-HIV in serum); patients with HIV positive sexual partner (by history) will not be included",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of HBV or HIV co-infection is provided; cannot confirm status.",
+      "clinical_question": "Is the patient positive for hepatitis B surface antigen (HBsAg) in serum?"
+    },
+    {
+      "criterion": "Current HCV therapies throughout the trial period",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been on any current HCV therapies, such as direct-acting antivirals, for at least 12 weeks during the trial period?"
+    },
+    {
+      "criterion": "Current alcohol abuse or drug addiction that in the opinion of the investigator may interfere with the subject's ability to comply with trial procedures.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a negative history for alcohol use for a year, indicating no current alcohol abuse.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of immunodeficiency",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific history of immunodeficiency is provided; cannot confirm status.",
+      "clinical_question": "Does the patient have a documented history of immunodeficiency, defined as a CD4 count <200 cells/mm³ or a history of opportunistic infections?"
+    },
+    {
+      "criterion": "Known or suspected impairment of immunologic function including moderate to severe kidney impairment",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Hep C cirrhosis, which indicates significant liver impairment and may suggest immunologic dysfunction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Malignancy within the last 5 years, not including squamous cell skin cancer or basal cell skin cancer unless at the vaccination site or history of skin cancer at the vaccination site",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has increased AFP levels, which raises suspicion for malignancy, although no specific malignancy is documented.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Significant cardiac disease, evidenced by:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific information about significant cardiac disease is provided; further evaluation would be needed.",
+      "clinical_question": "Does the patient have a history of myocardial infarction, congestive heart failure, or a left ventricular ejection fraction (LVEF) < 50%?"
+    },
+    {
+      "criterion": "History of myocardial infarction, angina, congestive heart failure, cardiomyopathy, stroke or transient ischemic attack, chest pain or shortness of breath on activity, or other heart conditions under the care of a physician",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not explicitly mention cardiac conditions, but hypertension and potential cardiac risk factors are present.",
+      "clinical_question": "Does the patient have a documented history of myocardial infarction, angina, congestive heart failure, cardiomyopathy, stroke, or transient ischemic attack within the last 5 years?"
+    },
+    {
+      "criterion": "Baseline ECG showing clinically significant abnormalities (e.g., all kinds of advanced atrioventricular block or intraventricular block with QRS >120msec, QTc >460 msec, or frequent premature atrial contractions, atrial fibrillation or other atrial arrhythmias, > ventricular couplets or ST-T wave abnormalities diagnostic of myocardial ischemia or prior myocardial infarction)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No ECG results are provided; thus, it is unclear if there are clinically significant abnormalities.",
+      "clinical_question": "Does the patient's baseline ECG show a QTc interval greater than 460 msec?"
+    },
+    {
+      "criterion": "Non-cirrhotic patients, i.e. liver biopsy available within one year prior to baseline, excluding stage 4 fibrosis; otherwise, if no liver biopsy of less than one year is available, it will be performed at baseline;",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has cirrhosis, which disqualifies them as a non-cirrhotic patient.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients participating in:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is vague; more information is needed about the patient's participation in other studies.",
+      "clinical_question": "Has the patient been diagnosed with chronic hepatitis C virus (HCV) infection confirmed by serology and/or liver biopsy?"
+    },
+    {
+      "criterion": "Part I will be non-responder patients: patients having received at least 3 months of pegylated IFN-alpha (IFN-alpha) plus ribavirin, with currently detectable HCV RNA (whether or not they reach, Early Virologic Response (EVR, defined as a reduction of HCV RNA by at least 2 logs from baseline or negative at 12 weeks) and/or SVR) with > 6 months between the end of PEG IFN-alpha treatment and the first TG4040 injection;",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is a non-responder to previous treatments, fitting the criteria for Part I.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Part IIa will be either non-responder or relapser patients. Part IIb will be treatment-naïve patients: patients who have never received IFN-based treatment",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received prior treatment and is not treatment-naïve, thus not qualifying for Part IIb.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have compensated liver disease, defined through use of the Child-Pugh scoring system with:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has decompensated liver disease due to cirrhosis, which does not meet the compensated liver disease requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Features of low serum albumin, prolonged prothrombin time, raised bilirubin, ascites and hepatic encephalopathy are scored and patients assigned to Child-Pugh class A, B or C, the later two being decompensated. Only patients with compensated liver disease will be enrolled.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has grade II esophageal varices and Hep C cirrhosis, indicating decompensated liver disease (Child-Pugh class B or C). Only compensated liver disease is eligible.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of ascites, hepatic encephalopathy or bleeding from esophageal varices laboratory tests values:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of hepatic encephalopathy (indicated by cirrhosis) and bleeding from esophageal varices, which disqualifies him.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serum bilirubin and international normalized ratio (INR) values <1.2 (except in patients with Gilbert syndrome where serum bilirubin may be as high as 3.0 mg/dL)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's bilirubin levels are increased, which does not meet the criterion of serum bilirubin <1.2.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serum alanine aminotransferase (ALT) < 5 fold the upper limits of normal (ULN) and",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Serum ALT levels are not provided; thus, it cannot be determined if they are <5 fold the ULN.",
+      "clinical_question": "Is the patient's serum alanine aminotransferase (ALT) level less than 5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Other laboratory parameters of grade 0 or 1 (CTC criteria)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Other laboratory parameters are not provided, making it impossible to assess if they are grade 0 or 1.",
+      "clinical_question": "Does the patient have laboratory parameters classified as grade 0 or 1 according to CTC criteria?"
+    },
+    {
+      "criterion": "Baseline echocardiogram showing clinically significant abnormalities including valvular disease or contractile dysfunction.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No echocardiogram results are provided, so it cannot be determined if there are clinically significant abnormalities.",
+      "clinical_question": "Does the patient have a baseline echocardiogram showing any clinically significant abnormalities, such as valvular disease or contractile dysfunction, as defined by an ejection fraction <50% or moderate to severe valvular stenosis or regurgitation?"
+    },
+    {
+      "criterion": "Ten percent or greater risk of developing a myocardial infarction or coronary death within the next 10 years using the National Cholesterol Education Program's risk assessment tool (http://hin.nhlbi.nih.gov/atpiii/calculator.asp)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No risk assessment has been performed; therefore, the 10% risk of myocardial infarction or coronary death cannot be evaluated.",
+      "clinical_question": "Does the patient have a calculated 10-year risk of myocardial infarction or coronary death of 10% or greater using the National Cholesterol Education Program's risk assessment tool?"
+    },
+    {
+      "criterion": "NOTE: This criterion applies only to subjects 20 years of age and older AND only if at least one of the following apply:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "This criterion is not fully assessable without specific details on smoking history, hypertension, or family history.",
+      "clinical_question": "Does the patient have a documented history of chronic hepatitis C infection for at least 6 months?"
+    },
+    {
+      "criterion": "A) have smoked a cigarette in the past month, and/or B) have hypertension (defined as systolic blood pressure >140 mm Hg) or are on antihypertensive medication, and/or C) have a family history of coronary heart disease in male first-degree relative (father or brother) < 55 years of age or a female first-degree relative (mother or sister) < 65 years of age.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has hypertension (HTN) and is on antihypertensive medication, which disqualifies him.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Current use of immunosuppressive medication; Corticosteroid nasal sprays, Inhaled steroids for asthma and/or topical steroids are permissible. Persons taking short courses of oral steroids for conditions such as poison ivy will need to wait a period of 2 weeks after completion of the steroids to begin vaccination.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is currently on lactulose, but it is unclear if this qualifies as immunosuppressive medication; further clarification is needed.",
+      "clinical_question": "Is the patient currently using any oral corticosteroids or other immunosuppressive medications within the last 2 weeks?"
+    },
+    {
+      "criterion": "History of any one of the following:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not explicitly mention any of the specified exclusions, but further details on the specific exclusions are needed.",
+      "clinical_question": "Has the patient been diagnosed with chronic hepatitis C virus (HCV) infection for at least 6 months?"
+    },
+    {
+      "criterion": "Suicide attempt or hospitalization for depression within the past five years.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about suicide attempts or hospitalization for depression in the past five years.",
+      "clinical_question": "Has the patient attempted suicide or been hospitalized for depression at any time in the past five years?"
+    },
+    {
+      "criterion": "Any current (within 6 months) severe or poorly-controlled psychiatric disorder (e.g., depression, schizophrenia, bipolar illness, obsessive-compulsive disorder, severe anxiety, personality disorder).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No current psychiatric disorders are mentioned, but lack of detailed psychiatric history makes it uncertain.",
+      "clinical_question": "Does the patient have any current severe or poorly-controlled psychiatric disorder as defined by the DSM-5 criteria within the last 6 months?"
+    },
+    {
+      "criterion": "The following patients must be excluded unless they are assessed and followed by a psychiatrist or other mental health professional who pre-approves their study participation:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of psychiatric issues, but no current assessment by a mental health professional is mentioned.",
+      "clinical_question": "Has the patient been assessed and approved for study participation by a psychiatrist or other mental health professional within the last 6 months?"
+    },
+    {
+      "criterion": "Patients who have had a suicide attempt and/or hospitalization for depression more than 5 years ago.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No suicide attempts or hospitalizations for depression are reported within the last five years.",
+      "clinical_question": "Has the patient had a documented suicide attempt or hospitalization for depression within the last 5 years?"
+    },
+    {
+      "criterion": "Patients who have had a severe or poorly-controlled psychiatric disorder (e.g., depression, schizophrenia, bipolar illness, obsessive-compulsive disorder, severe anxiety, personality disorder) more than 6 months ago but less than 5 years ago.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No severe psychiatric disorders are reported within the last 6 months, but history is unclear.",
+      "clinical_question": "Has the patient experienced a severe or poorly-controlled psychiatric disorder within the last 5 years but more than 6 months ago?"
+    },
+    {
+      "criterion": "Receipt of any inactivated vaccine 14 days prior to vaccination or for the duration of the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on recent vaccinations is provided, making it uncertain.",
+      "clinical_question": "Has the patient received any inactivated vaccine within 14 days prior to vaccination or during the study?"
+    },
+    {
+      "criterion": "Receipt of any live attenuated vaccine within 30 days prior to vaccination or for the duration of the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on recent live attenuated vaccinations is provided, making it uncertain.",
+      "clinical_question": "Has the patient received any live attenuated vaccine within the 30 days prior to vaccination?"
+    },
+    {
+      "criterion": "Receipt of any MVA vaccine in the last five years",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on MVA vaccine receipt is provided, making it uncertain.",
+      "clinical_question": "Has the patient received any MVA vaccine in the last 5 years?"
+    },
+    {
+      "criterion": "Use of any experimental agent within 30 days prior to vaccination or for the duration of the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the use of experimental agents is provided, making it uncertain.",
+      "clinical_question": "Has the patient used any experimental agents within the 30 days prior to vaccination or during the study?"
+    },
+    {
+      "criterion": "Receipt of blood products or immunoglobulin within six months prior to vaccination",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about receipt of blood products or immunoglobulin within the last six months.",
+      "clinical_question": "Has the patient received any blood products or immunoglobulin within the last six months?"
+    },
+    {
+      "criterion": "Donation of a unit of blood within 56 days prior to vaccination or for the duration of the study following the first vaccination",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about donation of blood within the last 56 days.",
+      "clinical_question": "Has the patient donated a unit of blood within the last 56 days prior to vaccination?"
+    },
+    {
+      "criterion": "Acute febrile illness (>100.5 degrees F) on the day of vaccination",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No acute febrile illness reported; however, temperature not specified.",
+      "clinical_question": "Does the patient have a recorded body temperature of >100.5 degrees Fahrenheit on the day of vaccination?"
+    },
+    {
+      "criterion": "Pregnant or lactating women",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is male; criterion does not apply.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any condition that, in the opinion of the investigator, might interfere with study objectives",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's conditions may interfere with study objectives, but this is subjective.",
+      "clinical_question": "Does the patient have a Child-Pugh score of ≥10 indicating severe liver dysfunction?"
+    },
+    {
+      "criterion": "Known allergy to MVA vaccine",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No known allergy to MVA vaccine reported.",
+      "clinical_question": "Does the patient have a documented history of an allergic reaction to any MVA vaccine?"
+    },
+    {
+      "criterion": "Receipt of antiviral drugs such as alpha interferon or ribavirin",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of interferon treatment, which is an antiviral drug.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other laboratory parameters of grade 2 or more",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Increased total and direct bilirubin and increased AFP suggest laboratory parameters may be grade 2 or more.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Study personnel engaged in the blinding of this study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about study personnel involvement.",
+      "clinical_question": "Did the study personnel ensure that all participants, including this patient, were blinded to their treatment assignment throughout the duration of the trial?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Co-infection with HBV (indicated by the presence of hepatitis B surface antigen ",
+    "EXCLUSION UNCLEAR: Current HCV therapies throughout the trial period",
+    "EXCLUSION UNCLEAR: History of immunodeficiency",
+    "EXCLUSION VIOLATED: Known or suspected impairment of immunologic function including moderate to seve",
+    "EXCLUSION VIOLATED: Malignancy within the last 5 years, not including squamous cell skin cancer or b",
+    "EXCLUSION UNCLEAR: Significant cardiac disease, evidenced by:",
+    "EXCLUSION UNCLEAR: History of myocardial infarction, angina, congestive heart failure, cardiomyopat",
+    "EXCLUSION UNCLEAR: Baseline ECG showing clinically significant abnormalities (e.g., all kinds of ad",
+    "EXCLUSION UNCLEAR: Baseline echocardiogram showing clinically significant abnormalities including v",
+    "EXCLUSION UNCLEAR: Ten percent or greater risk of developing a myocardial infarction or coronary de",
+    "EXCLUSION UNCLEAR: NOTE: This criterion applies only to subjects 20 years of age and older AND only",
+    "EXCLUSION VIOLATED: A) have smoked a cigarette in the past month, and/or B) have hypertension (defin",
+    "EXCLUSION UNCLEAR: Current use of immunosuppressive medication; Corticosteroid nasal sprays, Inhale",
+    "EXCLUSION UNCLEAR: History of any one of the following:",
+    "EXCLUSION UNCLEAR: Suicide attempt or hospitalization for depression within the past five years.",
+    "EXCLUSION UNCLEAR: Any current (within 6 months) severe or poorly-controlled psychiatric disorder (",
+    "EXCLUSION UNCLEAR: The following patients must be excluded unless they are assessed and followed by",
+    "EXCLUSION UNCLEAR: Patients who have had a suicide attempt and/or hospitalization for depression mo",
+    "EXCLUSION UNCLEAR: Patients who have had a severe or poorly-controlled psychiatric disorder (e.g., ",
+    "EXCLUSION UNCLEAR: Receipt of any inactivated vaccine 14 days prior to vaccination or for the durat",
+    "EXCLUSION UNCLEAR: Receipt of any live attenuated vaccine within 30 days prior to vaccination or fo",
+    "EXCLUSION UNCLEAR: Receipt of any MVA vaccine in the last five years",
+    "EXCLUSION UNCLEAR: Use of any experimental agent within 30 days prior to vaccination or for the dur",
+    "EXCLUSION UNCLEAR: Receipt of blood products or immunoglobulin within six months prior to vaccinati",
+    "EXCLUSION UNCLEAR: Donation of a unit of blood within 56 days prior to vaccination or for the durat",
+    "EXCLUSION UNCLEAR: Acute febrile illness (>100.5 degrees F) on the day of vaccination",
+    "EXCLUSION VIOLATED: Pregnant or lactating women",
+    "EXCLUSION UNCLEAR: Any condition that, in the opinion of the investigator, might interfere with stu",
+    "EXCLUSION UNCLEAR: Known allergy to MVA vaccine",
+    "EXCLUSION VIOLATED: Receipt of antiviral drugs such as alpha interferon or ribavirin",
+    "EXCLUSION VIOLATED: Other laboratory parameters of grade 2 or more",
+    "EXCLUSION UNCLEAR: Study personnel engaged in the blinding of this study",
+    "LOW INCLUSION MATCH: only 3 of 19 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3077
+}

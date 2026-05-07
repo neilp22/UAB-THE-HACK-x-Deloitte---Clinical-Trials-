@@ -1,0 +1,333 @@
+{
+  "nct_id": "NCT02628899",
+  "trial_title": "Feasibility of Transcatheter Aortic Valve Replacement in Low-Risk Patients With Symptomatic, Severe Aortic Stenosis",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "To assess the safety and feasibility of Transcatheter Aortic Valve Replacement (TAVR) with commercially available bioprostheses in patients with severe, symptomatic aortic stenosis (AS) who are low-risk (STS score ≤3%) for surgical aortic valve replacement (SAVR).",
+  "eligibility_table": [
+    {
+      "criterion": "Severe, degenerative AS, defined as:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis as indicated by the presence of severe symptoms and significant left ventricular dysfunction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "mean aortic valve gradient ≥40 mm Hg OR Vmax ≥4 m/sec AND",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Mean aortic valve gradient and Vmax values are not provided in the lab values, making it unclear if this criterion is met.",
+      "clinical_question": "Is the patient's mean aortic valve gradient ≥40 mm Hg or Vmax ≥4 m/sec?"
+    },
+    {
+      "criterion": "calculated aortic valve area ≤1.0 cm2 OR aortic valve area index ≤0.6 cm2/m2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Calculated aortic valve area is not provided, so it cannot be determined if this criterion is met.",
+      "clinical_question": "What is the patient's calculated aortic valve area in cm²?"
+    },
+    {
+      "criterion": "Symptomatic AS, defined as a history of at least one of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and is likely symptomatic given the history of severe LV dysfunction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "dyspnea that qualifies at New York Heart Association (NYHA) class II or greater",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's severe dyspnea and low EF suggest they qualify for NYHA class II or greater.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "angina pectoris",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the presence of angina pectoris.",
+      "clinical_question": "Does the patient report experiencing angina pectoris episodes with a frequency of ≥1 per week?"
+    },
+    {
+      "criterion": "cardiac syncope",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the occurrence of cardiac syncope.",
+      "clinical_question": "Has the patient experienced any episodes of cardiac syncope in the past 6 months?"
+    },
+    {
+      "criterion": "The Heart Team, including at least one cardiothoracic surgeon and one interventional cardiologist, deem the patient to be reasonable for transfemoral TAVR with a commercially available bioprosthetic valve",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The assessment of the Heart Team regarding the patient's suitability for transfemoral TAVR is not provided.",
+      "clinical_question": "Has the Heart Team determined that the patient's overall surgical risk is low enough to proceed with transfemoral TAVR using a commercially available bioprosthetic valve?"
+    },
+    {
+      "criterion": "The Heart Team agrees that the patient is low-risk, quantified by an estimated risk of ≤3% by the calculated STS score for operative mortality at 30 days; AND agrees that SAVR would be an appropriate therapy if offered.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The STS score for operative mortality is not provided, making it unclear if the patient is considered low-risk.",
+      "clinical_question": "Is the patient's estimated risk of operative mortality at 30 days calculated by the STS score ≤3%?"
+    },
+    {
+      "criterion": "The Heart Team agrees that transfemoral TAVR is anatomically feasible, based upon multislice CT measurements",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The anatomical feasibility for transfemoral TAVR based on multislice CT measurements is not provided.",
+      "clinical_question": "Is the patient's aortic annulus diameter measured via multislice CT between 20 mm and 27 mm, indicating anatomical feasibility for transfemoral TAVR?"
+    },
+    {
+      "criterion": "Concomitant disease of another heart valve or the aorta that requires either transcatheter or surgical intervention",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe aortic stenosis and a dilated ascending aorta, indicating concomitant disease that may require intervention.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any condition that is considered a contraindication for placement of a bioprosthetic aortic valve (e.g. patient requires a mechanical aortic valve)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not indicate a clear requirement for a mechanical valve, but the presence of severe aortic stenosis and other conditions may complicate this.",
+      "clinical_question": "Does the patient have any documented requirement for a mechanical aortic valve based on their current cardiac condition?"
+    },
+    {
+      "criterion": "Aortic stenosis secondary to a bicuspid aortic valve (except for the bicuspid valve cohort)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a bicuspid aortic valve, which is the specific cohort for this exclusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior bioprosthetic surgical aortic valve replacement",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of prior bioprosthetic surgical aortic valve replacement in the patient's history.",
+      "clinical_question": "Has the patient undergone a prior bioprosthetic surgical aortic valve replacement?"
+    },
+    {
+      "criterion": "Mechanical heart valve in another position",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a mechanical heart valve in another position according to the provided information.",
+      "clinical_question": "Does the patient have a mechanical heart valve in any position?"
+    },
+    {
+      "criterion": "End-stage renal disease requiring hemodialysis or peritoneal dialysis, or a creatinine clearance <20 cc/min",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's renal function or creatinine clearance.",
+      "clinical_question": "Is the patient's creatinine clearance <20 cc/min based on recent lab results?"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction <20%",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's left ventricular ejection fraction is reported as 25%, which is below the threshold of 20%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recent (<6 months) history of stroke or transient ischemic attack",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no recent history of stroke or transient ischemic attack mentioned in the patient's profile.",
+      "clinical_question": "Has the patient experienced a stroke or transient ischemic attack within the last 6 months?"
+    },
+    {
+      "criterion": "Symptomatic carotid or vertebral artery disease, or recent (<6 weeks) surgical or endovascular treatment of carotid stenosis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide specific details about symptomatic carotid or vertebral artery disease.",
+      "clinical_question": "Has the patient experienced any symptomatic carotid or vertebral artery disease within the last 6 weeks?"
+    },
+    {
+      "criterion": "Any contraindication to oral antiplatelet or anticoagulation therapy following the procedure, including recent or ongoing bleeding, or HASBLED score >3",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding contraindications to oral antiplatelet or anticoagulation therapy in the patient's history.",
+      "clinical_question": "Does the patient have a HASBLED score greater than 3?"
+    },
+    {
+      "criterion": "Procedure status is elective",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The procedure is likely not elective due to the patient's severe aortic stenosis and worsening LV function, indicating a need for urgent intervention.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Expected survival is at least 24 months",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's EF of 25% and severe global hypokinesis suggest a significantly reduced life expectancy, likely less than 24 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "For the bicuspid cohort only:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a bicuspid aortic valve, qualifying him for the bicuspid cohort.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Aortic Stenosis of a bicuspid aortic valve",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has aortic stenosis associated with a bicuspid aortic valve.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe coronary artery disease that is unrevascularized",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of moderate heterogeneous plaque with bilateral ICA stenosis raises concern for severe coronary artery disease, but further evaluation is needed to determine if it is unrevascularized.",
+      "clinical_question": "Does the patient have ≥70% stenosis in one or more coronary arteries as determined by coronary angiography?"
+    },
+    {
+      "criterion": "Recent (<30 days) acute myocardial infarction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no recent history of acute myocardial infarction documented, but the patient's cardiac status is critical and requires further assessment.",
+      "clinical_question": "Has the patient experienced an acute myocardial infarction within the last 30 days?"
+    },
+    {
+      "criterion": "Patient cannot undergo transfemoral TAVR for anatomic reasons (as determined by supplemental imaging studies); this would include inadequate size of iliofemoral access vessels or an aortic annulus size that is not accommodated by the commercially available valves",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Anatomic suitability for transfemoral TAVR is uncertain without imaging studies; the patient's severe aortic stenosis and other anatomical factors need evaluation.",
+      "clinical_question": "Is the diameter of the patient's iliofemoral access vessels less than 6 mm as determined by supplemental imaging studies?"
+    },
+    {
+      "criterion": "Any comorbidity not captured by the STS score that would make SAVR high risk, as determined by a cardiothoracic surgeon who is a member of the heart team; this includes:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The presence of multiple comorbidities raises concerns, but a definitive assessment by a cardiothoracic surgeon is required to determine high-risk status.",
+      "clinical_question": "Does the patient have any additional comorbidities, such as significant pulmonary disease or prior cardiac surgery, that would classify them as high risk for surgical aortic valve replacement (SAVR) according to the cardiothoracic surgeon's assessment?"
+    },
+    {
+      "criterion": "porcelain or severely atherosclerotic aorta",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The condition of the aorta is concerning, but further imaging is needed to classify it as porcelain or severely atherosclerotic.",
+      "clinical_question": "Does the patient have a porcelain aorta or aortic calcification with a score of ≥400 on a CT scan?"
+    },
+    {
+      "criterion": "frailty",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Frailty is not explicitly assessed in the provided information; further evaluation is needed to determine the patient's frailty status.",
+      "clinical_question": "What is the patient's score on the Fried Frailty Phenotype assessment?"
+    },
+    {
+      "criterion": "hostile chest",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The term 'hostile chest' is not clearly defined in the patient's profile, making it difficult to assess definitively.",
+      "clinical_question": "Does the patient have any prior thoracic surgeries or significant chest wall deformities that would classify the chest as hostile?"
+    },
+    {
+      "criterion": "IMA or other conduit either crosses midline of sternum or is adherent to sternum",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the positioning of the IMA or other conduits in relation to the sternum.",
+      "clinical_question": "Does the imaging report indicate whether the IMA or other conduit crosses the midline of the sternum or is adherent to the sternum?"
+    },
+    {
+      "criterion": "severe pulmonary hypertension (PA systolic pressure > 2/3 of systemic pressure)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has mild pulmonary artery systolic hypertension, but the exact PA systolic pressure is not provided to confirm if it exceeds 2/3 of systemic pressure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "severe right ventricular dysfunction",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe left ventricular dysfunction (EF 25%), which may indicate severe right ventricular dysfunction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ongoing sepsis or infective endocarditis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of ongoing sepsis or infective endocarditis in the patient's profile.",
+      "clinical_question": "Does the patient currently exhibit signs of ongoing sepsis or have a confirmed diagnosis of infective endocarditis based on clinical criteria and laboratory findings?"
+    },
+    {
+      "criterion": "Recent (<30 days) or ongoing bleeding that would preclude treatment with anticoagulant or antiplatelet therapy, including recent gastrointestinal bleeding",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No recent bleeding events are documented, but the patient's history does not provide enough detail to confirm.",
+      "clinical_question": "Has the patient experienced any gastrointestinal bleeding within the last 30 days?"
+    },
+    {
+      "criterion": "Uncontrolled atrial fibrillation (resting heart rate >120 beats per minute)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's heart rate is not provided, so it cannot be determined if atrial fibrillation is uncontrolled.",
+      "clinical_question": "Is the patient's resting heart rate consistently greater than 120 beats per minute during monitoring?"
+    },
+    {
+      "criterion": "Severe chronic obstructive pulmonary disease, as demonstrated by forced expiratory volume (FEV1) <750 cc",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's FEV1 or COPD status.",
+      "clinical_question": "What is the patient's forced expiratory volume (FEV1) in cc?"
+    },
+    {
+      "criterion": "Liver failure with Childs class C or D",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's liver function is not assessed in the provided profile.",
+      "clinical_question": "Does the patient have a Child-Pugh score of 10 or higher indicating Childs class C or D liver failure?"
+    },
+    {
+      "criterion": "Pre-procedure shock, inotropes, mechanical assist device, or cardiac arrest",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of pre-procedure shock, inotropes, mechanical assist device, or cardiac arrest in the patient's history.",
+      "clinical_question": "Has the patient experienced any episodes of pre-procedure shock, required inotropes, utilized a mechanical assist device, or suffered cardiac arrest prior to the transcatheter aortic valve replacement?"
+    },
+    {
+      "criterion": "Pregnancy or intent to become pregnant prior to completion of all protocol follow-up procedures",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication of pregnancy or intent to become pregnant.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known allergy to warfarin or aspirin",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention any known allergies to warfarin or aspirin, but without explicit information, it cannot be confirmed.",
+      "clinical_question": "Does the patient have a documented allergy to warfarin or aspirin?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Concomitant disease of another heart valve or the aorta that requires either tra",
+    "EXCLUSION UNCLEAR: Any condition that is considered a contraindication for placement of a bioprosth",
+    "EXCLUSION UNCLEAR: Prior bioprosthetic surgical aortic valve replacement",
+    "EXCLUSION UNCLEAR: Mechanical heart valve in another position",
+    "EXCLUSION UNCLEAR: End-stage renal disease requiring hemodialysis or peritoneal dialysis, or a crea",
+    "EXCLUSION VIOLATED: Left ventricular ejection fraction <20%",
+    "EXCLUSION UNCLEAR: Recent (<6 months) history of stroke or transient ischemic attack",
+    "EXCLUSION UNCLEAR: Symptomatic carotid or vertebral artery disease, or recent (<6 weeks) surgical o",
+    "EXCLUSION UNCLEAR: Any contraindication to oral antiplatelet or anticoagulation therapy following t",
+    "EXCLUSION UNCLEAR: Severe coronary artery disease that is unrevascularized",
+    "EXCLUSION UNCLEAR: Recent (<30 days) acute myocardial infarction",
+    "EXCLUSION UNCLEAR: Patient cannot undergo transfemoral TAVR for anatomic reasons (as determined by ",
+    "EXCLUSION UNCLEAR: Any comorbidity not captured by the STS score that would make SAVR high risk, as",
+    "EXCLUSION UNCLEAR: porcelain or severely atherosclerotic aorta",
+    "EXCLUSION UNCLEAR: frailty",
+    "EXCLUSION UNCLEAR: hostile chest",
+    "EXCLUSION UNCLEAR: IMA or other conduit either crosses midline of sternum or is adherent to sternum",
+    "EXCLUSION VIOLATED: severe pulmonary hypertension (PA systolic pressure > 2/3 of systemic pressure)",
+    "EXCLUSION VIOLATED: severe right ventricular dysfunction",
+    "EXCLUSION UNCLEAR: Ongoing sepsis or infective endocarditis",
+    "EXCLUSION UNCLEAR: Recent (<30 days) or ongoing bleeding that would preclude treatment with anticoa",
+    "EXCLUSION UNCLEAR: Uncontrolled atrial fibrillation (resting heart rate >120 beats per minute)",
+    "EXCLUSION UNCLEAR: Severe chronic obstructive pulmonary disease, as demonstrated by forced expirato",
+    "EXCLUSION UNCLEAR: Liver failure with Childs class C or D",
+    "EXCLUSION UNCLEAR: Pre-procedure shock, inotropes, mechanical assist device, or cardiac arrest",
+    "EXCLUSION UNCLEAR: Known allergy to warfarin or aspirin"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3095
+}

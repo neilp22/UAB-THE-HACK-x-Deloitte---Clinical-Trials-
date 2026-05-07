@@ -1,0 +1,86 @@
+{
+  "nct_id": "NCT00217178",
+  "trial_title": "Homocysteine Lowering and Atherosclerosis Reduction Trial (HART)",
+  "phase": "PHASE4",
+  "status": "UNKNOWN",
+  "brief_summary": "Study Objective:\n\n1\\. To evaluate whether combined therapy with folic acid 2.5 mg/day, vitamin B6 50 mg/day and vitamin B12 1000 micrograms/day vs placebo reduces the rate of atherosclerosis progression, as evaluated by quantitative B-mode carotid ultrasound (US).",
+  "eligibility_table": [
+    {
+      "criterion": "Women and Men aged ≥ 55 years at high risk for CV events",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Does the patient have a serum homocysteine level ≥15 µmol/L?"
+    },
+    {
+      "criterion": "Documented (CAD): i) History of prior MI; ii) stable or unstable angina with documented multivessel CAD or strongly positive stress test; iii) Multivessel CAD and PTCA ≥ 6 months prior to randomization; iv) multivessel CABG ≥ 4 years prior to randomization; v) Multivessel CAD on angiography",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of Coronary Artery Disease (CAD) and underwent Coronary Artery Bypass Grafting (CABG) which qualifies as multivessel CABG performed more than 4 years prior to randomization.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Documented peripheral vascular disease (PVD): i) Previous limp bypass surgery and/or previous peripheral percutaneous transluminal angioplasty and/or previous limp or foot amputation due to PVD. ii) History of intermittent claudication with ankle/arm blood pressure ratio of ≤ 0.80 or with significant arterial stenosis on angiography",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has moderate to severe Peripheral Vascular Disease (PVD) and has a history of significant bilateral carotid stenosis, which indicates documented PVD.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Documented cerebrovascular disease: i) History of previous ischemic stroke",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of a prior cerebrovascular accident (CVA), which qualifies as documented cerebrovascular disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diabetes mellitus with ≥ 1 additional major CV risk factor(s)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Diabetes Mellitus Type II (DMII) and also has multiple additional cardiovascular risk factors including CAD, hypertension, and hyperlipidemia.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Provision of informed consent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient provided informed consent for participation in the Homocysteine Lowering and Atherosclerosis Reduction Trial (HART) as documented in the trial records?"
+    },
+    {
+      "criterion": "Adequate baseline carotid US examination",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a carotid ultrasound examination within the last 12 months that shows adequate imaging quality to assess for carotid artery stenosis?"
+    },
+    {
+      "criterion": "Current use of folic acid supplements > 200 mg/day",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently taking folic acid supplements at a dosage greater than 200 mg/day?"
+    },
+    {
+      "criterion": "Known previous adverse reactions to folic acid, Vitamin B6 or B12",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of adverse reactions to folic acid, Vitamin B6, or B12 in the provided profile, but the absence of information leads to a conservative NEI verdict.",
+      "clinical_question": "Has the patient experienced any adverse reactions to folic acid, Vitamin B6, or B12 in the past?"
+    },
+    {
+      "criterion": "Planned cardiac, peripheral or cerebrovascular procedures",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a complex medical history, but there is no explicit mention of planned cardiac, peripheral, or cerebrovascular procedures, leading to a conservative NEI verdict.",
+      "clinical_question": "Has the patient undergone any planned cardiac, peripheral, or cerebrovascular procedures within the last 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Current use of folic acid supplements > 200 mg/day",
+    "EXCLUSION UNCLEAR: Known previous adverse reactions to folic acid, Vitamin B6 or B12",
+    "EXCLUSION UNCLEAR: Planned cardiac, peripheral or cerebrovascular procedures"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4
+}

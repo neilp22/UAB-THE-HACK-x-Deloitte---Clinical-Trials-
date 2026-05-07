@@ -1,0 +1,277 @@
+{
+  "nct_id": "NCT02942264",
+  "trial_title": "Zotiraciclib (TG02) Plus Dose-Dense or Metronomic Temozolomide Followed by Randomized Phase II Trial of Zotiraciclib (TG02) Plus Temozolomide Versus Temozolomide Alone in Adults With Recurrent Anaplastic Astrocytoma and Glioblastoma",
+  "phase": "PHASE1",
+  "status": "TERMINATED",
+  "brief_summary": "Background:\n\nZotiraciclib (TG02) is an investigational drug that penetrates the blood-brain barrier and might treat brain tumors. Temozolomide (TMZ) is a drug used to treat brain tumors.\n\nObjective:\n\nTo find out if Zotiraciclib (TG02) is safe, and to find out if it in combination with TMZ is as effective as TMZ alone in people with brain tumors.\n\nEligibility:\n\nPeople ages 18 and older with a brain tumor that has progressed after standard treatment\n\nDesign:\n\nIn phase I part, the Bayesian optimal ",
+  "eligibility_table": [
+    {
+      "criterion": "Patients must have pathologic diagnosis of anaplastic astrocytoma defined as World Health Organization (WHO) grade III or glioblastoma/gliosarcoma, WHO grade IV, which are confirmed by National Cancer Institute (NCI) Laboratory of Pathology.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a pathologic diagnosis of anaplastic astrocytoma, which is a WHO grade III tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have recurrent disease, histologically proven or imaging suggestive of recurrent disease as determined by principal investigator (PI). Prior implantation of Gliadel wafers is acceptable, if tumor recurrence is confirmed by histologic examination of the recurrent tumor.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's disease status is unclear; while he has a history of anaplastic astrocytoma, it is not specified if there is imaging or histological confirmation of recurrence.",
+      "clinical_question": "Has the patient undergone histological examination confirming the presence of recurrent anaplastic astrocytoma or glioblastoma?"
+    },
+    {
+      "criterion": "Patients must have the ability to understand and the willingness to sign a written informed consent document.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 45 years old and can likely understand and sign informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must be greater than or equal to 18 years old.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No more than two prior disease relapses to be eligible for the phase I portion of the study and no more than one prior relapse to be eligible for phase II.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has had multiple prior treatments, including 11 cycles of temozolomide, indicating more than two relapses.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have undergone prior standard therapy for their primary disease. For patients with glioblastoma, this would include surgical resection, or biopsy, if safe resection was not permitted due to the tumor location, radiation and adjuvant temozolomide. For patients with anaplastic astrocytoma, this would include surgical resection, radiation and adjuvant chemotherapy procarbazine, lomustine (CCNU) and vincristine (PCV) or temozolomide.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not undergone the standard therapy for anaplastic astrocytoma as required; he has not received PCV or the specified standard treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Tumor tissue must be available for review to confirm histological diagnosis.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "It is not specified whether tumor tissue is currently available for review.",
+      "clinical_question": "Is there available tumor tissue from a biopsy or surgical resection that confirms the histological diagnosis of anaplastic astrocytoma?"
+    },
+    {
+      "criterion": "Tumor block or unstained slides must be available for molecular profiling.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "It is unclear if tumor block or unstained slides are available for molecular profiling.",
+      "clinical_question": "Are tumor blocks or unstained slides from the patient's previous biopsies available for molecular profiling?"
+    },
+    {
+      "criterion": "Karnofsky > 60 percent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Karnofsky Performance Status score of ≥60 percent?"
+    },
+    {
+      "criterion": "Patients who are receiving any other investigational agents. However, prior enrollment on a study using investigational agents is acceptable",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently receiving Avastin, which is an investigational agent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with prior bevacizumab use for tumor treatment. Patients who received bevacizumab for symptom management, including but not limited to cerebral edema, pseudoprogression can be included in the study.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received prior bevacizumab (Avastin) for treatment, which excludes him from eligibility.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any serious medical condition, laboratory abnormality, or psychiatric illness that would prevent the subject from providing informed consent.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's chronic pain and hypertension may be serious conditions, but it is not clear if they prevent informed consent.",
+      "clinical_question": "Does the patient have any psychiatric illness, as assessed by a standardized psychiatric evaluation, that would prevent him from providing informed consent?"
+    },
+    {
+      "criterion": "Any condition, including the presence of clinically significant laboratory abnormalities, which places the patient at unacceptable risk if he/she were to participate in the study or confounds the ability to interpret data from the study.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple serious conditions including an unresectable tumor and severe lower extremity weakness, which may place him at unacceptable risk.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active infection (including persistent fever) including known history of human immunodeficiency virus (HIV) or Hepatitis C infection, because these patients are at increased risk of lethal infections when treated with marrow-suppressive therapy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about active infections or history of HIV/Hepatitis C, making it indeterminate.",
+      "clinical_question": "Does the patient have a documented history of active infection, including persistent fever, or a known history of HIV or Hepatitis C infection?"
+    },
+    {
+      "criterion": "Diseases or conditions that obscure toxicity or dangerously alter drug metabolism",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's chronic pain and other conditions may obscure toxicity or alter drug metabolism.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serious concurrent medical illness e.g. symptomatic congestive heart failure",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a serious concurrent medical illness (hypertension) and significant neurological deficits.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of allergic reactions attributed to compounds of similar chemical or biologic composition to temozolomide and/or Zotiraciclib (TG02).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of allergic reactions to similar compounds is provided, making it indeterminate.",
+      "clinical_question": "Has the patient experienced any allergic reactions to temozolomide or compounds with a similar chemical structure, such as dacarbazine or procarbazine?"
+    },
+    {
+      "criterion": "Patients with a history of any other cancer (except non-melanoma skin cancer or melanoma in-situ following curative surgical resection; or carcinoma in-situ of the cervix or bladder), unless in complete remission and off all therapy for that disease for a minimum of 3 years, are ineligible.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of anaplastic astrocytoma, which is a form of cancer, and does not meet the 3-year remission requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients receiving any medications or substances that are strong inhibitors or inducers of CYP1A2 and/or CYP3A4 are ineligible.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The medications listed do not specify if they are strong inhibitors or inducers of CYP1A2 and/or CYP3A4, making it indeterminate.",
+      "clinical_question": "Has the patient taken any medications that are classified as strong inhibitors or inducers of CYP1A2 and/or CYP3A4 within the last 30 days?"
+    },
+    {
+      "criterion": "Patients must have adequate bone marrow function (absolute neutrophil count (ANC) > 1,500/mm^3, platelet count of > 100,000/mm^3), adequate liver function (alanine aminotransferase (ALT) and aspartate aminotransferase (AST)< 3 times upper limit normal and alkaline phosphatase < 2 times upper limit normal, total bilirubin < 1.5mg/dl), and adequate renal function (blood urea nitrogen (BUN) < 1.5 times institutional normal and serum creatinine < 1.5 mg/dl) prior to registration. These tests must be performed within 14 days prior to registration. Total bilirubin: patients with Gilbert's Syndrome are eligible for the study. (Total bilirubin level can be exempted from the eligibility criterion.)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided, so it is unclear if the patient meets the criteria for adequate bone marrow, liver, and renal function.",
+      "clinical_question": "Is the patient's absolute neutrophil count (ANC) greater than 1,500/mm^3?"
+    },
+    {
+      "criterion": "Patients must have recovered from the toxic effects of prior therapy to less than grade 2 toxicity per Common Terminology Criteria (CTC) version 4 (except deep vein thrombosis)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the patient's recovery from prior therapy, making it indeterminate.",
+      "clinical_question": "Has the patient experienced any toxic effects from prior therapy that are graded as ≥2 according to the Common Terminology Criteria (CTC) version 4?"
+    },
+    {
+      "criterion": "At the time of registration, subject must be removed from prior therapy as follows: greater than or equal to (28 days) from any investigational agent",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on multiple therapies, which likely does not meet the 28-day requirement from investigational agents.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "greater than or equal to 4 weeks (28 days) from prior cytotoxic therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has been on high-dose steroids and temozolomide, but the exact timing of the last cytotoxic therapy is not specified.",
+      "clinical_question": "Has the patient completed their last cytotoxic therapy at least 28 days prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "greater than or equal to 2 weeks (14 days) from vincristine",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to have received vincristine, but the timeline for other treatments is unclear.",
+      "clinical_question": "Has the patient received vincristine at least 14 days prior to the initiation of Zotiraciclib (TG02)?"
+    },
+    {
+      "criterion": "greater than or equal to 6 weeks (42 days) from nitrosoureas",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not received nitrosoureas, but the timing of prior treatments does not provide clarity.",
+      "clinical_question": "Has the patient received nitrosoureas within the last 6 weeks (42 days)?"
+    },
+    {
+      "criterion": "greater than or equal to 3 weeks (21 days) from procarbazine administration",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not received procarbazine, but the timeline for other treatments is not specified.",
+      "clinical_question": "Has the patient received procarbazine within the last 21 days?"
+    },
+    {
+      "criterion": "greater than or equal to 1 week (7 days) for non-cytotoxic agents, e.g., interferon, tamoxifen, thalidomide, cis-retinoic acid, etc. radiosensitizer does not count.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on high-dose steroids and other non-cytotoxic agents, but the timeline is unclear.",
+      "clinical_question": "Has the patient received any non-cytotoxic agents for at least 7 days prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "Patients having undergone recent resection of recurrent or progressive tumor will be eligible given all of the following conditions apply:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has an unresectable tumor and has not undergone recent resection.",
+      "clinical_question": "Has the patient undergone a recent surgical resection of the recurrent or progressive tumor within the last 6 weeks?"
+    },
+    {
+      "criterion": "Patients, who continue to have prolonged corrected QT interval (QTc) (males: greater than 450ms; females: greater than 470ms as calculated by Fridericia s correction formula) despite normal electrolyte balance and discontinuation of medications known to prolong QTc, will be excluded from the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the patient's QTc interval or electrolyte balance.",
+      "clinical_question": "Is the patient's corrected QT interval (QTc) greater than 450ms?"
+    },
+    {
+      "criterion": "At least 2 weeks (14 days) have elapsed from the date of surgery and the patients have recovered from the effects of surgery.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone surgery recently, so this criterion cannot be assessed.",
+      "clinical_question": "Has the patient recovered from the effects of surgery at least 14 days post-operation?"
+    },
+    {
+      "criterion": "Evaluable or measureable disease following resection of recurrent malignant glioma is not mandated for eligibility into the study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not had a recent resection of malignant glioma, making this criterion inapplicable.",
+      "clinical_question": "Does the patient have any evaluable or measurable disease as defined by the RANO criteria following the most recent treatment?"
+    },
+    {
+      "criterion": "To best assess the extent of residual disease post-operatively, an magnetic resonance imaging (MRI) should be done no later than 96 hours in the immediate post-operative period or at least within 4 weeks post-operatively, within 14 days prior to registration. If the 96-hour scan is more than 14 days before registration, the scan needs to be repeated. The patient must have been on a stable steroid dose for at least 5 days prior to the baseline MRI. Steroids may be initiated as clinically indicated once baseline imaging has been completed with a goal of titrating steroids as soon as clinically warranted.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the timing of MRI or steroid dosing prior to imaging.",
+      "clinical_question": "Has the patient undergone a magnetic resonance imaging (MRI) scan within 96 hours post-operatively or within 14 days prior to registration?"
+    },
+    {
+      "criterion": "Patients must have received prior radiation therapy and must have an interval of greater than or equal to 12 weeks (84 days) from the completion of radiation therapy to study entry except if there is unequivocal evidence for tumor recurrence (such as histological confirmation or advanced imaging data such as positron emission tomography (PET) scan) in which case the principal investigators discretion may determine appropriate timepoint at which study therapy may begin.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has received prior radiation therapy and it has been more than 12 weeks since the completion of that therapy, assuming no evidence of tumor recurrence is present.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women of childbearing potential must have a negative beta-human chorionic gonadotropin (HCG) pregnancy test documented within 14 days prior to registration. The effects of Zotiraciclib (TG02) on the developing human fetus are unknown. For this reason, women of childbearing potential must not be pregnant, must not be breast-feeding, and must practice adequate contraception for the duration of the study, and for 30 days after the last dose of study medication.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so the criterion regarding women of childbearing potential does not apply.",
+      "clinical_question": "Has the patient had a negative beta-human chorionic gonadotropin (HCG) pregnancy test documented within 14 days prior to registration?"
+    },
+    {
+      "criterion": "Male patients on treatment with Zotiraciclib (TG02) must agree to use an adequate method of contraception for the duration of the study, and for 30 days after the last dose of study medication as the effects of Zotiraciclib (TG02) on the developing human fetus are unknown.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and must agree to use contraception, which is a requirement for male patients in the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must agree to enroll on the Neuro-oncology Branch (NOB) Natural History protocol to allow the assessment of molecular tumor markers.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's willingness to enroll in the Neuro-oncology Branch Natural History protocol.",
+      "clinical_question": "Has the patient provided written consent to enroll in the Neuro-oncology Branch (NOB) Natural History protocol?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Patients who are receiving any other investigational agents. However, prior enro",
+    "EXCLUSION VIOLATED: Patients with prior bevacizumab use for tumor treatment. Patients who received b",
+    "EXCLUSION UNCLEAR: Any serious medical condition, laboratory abnormality, or psychiatric illness th",
+    "EXCLUSION VIOLATED: Any condition, including the presence of clinically significant laboratory abnor",
+    "EXCLUSION UNCLEAR: Active infection (including persistent fever) including known history of human i",
+    "EXCLUSION VIOLATED: Diseases or conditions that obscure toxicity or dangerously alter drug metabolis",
+    "EXCLUSION VIOLATED: Serious concurrent medical illness e.g. symptomatic congestive heart failure",
+    "EXCLUSION UNCLEAR: History of allergic reactions attributed to compounds of similar chemical or bio",
+    "EXCLUSION VIOLATED: Patients with a history of any other cancer (except non-melanoma skin cancer or ",
+    "EXCLUSION UNCLEAR: Patients receiving any medications or substances that are strong inhibitors or i",
+    "EXCLUSION UNCLEAR: Patients, who continue to have prolonged corrected QT interval (QTc) (males: gre",
+    "LOW INCLUSION MATCH: only 5 of 25 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3889
+}

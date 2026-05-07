@@ -1,0 +1,56 @@
+{
+  "nct_id": "NCT02747017",
+  "trial_title": "Observational Study of C. Diff in Post-Transplant Patients",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "The primary objective of this observational study is to estimate the 90-day response rates to treatment for a first episode of C. difficile infections (CDI) in adult transplant recipients.",
+  "eligibility_table": [
+    {
+      "criterion": "Age ≥ 18 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Signed informed consent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not specify whether signed informed consent has been obtained.",
+      "clinical_question": "Has the patient signed the informed consent form for participation in the observational study of C. Diff in post-transplant patients?"
+    },
+    {
+      "criterion": "Transplant recipient (solid organ, stem cells, or bone marrow) within past 2 years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not a transplant recipient, as there is no mention of any solid organ, stem cell, or bone marrow transplant.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Currently diagnosed with first CDI after transplant, defined by (1) presence of diarrhea (at least 3 loose stools within a 24-hour period), AND (2) detection of C. difficile cytotoxin in stools by cytotoxin assay, or toxigenic culture, or polymerase chain reaction (PCR) testing for toxin, or enzyme immunoassay, or endoscopic presence of pseudomembranes with the detection of C. difficile in tissue biopsies",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of C. difficile infection but does not meet the criteria for a current diagnosis of first CDI after transplant, as there is no indication of recent transplant.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous episode of CDI anytime after transplant",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of two prior C. difficile infections, which qualifies as a previous episode of CDI after transplant.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Current treatment for another infectious cause of diarrhea (bacterial, viral, or parasitic) at the time of the current CDI diagnosis",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently being treated for a C. difficile infection with antibiotics (Vancomycin and Metronidazole), which indicates treatment for another infectious cause of diarrhea.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 1 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.8333
+}

@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT04252846",
+  "trial_title": "A Study to Investigate Dosage, Effectiveness, and Safety of Perampanel When Used as First Add-on Therapy in Participants >=12 Years With Partial Onset Seizures With or Without Secondary Generalization or With Primary Generalized Tonic-Clonic Seizures Associated With Idiopathic Generalized Epilepsy",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "The primary purpose of this study is to assess the retention rate of perampanel as a reliable proxy for overall effectiveness and tolerability in participants aged at least 12 years who are prescribed perampanel (for partial onset seizures \\[POS\\] with or without secondary generalization \\[SG\\] or for primary generalized tonic-clonic seizures \\[PGTCS\\] associated with idiopathic generalized epilepsy \\[IGE\\] as first adjunctive to antiepileptic drug (AED) monotherapy as part of their routine clin",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosis of epilepsy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with epilepsy by a neurologist based on clinical evaluation and EEG findings?"
+    },
+    {
+      "criterion": "History of POS with or without SG or PGTCS associated with IGE",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of seizures but the specific type (POS with or without SG or PGTCS) is not clearly documented.",
+      "clinical_question": "Has the patient experienced at least two documented episodes of partial onset seizures with or without secondary generalization or primary generalized tonic-clonic seizures in the past year?"
+    },
+    {
+      "criterion": "Documented POS with or without SG or PGTCS associated with IGE, within the past 12 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented seizure activity within the past 12 months, making it unclear if the patient meets this criterion.",
+      "clinical_question": "Has the patient experienced documented partial onset seizures with or without secondary generalization or primary generalized tonic-clonic seizures associated with idiopathic generalized epilepsy within the past 12 months?"
+    },
+    {
+      "criterion": "Previously treated with 1 or 2 AEDs as monotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has been treated with AEDs (Dilantin, phenobarbital) and has a history of tapering off Dilantin, indicating prior treatment with 1 or 2 AEDs.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 4 weeks' seizure diary data, or sufficient clinical detail to calculate baseline seizure frequency",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no seizure diary data provided, and the clinical details do not allow for calculation of baseline seizure frequency.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Episode(s) of status epilepticus within the past 6 months before Screening",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding episodes of status epilepticus in the past 6 months, making it uncertain.",
+      "clinical_question": "Has the patient experienced any episode(s) of status epilepticus within the past 6 months prior to screening?"
+    },
+    {
+      "criterion": "Previously treated with 2 or more AEDs in combination (other than during cross-titration between AED monotherapies)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has been treated with AEDs but there is no indication of treatment with 2 or more AEDs in combination.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous or current use of perampanel",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the use of perampanel, making it uncertain.",
+      "clinical_question": "Has the patient previously received perampanel at any dosage?"
+    },
+    {
+      "criterion": "Retrospective inclusions will be allowed but only if the time between the initiation of perampanel treatment and the inclusion does not exceed 7 calendar days",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient’s treatment history does not mention perampanel, but there is insufficient information to confirm.",
+      "clinical_question": "Has the patient initiated perampanel treatment within the last 7 calendar days?"
+    },
+    {
+      "criterion": "Hypersensitivity to perampanel or any of the excipients",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented hypersensitivity to perampanel or its excipients, but this cannot be confirmed without further information.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to perampanel or any of its excipients?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Episode(s) of status epilepticus within the past 6 months before Screening",
+    "EXCLUSION UNCLEAR: Previous or current use of perampanel",
+    "EXCLUSION UNCLEAR: Retrospective inclusions will be allowed but only if the time between the initia",
+    "EXCLUSION UNCLEAR: Hypersensitivity to perampanel or any of the excipients",
+    "LOW INCLUSION MATCH: only 1 of 5 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3
+}

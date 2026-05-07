@@ -1,0 +1,252 @@
+{
+  "nct_id": "NCT04671771",
+  "trial_title": "A Study to Evaluate the Safety and Effectiveness of the InnAVasc Arteriovenous Graft for Hemodialysis Access in Patients With End-Stage Renal Disease",
+  "phase": "NA",
+  "status": "RECRUITING",
+  "brief_summary": "The goal of the CSP-2002 clinical trial is to evaluate the safety and effectiveness of the InnAVasc Arteriovenous Graft (IG) for hemodialysis (HD) access in patients with end-stage renal disease (ESRD). The primary study endpoints are:\n\nPrimary Effectiveness Endpoint: The proportion of subjects with secondary patency at 6 months.\n\nPrimary Safety Endpoint: The incidence of device-related adverse events of special interest (AESIs) through 6 months.\n\nParticipants will be asked to sign an informed c",
+  "eligibility_table": [
+    {
+      "criterion": "Age 18 to 90 years old, inclusive;",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age 18 to 90 years old, inclusive;",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 <= 90.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with ESRD whose next most appropriate option for AV access is placement of an AV graft to start or maintain hemodialysis therapy;",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has arteriovenous malformation (AVM) but does not have end-stage renal disease (ESRD), making this criterion not applicable.",
+      "clinical_question": "Does the patient have a documented need for arteriovenous graft placement for hemodialysis access due to end-stage renal disease?"
+    },
+    {
+      "criterion": "Suitable anatomy for implantation of upper arm 'straight' or looped graft, or forearm looped graft (graft not to cross the bend of the elbow);",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's anatomy is not assessed in the provided profile, and there is no information on the suitability for graft implantation.",
+      "clinical_question": "Does the patient have suitable upper arm anatomy for implantation of a straight or looped graft, or forearm looped graft, without crossing the bend of the elbow?"
+    },
+    {
+      "criterion": "Ability to continue or commence antiplatelet therapy post graft implant (anticoagulation medication is acceptable if the subject is required to take an anticoagulant for a baseline medical condition);",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to continue or commence antiplatelet therapy is not mentioned, and there is no information on current anticoagulation needs.",
+      "clinical_question": "Is the patient currently able to safely commence or continue antiplatelet therapy post graft implant without contraindications related to her history of spontaneous intraventricular hemorrhage and arteriovenous malformation?"
+    },
+    {
+      "criterion": "Able and willing to give informed consent;",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old and likely able and willing to give informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anticipated life expectancy of at least 1 year.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "At 32 years old, the patient is expected to have a life expectancy of at least 1 year.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Both vessels have been exposed and are deemed appropriate for implantation (i.e., based on the surgeon's opinion, artery is of adequate size, has adequate pulse to support AV access flow, is without significant calcification, and is safely clampable; and the vein is of adequate size, free of localized sclerosis, and is free of immediate outflow obstruction).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the exposure and assessment of the vessels for implantation.",
+      "clinical_question": "Is the diameter of the patient's artery at the proposed implantation site ≥2.5 mm and is the vein at least 3 mm in diameter, free of localized sclerosis, and without immediate outflow obstruction?"
+    },
+    {
+      "criterion": "History or evidence of severe cardiac disease (i.e., debilitating heart failure, or high risk of MI) in the opinion of the investigator which may preclude participation in and completion of the study;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not indicate severe cardiac disease, but there is insufficient information to make a definitive assessment.",
+      "clinical_question": "Does the patient have a history of debilitating heart failure or a documented high risk of myocardial infarction as assessed by the investigator?"
+    },
+    {
+      "criterion": "Uncontrolled diabetes in the opinion of the investigator (i.e., multiple recent diabetes related hospitalizations);",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's diabetes status, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient experienced ≥2 diabetes-related hospitalizations in the past 6 months?"
+    },
+    {
+      "criterion": "For upper arm straight configuration, an antecubital fossa crease to axillary crease distance < 18 cm;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the distance from the antecubital fossa crease to the axillary crease in this patient less than 18 cm?"
+    },
+    {
+      "criterion": "History or evidence of severe peripheral arterial disease in the extremity selected for implant (i.e., arterial inflow insufficient to support hemodialysis access);",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide information on peripheral arterial disease in the selected extremity.",
+      "clinical_question": "Does the patient have a documented history of severe peripheral arterial disease in the extremity selected for implant, as defined by an ankle-brachial index (ABI) of <0.5?"
+    },
+    {
+      "criterion": "Known or suspected central vein stenosis or obstruction on the side of planned graft implantation;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding central vein stenosis or obstruction on the side of planned graft implantation.",
+      "clinical_question": "Does the patient have evidence of central vein stenosis or obstruction on the side of planned graft implantation as assessed by imaging studies such as ultrasound or venography?"
+    },
+    {
+      "criterion": "Baseline hypotension or history of frequent hypotensive episodes during dialysis that, in the opinion of the investigator, puts the patient at increased risk of graft thrombosis;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about baseline hypotension or history of hypotensive episodes.",
+      "clinical_question": "Has the patient experienced ≥2 episodes of hypotension (systolic blood pressure <90 mmHg) during dialysis sessions in the past month?"
+    },
+    {
+      "criterion": "Uncontrolled hypertension, per the opinion of the investigator (i.e., recent history of recurrent hospitalizations for hypertensive related illness);",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about blood pressure control or recent hospitalizations for hypertension.",
+      "clinical_question": "Has the patient experienced ≥2 hospitalizations in the past 12 months due to hypertensive-related illnesses?"
+    },
+    {
+      "criterion": "Baseline hemoglobin < 7 g/dL;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's baseline hemoglobin level less than 7 g/dL?"
+    },
+    {
+      "criterion": "Baseline platelet count < 50,000 or > 500,000 cells/mm3;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No platelet count data available to assess eligibility.",
+      "clinical_question": "What is the patient's current platelet count?"
+    },
+    {
+      "criterion": "Baseline platelet count < 50,000 or > 500,000 cells/mm3;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No platelet count data available to assess eligibility.",
+      "clinical_question": "What is the patient's current platelet count?"
+    },
+    {
+      "criterion": "Pre-Operative",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is 32 years old and appears to be pre-operative based on the conditions listed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Documented history of stroke within 6 months prior to enrollment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No documented history of stroke provided, but the recent head injury raises concern.",
+      "clinical_question": "Has the patient experienced a stroke within the last 6 months prior to enrollment?"
+    },
+    {
+      "criterion": "Treatment with any investigational drug or device within 30 days prior to enrollment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about recent investigational drug or device treatments.",
+      "clinical_question": "Has the patient received any investigational drug or device within the 30 days prior to enrollment?"
+    },
+    {
+      "criterion": "Female patients who are pregnant, intending to become pregnant, nursing or intending to breastfeed during the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about pregnancy or breastfeeding status.",
+      "clinical_question": "Is the patient currently pregnant, intending to become pregnant, nursing, or intending to breastfeed during the study?"
+    },
+    {
+      "criterion": "History of cancer with active disease or treatment within the previous year, except for non-invasive basal or squamous cell carcinoma of the skin",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of cancer provided, but no confirmation of active disease or treatment.",
+      "clinical_question": "Has the patient been diagnosed with any active cancer or received treatment for cancer within the past year?"
+    },
+    {
+      "criterion": "Immunodeficiency including documented history of human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome (AIDS) or patients receiving immunosuppressive therapy for treatment of an acute inflammatory event or autoimmune flare",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about immunodeficiency or immunosuppressive therapy.",
+      "clinical_question": "Does the patient have a documented history of human immunodeficiency virus (HIV) or acquired immunodeficiency syndrome (AIDS), or is she currently receiving immunosuppressive therapy for an acute inflammatory event or autoimmune flare?"
+    },
+    {
+      "criterion": "Documented or suspected hypercoagulable condition",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of spontaneous intraventricular hemorrhage and arteriovenous malformation, which may suggest a hypercoagulable state, but there is no documented evidence of a hypercoagulable condition.",
+      "clinical_question": "Does the patient have a documented history of a hypercoagulable condition, such as antiphospholipid syndrome or factor V Leiden mutation, confirmed by laboratory testing?"
+    },
+    {
+      "criterion": "Bleeding diathesis, other than that associated with ESRD",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of significant bleeding due to intraventricular hemorrhage, but there is no specific mention of a bleeding diathesis unrelated to ESRD.",
+      "clinical_question": "Does the patient have a documented history of bleeding diathesis, defined as a bleeding tendency requiring medical intervention or resulting in significant hemorrhage, other than that associated with end-stage renal disease?"
+    },
+    {
+      "criterion": "Documented history of heparin-induced thrombocytopenia (HIT)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of heparin-induced thrombocytopenia (HIT) in the patient's profile.",
+      "clinical_question": "Has the patient ever been diagnosed with heparin-induced thrombocytopenia (HIT) based on a documented platelet count drop of ≥50% after heparin exposure?"
+    },
+    {
+      "criterion": "Active local or systemic infection as documented from the medical history or bloodwork/blood culture data. If the infection resolves, the subject must be at least one-week post resolution of that infection before implantation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of an active local or systemic infection in the provided medical history.",
+      "clinical_question": "Has the patient had any active local or systemic infections documented in their medical history or bloodwork within the past month?"
+    },
+    {
+      "criterion": "Scheduled renal transplant within 6 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not scheduled for a renal transplant within the next 6 months according to the information provided.",
+      "clinical_question": "Is the patient scheduled for a renal transplant within the next 6 months?"
+    },
+    {
+      "criterion": "Any other condition which in the judgment of the investigator would preclude adequate evaluation of the safety and effectiveness of the IG;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's complex medical history may raise concerns about adequate evaluation of safety and effectiveness, but it is not explicitly stated that any condition precludes this.",
+      "clinical_question": "Does the patient have any neurological deficits or complications from the spontaneous intraventricular hemorrhage or arteriovenous malformation that would preclude adequate evaluation of the safety and effectiveness of the InnAVasc Arteriovenous Graft?"
+    },
+    {
+      "criterion": "Patient is unable or unwilling to complete all required follow-up assessments and questionnaires.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information suggesting that the patient is unable or unwilling to complete follow-up assessments and questionnaires.",
+      "clinical_question": "Is the patient willing and able to attend at least 75% of the required follow-up assessments and complete all necessary questionnaires?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: History or evidence of severe cardiac disease (i.e., debilitating heart failure,",
+    "EXCLUSION UNCLEAR: Uncontrolled diabetes in the opinion of the investigator (i.e., multiple recent ",
+    "EXCLUSION UNCLEAR: For upper arm straight configuration, an antecubital fossa crease to axillary cr",
+    "EXCLUSION UNCLEAR: History or evidence of severe peripheral arterial disease in the extremity selec",
+    "EXCLUSION UNCLEAR: Known or suspected central vein stenosis or obstruction on the side of planned g",
+    "EXCLUSION UNCLEAR: Baseline hypotension or history of frequent hypotensive episodes during dialysis",
+    "EXCLUSION UNCLEAR: Uncontrolled hypertension, per the opinion of the investigator (i.e., recent his",
+    "EXCLUSION UNCLEAR: Baseline hemoglobin < 7 g/dL;",
+    "EXCLUSION UNCLEAR: Baseline platelet count < 50,000 or > 500,000 cells/mm3;",
+    "EXCLUSION UNCLEAR: Baseline platelet count < 50,000 or > 500,000 cells/mm3;",
+    "EXCLUSION UNCLEAR: Documented history of stroke within 6 months prior to enrollment",
+    "EXCLUSION UNCLEAR: Treatment with any investigational drug or device within 30 days prior to enroll",
+    "EXCLUSION UNCLEAR: Female patients who are pregnant, intending to become pregnant, nursing or inten",
+    "EXCLUSION UNCLEAR: History of cancer with active disease or treatment within the previous year, exc",
+    "EXCLUSION UNCLEAR: Immunodeficiency including documented history of human immunodeficiency virus (H",
+    "EXCLUSION UNCLEAR: Documented or suspected hypercoagulable condition",
+    "EXCLUSION UNCLEAR: Bleeding diathesis, other than that associated with ESRD",
+    "EXCLUSION UNCLEAR: Documented history of heparin-induced thrombocytopenia (HIT)",
+    "EXCLUSION UNCLEAR: Active local or systemic infection as documented from the medical history or blo",
+    "EXCLUSION UNCLEAR: Scheduled renal transplant within 6 months",
+    "EXCLUSION UNCLEAR: Any other condition which in the judgment of the investigator would preclude ade",
+    "EXCLUSION UNCLEAR: Patient is unable or unwilling to complete all required follow-up assessments an"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1613
+}

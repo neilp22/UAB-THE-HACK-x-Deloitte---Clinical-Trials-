@@ -1,0 +1,390 @@
+{
+  "nct_id": "NCT01531374",
+  "trial_title": "Safety and Efficacy Continued Access Study of the Medtronic CoreValve® System in the Treatment of Symptomatic Severe Aortic Stenosis in Very High Risk Subjects and High Risk Subjects Who Need Aortic Valve Replacement",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of the study is to evaluate the safety and efficacy of the Medtronic CoreValve® System in the treatment of symptomatic severe aortic stenosis in subjects who have a predicted very high risk and high risk for aortic valve surgery.",
+  "eligibility_table": [
+    {
+      "criterion": "Subject must have co-morbidities such that one cardiologist and two cardiac surgeons agree that predicted risk of operative mortality is ≥15% (and predicted operative mortality or serious, irreversible morbidity risk of < 50%) at 30 days.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's severe aortic stenosis and worsening LV function suggest a high operative mortality risk, but specific agreement from one cardiologist and two surgeons is not provided.",
+      "clinical_question": "Does the patient have a predicted risk of operative mortality of ≥15% as assessed by one cardiologist and two cardiac surgeons?"
+    },
+    {
+      "criterion": "Subject must have co-morbidities such that one cardiologist and two cardiac surgeons agree that medical factors preclude operation, based on a conclusion that the probability of death or serious morbidity exceeds the probability of meaningful improvement. Specifically, the predicted operative risk of death or serious, irreversible morbidity is ≥ 50% at 30 days.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "While the patient's condition may suggest a high risk of death or serious morbidity, there is no explicit evidence of agreement from medical professionals regarding the predicted risk exceeding 50%.",
+      "clinical_question": "What is the calculated predicted operative risk of death or serious, irreversible morbidity for this patient at 30 days, and does it exceed 50%?"
+    },
+    {
+      "criterion": "Subject has senile degenerative aortic valve stenosis with: Mean gradient > 40 mmHg, or jet velocity greater than 4.0 m/sec by either resting or dobutamine stress echocardiogram, or simultaneous pressure recordings at cardiac catheterization (either resting or dobutamine stress), AND An initial aortic valve area of ≤ 0.8 cm2 (or aortic valve area index ≤ 0.5 cm2/m2) by resting echocardiogram or simultaneous pressure recordings at cardiac catheterization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's aortic stenosis is severe, but specific measurements of mean gradient or jet velocity are not provided, making it unclear if they meet the criteria.",
+      "clinical_question": "Is the patient's mean gradient greater than 40 mmHg or jet velocity greater than 4.0 m/sec as measured by a resting or dobutamine stress echocardiogram?"
+    },
+    {
+      "criterion": "An initial aortic valve area of ≤ 0.8 cm2 (or aortic valve area index ≤ 0.5 cm2/m2) by resting echocardiogram or simultaneous pressure recordings at cardiac catheterization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's aortic valve area is not explicitly stated, so it cannot be determined if it is ≤ 0.8 cm2.",
+      "clinical_question": "Is the patient's aortic valve area ≤ 0.8 cm² as measured by resting echocardiogram or simultaneous pressure recordings at cardiac catheterization?"
+    },
+    {
+      "criterion": "Subject is symptomatic from his/her aortic valve stenosis, as demonstrated by New York Heart Association (NYHA) Functional Class II or greater.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is symptomatic from aortic valve stenosis, likely meeting NYHA Class II or greater due to severe LV dysfunction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The subject or the subject's legal representative has been informed of the nature of the trial, agrees to its provisions and has provided written informed consent as approved by the IRB of the respective clinical site.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about informed consent or the subject's legal representative's agreement.",
+      "clinical_question": "Has the patient or the patient's legal representative provided written informed consent as approved by the IRB of the respective clinical site?"
+    },
+    {
+      "criterion": "The subject and the treating physician agree that the subject will return for all required post-procedure follow-up visits.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the agreement between the subject and the physician for follow-up visits.",
+      "clinical_question": "Has the patient confirmed attendance for all scheduled post-procedure follow-up visits as agreed upon with the treating physician?"
+    },
+    {
+      "criterion": "Evidence of an acute myocardial infarction ≤ 30 days before the intended treatment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no evidence provided regarding an acute myocardial infarction within 30 days, but it cannot be confirmed.",
+      "clinical_question": "Has the patient experienced an acute myocardial infarction within the last 30 days?"
+    },
+    {
+      "criterion": "Any percutaneous coronary or peripheral interventional procedure performed within 30 days prior to the MCS TAVI procedure including bare metal and drug eluting stents.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any recent percutaneous coronary or peripheral interventional procedures.",
+      "clinical_question": "Has the patient undergone any percutaneous coronary or peripheral interventional procedure within 30 days prior to the MCS TAVI procedure?"
+    },
+    {
+      "criterion": "Blood dyscrasias as defined: leukopenia (WBC < 1000mm3), thrombocytopenia (platelet count <50,000 cells/mm3), history of bleeding diathesis or coagulopathy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding blood dyscrasias or relevant lab values to assess this criterion.",
+      "clinical_question": "Does the patient have a white blood cell count (WBC) less than 1000 cells/mm³ or a platelet count less than 50,000 cells/mm³?"
+    },
+    {
+      "criterion": "Untreated clinically significant coronary artery disease requiring revascularization.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not explicitly mention untreated coronary artery disease, but the presence of severe aortic stenosis and prior cardiac evaluations suggest potential CAD that may not have been addressed.",
+      "clinical_question": "Does the patient have ≥50% stenosis in one or more coronary arteries requiring revascularization?"
+    },
+    {
+      "criterion": "Cardiogenic shock manifested by low cardiac output, vasopressor dependence, or mechanical hemodynamic support.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has severe left ventricular dysfunction (EF 25%) but does not show signs of cardiogenic shock such as low cardiac output or vasopressor dependence.",
+      "clinical_question": "Does the patient exhibit a cardiac output of less than 2.2 L/min/m² or require vasopressor support to maintain a mean arterial pressure of ≥65 mmHg?"
+    },
+    {
+      "criterion": "Need for emergency surgery for any reason.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of an immediate need for emergency surgery, but the patient's severe conditions may necessitate urgent intervention.",
+      "clinical_question": "Has the patient required emergency surgery for any reason since the initiation of the study?"
+    },
+    {
+      "criterion": "Severe ventricular dysfunction with left ventricular ejection fraction (LVEF) < 20% as measured by resting echocardiogram.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's left ventricular ejection fraction (EF) is 25%, which is below the exclusion threshold of <20%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recent (within 6 months) cerebrovascular accident (CVA) or transient ischemic attack (TIA).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no recent history of CVA or TIA mentioned, but the patient's vascular health is compromised, warranting caution.",
+      "clinical_question": "Has the patient experienced a cerebrovascular accident (CVA) or transient ischemic attack (TIA) within the last 6 months?"
+    },
+    {
+      "criterion": "End stage renal disease requiring chronic dialysis or creatinine clearance < 20 cc/min.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's renal function is not specified, and while there is no indication of end-stage renal disease, the lack of lab values makes it uncertain.",
+      "clinical_question": "Is the patient's creatinine clearance < 20 cc/min?"
+    },
+    {
+      "criterion": "Active GI bleeding that would preclude anticoagulation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of active GI bleeding, but the patient's overall health status raises concerns about potential complications.",
+      "clinical_question": "Does the patient currently have active gastrointestinal bleeding as evidenced by a hemoglobin level drop of ≥2 g/dL or visible blood in stool?"
+    },
+    {
+      "criterion": "A known hypersensitivity or contraindication to any of the following which cannot be adequately pre-medicated:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No known hypersensitivity to medications is reported, but the patient's complex medical history necessitates careful evaluation.",
+      "clinical_question": "Does the patient have a known hypersensitivity or contraindication to any of the components of the Medtronic CoreValve® System that cannot be adequately pre-medicated?"
+    },
+    {
+      "criterion": "Aspirin",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No known hypersensitivity to aspirin is reported, but the patient's medication history should be reviewed for any contraindications.",
+      "clinical_question": "Has the patient been prescribed aspirin at a dose of 81 mg daily or higher for at least 7 days prior to the procedure?"
+    },
+    {
+      "criterion": "Heparin (HIT/HITTS) and bivalirudin",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No known hypersensitivity to heparin or bivalirudin is reported, but the patient's history of tobacco abuse and other conditions may complicate treatment.",
+      "clinical_question": "Has the patient experienced any episodes of heparin-induced thrombocytopenia (HIT) or heparin-induced thrombocytopenia with thrombosis syndrome (HITTS) during their treatment?"
+    },
+    {
+      "criterion": "Nitinol (titanium or nickel)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of nitinol in the patient's profile.",
+      "clinical_question": "Does the patient have a documented allergy or adverse reaction to nitinol, titanium, or nickel?"
+    },
+    {
+      "criterion": "Ticlopidine and clopidogrel",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of ticlopidine or clopidogrel in the patient's profile.",
+      "clinical_question": "Has the patient been treated with ticlopidine or clopidogrel for at least 14 days prior to the procedure?"
+    },
+    {
+      "criterion": "Contrast media",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of contrast media in the patient's profile.",
+      "clinical_question": "Has the patient received any contrast media during the preoperative workup for aortic valve replacement?"
+    },
+    {
+      "criterion": "Ongoing sepsis, including active endocarditis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No indication of ongoing sepsis or active endocarditis in the patient's profile.",
+      "clinical_question": "Does the patient currently exhibit any signs or symptoms of ongoing sepsis or active endocarditis, such as fever, chills, or positive blood cultures?"
+    },
+    {
+      "criterion": "Subject refuses a blood transfusion.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the patient's willingness to accept a blood transfusion.",
+      "clinical_question": "Has the patient explicitly documented a refusal for blood transfusions in their medical record?"
+    },
+    {
+      "criterion": "Life expectancy < 12 months due to associated non-cardiac co-morbid conditions.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's severe aortic stenosis and worsening LV function suggest a life expectancy likely less than 12 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other medical, social, or psychological conditions that in the opinion of an Investigator precludes the subject from appropriate consent.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific medical, social, or psychological conditions mentioned that would preclude consent.",
+      "clinical_question": "Does the patient have any cognitive impairment or psychiatric condition that would prevent them from providing informed consent as assessed by a standardized cognitive assessment tool?"
+    },
+    {
+      "criterion": "Severe dementia (resulting in either inability to provide informed consent for the trial/procedure, prevents independent lifestyle outside of a chronic care facility, or will fundamentally complicate rehabilitation from the procedure or compliance with follow-up visits).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the presence of severe dementia.",
+      "clinical_question": "Does the patient exhibit cognitive impairment severe enough to prevent them from providing informed consent or managing post-operative rehabilitation, as assessed by a standardized cognitive assessment tool with a score indicating severe dementia?"
+    },
+    {
+      "criterion": "Currently participating in an investigational drug or another device trial.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about participation in other investigational trials.",
+      "clinical_question": "Is the patient currently enrolled in any investigational drug or device trial, including those outside of this study?"
+    },
+    {
+      "criterion": "Symptomatic carotid or vertebral artery disease.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has moderate heterogeneous plaque with bilateral ICA stenosis, indicating symptomatic carotid artery disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anatomical",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Anatomical details regarding the patient's aortic annulus size are not provided, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient have a left ventricular outflow tract area of ≤1.0 cm² as measured by echocardiography?"
+    },
+    {
+      "criterion": "High Risk: Native aortic annulus size < 20 mm or > 29 mm per the baseline diagnostic imaging (until 23mm valve enrollment completion/closure in the CoreValve® US Pivotal Trial-High Risk Cohort)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The native aortic annulus size is not specified in the provided information, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the patient's native aortic annulus size measured to be < 20 mm or > 29 mm based on baseline diagnostic imaging?"
+    },
+    {
+      "criterion": "High Risk: Native aortic annulus size < 20 mm or > 29 mm per the baseline diagnostic imaging (until 23mm valve enrollment completion/closure in the CoreValve® US Pivotal Trial-High Risk Cohort)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Same as above; the native aortic annulus size is not available.",
+      "clinical_question": "Is the patient's native aortic annulus size measured to be < 20 mm or > 29 mm based on baseline diagnostic imaging?"
+    },
+    {
+      "criterion": "Extreme Risk: Native aortic annulus size < 18 mm or > 29 mm per the baseline diagnostic imaging. (High risk and extreme risk upon 23mm valve enrollment completion/closure in the CoreValve® US Pivotal Trial-High Risk Cohort)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The native aortic annulus size is not provided, preventing a determination.",
+      "clinical_question": "Is the patient's native aortic annulus size measured to be less than 18 mm or greater than 29 mm based on baseline diagnostic imaging?"
+    },
+    {
+      "criterion": "Extreme Risk: Native aortic annulus size < 18 mm or > 29 mm per the baseline diagnostic imaging. (High risk and extreme risk upon 23mm valve enrollment completion/closure in the CoreValve® US Pivotal Trial-High Risk Cohort)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Insufficient information on native aortic annulus size to assess this criterion.",
+      "clinical_question": "Is the patient's native aortic annulus size measured to be less than 18 mm or greater than 29 mm based on baseline diagnostic imaging?"
+    },
+    {
+      "criterion": "Pre-existing prosthetic heart valve any position.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the presence of a pre-existing prosthetic heart valve is provided.",
+      "clinical_question": "Does the patient have a pre-existing prosthetic heart valve in any position?"
+    },
+    {
+      "criterion": "Mixed aortic valve disease (aortic stenosis and aortic regurgitation with predominant aortic regurgitation (3-4+)).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's aortic valve disease specifics do not indicate predominant aortic regurgitation, but details are lacking.",
+      "clinical_question": "Does the patient have aortic regurgitation graded as 3+ or 4+ on echocardiogram?"
+    },
+    {
+      "criterion": "Moderate to severe (3-4+) or severe (4+) mitral or severe (4+) tricuspid regurgitation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The severity of mitral or tricuspid regurgitation is not specified, making it impossible to assess.",
+      "clinical_question": "Does the patient have a documented echocardiogram showing moderate to severe (3-4+) or severe (4+) mitral or severe (4+) tricuspid regurgitation?"
+    },
+    {
+      "criterion": "Moderate to severe mitral stenosis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the presence or severity of mitral stenosis.",
+      "clinical_question": "Does the patient have a mitral valve area of ≤1.5 cm² as measured by echocardiography?"
+    },
+    {
+      "criterion": "Hypertrophic obstructive cardiomyopathy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of hypertrophic obstructive cardiomyopathy in the patient's profile.",
+      "clinical_question": "Does the patient have a documented left ventricular outflow tract gradient of ≥30 mmHg at rest or with provocation?"
+    },
+    {
+      "criterion": "Echocardiographic evidence of new or untreated intracardiac mass, thrombus or vegetation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No echocardiographic evidence provided in the profile, so it's unclear if there is an intracardiac mass, thrombus, or vegetation.",
+      "clinical_question": "Does the patient have echocardiographic evidence of new or untreated intracardiac mass, thrombus, or vegetation as defined by the presence of any mass ≥1 cm in size?"
+    },
+    {
+      "criterion": "Severe basal septal hypertrophy with an outflow gradient.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify the presence of severe basal septal hypertrophy or an outflow gradient.",
+      "clinical_question": "Does the patient have a basal septal wall thickness ≥15 mm with an associated outflow gradient of ≥30 mmHg?"
+    },
+    {
+      "criterion": "Aortic root angulation (angle between plane of aortic valve annulus and horizontal plane/vertebrae) > 70° (for femoral and left subclavian/axillary access) and > 30° (for right subclavian/axillary access).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not provide information on the aortic root angulation.",
+      "clinical_question": "What is the measured aortic root angulation in degrees for this patient?"
+    },
+    {
+      "criterion": "Ascending aorta diameter >43 mm if the aortic annulus diameter is 23-29 mm; ascending aortic diameter > 40 mm if the aortic annulus diameter is 20-23 mm; or an ascending aorta diameter > 34 mm if the aortic annulus diameter is 18-20 mm (Extreme Risk only until 23 mm valve enrollment completion/closure in the CoreValve® US Pivotal Trial-High Risk Cohort).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The ascending aorta diameter is not specified in the profile, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's ascending aorta diameter greater than 43 mm, given that the aortic annulus diameter is between 23-29 mm?"
+    },
+    {
+      "criterion": "Congenital bicuspid or unicuspid valve verified by echocardiography.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a congenital bicuspid aortic valve, which is confirmed by the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Sinus of valsalva anatomy that would prevent adequate coronary perfusion.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not provide details on the sinus of valsalva anatomy.",
+      "clinical_question": "Does the patient's sinus of Valsalva anatomy demonstrate any structural abnormalities that would obstruct coronary perfusion as assessed by preoperative imaging studies?"
+    },
+    {
+      "criterion": "Vascular",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not include any information regarding vascular conditions.",
+      "clinical_question": "Does the patient have a history of vascular complications, such as peripheral artery disease or prior vascular surgery, that would contraindicate the use of the Medtronic CoreValve® System?"
+    },
+    {
+      "criterion": "Transarterial access not able to accommodate an 18Fr sheath.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify whether the transarterial access can accommodate an 18Fr sheath.",
+      "clinical_question": "Can the patient's transarterial access accommodate an 18Fr sheath without any anatomical obstructions?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Evidence of an acute myocardial infarction ≤ 30 days before the intended treatme",
+    "EXCLUSION UNCLEAR: Any percutaneous coronary or peripheral interventional procedure performed withi",
+    "EXCLUSION UNCLEAR: Blood dyscrasias as defined: leukopenia (WBC < 1000mm3), thrombocytopenia (plate",
+    "EXCLUSION UNCLEAR: Untreated clinically significant coronary artery disease requiring revasculariza",
+    "EXCLUSION UNCLEAR: Cardiogenic shock manifested by low cardiac output, vasopressor dependence, or m",
+    "EXCLUSION UNCLEAR: Need for emergency surgery for any reason.",
+    "EXCLUSION VIOLATED: Severe ventricular dysfunction with left ventricular ejection fraction (LVEF) < ",
+    "EXCLUSION UNCLEAR: Recent (within 6 months) cerebrovascular accident (CVA) or transient ischemic at",
+    "EXCLUSION UNCLEAR: End stage renal disease requiring chronic dialysis or creatinine clearance < 20 ",
+    "EXCLUSION UNCLEAR: Active GI bleeding that would preclude anticoagulation.",
+    "EXCLUSION UNCLEAR: A known hypersensitivity or contraindication to any of the following which canno",
+    "EXCLUSION UNCLEAR: Aspirin",
+    "EXCLUSION UNCLEAR: Heparin (HIT/HITTS) and bivalirudin",
+    "EXCLUSION UNCLEAR: Nitinol (titanium or nickel)",
+    "EXCLUSION UNCLEAR: Ticlopidine and clopidogrel",
+    "EXCLUSION UNCLEAR: Contrast media",
+    "EXCLUSION UNCLEAR: Ongoing sepsis, including active endocarditis.",
+    "EXCLUSION UNCLEAR: Subject refuses a blood transfusion.",
+    "EXCLUSION VIOLATED: Life expectancy < 12 months due to associated non-cardiac co-morbid conditions.",
+    "EXCLUSION UNCLEAR: Other medical, social, or psychological conditions that in the opinion of an Inv",
+    "EXCLUSION UNCLEAR: Severe dementia (resulting in either inability to provide informed consent for t",
+    "EXCLUSION UNCLEAR: Currently participating in an investigational drug or another device trial.",
+    "EXCLUSION VIOLATED: Symptomatic carotid or vertebral artery disease.",
+    "EXCLUSION UNCLEAR: Anatomical",
+    "EXCLUSION UNCLEAR: High Risk: Native aortic annulus size < 20 mm or > 29 mm per the baseline diagno",
+    "EXCLUSION UNCLEAR: High Risk: Native aortic annulus size < 20 mm or > 29 mm per the baseline diagno",
+    "EXCLUSION UNCLEAR: Extreme Risk: Native aortic annulus size < 18 mm or > 29 mm per the baseline dia",
+    "EXCLUSION UNCLEAR: Extreme Risk: Native aortic annulus size < 18 mm or > 29 mm per the baseline dia",
+    "EXCLUSION UNCLEAR: Pre-existing prosthetic heart valve any position.",
+    "EXCLUSION UNCLEAR: Mixed aortic valve disease (aortic stenosis and aortic regurgitation with predom",
+    "EXCLUSION UNCLEAR: Moderate to severe (3-4+) or severe (4+) mitral or severe (4+) tricuspid regurgi",
+    "EXCLUSION UNCLEAR: Moderate to severe mitral stenosis.",
+    "EXCLUSION UNCLEAR: Hypertrophic obstructive cardiomyopathy.",
+    "EXCLUSION UNCLEAR: Echocardiographic evidence of new or untreated intracardiac mass, thrombus or ve",
+    "EXCLUSION UNCLEAR: Severe basal septal hypertrophy with an outflow gradient.",
+    "EXCLUSION UNCLEAR: Aortic root angulation (angle between plane of aortic valve annulus and horizont",
+    "EXCLUSION UNCLEAR: Ascending aorta diameter >43 mm if the aortic annulus diameter is 23-29 mm; asce",
+    "EXCLUSION UNCLEAR: Sinus of valsalva anatomy that would prevent adequate coronary perfusion.",
+    "EXCLUSION UNCLEAR: Vascular",
+    "EXCLUSION UNCLEAR: Transarterial access not able to accommodate an 18Fr sheath.",
+    "LOW INCLUSION MATCH: only 1 of 7 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.1042
+}

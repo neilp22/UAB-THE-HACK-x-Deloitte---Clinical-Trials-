@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT01473459",
+  "trial_title": "Comparison Between Two Fertility Protocols in Obese Polycystic Ovary Syndrome Patients",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "The purpose of this study is to compare two fertility protocols in obese women with Polycystic Ovarian Syndrome who are candidates for In Vitro Fertilization (IVF). These protocols carry less risk of ovarian hyperstimulation syndrome which these women may experience.",
+  "eligibility_table": [
+    {
+      "criterion": "BMI > 30",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has obesity, which typically corresponds to a BMI greater than 30.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PCOS",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a documented history of polycystic ovary syndrome (PCOS).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Failure of COH treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's treatment history with COH (Controlled Ovarian Hyperstimulation) treatment, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient experienced failure of controlled ovarian hyperstimulation (COH) treatment after two or more cycles?"
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

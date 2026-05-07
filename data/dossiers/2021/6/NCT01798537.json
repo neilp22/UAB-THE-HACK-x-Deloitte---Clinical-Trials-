@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT01798537",
+  "trial_title": "Simplified Selective Digestive Tract Decontamination for the Prevention of Intensive Care Unit Acquired Infections",
+  "phase": "PHASE2",
+  "status": "UNKNOWN",
+  "brief_summary": "A simplified graded gut decontamination protocol combined with rigorous bi-weekly screening and appropriate bacterial prophylaxis, will lead to a 25% reduction in the acquisition of blood stream infections and to a 25% reduction in lower airway colonization with multi drug resistant organisms. There will be no concomitant rise in gram-positive or fungal infection or a surgency of new resistance patterns.",
+  "eligibility_table": [
+    {
+      "criterion": "Expected to be in the ICU > 72 hours",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of ICU admission and is currently experiencing sepsis, indicating a high likelihood of being in the ICU for more than 72 hours.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Has an enteral feeding tube and can receive enteral medication",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the presence of an enteral feeding tube, making it unclear whether this criterion is met.",
+      "clinical_question": "Does the patient currently have an enteral feeding tube in place that can be used for medication administration?"
+    },
+    {
+      "criterion": "Has a tracheal tube",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the presence of a tracheal tube, making it unclear whether this criterion is met.",
+      "clinical_question": "Does the patient currently have a tracheal tube in place?"
+    },
+    {
+      "criterion": "Pt. is moribund - not expected to survive > 28 days",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "While the patient is critically ill, there is no explicit information indicating that the patient is moribund or not expected to survive beyond 28 days.",
+      "clinical_question": "Is the patient's prognosis indicating a life expectancy of less than 28 days due to her current conditions and clinical status?"
+    },
+    {
+      "criterion": "Pt. or legal representative refuse to participate",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's willingness to participate in the trial or any refusal from the patient or legal representative.",
+      "clinical_question": "Has the patient or their legal representative explicitly declined to participate in the study?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Pt. is moribund - not expected to survive > 28 days",
+    "EXCLUSION UNCLEAR: Pt. or legal representative refuse to participate"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2
+}

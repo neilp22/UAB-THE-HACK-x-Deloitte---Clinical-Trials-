@@ -1,0 +1,214 @@
+{
+  "nct_id": "NCT00513461",
+  "trial_title": "Liver Cancer Prevention Trial in Patients With Chronic Hep C Infection",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This randomized phase II trial studies how well S-Adenosyl-L-Methionine Disulphate P-Toluene-Sulfonate (SAMe) works compared to a placebo in preventing liver cancer in patients with chronic hepatitis C infection. Chemoprevention is the use of certain drugs to keep cancer from forming. The use of SAMe may keep cancer from forming in patients with advanced liver disease",
+  "eligibility_table": [
+    {
+      "criterion": "Chronic hepatitis C infection diagnosed by presence of hepatitis C ribonucleic acid (RNA) in serum by test of hepatitis C virus (HCV) RNA",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has Hep C cirrhosis, but there is no lab value provided to confirm the presence of HCV RNA.",
+      "clinical_question": "Does the patient have detectable hepatitis C ribonucleic acid (RNA) in serum as confirmed by a quantitative HCV RNA test?"
+    },
+    {
+      "criterion": "No significant alcohol use (7 or fewer drinks per week) for the past 12 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has been off alcohol for a year and has a negative urine toxicology for alcohol.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serum AFP (at screening) between 15 and 100 ng/mL (15 ng/mL =< AFP =< 100 ng/mL) as measured by the Bayer Advai Centaur chemiluminescence system OR Serum AFP between 10 and 100 ng/mL (10 ng/mL =< AFP =<100 ng/mL) as measured by Diagnostic Products Corporation Immulite assay system OR AFP between 12 and 100 ng/mL (12 ng/mL =< AFP =< 100 ng/mL) as measured by Ortho ECiQ assay system",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The serum AFP level is not provided; thus, it cannot be determined if it falls within the specified range.",
+      "clinical_question": "Is the patient's serum AFP level between 15 ng/mL and 100 ng/mL as measured by the Bayer Advai Centaur chemiluminescence system, or between 10 ng/mL and 100 ng/mL as measured by the Diagnostic Products Corporation Immulite assay system, or between 12 ng/mL and 100 ng/mL as measured by the Ortho ECiQ assay system?"
+    },
+    {
+      "criterion": "Evidence of advanced liver disease based on one or more of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has advanced liver disease due to Hep C cirrhosis and grade II esophageal varices.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Platelet count less than 150,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's platelet count currently less than 150,000/mm^3?"
+    },
+    {
+      "criterion": "Aspartate aminotransferase (AST)/alanine aminotransferase (ALT) ratio > 0.75",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's AST/ALT ratio greater than 0.75?"
+    },
+    {
+      "criterion": "Liver biopsy demonstrating bridging fibrosis or cirrhosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a documented history of Hep C cirrhosis, which indicates bridging fibrosis or cirrhosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No treatment with interferon (recombinant interferon alfa), peginterferon (PEG-interferon alfa-2b), or ribavirin for at least 4 months, and not anticipated to start specific treatment for hepatitis C during the study (30 weeks)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received interferon treatment for at least 4 months and is not anticipated to start treatment during the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ultrasound (or adequate computed tomography [CT] or magnetic resonance imaging [MRI]) examination of the liver within 6 months prior to randomization revealing no masses in the liver suggestive of hepatocellular carcinoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding a recent ultrasound or imaging of the liver.",
+      "clinical_question": "Has the patient undergone an ultrasound, CT, or MRI of the liver within the last 6 months that shows no masses suggestive of hepatocellular carcinoma?"
+    },
+    {
+      "criterion": "Willing to refrain from consuming over-the-counter SAMe and vitamin pills containing B-vitamins while participating in this study (30 weeks)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can be assumed to be willing to refrain from consuming over-the-counter supplements as part of study compliance.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Liver disease other than from hepatitis C (e.g., hepatitis B, hemochromatosis, fat in more than 33% of hepatocytes, if liver biopsy has been performed., etc.); subjects with a past history of alcohol use can be enrolled into the study provided they have consumed less than 7 drinks/week for the past 12 months",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Hep C cirrhosis, which is the primary liver disease, and no other liver diseases are mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of mass in liver by radiologic examination that is suggestive of hepatocellular carcinoma within 6 months prior to randomization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any recent imaging that would indicate the presence of a mass suggestive of hepatocellular carcinoma.",
+      "clinical_question": "Has the patient undergone a radiologic examination within the last 6 months that shows a mass in the liver suggestive of hepatocellular carcinoma?"
+    },
+    {
+      "criterion": "Model for End-Stage Liver Disease (MELD) score greater than 15 within 60 days prior to enrollment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's MELD score greater than 15 within 60 days prior to enrollment?"
+    },
+    {
+      "criterion": "Ascites which is clinically detectable",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention ascites, but the presence of cirrhosis raises the possibility. Further assessment is needed.",
+      "clinical_question": "Does the patient have clinically detectable ascites as assessed by physical examination or imaging?"
+    },
+    {
+      "criterion": "Use of SAMe during 4 months prior to randomization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the use of SAMe in the past 4 months.",
+      "clinical_question": "Has the patient used SAMe for at least 4 months prior to randomization?"
+    },
+    {
+      "criterion": "Hospitalization within the past 5 years for mania or for bipolar disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of hospitalization for mania or bipolar disease is mentioned, but this is not explicitly confirmed.",
+      "clinical_question": "Has the patient been hospitalized for mania or bipolar disorder at any time in the past 5 years?"
+    },
+    {
+      "criterion": "Concurrent use of monoamine oxidase inhibitors (MAO) or other drugs that increase the concentration of serotonin",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to be using MAO inhibitors, but this is not explicitly confirmed.",
+      "clinical_question": "Is the patient currently taking any monoamine oxidase inhibitors or other medications that increase serotonin levels?"
+    },
+    {
+      "criterion": "Participants may not be receiving any other investigational agents",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of the patient receiving other investigational agents, but this is not explicitly confirmed.",
+      "clinical_question": "Is the patient currently taking any investigational agents or participating in any other clinical trials?"
+    },
+    {
+      "criterion": "History of allergic reactions attributed to compounds of similar chemical or biologic composition to SAMe",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of allergic reactions to compounds similar to SAMe is provided, but this is not explicitly confirmed.",
+      "clinical_question": "Has the patient experienced any allergic reactions to compounds containing S-adenosylmethionine (SAMe) or similar chemical or biologic compositions?"
+    },
+    {
+      "criterion": "Uncontrolled intercurrent illness including, but not limited to, ongoing or active infection, symptomatic congestive heart failure, unstable angina pectoris, cardiac arrhythmia, or psychiatric illness/social situations that would limit compliance with study requirements",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has multiple health issues, but it is unclear if any are uncontrolled or would limit compliance.",
+      "clinical_question": "Does the patient currently exhibit any signs or symptoms of ongoing or active infection, such as fever, chills, or localized pain?"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status 0-2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status score of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Leukocytes > 1,000/ mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Are the patient's leukocyte levels greater than 1,000/mm³?"
+    },
+    {
+      "criterion": "Women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry and for the duration of study participation; should a woman become pregnant or suspect she is pregnant while participating in this study, she should inform her treating physician immediately",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and does not have child-bearing potential, thus this criterion is met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to understand and the willingness to sign a written informed consent document",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is of sound mind and can understand and sign consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Children are excluded from this study but will be eligible for future pediatric trials, if applicable",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is 60 years old, thus not a child, meeting this exclusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnant women are excluded from this study; serum pregnancy must be performed and be negative in all women of child bearing potential within 2 weeks prior to enrollment; because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with SAMe, breastfeeding should be discontinued if the mother is treated with SAMe",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so the pregnancy-related exclusion does not apply. However, there is no information on whether he has any conditions that would affect compliance.",
+      "clinical_question": "Is the serum pregnancy test result for this patient negative within 2 weeks prior to enrollment?"
+    },
+    {
+      "criterion": "Subjects with any medical psychosocial condition that, in the opinion of the investigator, could jeopardize the subject's participation in and compliance with the study criteria",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple serious conditions (Hep C cirrhosis, grade II esophageal varices, HTN, UGIB) which could jeopardize participation and compliance in the study.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Liver disease other than from hepatitis C (e.g., hepatitis B, hemochromatosis, f",
+    "EXCLUSION UNCLEAR: Evidence of mass in liver by radiologic examination that is suggestive of hepato",
+    "EXCLUSION UNCLEAR: Model for End-Stage Liver Disease (MELD) score greater than 15 within 60 days pr",
+    "EXCLUSION UNCLEAR: Ascites which is clinically detectable",
+    "EXCLUSION UNCLEAR: Use of SAMe during 4 months prior to randomization",
+    "EXCLUSION UNCLEAR: Hospitalization within the past 5 years for mania or for bipolar disease",
+    "EXCLUSION UNCLEAR: Concurrent use of monoamine oxidase inhibitors (MAO) or other drugs that increas",
+    "EXCLUSION UNCLEAR: Participants may not be receiving any other investigational agents",
+    "EXCLUSION UNCLEAR: History of allergic reactions attributed to compounds of similar chemical or bio",
+    "EXCLUSION UNCLEAR: Uncontrolled intercurrent illness including, but not limited to, ongoing or acti",
+    "EXCLUSION UNCLEAR: Pregnant women are excluded from this study; serum pregnancy must be performed a",
+    "EXCLUSION VIOLATED: Subjects with any medical psychosocial condition that, in the opinion of the inv"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3704
+}

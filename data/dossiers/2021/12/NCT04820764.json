@@ -1,0 +1,71 @@
+{
+  "nct_id": "NCT04820764",
+  "trial_title": "EFS of the CardioMech MVRS",
+  "phase": "NA",
+  "status": "RECRUITING",
+  "brief_summary": "Safety and performance evaluation of the CardioMech Mitral Valve Repair System (MVRS) in patients with degenerative mitral valve regurgitation.",
+  "eligibility_table": [
+    {
+      "criterion": "Eighteen (18) years of age or greater",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 34.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Moderate to severe (≥3+) or severe (≥4+) mitral valve regurgitation (per American Society of Echocardiography (ASE) guidelines) due to mitral valve prolapse or flail",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile indicates severe mitral valve prolapse with regurgitation, but specific grading of the regurgitation (≥3+ or ≥4+) is not provided.",
+      "clinical_question": "Does the patient have a documented echocardiogram showing moderate to severe (≥3+) or severe (≥4+) mitral valve regurgitation due to mitral valve prolapse or flail?"
+    },
+    {
+      "criterion": "Intermediate or high surgical risk for mitral valve repair",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's intermediate or high surgical risk for mitral valve repair is not explicitly stated; further assessment of her overall health and comorbidities is needed.",
+      "clinical_question": "Does the patient have a Society of Thoracic Surgeons (STS) predicted risk of mortality score ≥4% for mitral valve repair?"
+    },
+    {
+      "criterion": "History of rheumatic heart disease",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of a history of rheumatic heart disease in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of prior endocarditis",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's profile does not mention any history of prior endocarditis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of prior repair or replacement of the mitral valve, or annuloplasty",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not undergone prior repair or replacement of the mitral valve or annuloplasty.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severely calcified mitral leaflet or has evidence of calcification in the grasping area of the leaflets that would prevent leaflet anchor positioning and deployment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the calcification status of the mitral leaflets; imaging results are needed to assess this.",
+      "clinical_question": "Does the patient have a severely calcified mitral leaflet or evidence of calcification in the grasping area of the leaflets as assessed by echocardiography?"
+    },
+    {
+      "criterion": "Complex mechanism of MR (leaflet perforation, severe leaflet calcifications, commissural extension, commissural prolapse, multiple flail or prolapsing segments, cleft) present on required imaging",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The complexity of the mechanism of MR is not detailed in the profile; imaging results would be required to determine this.",
+      "clinical_question": "Does the imaging report indicate the presence of any complex mechanisms of mitral regurgitation, such as leaflet perforation, severe leaflet calcifications, commissural extension, commissural prolapse, multiple flail or prolapsing segments, or cleft?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Severely calcified mitral leaflet or has evidence of calcification in the graspi",
+    "EXCLUSION UNCLEAR: Complex mechanism of MR (leaflet perforation, severe leaflet calcifications, com"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

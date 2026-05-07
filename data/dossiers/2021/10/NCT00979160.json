@@ -1,0 +1,311 @@
+{
+  "nct_id": "NCT00979160",
+  "trial_title": "Evaluation of Response of Dasatinib to Treat Mastocytosis",
+  "phase": "PHASE2",
+  "status": "UNKNOWN",
+  "brief_summary": "This is a multicenter, open-label, single arm phase II non-randomized study of dasatinib in which subjects with systemic mastocytosis (SM) will be treated with a continuous regimen of dasatinib.\n\nUpon completion of a treatment induction period, subjects will be treated with dasatinib at a dose of 100 mg per os (OS) once daily (QD).",
+  "eligibility_table": [
+    {
+      "criterion": "Signed Written Informed Consent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient signed a written informed consent form for participation in the trial?"
+    },
+    {
+      "criterion": "Subjects with confirmed diagnosis of SM according to the WHO criteria and the following must be met:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of systemic mastocytosis (SM) with a high serum tryptase value, consistent with WHO criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "All SM clinical variations, smoldering SM should have ≥ 2 B-findings and severe mediator related symptoms.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of severe mediator-related symptoms (flushing, tachycardia) but does not have documented B-findings, which are required for smoldering SM.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "KIT mutation status on BM cells must be available at baseline or ≤ 6 months prior to study entry.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's KIT mutation status is not provided; it is unclear if it is available within the required timeframe.",
+      "clinical_question": "Is the KIT mutation status on bone marrow cells available from a test conducted within the last 6 months?"
+    },
+    {
+      "criterion": "Subjects may have not prior treatment with chemotherapeutic regimen including imatinib or have either failed a prior chemotherapeutic regimen including imatinib or other agent.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received any prior treatment with chemotherapeutic regimens including imatinib.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least two weeks must have elapsed from the last dose of chemotherapy, hormonal therapy, immunotherapy, biological therapy or investigational product and radiation therapy, and subjects must have recovered to baseline or Grade ≤ 1 (NCI CTCAE, version 3.0) from the toxicities resulting from any of those recent therapies prior to the first dose of dasatinib.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is currently on a steroid taper and other medications; it is unclear if they meet the recovery criteria from any recent therapies.",
+      "clinical_question": "Has the patient recovered to baseline or Grade ≤ 1 from the toxicities resulting from any recent chemotherapy, hormonal therapy, immunotherapy, biological therapy, or investigational product prior to the first dose of dasatinib?"
+    },
+    {
+      "criterion": "ECOG performance status of 0, 1 or 2.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status score of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Subject must be willing and able to comply with scheduled visits, treatment schedule, laboratory tests, and requirements of the study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient able to attend at least 80% of the scheduled visits and comply with the treatment schedule as assessed by a review of her past attendance and treatment adherence?"
+    },
+    {
+      "criterion": "Adequate liver and renal functions defined as:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Liver and renal function parameters are not provided; thus, it is uncertain if they meet the adequate function criteria.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.2 mg/dL and a total bilirubin level ≤1.2 mg/dL?"
+    },
+    {
+      "criterion": "Total bilirubin ≤ 2 x upper limit of normal (ULN) or ≤ 4 ULN if the sole cause of liver elevation is due to SM",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Total bilirubin levels are not provided, making it impossible to assess if they meet the bilirubin criteria.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 2 x upper limit of normal (ULN) or ≤ 4 ULN if the sole cause of liver elevation is due to systemic mastocytosis?"
+    },
+    {
+      "criterion": "WOCBP who are unwilling or unable to use an acceptable method to avoid pregnancy for the entire study period and for up to at least 4 weeks after the last dose of investigational product.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is a woman of childbearing potential (WOCBP) but there is no information on her willingness or ability to use contraception.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women who are pregnant or breastfeeding",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently pregnant or breastfeeding?"
+    },
+    {
+      "criterion": "Indolent SM (presence of B-findings without severe mediator-related symptoms)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe mediator-related symptoms, which disqualifies her from being classified as having indolent SM.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pericarditis, clinically significant pleural effusion or ascites within 12 months prior to study entry not attributable to SM.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of pericarditis, pleural effusion, or ascites within the last 12 months.",
+      "clinical_question": "Has the patient experienced clinically significant pericarditis, pleural effusion, or ascites within 12 months prior to study entry that is not attributable to systemic mastocytosis?"
+    },
+    {
+      "criterion": "Pulmonary infiltrates within 4 weeks prior to study entry or abnormal chest X-ray at baseline not attributable to SM.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about recent chest X-ray or pulmonary infiltrates.",
+      "clinical_question": "Does the patient have pulmonary infiltrates on a chest X-ray taken within 4 weeks prior to study entry?"
+    },
+    {
+      "criterion": "Any surgical procedure, excluding central venous catheter placement or other minor procedures (e.g. skin biopsy) within 14 days prior to initiation of dasatinib therapy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about any surgical procedures in the last 14 days.",
+      "clinical_question": "Has the patient undergone any surgical procedure within 14 days prior to the initiation of dasatinib therapy?"
+    },
+    {
+      "criterion": "Presence of active bacterial, fungal or viral infections at study entry.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the presence of active infections.",
+      "clinical_question": "Does the patient currently have any active bacterial, fungal, or viral infections as confirmed by laboratory tests or clinical evaluation?"
+    },
+    {
+      "criterion": "Clinically significant cardiac disease (NYHA Class III or IV) including preexisting arrhythmia, (such as ventricular tachycardia, ventricular fibrillation, or \"Torsade de Pointes\"), myocardial infarction, uncontrolled angina within 6 months, congestive heart failure, or cardiomyopathy.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has tachycardia, which may indicate clinically significant cardiac disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Abnormal QTcF interval prolonged ( ≥ 450 msec) after electrolytes have been corrected on baseline ECG.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No ECG data provided to assess QTcF interval.",
+      "clinical_question": "Is the patient's QTcF interval ≥ 450 msec on the baseline ECG after correcting for electrolytes?"
+    },
+    {
+      "criterion": "Malabsorption syndrome not attributable to SM or uncontrolled (e.g. not corrected by antimediator therapy) gastrointestinal toxicities (nausea, diarrhea, vomiting) NCI CTCAE Grade = 2.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about gastrointestinal toxicities or malabsorption syndrome.",
+      "clinical_question": "Has the patient experienced gastrointestinal toxicities (nausea, diarrhea, vomiting) that are NCI CTCAE Grade ≥ 2 and not corrected by antimediator therapy?"
+    },
+    {
+      "criterion": "AST, ALT and alkaline phosphatase ≤ 2.5 x ULN, or ≤ 5 ULN if the sole cause of liver elevation or bone compromise is due to SM",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess liver function (AST, ALT, alkaline phosphatase).",
+      "clinical_question": "Is the patient's AST, ALT, and alkaline phosphatase level ≤ 2.5 x ULN, or ≤ 5 x ULN if the sole cause of liver elevation or bone compromise is due to systemic mastocytosis?"
+    },
+    {
+      "criterion": "Serum creatinine ≤ 2 x ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level ≤ 2 x ULN?"
+    },
+    {
+      "criterion": "Serum potassium and magnesium levels within institutional normal limits. Total serum calcium or ionized calcium level must be greater than or equal to the lower limit of normal.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess serum potassium, magnesium, or calcium levels.",
+      "clinical_question": "Are the patient's serum potassium and magnesium levels within the institutional normal limits, and is the total serum calcium or ionized calcium level greater than or equal to the lower limit of normal?"
+    },
+    {
+      "criterion": "Men and women, ages 18 and older.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 22.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women of childbearing potential (WOCBP) must be using an adequate method of contraception to avoid pregnancy throughout the study and for up to 4 weeks after the last dose of investigational product in such a manner that the risk of pregnancy is minimized. WOCBP must have a negative serum or urine pregnancy test (minimum sensitivity 25 IU/L or equivalent units of HCG) within 72 hours prior to the start of investigational product.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about contraception use or pregnancy test results.",
+      "clinical_question": "Has the patient had a negative serum or urine pregnancy test with a minimum sensitivity of 25 IU/L within 72 hours prior to the start of the investigational product?"
+    },
+    {
+      "criterion": "Clinically-significant coagulation or platelet function disorder (eg, known von Willebrand's disease).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about coagulation or platelet function disorders.",
+      "clinical_question": "Does the patient have a documented history of von Willebrand's disease or a von Willebrand factor level <30%?"
+    },
+    {
+      "criterion": "Prior or concurrent malignancy, except for the following:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has systemic mastocytosis but no mention of prior malignancy is made, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient have any prior or concurrent malignancy, excluding non-melanoma skin cancer?"
+    },
+    {
+      "criterion": "Adequately treated basal cell or squamous cell skin cancer.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of basal cell or squamous cell skin cancer is provided, but it is not explicitly stated.",
+      "clinical_question": "Has the patient been treated for basal cell or squamous cell skin cancer with a complete response or stable disease for at least 6 months?"
+    },
+    {
+      "criterion": "Cervical carcinoma in situ.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No mention of cervical carcinoma in situ is made, but the patient's history does not clarify this.",
+      "clinical_question": "Has the patient been diagnosed with cervical carcinoma in situ based on a biopsy or cytology report?"
+    },
+    {
+      "criterion": "Adequately treated Stage I or II cancer from which the subject is currently in complete remission.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has no reported history of Stage I or II cancer, but this is not explicitly confirmed.",
+      "clinical_question": "Has the patient been in complete remission from adequately treated Stage I or II cancer for at least 6 months?"
+    },
+    {
+      "criterion": "Or any other cancer from which the subject has been disease-free for 3 years.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No other cancers are mentioned, but the patient's history does not provide clarity on this.",
+      "clinical_question": "Has the patient been disease-free from any other cancer for at least 3 years?"
+    },
+    {
+      "criterion": "Cytopenia(s): ANC <1000/L, or hemoglobin <10 g/dL, or platelets < 100.000/L at study entry unless the pretreatment bone marrow exam and/or presence of disease-related hypersplenism establish that the likely causes of the cytopenia(s) is related to SM.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's lab values do not indicate cytopenias, but the absence of lab values makes it uncertain.",
+      "clinical_question": "Does the patient have an ANC <1000/L, hemoglobin <10 g/dL, or platelets <100,000/L at study entry?"
+    },
+    {
+      "criterion": "Other severe, acute, or chronic medical or psychiatric condition or laboratory abnormality, serious uncontrolled medical disorder or active infection that may increase the risk associated with study participation or study drug administration or may interfere with the interpretation of study results and, in the judgment of the investigator, would make the subject inappropriate for this study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has multiple medical conditions, but it is unclear if they pose a risk for study participation.",
+      "clinical_question": "Does the patient have any uncontrolled medical disorders, such as significant cardiac arrhythmias or active infections, that could increase the risk of study participation or interfere with the interpretation of study results?"
+    },
+    {
+      "criterion": "Intolerance to dasatinib.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No intolerance to dasatinib is mentioned, but the patient's medication history does not clarify this.",
+      "clinical_question": "Has the patient experienced any grade 3 or higher adverse reactions related to dasatinib treatment within the first 4 weeks of therapy?"
+    },
+    {
+      "criterion": "Administration of hematopoietic growth factors within 14 days prior to study entry.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No mention of hematopoietic growth factors is made, but the patient's treatment history does not confirm this.",
+      "clinical_question": "Has the patient received any hematopoietic growth factors within the 14 days prior to study entry?"
+    },
+    {
+      "criterion": "Medications that are generally considered to have a risk of causing \"Torsades de Pointes\"",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The medications listed do not explicitly indicate a risk of Torsades de Pointes, but this is not definitively stated.",
+      "clinical_question": "Has the patient been prescribed any medications with a known risk of causing \"Torsades de Pointes,\" such as certain antiarrhythmics or antipsychotics?"
+    },
+    {
+      "criterion": "Current therapy with steroids must be tapered off within 14 days prior to the start of study medication if it is anticipated that subjects can be tapered off these drugs. Otherwise, for steroid-requiring subjects, investigators should attempt to taper to the minimal dose possible at the time of initiation of dasatinib therapy.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on a steroid taper and has not tapered off steroids within the required 14 days prior to the start of study medication.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prisoners or subjects who are involuntarily incarcerated",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's incarceration status, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the patient currently incarcerated or has she been involuntarily incarcerated at any point during her treatment for systemic mastocytosis?"
+    },
+    {
+      "criterion": "Subjects who are compulsorily detained for treatment of either a psychiatric or physical (eg, infectious disease) illness.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's psychiatric or physical illness treatment status, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the patient currently detained for treatment of a psychiatric or physical illness as defined by legal standards?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: WOCBP who are unwilling or unable to use an acceptable method to avoid pregnancy",
+    "EXCLUSION UNCLEAR: Women who are pregnant or breastfeeding",
+    "EXCLUSION VIOLATED: Indolent SM (presence of B-findings without severe mediator-related symptoms)",
+    "EXCLUSION UNCLEAR: Pericarditis, clinically significant pleural effusion or ascites within 12 month",
+    "EXCLUSION UNCLEAR: Pulmonary infiltrates within 4 weeks prior to study entry or abnormal chest X-ra",
+    "EXCLUSION UNCLEAR: Any surgical procedure, excluding central venous catheter placement or other min",
+    "EXCLUSION UNCLEAR: Presence of active bacterial, fungal or viral infections at study entry.",
+    "EXCLUSION VIOLATED: Clinically significant cardiac disease (NYHA Class III or IV) including preexist",
+    "EXCLUSION UNCLEAR: Abnormal QTcF interval prolonged ( ≥ 450 msec) after electrolytes have been corr",
+    "EXCLUSION UNCLEAR: Malabsorption syndrome not attributable to SM or uncontrolled (e.g. not correcte",
+    "EXCLUSION UNCLEAR: Clinically-significant coagulation or platelet function disorder (eg, known von ",
+    "EXCLUSION UNCLEAR: Prior or concurrent malignancy, except for the following:",
+    "EXCLUSION UNCLEAR: Adequately treated basal cell or squamous cell skin cancer.",
+    "EXCLUSION UNCLEAR: Cervical carcinoma in situ.",
+    "EXCLUSION UNCLEAR: Adequately treated Stage I or II cancer from which the subject is currently in c",
+    "EXCLUSION UNCLEAR: Or any other cancer from which the subject has been disease-free for 3 years.",
+    "EXCLUSION UNCLEAR: Cytopenia(s): ANC <1000/L, or hemoglobin <10 g/dL, or platelets < 100.000/L at s",
+    "EXCLUSION UNCLEAR: Other severe, acute, or chronic medical or psychiatric condition or laboratory a",
+    "EXCLUSION UNCLEAR: Intolerance to dasatinib.",
+    "EXCLUSION UNCLEAR: Administration of hematopoietic growth factors within 14 days prior to study ent",
+    "EXCLUSION UNCLEAR: Medications that are generally considered to have a risk of causing \"Torsades de",
+    "EXCLUSION VIOLATED: Current therapy with steroids must be tapered off within 14 days prior to the st",
+    "EXCLUSION UNCLEAR: Prisoners or subjects who are involuntarily incarcerated",
+    "EXCLUSION UNCLEAR: Subjects who are compulsorily detained for treatment of either a psychiatric or ",
+    "LOW INCLUSION MATCH: only 3 of 15 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.2051
+}

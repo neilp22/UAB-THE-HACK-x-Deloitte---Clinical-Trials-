@@ -1,0 +1,60 @@
+{
+  "nct_id": "NCT00263562",
+  "trial_title": "Steroid Treatment for Sickle Cell Pain Crisis",
+  "phase": "PHASE3",
+  "status": "TERMINATED",
+  "brief_summary": "The painful episode is the most common problem experienced by children with sickle cell disease. Although various treatments are available during painful episodes, the medication most commonly given for pain is a pain medication such as morphine. Fluids are also used. Even with these treatments, many children still have severe pain that is difficult to control. In addition to pain medications, there are other medications that may be useful. Methylprednisolone (solumedrol) and prednisone are a gr",
+  "eligibility_table": [
+    {
+      "criterion": "Sickle cell and acute pain Age 8 and up English or Spanish-speaking",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 22.0 >= 8.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fever greater than 101",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information on fever, so it is unclear if the criterion is met.",
+      "clinical_question": "Does the patient currently have a recorded fever of ≥101°F?"
+    },
+    {
+      "criterion": "Acute chest syndrome or pneumonia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of acute chest syndrome or pneumonia in the patient profile.",
+      "clinical_question": "Has the patient experienced any symptoms of acute chest syndrome, such as chest pain, cough, or difficulty breathing, within the last 48 hours?"
+    },
+    {
+      "criterion": "Other SS complications (sequestration, aplastic crisis)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate any complications related to sickle cell disease, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient experienced any episodes of splenic sequestration or aplastic crisis in the past 12 months?"
+    },
+    {
+      "criterion": "Other explanation for pain (chronic, AVN, surgical)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not report any pain or conditions that would suggest chronic pain, AVN, or surgical issues.",
+      "clinical_question": "Has the patient experienced any chronic pain conditions or undergone surgical interventions that could explain the current pain crisis?"
+    },
+    {
+      "criterion": "History of GI bleeding, HTN, or hyperglycemia/DM",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of GI bleeding, hypertension, or diabetes mellitus in the patient profile.",
+      "clinical_question": "Has the patient experienced any episodes of gastrointestinal bleeding in the past year?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Fever greater than 101",
+    "EXCLUSION UNCLEAR: Acute chest syndrome or pneumonia",
+    "EXCLUSION UNCLEAR: Other SS complications (sequestration, aplastic crisis)",
+    "EXCLUSION UNCLEAR: Other explanation for pain (chronic, AVN, surgical)",
+    "EXCLUSION UNCLEAR: History of GI bleeding, HTN, or hyperglycemia/DM"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1667
+}

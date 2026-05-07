@@ -1,0 +1,87 @@
+{
+  "nct_id": "NCT00294775",
+  "trial_title": "Effect of Angiotensin II Receptor Blockers (ARB) on Left Ventricular Reverse Remodelling After Aortic Valve Replacement in Severe Valvular Aortic Stenosis",
+  "phase": "PHASE3",
+  "status": "UNKNOWN",
+  "brief_summary": "The consequence of aortic valve stenosis (AVS) is increased pressure load on the left ventricle which causes left ventricular (LV) hypertrophy, and myocardial stretch will cause activation of cardiac peptides and activation of the renin angiotensin aldosterone system (RAAS). The consequence of LV hypertrophy is increased chamber-stiffness and delayed active LV relaxation which initially will cause diastolic and later systolic dysfunction. In heart failure (HF) and ischemic heart disease the degr",
+  "eligibility_table": [
+    {
+      "criterion": "Symptomatic severe AVS referred for valve replacement (mechanic prosthesis or bioprosthesis) at Odense University Hospital",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has symptomatic severe aortic stenosis (AVS) and is referred for valve replacement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Signed informed consent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient signed the informed consent form for participation in the trial?"
+    },
+    {
+      "criterion": "Severe renal failure (s-creatinine >300 mmole/l)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of severe renal failure as no s-creatinine level is provided, and it is assumed to be within normal limits.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Moderate or severe hepatic failure",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no evidence of moderate or severe hepatic failure in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Moderate or severe LV systolic dysfunction (LVEF<40%)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's LVEF is 25%, which is below the threshold of 40%, indicating moderate to severe LV systolic dysfunction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients already treated with ACE-I or ARB",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medication list does not specify if they have been treated with ACE-I or ARB, so it is unclear.",
+      "clinical_question": "Has the patient been treated with an ACE inhibitor or an angiotensin II receptor blocker (ARB) for at least 3 months prior to the aortic valve replacement?"
+    },
+    {
+      "criterion": "Known intolerance for ARB",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented intolerance for ARB in the patient's history.",
+      "clinical_question": "Has the patient experienced any adverse reactions or side effects to angiotensin II receptor blockers (ARBs) in the past?"
+    },
+    {
+      "criterion": "Unwilling to participate in the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient willing to participate in the study after being informed about the potential risks and benefits of angiotensin II receptor blockers post-aortic valve replacement?"
+    },
+    {
+      "criterion": "Poor echocardiographic window",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The echocardiographic window quality is not mentioned, making it uncertain.",
+      "clinical_question": "Is the patient's echocardiographic window classified as poor based on a visual score of less than 2 on a scale of 0 to 4?"
+    },
+    {
+      "criterion": "Pregnant women",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "criterion targets female; patient is male",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients already treated with ACE-I or ARB",
+    "EXCLUSION UNCLEAR: Known intolerance for ARB",
+    "EXCLUSION UNCLEAR: Unwilling to participate in the study",
+    "EXCLUSION UNCLEAR: Poor echocardiographic window"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

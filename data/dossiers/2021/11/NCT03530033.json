@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT03530033",
+  "trial_title": "Lidocaine Reduces Muscle Tremor is Beneficial for Intraoperative Recurrent Laryngeal Nerve Monitoring",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "In recent years, the application of intraoperative recurrent laryngeal nerve monitoring in thyroid surgery has greatly reduced the complications of recurrent laryngeal nerve injury. The use of intraoperative neurological monitoring requires the reduction of the dose of neuromuscular blockade, which often leads to muscle tremors during the application of electrical energy, which affects the fine separation around the muscles. This study explored the effect of local application of lidocaine on red",
+  "eligibility_table": [
+    {
+      "criterion": "Thyroid papillary carcinoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has metastatic papillary thyroid cancer, which meets the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lateral cervical lymph node metastasis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of metastatic disease to lymph nodes, indicating lateral cervical lymph node metastasis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The diameter of the metastatic lymph nodes is less than 3cm",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the diameter of the patient's metastatic lymph nodes less than 3 cm?"
+    },
+    {
+      "criterion": "Without internal jugular vein invasion",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific information provided about internal jugular vein invasion; therefore, it cannot be determined definitively.",
+      "clinical_question": "Does the patient have any evidence of internal jugular vein invasion on preoperative imaging studies?"
+    },
+    {
+      "criterion": "Lidocaine allergy sufferers",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding a lidocaine allergy in the patient's profile, so it cannot be assessed.",
+      "clinical_question": "Does the patient have a documented history of lidocaine allergy?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Lidocaine allergy sufferers"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4
+}

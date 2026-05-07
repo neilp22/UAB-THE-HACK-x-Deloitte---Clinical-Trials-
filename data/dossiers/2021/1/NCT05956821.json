@@ -1,0 +1,120 @@
+{
+  "nct_id": "NCT05956821",
+  "trial_title": "Treatment of Relapsed/Refractory Intracranial Glioma in Patients Under 22 Years of Age",
+  "phase": "PHASE1",
+  "status": "RECRUITING",
+  "brief_summary": "This study assesses the safety and efficacy of repeat monthly dosing of super-selective intra-arterial cerebral infusion (SIACI) of cetuximab and bevacizumab in patients \\< 22 years of age.",
+  "eligibility_table": [
+    {
+      "criterion": "Documented histologic diagnosis of relapsed or refractory glioblastoma multiforme (GBM), anaplastic astrocytoma (AA), fibrillary astrocytomas (FA), pilomyxoid astrocytoma (PXA), oligodendroglioma, or anaplastic mixed oligoastrocytoma (AOA), or radiologically diagnosed diffuse intrinsic brainstem glioma (DIPG)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, which is not GBM, and the trial specifically requires relapsed or refractory GBM.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have at least one confirmed and evaluable tumor site",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has multiple tumor sites related to the anaplastic astrocytoma, which can be confirmed and evaluated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have a Karnofsky or Lansky performance status ≥60%.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have a Karnofsky performance status or Lansky performance status of ≥60%?"
+    },
+    {
+      "criterion": "No chemotherapy for three weeks prior to treatment",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on high-dose steroids and has received chemotherapy (temozolomide and CPT-11) within the last three weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have adequate hematologic reserve with absolute neutrophils≥1000/mm3 and platelets ≥100,000/ mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hematologic reserve values are not provided; therefore, it is unclear if the patient meets the absolute neutrophils and platelets criteria.",
+      "clinical_question": "Does the patient have an absolute neutrophil count of ≥1000/mm³ and platelets of ≥100,000/mm³?"
+    },
+    {
+      "criterion": "Pre-enrollment chemistry parameters must show: bilirubin<1.5x the institutional upper limit of normal (IUNL); Aspartate Aminotransferase( AST) or Alanine transaminase (ALT)<2.5x IUNL and creatinine<1.5x IUNL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Pre-enrollment chemistry parameters are not provided, making it impossible to assess bilirubin, AST/ALT, and creatinine levels.",
+      "clinical_question": "Is the patient's total bilirubin level less than 1.5 times the institutional upper limit of normal?"
+    },
+    {
+      "criterion": "Pre-enrollment coagulation parameters (PT and PTT) must be ≤1.5x the IUNL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Coagulation parameters (PT and PTT) are not provided, so it cannot be determined if they meet the criteria.",
+      "clinical_question": "Are the patient's pre-enrollment prothrombin time (PT) and activated partial thromboplastin time (PTT) both ≤1.5 times the institutional upper normal limit (IUNL)?"
+    },
+    {
+      "criterion": "Growth factor(s): Must not have received within 1 week of entry onto this study",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently receiving high-dose steroids, which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Steroids: Systemic corticosteroid therapy is permissible in patients with Central Nervous System (CNS) tumors for treatment of increased intracranial pressure or symptomatic tumor edema. Patients with CNS tumors who are receiving dexamethasone must be on a stable or decreasing dose for at least 1 week prior to study entry.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on high-dose steroids, and there is no indication of a stable or decreasing dose for at least one week prior to study entry.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients of reproductive age must agree to use a medically effective method of contraception during and for a period of three months after the treatment period. A pregnancy test will be performed on each premenopausal female of childbearing potential immediately prior to entry into the research study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's reproductive status is not specified, and there is no information on contraception or pregnancy testing.",
+      "clinical_question": "Has the patient agreed to use a medically effective method of contraception during and for a period of three months after the treatment period?"
+    },
+    {
+      "criterion": "Patients or their parents/guardians must be able to understand and give written informed consent. Informed consent must be obtained at the time of patient screening",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is an adult and can understand and give written informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Because of known concerns with Avastin and wound healing, craniotomy patients are eligible for the treatment if they have had a craniotomy greater than two weeks prior to Intra-Arterial (IA) therapy. Craniotomy or major procedure after SIACI Avastin therapy should wait 4 weeks. Minor surgeries may be performed after two weeks",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of receiving Avastin and has undergone multiple treatments, but there is no specific information about a craniotomy or major procedure in the recent past. Therefore, it is unclear if they meet the timing requirement.",
+      "clinical_question": "Has the patient undergone a craniotomy more than 2 weeks prior to the initiation of Intra-Arterial therapy?"
+    },
+    {
+      "criterion": "Females who are pregnant or lactating",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male, so this criterion regarding females who are pregnant or lactating does not apply.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Females of childbearing potential and fertile men will be informed as to the potential risk of procreation while participating in this research trial and will be advised that they must use effective contraception during and for a period of three months after the treatment period. If they do not agree, they will be ineligible for the study",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male, thus not subject to the requirements for females of childbearing potential.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with significant concurrent medical or psychiatric conditions that would place them at increased risk or affect their ability to receive or comply with treatment or post-treatment clinical monitoring",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has multiple significant medical conditions (anaplastic astrocytoma, hypertension, chronic pain) which could potentially affect treatment compliance, but the specific impact on eligibility is not clearly defined.",
+      "clinical_question": "Does the patient have any current psychiatric conditions, such as depression or anxiety, that would require treatment or monitoring?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients with significant concurrent medical or psychiatric conditions that woul",
+    "LOW INCLUSION MATCH: only 2 of 12 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5333
+}

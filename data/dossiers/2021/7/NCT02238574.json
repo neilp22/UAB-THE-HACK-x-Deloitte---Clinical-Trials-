@@ -1,0 +1,66 @@
+{
+  "nct_id": "NCT02238574",
+  "trial_title": "Diagnostics for the Treatment of Progressive Mucosal Lesions of the Oral Cavity: a Prospective Study",
+  "phase": "NA",
+  "status": "WITHDRAWN",
+  "brief_summary": "Despite improvements in therapy, head and neck carcinomas still have a poor prognosis with a 5-year survival of \\~ 50%. Malignancies of the head and neck area are (almost) always preceded by precursor lesions. Treatment of these premalignant mucosal abnormalities is generally limited and not very inconvenient for the patient. If this precursor lesion remain untreated, it may develop into a malignancy of the head and neck. Extensive treatment will be necessary. This means loss of function of the ",
+  "eligibility_table": [
+    {
+      "criterion": "subjects ≥18 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 60.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "premalignant lesions of the oral cavity, classified as hyperkeratosis, hyperplasia, mild or moderate dysplasia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information about any premalignant lesions of the oral cavity, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient have a histological diagnosis of hyperkeratosis, hyperplasia, or mild to moderate dysplasia from a recent biopsy of the oral cavity?"
+    },
+    {
+      "criterion": "written informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient is capable of providing written informed consent, this criterion is likely met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "former malignancy or lesion classified as severe dysplasia or carcinoma in situ at the same anatomical localization of the oral cavity",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of any former malignancy or severe dysplasia in the patient's history, but the absence of specific details leaves this uncertain.",
+      "clinical_question": "Has the patient been diagnosed with a former malignancy or a lesion classified as severe dysplasia or carcinoma in situ at the same anatomical localization of the oral cavity?"
+    },
+    {
+      "criterion": "lesions within an anatomical field which has been exposed to former treatment (e.g. radiotherapy)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate any prior treatments in the oral cavity, but without specific details, it is unclear if this criterion is met.",
+      "clinical_question": "Has the patient undergone any prior treatment, such as radiotherapy, in the anatomical field of the oral cavity?"
+    },
+    {
+      "criterion": "insufficient biopsy material to perform additional FISH analysis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding biopsy material in the profile, making it uncertain if this criterion is met.",
+      "clinical_question": "Does the biopsy sample contain at least 5 viable cells necessary for FISH analysis?"
+    },
+    {
+      "criterion": "pregnancy, because of the physical burden (e.g. extra general anesthesia) in this study setting",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and there is no mention of pregnancy, but without explicit confirmation, this remains uncertain.",
+      "clinical_question": "Is the patient currently pregnant or has the patient been pregnant within the last 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: former malignancy or lesion classified as severe dysplasia or carcinoma in situ ",
+    "EXCLUSION UNCLEAR: lesions within an anatomical field which has been exposed to former treatment (e",
+    "EXCLUSION UNCLEAR: insufficient biopsy material to perform additional FISH analysis",
+    "EXCLUSION UNCLEAR: pregnancy, because of the physical burden (e.g. extra general anesthesia) in thi"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2857
+}

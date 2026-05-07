@@ -1,0 +1,36 @@
+{
+  "nct_id": "NCT03604770",
+  "trial_title": "Caloric Intake and Ovarian Reserve",
+  "phase": "",
+  "status": "WITHDRAWN",
+  "brief_summary": "The goal of this study is to observe the impact of caloric intake on ovarian reserve as measured by anti-müllerian hormone (AMH) levels and antral follicles (AFC) visualized on ultrasound. It has been shown that obesity negatively impacts these markers, but research is lacking regarding the influence of nutrition and caloric intake on fertility. This would give the investigators information on how diet may impact ovarian reserve in patients seeking fertility treatment.",
+  "eligibility_table": [
+    {
+      "criterion": "Women aged 18-45 who are seeking fertility treatment at Bethesda Fertility Center will be included.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 44 years old, which is within the age range of 18-45 for inclusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women who have a diagnosis of PCOS will be excluded from the study due to their abnormal AMH and follicle numbers.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have an AMH level within the normal range for women without PCOS, defined as ≥1.0 ng/mL?"
+    },
+    {
+      "criterion": "Women will be excluded if more than 12 months has passed since AMH and AFC levels have been measured.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the timing of the last AMH and AFC measurements, making it unclear if this criterion is met or not.",
+      "clinical_question": "When was the patient's last measurement of AMH and AFC levels taken?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Women who have a diagnosis of PCOS will be excluded from the study due to their ",
+    "EXCLUSION UNCLEAR: Women will be excluded if more than 12 months has passed since AMH and AFC level"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

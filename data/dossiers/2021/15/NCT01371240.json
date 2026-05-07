@@ -1,0 +1,79 @@
+{
+  "nct_id": "NCT01371240",
+  "trial_title": "Secretin-Assisted Computed Tomography Scan and Magnetic Resonance Imaging in Improving Pancreatic Tumor Conspicuity",
+  "phase": "EARLY_PHASE1",
+  "status": "WITHDRAWN",
+  "brief_summary": "Accurate preoperative tumor detection and staging are fundamental for treating patients with pancreatic adenocarcinoma. Patients with unresectable tumors can benefit from being spared an extensive operation associated with substantial morbidity and mortality, cost, and pain. On the other hand, patients with localized disease, which is amenable to surgical removal, have the option of operation. Therefore, accurate staging of pancreatic cancer requires the detection of the tumor, and evaluation of",
+  "eligibility_table": [
+    {
+      "criterion": "Patients 18 or above will be included in the study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient 18 years of age or older?"
+    },
+    {
+      "criterion": "Patients suspected of pancreatic mass or with a known pancreatic mass would be enrolled in the study.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has pancreatic adenocarcinoma, which qualifies her as having a known pancreatic mass.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with suspected pancreatic pathology and scheduled for imaging study (CT vs. MRI) will be included if they had obstructive jaundice, with either a stricture in the lower common bile duct on magnetic resonance cholangiopancreatography (MRCP) or a pancreatic mass on ultrasound or other imaging study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's imaging studies and presence of obstructive jaundice are not specified, making it unclear if she meets this criterion.",
+      "clinical_question": "Does the patient have a stricture in the lower common bile duct on magnetic resonance cholangiopancreatography (MRCP) or a pancreatic mass on ultrasound or other imaging study?"
+    },
+    {
+      "criterion": "Patients with known advanced pancreatic tumors and those with previous pancreatic resection will be excluded.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a known advanced pancreatic tumor (pancreatic adenocarcinoma), which excludes her from the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with renal insufficiency: increase Cr level or glomerular filteration rate (GFR) of less than 45 ml/min/1.73.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's creatinine level (SCr 2.1) indicates renal insufficiency, which excludes her from the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients who demonstrate increase in Cr level or patients with acute renal injury.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's elevated creatinine level suggests an increase in Cr level, which excludes her from the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Claustrophobic or patients who are not able to tolerate MRI.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's claustrophobia or ability to tolerate MRI.",
+      "clinical_question": "Can the patient tolerate an MRI without experiencing significant anxiety or panic symptoms?"
+    },
+    {
+      "criterion": "Patients with previous history of contrast allergies.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any history of contrast allergies.",
+      "clinical_question": "Does the patient have a documented history of allergic reactions to iodinated contrast agents?"
+    },
+    {
+      "criterion": "Pregnant patients.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's pregnancy status.",
+      "clinical_question": "Is the patient currently pregnant?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Claustrophobic or patients who are not able to tolerate MRI.",
+    "EXCLUSION UNCLEAR: Patients with previous history of contrast allergies.",
+    "EXCLUSION UNCLEAR: Pregnant patients."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4444
+}

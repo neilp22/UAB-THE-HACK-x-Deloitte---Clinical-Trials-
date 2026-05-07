@@ -1,0 +1,119 @@
+{
+  "nct_id": "NCT00004194",
+  "trial_title": "Fludarabine in Treating Patients With Steroid-Resistant Chronic Graft- Versus-Host Disease",
+  "phase": "PHASE1",
+  "status": "UNKNOWN",
+  "brief_summary": "RATIONALE: Fludarabine may be an effective treatment for graft-versus-host disease caused by bone marrow transplantation.\n\nPURPOSE: Phase I/II trial to study the effectiveness of fludarabine in treating patients who have chronic graft-versus-host disease that has not responded to steroid therapy.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or clinically proven chronic graft versus host disease (GVHD) that has failed to respond to at least 1 month of treatment with the following: Steroids (greater than 0.5 mg/kg/day) AND Cyclosporine or a cytotoxic agent (azathioprine or mercaptopurine) OR Other experimental treatment (such as chloroquine)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has systemic mastocytosis and does not have chronic graft versus host disease (GVHD), which is a specific requirement for this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "All allogeneic bone marrow or peripheral blood stem cell transplantation patients eligible regardless of underlying disease for which transplantation was performed if: At least 45 days since prior transplantation",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not undergone any allogeneic bone marrow or peripheral blood stem cell transplantation, making her ineligible for this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No relapse of underlying disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced no relapse of systemic mastocytosis as defined by a serum tryptase level ≤20 ng/mL in the past 6 months?"
+    },
+    {
+      "criterion": "No loss of donor hematopoiesis",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient maintained donor hematopoiesis with ≥50% donor chimerism in peripheral blood or bone marrow after treatment with fludarabine?"
+    },
+    {
+      "criterion": "Patients with a rapid deterioration of GVHD that is considered life threatening if not controlled are eligible after receiving high dose steroids (greater than 1 mg/kg/day) for at least 10 days",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have GVHD, and therefore does not meet the eligibility for rapid deterioration of GVHD requiring high dose steroids.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absolute neutrophil count at least 1,300/mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count currently ≥1,300/mm3?"
+    },
+    {
+      "criterion": "Platelet count at least 75,000/mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count at least 75,000/mm3?"
+    },
+    {
+      "criterion": "Creatinine no greater than 2 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level currently ≤2 mg/dL?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently pregnant or nursing?"
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient had a negative serum or urine pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is female and of childbearing age, but there is no information provided about contraception use. However, assuming she is compliant, this criterion can be considered met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent cytotoxic drugs",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any concurrent cytotoxic drugs in the past 30 days?"
+    },
+    {
+      "criterion": "Concurrent steroids allowed but must be tapered to less than 0.5 mg/kg/day of prednisone or equivalent prior to starting study drug (if symptomatic flare develops during taper, patients may continue on the lowest dose thought to produce stabilization)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on a steroid taper and is receiving 125 mg IV steroids, which exceeds the allowed dose of less than 0.5 mg/kg/day prior to starting the study drug.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concurrent cyclosporine and other nonmyelosuppressive drugs allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently receiving cyclosporine or any other nonmyelosuppressive drugs alongside the steroid treatment?"
+    },
+    {
+      "criterion": "No concurrent myelosuppressive agents (azathioprine, mercaptopurine)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any myelosuppressive agents, such as azathioprine or mercaptopurine, in the past 30 days?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 1 of 15 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

@@ -1,0 +1,106 @@
+{
+  "nct_id": "NCT04203953",
+  "trial_title": "Quality Improvement Intervention to Promote Early Mobilization in Trauma ICU",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Background: Despite the fact that many lines of evidence point to the safety and feasibility of early mobilization in medical or surgical ICUs, there remains limited evidence regarding the efficacy or outcome of mobilizing patients in trauma ICU. Given the lack of published literature or routine protocol for mobilizing this population in our institution, the investigators developed a formal protocol and quality improvement project.\n\nObjective: To determine the flexibility and effects of an early",
+  "eligibility_table": [
+    {
+      "criterion": "patients >20 years of age admitted to the trauma ICU (more than 3 days)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 > 20.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "who were alive more than 7 days after ICU admission",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of ICU admission, but it is unclear if they survived more than 7 days after admission.",
+      "clinical_question": "Has the patient been alive for more than 7 days following ICU admission?"
+    },
+    {
+      "criterion": "patients < 20 years old who required trauma ICU admission for less than three days",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 < 20.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "died after ICU admission",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current status post-ICU admission is not provided, making it uncertain if they died after ICU admission.",
+      "clinical_question": "Did the patient die within 30 days of ICU admission?"
+    },
+    {
+      "criterion": "Glasgow Coma Scale (GCS) < 6",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Glasgow Coma Scale (GCS) score of less than 6?"
+    },
+    {
+      "criterion": "raised intracranial pressure >20mmHg",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient experienced a raised intracranial pressure measurement exceeding 20 mmHg at any point during their ICU stay?"
+    },
+    {
+      "criterion": "with cardiopulmonary arrest",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding cardiopulmonary arrest in the patient's history.",
+      "clinical_question": "Did the patient experience a cardiopulmonary arrest during their ICU stay?"
+    },
+    {
+      "criterion": "with acute myocardial infarction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding acute myocardial infarction in the patient's history.",
+      "clinical_question": "Has the patient been mobilized within 48 hours of ICU admission following their acute myocardial infarction?"
+    },
+    {
+      "criterion": "with rapidly developing neuromuscular disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding rapidly developing neuromuscular disease in the patient's history.",
+      "clinical_question": "Has the patient experienced any signs of rapidly developing neuromuscular disease, such as significant muscle weakness or respiratory failure, within the last 30 days?"
+    },
+    {
+      "criterion": "with pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding pregnancy in the patient's history.",
+      "clinical_question": "Is the patient currently pregnant or has she been pregnant within the last 12 months?"
+    },
+    {
+      "criterion": "with ruptured or leaking aortic aneurysm",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding ruptured or leaking aortic aneurysm in the patient's history.",
+      "clinical_question": "Has the patient experienced a ruptured or leaking aortic aneurysm within the last 30 days?"
+    },
+    {
+      "criterion": "ICU admission for palliative care or medical orders specifying alternate activities",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the reason for ICU admission, making it unclear if it was for palliative care.",
+      "clinical_question": "Has the patient been admitted to the ICU with medical orders specifying palliative care or alternate activities within the first 24 hours of admission?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: died after ICU admission",
+    "EXCLUSION UNCLEAR: Glasgow Coma Scale (GCS) < 6",
+    "EXCLUSION UNCLEAR: raised intracranial pressure >20mmHg",
+    "EXCLUSION UNCLEAR: with cardiopulmonary arrest",
+    "EXCLUSION UNCLEAR: with acute myocardial infarction",
+    "EXCLUSION UNCLEAR: with rapidly developing neuromuscular disease",
+    "EXCLUSION UNCLEAR: with pregnancy",
+    "EXCLUSION UNCLEAR: with ruptured or leaking aortic aneurysm",
+    "EXCLUSION UNCLEAR: ICU admission for palliative care or medical orders specifying alternate activit"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1667
+}

@@ -1,0 +1,805 @@
+{
+  "nct_id": "NCT04978727",
+  "trial_title": "A Pilot Study of SurVaxM in Children Progressive or Relapsed Medulloblastoma, High Grade Glioma, Ependymoma and Newly Diagnosed Diffuse Intrinsic Pontine Glioma",
+  "phase": "PHASE1",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "Patients will receive a vaccine called SurVaxM on this study. While vaccines are usually thought of as ways to prevent diseases, vaccines can also be used to treat cancer. SurVaxM is designed to tell the body's immune system to look for tumor cells that express a protein called survivin and destroy them. The survivin protein can be found on up to 95% of glioblastomas and other types of cancer but is not found in normal cells. If the body's immune system knows to destroy cells that express surviv",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with a histologically confirmed diagnosis of a primary CNS tumor that is progressive or recurrent defined as radiographic progression in any known residual tumor, or the appearance of one or more new lesions, leptomeningeal disease, or new cerebrospinal fluid (CSF) positivity for malignant cells, after most recent treatment modality. At the time of diagnosis or recurrence, all tumors must have histologic verification of one of the following: Medulloblastoma, Glioblastoma multiforme (GBM), Anaplastic astrocytoma, High-grade astrocytoma, NOS, Anaplastic oligodendroglioma, Anaplastic ependymoma (WHO Grade III), Ependymoma (WHO Grade II), Diffuse Intrinsic Pontine Gliomas (DIPG) Patients: Patients with newly diagnosed diffuse intrinsic pontine gliomas (DIPGs), defined as tumors with a pontine epicenter and diffuse involvement of 2/3 or more of the pons, are eligible without histologic confirmation and will proceed directly to enrollment without screening.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a histologically confirmed diagnosis of anaplastic astrocytoma, which is a qualifying primary CNS tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Medulloblastoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with medulloblastoma as per the latest imaging and histopathological evaluation?"
+    },
+    {
+      "criterion": "Glioblastoma multiforme (GBM)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with glioblastoma multiforme (GBM) based on histopathological examination?"
+    },
+    {
+      "criterion": "Anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic astrocytoma based on histopathological examination?"
+    },
+    {
+      "criterion": "High-grade astrocytoma, NOS",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of high-grade astrocytoma, NOS, based on histopathological examination?"
+    },
+    {
+      "criterion": "Anaplastic oligodendroglioma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic oligodendroglioma based on histopathological examination?"
+    },
+    {
+      "criterion": "Anaplastic ependymoma (WHO Grade III)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic ependymoma (WHO Grade III) based on histopathological evaluation?"
+    },
+    {
+      "criterion": "Ependymoma (WHO Grade II)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of ependymoma (WHO Grade II) based on histopathological examination?"
+    },
+    {
+      "criterion": "Diffuse Intrinsic Pontine Gliomas (DIPG) Patients: Patients with newly diagnosed diffuse intrinsic pontine gliomas (DIPGs), defined as tumors with a pontine epicenter and diffuse involvement of 2/3 or more of the pons, are eligible without histologic confirmation and will proceed directly to enrollment without screening.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a diffuse intrinsic pontine glioma (DIPG), as his tumor is anaplastic astrocytoma of the spine.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with SurVaxM breastfeeding should be discontinued if the mother is treated with SurVaxM. Female patients who are breastfeeding are not eligible for this study unless they agree not to breastfeed.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and not breastfeeding, so this criterion does not apply.",
+      "clinical_question": "Is the patient currently breastfeeding or has the patient agreed to discontinue breastfeeding if treated with SurVaxM?"
+    },
+    {
+      "criterion": "Patients with spinal cord primary tumors",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of a spinal cord primary tumor, specifically anaplastic astrocytoma of the spine, as determined by histopathological examination?"
+    },
+    {
+      "criterion": "Patients with relapsed or progressive DIPG",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced disease progression or relapse of DIPG after prior treatments?"
+    },
+    {
+      "criterion": "Patients with metastatic disseminated DIPG are not eligible. MRI of spine must be performed if disseminated disease is suspected by the treating physician.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's condition does not indicate metastatic disseminated DIPG, as he has anaplastic astrocytoma.",
+      "clinical_question": "Has the patient undergone an MRI of the spine to assess for metastatic disseminated disease?"
+    },
+    {
+      "criterion": "Patients with midline high grade gliomas including those with H3 K27M-altered diffuse midline glioma (DMG) centered outside of the pons",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma, not a midline high-grade glioma, so this criterion does not apply.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of midline high grade glioma, specifically including H3 K27M-altered diffuse midline glioma, centered outside of the pons?"
+    },
+    {
+      "criterion": "Patients with Grade II myxopapillary ependymoma",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of Grade II myxopapillary ependymoma?"
+    },
+    {
+      "criterion": "Patients with WHO Grade I or II gliomas are not eligible unless tumor is defined as DIPG as per above.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma, which is not classified as WHO Grade I or II.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with bone-only metastatic lesions that do not have otherwise evaluable CNS disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma and no indication of bone-only metastatic lesions.",
+      "clinical_question": "Does the patient have any evaluable CNS disease beyond bone-only metastatic lesions?"
+    },
+    {
+      "criterion": "Bulky Disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a measurable tumor burden defined as a maximum diameter of ≥5 cm in any dimension?"
+    },
+    {
+      "criterion": "Patients must provide tumor tissue (3 unstained slides or paraffin block) to determine their survivin expression status.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The availability of tumor tissue is not specified in the profile.",
+      "clinical_question": "Does the patient have available tumor tissue in the form of 3 unstained slides or a paraffin block to assess survivin expression status?"
+    },
+    {
+      "criterion": "Demonstration of survivin expression of at least 1% on tumor tissue by immunohistochemistry is required and must be performed in the central laboratory at Roswell Park Comprehensive Cancer Center (RPCCC) to confirm eligibility.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The survivin expression status has not been assessed in the provided information.",
+      "clinical_question": "Does the patient's tumor tissue demonstrate survivin expression of at least 1% as confirmed by immunohistochemistry at the central laboratory at Roswell Park Comprehensive Cancer Center?"
+    },
+    {
+      "criterion": "Patients must be ≥ 1 year of age and ≤ 21 years of age at the time of screening.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 45 years old, which exceeds the age limit of 21 years for eligibility.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must be ≤ 21 years of age at the time of screening.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 45 years old, which exceeds the age limit of 21 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participant is willing to sign a screening consent. The screening consent is to be obtained according to institutional guidelines. Assent, when appropriate, will be obtained according to institutional guidelines.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is willing to sign a screening consent as per institutional guidelines.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients screened for this trial should be expected to meet the criteria for treatment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "It is unclear if the patient meets the criteria for treatment based on the provided information.",
+      "clinical_question": "Has the patient received ≤1 prior line of systemic therapy for their anaplastic astrocytoma?"
+    },
+    {
+      "criterion": "Patients with a histologically confirmed diagnosis of a primary CNS tumor that is progressive or recurrent defined as progression in any known residual tumor, or the appearance of one or more new lesions, or new cerebrospinal fluid (CSF) positivity for malignant cells, after having failed standard therapy. At the time of diagnosis or recurrence, all tumors must have histologic verification of one of the following: Medulloblastoma, Glioblastoma multiforme (GBM), Anaplastic astrocytoma.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a histologically confirmed diagnosis of anaplastic astrocytoma, which is progressive.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with a histologically confirmed diagnosis of Medulloblastoma.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a histologically confirmed diagnosis of Medulloblastoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with a histologically confirmed diagnosis of Glioblastoma multiforme (GBM).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a histologically confirmed diagnosis of Glioblastoma multiforme (GBM).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with a histologically confirmed diagnosis of Anaplastic astrocytoma.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a histologically confirmed diagnosis of anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with bulky tumor on imaging are ineligible. Bulky tumor is defined as any of the following: Tumor with evidence of clinically significant tonsillar herniation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no imaging data provided to assess if the patient has a bulky tumor.",
+      "clinical_question": "Does the imaging show evidence of clinically significant tonsillar herniation in the patient?"
+    },
+    {
+      "criterion": "Tumor with evidence of clinically significant uncal herniation causing midbrain compression or midline shift greater than 5 mm.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no imaging data provided to assess if there is evidence of clinically significant uncal herniation.",
+      "clinical_question": "Does the patient have evidence of clinically significant uncal herniation causing midbrain compression or a midline shift greater than 5 mm as determined by recent imaging studies?"
+    },
+    {
+      "criterion": "Tumor with a diameter >4cm in one dimension on T2/FLAIR.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no imaging data provided to determine if the tumor diameter exceeds 4cm.",
+      "clinical_question": "Does the patient's tumor have a diameter greater than 4 cm in one dimension as measured on T2/FLAIR imaging?"
+    },
+    {
+      "criterion": "Tumor that in the opinion of the site investigator, shows significantly rapid progression of mass effect in either the brain or spinal cord such that the priming phase of vaccination (i.e., 6 weeks) cannot be completed before clinical deterioration is likely to occur.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's tumor is anaplastic astrocytoma of the spine, and there is no specific information on the rate of progression. The investigator's opinion is needed.",
+      "clinical_question": "Does the patient's tumor exhibit a measurable increase in mass effect on imaging within the last 4 weeks that suggests clinical deterioration is likely to occur before the completion of a 6-week priming phase of vaccination?"
+    },
+    {
+      "criterion": "Active, uncontrolled infection requiring treatment (including HIV infection).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No active, uncontrolled infections are reported, but further medical history is needed to confirm.",
+      "clinical_question": "Does the patient currently have an active, uncontrolled infection requiring treatment, as evidenced by a positive culture or clinical signs of infection?"
+    },
+    {
+      "criterion": "Patients with active autoimmune disease or documented history of autoimmune disease/syndrome that requires ongoing systemic steroids or systemic immunosuppressive agents, with the exception of: Patients with vitiligo or resolved asthma/atopy.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is on high-dose steroids due to their condition, which may indicate an active autoimmune disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High-grade astrocytoma, NOS",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of high-grade astrocytoma, NOS, based on histopathological examination?"
+    },
+    {
+      "criterion": "Anaplastic oligodendroglioma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic oligodendroglioma based on histopathological examination?"
+    },
+    {
+      "criterion": "Anaplastic ependymoma (WHO Grade III)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic ependymoma (WHO Grade III) based on histopathological evaluation?"
+    },
+    {
+      "criterion": "Ependymoma (WHO Grade II)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of ependymoma (WHO Grade II) based on histopathological examination?"
+    },
+    {
+      "criterion": "Patients with newly diagnosed DIPG: Patients with diffuse intrinsic pontine gliomas (DIPGs) will be eligible 14 to 56 days post-completion of radiation therapy if they do not have any evidence of progression.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma, which is not a DIPG, thus not eligible under this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with a typical DIPG on MR imaging, defined as a tumor with a pontine epicenter and diffuse involvement of more than 2/3 of the pons, are eligible without histologic confirmation.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's tumor does not meet the MR imaging criteria for typical DIPG.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with typical DIPG who undergo a biopsy are eligible provided the tumor is a diffuse glioma WHO Grade II-IV with OR without H3 K27M mutation.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a biopsy-confirmed typical DIPG.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with pontine lesions that do not meet these MR imaging criteria will be eligible if there is histologic confirmation of diffuse glioma WHO Grade II-IV with H3 K27M mutation.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have histologic confirmation of diffuse glioma WHO Grade II-IV with H3 K27M mutation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "DEMONSTRATION OF SURVIVIN EXPRESSION: For patients with relapsed or progressive medulloblastoma, HGG, or ependymoma, demonstration of survivin expression as assessed after screening consent/assent of at least 1% on tumor tissue by immunohistochemistry (ICH) is required and must have been performed in the central laboratory at Roswell Park Comprehensive Cancer Center (RPCCC) to confirm eligibility. For patients with DIPG, diagnostic biopsy for histologic confirmation is not required, and tumor expression of survivin is therefore not required for eligibility for these patients.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's tumor type does not require survivin expression for eligibility, but confirmation of tumor type is needed.",
+      "clinical_question": "Does the patient's tumor tissue demonstrate survivin expression of at least 1% as assessed by immunohistochemistry at the central laboratory?"
+    },
+    {
+      "criterion": "DISEASE STATUS: Patients must have evaluable disease within the central nervous system to be eligible. Evaluable disease includes either measurable OR non-measurable disease, defined as follows:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has an evaluable disease status with anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with hypothyroidism stable on hormone replacement or Sjogren's syndrome",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have hypothyroidism or Sjogren's syndrome reported, but further details are needed.",
+      "clinical_question": "Is the patient currently diagnosed with stable hypothyroidism and receiving an appropriate hormone replacement therapy?"
+    },
+    {
+      "criterion": "History of or ongoing pneumonitis or significant interstitial lung disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not explicitly mention pneumonitis or significant interstitial lung disease, but further evaluation may be needed to confirm.",
+      "clinical_question": "Does the patient have a documented history of pneumonitis or significant interstitial lung disease as defined by clinical symptoms or imaging findings?"
+    },
+    {
+      "criterion": "Patients with any clinically significant unrelated systemic illness (significant cardiac, pulmonary, hepatic or other organ dysfunction), that in the opinion of the investigator would compromise the patient's ability to tolerate protocol therapy, put them at additional risk for toxicity or would interfere with the study procedures or results.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has chronic pain and hypertension, which may be considered significant systemic illnesses that could affect treatment tolerance.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with a prior or concurrent malignancy whose natural history or treatment has the potential to interfere with the safety or efficacy assessment of the investigational regimen for this trial.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of anaplastic astrocytoma, which is a malignancy that could interfere with the safety or efficacy assessment of the investigational regimen.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any medical condition that, in the opinion of the Principal Investigator, would compromise the patient's ability to participate in the study.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's multiple conditions and ongoing treatments may compromise their ability to participate in the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients who are receiving any other anti-cancer or investigational drug therapy are ineligible.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently receiving multiple anti-cancer therapies including temozolomide and Avastin, making them ineligible.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients who are receiving any cannabidiol (CBD) or medical marijuana treatment are ineligible.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the use of CBD or medical marijuana, so this criterion cannot be assessed definitively.",
+      "clinical_question": "Has the patient received any cannabidiol (CBD) or medical marijuana treatment in the past 30 days?"
+    },
+    {
+      "criterion": "Patients who have received the last vaccination of a live vaccine ≤ 30 days prior to enrollment are ineligible. Examples of live vaccines include, but are not limited to, the following: measles, mumps, rubella, varicella, yellow fever, rabies, BCG, and typhoid (oral) vaccine. Seasonal influenza vaccines for injection are generally killed virus vaccines and are allowed; however, intranasal influenza vaccines (e.g., Flu-Mist®) are live attenuated vaccines and must meet timeline for live vaccine.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding recent vaccinations, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Has the patient received any live vaccine within the last 30 days prior to enrollment?"
+    },
+    {
+      "criterion": "Patients who have received an inactivated virus, peptide, or mRNA vaccine within 14 days of the start of protocol therapy are ineligible.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding recent vaccinations, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Has the patient received any inactivated virus, peptide, or mRNA vaccine within the 14 days prior to the start of protocol therapy?"
+    },
+    {
+      "criterion": "Measurable disease: bi-dimensionally measurable disease; at least one lesion that can be accurately measured in at least two dimensions (per protocol guidelines).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's condition of anaplastic astrocytoma suggests that they may not have measurable disease as defined by the trial.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Non-measurable disease: A lesion that does not meet the criteria for measurable disease as defined above; or diffuse leptomeningeal disease, or no tumor visible on imaging but presence of malignant cells on cytologic examination of CSF.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient may have non-measurable disease due to the presence of malignant cells in CSF, which aligns with the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stratum 1 (progressive or recurrent) patients must be ≥10 years of age and ≤ 21 years of age at the time of study screening.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is 45 years old, which exceeds the age limit for Stratum 1.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stratum 2 (progressive or recurrent) patients must be ≥1 year of age and < 10 years of age at the time of study screening.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is 45 years old, which exceeds the age limit for Stratum 2.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stratum 2 (progressive or recurrent) patients must be ≥1 year of age and < 10 years of age at the time of study screening.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is 45 years old, which exceeds the age limit for Stratum 2.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stratum 3 (newly diagnosed DIPG) patients must be ≥1 year of age and ≤ 21 years of age at the time of study enrollment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is 45 years old, which exceeds the age limit for Stratum 3.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stratum 3 (newly diagnosed DIPG) patients must be ≥1 year of age and ≤ 21 years of age at the time of study enrollment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is 45 years old, which exceeds the age limit for Stratum 3.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients may not be on immunosuppressive therapy, including corticosteroids (except as defined in the corticosteroids inclusion criteria) at time of enrollment. However, patients who require intermittent use of bronchodilators, local steroid injections, or topical steroids will not be excluded from the study.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is on high-dose steroids, which is considered immunosuppressive therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients may not be receiving concomitant chemotherapy, immunotherapy, radiotherapy, radiosurgery, interferon, allergy desensitization injections, growth factors, interleukins, or any investigational therapeutic medication at the time of enrollment.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is currently receiving multiple chemotherapy agents (temozolomide, CPT-11, Avastin), which disqualifies them.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients who in the opinion of the investigator are unwilling or unable to return for required follow-up visits or obtain follow-up studies required to assess toxicity of therapy or to adhere to drug administration plan, other study procedures, and study restrictions.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "It is unclear if the patient is willing or able to return for follow-up visits; this requires investigator assessment.",
+      "clinical_question": "Is the patient able to attend follow-up visits and adhere to the drug administration plan as assessed by their ability to travel independently and manage their medication schedule?"
+    },
+    {
+      "criterion": "Known allergy or hypersensitivity to Keyhole Limpet Hemocyanin (KLH), granulocyte colony-macrophage stimulating factor (sargramostim) or MRI contrast agent.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about allergies or hypersensitivity to KLH, sargramostim, or MRI contrast agent.",
+      "clinical_question": "Does the patient have a documented allergy or hypersensitivity to Keyhole Limpet Hemocyanin (KLH), granulocyte colony-macrophage stimulating factor (sargramostim), or any MRI contrast agent?"
+    },
+    {
+      "criterion": "Patients with a known coagulopathy or bleeding diathesis or requires the use of systemic, anticoagulant medication are not eligible.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about coagulopathy or the use of systemic anticoagulant medication.",
+      "clinical_question": "Does the patient have a history of coagulopathy or require systemic anticoagulant medication?"
+    },
+    {
+      "criterion": "Patients with recurrent or progressive disease must have received prior chemotherapy, and/or radiotherapy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of receiving prior chemotherapy (temozolomide and CPT-11) and radiotherapy, indicating they meet the requirement for recurrent or progressive disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have recovered from the acute treatment related toxicities (defined as ≤ Grade 1 if not defined in eligibility criteria; excludes alopecia) prior to entering this study.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on high-dose steroids and has ongoing symptoms related to their condition, suggesting they may not have fully recovered from acute treatment-related toxicities.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with newly diagnosed DIPG must have completed radiation therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have newly diagnosed DIPG; therefore, this criterion is not applicable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have received their last dose of known myelosuppressive anticancer therapy at least 21 days prior to enrollment or at least 42 days if nitrosourea. Patients must have received their last dose of non-myelosuppressive chemotherapy at least 7 days prior to enrollment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received their last dose of Avastin and CPT-11 recently, which may not meet the 21-day requirement for myelosuppressive therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biologic or investigational agent (anti-neoplastic): Patient must have recovered from any acute toxicity potentially related to the agent and received their last dose of the investigational or biologic agent ≥ 7 days prior to study enrollment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently receiving Avastin, which is a biologic agent, and has not been off it for the required 7 days prior to enrollment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "For agents that have known adverse events occurring beyond 7 days after administration, this period must be extended beyond the time during which adverse events are known to occur.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The specific adverse events related to the patient's treatments are not detailed, making it unclear if the 7-day period is sufficient.",
+      "clinical_question": "Have any adverse events occurred in this patient beyond 7 days after the administration of SurVaxM?"
+    },
+    {
+      "criterion": "Monoclonal antibody treatment and agents with known prolonged half-lives: Patient must have recovered from any acute toxicity potentially related to the agent and received their last dose of the agent ≥ 28 days prior to study enrollment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received Avastin recently, which has a prolonged half-life, and has not been off it for the required 28 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recurrent or Progressive CNS tumor patients must have had their last fraction of:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's treatment history does not specify the timing of the last fraction of radiation therapy, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient received their last fraction of radiation therapy within the last 6 months?"
+    },
+    {
+      "criterion": "Craniospinal irradiation, whole brain radiation, total body irradiation or radiation to spine ≥ 6 weeks (42 days) prior to enrollment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone radiation therapy but the last treatment was not specified to be 6 weeks prior to enrollment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Focal irradiation ≥ 14 days prior to enrollment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received focal irradiation but the timing of this treatment is not specified to be 14 days prior to enrollment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "DIPG Patients: Patients with DIPG are eligible after completion of initial radiotherapy (with or without concurrent treatment) and in the absence of progressive disease on post-radiation imaging.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, not DIPG, making them ineligible.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have completed radiation therapy at least 14 days prior to enrollment but no longer than 56 days and cannot have received any other tumor-directed treatment except the following: Patient may have received temozolomide or other non-investigational agents during irradiation at the treating physician's discretion. If the patient has received such agents concurrently with radiation, then patient must have recovered from the acute treatment related toxicities (defined as < Grade 1) prior to enrollment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple tumor-directed treatments including temozolomide and Avastin, which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have completed radiation therapy at least 14 days prior to enrollment but no longer than 56 days and cannot have received any other tumor-directed treatment except the following: Patient may have received temozolomide or other non-investigational agents during irradiation at the treating physician's discretion. If the patient has received such agents concurrently with radiation, then patient must have recovered from the acute treatment related toxicities (defined as < Grade 1) prior to enrollment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Similar to criterion 2, the patient has received multiple tumor-directed treatments, making them ineligible.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CELLULAR THERAPY: Patient must be:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is incomplete; no specific requirements are provided for cellular therapy eligibility.",
+      "clinical_question": "Has the patient received any form of cellular therapy prior to enrollment in this study?"
+    },
+    {
+      "criterion": "≥ 6 months since allogeneic stem cell transplant prior to enrollment with no evidence of active graft vs. host disease.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding any prior allogeneic stem cell transplant.",
+      "clinical_question": "Has the patient undergone an allogeneic stem cell transplant at least 6 months prior to enrollment with no evidence of active graft vs. host disease?"
+    },
+    {
+      "criterion": "≥ 3 months since autologous stem cell transplant prior to enrollment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding any prior autologous stem cell transplant.",
+      "clinical_question": "Has the patient undergone an autologous stem cell transplant at least 3 months prior to enrollment?"
+    },
+    {
+      "criterion": "> 42 days since completion of any other type of adoptive cellular therapy prior to enrollment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding any prior adoptive cellular therapy.",
+      "clinical_question": "Has the patient completed any type of adoptive cellular therapy within the last 42 days?"
+    },
+    {
+      "criterion": "CRANIAL SURGERY: Patients who have had recent cranial surgery (VP shunt, ETV, tumor resection) are eligible for inclusion, but the vaccine may not be administered prior to post-operative Day 14.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding any recent cranial surgery.",
+      "clinical_question": "Has the patient undergone any cranial surgery within the last 14 days?"
+    },
+    {
+      "criterion": "NEUROLOGIC STATUS: Patients with neurological deficits should have deficits that are stable for a minimum of 1 week prior to enrollment. A baseline neurological exam should clearly document the neurological status of the patient at the time of enrollment on the study.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has significant neurological deficits (severe lower extremity weakness, urinary retention) which are unlikely to be stable for 1 week prior to enrollment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Karnofsky Performance Scale (KPS for > 16 years of age) or Lansky Performance Score (LPS for ≤ 16 years of age) assessed within 2 weeks prior to enrollment must be ≥ 60%.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the Karnofsky Performance Scale or Lansky Performance Score assessment.",
+      "clinical_question": "Is the patient's Karnofsky Performance Scale (KPS) score ≥ 60%?"
+    },
+    {
+      "criterion": "Absolute neutrophil count ≥ 0.75 x 10^9 cells/L",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count currently ≥ 0.75 x 10^9 cells/L?"
+    },
+    {
+      "criterion": "Platelets ≥ 100 x 10^9 cells/L (unsupported, defined as no platelet transfusion within 7 days prior to enrollment)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Have the patient's platelet counts been measured, and are they ≥ 100 x 10^9 cells/L without any platelet transfusion in the 7 days prior to enrollment?"
+    },
+    {
+      "criterion": "Hemoglobin ≥ 8 g/dl (may receive transfusions)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a hemoglobin level of ≥ 8 g/dl?"
+    },
+    {
+      "criterion": "PT/INR, PTT ≤ 1.5 x ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for PT/INR and PTT are not provided, making it impossible to assess.",
+      "clinical_question": "Is the patient's PT/INR and PTT ≤ 1.5 x ULN based on the most recent lab results?"
+    },
+    {
+      "criterion": "Total bilirubin ≤ 1.5 times institutional upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Total bilirubin levels are not available for evaluation.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 times the institutional upper limit of normal?"
+    },
+    {
+      "criterion": "ALT(SGPT) ≤ 3 x institutional upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "ALT levels are not provided, so eligibility cannot be determined.",
+      "clinical_question": "Is the patient's ALT (SGPT) level ≤ 3 times the institutional upper limit of normal?"
+    },
+    {
+      "criterion": "Albumin ≥ 2 g/dl",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum albumin level ≥2 g/dl?"
+    },
+    {
+      "criterion": "Blood creatinine based on age/gender as noted below. Patients that do not meet the criteria below but have a 24-hour Creatinine Clearance or GFR (radioisotope or iothalamate) ≥ 70 ml/min/1.73 m2 are eligible. Maximum Serum Creatinine for age/gender:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Blood creatinine levels are not available; thus, eligibility cannot be assessed.",
+      "clinical_question": "Is the patient's 24-hour Creatinine Clearance or GFR ≥ 70 ml/min/1.73 m²?"
+    },
+    {
+      "criterion": "Age 1 to < 2 years: 0.6 mg/dL (male); 0.6 mg/dL (female)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient is 45 years old, but specific creatinine levels are not provided.",
+      "clinical_question": "Is the patient's serum creatinine level ≤0.6 mg/dL?"
+    },
+    {
+      "criterion": "Age 2 to < 6 years: 0.8 mg/dL (male); 0.8 mg/dL (female)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient is 45 years old; no relevant creatinine data for this age group.",
+      "clinical_question": "Does the patient have a serum creatinine level of ≤0.8 mg/dL?"
+    },
+    {
+      "criterion": "Age 6 to < 10 years: 1 mg/dL (male); 1 mg/dL (female)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient is 45 years old; no relevant creatinine data for this age group.",
+      "clinical_question": "Does the patient have a serum creatinine level of ≤1 mg/dL?"
+    },
+    {
+      "criterion": "Age 10 to < 13 years: 1.2 mg/dL (male); 1.2 mg/dL (female)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient is 45 years old; no relevant creatinine data for this age group.",
+      "clinical_question": "Does the patient have a serum creatinine level of ≤1.2 mg/dL?"
+    },
+    {
+      "criterion": "Age 13 to < 16 years: 1.5 mg/dL (male); 1.4 mg/dL (female)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient is 45 years old; no relevant creatinine data for this age group.",
+      "clinical_question": "Does the patient have a serum creatinine level of ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "Age ≥ 16 years: 1.7 mg/dL (male); 1.4 mg/dL (female)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient is 45 years old; no relevant creatinine data for this age group.",
+      "clinical_question": "Is the patient's serum creatinine level ≥ 1.7 mg/dL?"
+    },
+    {
+      "criterion": "INFECTIOUS DISEASES",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding infectious diseases.",
+      "clinical_question": "Has the patient experienced any infectious complications requiring hospitalization during the course of their current treatment regimen?"
+    },
+    {
+      "criterion": "Human Immunodeficiency Virus (HIV) Infected Individuals: Patients who are known to be Human immunodeficiency virus (HIV)-infected must be on effective anti-retroviral therapy with undetectable viral load for 6 months prior to study enrollment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding HIV status or treatment.",
+      "clinical_question": "Is the patient's HIV viral load undetectable for at least 6 months prior to study enrollment?"
+    },
+    {
+      "criterion": "Hepatitis B Chronically Infected Individuals: For patients with known evidence of chronic hepatitis B virus (HBV) infection, the HBV viral load must be undetectable on suppressive therapy, if indicated.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding hepatitis B status or treatment.",
+      "clinical_question": "Is the patient's HBV viral load undetectable while on suppressive therapy for chronic hepatitis B infection?"
+    },
+    {
+      "criterion": "Hepatitis C (HCV) Infected Individuals: Patients with a known history of hepatitis C virus (HCV) infection must have been treated and cured. Patients with known HCV infection who are currently on treatment are eligible if they have an undetectable HCV viral load.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding hepatitis C status or treatment.",
+      "clinical_question": "Has the patient been treated for hepatitis C and achieved an undetectable HCV viral load?"
+    },
+    {
+      "criterion": "Patients who are receiving dexamethasone must be on a stable or decreasing dose for at least 1 week prior to enrollment. A maximum dose of 0.1 mg/kg/day (and maximum total daily dose 4 mg) of dexamethasone (or equivalent) is permitted at study entry. Effort should be made to reduce to lowest tolerated steroid dose.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is on high-dose steroids and likely not on a stable or decreasing dose.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must be willing to use brief courses (at least 72 hours) of steroids as directed for potential inflammatory side effects of the therapy if recommended by their treating physician.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is likely willing to use brief courses of steroids as directed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must be off all colony-forming growth factor(s) for at least 14 days prior to enrollment (i.e. filgrastim, sargramostim or erythropoietin). Two (2) weeks must have elapsed if the patient received a long-acting formulation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding use of colony-forming growth factors.",
+      "clinical_question": "Has the patient been off all colony-forming growth factor(s) for at least 14 days prior to enrollment?"
+    },
+    {
+      "criterion": "Pregnant women or nursing mothers are excluded from this study because SurVaxM is an agent with the potential for teratogenic effects. Female patients of childbearing potential must have a negative serum or urine pregnancy test. If the urine test is positive or cannot be confirmed as negative, a serum pregnancy test will be required.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding pregnancy status.",
+      "clinical_question": "Has the patient undergone a serum pregnancy test that confirms a negative result?"
+    },
+    {
+      "criterion": "Patients of childbearing or child fathering potential must be willing to use a medically acceptable form of birth control, which includes abstinence, while being treated on this study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding birth control measures.",
+      "clinical_question": "Is the patient currently using a medically acceptable form of birth control, such as abstinence, during the treatment period?"
+    },
+    {
+      "criterion": "The patient or parent/guardian is able to understand the consent and is willing to sign a written informed consent document according to institutional guidelines. Assent, when appropriate, will be obtained according to institutional guidelines.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is likely able to understand and sign consent based on profile.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Because there is an unknown but potential risk for adverse events in nursing inf",
+    "EXCLUSION UNCLEAR: Patients with spinal cord primary tumors",
+    "EXCLUSION UNCLEAR: Patients with relapsed or progressive DIPG",
+    "EXCLUSION UNCLEAR: Patients with metastatic disseminated DIPG are not eligible. MRI of spine must b",
+    "EXCLUSION UNCLEAR: Patients with midline high grade gliomas including those with H3 K27M-altered di",
+    "EXCLUSION UNCLEAR: Patients with Grade II myxopapillary ependymoma",
+    "EXCLUSION VIOLATED: Patients with WHO Grade I or II gliomas are not eligible unless tumor is defined",
+    "EXCLUSION UNCLEAR: Patients with bone-only metastatic lesions that do not have otherwise evaluable ",
+    "EXCLUSION UNCLEAR: Bulky Disease",
+    "EXCLUSION UNCLEAR: Patients with bulky tumor on imaging are ineligible. Bulky tumor is defined as a",
+    "EXCLUSION UNCLEAR: Tumor with evidence of clinically significant uncal herniation causing midbrain ",
+    "EXCLUSION UNCLEAR: Tumor with a diameter >4cm in one dimension on T2/FLAIR.",
+    "EXCLUSION UNCLEAR: Tumor that in the opinion of the site investigator, shows significantly rapid pr",
+    "EXCLUSION UNCLEAR: Active, uncontrolled infection requiring treatment (including HIV infection).",
+    "EXCLUSION UNCLEAR: Patients with hypothyroidism stable on hormone replacement or Sjogren's syndrome",
+    "EXCLUSION UNCLEAR: History of or ongoing pneumonitis or significant interstitial lung disease",
+    "EXCLUSION VIOLATED: Patients with any clinically significant unrelated systemic illness (significant",
+    "EXCLUSION VIOLATED: Patients with a prior or concurrent malignancy whose natural history or treatmen",
+    "EXCLUSION VIOLATED: Any medical condition that, in the opinion of the Principal Investigator, would ",
+    "EXCLUSION VIOLATED: Patients who are receiving any other anti-cancer or investigational drug therapy",
+    "EXCLUSION UNCLEAR: Patients who are receiving any cannabidiol (CBD) or medical marijuana treatment ",
+    "EXCLUSION UNCLEAR: Patients who have received the last vaccination of a live vaccine ≤ 30 days prio",
+    "EXCLUSION UNCLEAR: Patients who have received an inactivated virus, peptide, or mRNA vaccine within",
+    "EXCLUSION VIOLATED: Patients may not be on immunosuppressive therapy, including corticosteroids (exc",
+    "EXCLUSION VIOLATED: Patients may not be receiving concomitant chemotherapy, immunotherapy, radiother",
+    "EXCLUSION UNCLEAR: Patients who in the opinion of the investigator are unwilling or unable to retur",
+    "EXCLUSION UNCLEAR: Known allergy or hypersensitivity to Keyhole Limpet Hemocyanin (KLH), granulocyt",
+    "EXCLUSION UNCLEAR: Patients with a known coagulopathy or bleeding diathesis or requires the use of ",
+    "LOW INCLUSION MATCH: only 9 of 80 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.4037
+}

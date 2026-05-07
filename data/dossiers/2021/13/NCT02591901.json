@@ -1,0 +1,101 @@
+{
+  "nct_id": "NCT02591901",
+  "trial_title": "Preventing UTIs in Chronic Neurogenic Bladder Dysfunction (Mix Methods)",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Due to the damage caused to the spinal cord, patients with spinal cord injury, cauda equina syndrome, multiple sclerosis and transverse myelitis may encounter loss of bladder function, which in turn can lead to a debilitating and costly complication: Urinary Tract Infections (UTIs). Given that these patients with loss of bladder function do not normally feel symptoms like pain - as would be the case in otherwise healthy persons - there is no clear agreement among experts on which signs and sympt",
+  "eligibility_table": [
+    {
+      "criterion": "Have a clinical diagnosis of spinal cord injury, multiple sclerosis, transverse myelitis or cauda equina damage;",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of transverse myelitis, which qualifies as a spinal cord injury.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have had the diagnosis of the spinal pathology for at least 12 months;",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's history indicates transverse myelitis, which is likely to have been diagnosed for over 12 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have not had any significant changes in the underlying condition for 12 weeks",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of altered mental status and urosepsis, which may indicate significant changes in their underlying condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Be living in the community (not in residential care)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a complex medical history and is likely not living independently due to multiple health issues.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Aged 18 to 75 years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 62.0 >= 75.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have had at least three urinary tract infection episodes treated using anti-biotics over the preceding 12 months;",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of recurrent UTIs, with multiple episodes treated with antibiotics in the past year.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "If a woman of child-bearing age, is willing to use contraception for the duration of the study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion is not applicable.",
+      "clinical_question": "Is the patient currently using a reliable form of contraception, such as hormonal birth control or an IUD, and is he willing to continue its use for the duration of the study?"
+    },
+    {
+      "criterion": "Having the mental capacity to give informed consent",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's altered mental status raises concerns about their mental capacity to give informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have had surgical alterations to the bladder, excluding supra-pubic catherisation.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has had surgical alterations to the bladder (suprapubic catheter), which excludes them from eligibility.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known hypersensitivity to the active principle or to any of the excipients of Uro-Vaxom®",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding hypersensitivity to Uro-Vaxom®.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to Uro-Vaxom® or any of its excipients?"
+    },
+    {
+      "criterion": "Being unwilling to take a product containing gelatin (e.g. vegetarians)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's dietary restrictions related to gelatin.",
+      "clinical_question": "Is the patient willing to take a product containing gelatin, such as a gelatin-based supplement or medication?"
+    },
+    {
+      "criterion": "recruitment can be postponed until antibiotics have not been used for a period of 14 days and symptoms of a UTI have subsided",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on antibiotics (vanc and meropenem) and has a history of recurrent UTIs, indicating that symptoms may not have subsided.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Have had surgical alterations to the bladder, excluding supra-pubic catherisatio",
+    "EXCLUSION UNCLEAR: Known hypersensitivity to the active principle or to any of the excipients of Ur",
+    "EXCLUSION UNCLEAR: Being unwilling to take a product containing gelatin (e.g. vegetarians)",
+    "EXCLUSION VIOLATED: recruitment can be postponed until antibiotics have not been used for a period o"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.75
+}

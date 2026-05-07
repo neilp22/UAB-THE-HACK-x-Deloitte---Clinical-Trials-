@@ -1,0 +1,335 @@
+{
+  "nct_id": "NCT04160130",
+  "trial_title": "RHEIA (Randomized researcH in womEn All Comers With Aortic Stenosis)",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "Purpose of this prospective, randomized, controlled, multi-center study is to evaluate the safety and efficacy of Transcatheter Aortic Valve Implantation (TAVI) as compared to surgical aortic valve replacement (SAVR) in female patients with severe symptomatic aortic stenosis. Patients will be randomized 1:1 to receive either TAVI or SAVR aortic valve replacement. For TAVI procedure, Edwards SAPIEN 3 THV system Model 9600 TFX (20, 23, 26 and 29 mm) or SAPIEN 3 Ultra THV system Model 9750 TFX (20,",
+  "eligibility_table": [
+    {
+      "criterion": "Female patients with severe aortic stenosis as follows:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is male, and the criterion specifies female patients.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High gradient severe AS (Class I Indication for aortic valve replacement [AVR]): Jet velocity ≥ 4.0 m/s or mean gradient ≥ 40 mmHg with Aortic Valve Area (AVA) ≤ 1.0 cm² or AVA index ≤ 0.6 cm²/m² OR",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's jet velocity and mean gradient are not provided, making it impossible to confirm high gradient severe AS.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Low gradient severe aortic stenosis (Class I/IIa indication of AVR) Jet velocity < 4.0 m/s and mean gradient < 40 mmHg and AVA ≤ 1.0 cm² and AVA index ≤ 0.6 cm²/m² with confirmation of severe AS by: mean gradient ≥40 mmHg on dobutamine stress echocardiography and/or aortic valve calcium score ≥ 1200 AU on non-contrast CT.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's lab values do not provide sufficient information to assess low gradient severe AS; further testing is needed.",
+      "clinical_question": "Is the patient's mean gradient ≥40 mmHg on dobutamine stress echocardiography?"
+    },
+    {
+      "criterion": "AND",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "This criterion is incomplete and cannot be assessed without additional context.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) of ≤30%?"
+    },
+    {
+      "criterion": "NYHA Functional Class ≥ II OR",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's EF of 25% indicates significant heart failure, likely placing him in NYHA Class III or IV.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Exercise test that demonstrates a limited exercise capacity, abnormal BP response, or arrhythmia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No exercise test results are provided to assess exercise capacity or abnormal responses.",
+      "clinical_question": "Does the patient have an exercise capacity of less than 6 METs during the exercise test?"
+    },
+    {
+      "criterion": "Age ≥ 18 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient aged 18 years or older?"
+    },
+    {
+      "criterion": "The study patient has been informed of the nature of the study, agrees to its provisions and has provided written informed consent as approved by the Institutional Review Board (IRB)/Ethics Committee (EC) of the respective clinical site.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding informed consent or IRB approval.",
+      "clinical_question": "Has the patient provided written informed consent as approved by the Institutional Review Board (IRB)/Ethics Committee (EC) of the respective clinical site?"
+    },
+    {
+      "criterion": "Patient is not a candidate for both surgical and transcatheter aortic valve replacement.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's severe aortic stenosis and worsening LV function suggest he may not be a candidate for both surgical and transcatheter options.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Native aortic annulus size unsuitable for sizes 20, 23, 26, or 29 mm THV based on 3D imaging analysis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the native aortic annulus size or suitability for THV.",
+      "clinical_question": "Is the native aortic annulus size measured by 3D imaging analysis less than 20 mm or greater than 29 mm?"
+    },
+    {
+      "criterion": "Iliofemoral vessel characteristics that would preclude safe placement of the introducer sheath.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the iliofemoral vessel characteristics to assess suitability for sheath placement.",
+      "clinical_question": "What is the diameter and degree of calcification of the patient's iliofemoral vessels as measured by imaging studies?"
+    },
+    {
+      "criterion": "Evidence of an acute myocardial infarction ≤ 1 month (30 days) before randomization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of an acute myocardial infarction is provided in the profile, but the timeframe is unclear.",
+      "clinical_question": "Has the patient experienced an acute myocardial infarction within the last 30 days?"
+    },
+    {
+      "criterion": "Aortic valve is unicuspid, bicuspid, or is non-calcified",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a bicuspid aortic valve, which is an exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe aortic regurgitation (>3+)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has 2+ aortic insufficiency, which is not severe but indicates some level of regurgitation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any concomitant valve disease that requires an intervention",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about concomitant valve disease requiring intervention.",
+      "clinical_question": "Does the patient have any concomitant valve disease that requires an intervention, such as aortic insufficiency or mitral regurgitation with a severity that necessitates surgical repair or replacement?"
+    },
+    {
+      "criterion": "Pre-existing mechanical or bioprosthetic valve in any position (mitral ring is not an exclusion).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention any pre-existing mechanical or bioprosthetic valve.",
+      "clinical_question": "Does the patient have a pre-existing mechanical or bioprosthetic valve in any position?"
+    },
+    {
+      "criterion": "Complex coronary artery disease:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Complex coronary artery disease is not explicitly mentioned; further details are needed.",
+      "clinical_question": "Does the patient have ≥50% stenosis in one or more major coronary arteries as determined by coronary angiography?"
+    },
+    {
+      "criterion": "Unprotected left main coronary artery stenosis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding unprotected left main coronary artery stenosis.",
+      "clinical_question": "Does the patient have a left main coronary artery stenosis of ≥50%?"
+    },
+    {
+      "criterion": "Syntax score > 32 (in the absence of prior revascularization)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Syntax score is not provided; therefore, it cannot be assessed.",
+      "clinical_question": "Does the patient have a Syntax score greater than 32 based on their coronary angiography results?"
+    },
+    {
+      "criterion": "Heart Team assessment that optimal revascularization cannot be performed.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about the Heart Team assessment.",
+      "clinical_question": "Has the Heart Team assessed the patient's aortic stenosis and determined that the Society of Thoracic Surgeons (STS) risk score is ≥8% for surgical intervention?"
+    },
+    {
+      "criterion": "Symptomatic carotid or vertebral artery disease or successful treatment of carotid stenosis within 30 days before randomization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No details are given about symptomatic carotid or vertebral artery disease.",
+      "clinical_question": "Has the patient experienced symptomatic carotid or vertebral artery disease or undergone successful treatment of carotid stenosis within 30 days before randomization?"
+    },
+    {
+      "criterion": "Leukopenia (WBC < 3000 cell/mcL), anemia (Hgb < 9 g/dL), Thrombocytopenia (Plt < 50,000 cell/mcL), history of bleeding diathesis or coagulopathy, or hypercoagulable states",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess leukopenia, anemia, or thrombocytopenia.",
+      "clinical_question": "Does the patient have a white blood cell count (WBC) less than 3000 cells/mcL?"
+    },
+    {
+      "criterion": "Hemodynamic or respiratory instability requiring inotropic support, mechanical ventilation or mechanical heart assistance within 30 days before randomization",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has severe left ventricular dysfunction with EF 25%, indicating hemodynamic instability.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hypertrophic cardiomyopathy with obstruction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific mention of hypertrophic cardiomyopathy; patient has aortic stenosis.",
+      "clinical_question": "Does the patient have a left ventricular outflow tract gradient of ≥30 mmHg at rest or with provocation?"
+    },
+    {
+      "criterion": "Ventricular dysfunction with left ventricular ejection fraction < 30%",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Left ventricular ejection fraction is < 30% (EF 25%).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Cardiac imaging (echo, CT, and/or MRI) evidence of intracardiac mass, thrombus or vegetation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No cardiac imaging results provided to assess for intracardiac mass, thrombus, or vegetation.",
+      "clinical_question": "Does the patient have any evidence of an intracardiac mass, thrombus, or vegetation on the most recent cardiac imaging (echo, CT, or MRI)?"
+    },
+    {
+      "criterion": "Inability to tolerate or condition precluding treatment with anti-thrombotic/anticoagulation therapy during or after the valve implant procedure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on patient's ability to tolerate anti-thrombotic/anticoagulation therapy.",
+      "clinical_question": "Does the patient have a documented contraindication to anti-thrombotic or anticoagulation therapy, such as a history of major bleeding or a specific allergy to these medications?"
+    },
+    {
+      "criterion": "Stroke or transient ischemic attack within 90 days before randomization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of stroke or transient ischemic attack mentioned.",
+      "clinical_question": "Has the patient experienced a stroke or transient ischemic attack within the 90 days prior to randomization?"
+    },
+    {
+      "criterion": "Renal insufficiency (eGFR < 30 ml/min per the Cockcroft-Gault formula) and/or renal replacement therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No renal function data provided to assess for renal insufficiency.",
+      "clinical_question": "Does the patient have an estimated glomerular filtration rate (eGFR) of less than 30 ml/min as calculated by the Cockcroft-Gault formula?"
+    },
+    {
+      "criterion": "Active bacterial endocarditis within 180 days of randomization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of active bacterial endocarditis provided.",
+      "clinical_question": "Has the patient experienced any signs or symptoms of active bacterial endocarditis within the last 180 days?"
+    },
+    {
+      "criterion": "Severe lung disease (FEV1 < 50%) or currently on home oxygen",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on lung function or need for home oxygen.",
+      "clinical_question": "Does the patient have a forced expiratory volume in one second (FEV1) of less than 50%?"
+    },
+    {
+      "criterion": "Severe pulmonary hypertension (e.g., pulmonary arterial systolic pressure ≥ 2/3 systemic pressure)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has mild pulmonary artery systolic hypertension, which may indicate significant pulmonary hypertension, especially given the EF of 25%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of cirrhosis or any active liver disease",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of cirrhosis or active liver disease is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Significant abdominal or thoracic aortic disease (such as porcelain aorta, aneurysm, severe calcification, aortic coarctation, etc.) that would preclude safe passage of the delivery system or cannulation and aortotomy for surgical AVR.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a dilated ascending aorta and significant aortic stenosis, but no specific mention of severe calcification or other significant aortic disease that would preclude safe passage.",
+      "clinical_question": "Does the patient have a significant abdominal or thoracic aortic disease, defined as an aortic diameter ≥4.0 cm or severe calcification that would preclude safe passage of the delivery system for surgical AVR?"
+    },
+    {
+      "criterion": "Hostile chest or conditions or complications from prior surgery that preclude safe reoperation (e.g., mediastinitis, radiation damage, abnormal chest wall, adhesion of aorta or internal mammary artery to sternum, etc.)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific mention of hostile chest conditions or complications from prior surgeries that would preclude safe reoperation.",
+      "clinical_question": "Does the patient have any history of mediastinitis or radiation damage that would preclude safe reoperation?"
+    },
+    {
+      "criterion": "Patient refuses blood products",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient refuses blood products.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "BMI > 50 kg/m^2",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's BMI is not provided, but there is no indication that it exceeds 50 kg/m^2.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Estimated life expectancy < 24 months",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Given the patient's severe LV dysfunction and EF of 25%, the estimated life expectancy is likely less than 24 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absolute contraindications or allergy to iodinated contrast agent that cannot be adequately treated with pre-medication",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of an allergy to iodinated contrast agent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Immobility that would prevent completion of study procedures",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of immobility that would prevent completion of study procedures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Currently participating in an investigational drug or another device study.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is currently participating in another investigational study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnancy or lactation",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male, thus not applicable for pregnancy or lactation exclusion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Patient is not a candidate for both surgical and transcatheter aortic valve repl",
+    "EXCLUSION UNCLEAR: Native aortic annulus size unsuitable for sizes 20, 23, 26, or 29 mm THV based o",
+    "EXCLUSION UNCLEAR: Iliofemoral vessel characteristics that would preclude safe placement of the int",
+    "EXCLUSION UNCLEAR: Evidence of an acute myocardial infarction ≤ 1 month (30 days) before randomizat",
+    "EXCLUSION VIOLATED: Aortic valve is unicuspid, bicuspid, or is non-calcified",
+    "EXCLUSION VIOLATED: Severe aortic regurgitation (>3+)",
+    "EXCLUSION UNCLEAR: Any concomitant valve disease that requires an intervention",
+    "EXCLUSION UNCLEAR: Pre-existing mechanical or bioprosthetic valve in any position (mitral ring is n",
+    "EXCLUSION UNCLEAR: Complex coronary artery disease:",
+    "EXCLUSION UNCLEAR: Unprotected left main coronary artery stenosis",
+    "EXCLUSION UNCLEAR: Syntax score > 32 (in the absence of prior revascularization)",
+    "EXCLUSION UNCLEAR: Heart Team assessment that optimal revascularization cannot be performed.",
+    "EXCLUSION UNCLEAR: Symptomatic carotid or vertebral artery disease or successful treatment of carot",
+    "EXCLUSION UNCLEAR: Leukopenia (WBC < 3000 cell/mcL), anemia (Hgb < 9 g/dL), Thrombocytopenia (Plt <",
+    "EXCLUSION VIOLATED: Hemodynamic or respiratory instability requiring inotropic support, mechanical v",
+    "EXCLUSION UNCLEAR: Hypertrophic cardiomyopathy with obstruction",
+    "EXCLUSION VIOLATED: Ventricular dysfunction with left ventricular ejection fraction < 30%",
+    "EXCLUSION UNCLEAR: Cardiac imaging (echo, CT, and/or MRI) evidence of intracardiac mass, thrombus o",
+    "EXCLUSION UNCLEAR: Inability to tolerate or condition precluding treatment with anti-thrombotic/ant",
+    "EXCLUSION UNCLEAR: Stroke or transient ischemic attack within 90 days before randomization",
+    "EXCLUSION UNCLEAR: Renal insufficiency (eGFR < 30 ml/min per the Cockcroft-Gault formula) and/or re",
+    "EXCLUSION UNCLEAR: Active bacterial endocarditis within 180 days of randomization",
+    "EXCLUSION UNCLEAR: Severe lung disease (FEV1 < 50%) or currently on home oxygen",
+    "EXCLUSION VIOLATED: Severe pulmonary hypertension (e.g., pulmonary arterial systolic pressure ≥ 2/3 ",
+    "EXCLUSION UNCLEAR: Significant abdominal or thoracic aortic disease (such as porcelain aorta, aneur",
+    "EXCLUSION UNCLEAR: Hostile chest or conditions or complications from prior surgery that preclude sa",
+    "EXCLUSION VIOLATED: Estimated life expectancy < 24 months",
+    "LOW INCLUSION MATCH: only 1 of 8 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.4048
+}

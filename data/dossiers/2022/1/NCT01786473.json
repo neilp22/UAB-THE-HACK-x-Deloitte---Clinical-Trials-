@@ -1,0 +1,123 @@
+{
+  "nct_id": "NCT01786473",
+  "trial_title": "Testogel® (Testosterone Gel 50mg/5g) in the Treatment of Male Hypogonadism",
+  "phase": "PHASE3",
+  "status": "UNKNOWN",
+  "brief_summary": "The purpose of this study is to evaluate the safety and efficacy of Testogel® 50mg/5g gel administered once daily (QD, morning dosing) compared to placebo administered once daily (QD, morning dosing), for 3 months, in hypogonadal men with testosterone deficiency being confirmed by clinical features and biochemical tests. For men with hypogonadism, treatment aims to restore testosterone levels to normal physiological range.",
+  "eligibility_table": [
+    {
+      "criterion": "Male ages 18-68 years diagnosed as having testosterone deficiency with clinical symptoms",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 19 years old, male, and has testosterone deficiency with clinical symptoms such as delayed puberty and hypogonadism.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A morning (8:00-10:00) serum Total Testosterone concentration of ≤ 300 ng/dL, confirmed by a second measurement of morning serum Total Testosterone concentration ≤ 300 ng/dL (samples to be taken 1 - 3 weeks apart)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's morning serum Total Testosterone concentration ≤ 300 ng/dL confirmed by a second measurement taken 1 - 3 weeks apart?"
+    },
+    {
+      "criterion": "Abnormal prostate as evidenced by prostatic symptoms, prostatic masses or induration on rectal examination, or elevated levels of prostate specific antigen (PSA > 4ng/ml) or a maximum urine flow rate of less than 12 ml/sec(of a urine volume greater than 150ml) (and/or an International Prostate Symptom Score IPSS score >19)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of abnormal prostate symptoms or elevated PSA levels in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hematocrit > 50%",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient's hematocrit level been measured, and is it greater than 50%?"
+    },
+    {
+      "criterion": "Major psychiatric illness",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No evidence of major psychiatric illness is provided in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unable to understand the protocol or to give informed consent",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is capable of understanding the protocol and providing informed consent, as there is no indication otherwise.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of paroxetine and clomipramine",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not reported to be using paroxetine or clomipramine.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active alcoholism",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of active alcoholism in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of drug abuse within the past five years",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of drug abuse is reported within the past five years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of drugs that might interfere with the results of the study (e.g., antiandrogen, estrogens or P 450 enzyme inducers, barbiturates)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not reported to be using any drugs that might interfere with the study results.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "BMI < 18 or > 30 according to Chinese BMI references",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's BMI is not provided, making it impossible to assess this criterion accurately.",
+      "clinical_question": "Is the patient's BMI less than 18 or greater than 30 according to Chinese BMI references?"
+    },
+    {
+      "criterion": "Generalized skin disease that may affect absorption of T (e.g., psoriasis) or a known skin intolerance to alcohol",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of generalized skin disease or known skin intolerance to alcohol in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prolactin > 40 mcg/L",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum prolactin level greater than 40 mcg/L?"
+    },
+    {
+      "criterion": "Untreated severe obstructive sleep apnea",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information regarding the presence of untreated severe obstructive sleep apnea, making it unclear whether this criterion is met or not.",
+      "clinical_question": "Does the patient have a diagnosis of severe obstructive sleep apnea as defined by an apnea-hypopnea index (AHI) of ≥30 events per hour?"
+    },
+    {
+      "criterion": "Uncontrolled or poorly controlled heart failure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's heart condition or control of heart failure, thus it is uncertain if this exclusion criterion applies.",
+      "clinical_question": "Does the patient have a documented history of uncontrolled or poorly controlled heart failure as defined by New York Heart Association (NYHA) classification of III or IV?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Hematocrit > 50%",
+    "EXCLUSION UNCLEAR: BMI < 18 or > 30 according to Chinese BMI references",
+    "EXCLUSION UNCLEAR: Prolactin > 40 mcg/L",
+    "EXCLUSION UNCLEAR: Untreated severe obstructive sleep apnea",
+    "EXCLUSION UNCLEAR: Uncontrolled or poorly controlled heart failure"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6
+}

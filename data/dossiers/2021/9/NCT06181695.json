@@ -1,0 +1,331 @@
+{
+  "nct_id": "NCT06181695",
+  "trial_title": "Intranasal Sufentanil for Analgesia of Severe Sickle Cell Vaso-occlusive Pain Crisis in the Pediatric",
+  "phase": "PHASE3",
+  "status": "NOT_YET_RECRUITING",
+  "brief_summary": "Sickle cell disease (SCD) is characterized by an abnormal hemoglobin, the main protein in the red blood cell. From the first months of life, acute obstruction of the vessels of the microcirculation manifests as intense and unpredictable recurrent episodes of severe pain. In the Emergency Department (ED), patients presenting with a vaso-occlusive crisis (VOC) required a rapid evaluation and administration of pain relief therapies and hydration.\n\nthis strategy is based on an intranasal (IN) admini",
+  "eligibility_table": [
+    {
+      "criterion": "Sickle-cell disease = Hemoglobin SS or SC or Sß-thalassemia",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have sickle-cell disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age < 18 years old",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 13.0 < 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Weight > 10 kgs",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient weigh more than 10 kgs?"
+    },
+    {
+      "criterion": "Registered with the social security scheme (or State Medical Aid - AME) or his/her beneficiaries",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's registration with the social security scheme.",
+      "clinical_question": "Is the patient currently registered with the social security scheme or State Medical Aid (AME) as of the date of assessment?"
+    },
+    {
+      "criterion": "Informed consent of the holder (s) of the exercise of parental authority",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is a minor, and informed consent from a parent or guardian is likely required.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age < 18 years old",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 13.0 < 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Presenting to the ED with vaso-occlusive crisis: migratory bone pain, which may occur in the limbs, spine, thorax, pelvis, skull; or crisis known as such by the patient.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not presenting with vaso-occlusive crisis related to sickle-cell disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe pain determined at triage, defined as:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the severity of pain at triage.",
+      "clinical_question": "Does the patient report a pain score of ≥7 on a scale of 0 to 10 at triage?"
+    },
+    {
+      "criterion": "Known cirrhosis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of known cirrhosis.",
+      "clinical_question": "Does the patient have a documented diagnosis of cirrhosis based on liver function tests or imaging studies?"
+    },
+    {
+      "criterion": "End-stage renal disease requiring kidney dialysis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding end-stage renal disease or kidney dialysis.",
+      "clinical_question": "Does the patient have a documented history of end-stage renal disease requiring kidney dialysis for at least 3 months?"
+    },
+    {
+      "criterion": "Known hypersensitivity or contraindication to sufentanil or any of the excipients",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about hypersensitivity or contraindications to sufentanil.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity to sufentanil or any of its excipients?"
+    },
+    {
+      "criterion": "Contraindication to morphine",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about contraindications to morphine.",
+      "clinical_question": "Does the patient have a documented allergy or severe adverse reaction to morphine?"
+    },
+    {
+      "criterion": "Facial malformation, epistaxis, blocked or traumatised nose",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding facial malformation or related conditions.",
+      "clinical_question": "Does the patient have any current signs of facial malformation, epistaxis, or evidence of a blocked or traumatized nose?"
+    },
+    {
+      "criterion": "Severe asthma",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about severe asthma; cannot confirm presence or absence.",
+      "clinical_question": "Does the patient have a documented history of severe asthma exacerbations requiring hospitalization or systemic corticosteroids in the past year?"
+    },
+    {
+      "criterion": "Patient's or parent's refusal to participate",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on patient's or parent's willingness to participate.",
+      "clinical_question": "Did the patient or their parent explicitly refuse to participate in the trial during the informed consent process?"
+    },
+    {
+      "criterion": "Participation in another interventional trial",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about participation in another interventional trial.",
+      "clinical_question": "Has the patient participated in any interventional clinical trials within the last 30 days?"
+    },
+    {
+      "criterion": "Parents who do not speak French",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the language proficiency of the parents.",
+      "clinical_question": "Does the patient have a parent or guardian who is proficient in French?"
+    },
+    {
+      "criterion": "EVENDOL ≥ 10/15 in children aged 0-8 years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "EVENDOL is not applicable as the patient is 13 years old.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "NRS-11 ≥ 7/10 in children aged 8 years to less than 18 years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "NRS-11 score is not provided; cannot confirm if it meets the threshold.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Informed consent of the holder (s) of the exercise of parental authority signed at inclusion visit",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the informed consent form for the exercise of parental authority been signed by the legal guardian at the inclusion visit?"
+    },
+    {
+      "criterion": "At randomization visit",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced a vaso-occlusive pain crisis requiring analgesia within the last 30 days?"
+    },
+    {
+      "criterion": "Known cirrhosis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented diagnosis of cirrhosis based on liver function tests or imaging studies?"
+    },
+    {
+      "criterion": "End-stage renal disease requiring kidney dialysis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented history of end-stage renal disease requiring kidney dialysis for at least 3 months?"
+    },
+    {
+      "criterion": "Known hypersensitivity or contraindication to sufentanil or any of the excipients",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity to sufentanil or any of its excipients?"
+    },
+    {
+      "criterion": "Contraindication to morphine",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented allergy or severe adverse reaction to morphine?"
+    },
+    {
+      "criterion": "Facial malformation, epistaxis, blocked or traumatised nose",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any current signs of facial malformation, epistaxis, or evidence of a blocked or traumatized nose?"
+    },
+    {
+      "criterion": "Severe asthma",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented history of severe asthma exacerbations requiring hospitalization or systemic corticosteroids in the past year?"
+    },
+    {
+      "criterion": "Patient's or Parent's refusal to participate or withdrawal of parental consent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the parent or guardian formally documented their refusal to participate in the trial or withdrawn consent for the patient?"
+    },
+    {
+      "criterion": "Participation in another interventional trial",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient participated in any interventional clinical trials within the last 30 days?"
+    },
+    {
+      "criterion": "Patient has already been randomised to the INVOPE trial during a previous VOC",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient previously been randomized to the INVOPE trial during a prior vaso-occlusive crisis?"
+    },
+    {
+      "criterion": "Strong opioids received <6 hours (morphine, oxycodone, hydromorphone, fentanyl, sufentanil, nalbuphine)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the use of strong opioids within the last 6 hours.",
+      "clinical_question": "Has the patient received any strong opioids, including morphine, oxycodone, hydromorphone, fentanyl, sufentanil, or nalbuphine, within the last 6 hours?"
+    },
+    {
+      "criterion": "Respiratory failure (tachypnea; bradypnea; paradoxical breathing; grunting; head-bobbing; nasal flaring; retractions (subcostal, suprasternal, intercostal, sternal))",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding respiratory failure symptoms.",
+      "clinical_question": "Has the patient exhibited any signs of respiratory failure, such as tachypnea, bradypnea, or nasal flaring, during the assessment?"
+    },
+    {
+      "criterion": "Oxygen saturations below 95% on initial assessment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No initial assessment data on oxygen saturation levels.",
+      "clinical_question": "Is the patient's oxygen saturation level below 95% on initial assessment?"
+    },
+    {
+      "criterion": "Pneumonia requiring oxygen therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about pneumonia or need for oxygen therapy.",
+      "clinical_question": "Does the patient require supplemental oxygen to maintain an oxygen saturation level of ≥92% due to pneumonia?"
+    },
+    {
+      "criterion": "Hemodynamic disorders: tachycardia, hypotension",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about hemodynamic disorders such as tachycardia or hypotension.",
+      "clinical_question": "Has the patient experienced a heart rate ≥100 beats per minute or a systolic blood pressure <90 mmHg during the vaso-occlusive pain crisis?"
+    },
+    {
+      "criterion": "Altered conscious state as defined by a Glasgow Coma score less than 15",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current Glasgow Coma Scale score?"
+    },
+    {
+      "criterion": "Positive urinary pregnancy test for woman of childbearing potential (postpubertal female with sexual activity)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and therefore does not have a positive urinary pregnancy test.",
+      "clinical_question": "Does the patient have a documented positive urinary pregnancy test?"
+    },
+    {
+      "criterion": "Nasal or sinus surgery within 6 months before randomisation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of nasal or sinus surgery is mentioned.",
+      "clinical_question": "Has the patient undergone any nasal or sinus surgery within the last 6 months?"
+    },
+    {
+      "criterion": "High fever > 39°C",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information about fever is provided.",
+      "clinical_question": "Does the patient currently have a body temperature exceeding 39°C?"
+    },
+    {
+      "criterion": "Sign of intolerance of acute anaemia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No signs of acute anemia are mentioned in the profile.",
+      "clinical_question": "Does the patient have a hemoglobin level <7 g/dL indicating acute anemia?"
+    },
+    {
+      "criterion": "Description by the patient (or the parents) of the unusual nature of the attack",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not provide a clear description of the nature of the seizures, only that they began at age 13.",
+      "clinical_question": "Did the patient or their parents describe the pain crisis as being different from previous episodes in terms of intensity or duration?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Known cirrhosis",
+    "EXCLUSION UNCLEAR: End-stage renal disease requiring kidney dialysis",
+    "EXCLUSION UNCLEAR: Known hypersensitivity or contraindication to sufentanil or any of the excipient",
+    "EXCLUSION UNCLEAR: Contraindication to morphine",
+    "EXCLUSION UNCLEAR: Facial malformation, epistaxis, blocked or traumatised nose",
+    "EXCLUSION UNCLEAR: Severe asthma",
+    "EXCLUSION UNCLEAR: Patient's or parent's refusal to participate",
+    "EXCLUSION UNCLEAR: Participation in another interventional trial",
+    "EXCLUSION UNCLEAR: Parents who do not speak French",
+    "EXCLUSION UNCLEAR: At randomization visit",
+    "EXCLUSION UNCLEAR: Known cirrhosis",
+    "EXCLUSION UNCLEAR: End-stage renal disease requiring kidney dialysis",
+    "EXCLUSION UNCLEAR: Known hypersensitivity or contraindication to sufentanil or any of the excipient",
+    "EXCLUSION UNCLEAR: Contraindication to morphine",
+    "EXCLUSION UNCLEAR: Facial malformation, epistaxis, blocked or traumatised nose",
+    "EXCLUSION UNCLEAR: Severe asthma",
+    "EXCLUSION UNCLEAR: Patient's or Parent's refusal to participate or withdrawal of parental consent",
+    "EXCLUSION UNCLEAR: Participation in another interventional trial",
+    "EXCLUSION UNCLEAR: Patient has already been randomised to the INVOPE trial during a previous VOC",
+    "EXCLUSION UNCLEAR: Strong opioids received <6 hours (morphine, oxycodone, hydromorphone, fentanyl, ",
+    "EXCLUSION UNCLEAR: Respiratory failure (tachypnea; bradypnea; paradoxical breathing; grunting; head",
+    "EXCLUSION UNCLEAR: Oxygen saturations below 95% on initial assessment",
+    "EXCLUSION UNCLEAR: Pneumonia requiring oxygen therapy",
+    "EXCLUSION UNCLEAR: Hemodynamic disorders: tachycardia, hypotension",
+    "EXCLUSION UNCLEAR: Altered conscious state as defined by a Glasgow Coma score less than 15",
+    "EXCLUSION UNCLEAR: Positive urinary pregnancy test for woman of childbearing potential (postpuberta",
+    "EXCLUSION UNCLEAR: Nasal or sinus surgery within 6 months before randomisation",
+    "EXCLUSION UNCLEAR: High fever > 39°C",
+    "EXCLUSION UNCLEAR: Sign of intolerance of acute anaemia",
+    "EXCLUSION UNCLEAR: Description by the patient (or the parents) of the unusual nature of the attack",
+    "LOW INCLUSION MATCH: only 3 of 11 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1707
+}

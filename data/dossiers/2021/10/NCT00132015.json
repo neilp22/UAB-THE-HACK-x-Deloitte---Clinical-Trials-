@@ -1,0 +1,616 @@
+{
+  "nct_id": "NCT00132015",
+  "trial_title": "17-N-Allylamino-17-Demethoxygeldanamycin in Treating Patients With Systemic Mastocytosis",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as 17-N-allylamino-17-demethoxygeldanamycin (17-AAG), work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing.\n\nPURPOSE: This phase II trial is studying how well 17-AAG works in treating patients with systemic mastocytosis.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed systemic mastocytosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a 5-year history of systemic mastocytosis, which is likely histologically confirmed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Objective evidence of disease, as defined by the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has recurrent symptoms such as flushing and tachycardia, which are indicative of mast cell mediator release.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hemoglobin < 10 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's hemoglobin level currently less than 10 g/dL?"
+    },
+    {
+      "criterion": "Recurrent mast cell mediator-release symptoms that impair the patient's quality of life",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's recurrent symptoms are likely impairing her quality of life, especially given the frequency of her flares.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Symptomatic hepatosplenomegaly",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no mention of hepatosplenomegaly in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ascites",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have ascites as per the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Symptomatic bone disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of symptomatic bone disease in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Profound constitutional symptoms (e.g., fatigue, asthenia, flushing, hyperpyrexia, weight loss, myalgia, and arthralgia)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient experiences flushing and has a history of fatigue, which can be considered profound constitutional symptoms.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Elevated serum tryptase level",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's serum tryptase level is elevated at 84 ng/mL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mast cell leukemia allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of mast cell leukemia based on bone marrow biopsy or other diagnostic criteria?"
+    },
+    {
+      "criterion": "Mastocytosis associated with myeloproliferative disease (e.g., hypereosinophilic syndrome or chronic myelomonocytic leukemia) allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of a myeloproliferative disease, such as hypereosinophilic syndrome or chronic myelomonocytic leukemia, in addition to systemic mastocytosis?"
+    },
+    {
+      "criterion": "Patients with eosinophilia (i.e., absolute eosinophil count ≥ 1,000/mm^3) must be evaluated for the presence or absence of FIP1L1-PDGFRA mutation; if the mutation is absent, the patient is eligible; if the mutation is present, the patient is eligible provided disease is refractory to imatinib mesylate",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding eosinophil count or FIP1L1-PDGFRA mutation status.",
+      "clinical_question": "Does the patient have a FIP1L1-PDGFRA mutation present or absent?"
+    },
+    {
+      "criterion": "Patients with indolent disease must have a serum tryptase level ≥ 50 ng/mL OR episodes of anaphylaxis that occur with a frequency of > 1 per month",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's serum tryptase level is above 50 ng/mL, meeting the criterion for indolent disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old, which meets the age criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Performance status is not provided; unable to assess.",
+      "clinical_question": "Does the patient have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1?"
+    },
+    {
+      "criterion": "ECOG 0-2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "ECOG status is not provided; unable to assess.",
+      "clinical_question": "Does the patient have an ECOG performance status score of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Life expectancy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Life expectancy is not specified; unable to assess.",
+      "clinical_question": "What is the patient's estimated life expectancy based on current clinical guidelines for systemic mastocytosis with a serum tryptase level of 84?"
+    },
+    {
+      "criterion": "At least 3 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Duration of current treatment or condition is not provided; unable to assess.",
+      "clinical_question": "Has the patient been treated with 17-N-Allylamino-17-Demethoxygeldanamycin for at least 3 months?"
+    },
+    {
+      "criterion": "Hematopoietic",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hematopoietic status is not detailed; unable to assess.",
+      "clinical_question": "Does the patient have a serum tryptase level ≥20 ng/mL?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not specified; unable to assess.",
+      "clinical_question": "Does the patient have a serum tryptase level ≥20 ng/mL?"
+    },
+    {
+      "criterion": "Platelet count ≥ 100,000/mm^3 (> 25,000/mm^3 for patients with organomegaly)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's history of systemic mastocytosis and high serum tryptase suggests potential issues with platelet count, but specific platelet count is not provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absolute granulocyte count ≥ 1,500/mm^3(> 750/mm^3 for patients with organomegaly)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Absolute granulocyte count is not provided; unable to assess.",
+      "clinical_question": "Is the patient's absolute granulocyte count ≥ 1,500/mm^3?"
+    },
+    {
+      "criterion": "Hepatic",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hepatic function is not detailed; unable to assess.",
+      "clinical_question": "Does the patient have a baseline hepatic function with AST and ALT levels ≤2.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "AST and ALT ≤ 2 times upper limit of normal (ULN) (< 4 times ULN for patients with hepatomegaly)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess AST and ALT levels.",
+      "clinical_question": "Is the patient's AST and ALT level ≤ 2 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Bilirubin normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess bilirubin levels.",
+      "clinical_question": "Is the patient's total bilirubin level ≤1.2 mg/dL?"
+    },
+    {
+      "criterion": "Alkaline phosphatase ≤ 3 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess alkaline phosphatase levels.",
+      "clinical_question": "Is the patient's alkaline phosphatase level ≤ 3 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Renal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding renal function.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine ≤ 1.4 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level ≤ 1.4 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine clearance ≥ 60 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current creatinine clearance value?"
+    },
+    {
+      "criterion": "Cardiovascular",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding cardiovascular health.",
+      "clinical_question": "Does the patient have a resting heart rate of ≥100 beats per minute due to tachycardia?"
+    },
+    {
+      "criterion": "No New York Heart Association class III-IV congestive heart failure",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding New York Heart Association class.",
+      "clinical_question": "Does the patient have a documented history of New York Heart Association class III or IV congestive heart failure?"
+    },
+    {
+      "criterion": "No history of myocardial infarction within the past year",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of myocardial infarction mentioned, but lack of specific timeframe.",
+      "clinical_question": "Has the patient experienced a myocardial infarction within the past year?"
+    },
+    {
+      "criterion": "No history of uncontrolled dysrhythmia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of uncontrolled dysrhythmia mentioned, but lack of specific details.",
+      "clinical_question": "Does the patient have a documented history of any dysrhythmias, specifically episodes of uncontrolled tachycardia or arrhythmias, in the past 12 months?"
+    },
+    {
+      "criterion": "No uncontrolled angina",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding angina.",
+      "clinical_question": "Does the patient have a documented history of stable angina with no episodes occurring in the past 6 months?"
+    },
+    {
+      "criterion": "No ischemic heart disease within the past 12 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding ischemic heart disease.",
+      "clinical_question": "Has the patient experienced any episodes of ischemic heart disease within the past 12 months?"
+    },
+    {
+      "criterion": "No congenital long QT syndrome",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's profile does not mention congenital long QT syndrome, but no specific QT interval data is provided.",
+      "clinical_question": "Does the patient have a documented QTc interval of less than 450 ms on an ECG?"
+    },
+    {
+      "criterion": "No left bundle branch block",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about left bundle branch block; cannot assess.",
+      "clinical_question": "Does the patient have a left bundle branch block as determined by an electrocardiogram (ECG)?"
+    },
+    {
+      "criterion": "No serious ventricular arrhythmia (ventricular tachycardia or ventricular fibrillation ≥ 3 beats in a row)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No details on serious ventricular arrhythmias; cannot confirm absence.",
+      "clinical_question": "Has the patient experienced any episodes of ventricular tachycardia or ventricular fibrillation lasting ≥3 beats in a row during the treatment period?"
+    },
+    {
+      "criterion": "QTc interval < 450 msec for males or 470 msec for females",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "QTc interval not provided; cannot assess eligibility.",
+      "clinical_question": "Is the patient's QTc interval currently measured at < 470 msec?"
+    },
+    {
+      "criterion": "LVEF > 40% by MUGA",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) greater than 40% as measured by a MUGA scan?"
+    },
+    {
+      "criterion": "MUGA or echocardiogram normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No echocardiogram or MUGA results provided; cannot confirm normalcy.",
+      "clinical_question": "Has the patient undergone a MUGA scan or echocardiogram within the last 6 months that shows normal cardiac function with an ejection fraction ≥55%?"
+    },
+    {
+      "criterion": "No prior history of cardiac toxicity after receiving anthracyclines (e.g., doxorubicin hydrochloride, daunorubicin hydrochloride, mitoxantrone hydrochloride, bleomycin, or carmustine)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of anthracycline-related cardiac toxicity mentioned, but not explicitly confirmed.",
+      "clinical_question": "Has the patient experienced any cardiac toxicity events, such as heart failure or arrhythmias, after receiving anthracyclines?"
+    },
+    {
+      "criterion": "No cardiac symptoms ≥ grade 2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific cardiac symptoms graded; cannot assess grade.",
+      "clinical_question": "Does the patient currently exhibit any cardiac symptoms with a severity of ≥ grade 2?"
+    },
+    {
+      "criterion": "No other significant cardiac disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No significant cardiac disease mentioned, but not explicitly confirmed.",
+      "clinical_question": "Does the patient have a history of significant cardiac disease, defined as any condition that would require medical intervention or monitoring, such as heart failure, arrhythmias, or coronary artery disease?"
+    },
+    {
+      "criterion": "Pulmonary",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pulmonary function data provided; cannot assess eligibility.",
+      "clinical_question": "Does the patient have a forced expiratory volume in 1 second (FEV1) of less than 70% of the predicted value?"
+    },
+    {
+      "criterion": "No symptomatic pulmonary disease requiring medication including any of the following:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on symptomatic pulmonary disease; cannot confirm absence.",
+      "clinical_question": "Does the patient currently have any symptomatic pulmonary disease requiring medication, such as bronchodilators or corticosteroids?"
+    },
+    {
+      "criterion": "Dyspnea on or off exertion",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not report dyspnea, but the presence of systemic mastocytosis may complicate respiratory status.",
+      "clinical_question": "Has the patient experienced dyspnea on exertion with a severity rating of ≥4 on a scale of 0 to 10 during the past month?"
+    },
+    {
+      "criterion": "Paroxysmal nocturnal dyspnea",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about paroxysmal nocturnal dyspnea; unclear if this symptom is present.",
+      "clinical_question": "Has the patient experienced episodes of paroxysmal nocturnal dyspnea occurring ≥2 times per week in the past month?"
+    },
+    {
+      "criterion": "Requirement for oxygen",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on oxygen requirement; patient may or may not need oxygen.",
+      "clinical_question": "Does the patient require supplemental oxygen to maintain an oxygen saturation level of ≥92%?"
+    },
+    {
+      "criterion": "Significant pulmonary disease (e.g., chronic obstructive/restrictive pulmonary disease)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No significant pulmonary disease reported, but systemic mastocytosis could affect pulmonary function.",
+      "clinical_question": "Does the patient have a documented forced expiratory volume in 1 second (FEV1) less than 70% of the predicted value?"
+    },
+    {
+      "criterion": "No home oxygen meeting the Medicare requirement",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on home oxygen use; unclear if the patient meets Medicare requirements.",
+      "clinical_question": "Does the patient have a documented oxygen saturation level of ≥ 88% while at rest without supplemental oxygen?"
+    },
+    {
+      "criterion": "No compromised pulmonary status (i.e., DLCO ≤ 80%)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pulmonary function tests provided; DLCO status is unknown.",
+      "clinical_question": "What is the patient's most recent diffusing capacity of the lungs for carbon monoxide (DLCO) value?"
+    },
+    {
+      "criterion": "No prior history of pulmonary toxicity after receiving anthracyclines (e.g., doxorubicin hydrochloride, daunorubicin hydrochloride, mitoxantrone hydrochloride, bleomycin, or carmustine)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of pulmonary toxicity after anthracyclines reported, but treatment history is limited.",
+      "clinical_question": "Has the patient ever received anthracyclines such as doxorubicin, daunorubicin, mitoxantrone, bleomycin, or carmustine, and if so, did she experience any pulmonary toxicity?"
+    },
+    {
+      "criterion": "No pulmonary symptoms ≥ grade 2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pulmonary symptoms graded; unclear if any symptoms are present.",
+      "clinical_question": "Does the patient have any pulmonary symptoms rated ≥ grade 2 according to the Common Terminology Criteria for Adverse Events (CTCAE)?"
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No additional information provided; cannot assess eligibility based on 'Other' criteria.",
+      "clinical_question": "Has the patient experienced ≥3 flares of systemic mastocytosis in the past 6 months?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is 22 years old and no indication of pregnancy or nursing is provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is 22 years old and female, but there is no information provided about a recent pregnancy test.",
+      "clinical_question": "Has the patient had a negative serum or urine pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for ≥ 6 months after completion of study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is of childbearing age, but there is no information on whether she is using effective contraception.",
+      "clinical_question": "Is the patient currently using an effective form of contraception and has she been using it for at least 6 months prior to the study treatment?"
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient's HIV status confirmed as negative through a recent test?"
+    },
+    {
+      "criterion": "No active uncontrolled infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient currently have a body temperature ≥ 100.4°F or any signs of active infection?"
+    },
+    {
+      "criterion": "No serious medical illness",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any serious medical illnesses, defined as conditions requiring hospitalization or that significantly impair daily functioning?"
+    },
+    {
+      "criterion": "No other non-malignant systemic disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any other non-malignant systemic diseases, such as autoimmune disorders or chronic infections?"
+    },
+    {
+      "criterion": "No history of serious allergic reaction to eggs",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient ever experienced a serious allergic reaction to eggs, as defined by anaphylaxis or requiring hospitalization?"
+    },
+    {
+      "criterion": "No other malignancy within the past 2 years except dermatological cancer",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with any malignancy other than dermatological cancer within the past 2 years?"
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on multiple medications including steroids and has a history of systemic mastocytosis, which may disqualify her from concurrent therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biologic therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The inclusion criterion for biologic therapy is not specified, and the patient's current treatment regimen does not clarify this.",
+      "clinical_question": "Has the patient received at least one prior line of biologic therapy for systemic mastocytosis?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is vague and does not provide specific details to assess eligibility.",
+      "clinical_question": "Has the patient experienced ≥2 episodes of anaphylaxis or severe allergic reactions related to systemic mastocytosis?"
+    },
+    {
+      "criterion": "Chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on steroids and has a history of systemic mastocytosis, which may disqualify her from receiving chemotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 4 weeks since prior chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not received chemotherapy recently, but the exact timing of prior treatments is unclear.",
+      "clinical_question": "Has the patient received any chemotherapy within the last 4 weeks?"
+    },
+    {
+      "criterion": "Endocrine therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's history with endocrine therapy.",
+      "clinical_question": "Has the patient received any form of endocrine therapy prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "Steroids allowed provided tapering to the lowest level possible to treat thrombocytopenia, diarrhea, or malabsorption symptoms of systemic mastocytosis",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on a steroid taper, which may not meet the requirement for tapering to the lowest level possible.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication that the patient has received radiotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 4 weeks since prior radiotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior radiotherapy, making it unclear if the patient meets this criterion.",
+      "clinical_question": "Has the patient received any prior radiotherapy within the last 4 weeks?"
+    },
+    {
+      "criterion": "No prior radiation that included the heart in the field (e.g., mantle) or chest",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior radiation that included the heart or chest.",
+      "clinical_question": "Has the patient received any prior radiation therapy that included the heart or chest area?"
+    },
+    {
+      "criterion": "Surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about any surgical history.",
+      "clinical_question": "Has the patient undergone any surgical interventions related to systemic mastocytosis in the past 6 months?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Criterion not specified; cannot assess eligibility.",
+      "clinical_question": "Has the patient experienced ≥2 episodes of anaphylaxis or severe allergic reactions related to systemic mastocytosis?"
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Criterion not specified; cannot assess eligibility.",
+      "clinical_question": "Has the patient experienced ≥3 flares of systemic mastocytosis in the past 6 months?"
+    },
+    {
+      "criterion": "At least 4 weeks since prior tyrosine kinase inhibitors",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior use of tyrosine kinase inhibitors.",
+      "clinical_question": "Has the patient received any tyrosine kinase inhibitors in the past 4 weeks?"
+    },
+    {
+      "criterion": "No concurrent complimentary or alternative medications including, but not limited to, the following:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about concurrent complimentary or alternative medications.",
+      "clinical_question": "Has the patient taken any complementary or alternative medications in the past 30 days?"
+    },
+    {
+      "criterion": "Hypericum perforatum (St. John's wort)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of Hypericum perforatum.",
+      "clinical_question": "Has the patient used Hypericum perforatum (St. John's wort) within the last 30 days?"
+    },
+    {
+      "criterion": "Milk thistle",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of milk thistle.",
+      "clinical_question": "Has the patient taken milk thistle in the past month?"
+    },
+    {
+      "criterion": "Kava kava",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of kava kava.",
+      "clinical_question": "Has the patient used kava kava in the past 30 days?"
+    },
+    {
+      "criterion": "Mistletoe extract",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not currently reported to be using mistletoe extract, but it is unclear if they have used it in the past or if they are willing to use it in the trial.",
+      "clinical_question": "Has the patient received mistletoe extract as part of her treatment regimen for systemic mastocytosis?"
+    },
+    {
+      "criterion": "No concurrent agents that cause QTc prolongation",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has tachycardia, which may indicate a risk for QTc prolongation, and the medications they are on could potentially interact with QTc.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent antiarrhythmic therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the use of antiarrhythmic therapy, so it is uncertain whether this criterion is met.",
+      "clinical_question": "Has the patient received any antiarrhythmic therapy in the past 30 days?"
+    },
+    {
+      "criterion": "No other concurrent investigational therapy NOTE: *Unless approved by the investigator",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on multiple medications, but there is no clear indication of concurrent investigational therapy; further clarification is needed.",
+      "clinical_question": "Has the patient received any investigational therapy within the last 30 days?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 8 of 86 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1977
+}

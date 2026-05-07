@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT03895281",
+  "trial_title": "Clinical Evaluation of the FilmArray® Meningitis/Encephalitis (ME) Panel",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "The FilmArray Meningitis/Encephalitis (ME) Panel (hereinafter referred to as FilmArray ME Panel) is a qualitative multiplexed nucleic acid-based in vitro diagnostic test intended for use with FilmArray systems. The FilmArray ME Panel is capable of simultaneous detection and identification of multiple bacterial, viral, and yeast nucleic acids directly from cerebrospinal fluid (CSF) specimens obtained via lumbar puncture from individuals with signs and/or symptoms of meningitis and/or encephalitis",
+  "eligibility_table": [
+    {
+      "criterion": "Residual cerebrospinal fluid samples after routine tests",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of lumbar puncture, but it is unclear if residual cerebrospinal fluid samples are available after routine tests.",
+      "clinical_question": "Are there residual cerebrospinal fluid samples available from the patient's previous lumbar puncture for testing with the FilmArray® Meningitis/Encephalitis (ME) Panel?"
+    },
+    {
+      "criterion": "Samples obtained by lumbar puncture",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone a lumbar puncture, which suggests that samples can be obtained.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Sample volume is not less than 0.5 mL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the volume of the cerebrospinal fluid sample collected from the patient at least 0.5 mL?"
+    },
+    {
+      "criterion": "Samples that have not been centrifuged",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether the samples have been centrifuged or not.",
+      "clinical_question": "Has the cerebrospinal fluid (CSF) sample been processed without centrifugation prior to testing with the FilmArray® Meningitis/Encephalitis (ME) Panel?"
+    },
+    {
+      "criterion": "Samples from repeatedly enrolled patients",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating whether the patient has been enrolled in other trials, making it unclear if samples are from repeatedly enrolled patients.",
+      "clinical_question": "Has the patient provided CSF samples for analysis in at least two separate instances during the study period?"
+    },
+    {
+      "criterion": "Samples that have not been preserved as required",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the preservation status of the samples.",
+      "clinical_question": "Have the cerebrospinal fluid samples been preserved at a temperature of ≤-70°C prior to testing with the FilmArray® Meningitis/Encephalitis Panel?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Samples from repeatedly enrolled patients",
+    "EXCLUSION UNCLEAR: Samples that have not been preserved as required",
+    "LOW INCLUSION MATCH: only 1 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1667
+}

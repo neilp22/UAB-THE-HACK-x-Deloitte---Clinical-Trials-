@@ -1,0 +1,150 @@
+{
+  "nct_id": "NCT05153499",
+  "trial_title": "A Trial of CP101 for the Prevention of Recurrent CDI (PRISM4)",
+  "phase": "PHASE3",
+  "status": "TERMINATED",
+  "brief_summary": "This is a Randomized, Double-Blind, Placebo-Controlled, Phase 3 Trial of the Efficacy, Safety, and Tolerability of a Single Oral Administration of CP101 for the Prevention of Recurrent Clostridioides difficile Infection (PRISM4). This Phase 3 trial will be conducted in 2 parts: a randomized, double-blind, placebo-controlled trial arm and an optional open-label treatment arm. After completing standard-of-care (SOC) CDI antibiotics for their most recent CDI recurrence, patients who meet all eligib",
+  "eligibility_table": [
+    {
+      "criterion": "Ability to provide written informed consent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to provide written informed consent is uncertain without additional information about their cognitive status.",
+      "clinical_question": "Can the patient demonstrate an understanding of the study protocol and provide written informed consent as required by the trial guidelines?"
+    },
+    {
+      "criterion": "Men or women over 18 years of age or older",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Current diagnosis of a recurrence of non-severe, non-complicated CDI",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of severe CDI and is currently experiencing a C. difficile infection, which is not classified as non-severe or non-complicated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has a clinical response to standard-of-care CDI antibiotics for the most recent CDI episode",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not shown a clinical response to standard-of-care antibiotics for the most recent CDI episode, as they are still experiencing infection.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of recurrent CDI defined as:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a documented history of recurrent CDI with multiple prior episodes.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "≥ 3 episodes of CDI, with 2 episodes occurring within the previous 6 months (inclusive of the current episode); OR",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has had only 2 prior episodes of CDI within the last 6 months, which does not meet the criterion of ≥ 3 episodes.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with a history of 2 episodes of CDI occurring within the previous 6 months (inclusive of the current episode) may be eligible if 65 years of age or older.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 55.0 >= 65.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "For the Qualifying CDI episode, the following criteria must be satisfied:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Insufficient information on the specifics of the qualifying CDI episode to determine if the criteria are satisfied.",
+      "clinical_question": "Has the patient experienced a qualifying C. difficile infection episode within the last 6 months?"
+    },
+    {
+      "criterion": "History of diarrhea (> 3 unformed stools per day) for 2 or more consecutive days that is clinically consistent with CDI.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of diarrhea is not clearly documented, making it uncertain if it meets the criteria for CDI.",
+      "clinical_question": "Has the patient experienced diarrhea with ≥3 unformed stools per day for ≥2 consecutive days that is clinically consistent with CDI?"
+    },
+    {
+      "criterion": "Documented positive stool test by local laboratory for toxigenic C. difficile (toxin enzyme immunoassay [EIA] or polymerase chain reaction [PCR]-based testing) for the current CDI episode and within 45 days prior to Randomization.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about a documented positive stool test for the current CDI episode.",
+      "clinical_question": "Has the patient had a documented positive stool test for toxigenic C. difficile within 45 days prior to randomization?"
+    },
+    {
+      "criterion": "Received a course of SOC CDI antibiotics for the most recent CDI episode (for 10 to 21 days, with exact duration, antibiotic type, and dose at the discretion of the Investigator).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received antibiotic treatment for CDI, but the exact duration and adherence to the SOC guidelines are unclear.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Demonstrated an adequate clinical response, defined as ≤ 3 unformed stools in 24 hours for 2 or more consecutive days during SOC CDI antibiotics prior to Randomization.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is still experiencing symptoms of CDI, indicating they have not demonstrated an adequate clinical response during the SOC treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known stool sample testing positive for enteric pathogen(s) (e.g., Salmonella, Shigella, diarrhoeagenic E. coli, Campylobacter, Giardia) within 28 days prior to Screening",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of C. difficile infections but no stool sample testing results are provided to confirm a positive test for enteric pathogens within the specified timeframe.",
+      "clinical_question": "Has the patient tested positive for any enteric pathogens, such as Salmonella, Shigella, diarrhoeagenic E. coli, Campylobacter, or Giardia, in a stool sample within 28 days prior to Screening?"
+    },
+    {
+      "criterion": "Pregnant, breast-feeding, or planning to become pregnant during the trial",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is pregnant, breastfeeding, or planning to become pregnant.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Historical or current diagnosis of inflammatory bowel disease",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has no historical or current diagnosis of inflammatory bowel disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recent diagnosis (<6 months prior to screening) of diarrhea-predominant irritable bowel syndrome (post-infection or non-related to an enteric infection)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of a recent diagnosis of diarrhea-predominant irritable bowel syndrome.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Initiation of any systemic cancer treatment (e.g., chemotherapy, radiotherapy, biologic, immunotherapy, others) for active malignancy",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not initiated any systemic cancer treatment for active malignancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Major intra-abdominal surgery (e.g., bowel resection)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about major intra-abdominal surgery, so it cannot be confirmed or denied.",
+      "clinical_question": "Has the patient undergone major intra-abdominal surgery, such as bowel resection, within the last 30 days?"
+    },
+    {
+      "criterion": "Known primary or secondary immunodeficiency",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not explicitly mention immunodeficiency, but the presence of ESRD may raise concerns; further information is needed.",
+      "clinical_question": "Does the patient have a documented CD4 count <200 cells/mm³ or a history of an organ transplant, HIV/AIDS, or other conditions classified as primary or secondary immunodeficiency?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Known stool sample testing positive for enteric pathogen(s) (e.g., Salmonella, S",
+    "EXCLUSION UNCLEAR: Major intra-abdominal surgery (e.g., bowel resection)",
+    "EXCLUSION UNCLEAR: Known primary or secondary immunodeficiency",
+    "LOW INCLUSION MATCH: only 2 of 12 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6316
+}

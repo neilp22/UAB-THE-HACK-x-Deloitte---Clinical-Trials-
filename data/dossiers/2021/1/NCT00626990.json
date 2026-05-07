@@ -1,0 +1,210 @@
+{
+  "nct_id": "NCT00626990",
+  "trial_title": "Phase III Trial of Anaplastic Glioma Without 1p/19q Loss of Heterozygosity (LOH)",
+  "phase": "PHASE3",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "RATIONALE: Radiation therapy uses high-energy x-rays to kill tumor cells. Drugs used in chemotherapy, such as temozolomide, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving radiation therapy together with temozolomide may kill more tumor cells. It is not yet known whether giving temozolomide during and/or after radiation therapy is more effective than radiation therapy alone in treating anaplastic glioma.\n\nPURPOSE: Th",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed diagnosis of 1 of the following: Anaplastic oligodendroglioma, Anaplastic oligoastrocytoma, Anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a histologically confirmed diagnosis of anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Newly diagnosed disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of prior treatments, indicating that the disease is not newly diagnosed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior surgery for a low grade tumor is allowed, provided histological confirmation of an anaplastic tumor is present at the time of progression",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of an unresectable tumor and has undergone prior treatments, which may allow for inclusion if histological confirmation is present.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absence of combined 1p/19q loss",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The absence of combined 1p/19q loss cannot be determined without specific genetic testing results.",
+      "clinical_question": "Does the patient's tumor exhibit 1p/19q loss of heterozygosity as determined by molecular testing?"
+    },
+    {
+      "criterion": "Tumor material available for central 1p/19q assessment, central O6-methylguanine-DNA methyltransferase promoter methylation status assessment, isocitrate dehydrogenase mutation analysis, and central pathology review",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "It is unclear if tumor material is available for the required assessments without additional information.",
+      "clinical_question": "Is the tumor material available for central assessment of 1p/19q loss of heterozygosity, O6-methylguanine-DNA methyltransferase promoter methylation status, and isocitrate dehydrogenase mutation analysis?"
+    },
+    {
+      "criterion": "Patients must be on a stable or decreasing dose of steroids for at least two weeks prior to randomization",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on high-dose steroids, and it is uncertain if the dose has been stable or decreasing for at least two weeks prior to randomization.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "WHO performance status 0-2",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient has a WHO performance status of 2 due to severe weakness and other conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absolute Neutrophil Count (ANC) ≥ 1.5 x 10^9 cells/L",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's Absolute Neutrophil Count (ANC) currently ≥ 1.5 x 10^9 cells/L?"
+    },
+    {
+      "criterion": "Platelet count ≥ 100 x 10^9 cells/L",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count ≥ 100 x 10^9 cells/L?"
+    },
+    {
+      "criterion": "Bilirubin < 1.5 x upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided, so it cannot be assessed if they are < 1.5 x ULN.",
+      "clinical_question": "Is the patient's total bilirubin level less than 1.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Alkaline phosphatase < 2.5 x ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Alkaline phosphatase levels are not provided, so it cannot be assessed if they are < 2.5 x ULN.",
+      "clinical_question": "Is the patient's alkaline phosphatase level less than 2.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Aspartate Aminotransferase (AST) and Alanine Aminotransferase (ALT) < 2.5 x ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "AST and ALT levels are not provided, so it cannot be assessed if they are < 2.5 x ULN.",
+      "clinical_question": "Is the patient's Aspartate Aminotransferase (AST) and Alanine Aminotransferase (ALT) level less than 2.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Serum creatinine < 1.5 x ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Serum creatinine levels are not provided, making it unclear if the criterion is met.",
+      "clinical_question": "Is the patient's serum creatinine level less than 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication of pregnancy or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's fertility status is not specified, so it is unclear if contraception is needed.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a condom, birth control pill, or IUD?"
+    },
+    {
+      "criterion": "No known HIV infection or chronic hepatitis B or hepatitis C infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to confirm HIV or hepatitis status.",
+      "clinical_question": "Does the patient have a documented negative test result for HIV, hepatitis B, and hepatitis C within the last 6 months?"
+    },
+    {
+      "criterion": "No other serious medical condition that would interfere with follow-up",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple serious medical conditions including anaplastic astrocytoma and chronic pain, which may interfere with follow-up.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No medical condition that could interfere with oral medication intake (e.g., frequent vomiting or partial bowel obstruction)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe lower extremity weakness and urinary retention, which could interfere with oral medication intake.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other prior malignancies except for any malignancy which was treated with curative intent more than 5 years prior to registration and adequately controlled limited basal cell carcinoma of the skin, squamous cell carcinoma of the skin, or carcinoma in situ of the cervix",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of anaplastic astrocytoma, which is a malignancy that does not meet the 5-year criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior or concurrent malignancies at other sites except for surgically cured carcinoma in situ of the cervix or nonmelanoma skin cancer",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a current malignancy (anaplastic astrocytoma), which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No psychological, familial, sociological, or geographical condition that would potentially hamper compliance with the study protocol and follow-up schedule",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about psychological, familial, sociological, or geographical conditions.",
+      "clinical_question": "Does the patient have any psychological, familial, sociological, or geographical conditions that would score ≥3 on the compliance assessment scale?"
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Details on prior concurrent therapy are not fully specified, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient received any prior systemic therapy for anaplastic glioma other than temozolomide, CPT-11, or Avastin?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, which is a qualifying disease characteristic.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior chemotherapy, including carmustine-containing wafers (Gliadel®)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple prior chemotherapy treatments, including temozolomide and CPT-11.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior radiotherapy to the brain",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone prior radiation treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent growth factors unless vital for the patient",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on high-dose steroids, but it is unclear if they are considered a growth factor vital for the patient.",
+      "clinical_question": "Has the patient received any concurrent growth factors in the past 30 days?"
+    },
+    {
+      "criterion": "No other concurrent investigational treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about other investigational treatments, so it cannot be determined.",
+      "clinical_question": "Has the patient received any concurrent investigational treatment within the last 30 days?"
+    },
+    {
+      "criterion": "No other concurrent anticancer agents",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on multiple anticancer agents, including temozolomide and Avastin.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 4 of 28 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

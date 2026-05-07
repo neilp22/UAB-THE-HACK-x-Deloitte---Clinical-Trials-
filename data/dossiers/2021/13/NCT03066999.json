@@ -1,0 +1,26 @@
+{
+  "nct_id": "NCT03066999",
+  "trial_title": "DirectVision for Urinary Catheterization",
+  "phase": "NA",
+  "status": "TERMINATED",
+  "brief_summary": "The Center for Disease Control and Prevention (CDC) reports that one in four patients hospitalized in the United States is catheterized to void the bladder or monitor urinary output. In the male population, Dr. Singh, an urologist estimates that about 20% of catheterizations are difficult. Driving a catheter blindly, guessing whether to push the catheter forward or manipulate it to get around a point of resistance leads to the risk of injury which increases the more the catheter is manipulated. ",
+  "eligibility_table": [
+    {
+      "criterion": "Any patient over 18 years with a standard indication for difficult urinary catheterization",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 62.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any patient younger than 18 years of age, pregnant patients",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 62.0 < 18.0 → False",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE",
+  "confidence_score": 1.0
+}

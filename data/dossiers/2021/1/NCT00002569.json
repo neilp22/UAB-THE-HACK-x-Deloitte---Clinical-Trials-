@@ -1,0 +1,266 @@
+{
+  "nct_id": "NCT00002569",
+  "trial_title": "Radiation Therapy With or Without Chemotherapy in Treating Patients With Anaplastic Oligodendroglioma",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Radiation therapy uses high-energy x-rays to damage tumor cells. Combining chemotherapy with radiation therapy may kill more tumor cells.\n\nPURPOSE: Randomized phase III trial to compare the effectiveness of radiation therapy with or without chemotherapy in treating patients who have anaplastic oligodendroglioma.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically proven unifocal or multifocal, supratentorial, pure or mixed anaplastic oligodendroglioma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma, not anaplastic oligodendroglioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior suspected or proven low-grade glioma allowed if current histologic proof of pure or mixed anaplastic oligodendroglioma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma, not low-grade glioma or anaplastic oligodendroglioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Tumor must contain an unequivocal (at least 25%) oligodendroglial element and have 2 or more anaplastic features, 1 of which must be frequent mitoses or endothelial proliferation",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The tumor does not contain oligodendroglial elements as it is anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "For mixed tumors, the non-oligodendroglial element must be astrocytic and the oligodendroglial or astroglial component may be anaplastic",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The tumor is anaplastic astrocytoma, not a mixed tumor with oligodendroglial elements.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No evidence of spinal drop metastasis or spread to noncontiguous meninges",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's tumor is anaplastic astrocytoma, which may have a risk of spinal drop metastasis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "MRI of spine not required for asymptomatic patients and patients not excluded based on pathologic evidence of local meningeal infiltration by underlying tumor",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "MRI of the spine is not required for asymptomatic patients, but the patient's symptoms may complicate this.",
+      "clinical_question": "Does the patient exhibit any symptoms indicative of local meningeal infiltration by the underlying tumor?"
+    },
+    {
+      "criterion": "No tumor that is predominantly located in the posterior fossa (i.e., brainstem or cerebellum)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a spinal cord tumor (anaplastic astrocytoma of the spine).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No spinal cord tumors",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a spinal cord tumor, which disqualifies them.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Karnofsky 60-100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Karnofsky performance status is not provided; further assessment needed.",
+      "clinical_question": "Does the patient have a Karnofsky Performance Status score of ≥60?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Not specified; cannot assess eligibility based on this criterion.",
+      "clinical_question": "Has the patient experienced a progression-free survival of at least 6 months following the last treatment prior to enrollment?"
+    },
+    {
+      "criterion": "Absolute granulocyte count at least 1,500/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute granulocyte count currently ≥1,500/mm^3?"
+    },
+    {
+      "criterion": "Platelet count at least 150,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count at least 150,000/mm^3?"
+    },
+    {
+      "criterion": "Hepatic:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess hepatic function.",
+      "clinical_question": "Does the patient have a baseline hepatic function with a total bilirubin level ≤1.5 mg/dL and AST/ALT levels within normal limits?"
+    },
+    {
+      "criterion": "Bilirubin no greater than 2 times normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess bilirubin levels.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 2 times the normal upper limit?"
+    },
+    {
+      "criterion": "Serum glutamate oxaloacetate transaminase (SGOT) no greater than 2 times normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess SGOT levels.",
+      "clinical_question": "Is the patient's serum glutamate oxaloacetate transaminase (SGOT) level ≤ 80 U/L?"
+    },
+    {
+      "criterion": "Alkaline phosphatase no greater than 2 times normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess alkaline phosphatase levels.",
+      "clinical_question": "Is the patient's alkaline phosphatase level ≤2 times the normal range?"
+    },
+    {
+      "criterion": "Creatinine no greater than 1.5 times normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess creatinine levels.",
+      "clinical_question": "Is the patient's serum creatinine level ≤1.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "No chronic lung disease unless diffusion capacity of lung for carbon monoxide (DLCO) is at least 60% predicted",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on lung disease or DLCO provided.",
+      "clinical_question": "What is the patient's diffusion capacity of lung for carbon monoxide (DLCO) as a percentage of the predicted value?"
+    },
+    {
+      "criterion": "No active infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient currently exhibit any signs or symptoms of an active infection, such as fever, chills, or elevated white blood cell count?"
+    },
+    {
+      "criterion": "No other malignancy within the past 5 years except nonmelanomatous skin cancer or carcinoma in situ of the cervix",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with any malignancy other than nonmelanomatous skin cancer or carcinoma in situ of the cervix within the past 5 years?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on pregnancy status provided.",
+      "clinical_question": "Is the patient currently pregnant or nursing?"
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on pregnancy test results provided.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on contraception use provided.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a hormonal method, barrier method, or intrauterine device, as defined by clinical guidelines?"
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior concurrent therapy provided.",
+      "clinical_question": "Has the patient received any prior radiation therapy for the treatment of anaplastic oligodendroglioma?"
+    },
+    {
+      "criterion": "Biologic therapy:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently receiving Avastin, which is a biologic therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is not specified, making it unclear if the patient meets this requirement.",
+      "clinical_question": "Has the patient experienced a progression-free survival of at least 6 months following the last treatment prior to enrollment?"
+    },
+    {
+      "criterion": "Chemotherapy:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently undergoing chemotherapy with temozolomide and CPT-11.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple cycles of chemotherapy, including temozolomide and CPT-11.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Endocrine therapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about endocrine therapy in the patient's profile.",
+      "clinical_question": "Has the patient received ≥6 months of continuous endocrine therapy prior to enrollment?"
+    },
+    {
+      "criterion": "No concurrent steroids as antiemetics",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on high-dose steroids, which are being used as part of their treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concurrent steroids allowed to control central nervous system (CNS) symptoms due to tumor-associated or radiotherapy-associated cerebral edema",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is on steroids to manage CNS symptoms related to tumor-associated edema.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Radiotherapy:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone prior radiotherapy as part of their treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior radiotherapy to brain or head/neck",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received prior radiotherapy to the spine.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any surgical interventions in the patient's history.",
+      "clinical_question": "Has the patient undergone surgical resection of the anaplastic astrocytoma of the spine prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "Prior surgery allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone prior surgeries related to their condition, which is allowed as per the inclusion criteria.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 5 of 36 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4444
+}

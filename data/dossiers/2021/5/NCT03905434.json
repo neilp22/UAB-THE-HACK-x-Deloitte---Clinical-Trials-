@@ -1,0 +1,127 @@
+{
+  "nct_id": "NCT03905434",
+  "trial_title": "Identification of microRNAs Involved in Cerebral Collateral Regulation",
+  "phase": "",
+  "status": "SUSPENDED",
+  "brief_summary": "Patients \\>18 years of age presenting to Ohio State Wexner Medical Center Emergency department with stroke symptoms, within 6 hours of last know well and found to have acute anterior circulation large vessel occlusion (LVO) will be included in this study. The purpose of this study is to evaluate the differential expression of exosomal microRNAs in patients with stroke due to acute LVO as compared to healthy controls. In addition, the investigators will also evaluate the differential expression o",
+  "eligibility_table": [
+    {
+      "criterion": "Age 18 years or older.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient 18 years of age or older?"
+    },
+    {
+      "criterion": "Diagnosis of Acute Ischemic Stroke secondary to LVO",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of prior cerebrovascular accident (CVA) but does not have a current diagnosis of Acute Ischemic Stroke secondary to LVO.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "LVO from presumed embolic source (<50% ICA)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has significant stenosis (90% left ICA and 80% right ICA), which exceeds the 50% threshold for inclusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CT perfusion/RAPID images showing salvageable penumbra (evaluated by PI)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "CT perfusion/RAPID images are not provided, so it cannot be determined if salvageable penumbra is present.",
+      "clinical_question": "Does the CT perfusion/RAPID imaging show a salvageable penumbra with a volume of ≥10 mL?"
+    },
+    {
+      "criterion": ">50% stenosis of internal carotid artery",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has >50% stenosis of both internal carotid arteries, which is a clear exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": ">50% stenosis of bilateral vertebral arteries.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the status of the vertebral arteries.",
+      "clinical_question": "Does the patient have >50% stenosis in both the right and left vertebral arteries as assessed by imaging?"
+    },
+    {
+      "criterion": "Patients with moderate to severe intracranial atherosclerotic disease as seen in CTA of head and neck.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of moderate to severe PVD is noted, but CTA results are not provided to confirm intracranial atherosclerotic disease.",
+      "clinical_question": "Does the patient have a CTA of the head and neck that shows moderate to severe intracranial atherosclerotic disease, defined as ≥70% stenosis in any intracranial artery?"
+    },
+    {
+      "criterion": "Known moderate to severe PVD or symptomatic CAD",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a known history of moderate to severe PVD and symptomatic CAD.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Past medical history of stent or coronary artery bypass surgery",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a past medical history of coronary artery bypass surgery (CABG).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prisoners",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not a prisoner.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnant women",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not a pregnant woman.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous stroke within 30 days",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient had a prior cerebrovascular accident (CVA) but it was not within the last 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Intracranial vascular malformation or evidence of moya-moya disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding intracranial vascular malformation or moya-moya disease; thus, it cannot be determined.",
+      "clinical_question": "Does the patient have evidence of intracranial vascular malformation or a diagnosis of moya-moya disease confirmed by imaging studies such as MRI or CT angiography?"
+    },
+    {
+      "criterion": "Serious advanced or terminal illness per judgment of the investigator with life expectancy <1yr",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple serious conditions, but there is no indication of a life expectancy of less than 1 year.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known allergy to iodine that precludes CTA or CTP studies",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented allergy to iodine in the patient's profile, but it is not explicitly stated.",
+      "clinical_question": "Does the patient have a documented history of an allergic reaction to iodine-based contrast agents?"
+    },
+    {
+      "criterion": "Presumed septic embolus or suspected bacterial endocarditis",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no evidence of a presumed septic embolus or suspected bacterial endocarditis in the provided information.",
+      "clinical_question": "Does the patient have evidence of a presumed septic embolus or a confirmed diagnosis of bacterial endocarditis based on current clinical evaluation and imaging studies?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: >50% stenosis of bilateral vertebral arteries.",
+    "LOW INCLUSION MATCH: only 2 of 14 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5625
+}

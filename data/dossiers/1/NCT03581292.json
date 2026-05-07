@@ -1,0 +1,341 @@
+{
+  "nct_id": "NCT03581292",
+  "trial_title": "Veliparib, Radiation Therapy, and Temozolomide in Treating Patients With Newly Diagnosed Malignant Glioma Without H3 K27M or BRAFV600 Mutations",
+  "phase": "PHASE2",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "This phase II trial studies how well veliparib, radiation therapy, and temozolomide work in treating patients with newly diagnosed malignant glioma without H3 K27M or BRAFV600 mutations. Poly adenosine diphosphate (ADP) ribose polymerases (PARPs) are proteins that help repair DNA mutations. PARP inhibitors, such as veliparib, can keep PARP from working, so tumor cells can't repair themselves, and they may stop growing. Radiation therapy uses high energy x-rays to kill tumor cells and shrink tumo",
+  "eligibility_table": [
+    {
+      "criterion": "Patients must be >= 3 years of age and <= 21 years of age at the time of enrollment",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 45.0 <= 21.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must be >= 3 years of age and <= 25 years of age at the time of enrollment",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 45.0 <= 25.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have eligibility confirmed by rapid central pathology and central molecular screening reviews performed on APEC14B1",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Eligibility confirmation by rapid central pathology and central molecular screening reviews is not provided in the patient profile.",
+      "clinical_question": "Has the patient's eligibility been confirmed by rapid central pathology and central molecular screening reviews performed on APEC14B1?"
+    },
+    {
+      "criterion": "Newly-diagnosed high-grade glioma such as anaplastic astrocytoma or glioblastoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma, which qualifies as a newly-diagnosed high-grade glioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative results for H3 K27M by immunohistochemistry (IHC)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding H3 K27M status in the patient profile.",
+      "clinical_question": "Has the patient's tumor sample tested negative for H3 K27M by immunohistochemistry (IHC) according to the standard threshold?"
+    },
+    {
+      "criterion": "Negative results for BRAFV600 mutation by next-generation sequencing (NGS)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information on BRAFV600 mutation status.",
+      "clinical_question": "Has the patient tested negative for the BRAFV600 mutation using next-generation sequencing (NGS)?"
+    },
+    {
+      "criterion": "Patients must have histological verification of diagnosis. Patients with M+ disease (defined as evidence of neuraxis dissemination) are not eligible.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Histological verification of diagnosis is not confirmed in the provided information, and there is no mention of M+ disease.",
+      "clinical_question": "Has the patient undergone a histological verification of the diagnosis of malignant glioma?"
+    },
+    {
+      "criterion": "Pre-operative and post-operative brain magnetic resonance imaging (MRI) with and without contrast must be obtained. The requirement for a post-operative MRI is waived for patients who undergo biopsy only.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding pre-operative and post-operative MRI results in the patient profile.",
+      "clinical_question": "Has the patient undergone a pre-operative brain MRI with and without contrast?"
+    },
+    {
+      "criterion": "Patients must have a performance status corresponding to Eastern Cooperative Oncology Group (ECOG) scores of 0, 1, or 2.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "What is the patient's current Eastern Cooperative Oncology Group (ECOG) performance status score?"
+    },
+    {
+      "criterion": "Use Karnofsky for patients > 16 years of age and Lansky for patients <= 16 years of age",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Karnofsky or Lansky performance status is not provided in the patient profile.",
+      "clinical_question": "What is the patient's current Karnofsky Performance Status score?"
+    },
+    {
+      "criterion": "Patients with the following histologies:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not specify the histology of the tumor beyond anaplastic astrocytoma.",
+      "clinical_question": "Does the patient's tumor histology confirm the diagnosis of anaplastic astrocytoma without H3 K27M or BRAFV600 mutations?"
+    },
+    {
+      "criterion": "Diffuse astrocytoma (grade 2)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma, not diffuse astrocytoma (grade 2), but further histological details are not provided.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of diffuse astrocytoma (grade 2) based on histopathological evaluation?"
+    },
+    {
+      "criterion": "Oligodendrogliomas (any grade)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma, not oligodendroglioma, but further histological details are not provided.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of oligodendroglioma, regardless of grade, based on histopathological evaluation?"
+    },
+    {
+      "criterion": "Pleomorphic xanthoastrocytoma (PXA, any grade)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, which is a primary tumor located in the spinal cord.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with primary tumor location of brainstem or spinal cord",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's primary tumor is located in the spinal cord, which is an exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with M+ disease (defined as neuraxis dissemination either by imaging or by cytology)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about M+ disease; imaging or cytology results are not available.",
+      "clinical_question": "Does the patient have evidence of neuraxis dissemination as confirmed by imaging or cytology?"
+    },
+    {
+      "criterion": "Patients with treatment-related acute myeloid leukemia (AML) (t-AML)/myelodysplastic syndrome (MDS) or with features suggestive of AML/MDS",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of treatment-related acute myeloid leukemia (AML) or myelodysplastic syndrome (MDS) in the patient's history.",
+      "clinical_question": "Has the patient been diagnosed with treatment-related acute myeloid leukemia (t-AML) or myelodysplastic syndrome (MDS) based on current clinical evaluation and laboratory findings?"
+    },
+    {
+      "criterion": "Prior allogenic bone marrow transplant or double umbilical cord blood transplantation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone an allogenic bone marrow transplant or double umbilical cord blood transplantation, but this is not explicitly stated.",
+      "clinical_question": "Has the patient undergone an allogenic bone marrow transplant or double umbilical cord blood transplantation prior to enrollment?"
+    },
+    {
+      "criterion": "Patients must not have received any prior tumor-directed therapy including radiation therapy, chemotherapy (tumor-directed therapy), molecularly targeted agents, or immunotherapy for the treatment of HGG other than surgical intervention and/or corticosteroids",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple prior tumor-directed therapies including chemotherapy and radiation, which disqualifies him.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lumbar CSF cytology is not required, but may be performed if clinically indicated prior to study enrollment. If lumbar CSF cytology is positive, the patient is considered to have M+ disease and is ineligible",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Lumbar CSF cytology results are not provided; thus, it is unclear if the patient is eligible based on this criterion.",
+      "clinical_question": "Has the patient undergone lumbar CSF cytology, and if so, was the result positive for malignant cells?"
+    },
+    {
+      "criterion": "Peripheral absolute neutrophil count (ANC) >= 1,000/uL (within 7 days prior to enrollment)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's absolute neutrophil count (ANC) is not provided; therefore, eligibility cannot be determined.",
+      "clinical_question": "Is the patient's peripheral absolute neutrophil count (ANC) ≥ 1,000/uL within 7 days prior to enrollment?"
+    },
+    {
+      "criterion": "Platelet count >= 100,000/uL (transfusion independent) (within 7 days prior to enrollment)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's platelet count is not provided; thus, eligibility cannot be determined.",
+      "clinical_question": "Is the patient's platelet count ≥ 100,000/uL within 7 days prior to enrollment?"
+    },
+    {
+      "criterion": "Hemoglobin >= 8.0 gm/dL (can be transfused) (within 7 days prior to enrollment)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's hemoglobin level is not provided; therefore, eligibility cannot be determined.",
+      "clinical_question": "Is the patient's hemoglobin level ≥8.0 gm/dL within 7 days prior to enrollment?"
+    },
+    {
+      "criterion": "Creatinine clearance or radioisotope glomerular filtration rate (GFR) >= 70 mL/min/1.73 m^2 OR a serum creatinine based on age/gender as follows (within 7 days prior to enrollment):",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine clearance or GFR is not provided; unable to assess eligibility.",
+      "clinical_question": "Is the patient's creatinine clearance or radioisotope glomerular filtration rate (GFR) ≥ 70 mL/min/1.73 m² based on lab results obtained within 7 days prior to enrollment?"
+    },
+    {
+      "criterion": "3 to < 6 years: 0.8 (male and female) maximum serum creatinine (mg/dL)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's maximum serum creatinine level below 0.8 mg/dL?"
+    },
+    {
+      "criterion": "6 to < 10 years: 1 (male and female) maximum serum creatinine (mg/dL)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's maximum serum creatinine level less than 1 mg/dL?"
+    },
+    {
+      "criterion": "10 to < 13 years: 1.2 (male and female) maximum serum creatinine (mg/dL)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's maximum serum creatinine level less than 1.2 mg/dL?"
+    },
+    {
+      "criterion": "13 to < 16 years: 1.5 (male), 1.4 (female) maximum serum creatinine (mg/dL)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient is 45 years old; serum creatinine levels are not provided.",
+      "clinical_question": "Is the patient's maximum serum creatinine level less than or equal to 1.5 mg/dL?"
+    },
+    {
+      "criterion": ">= 16 years: 1.7 (male), 1.4 (female) maximum serum creatinine (mg/dL)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient is 45 years old; serum creatinine levels are not provided.",
+      "clinical_question": "Is the patient's maximum serum creatinine level less than or equal to 1.7 mg/dL?"
+    },
+    {
+      "criterion": "Total bilirubin <= 1.5 x upper limit of normal (ULN) for age (within 7 days prior to enrollment)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Total bilirubin levels are not provided; unable to assess eligibility.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 x upper limit of normal (ULN) for age within 7 days prior to enrollment?"
+    },
+    {
+      "criterion": "Note: False positive cytology can occur within 10 days of surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on recent surgeries; unable to determine if cytology is affected.",
+      "clinical_question": "Has the patient undergone surgery for the malignant glioma within the last 10 days?"
+    },
+    {
+      "criterion": "Patients with gliomatosis cerebri type 1 or 2",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of gliomatosis cerebri type 1 or 2 based on imaging and histopathological evaluation?"
+    },
+    {
+      "criterion": "Patients who are not able to receive protocol specified radiation therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the patient's ability to receive radiation therapy.",
+      "clinical_question": "Has the patient received any form of radiation therapy in the past 6 months?"
+    },
+    {
+      "criterion": "Patients must not be currently receiving other anti-cancer agents",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is currently receiving multiple anti-cancer agents (temozolomide, CPT-11, Avastin).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with known constitutional mismatch repair deficiency syndrome (CMMR-D)/biallelic mismatch repair deficiency (bMMRD)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of constitutional mismatch repair deficiency syndrome (CMMR-D) or biallelic mismatch repair deficiency (bMMRD) based on genetic testing?"
+    },
+    {
+      "criterion": "Female patients who are pregnant are ineligible due to risks of fetal and teratogenic adverse events as seen in animal/human studies",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient is male; pregnancy-related criteria do not apply.",
+      "clinical_question": "Is the patient currently pregnant or has the patient had a positive pregnancy test within the last 30 days?"
+    },
+    {
+      "criterion": "Lactating females are not eligible unless they have agreed not to breastfeed their infants",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient is male; lactation-related criteria do not apply.",
+      "clinical_question": "Is the patient currently breastfeeding or has he agreed not to breastfeed his infant?"
+    },
+    {
+      "criterion": "Female patients of childbearing potential are not eligible unless a negative pregnancy test result has been obtained",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient is male; childbearing potential criteria do not apply.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Sexually active patients of reproductive potential are not eligible unless they have agreed to use an effective contraceptive method for the duration of their study participation and for 6 months after the last dose of protocol-specified chemotherapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and does not have information on contraceptive methods, making it unclear if they meet the requirement.",
+      "clinical_question": "Has the patient agreed to use an effective contraceptive method for the duration of their study participation and for 6 months after the last dose of protocol-specified chemotherapy?"
+    },
+    {
+      "criterion": "Serum glutamate pyruvate transaminase (SGPT) (alanine aminotransferase [ALT]) =< 135 U/L. For the purpose of this study, the ULN for SGPT is 45 U/L",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's SGPT levels are not provided, but the ULN for SGPT is 45 U/L, and the patient likely exceeds this given their medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with seizure disorder may be enrolled if seizures are well-controlled (i.e., patients must not have required rescue medications for uncontrolled seizures within 14 days prior to enrollment)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not mention seizures, so it is unclear if they have a seizure disorder or if it is well-controlled.",
+      "clinical_question": "Has the patient required rescue medications for uncontrolled seizures within the 14 days prior to enrollment?"
+    },
+    {
+      "criterion": "Patients must be enrolled and protocol therapy must be projected to begin no later than 31 days after definitive surgery (Day 0). If a biopsy only was performed, the biopsy date will be considered the date of definitive surgery. For patients who have a biopsy or incomplete resection at diagnosis followed by additional surgery, the date of the last resection will be considered the date of definitive surgery",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple treatments and surgeries, making it unlikely that they can start protocol therapy within 31 days after definitive surgery.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "All patients and/or their parents or legal guardians must sign a written informed consent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient or their legal guardian signed a written informed consent form for participation in the trial?"
+    },
+    {
+      "criterion": "All institutional, Food and Drug Administration (FDA), and National Cancer Institute (NCI) requirements for human studies must be met",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient provided informed consent in accordance with institutional, FDA, and NCI requirements for participation in the clinical trial?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients with the following histologies:",
+    "EXCLUSION UNCLEAR: Diffuse astrocytoma (grade 2)",
+    "EXCLUSION UNCLEAR: Oligodendrogliomas (any grade)",
+    "EXCLUSION VIOLATED: Pleomorphic xanthoastrocytoma (PXA, any grade)",
+    "EXCLUSION VIOLATED: Patients with primary tumor location of brainstem or spinal cord",
+    "EXCLUSION UNCLEAR: Patients with M+ disease (defined as neuraxis dissemination either by imaging or",
+    "EXCLUSION UNCLEAR: Patients with treatment-related acute myeloid leukemia (AML) (t-AML)/myelodyspla",
+    "EXCLUSION UNCLEAR: Prior allogenic bone marrow transplant or double umbilical cord blood transplant",
+    "EXCLUSION VIOLATED: Patients must not have received any prior tumor-directed therapy including radia",
+    "EXCLUSION UNCLEAR: Lumbar CSF cytology is not required, but may be performed if clinically indicate",
+    "EXCLUSION UNCLEAR: Note: False positive cytology can occur within 10 days of surgery",
+    "EXCLUSION UNCLEAR: Patients with gliomatosis cerebri type 1 or 2",
+    "EXCLUSION UNCLEAR: Patients who are not able to receive protocol specified radiation therapy",
+    "EXCLUSION VIOLATED: Patients must not be currently receiving other anti-cancer agents",
+    "EXCLUSION UNCLEAR: Patients with known constitutional mismatch repair deficiency syndrome (CMMR-D)/",
+    "EXCLUSION UNCLEAR: Female patients who are pregnant are ineligible due to risks of fetal and terato",
+    "EXCLUSION UNCLEAR: Lactating females are not eligible unless they have agreed not to breastfeed the",
+    "EXCLUSION UNCLEAR: Female patients of childbearing potential are not eligible unless a negative pre",
+    "EXCLUSION UNCLEAR: Sexually active patients of reproductive potential are not eligible unless they ",
+    "LOW INCLUSION MATCH: only 1 of 25 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.2045
+}

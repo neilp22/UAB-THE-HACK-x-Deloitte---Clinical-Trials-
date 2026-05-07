@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT07519876",
+  "trial_title": "Pulmonary Embolism and Right-to-Left Shunts",
+  "phase": "",
+  "status": "RECRUITING",
+  "brief_summary": "Every fetus has a small hole in their heart, called a foramen ovale when they are developing in the womb. For most people this hole closes shortly after birth, but it doesn't close completely in 1 out of every 4 people. This is called a \"patent\" foramen ovale, or PFO. In people with a PFO it is possible for a blood clot in a vein to enter the heart, pass through the opening, and then go into an artery - this is referred to as a paradoxical embolism which passes through a \"Right-to-Left Shunt,\" o",
+  "eligibility_table": [
+    {
+      "criterion": "Age ≥18",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Acute pulmonary embolism (any grade/size)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of spontaneous intraventricular hemorrhage and arteriovenous malformation, but there is no specific information provided about acute pulmonary embolism.",
+      "clinical_question": "Does the patient have evidence of acute pulmonary embolism on imaging studies such as a CT pulmonary angiogram?"
+    },
+    {
+      "criterion": "Patient or legally authorized representative is able to provide consent to participate in the study",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old and likely capable of providing consent, assuming no cognitive impairments are indicated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients who, in the opinion of the study investigators, are unable to participate in required study activities",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's significant medical history may affect their ability to participate in study activities, but there is insufficient information to definitively assess this.",
+      "clinical_question": "Does the patient have any cognitive or physical impairments that would prevent her from participating in study activities as assessed by a standardized functional capacity evaluation?"
+    },
+    {
+      "criterion": "Patients unable to undergo MRI imaging",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to undergo MRI imaging is uncertain due to her medical history, particularly the presence of an arteriovenous malformation.",
+      "clinical_question": "Is the patient currently contraindicated for MRI imaging due to her medical history or existing conditions?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients who, in the opinion of the study investigators, are unable to participa",
+    "EXCLUSION UNCLEAR: Patients unable to undergo MRI imaging"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4
+}

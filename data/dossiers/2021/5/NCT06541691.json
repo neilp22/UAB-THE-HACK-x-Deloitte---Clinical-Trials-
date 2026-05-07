@@ -1,0 +1,199 @@
+{
+  "nct_id": "NCT06541691",
+  "trial_title": "Coated or Chewable Aspirin and a Hybrid Strategy to Mitigate Adverse Effects of Air Pollution in Stable Atherosclerotic Disease",
+  "phase": "NA",
+  "status": "RECRUITING",
+  "brief_summary": "Although both enteric-coated and plain formulations of aspirin are being used commonly, there are no high-quality comparisons between these formulations with respect to clinical efficacy outcomes in patients with atherosclerotic cardiovascular diseases (ASCVD). Air pollution is also a major contributor to the excess risk of cardiovascular events in many regions of the world. However, little is known about the effect of individual-level mitigation strategies against air pollution in reducing card",
+  "eligibility_table": [
+    {
+      "criterion": "Adult patients (≥18 years) with documented ASCVD defined as at least one of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is an adult male, meeting the age criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Coronary artery disease (CAD):",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has documented coronary artery disease (CAD) as part of his conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous or recent documented type I myocardial infarction *(if not specified, will be assumed as type I)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no documented history of a type I myocardial infarction in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of coronary revascularization (percutaneous coronary intervention or coronary artery bypass graft surgery)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of coronary revascularization (CABG).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of obstructive CAD (>50% stenosis) documented by coronary computed tomography (CT) or conventional angiography",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific documentation of obstructive CAD (>50% stenosis) via imaging in the provided history.",
+      "clinical_question": "Has the patient undergone coronary computed tomography or conventional angiography that documented obstructive coronary artery disease with >50% stenosis?"
+    },
+    {
+      "criterion": "Peripheral arterial disease (PAD):",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has moderate to severe peripheral vascular disease (PVD), which qualifies as peripheral arterial disease (PAD).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous or recent acute ischemic limb event (>7 days prior)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding a previous acute ischemic limb event in the patient's history.",
+      "clinical_question": "Has the patient experienced an acute ischemic limb event within the last 7 days?"
+    },
+    {
+      "criterion": "History of previous endovascular/surgical lower or upper extremities revascularization for an atherosclerotic cause",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no documentation of previous endovascular or surgical revascularization for an atherosclerotic cause.",
+      "clinical_question": "Has the patient undergone any endovascular or surgical revascularization procedures for an atherosclerotic cause in the past?"
+    },
+    {
+      "criterion": "History of ulcer or lower extremities amputation due to ASCVD.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no history of ulcer or lower extremities amputation due to ASCVD documented.",
+      "clinical_question": "Has the patient experienced a history of gastrointestinal ulcers or undergone a lower extremity amputation due to atherosclerotic cardiovascular disease (ASCVD)?"
+    },
+    {
+      "criterion": "Carotid arterial diseases:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has significant bilateral carotid artery disease, which qualifies under carotid arterial diseases.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Being within 72 days of acute/unstable atherosclerotic cardiovascular events (acute myocardial infarction, acute limb event, and acute ischemic stroke), or within 72 hours of revascularization.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not experienced any acute/unstable cardiovascular events within the specified time frame.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients receiving triple antithrombotic therapy",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently receiving any medications, including triple antithrombotic therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of upper gastrointestinal bleeding within the past 30 days",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no documented history of upper gastrointestinal bleeding within the past 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of intracranial hemorrhage within the past 30 days",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no documented history of intracranial hemorrhage within the past 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "End-stage kidney disease with estimated creatinine clearance < 15 mL/min, or undergoing hemodialysis or peritoneal dialysis",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of end-stage kidney disease or dialysis treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known comorbidities associated with poor prognosis (e.g., metastatic cancer) in conjunction with an estimated life expectancy of less than one year according to the treating clinician",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have known comorbidities associated with poor prognosis that would affect life expectancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any other conditions that make the participants unsuitable for recruitment or follow-up (e.g., illiteracy)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's literacy status is not provided, making it unclear if they are suitable for recruitment or follow-up.",
+      "clinical_question": "Does the patient have any cognitive impairments or conditions that would prevent them from understanding study procedures or providing informed consent?"
+    },
+    {
+      "criterion": "Not having aspirin as part of the planned durable treatment regimen",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The treatment regimen details are not provided, so it is unclear if aspirin is included.",
+      "clinical_question": "Has the patient been prescribed aspirin as part of their durable treatment regimen at any point in their medical history?"
+    },
+    {
+      "criterion": "Inability to receive/read text messages/phone calls by personal mobile phone (or that of a caregiver who lives with the patient and is willing to relay messages)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's ability to receive/read messages or phone calls.",
+      "clinical_question": "Can the patient or their caregiver reliably receive and relay text messages or phone calls on a personal mobile phone at least 90% of the time?"
+    },
+    {
+      "criterion": "The full list of exclusion criteria is provided in the study protocol",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The full list of exclusion criteria is not available for review, making it impossible to assess this criterion.",
+      "clinical_question": "Does the patient have a history of gastrointestinal bleeding or peptic ulcer disease within the past 12 months?"
+    },
+    {
+      "criterion": "History of previous endovascular/surgical carotid artery revascularization for atherosclerotic causes",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of significant bilateral carotid stenosis, which indicates previous carotid artery revascularization for atherosclerotic causes.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of > 50% carotid artery stenosis based on documented imaging tests (Duplex US, CT angiography, magnetic resonance angiography, or conventional angiography)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has documented imaging showing 80% stenosis of the right internal carotid artery and 90% stenosis of the left ICA, which exceeds the >50% requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ischemic stroke:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of a prior cerebrovascular accident (CVA), which is classified as an ischemic stroke.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of recent or previous documented ischemic stroke not due to atrial fibrillation, endocarditis, or systemic hypoperfusion/hypotension, being treated with low-dose aspirin",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "While the patient has a history of ischemic stroke, there is no indication that it was treated with low-dose aspirin, which is a requirement for this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Inhabitant of Tehran province",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient a resident of Tehran province?"
+    },
+    {
+      "criterion": "Willing to participate and able to provide written informed consent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient able to provide written informed consent as assessed by a standardized consent competency evaluation?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Any other conditions that make the participants unsuitable for recruitment or fo",
+    "EXCLUSION UNCLEAR: Not having aspirin as part of the planned durable treatment regimen",
+    "EXCLUSION UNCLEAR: Inability to receive/read text messages/phone calls by personal mobile phone (or",
+    "EXCLUSION UNCLEAR: The full list of exclusion criteria is provided in the study protocol"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6154
+}

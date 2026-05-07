@@ -1,0 +1,134 @@
+{
+  "nct_id": "NCT00345345",
+  "trial_title": "Alemtuzumab (Campath) to Treat T-Large Granular Lymphocyte Leukemia",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This study will examine the use of alemtuzumab (Campath) in patients with T cell large granular lymphocytic leukemia (T-LGL). Patients with T-LGL often have reduced white blood cells, red blood cells and platelets, and increased numbers of abnormal cells called large granular lymphocytes (LGLs). Patients may have recurrent infections, anemia, or abnormal bleeding. Campath destroys specific parts of the abnormal LGLs, which interfere with the production of normal blood cells. This study will dete",
+  "eligibility_table": [
+    {
+      "criterion": "Clinical history supportive of the diagnosis of T-LGL leukemia (i.e. a history of cytopenias with peripheral blood morphologic evidence of LGLs)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide specific evidence of cytopenias or peripheral blood morphologic evidence of LGLs.",
+      "clinical_question": "Does the patient have peripheral blood morphologic evidence of large granular lymphocytes (LGLs) with a documented history of cytopenias?"
+    },
+    {
+      "criterion": "Immunophenotypic studies of peripheral blood showing an increased population of T-LGLs (suggested by staining with CD3+, CD8+ and CD16+ or CD57+) or gammadelta T cells",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on immunophenotypic studies of peripheral blood showing T-LGLs or gammadelta T cells.",
+      "clinical_question": "Does the immunophenotypic study of the patient's peripheral blood show an increased population of T-LGLs defined as ≥20% of CD3+, CD8+, and CD16+ or CD57+ cells?"
+    },
+    {
+      "criterion": "Restricted or clonal rearrangement of the T-cell receptor by PCR AND one or more of the following:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No data on T-cell receptor rearrangement by PCR is provided.",
+      "clinical_question": "Has the patient undergone PCR testing to confirm the presence of a restricted or clonal rearrangement of the T-cell receptor?"
+    },
+    {
+      "criterion": "Severe neutropenia (less than 500 neutrophils/microliter)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's neutrophil count is not specified, so it is unclear if it is less than 500.",
+      "clinical_question": "Does the patient have a neutrophil count of less than 500 neutrophils/microliter?"
+    },
+    {
+      "criterion": "Severe thrombocytopenia (less than 20,000 platelets/microliter), or moderate thrombocytopenia (less than 50,000 platelets/microliter) with active bleeding",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Platelet counts are not provided, making it impossible to assess for severe or moderate thrombocytopenia.",
+      "clinical_question": "Does the patient have a platelet count of less than 20,000 platelets/microliter or less than 50,000 platelets/microliter with active bleeding?"
+    },
+    {
+      "criterion": "Symptomatic anemia with a hemoglobin less than 9 g/dL or red blood cell transfusion requirement of greater than 2 units/month for two months prior to initiation of Campath",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no hemoglobin level provided to determine if the patient has symptomatic anemia.",
+      "clinical_question": "Is the patient's hemoglobin level currently less than 9 g/dL?"
+    },
+    {
+      "criterion": "Ages 18-85 (both inclusive)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ages 85-18 (both inclusive)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 <= 85.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A reactive LGL lymphocytosis to a viral infection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No indication of a reactive LGL lymphocytosis due to a viral infection is mentioned.",
+      "clinical_question": "Has the patient experienced a reactive LGL lymphocytosis with an absolute lymphocyte count ≥5,000 cells/µL following a viral infection?"
+    },
+    {
+      "criterion": "Serologic evidence of HIV infection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no serologic evidence provided regarding HIV infection.",
+      "clinical_question": "Does the patient have serologic evidence of HIV infection as indicated by a positive HIV antibody test?"
+    },
+    {
+      "criterion": "Infection not adequately responding to appropriate therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is given about any infections and their response to therapy.",
+      "clinical_question": "Has the patient experienced persistent infection despite receiving at least two appropriate courses of antibiotic therapy?"
+    },
+    {
+      "criterion": "Previous immunosuppressive therapy with alemtuzumab",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has received Campath, but it is unclear if they have had previous immunosuppressive therapy with alemtuzumab.",
+      "clinical_question": "Has the patient previously received alemtuzumab as part of their immunosuppressive therapy?"
+    },
+    {
+      "criterion": "History of carcinoma that is not considered cured (excluding non-melanoma skin carcinoma)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of CLL and Richter's transformation, but there is no specific mention of a carcinoma that is not considered cured. More information is needed to assess this criterion.",
+      "clinical_question": "Has the patient been diagnosed with any carcinoma that is not considered cured, excluding non-melanoma skin carcinoma?"
+    },
+    {
+      "criterion": "Moribund status or concurrent hepatic, renal, cardiac, neurologic, pulmonary, infectious, or metabolic disease of such severity that it would preclude the subject's ability to tolerate protocol therapy or that death within 7-10 days is likely",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has an excellent performance status, but the presence of multiple conditions raises concerns about overall health. Further details on hepatic, renal, cardiac, neurologic, pulmonary, infectious, or metabolic diseases are required.",
+      "clinical_question": "Does the patient have any concurrent hepatic, renal, cardiac, neurologic, pulmonary, infectious, or metabolic disease that would preclude the ability to tolerate protocol therapy or indicate a likelihood of death within 7-10 days?"
+    },
+    {
+      "criterion": "Current pregnancy or unwilling to take oral contraceptives or refrain from pregnancy if of childbearing potential",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and thus not applicable for pregnancy-related criteria. However, the willingness to take contraceptives is not relevant.",
+      "clinical_question": "Is the patient currently pregnant or has he expressed an unwillingness to take oral contraceptives or refrain from pregnancy?"
+    },
+    {
+      "criterion": "Not able to understand the investigational nature of the study or give informed consent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ability to understand the study or give informed consent. This criterion cannot be assessed without further details.",
+      "clinical_question": "Can the patient accurately explain the purpose and potential risks of participating in the Alemtuzumab trial in their own words?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: A reactive LGL lymphocytosis to a viral infection",
+    "EXCLUSION UNCLEAR: Serologic evidence of HIV infection",
+    "EXCLUSION UNCLEAR: Infection not adequately responding to appropriate therapy",
+    "EXCLUSION UNCLEAR: Previous immunosuppressive therapy with alemtuzumab",
+    "EXCLUSION UNCLEAR: History of carcinoma that is not considered cured (excluding non-melanoma skin c",
+    "EXCLUSION UNCLEAR: Moribund status or concurrent hepatic, renal, cardiac, neurologic, pulmonary, in",
+    "EXCLUSION UNCLEAR: Current pregnancy or unwilling to take oral contraceptives or refrain from pregn",
+    "EXCLUSION UNCLEAR: Not able to understand the investigational nature of the study or give informed ",
+    "LOW INCLUSION MATCH: only 2 of 8 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.125
+}

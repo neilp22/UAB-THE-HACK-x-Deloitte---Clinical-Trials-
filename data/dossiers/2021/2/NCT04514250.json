@@ -1,0 +1,176 @@
+{
+  "nct_id": "NCT04514250",
+  "trial_title": "Stress Aortic Valve Index for Assessing Risk in Aortic Valve Stenosis Patients",
+  "phase": "",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "Discrepancies exist among aortic stenosis severity classification, patient symptom burden, and - in some cases - even survival. The new Stress Aortic Valve Index (SAVI) metric correlates better with transvalvular flow and might be a better predictor of symptoms and prognosis.\n\nThe current study will demonstrate the value of SAVI (both non-invasive and invasive) in patients with moderate aortic stenosis.\n\nThe population will consist of subjects at least 50 years old with moderate aortic stenosis ",
+  "eligibility_table": [
+    {
+      "criterion": "Age ≥ 50 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient's age ≥ 50 years?"
+    },
+    {
+      "criterion": "Moderate aortic stenosis confirmed in the past 3 months by standard echocardiographic evaluation: aortic valve area >1.0 cm2 plus either maximal velocity 2.5-3.9 m/s or mean gradient 15-39 mmHg",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe aortic stenosis, not moderate, as indicated by the EF of 25% and other hemodynamic parameters.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to undergo exercise stress testing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The ability to undergo exercise stress testing is not explicitly mentioned in the profile.",
+      "clinical_question": "Can the patient achieve a peak exercise capacity of ≥ 5 METs during a standardized exercise stress test?"
+    },
+    {
+      "criterion": "Ability to understand and the willingness to provide written informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and can provide written informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A potential subject who meets any of the following criteria will be excluded from participation in this study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The exclusion criteria are not fully assessed without specific details on the patient's coronary status.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (EF) of less than 30%?"
+    },
+    {
+      "criterion": "Any hemodynamic criterion for severe AS: maximal velocity >= 4 m/s, mean gradient >= 40mmHg, aortic valve area <= 1 cm2",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient meets the hemodynamic criteria for severe AS, which is an exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Percutaneous coronary intervention or coronary artery bypass grafting in the past three months, or have revascularization planned in the near future",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding recent coronary interventions.",
+      "clinical_question": "Has the patient undergone percutaneous coronary intervention or coronary artery bypass grafting in the past three months?"
+    },
+    {
+      "criterion": "Known, unrevascularized, and severe coronary artery disease (for example a 90% diameter stenosis or FFR<0.7 in the proximal left anterior descending artery)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has significant coronary artery disease as indicated by the presence of moderate heterogeneous plaque.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Impaired left ventricular function (ejection fraction <50%)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction currently measured at less than 50%?"
+    },
+    {
+      "criterion": "Unicuspid, bicuspid, or non-calcified aortic valve observed during echocardiography (note that later cusp fusion noted during study-related cardiac imaging will not exclude a subject)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a bicuspid aortic valve, which is an exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe aortic regurgitation, mitral valve disease, tricuspid regurgitation, or a significant intracardiac shunt",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has 2+ aortic insufficiency, which indicates severe aortic regurgitation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Co-existing hypertrophic cardiomyopathy or severe septal hypertrophy >15mm",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the presence of hypertrophic cardiomyopathy or septal hypertrophy.",
+      "clinical_question": "Does the patient have a septal thickness measurement greater than 15mm on echocardiogram?"
+    },
+    {
+      "criterion": "Persistent atrial fibrillation with uncontrolled ventricular response",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention atrial fibrillation, but the presence of severe aortic stenosis and worsening LV function raises concerns about potential arrhythmias.",
+      "clinical_question": "Is the patient's heart rate consistently above 100 beats per minute during episodes of persistent atrial fibrillation?"
+    },
+    {
+      "criterion": "Recent (within 6 weeks) acute coronary syndrome",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a recent acute coronary syndrome, but the patient's severe cardiac conditions could suggest a history of cardiac events.",
+      "clinical_question": "Has the patient experienced an acute coronary syndrome event within the last 6 weeks?"
+    },
+    {
+      "criterion": "Estimated glomerular filtration rate ≤30 mL/min or end-stage renal disease on replacement therapy (dialysis)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for renal function are not provided, making it unclear if the eGFR is above or below the threshold.",
+      "clinical_question": "Is the patient's estimated glomerular filtration rate ≤30 mL/min?"
+    },
+    {
+      "criterion": "Severe COPD GOLD stage 3 or 4, home oxygen dependence, or ≥2 pulmonary inhalers (note that well-treated and stable asthma and GOLD stage 1 or 2 COPD is permitted)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a documented history of COPD, but the presence of severe cardiac issues may complicate pulmonary function.",
+      "clinical_question": "Does the patient have a diagnosis of severe COPD classified as GOLD stage 3 or 4, or is he dependent on home oxygen, or does he use ≥2 pulmonary inhalers?"
+    },
+    {
+      "criterion": "Severe comorbid condition with life expectancy <2 years",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's severe aortic stenosis and LV dysfunction suggest a significantly reduced life expectancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior adverse reaction to dobutamine",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of adverse reactions to dobutamine in the profile.",
+      "clinical_question": "Has the patient experienced any adverse reactions to dobutamine in previous treatments?"
+    },
+    {
+      "criterion": "Severe iodine contrast allergy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate any known iodine contrast allergy.",
+      "clinical_question": "Does the patient have a documented history of severe allergic reactions to iodine-based contrast agents?"
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, and there is no indication of pregnancy.",
+      "clinical_question": "Is the patient currently pregnant or has the patient been pregnant within the last 12 months?"
+    },
+    {
+      "criterion": "Severe pulmonary hypertension with systolic pulmonary artery pressure greater than 50mmHg or isolated and symptomatic right ventricular failure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile indicates mild pulmonary artery systolic hypertension, but it does not specify if the systolic pressure exceeds 50mmHg.",
+      "clinical_question": "Is the patient's systolic pulmonary artery pressure greater than 50 mmHg?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: A potential subject who meets any of the following criteria will be excluded fro",
+    "EXCLUSION UNCLEAR: Percutaneous coronary intervention or coronary artery bypass grafting in the pas",
+    "EXCLUSION VIOLATED: Known, unrevascularized, and severe coronary artery disease (for example a 90% d",
+    "EXCLUSION UNCLEAR: Impaired left ventricular function (ejection fraction <50%)",
+    "EXCLUSION VIOLATED: Severe aortic regurgitation, mitral valve disease, tricuspid regurgitation, or a",
+    "EXCLUSION UNCLEAR: Co-existing hypertrophic cardiomyopathy or severe septal hypertrophy >15mm",
+    "EXCLUSION UNCLEAR: Persistent atrial fibrillation with uncontrolled ventricular response",
+    "EXCLUSION UNCLEAR: Recent (within 6 weeks) acute coronary syndrome",
+    "EXCLUSION UNCLEAR: Estimated glomerular filtration rate ≤30 mL/min or end-stage renal disease on re",
+    "EXCLUSION UNCLEAR: Severe COPD GOLD stage 3 or 4, home oxygen dependence, or ≥2 pulmonary inhalers ",
+    "EXCLUSION VIOLATED: Severe comorbid condition with life expectancy <2 years",
+    "EXCLUSION UNCLEAR: Prior adverse reaction to dobutamine",
+    "EXCLUSION UNCLEAR: Severe iodine contrast allergy",
+    "EXCLUSION UNCLEAR: Pregnancy",
+    "EXCLUSION UNCLEAR: Severe pulmonary hypertension with systolic pulmonary artery pressure greater th",
+    "LOW INCLUSION MATCH: only 1 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3333
+}

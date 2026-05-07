@@ -1,0 +1,201 @@
+{
+  "nct_id": "NCT01392079",
+  "trial_title": "Subcutaneous Alemtuzumab Combined With Oral Dexamethasone, Followed by Alemtuzumab Maintenance or Allo-SCT in CLL With 17p- or Refractory to Fludarabine",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Aims and objectives\n\n* Assessment of the efficacy of the study treatment in the study population in terms of response rate, progression-free survival, failure-free survival and overall survival.\n* Acquisition of further data to expand the data base on the toxicity of the study treatment.\n* Assessment of the efficacy of the study treatment in biological risk groups.\n* Assessment of response in terms of minimal residual disease. Number of patients and estimated duration Total no. of patients: 122 ",
+  "eligibility_table": [
+    {
+      "criterion": "The patient has CLL requiring treatment (Binet C or A/B with 'active disease' according to the NCI criteria).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has CLL and has been treated, indicating active disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "One or both of the following is true:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is incomplete; it does not specify what must be true for inclusion.",
+      "clinical_question": "Does the patient have a documented deletion of chromosome 17p or evidence of refractory disease to fludarabine?"
+    },
+    {
+      "criterion": "The patient's disease is refractory to a previous fludarabine-containing regimen, defined as no CR or PR according to NCI criteria, or progression within 6 months after a fludarabine-containing regime.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone multiple treatments and has not achieved CR or PR, indicating refractory disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "17p deletion is present (irrespective of whether previously treated or untreated).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the presence of 17p deletion.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of 17p deletion in their CLL cells?"
+    },
+    {
+      "criterion": "The patient is at least 18 years of age.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The patient's performance status is 0, 1 or 2 on the WHO/ECOG scale.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have a performance status of 0, 1, or 2 on the WHO/ECOG scale?"
+    },
+    {
+      "criterion": "Any previous chemotherapy and/or immunotherapy ended at least four weeks before the first study treatment with alemtuzumab.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's last chemotherapy was more than four weeks ago, meeting the requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The patient has recovered from all previous chemotherapy and/or immunotherapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the patient's recovery status from previous treatments.",
+      "clinical_question": "Has the patient achieved a complete recovery from all previous chemotherapy and/or immunotherapy, as defined by the absence of any treatment-related toxicities and normalization of blood counts?"
+    },
+    {
+      "criterion": "For fertile men and for women of childbearing potential: Adequate contraception (oral contraceptives, intrauterine device or barrier method in conjunction with spermicidal jelly).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient’s fertility status and contraception use are not specified.",
+      "clinical_question": "Is the patient currently using an adequate contraception method, such as an oral contraceptive, intrauterine device, or barrier method in conjunction with spermicidal jelly?"
+    },
+    {
+      "criterion": "The patient has given written informed consent to participate in the study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's consent.",
+      "clinical_question": "Has the patient signed and dated the written informed consent form for participation in the study?"
+    },
+    {
+      "criterion": "The patient has received more than five different prior therapeutic regimens.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received more than five different prior therapeutic regimens for CLL?"
+    },
+    {
+      "criterion": "Any major organ dysfunction is present (e.g. unstable angina pectoris, NYHA III/IV heart insufficiency, significant coronary stenoses, uncontrolled diabetes mellitus, uncontrolled hypertension, pulmonary disease with hypoxemia, renal failure).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about any major organ dysfunction.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) < 50% or NYHA class III/IV heart failure?"
+    },
+    {
+      "criterion": "Any of the following laboratory values are found at the screening visit to be >2 × the upper limit of the normal range: serum creatinine, serum bilirubin, ASAT, ALAT.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There are no lab values provided to assess against the exclusion criteria.",
+      "clinical_question": "Are the patient's serum creatinine, serum bilirubin, ASAT, and ALAT levels all ≤2 × the upper limit of the normal range?"
+    },
+    {
+      "criterion": "Any active infection is present.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention any active infections, but without specific lab values, it cannot be definitively concluded.",
+      "clinical_question": "Does the patient currently exhibit any signs or symptoms of active infection, such as fever, chills, or localized pain?"
+    },
+    {
+      "criterion": "B-PLL or Richter transformation is diagnosed or suspected (e.g. symptoms or cytology).",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of Richter's transformation, which is a form of B-PLL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "There is involvement of the central nervous system.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of central nervous system involvement in the provided profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The patient is known to be positive for human immunodeficiency virus (HIV).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify HIV status; therefore, it cannot be determined.",
+      "clinical_question": "Is the patient's HIV viral load currently undetectable?"
+    },
+    {
+      "criterion": "CMV viremia is present, as demonstrated by pp65 EA or CMV-DNA.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There are no lab values provided to confirm or deny CMV viremia.",
+      "clinical_question": "Has the patient tested positive for CMV viremia with a pp65 EA count of ≥1 or detectable CMV-DNA?"
+    },
+    {
+      "criterion": "The patient has previously been treated with alemtuzumab. (Exception: alemtuzumab used in a 'non-therapeutic' context, i.e. administered as part of a conditioning regimen prior to SCT).",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received Campath, which contains alemtuzumab, as part of their treatment history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The patient has received autologous or allogeneic SCT within the past six months.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding recent autologous or allogeneic stem cell transplant.",
+      "clinical_question": "Has the patient received an autologous or allogeneic stem cell transplant within the past 6 months?"
+    },
+    {
+      "criterion": "The patient is receiving long-term systemic treatment with corticosteroids or has received such treatment in the four weeks before first treatment with alemtuzumab.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify the use of corticosteroids in the past four weeks.",
+      "clinical_question": "Has the patient received long-term systemic treatment with corticosteroids for ≥4 weeks prior to the first treatment with alemtuzumab?"
+    },
+    {
+      "criterion": "Any additional active malignancy is present.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of any additional active malignancies in the profile.",
+      "clinical_question": "Does the patient have any active malignancy, including but not limited to solid tumors or hematologic cancers, diagnosed within the last 5 years?"
+    },
+    {
+      "criterion": "The patient has ever had an anaphylactic response to humanized antibodies.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not provide information regarding any history of anaphylactic responses to humanized antibodies.",
+      "clinical_question": "Has the patient ever experienced an anaphylactic reaction to any humanized monoclonal antibodies?"
+    },
+    {
+      "criterion": "For female patients: The patient is pregnant or lactating.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so the criterion regarding pregnancy or lactation does not apply.",
+      "clinical_question": "Is the patient currently pregnant or lactating?"
+    },
+    {
+      "criterion": "The patient has a history of drug or alcohol abuse that might lead to inability to comply with the protocol.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's history of drug or alcohol abuse, making it unclear whether this criterion is met.",
+      "clinical_question": "Has the patient reported any history of drug or alcohol abuse within the past 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: The patient has received more than five different prior therapeutic regimens.",
+    "EXCLUSION UNCLEAR: Any major organ dysfunction is present (e.g. unstable angina pectoris, NYHA III/",
+    "EXCLUSION UNCLEAR: Any of the following laboratory values are found at the screening visit to be >2",
+    "EXCLUSION UNCLEAR: Any active infection is present.",
+    "EXCLUSION UNCLEAR: The patient is known to be positive for human immunodeficiency virus (HIV).",
+    "EXCLUSION UNCLEAR: CMV viremia is present, as demonstrated by pp65 EA or CMV-DNA.",
+    "EXCLUSION VIOLATED: The patient has previously been treated with alemtuzumab. (Exception: alemtuzuma",
+    "EXCLUSION UNCLEAR: The patient has received autologous or allogeneic SCT within the past six months",
+    "EXCLUSION UNCLEAR: The patient is receiving long-term systemic treatment with corticosteroids or ha",
+    "EXCLUSION UNCLEAR: Any additional active malignancy is present.",
+    "EXCLUSION UNCLEAR: The patient has ever had an anaphylactic response to humanized antibodies.",
+    "EXCLUSION UNCLEAR: For female patients: The patient is pregnant or lactating.",
+    "EXCLUSION UNCLEAR: The patient has a history of drug or alcohol abuse that might lead to inability "
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.28
+}

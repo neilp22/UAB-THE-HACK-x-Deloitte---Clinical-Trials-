@@ -1,0 +1,95 @@
+{
+  "nct_id": "NCT01944020",
+  "trial_title": "Effects of CPAP on Diet, Physical Activity, and Cardiovascular Risk",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "Obstructive sleep apnea (OSA) is characterized by recurrent episodes of partial or complete loss of airflow during sleep, due to narrowing or closure of the upper airway. The resulting hypoxia has many cardiometabolic consequences, and leads to a disruption of sleep quality including reductions in the expression of rapid eye movement (REM) sleep and slow wave sleep (SWS). Patients also frequently experience excessive daytime sleepiness (EDS), which, when present with OSA, defines the clinical en",
+  "eligibility_table": [
+    {
+      "criterion": "clinical diagnosis of obstructive sleep apnea (OSA) and excessive daytime sleepiness (EDS)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a clinical diagnosis of OSA, but excessive daytime sleepiness (EDS) is not explicitly mentioned in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "body mass index of at least 25 kg/m^2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's body mass index (BMI) ≥25 kg/m²?"
+    },
+    {
+      "criterion": "prior treatment with CPAP",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify prior treatment with CPAP, so it is unclear.",
+      "clinical_question": "Has the patient used CPAP therapy for at least 4 hours per night on average over the past month?"
+    },
+    {
+      "criterion": "shift workers",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is a shift worker.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "type 2 diabetes",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has type 2 diabetes (DM2), which is an exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "poorly controlled severe hypertension",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of poorly controlled severe hypertension in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "anemia",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of anemia in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "history of coronary artery disease, transient ischemic attack, stroke",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of coronary artery disease (CAD), which is an exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "currently taking anti-psychotic, anti-depressive, or hypnotic medications",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of schizophrenia, which may indicate current use of anti-psychotic medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "females currently taking hormone replacement therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention hormone replacement therapy, so it is unclear.",
+      "clinical_question": "Is the patient currently taking hormone replacement therapy?"
+    },
+    {
+      "criterion": "females who are pregnant or have given birth within 1 year",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding pregnancy or childbirth within the last year.",
+      "clinical_question": "Is the patient currently pregnant or has she given birth within the last 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: prior treatment with CPAP",
+    "EXCLUSION VIOLATED: history of coronary artery disease, transient ischemic attack, stroke",
+    "EXCLUSION VIOLATED: currently taking anti-psychotic, anti-depressive, or hypnotic medications",
+    "EXCLUSION UNCLEAR: females currently taking hormone replacement therapy",
+    "EXCLUSION UNCLEAR: females who are pregnant or have given birth within 1 year"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.6364
+}

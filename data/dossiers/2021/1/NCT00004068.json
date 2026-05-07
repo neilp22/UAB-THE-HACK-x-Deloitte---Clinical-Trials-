@@ -1,0 +1,266 @@
+{
+  "nct_id": "NCT00004068",
+  "trial_title": "Irinotecan Followed by Radiation Therapy and Temozolomide in Treating Children With Newly Diagnosed Brain Tumor",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Radiation therapy uses high-energy x-rays to damage tumor cells. Combining chemotherapy with radiation therapy may kill more tumor cells.\n\nPURPOSE: Phase II trial to study the effectiveness of irinotecan followed by radiation therapy and temozolomide in treating children who have newly diagnosed brain tumor.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed newly diagnosed brain tumors",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has an anaplastic astrocytoma of the spine, which is not classified as a brain tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Grade III or IV disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Anaplastic astrocytoma is classified as Grade III disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Glioblastoma multiforme",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have glioblastoma multiforme; he has anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma, which qualifies under this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic oligodendroglioma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have anaplastic oligodendroglioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic pleomorphic xanthoastrocytoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have anaplastic pleomorphic xanthoastrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic or malignant oligoastrocytoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have anaplastic or malignant oligoastrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Gemistocytic astrocytoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have gemistocytic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Malignant glioma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Anaplastic astrocytoma is considered a type of malignant glioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Grade II glial tumors in unfavorable locations (i.e., imaging evidence of gliomatosis cerebri and/or bithalamic involvement)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Grade III disease, not Grade II glial tumors.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse pontine gliomas with greater than 2/3 involvement of the pon",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, not diffuse pontine glioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: 3 to 21",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 21.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: 3 to 21",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 45.0 <= 3.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Performance status is not specified; unable to assess without additional information.",
+      "clinical_question": "What is the patient's Eastern Cooperative Oncology Group (ECOG) performance status score?"
+    },
+    {
+      "criterion": "Life expectancy: Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Life expectancy is not specified; unable to assess without additional information.",
+      "clinical_question": "What is the patient's estimated life expectancy based on current clinical guidelines for individuals with unresectable anaplastic astrocytoma of the spine?"
+    },
+    {
+      "criterion": "Hematopoietic: Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hematopoietic criteria are not specified; unable to assess without additional information.",
+      "clinical_question": "Has the patient experienced a hematopoietic adverse event, such as a decrease in hemoglobin levels to <10 g/dL or a platelet count <100,000/mm³, during the course of treatment?"
+    },
+    {
+      "criterion": "WBC greater than 2,500/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a white blood cell count greater than 2,500/mm^3?"
+    },
+    {
+      "criterion": "Platelet count greater than 100,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count greater than 100,000/mm^3?"
+    },
+    {
+      "criterion": "Hemoglobin greater than 8.0 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current hemoglobin level greater than 8.0 g/dL?"
+    },
+    {
+      "criterion": "Bilirubin no greater than 2.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level currently ≤2.5 mg/dL?"
+    },
+    {
+      "criterion": "SGOT/SGPT less than 5 times normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "SGOT/SGPT levels are not provided; unable to assess without additional information.",
+      "clinical_question": "Is the patient's SGOT/SGPT level less than 5 times the normal range?"
+    },
+    {
+      "criterion": "Creatinine no greater than 2.0 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level currently ≤2.0 mg/dL?"
+    },
+    {
+      "criterion": "Not pregnant",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Pregnancy status is not specified; unable to assess without additional information.",
+      "clinical_question": "Is the patient currently pregnant, as confirmed by a recent pregnancy test?"
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Negative pregnancy test status is not provided; unable to assess without additional information.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Contraceptive use is not specified; unable to assess without additional information.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a barrier method, hormonal method, or intrauterine device?"
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "HIV status is not provided; unable to assess without additional information.",
+      "clinical_question": "Is the patient currently HIV negative as confirmed by a recent laboratory test?"
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple prior therapies including temozolomide and Avastin, which may exceed the trial's limits on prior concurrent therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biologic therapy:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently receiving Avastin, which is a biologic therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is not specified, making it unclear how to assess eligibility.",
+      "clinical_question": "Has the patient experienced a measurable reduction in tumor size following the initial treatment with irinotecan and prior to the start of radiation therapy?"
+    },
+    {
+      "criterion": "Chemotherapy:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple cycles of chemotherapy, including temozolomide and CPT-11, which disqualifies them.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any prior chemotherapy treatments before the current regimen of temozolomide and CPT-11?"
+    },
+    {
+      "criterion": "Endocrine therapy:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on high-dose steroids, which indicates they are receiving endocrine therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior corticosteroids allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Prior corticosteroids are allowed, and the patient is currently on high-dose steroids.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received prior radiotherapy as part of their treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No more than 28 days since prior definitive surgery for brain tumor",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has had prior treatments including radiation, which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concurrent anticonvulsants allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is on concurrent anticonvulsants, so this criterion is met.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 7 of 36 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5833
+}

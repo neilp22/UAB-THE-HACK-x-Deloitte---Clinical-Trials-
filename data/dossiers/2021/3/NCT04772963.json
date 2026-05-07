@@ -1,0 +1,28 @@
+{
+  "nct_id": "NCT04772963",
+  "trial_title": "Genetics of Central Nervous System Arteriovenous Malformations (GENE-MAV)",
+  "phase": "",
+  "status": "RECRUITING",
+  "brief_summary": "Cerebral and medullary arteriovenous malformations (AVMs) lead to arterial and venous networks to communicate pathologically, creating an arteriovenous shunt. The occurrence of intracranial haemorrhage is the most important prognostic factor of AVMs because it is associated with a significant morbidity and mortality. The genetic, molecular and cellular mechanisms that cause vascular malformations of the central nervous system are partially known and the influence of genetic damage on the prognos",
+  "eligibility_table": [
+    {
+      "criterion": "Patient with a vascular malformation of the cerebral or medullary identified on diagnostic imaging (angio-CT, angio-MRI or diagnostic angiography) for which clinical monitoring alone or intervention (endovascular treatment, surgery or radiosurgery) is planned in the centres participating in the research.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has an arteriovenous malformation (AVM), which is a type of vascular malformation, and it is implied that clinical monitoring or intervention is planned due to the significant findings.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnant, parturient or breastfeeding woman",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently pregnant, parturient, or breastfeeding?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Pregnant, parturient or breastfeeding woman"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

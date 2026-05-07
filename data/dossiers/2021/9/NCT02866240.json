@@ -1,0 +1,148 @@
+{
+  "nct_id": "NCT02866240",
+  "trial_title": "Safety and Therapeutic Measures of Tdcs in Patients With Refractory Focal Epilepsy",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "This is a single site, non-randomized, prospective, open-label, interventional pilot/feasibility study. Patients recruited will have medically-refractory focal neocortical epilepsy, defined on the basis of presence of focal spikes and (if available) focal seizure onsets originating from the lateral cortical surface of any lobe. All patients and referring physicians will be requested to maintain their current antiepileptic drugs throughout the study with changes after enrollment permitted only to",
+  "eligibility_table": [
+    {
+      "criterion": "9 years old or older",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 13.0 >= 9.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "An established diagnosis of medically-refractory neocortical epilepsy (as determined by the referring clinician), with a clearly defined seizure focus.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of focal epilepsy but lacks clear evidence of medically-refractory neocortical epilepsy as defined by the referring clinician.",
+      "clinical_question": "Has the patient experienced ≥2 unprovoked seizures within the last 12 months despite being on appropriate antiepileptic medication?"
+    },
+    {
+      "criterion": "Diagnosis of epilepsy with focal seizures with or without secondary generalization (International League Against Epilepsy classification). Diagnosis established by clinical history and an electroencephalogram consistent with localization-related epilepsy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of focal epilepsy with secondary generalization, supported by clinical history, but EEG reports are pending.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Continued seizures despite adequate dosage in trials of at least 2 or more antiepileptic medications within approximately the last 3 years.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not had seizures for 20 years prior to the recent onset at age 13, indicating inadequate trials of antiepileptic medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least one clearly identified and localizable epileptogenic zone from which 80% or more seizures arise, as defined by the referring clinician.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is insufficient information regarding the identification of a localizable epileptogenic zone as defined by the referring clinician.",
+      "clinical_question": "Is there a clearly identified and localizable epileptogenic zone from which at least 80% of the patient's seizures arise, as defined by the referring clinician?"
+    },
+    {
+      "criterion": "Currently on 1-4 anti-epileptic drugs (AEDs) with no changes in antiepileptic drug doses in the 3 weeks prior to enrollment in the study and no planned dose changes during the trial and through the primary endpoint",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on multiple AEDs with no reported changes in doses in the last 3 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A clinical or research MRI scan that is suitable for navigated brain stimulation (NBS) and generation of electrical fields",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "MRI suitability for navigated brain stimulation is uncertain without specific details on the MRI scan.",
+      "clinical_question": "Does the patient have an MRI scan that demonstrates sufficient anatomical detail and resolution to allow for navigated brain stimulation and generation of electrical fields?"
+    },
+    {
+      "criterion": "A reported average of at least 3 seizures per month (focal or secondarily generalized) over the three months prior to enrollment, and a minimum of 4 seizures recorded during the 8-week baseline period, with no 21-day seizure-free period during the 8 week baseline",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not reported an average of 3 seizures per month over the last three months, and the seizure history is unclear.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Written informed consent (and assent when applicable) obtained from subject or subject's legal representative and ability for subject to comply with the requirements of the study.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is a minor, and consent can be obtained from a legal representative, with the ability to comply with study requirements.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnant, breastfeeding, or unwilling to practice birth control during participation in the study. All female participants of child bearing age are required to have a pregnancy test. Additionally, all females of childbearing potential will be required to use an effective method of birth control including: oral hormonal contraceptives; implanted hormonal contraceptives, diaphragm with spermicide; condoms; intra-uterine device; abstinence.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is male and does not fall under the criteria for pregnancy or birth control requirements.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Presence of a condition or abnormality that in the opinion of the Investigator would compromise the safety of the patient or the quality of the data.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The presence of severe intellectual disability and other conditions may compromise the safety of the patient in the trial.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Uncertainty regarding the diagnosis of medically-refractory epilepsy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of seizures and the pending EEG reports create uncertainty regarding the diagnosis of medically-refractory epilepsy.",
+      "clinical_question": "Has the patient experienced ≥2 unprovoked seizures within the last 12 months despite being on appropriate antiepileptic medication?"
+    },
+    {
+      "criterion": "History of Non-epileptic or psychogenic seizures, Primary generalized seizures, Status epilepticus in the last 12 months, Suspicion for or a significant history of syncope, Coexisting significant medical condition that is not in good control, Progressive neurologic disease, Progressive brain disorders, Serious systemic diseases, Symptomatic cerebrovascular disease, Cardiac disease, Chronic skin disease or Damaged skin on scalp that would interfere with tDCS stimulation.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple significant medical conditions, including CHF and epilepsy, which are not in good control.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any cranial metal implants (excluding dental fillings) or medical devices (i.e. cardiac pacemaker, deep brain stimulator, medication infusion pump, cochlear implant, vagus nerve stimulator).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about cranial metal implants or medical devices, making it uncertain.",
+      "clinical_question": "Does the patient have any cranial metal implants or medical devices, such as a cardiac pacemaker or deep brain stimulator?"
+    },
+    {
+      "criterion": "Previous surgeries opening the skull.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about previous surgeries opening the skull, so this criterion cannot be definitively assessed.",
+      "clinical_question": "Has the patient undergone any previous neurosurgical procedures involving skull opening?"
+    },
+    {
+      "criterion": "Active or recent substance abuse or dependence within the past year.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding active or recent substance abuse or dependence.",
+      "clinical_question": "Has the patient experienced any substance abuse or dependence within the past 12 months?"
+    },
+    {
+      "criterion": "No medication is an absolute exclusion from tDCS/TMS. Medications will be reviewed and a decision about inclusion will be made based on the following: patient's past medical history, drug dose, history of recent medication changes or duration of treatment, and combination with other central nervous system (CNS) active drugs. The published TMS guidelines review of medications to be considered with TMS will be taken into consideration.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The medications listed do not have clear exclusion criteria, but further review is needed based on the patient's history.",
+      "clinical_question": "Has the patient been on stable doses of valium, Dilantin, and phenobarbital for at least 4 weeks prior to the tDCS treatment?"
+    },
+    {
+      "criterion": "Any condition that makes the subject, in the opinion of the investigator, unsuitable for the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The investigator's opinion on suitability is not available, making it uncertain.",
+      "clinical_question": "Does the patient have any additional neurological or psychiatric conditions that would classify them as unsuitable for the study according to the investigator's judgment?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Pregnant, breastfeeding, or unwilling to practice birth control during participa",
+    "EXCLUSION VIOLATED: Presence of a condition or abnormality that in the opinion of the Investigator w",
+    "EXCLUSION UNCLEAR: Uncertainty regarding the diagnosis of medically-refractory epilepsy.",
+    "EXCLUSION VIOLATED: History of Non-epileptic or psychogenic seizures, Primary generalized seizures, ",
+    "EXCLUSION UNCLEAR: Any cranial metal implants (excluding dental fillings) or medical devices (i.e. ",
+    "EXCLUSION UNCLEAR: Previous surgeries opening the skull.",
+    "EXCLUSION UNCLEAR: Active or recent substance abuse or dependence within the past year.",
+    "EXCLUSION UNCLEAR: No medication is an absolute exclusion from tDCS/TMS. Medications will be review",
+    "EXCLUSION UNCLEAR: Any condition that makes the subject, in the opinion of the investigator, unsuit"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.5
+}

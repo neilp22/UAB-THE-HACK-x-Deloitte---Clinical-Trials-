@@ -1,0 +1,52 @@
+{
+  "nct_id": "NCT03756454",
+  "trial_title": "Comparing the Effectiveness of IV Bezlotoxumab Versus Placebo in Decreasing Morbidity and Mortality in Patients With Fulminant C. Diff Requiring Surgery.",
+  "phase": "PHASE4",
+  "status": "TERMINATED",
+  "brief_summary": "A new medication, Bezlotoxumab, has been approved for treatment of recurrent Clostridium difficile diarrhea by the U.S. Food and Drug Administration. The way this new medication works, is by binding the toxin produced by C. difficile bacteria and preventing damage to the large bowel. The toxin, and not the bacteria, is responsible for the damage, resulting in the clinical symptoms seen in patients. Sometimes, the infection can make a patient severely ill with organ failure and death. If severe e",
+  "eligibility_table": [
+    {
+      "criterion": "> 18 years old, diagnosed C diff colitis requiring surgical intervention",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CHF previously diagnosed",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention a diagnosis of Congestive Heart Failure (CHF), but without specific medical records, it cannot be definitively confirmed.",
+      "clinical_question": "Does the patient have a documented history of congestive heart failure (CHF) with any recent hospitalization or treatment for this condition?"
+    },
+    {
+      "criterion": "pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is female and aged 55, but there is no information provided regarding pregnancy status.",
+      "clinical_question": "Is the patient currently pregnant or has she been pregnant within the last 30 days?"
+    },
+    {
+      "criterion": "prisoners/ incarcerated",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating that the patient is a prisoner or incarcerated.",
+      "clinical_question": "Is the patient currently incarcerated or has she been incarcerated within the last 12 months?"
+    },
+    {
+      "criterion": "previous administration of IVIG within 30-days of randomization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of recent antibiotic use but there is no mention of previous administration of IVIG within 30 days of randomization.",
+      "clinical_question": "Has the patient received intravenous immunoglobulin (IVIG) within the 30 days prior to randomization?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: CHF previously diagnosed",
+    "EXCLUSION UNCLEAR: pregnancy",
+    "EXCLUSION UNCLEAR: prisoners/ incarcerated",
+    "EXCLUSION UNCLEAR: previous administration of IVIG within 30-days of randomization"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2
+}

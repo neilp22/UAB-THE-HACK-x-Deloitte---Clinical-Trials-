@@ -1,0 +1,394 @@
+{
+  "nct_id": "NCT06101888",
+  "trial_title": "Safety and Effectiveness of TaurusTrio™ Heart Valve System in Patients With Severe Aortic Regurgitation (AR)",
+  "phase": "NA",
+  "status": "RECRUITING",
+  "brief_summary": "To evaluate the safety and effectiveness of the TaurusTrio™ Heart Valve System in a patient population with symptomatic severe AR requiring replacement/repair of their native aortic valve that are at high risk for open surgical aortic valve replacement/repair (SAVR).",
+  "eligibility_table": [
+    {
+      "criterion": "Patients who voluntarily participate and sign the informed consent and are able to comply with the entire trial process",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and likely able to provide informed consent and comply with trial processes.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age ≥ 18 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient aged 18 years or older?"
+    },
+    {
+      "criterion": "Adult subjects with severe AR (Grade ≥ 3) as assessed by echocardiography based on ASE (American Society of Echocardiography) using multiparametric approach",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe aortic stenosis but the profile does not indicate the presence of severe aortic regurgitation (AR Grade ≥ 3).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Jet width ≥ 65% of LVOT",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the jet width of the patient's left ventricular outflow tract (LVOT) ≥ 65%?"
+    },
+    {
+      "criterion": "Vena contracta width of > 6 mm",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the measured vena contracta width in this patient with severe aortic regurgitation?"
+    },
+    {
+      "criterion": "Holodiastolic flow reversal in proximal abdominal/descending aorta",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific lab values provided to assess for holodiastolic flow reversal in the aorta.",
+      "clinical_question": "Does the patient exhibit holodiastolic flow reversal in the proximal abdominal or descending aorta as measured by Doppler ultrasound?"
+    },
+    {
+      "criterion": "Jet deceleration rate/Pressure half time < 200ms",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the jet deceleration rate/pressure half time measured in this patient less than 200 ms?"
+    },
+    {
+      "criterion": "For Grade 3:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Insufficient information provided to determine if the patient meets the criteria for Grade 3 AR.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) of ≤30%?"
+    },
+    {
+      "criterion": "Regurgitant volume ≥ 45-59 ml/beat",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific regurgitant volume data provided to assess if it is ≥ 45-59 ml/beat.",
+      "clinical_question": "What is the patient's measured regurgitant volume in milliliters per beat?"
+    },
+    {
+      "criterion": "Regurgitant fraction ≥ 40-49%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific regurgitant fraction data provided to assess if it is ≥ 40-49%.",
+      "clinical_question": "Is the patient's regurgitant fraction measured at ≥40%?"
+    },
+    {
+      "criterion": "Congenital uni- or bicuspid aortic valve morphology",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a bicuspid aortic valve, which is a congenital condition but does not exclude them from the trial based on the provided criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous prosthetic aortic valve (bioprosthesis or mechanical) implant",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not had a previous prosthetic aortic valve implant.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mitral regurgitation or Tricuspid regurgitation > moderate",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has mild mitral regurgitation (MR), which is not > moderate, thus not meeting exclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Clinically significant coronary artery disease (CAD) requiring revascularization within 30 days prior to index procedure, or planned CAD revascularization procedure within 12 months after index procedure",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has significant cardiac history but no indication of clinically significant CAD requiring revascularization within the specified timeframes.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Echocardiographic evidence of left ventricular thrombus",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No echocardiographic evidence of left ventricular thrombus is provided in the profile.",
+      "clinical_question": "Does the patient have echocardiographic evidence of left ventricular thrombus present?"
+    },
+    {
+      "criterion": "Endocarditis within 180 days prior to index procedure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of endocarditis in the patient's history.",
+      "clinical_question": "Has the patient experienced endocarditis within 180 days prior to the index procedure?"
+    },
+    {
+      "criterion": "Hypertrophic cardiomyopathy with or without obstruction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have hypertrophic cardiomyopathy; instead, he has severe aortic stenosis.",
+      "clinical_question": "Does the patient have a documented diagnosis of hypertrophic cardiomyopathy with a left ventricular wall thickness ≥15 mm?"
+    },
+    {
+      "criterion": "Severe pulmonary hypertension (systolic PA pressure > 80 mmHg)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's systolic pulmonary artery pressure greater than 80 mmHg?"
+    },
+    {
+      "criterion": "Severe RV dysfunction as assessed clinically and by echo",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe global hypokinesis and a low ejection fraction, indicating severe RV dysfunction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severely reduced left ventricular ejection fraction (LVEF < 25%)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) currently measured at less than 25%?"
+    },
+    {
+      "criterion": "EROA ≥ 0.2-0.29 cm2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "EROA value is not provided in the profile.",
+      "clinical_question": "Is the effective regurgitant orifice area (EROA) of the patient's aortic valve measured between 0.2 cm² and 0.29 cm²?"
+    },
+    {
+      "criterion": "Regurgitant volume ≥ 60 ml/beat",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Regurgitant volume is not specified in the profile.",
+      "clinical_question": "What is the patient's measured regurgitant volume in milliliters per beat?"
+    },
+    {
+      "criterion": "Regurgitant fraction≥50%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Regurgitant fraction is not provided in the profile.",
+      "clinical_question": "What is the patient's current regurgitant fraction percentage?"
+    },
+    {
+      "criterion": "EROA ≥ 0.3 cm2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "EROA value is not provided in the profile.",
+      "clinical_question": "What is the patient's effective regurgitant orifice area (EROA) measured in cm²?"
+    },
+    {
+      "criterion": "Patients who have symptoms obviously caused by Aortic Regurgitation, such as dyspnea, chest pain, NYHA Class II or higher;",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has symptoms such as dyspnea and has a low ejection fraction, indicating significant aortic regurgitation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients who are unsuitable for conventional surgery but needs TAVR, evaluated by the cardiac team (including at least one interventional cardiologist and one cardiovascular surgeon)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is unsuitable for conventional surgery due to severe aortic stenosis and LV dysfunction, indicating a need for TAVR.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient has suitable anatomy to accommodate the insertion and delivery of the JenaValve Trilogy™ Heart Valve System, evaluated by core laboratory;",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's anatomy suitability for JenaValve Trilogy™ Heart Valve System is not explicitly stated in the profile.",
+      "clinical_question": "Does the patient have a left ventricular outflow tract (LVOT) diameter of at least 20 mm to accommodate the JenaValve Trilogy™ Heart Valve System?"
+    },
+    {
+      "criterion": "Aortic annular perimeter derived diameter of <21.0 mm or > 28.6 mm or perimeter <66.0 mm or >90 mm (assessed by Multi-Detector CT measurement);",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific measurements of aortic annular perimeter provided; cannot assess eligibility.",
+      "clinical_question": "Is the patient's aortic annular perimeter derived diameter measured by Multi-Detector CT between 21.0 mm and 28.6 mm, and is the perimeter between 66.0 mm and 90 mm?"
+    },
+    {
+      "criterion": "Aortic annulus angulation > 70° (assessed by Multi-Detector CT measurement);",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on aortic annulus angulation available; cannot determine eligibility.",
+      "clinical_question": "Is the aortic annulus angulation measured by Multi-Detector CT greater than 70°?"
+    },
+    {
+      "criterion": "Straight length of ascending aorta of < 55 mm;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Straight length of ascending aorta is not mentioned; eligibility cannot be assessed.",
+      "clinical_question": "Is the straight length of the patient's ascending aorta measured to be less than 55 mm?"
+    },
+    {
+      "criterion": "Significant disease of ascending aorta, including ascending aortic aneurysm (defined as maximal luminal diameter of 50 mm or greater) or atheroma (including if thick [>5 mm], protruding or ulcerated)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No details on the presence of significant disease of ascending aorta or atheroma provided.",
+      "clinical_question": "Does the patient have a maximal luminal diameter of the ascending aorta of 50 mm or greater?"
+    },
+    {
+      "criterion": "Need for urgent or emergent TAVR procedure for any reason;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No indication of need for urgent or emergent TAVR procedure is provided.",
+      "clinical_question": "Has the patient experienced any acute decompensation requiring hospitalization or urgent intervention for aortic regurgitation within the last 30 days?"
+    },
+    {
+      "criterion": "Cardiogenic shock or hemodynamic instability requiring inotropic support or ventricular assist device within 30 days prior to index procedure;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on cardiogenic shock or hemodynamic instability within 30 days prior to procedure.",
+      "clinical_question": "Has the patient experienced cardiogenic shock or required inotropic support or a ventricular assist device within 30 days prior to the index procedure?"
+    },
+    {
+      "criterion": "Myocardial infarction < 30 days prior to index procedure;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No record of myocardial infarction within the specified timeframe is provided.",
+      "clinical_question": "Has the patient experienced a myocardial infarction within the 30 days prior to the index procedure?"
+    },
+    {
+      "criterion": "Cerebrovascular event (TIA, stroke) < 180 days prior to index procedure;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No details on cerebrovascular events within the specified timeframe are available.",
+      "clinical_question": "Has the patient experienced any cerebrovascular events, such as a transient ischemic attack or stroke, within the 180 days prior to the index procedure?"
+    },
+    {
+      "criterion": "Patients with common carotid artery or internal carotid artery or vertebral artery stenosis (>70%);",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on carotid artery stenosis is provided; cannot assess eligibility.",
+      "clinical_question": "Does the patient have common carotid artery, internal carotid artery, or vertebral artery stenosis greater than 70%?"
+    },
+    {
+      "criterion": "Patients with severe coagulopathy;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided on coagulopathy; cannot assess.",
+      "clinical_question": "Does the patient have an INR ≥1.5 or a platelet count <50,000/mm³?"
+    },
+    {
+      "criterion": "Severe renal insufficiency (GFR < 30 ml/min) at Screening, OR renal disease requiring renal replacement therapy within 180 days prior to index procedure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No GFR or renal function data provided; cannot assess.",
+      "clinical_question": "Does the patient have a GFR of less than 30 ml/min at screening?"
+    },
+    {
+      "criterion": "Blood dyscrasias as defined: leukopenia (WBC < 3000/mm³), or thrombocytopenia (platelets < 90,000/µl) or anemia (Men: Hgb < 8.1 g/dl; Women: Hgb < 7.4 g/dl)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess for blood dyscrasias.",
+      "clinical_question": "Does the patient have a white blood cell count (WBC) less than 3000/mm³, a platelet count less than 90,000/µl, or a hemoglobin level less than 8.1 g/dl?"
+    },
+    {
+      "criterion": "Blood dyscrasias as defined: leukopenia (WBC < 3000/mm³), or thrombocytopenia (platelets < 90,000/µl) or anemia (Men: Hgb < 8.1 g/dl; Women: Hgb < 7.4 g/dl)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess for blood dyscrasias.",
+      "clinical_question": "Does the patient have a white blood cell count (WBC) less than 3000/mm³, a platelet count less than 90,000/µl, or a hemoglobin level less than 8.1 g/dl?"
+    },
+    {
+      "criterion": "Blood dyscrasias as defined: leukopenia (WBC < 3000/mm³), or thrombocytopenia (platelets < 90,000/µl) or anemia (Men: Hgb < 8.1 g/dl; Women: Hgb < 7.4 g/dl)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess for blood dyscrasias.",
+      "clinical_question": "Does the patient have a white blood cell count (WBC) less than 3000/mm³, a platelet count less than 90,000/µl, or a hemoglobin level less than 8.1 g/dl?"
+    },
+    {
+      "criterion": "Blood dyscrasias as defined: leukopenia (WBC < 3000/mm³), or thrombocytopenia (platelets < 90,000/µl) or anemia (Men: Hgb < 8.1 g/dl; Women: Hgb < 7.4 g/dl)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess for blood dyscrasias.",
+      "clinical_question": "Does the patient have a white blood cell count (WBC) less than 3000/mm³, a platelet count less than 90,000/µl, or a hemoglobin level less than 8.1 g/dl?"
+    },
+    {
+      "criterion": "Active peptic ulcer or upper gastrointestinal bleeding < 90 days prior to index procedure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on recent peptic ulcer or GI bleeding.",
+      "clinical_question": "Has the patient experienced an active peptic ulcer or upper gastrointestinal bleeding within the last 90 days prior to the index procedure?"
+    },
+    {
+      "criterion": "Known allergies to to heparin, aspirin, ticlopidine, Clopidogrel, Nitroglycerin and other drugs, contrast agents, nitinol shape memory alloy, tantalum or porcine products",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on allergies provided.",
+      "clinical_question": "Does the patient have any known allergies to heparin, aspirin, ticlopidine, Clopidogrel, Nitroglycerin, contrast agents, nitinol shape memory alloy, tantalum, or porcine products?"
+    },
+    {
+      "criterion": "Contraindication to intraoperative transesophageal echocardiography and/or Multi-Detector CT (MDCT) scan",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on contraindications for echocardiography or MDCT.",
+      "clinical_question": "Does the patient have a documented contraindication to intraoperative transesophageal echocardiography or a Multi-Detector CT scan?"
+    },
+    {
+      "criterion": "Estimated life-expectancy of < 24 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on estimated life expectancy provided.",
+      "clinical_question": "Does the patient have an estimated life expectancy of less than 24 months based on current clinical assessments and prognostic indicators?"
+    },
+    {
+      "criterion": "Patient is enrolled in another investigational medical device or drug study which has not completed the required primary endpoint follow-up. (Note: Patients involved in a long-term surveillance phase of another study are eligible for enrollment in this study)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient being enrolled in another investigational study, so it cannot be determined if this criterion is met or not.",
+      "clinical_question": "Is the patient currently enrolled in any investigational medical device or drug study that has not completed the required primary endpoint follow-up?"
+    },
+    {
+      "criterion": "Other medical, social, or psychological conditions that in the opinion of an Investigator precludes the patient from providing appropriate informed consent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to provide informed consent is not explicitly stated, and while there are several medical conditions, it is unclear if they preclude informed consent.",
+      "clinical_question": "Does the patient demonstrate sufficient cognitive function to understand the risks and benefits of the TaurusTrio™ Heart Valve System, as assessed by a standardized informed consent competency evaluation?"
+    },
+    {
+      "criterion": "Severe dementia (resulting in either inability to provide informed consent for the trial/procedure, prevents independent lifestyle outside of a chronic care facility, or will fundamentally complicate rehabilitation from the procedure or compliance with follow-up assessments)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of severe dementia in the patient's profile, but without specific cognitive assessment details, it cannot be definitively assessed.",
+      "clinical_question": "Does the patient exhibit cognitive impairment severe enough to prevent them from providing informed consent for the trial or complicate rehabilitation and follow-up assessments?"
+    },
+    {
+      "criterion": "Unable to comply with follow-up requirements",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to comply with follow-up requirements is not addressed in the provided information, making it uncertain.",
+      "clinical_question": "Has the patient provided a commitment to attend all scheduled follow-up appointments for the next 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Mitral regurgitation or Tricuspid regurgitation > moderate",
+    "EXCLUSION VIOLATED: Clinically significant coronary artery disease (CAD) requiring revascularization",
+    "EXCLUSION UNCLEAR: Echocardiographic evidence of left ventricular thrombus",
+    "EXCLUSION UNCLEAR: Endocarditis within 180 days prior to index procedure",
+    "EXCLUSION UNCLEAR: Hypertrophic cardiomyopathy with or without obstruction",
+    "EXCLUSION UNCLEAR: Severe pulmonary hypertension (systolic PA pressure > 80 mmHg)",
+    "EXCLUSION UNCLEAR: Severely reduced left ventricular ejection fraction (LVEF < 25%)",
+    "EXCLUSION UNCLEAR: Aortic annular perimeter derived diameter of <21.0 mm or > 28.6 mm or perimeter ",
+    "EXCLUSION UNCLEAR: Aortic annulus angulation > 70° (assessed by Multi-Detector CT measurement);",
+    "EXCLUSION UNCLEAR: Straight length of ascending aorta of < 55 mm;",
+    "EXCLUSION UNCLEAR: Significant disease of ascending aorta, including ascending aortic aneurysm (def",
+    "EXCLUSION UNCLEAR: Need for urgent or emergent TAVR procedure for any reason;",
+    "EXCLUSION UNCLEAR: Cardiogenic shock or hemodynamic instability requiring inotropic support or vent",
+    "EXCLUSION UNCLEAR: Myocardial infarction < 30 days prior to index procedure;",
+    "EXCLUSION UNCLEAR: Cerebrovascular event (TIA, stroke) < 180 days prior to index procedure;",
+    "EXCLUSION UNCLEAR: Patients with common carotid artery or internal carotid artery or vertebral arte",
+    "EXCLUSION UNCLEAR: Patients with severe coagulopathy;",
+    "EXCLUSION UNCLEAR: Severe renal insufficiency (GFR < 30 ml/min) at Screening, OR renal disease requ",
+    "EXCLUSION UNCLEAR: Blood dyscrasias as defined: leukopenia (WBC < 3000/mm³), or thrombocytopenia (p",
+    "EXCLUSION UNCLEAR: Blood dyscrasias as defined: leukopenia (WBC < 3000/mm³), or thrombocytopenia (p",
+    "EXCLUSION UNCLEAR: Blood dyscrasias as defined: leukopenia (WBC < 3000/mm³), or thrombocytopenia (p",
+    "EXCLUSION UNCLEAR: Blood dyscrasias as defined: leukopenia (WBC < 3000/mm³), or thrombocytopenia (p",
+    "EXCLUSION UNCLEAR: Active peptic ulcer or upper gastrointestinal bleeding < 90 days prior to index ",
+    "EXCLUSION UNCLEAR: Known allergies to to heparin, aspirin, ticlopidine, Clopidogrel, Nitroglycerin ",
+    "EXCLUSION UNCLEAR: Contraindication to intraoperative transesophageal echocardiography and/or Multi",
+    "EXCLUSION UNCLEAR: Estimated life-expectancy of < 24 months",
+    "EXCLUSION UNCLEAR: Patient is enrolled in another investigational medical device or drug study whic",
+    "EXCLUSION UNCLEAR: Other medical, social, or psychological conditions that in the opinion of an Inv",
+    "EXCLUSION UNCLEAR: Severe dementia (resulting in either inability to provide informed consent for t",
+    "EXCLUSION UNCLEAR: Unable to comply with follow-up requirements",
+    "LOW INCLUSION MATCH: only 3 of 17 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.18
+}

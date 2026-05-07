@@ -1,0 +1,385 @@
+{
+  "nct_id": "NCT00089401",
+  "trial_title": "Isolated Hepatic Perfusion With Melphalan in Treating Patients With Unresectable Colorectal Cancer That Has Metastasized to the Liver",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as melphalan, work in different ways to stop tumor cells from dividing so they stop growing or die. Giving chemotherapy drugs in different ways may kill more tumor cells.\n\nPURPOSE: This phase II trial is studying how well isolated hepatic perfusion with melphalan works in treating patients with unresectable colorectal cancer that has metastasized to the liver.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically confirmed colorectal cancer",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a histological or cytological biopsy confirming the diagnosis of colorectal cancer?"
+    },
+    {
+      "criterion": "Metastatic disease limited to the parenchyma of the liver",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have metastatic colorectal cancer confined to the liver with no extrahepatic disease as confirmed by imaging studies?"
+    },
+    {
+      "criterion": "Patients with limited sites of extrahepatic disease AND who have dominant life-limiting disease in the liver are considered eligible provided the extrahepatic sites can be treated with local ablative measures (e.g., resection or external beam radiotherapy)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has Hep C cirrhosis and grade II esophageal varices, but the presence of these conditions makes it unclear if they have limited extrahepatic disease or if the liver disease is dominant.",
+      "clinical_question": "Does the patient have limited sites of extrahepatic disease that can be treated with local ablative measures, such as resection or external beam radiotherapy?"
+    },
+    {
+      "criterion": "No other evidence of unresectable extrahepatic disease by radiological studies",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone radiological studies that confirm the absence of any unresectable extrahepatic disease?"
+    },
+    {
+      "criterion": "Unresectable hepatic disease defined by > 3 sites of disease in the liver, bilobar disease, or tumor abutting major vascular or ductal structures making anatomic resection with liver function preservation impossible",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has cirrhosis, which typically indicates significant liver disease, but the specific criterion of unresectable disease due to > 3 sites or bilobar disease is not clearly met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Measurable disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have measurable disease defined as at least one lesion that can be accurately measured in at least one dimension with a minimum size of 10 mm?"
+    },
+    {
+      "criterion": "Refractory to prior first-line systemic chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received at least one line of systemic chemotherapy for colorectal cancer that was deemed ineffective or resulted in disease progression?"
+    },
+    {
+      "criterion": "Disease progression during or after completion of treatment with an irinotecan- or oxaliplatin-containing regimen for established hepatic metastases",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about prior treatments involving irinotecan or oxaliplatin, making it uncertain if the patient meets this criterion.",
+      "clinical_question": "Has the patient experienced disease progression as defined by a ≥20% increase in the size of target lesions or the appearance of new lesions during or after treatment with an irinotecan- or oxaliplatin-containing regimen?"
+    },
+    {
+      "criterion": "Treatment failure is defined as disease progression evidenced by tumor growth OR new lesions on imaging modalities OR increasing carcinoembryonic antigen (CEA)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's disease progression status is not clearly defined in the provided information, making it difficult to assess treatment failure.",
+      "clinical_question": "Has the patient experienced any tumor growth or new lesions on imaging modalities since the last assessment, and is the carcinoembryonic antigen (CEA) level increasing above the baseline value?"
+    },
+    {
+      "criterion": "18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 60.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ECOG 0-2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Hematocrit > 27.0%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hematocrit levels are not provided, so it is unclear if the patient meets the requirement.",
+      "clinical_question": "Is the patient's current hematocrit level ≥27.0%?"
+    },
+    {
+      "criterion": "Platelet count > 100,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Platelet count is not provided, making it impossible to determine if this criterion is met.",
+      "clinical_question": "Is the patient's current platelet count greater than 100,000/mm^3?"
+    },
+    {
+      "criterion": "WBC > 3,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "WBC count is not provided, so it is unclear if the patient meets this requirement.",
+      "clinical_question": "Does the patient have a white blood cell count (WBC) greater than 3,000/mm^3?"
+    },
+    {
+      "criterion": "Hepatic",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has hepatic disease due to Hep C cirrhosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Bilirubin < 2.0 mg/dL",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has increased total and direct bilirubin, which likely exceeds the threshold of 2.0 mg/dL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PT ≤ 2 seconds of the upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "PT levels are not provided, making it impossible to assess if this criterion is met.",
+      "clinical_question": "Is the patient's prothrombin time (PT) ≤ 2 seconds of the upper limit of normal?"
+    },
+    {
+      "criterion": "ALT and AST elevations secondary to metastatic disease allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has elevated ALT and AST due to Hep C cirrhosis, but there is no indication of metastatic disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic active hepatitis B or C allowed provided there is no evidence of cirrhosis on pathology, radiologic studies, or physical exam",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has biopsy-proven cirrhosis due to Hep C, which disqualifies him from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of veno-occlusive disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of veno-occlusive disease in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No biopsy proven cirrhosis",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has biopsy-proven cirrhosis, which directly contradicts this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No evidence of significant portal hypertension manifested by ascites, esophageal varices on endoscopy, or radiologic studies showing significant collateral vessels around the organs drained by the portal venous system",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has grade II esophageal varices, indicating significant portal hypertension.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other liver condition that would preclude study therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No other liver conditions are mentioned that would preclude study therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Renal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific renal conditions are provided; further information is needed to assess renal eligibility.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine ≤ 1.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level ≤ 1.5 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine clearance > 60 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current creatinine clearance value?"
+    },
+    {
+      "criterion": "Cardiovascular",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific cardiovascular conditions are provided; further information is needed to assess cardiovascular eligibility.",
+      "clinical_question": "Does the patient have a resting heart rate of ≤100 beats per minute and a blood pressure of ≥90/60 mmHg?"
+    },
+    {
+      "criterion": "LVEF ≥ 40%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) ≥ 40% as measured by echocardiogram or cardiac MRI?"
+    },
+    {
+      "criterion": "No ischemic cardiac disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of ischemic cardiac disease in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of congestive heart failure",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no history of congestive heart failure noted in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pulmonary",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about pulmonary conditions or function tests.",
+      "clinical_question": "Does the patient have a pulmonary function test showing FEV1 ≥ 70% of predicted values?"
+    },
+    {
+      "criterion": "Chronic obstructive pulmonary disease or other chronic pulmonary disease allowed provided pulmonary function test ≥ 50% of predicted",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pulmonary function test results available to assess COPD eligibility.",
+      "clinical_question": "Is the patient's pulmonary function test result ≥ 50% of the predicted value?"
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific details provided to determine eligibility under 'Other' criteria.",
+      "clinical_question": "Does the patient have a Child-Pugh score of A or B?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is male and there is no indication of pregnancy or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pregnancy test results provided.",
+      "clinical_question": "Has the patient undergone a negative urine pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "No active infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on active infections available.",
+      "clinical_question": "Does the patient have any signs or symptoms of active infection, such as fever, leukocytosis (WBC count > 10,000 cells/µL), or positive cultures?"
+    },
+    {
+      "criterion": "Weight > 30 kg",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient weigh more than 30 kg?"
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has received prior interferon therapy, which may disqualify them from concurrent therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biologic therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of prior biologic therapy (interferon), which may affect eligibility.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "More than 4 weeks since prior biologic therapy for the malignancy and recovered",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has not recovered from prior biologic therapy as they had no response.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has not received chemotherapy, which is a requirement for this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not specified in the provided information.",
+      "clinical_question": "Does the patient have a Child-Pugh score of A or B?"
+    },
+    {
+      "criterion": "More than 4 weeks since prior chemotherapy for the malignancy and recovered",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior chemotherapy for malignancy is provided.",
+      "clinical_question": "Has the patient completed prior chemotherapy for the malignancy more than 4 weeks ago and demonstrated recovery from any associated side effects?"
+    },
+    {
+      "criterion": "Endocrine therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on endocrine therapy is provided.",
+      "clinical_question": "Has the patient received any form of endocrine therapy for their unresectable colorectal cancer?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Not specified, cannot assess.",
+      "clinical_question": "Does the patient have a Child-Pugh score of A or B?"
+    },
+    {
+      "criterion": "Radiotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior radiotherapy is provided.",
+      "clinical_question": "Has the patient received any form of radiotherapy in the past 6 months?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not specified in the provided information.",
+      "clinical_question": "Does the patient have a Child-Pugh score of A or B?"
+    },
+    {
+      "criterion": "More than 4 weeks since prior radiotherapy for the malignancy and recovered",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior radiotherapy for malignancy is provided.",
+      "clinical_question": "Has the patient completed prior radiotherapy for the malignancy more than 4 weeks ago and has fully recovered?"
+    },
+    {
+      "criterion": "Surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior surgery is provided.",
+      "clinical_question": "Does the patient have a Child-Pugh score of A or B?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not specified in the provided information.",
+      "clinical_question": "Does the patient have a Child-Pugh score of A or B?"
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Not specified, cannot assess.",
+      "clinical_question": "Does the patient have a Child-Pugh score of A or B?"
+    },
+    {
+      "criterion": "No concurrent immunosuppressive drugs",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on lactulose, which is not an immunosuppressive drug, and there is no indication of concurrent immunosuppressive therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent chronic anticoagulation therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not appear to be on any chronic anticoagulation therapy based on the provided medication list.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 10 of 53 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3585
+}

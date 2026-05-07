@@ -1,0 +1,120 @@
+{
+  "nct_id": "NCT03030248",
+  "trial_title": "Vancomycin for C Difficile NAAT+/EIA- Hematology Oncology Patients",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This study will randomized hematology oncology patients with active diarrhea and a NAAT positive/toxin EIA negative to either 14 days of oral vancomycin capsules or placebo. The study is designed to include 30 patients (15 per arm).\n\nOutcomes will include C. difficile load using qPCR, VRE loads, structural and functional microbiome changes and frequency of bowel movements. All endpoints will be measured at several time points including days 0, 14, 21 and 90.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients admitted to the hematology oncology inpatient units at Froedtert Memorial Lutheran Hospital",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's admission status is not specified, so it is unclear if they are in the hematology oncology inpatient units.",
+      "clinical_question": "Has the patient tested positive for C. difficile using NAAT while testing negative on the EIA?"
+    },
+    {
+      "criterion": "New onset of diarrhea during hospitalization",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of C. difficile infection and is likely experiencing new onset diarrhea during hospitalization.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "C. difficile clinical testing showing NAAT positive EIA negative results",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no lab value provided to confirm the C. difficile clinical testing results.",
+      "clinical_question": "Does the patient have a positive C. difficile NAAT result with a negative EIA result?"
+    },
+    {
+      "criterion": "Being unable to consent for self",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to consent is not explicitly stated; further information is needed.",
+      "clinical_question": "Is the patient currently able to communicate their treatment preferences and understand the implications of their medical decisions?"
+    },
+    {
+      "criterion": "Inability to take enteral medications",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to take enteral medications is not specified.",
+      "clinical_question": "Is the patient currently unable to take enteral medications due to gastrointestinal complications or other medical conditions?"
+    },
+    {
+      "criterion": "Unwillingness to enroll in study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's willingness to enroll in the study is not mentioned.",
+      "clinical_question": "Is the patient willing to participate in the study despite having a history of multiple C. difficile infections and current treatment with vancomycin?"
+    },
+    {
+      "criterion": "Patient has a documented allergy to vancomycin",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented allergy to vancomycin provided in the profile.",
+      "clinical_question": "Does the patient have a documented allergic reaction to vancomycin characterized by symptoms such as rash, anaphylaxis, or other severe adverse effects?"
+    },
+    {
+      "criterion": "Patient has a documented life expectancy shorter than treatment course (14 days)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's life expectancy in relation to the treatment course is not documented.",
+      "clinical_question": "Does the patient have a documented life expectancy of less than 14 days based on clinical assessment and prognosis?"
+    },
+    {
+      "criterion": "Patient is unwilling or unable to provide stool samples in the outpatient setting after discharge",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's willingness or ability to provide stool samples after discharge is not mentioned.",
+      "clinical_question": "Is the patient able to provide a stool sample for C. difficile testing within 48 hours of discharge?"
+    },
+    {
+      "criterion": "Diagnosis of C. difficile colitis [NAAT (+) and toxin EIA (+) within 3 months of enrollment)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The diagnosis of C. difficile colitis is not confirmed as the testing results are not provided.",
+      "clinical_question": "Has the patient tested positive for both C. difficile NAAT and toxin EIA within the last 3 months?"
+    },
+    {
+      "criterion": "New onset of abdominal distention within 24 hours prior to the onset of diarrhea during index admission",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of C. difficile infection and is currently experiencing sepsis, but there is no specific information provided about new onset of abdominal distention within the last 24 hours.",
+      "clinical_question": "Did the patient experience new onset of abdominal distention within 24 hours prior to the onset of diarrhea during this index admission?"
+    },
+    {
+      "criterion": "Presence of toxic megacolon",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not explicitly mention toxic megacolon, but given the severity of her conditions, it cannot be ruled out without further information.",
+      "clinical_question": "Does the patient have a colon diameter ≥ 6 cm on abdominal imaging consistent with toxic megacolon?"
+    },
+    {
+      "criterion": "Presence of clinical sepsis. Sepsis will be defined as a Sequential [Sepsis-related] Organ Failure Assessment (SOFA) score of 2 points or more as per 2016 definitions",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently diagnosed with sepsis, which aligns with the exclusion criterion of having a SOFA score of 2 or more.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnancy or lactating",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is a 55-year-old female and there is no indication of pregnancy or lactation in her profile.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Being unable to consent for self",
+    "EXCLUSION UNCLEAR: Inability to take enteral medications",
+    "EXCLUSION UNCLEAR: Unwillingness to enroll in study",
+    "EXCLUSION UNCLEAR: Patient has a documented allergy to vancomycin",
+    "EXCLUSION UNCLEAR: Patient has a documented life expectancy shorter than treatment course (14 days)",
+    "EXCLUSION UNCLEAR: Patient is unwilling or unable to provide stool samples in the outpatient settin",
+    "EXCLUSION UNCLEAR: Diagnosis of C. difficile colitis [NAAT (+) and toxin EIA (+) within 3 months of",
+    "EXCLUSION UNCLEAR: New onset of abdominal distention within 24 hours prior to the onset of diarrhea",
+    "EXCLUSION UNCLEAR: Presence of toxic megacolon"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2143
+}

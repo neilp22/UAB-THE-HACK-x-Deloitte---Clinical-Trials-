@@ -1,0 +1,315 @@
+{
+  "nct_id": "NCT01886872",
+  "trial_title": "Rituximab and Bendamustine Hydrochloride, Rituximab and Ibrutinib, or Ibrutinib Alone in Treating Older Patients With Previously Untreated Chronic Lymphocytic Leukemia",
+  "phase": "PHASE3",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "This randomized phase III trial studies rituximab with bendamustine hydrochloride or ibrutinib to see how well they work compared to ibrutinib alone in treating older patients with previously untreated chronic lymphocytic leukemia. Rituximab is a monoclonal antibody that may interfere with the ability of cancer cells to grow and spread. A monoclonal antibody is a type of protein that can bind to certain targets in the body, such as molecules that cause the body to make an immune response (antige",
+  "eligibility_table": [
+    {
+      "criterion": "All patients are REQUIRED to be pre-registered to A041202 in order to submit peripheral blood to the Alliance Hematologic Malignancy Biorepository (HEME) for central Zap-70 methylation. This specimen submission is mandatory prior to registration as results will be used for stratification",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not been confirmed to be pre-registered to A041202, which is a requirement for specimen submission.",
+      "clinical_question": "Has the patient submitted a peripheral blood specimen for central Zap-70 methylation analysis prior to registration in A041202?"
+    },
+    {
+      "criterion": "Patients must be diagnosed with CLL in accordance with International Workshop on Chronic Lymphocytic Leukemia (IWCLL) 2008 criteria that includes all of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of CLL, but further details on the IWCLL 2008 criteria compliance are needed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": ">= 5 x 10^9 B lymphocytes (5000/uL) in the peripheral blood",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a peripheral blood B lymphocyte count of ≥5 x 10^9 cells per liter?"
+    },
+    {
+      "criterion": "On morphologic review, the leukemic cells must be small mature lymphocytes, and prolymphocytes must not exceed 55% of the blood lymphocytes",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Morphologic review details are not provided; cannot confirm if leukemic cells meet the criteria.",
+      "clinical_question": "Do the leukemic cells in the patient's blood morphology consist of small mature lymphocytes, with prolymphocytes not exceeding 55% of the total blood lymphocytes?"
+    },
+    {
+      "criterion": "CLL cells on immunophenotype (performed locally) must reveal a clonal B-cell population, which express the B cell surface markers of CD19 and CD20, as well as the T-cell antigen CD5; patients with bright surface immunoglobulin expression or lack of CD23 expression in > 10% of cells must lack t(11;14) translocation by interphase cytogenetics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Immunophenotype results are not provided; cannot confirm if CLL cells express required markers.",
+      "clinical_question": "Does the patient's immunophenotype reveal a clonal B-cell population expressing CD19 and CD20, with ≥10% of cells lacking CD23 expression and no evidence of t(11;14) translocation?"
+    },
+    {
+      "criterion": "Patients must be intermediate or high-risk Rai stage CLL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's Rai stage is not clearly defined as intermediate or high-risk based on provided information.",
+      "clinical_question": "Does the patient have an intermediate or high-risk Rai stage classification for chronic lymphocytic leukemia?"
+    },
+    {
+      "criterion": "Intermediate risk (formerly Rai stage I/II) is defined by lymphocytosis plus enlarged lymph nodes at any site, with or without hepatomegaly or splenomegaly",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has lymphocytosis and enlarged lymph nodes, indicating intermediate risk.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High risk (formerly Rai stage III/IV) is defined by lymphocytosis with or without enlarged nodes and spleen plus disease-related anemia (hemoglobin < 11 g/dL) or thrombocytopenia (platelet count < 100 x 10^9/L) that is not attributable to autoimmune hemolytic anemia or thrombocytopenia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess for anemia or thrombocytopenia.",
+      "clinical_question": "Does the patient have a hemoglobin level < 11 g/dL or a platelet count < 100 x 10^9/L?"
+    },
+    {
+      "criterion": "High risk (formerly Rai stage III/IV) is defined by lymphocytosis with or without enlarged nodes and spleen plus disease-related anemia (hemoglobin < 11 g/dL) or thrombocytopenia (platelet count < 100 x 10^9/L) that is not attributable to autoimmune hemolytic anemia or thrombocytopenia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a hemoglobin level < 11 g/dL or a platelet count < 100 x 10^9/L?"
+    },
+    {
+      "criterion": "Patients must meet criteria for treatment as defined by IWCLL 2008 guidelines which includes at least one of the following criteria:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's treatment criteria compliance according to IWCLL 2008 guidelines is unclear.",
+      "clinical_question": "Does the patient have a serum beta-2 microglobulin level ≥3.5 mg/L?"
+    },
+    {
+      "criterion": "Evidence of marrow failure as manifested by the development or worsening of anemia or thrombocytopenia (not attributable to autoimmune hemolytic anemia or thrombocytopenia)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of marrow failure is provided; cannot confirm this criterion.",
+      "clinical_question": "Has the patient experienced a decrease in hemoglobin levels to <10 g/dL or a platelet count <100,000/µL since the initiation of treatment?"
+    },
+    {
+      "criterion": "Massive (>= 6 cm below the costal margin), progressive or symptomatic splenomegaly",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Details on splenomegaly size and symptoms are not provided; cannot confirm this criterion.",
+      "clinical_question": "Is the patient's splenomegaly measured at ≥6 cm below the costal margin?"
+    },
+    {
+      "criterion": "Massive nodes (>= 10 cm) or progressive or symptomatic lymphadenopathy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has bulky lymphadenopathy, which suggests the presence of massive nodes.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Autoimmune anemia and/or thrombocytopenia that is poorly responsive to standard therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about autoimmune anemia or thrombocytopenia; thus, it cannot be determined.",
+      "clinical_question": "Has the patient experienced a hemoglobin level <10 g/dL or a platelet count <100,000/µL despite receiving standard therapy for autoimmune anemia and/or thrombocytopenia?"
+    },
+    {
+      "criterion": "Constitutional symptoms, which include any of the following:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific constitutional symptoms are mentioned in the profile.",
+      "clinical_question": "Does the patient report experiencing any constitutional symptoms such as fever, night sweats, or unexplained weight loss in the past month?"
+    },
+    {
+      "criterion": "Unintentional weight loss of 10% or more within 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding unintentional weight loss in the past 6 months.",
+      "clinical_question": "Has the patient experienced an unintentional weight loss of 10% or more within the last 6 months?"
+    },
+    {
+      "criterion": "Significant fatigue",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Fatigue is not explicitly mentioned in the patient profile.",
+      "clinical_question": "Has the patient reported a fatigue score of ≥4 on a scale of 0 to 10 in the past week?"
+    },
+    {
+      "criterion": "Fevers > 100.5 degrees F for 2 weeks or more without evidence of infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of fevers in the patient profile.",
+      "clinical_question": "Has the patient experienced fevers ≥100.5 degrees F for at least 14 consecutive days without any evidence of infection?"
+    },
+    {
+      "criterion": "Night sweats > 1 month without evidence of infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Night sweats are not reported in the patient profile.",
+      "clinical_question": "Has the patient experienced night sweats for more than 1 month without any evidence of infection?"
+    },
+    {
+      "criterion": "Prior treatment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone multiple prior treatments, which meets the criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must not have had prior therapy for CLL (except palliative steroids or treatment of autoimmune complications of CLL with rituximab or steroids)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has had prior therapy for CLL, which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Treatment with rituximab and/or high dose corticosteroids for autoimmune complications of CLL must be complete at least 4 weeks prior to enrollment; palliative steroids must be at a dose not higher than 20 mg/day of prednisone or equivalent corticosteroid at the time of registration",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the timing of treatment with rituximab or corticosteroids in relation to enrollment.",
+      "clinical_question": "Has the patient completed treatment with rituximab and/or high dose corticosteroids for autoimmune complications of CLL at least 4 weeks prior to enrollment?"
+    },
+    {
+      "criterion": "Age >= 65 years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 57.0 >= 65.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status 0-2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an Eastern Cooperative Oncology Group (ECOG) performance status score of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Patients with active hepatitis B defined by hepatitis B surface antigen positivity or core antibody positivity in the presence of hepatitis B DNA are not eligible for this study; patients with a positive hepatitis B core antibody but with negative hepatitis B DNA may participate, but must have hepatitis serologies and hepatitis B DNA monitored periodically by the treating physician",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient profile does not provide information on hepatitis B status; further testing is needed to determine eligibility.",
+      "clinical_question": "Is the patient's hepatitis B DNA test result negative?"
+    },
+    {
+      "criterion": "Intravenous immunoglobulin (IVIG) can cause a false positive hepatitis B serology; if patients receiving routine IVIG have core antibody or surface antigen positivity without evidence of active viremia (negative hepatitis B DNA) they may still participate in the study, but should have hepatitis serologies and hepatitis B DNA monitored periodically by the treating physician",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on IVIG use or hepatitis B serology provided; eligibility cannot be determined without this data.",
+      "clinical_question": "Is the patient's hepatitis B DNA test result negative?"
+    },
+    {
+      "criterion": "Patients must not be receiving active systemic anticoagulation with heparin or warfarin; patients must be off warfarin therapy for at least 30 days prior to enrollment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No mention of active systemic anticoagulation with heparin or warfarin; likely eligible.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with class III or class IV heart failure by New York Heart Association, those with unstable angina, and those with uncontrolled arrhythmia are not eligible",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on heart failure or arrhythmia status; further assessment required.",
+      "clinical_question": "Does the patient have a history of class III or class IV heart failure as defined by the New York Heart Association classification?"
+    },
+    {
+      "criterion": "Patients who have had a myocardial infarction, intracranial bleed, or stroke within the past 6 months are not eligible",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No details on recent myocardial infarction, intracranial bleed, or stroke; eligibility cannot be assessed.",
+      "clinical_question": "Has the patient experienced a myocardial infarction, intracranial bleed, or stroke within the past 6 months?"
+    },
+    {
+      "criterion": "Patients with known human immunodeficiency virus (HIV) are eligible if their CD4 count is >= 350 cells/mm^3 and if they are not taking prohibited CYP-interacting medications",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on HIV status or CD4 count; cannot determine eligibility.",
+      "clinical_question": "Is the patient's CD4 count ≥ 350 cells/mm^3?"
+    },
+    {
+      "criterion": "Patients must not have any history of Richter's transformation or prolymphocytic leukemia (prolymphocytes in blood > 55%)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of Richter's transformation, making them ineligible.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must not require more than 20 mg prednisone or equivalent corticosteroid daily",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on corticosteroid use; eligibility cannot be determined.",
+      "clinical_question": "Is the patient's current daily prednisone dosage ≤20 mg or equivalent?"
+    },
+    {
+      "criterion": "Patients must not have uncontrolled active systemic infection requiring intravenous antibiotics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on active systemic infections; further assessment needed.",
+      "clinical_question": "Does the patient currently have any uncontrolled active systemic infections that require intravenous antibiotics?"
+    },
+    {
+      "criterion": "Patients must not have continued requirement for therapy with a strong cytochrome P450 3A4/5 (CYP3A4/5) inhibitor or inducer",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on use of CYP3A4/5 inhibitors or inducers; eligibility cannot be assessed.",
+      "clinical_question": "Is the patient currently taking any medications that are classified as strong cytochrome P450 3A4/5 inhibitors or inducers?"
+    },
+    {
+      "criterion": "Patients must not have a known allergy to mannitol",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about any known allergy to mannitol.",
+      "clinical_question": "Does the patient have a documented history of allergy to mannitol?"
+    },
+    {
+      "criterion": "Patients must not have prior significant hypersensitivity to rituximab (not including infusion reactions)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior hypersensitivity to rituximab.",
+      "clinical_question": "Has the patient experienced any significant hypersensitivity reactions to rituximab, excluding infusion reactions?"
+    },
+    {
+      "criterion": "Patients may not have had major surgery within 10 days of enrollment, or minor surgery within 7 days of enrollment; examples of minor surgery include dental surgery, insertion of a venous access device, skin biopsy, or aspiration of a joint; the decision about whether a surgery is major or minor can be made at the discretion of the treating physician",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding any recent surgeries.",
+      "clinical_question": "Has the patient undergone any major surgery within the last 10 days or minor surgery within the last 7 days prior to enrollment?"
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) >= 1,000/uL unless due to bone marrow involvement",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Absolute neutrophil count (ANC) is not provided in the lab values.",
+      "clinical_question": "Is the patient's absolute neutrophil count (ANC) currently ≥ 1,000/uL?"
+    },
+    {
+      "criterion": "Aspartate aminotransferase (AST) or alanine aminotransferase (AST) =< 2.5 x upper limits of normal except if due to disease infiltration of the liver",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "AST/ALT values are not provided in the lab values.",
+      "clinical_question": "Is the patient's aspartate aminotransferase (AST) or alanine aminotransferase (ALT) level ≤ 2.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Bilirubin =< 1.5 x upper limits of normal (unless due to liver involvement, hemolysis, or Gilbert's disease)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided in the lab values.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Creatinine clearance >= 40 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current creatinine clearance value?"
+    },
+    {
+      "criterion": "To be calculated by modified Cockcroft-Gault formula",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided to calculate renal function using the modified Cockcroft-Gault formula.",
+      "clinical_question": "What is the patient's creatinine clearance calculated using the modified Cockcroft-Gault formula, and does it meet the threshold of ≥30 mL/min?"
+    },
+    {
+      "criterion": "Platelet count (untransfused) >= 30,000/uL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's untransfused platelet count currently ≥30,000/uL?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 5 of 43 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.186
+}

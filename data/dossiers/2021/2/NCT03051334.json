@@ -1,0 +1,26 @@
+{
+  "nct_id": "NCT03051334",
+  "trial_title": "Ascending Aortic Dilation in BiAV After TAVR",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "This study sought to evaluate changes in ascending aorta size after transcatheter aortic valve replacement (TAVR) in patients with bicuspid aortic valve (BiAV) compared with patients with tricuspid aortic valve (TAV).",
+  "eligibility_table": [
+    {
+      "criterion": "Severe AS who underwent TAVR",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis (AS) and has undergone preoperative workup for valvular replacement, indicating they are likely candidates for TAVR.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ascending aorta more than 50mm",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's profile indicates a dilated ascending aorta, but the exact measurement is not provided. Given the absence of a specific measurement over 50mm, we cannot definitively exclude the patient based on this criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE",
+  "confidence_score": 1.0
+}

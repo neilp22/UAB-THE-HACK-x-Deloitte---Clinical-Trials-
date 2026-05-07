@@ -1,0 +1,64 @@
+{
+  "nct_id": "NCT00876499",
+  "trial_title": "Fatigue, Sleep and Cytokines in Primary Brain Tumor (PBT) Patients",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "This goal of this research study is to learn more about fatigue, sleep quality, and other symptoms in patients with primary brain tumors who are being treated with radiation therapy.\n\nObjectives:\n\nPRIMARY OBJECTIVE:\n\n1\\. The primary objective of this study is to provide preliminary data describing the severity and change over time in fatigue using the Brief Fatigue Inventory (BFI) during radiation therapy for patients with primary gliomas.\n\nSECONDARY OBJECTIVES:\n\n1. To evaluate longitudinal chan",
+  "eligibility_table": [
+    {
+      "criterion": "A new diagnosis of a primary glioma, astrocytoma, oligodendroglioma, oligo-astrocytoma, ependymoma, tanycytic ependymoma, anaplastic astrocytoma, anaplastic oligodendroglioma, anaplastic oligo-astrocytoma, anaplastic ependymoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of anaplastic astrocytoma, which qualifies under the inclusion criteria for primary gliomas.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Radiation therapy as part of the plan of care",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone radiation therapy as part of prior treatments, which aligns with the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age >= 18 years of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to speak, write, and read English",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has difficulty with English, so it is reasonable to assume they can speak, write, and read English.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "On corticosteroids at the initiation of radiation therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on high-dose steroids, which is consistent with the requirement of being on corticosteroids at the initiation of radiation therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Tumors involving the suprasellar region, including the pituitary and hypothalamus",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's tumor is located in the spine, and there is no information indicating involvement of the suprasellar region.",
+      "clinical_question": "Does the patient have a tumor located in the suprasellar region, including the pituitary or hypothalamus?"
+    },
+    {
+      "criterion": "Cognitive deficits which limit ability to self-report symptoms",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of severe lower extremity weakness and urinary retention may suggest cognitive deficits, but there is insufficient information to definitively assess their ability to self-report symptoms.",
+      "clinical_question": "Does the patient demonstrate a score of ≤24 on the Mini-Mental State Examination (MMSE)?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Tumors involving the suprasellar region, including the pituitary and hypothalamu",
+    "EXCLUSION UNCLEAR: Cognitive deficits which limit ability to self-report symptoms"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.7143
+}

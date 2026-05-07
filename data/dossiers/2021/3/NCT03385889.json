@@ -1,0 +1,130 @@
+{
+  "nct_id": "NCT03385889",
+  "trial_title": "Effects of Cervical Manual Therapy on Cervicogenic Headache",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "The effects of cervical spine manual therapy, including mobilization and manipulation, on cervical spine range of motion, joint position sense, and balance is unknown among individuals with cervicogenic headache. Previous studies have indicated improved frequency of headache, decreased perceived disability, and demonstrated improved neuromuscular function following upper cervical manipulation. Other authors report improved cervical spine range of motion, joint position sense, and balance followi",
+  "eligibility_table": [
+    {
+      "criterion": "Over the age of 18",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Signs and symptoms consistent with cervicogenic headache (including unilateral headache, headache that improves or resolves as cervical disorder or lesion improves or resolves, headache that is made worse with cervical movement or sustained painful neck positions, reduced cervical range of motion",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of head injury and significant symptoms, but there is no clear indication of cervicogenic headache symptoms as defined.",
+      "clinical_question": "Does the patient report experiencing unilateral headaches that improve or resolve with cervical movement or treatment, and do these headaches worsen with specific cervical movements or sustained painful neck positions?"
+    },
+    {
+      "criterion": "Headache frequency of at least once a week for 3 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not report headache frequency, making it unclear if they meet the frequency criterion.",
+      "clinical_question": "Has the patient experienced headaches with a frequency of at least once a week for the past 3 months?"
+    },
+    {
+      "criterion": "Bilateral headaches",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of significant head injury, but the nature of the headaches (if bilateral) is not specified.",
+      "clinical_question": "Does the patient report experiencing bilateral headaches on at least 15 days per month?"
+    },
+    {
+      "criterion": "Non-musculoskeletal red flags",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's conditions may present red flags, but specific non-musculoskeletal red flags are not detailed.",
+      "clinical_question": "Does the patient exhibit any signs of neurological deficits, such as altered consciousness, weakness, or sensory loss, that would indicate the presence of non-musculoskeletal red flags?"
+    },
+    {
+      "criterion": "Two or more positive neurologic signs indicative of nerve root compression",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a significant medical history, but there is no information on neurologic signs indicative of nerve root compression.",
+      "clinical_question": "Does the patient exhibit two or more positive neurologic signs indicative of nerve root compression during the neurological examination?"
+    },
+    {
+      "criterion": "Diagnosed with cervical spinal stenosis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of cervical spinal stenosis in the patient's history.",
+      "clinical_question": "Does the patient have a cervical spinal canal diameter of less than 10 mm on imaging studies?"
+    },
+    {
+      "criterion": "Bilateral upper extremity symptoms",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not report upper extremity symptoms, but this is not explicitly stated.",
+      "clinical_question": "Does the patient report any bilateral upper extremity symptoms, such as numbness or weakness, that have occurred within the last month?"
+    },
+    {
+      "criterion": "Symptoms indicative of central nervous system lesion",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of spontaneous intraventricular hemorrhage and AVM raises concerns for central nervous system lesions, but specifics are lacking.",
+      "clinical_question": "Does the patient exhibit any neurological deficits or abnormal findings on imaging that suggest a central nervous system lesion?"
+    },
+    {
+      "criterion": "History of whiplash injury within the previous 6 weeks",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a whiplash injury in the past 6 weeks.",
+      "clinical_question": "Has the patient experienced a whiplash injury within the last 6 weeks?"
+    },
+    {
+      "criterion": "Prior head or neck surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any prior head or neck surgeries.",
+      "clinical_question": "Has the patient undergone any surgical procedures on the head or neck prior to this evaluation?"
+    },
+    {
+      "criterion": "Has received treatment for head or neck pain from any practitioner within the previous month",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on pain medication, but there is no specific information indicating treatment for head or neck pain in the past month.",
+      "clinical_question": "Has the patient received treatment for head or neck pain from any practitioner within the last 30 days?"
+    },
+    {
+      "criterion": "Has received physical therapy or chiropractic treatment for head or neck pain within the previous 3 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient receiving physical therapy or chiropractic treatment for head or neck pain in the past 3 months.",
+      "clinical_question": "Has the patient received any physical therapy or chiropractic treatment for head or neck pain within the last 3 months?"
+    },
+    {
+      "criterion": "Having a known vestibular or balance dysfunction (BPPV, unilateral vestibular loss, etc.)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of spontaneous intraventricular hemorrhage and AVM, but there is no explicit mention of vestibular or balance dysfunction.",
+      "clinical_question": "Does the patient have a diagnosed vestibular dysfunction, such as BPPV or unilateral vestibular loss, confirmed by a clinical assessment or diagnostic testing?"
+    },
+    {
+      "criterion": "Other headaches that do not originate from the cervical spine, primarily migraine, vascular (cervical artery dysfunction), and tension-type headache.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of head injury and AVM, but there is no clear indication of other headache types such as migraine or tension-type headaches.",
+      "clinical_question": "Does the patient have a diagnosis of cervicogenic headache confirmed by a healthcare professional, or is the headache primarily classified as migraine, vascular, or tension-type headache?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Bilateral headaches",
+    "EXCLUSION UNCLEAR: Non-musculoskeletal red flags",
+    "EXCLUSION UNCLEAR: Two or more positive neurologic signs indicative of nerve root compression",
+    "EXCLUSION UNCLEAR: Diagnosed with cervical spinal stenosis",
+    "EXCLUSION UNCLEAR: Bilateral upper extremity symptoms",
+    "EXCLUSION UNCLEAR: Symptoms indicative of central nervous system lesion",
+    "EXCLUSION UNCLEAR: History of whiplash injury within the previous 6 weeks",
+    "EXCLUSION UNCLEAR: Prior head or neck surgery",
+    "EXCLUSION UNCLEAR: Has received treatment for head or neck pain from any practitioner within the pr",
+    "EXCLUSION UNCLEAR: Has received physical therapy or chiropractic treatment for head or neck pain wi",
+    "EXCLUSION UNCLEAR: Having a known vestibular or balance dysfunction (BPPV, unilateral vestibular lo",
+    "EXCLUSION UNCLEAR: Other headaches that do not originate from the cervical spine, primarily migrain"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.0667
+}

@@ -1,0 +1,126 @@
+{
+  "nct_id": "NCT04842942",
+  "trial_title": "The Safety and Feasibility of Transoral Endoscopic Thyroidectomy Vestibular Approach",
+  "phase": "PHASE1",
+  "status": "UNKNOWN",
+  "brief_summary": "This is a single center, prospective case series designed to assess the safety and feasibility of TOETVA in a small cohort of patients at University Health Network Toronto. Included patients will undergo a TOETVA-procedure in stead of the standard open surgical procedure.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients needing surgery for: Benign or indeterminate nodule less than 6 cm in size or; T1 well differentiated papillary carcinoma less than 2 cm in size or; Well-controlled Grave's disease or; Parathyroid adenoma.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has metastatic papillary thyroid cancer, which does not meet the criteria for benign or indeterminate nodules.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Total thyroid size is 7-8 cm (no more than 10 cm)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Total thyroid size is not provided; therefore, it cannot be determined if it is within the specified range.",
+      "clinical_question": "Is the total thyroid size of the patient between 7 cm and 10 cm?"
+    },
+    {
+      "criterion": "Their age is ≥18 years and ≤80 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 75 years old, which is within the age range of ≥18 years and ≤80 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Able to give written consent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to give written consent is not specified.",
+      "clinical_question": "Can the patient demonstrate an understanding of the risks and benefits of the transoral endoscopic thyroidectomy vestibular approach as assessed by a standardized consent comprehension questionnaire?"
+    },
+    {
+      "criterion": "History of neck surgery or neck radiotherapy",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of neck surgery (neck mass resection) and neck radiotherapy (XRT), which disqualifies them.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recurrent thyroid disease",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has metastatic papillary thyroid cancer, indicating recurrent thyroid disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lymph node metastases",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has lymph node metastases, which disqualifies them.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Presence of intraoral infections",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of intraoral infections.",
+      "clinical_question": "Has the patient experienced any intraoral infections requiring treatment within 30 days post-transoral endoscopic thyroidectomy?"
+    },
+    {
+      "criterion": "Presence of extrathyroidal or substernal extensions",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a large tumor size and metastasis, indicating the presence of extrathyroidal extensions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Smoking",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's smoking status.",
+      "clinical_question": "Does the patient have a history of smoking ≥1 pack per day for at least 10 years?"
+    },
+    {
+      "criterion": "Morbid obesity",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's weight is not provided, making it unclear if they meet the morbid obesity criteria.",
+      "clinical_question": "Does the patient have a body mass index (BMI) ≥30 kg/m²?"
+    },
+    {
+      "criterion": "Contra-indication to general anesthesia with nasotracheal intubation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not specify any contraindications to general anesthesia, but the age and medical history raise concerns.",
+      "clinical_question": "Does the patient have a documented history of severe respiratory compromise or obstructive sleep apnea that would contraindicate general anesthesia with nasotracheal intubation?"
+    },
+    {
+      "criterion": "Previous mediastinal surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of previous mediastinal surgery in the patient's history.",
+      "clinical_question": "Has the patient undergone any mediastinal surgical procedures in the past?"
+    },
+    {
+      "criterion": "Any anatomical anomaly that in the opinion of the investigator may render the intervention more difficult (ex. variations in the structure of the platysmas muscle)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's anatomical details are not provided, making it difficult to assess any potential anomalies.",
+      "clinical_question": "Does the patient have any anatomical variations in the platysma muscle or surrounding structures that could complicate a transoral endoscopic thyroidectomy, as assessed by preoperative imaging?"
+    },
+    {
+      "criterion": "Any medical condition, which in the judgment of the investigator and/or designee makes the subject a poor candidate for the investigational procedure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's multiple health issues and advanced age may complicate the procedure, but specific judgment is needed from the investigator.",
+      "clinical_question": "Does the patient have a bleeding risk score of ≥3 based on their medical history and current conditions?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Presence of intraoral infections",
+    "EXCLUSION UNCLEAR: Smoking",
+    "EXCLUSION UNCLEAR: Morbid obesity",
+    "EXCLUSION UNCLEAR: Contra-indication to general anesthesia with nasotracheal intubation",
+    "EXCLUSION UNCLEAR: Previous mediastinal surgery",
+    "EXCLUSION UNCLEAR: Any anatomical anomaly that in the opinion of the investigator may render the in",
+    "EXCLUSION UNCLEAR: Any medical condition, which in the judgment of the investigator and/or designee",
+    "LOW INCLUSION MATCH: only 1 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4
+}

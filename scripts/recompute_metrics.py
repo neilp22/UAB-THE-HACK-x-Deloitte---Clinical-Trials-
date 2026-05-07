@@ -47,7 +47,7 @@ def _new_derive_label(s: dict) -> str:
         return "NOT_MET"
     if nei_ratio > 0.5:
         return "NEI"
-    if inc_ratio < 0.2:
+    if inc_ratio < 0.3:
         return "NEI"
     if inc_met > 0:
         return "MET"

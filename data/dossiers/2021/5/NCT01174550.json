@@ -1,0 +1,138 @@
+{
+  "nct_id": "NCT01174550",
+  "trial_title": "PROspective Multicenter Imaging Study for Evaluation of Chest Pain",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "A prospective multicenter imaging study for evaluation of chest pain. Objective is to determine whether an initial non-invasive anatomic imaging strategy with coronary CT angiography (CTA) will improve clinical outcomes in subjects with symptoms concerning for coronary artery disease relative to an initial functional testing strategy (usual care). Study hypothesis: initial anatomic testing strategy will provide information that will result in superior long-term health outcomes as compared to an ",
+  "eligibility_table": [
+    {
+      "criterion": "new or worsening chest pain suspicious for clinically significant coronary artery disease (CAD)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of coronary artery disease and may have new or worsening symptoms, but specific details about current chest pain are not provided.",
+      "clinical_question": "Has the patient experienced new or worsening chest pain with a severity score of ≥4 on a scale of 0 to 10 in the past week?"
+    },
+    {
+      "criterion": "no prior evaluation for this episode of symptoms",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of prior evaluation for the current episode of symptoms.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "planned non-invasive testing for diagnosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely to undergo non-invasive testing for diagnosis given their complex cardiovascular history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "men age ≥55 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Does the patient have a documented history of chest pain episodes occurring at least once per week for the past month?"
+    },
+    {
+      "criterion": "men age ≥45 years with increased probability of coronary artery disease (CAD) due to either (A. Diabetes Mellitus (DM) requiring medical treatment OR Peripheral Arterial Disease (PAD) defined as documented >50% peripheral arterial stenosis treated medically or invasively OR cerebrovascular disease (stroke, documented > 50% carotid stenosis treated medically or invasively) OR B. At least one of the following cardiovascular risk factors: 1-Ongoing tobacco use, 2-Hypertension, 3-Abnormal ankle brachial index (ABI) defined as less than <0.9, 4-Dyslipidemia",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is a male over 45 with diabetes and significant cardiovascular risk factors, including hypertension and documented cerebrovascular disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "women age ≥65 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient a female aged 65 years or older?"
+    },
+    {
+      "criterion": "women age ≥50 years with increased probability of coronary artery disease (CAD) due to either (A. Diabetes Mellitus (DM) requiring medical treatment OR Peripheral Arterial Disease (PAD) defined as documented >50% peripheral arterial stenosis treated medically or invasively OR cerebrovascular disease (stroke, documented > 50% carotid stenosis treated medically or invasively) OR B. At least one of the following cardiovascular risk factors: 1-Ongoing tobacco use, 2-Hypertension, 3-Abnormal ankle brachial index (ABI) defined as less than <0.9, 4-Dyslipidemia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "This criterion is not applicable as the patient is male.",
+      "clinical_question": "Does the patient have a documented ankle-brachial index (ABI) of less than 0.9?"
+    },
+    {
+      "criterion": "Serum creatinine ≤ 1.5 mg/dL within the past 90 days",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level ≤ 1.5 mg/dL within the past 90 days?"
+    },
+    {
+      "criterion": "Negative urine/serum pregnancy test for female subjects of child-bearing potential",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "This criterion is not applicable as the patient is male.",
+      "clinical_question": "Has the patient undergone a negative urine or serum pregnancy test within the last 24 hours?"
+    },
+    {
+      "criterion": "Diagnosed or suspected acute coronary syndrome (ACS) requiring hospitalization or urgent or emergent testing; Elevated troponin or creatine kinase-myocardial band (CK-MB)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of coronary artery disease and prior CABG, which may indicate a risk of acute coronary syndrome.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hemodynamically or clinically unstable condition systolic blood pressure (BP) < 90 mmHg, atrial or ventricular arrhythmias, or persistent resting chest pain felt to be ischemic despite adequate therapy)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has significant cardiovascular issues and a history of prior cerebrovascular accident, indicating potential instability.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known coronary artery disease (CAD) with prior Myocardial infarction (MI), percutaneous coronary intervention (PCI), coronary artery bypass graft (CABG) or any angiographic evidence of coronary artery disease (CAD) ≥50% lesion in a major epicardial vessel",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of coronary artery disease with prior CABG, which disqualifies him from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any invasive coronary angiography or non-invasive anatomic or functional cardiovascular (CV) test for detection of coronary artery disease (CAD), including coronary tomographic angiography (CTA) and exercise electrocardiogram (ECG), within the previous twelve (12) months",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of invasive procedures related to coronary artery disease, which likely includes tests within the last 12 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known significant congenital, valvular (> moderate) or cardiomyopathic process (hypertrophic cardiomyopathy or reduced systolic left ventricular function (LVEF) ≤ 40%)) which could explain cardiac symptoms",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has an ejection fraction of 60%, which is above the threshold of 40% for reduced systolic left ventricular function. There is no indication of significant congenital or valvular heart disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Contraindication to undergoing a coronary tomographic angiography (CTA), including but not limited to: a. Allergy to iodinated contrast agent, b. Unable to receive beta blockers unless heart rate < 65 beats per minute, c. Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about allergies to iodinated contrast agents or the patient's ability to receive beta blockers. Therefore, it is uncertain if there are contraindications for coronary CTA.",
+      "clinical_question": "Does the patient have an allergy to iodinated contrast agents?"
+    },
+    {
+      "criterion": "Life expectancy < 2 years",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Given the patient's multiple comorbidities, including coronary artery disease and diabetes, it is likely that their life expectancy is less than 2 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unable to provide written informed consent or participate in long-term follow-up",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is unable to provide written informed consent or participate in long-term follow-up.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Diagnosed or suspected acute coronary syndrome (ACS) requiring hospitalization o",
+    "EXCLUSION VIOLATED: Hemodynamically or clinically unstable condition systolic blood pressure (BP) < ",
+    "EXCLUSION VIOLATED: Known coronary artery disease (CAD) with prior Myocardial infarction (MI), percu",
+    "EXCLUSION VIOLATED: Any invasive coronary angiography or non-invasive anatomic or functional cardiov",
+    "EXCLUSION UNCLEAR: Contraindication to undergoing a coronary tomographic angiography (CTA), includi",
+    "EXCLUSION VIOLATED: Life expectancy < 2 years"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.5882
+}

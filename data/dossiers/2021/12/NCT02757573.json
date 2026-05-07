@@ -1,0 +1,80 @@
+{
+  "nct_id": "NCT02757573",
+  "trial_title": "The Right Ventricular Responses to Mild Hypercarbia After Mitral Valve Repair Surgery",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "The aims of the study is to investigate the right ventricular responses to mild hypercarbia after mitral valve prolapse repair surgery by the measurements obtained on pulmonary arterial catheter and transesophageal echocardiography.",
+  "eligibility_table": [
+    {
+      "criterion": "scheduled mitral valve prolapse repair surgery",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a scheduled mitral valve repair surgery as indicated by the planned treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "able to give informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is capable of giving informed consent as there are no indications of cognitive impairment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "preoperative right ventricular dysfunction or pulmonary hypertension",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's echocardiogram shows an EF of 65%, indicating no preoperative right ventricular dysfunction or pulmonary hypertension.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "significant tricuspid regurgitation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about tricuspid regurgitation; therefore, it cannot be confirmed as significant or not.",
+      "clinical_question": "Does the patient have a tricuspid regurgitation grade of ≥2 on echocardiogram?"
+    },
+    {
+      "criterion": "congenital heart defect",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has Marfan's syndrome, which can be associated with congenital heart defects, but no specific defect is mentioned.",
+      "clinical_question": "Does the patient have a documented history of a congenital heart defect, such as an atrial septal defect or ventricular septal defect, prior to the mitral valve repair surgery?"
+    },
+    {
+      "criterion": "ventricular dyssynchrony or wide QRS-complex on ECG (> 130 ms)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No ECG data is provided to assess for ventricular dyssynchrony or wide QRS-complex.",
+      "clinical_question": "Does the patient have a QRS complex duration greater than 130 ms on their ECG?"
+    },
+    {
+      "criterion": "prior myocardial infarction (within three months) or pericardial constriction",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has no history of myocardial infarction or pericardial constriction within the last three months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "preoperative left ventricular (LV) dysfunction, i.e. LV ejection fraction under 40 %",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's EF of 65% indicates that there is no left ventricular dysfunction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "if the scheduled repair by plastic procedure has been converted to mitral valve replacement",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether the scheduled repair has been converted to a replacement.",
+      "clinical_question": "Was the planned mitral valve repair procedure converted to a mitral valve replacement during the surgery?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: significant tricuspid regurgitation",
+    "EXCLUSION UNCLEAR: congenital heart defect",
+    "EXCLUSION UNCLEAR: ventricular dyssynchrony or wide QRS-complex on ECG (> 130 ms)",
+    "EXCLUSION UNCLEAR: if the scheduled repair by plastic procedure has been converted to mitral valve "
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5556
+}

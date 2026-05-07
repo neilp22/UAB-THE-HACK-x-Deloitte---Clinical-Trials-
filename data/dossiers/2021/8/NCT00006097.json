@@ -1,0 +1,182 @@
+{
+  "nct_id": "NCT00006097",
+  "trial_title": "Chemotherapy in Treating Patients With Chronic Lymphocytic Leukemia",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase I/II trial to study the effectiveness of CC-1088 in treating patients who have chronic lymphocytic leukemia that has not responded to previous therapy.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically confirmed refractory, progressive, B-cell chronic lymphocytic leukemia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with refractory, progressive B-cell chronic lymphocytic leukemia as confirmed by histological or cytological evaluation?"
+    },
+    {
+      "criterion": "Failed prior first line therapy of chlorambucil or fludarabine (or their equivalent)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone multiple lines of therapy including FCR and PCR, indicating failure of prior first line therapies.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Progressive disease as defined by at least one of the following: Greater than 50% increase in the sum of the products of at least 2 lymph nodes on two consecutive determinations 2 weeks apart (at least one lymph node must be greater than 2 cm)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific information provided about the size increase of lymph nodes over two consecutive determinations.",
+      "clinical_question": "Has the patient had two consecutive imaging assessments showing a greater than 50% increase in the sum of the products of at least 2 lymph nodes, with at least one lymph node measuring greater than 2 cm, within the last 2 weeks?"
+    },
+    {
+      "criterion": "Appearance of new palpable lymph nodes",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Richter's transformation, which indicates the appearance of new aggressive disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least a 50% increase in size of previously palpable liver or spleen",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific information is provided regarding the size increase of the liver or spleen.",
+      "clinical_question": "Has there been at least a 50% increase in the size of the patient's previously palpable liver or spleen since the last assessment?"
+    },
+    {
+      "criterion": "Appearance of palpable hepatomegaly or splenomegaly not previously present",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating the presence of hepatomegaly or splenomegaly.",
+      "clinical_question": "Has the patient developed palpable hepatomegaly or splenomegaly measuring ≥2 cm in diameter since the initiation of chemotherapy?"
+    },
+    {
+      "criterion": "At least a 50% increase in the absolute lymphocyte count to at least 5,000/mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The absolute lymphocyte count is not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Has the patient's absolute lymphocyte count increased by at least 50% to reach a minimum of 5,000/mm3 since the last assessment?"
+    },
+    {
+      "criterion": "Transformation to an aggressive histology (e.g., Richter's or prolymphocytic leukemia)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of Richter's transformation, indicating transformation to an aggressive histology.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High risk OR Intermediate risk with active disease, as defined by the following: Greater than 10% weight loss",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding weight loss or the patient's current weight.",
+      "clinical_question": "Has the patient experienced a weight loss of greater than 10% in the past six months?"
+    },
+    {
+      "criterion": "Extreme fatigue",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's level of fatigue.",
+      "clinical_question": "Has the patient reported a fatigue score of ≥7 on a scale of 0 to 10 in the past week?"
+    },
+    {
+      "criterion": "Fevers greater than 100.5 Fahrenheit for greater than 2 weeks without infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the presence of fevers or their duration.",
+      "clinical_question": "Has the patient experienced fevers greater than 100.5 Fahrenheit for more than 2 weeks without any signs of infection?"
+    },
+    {
+      "criterion": "Night sweats",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Night sweats are not documented in the patient profile.",
+      "clinical_question": "Has the patient experienced night sweats occurring ≥3 times per week for the past month?"
+    },
+    {
+      "criterion": "Splenomegaly greater than 6 cm",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Splenomegaly is not mentioned; therefore, it is unclear if it is greater than 6 cm.",
+      "clinical_question": "Is the patient's splenic size greater than 6 cm as measured by imaging studies?"
+    },
+    {
+      "criterion": "Lymphadenopathy greater than 10 cm",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lymphadenopathy size is not specified; cannot confirm if it is greater than 10 cm.",
+      "clinical_question": "Does the patient have lymphadenopathy measuring greater than 10 cm?"
+    },
+    {
+      "criterion": "Lymphocytosis with a doubling time less than 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lymphocytosis doubling time is not provided; cannot assess this criterion.",
+      "clinical_question": "What is the patient's lymphocyte doubling time, and is it less than 6 months?"
+    },
+    {
+      "criterion": "Age: 18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: ECOG or Zubrod 0-2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status score of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Life expectancy: Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Life expectancy is not specified in the profile.",
+      "clinical_question": "What is the patient's estimated life expectancy based on their current health status and treatment history?"
+    },
+    {
+      "criterion": "Bilirubin no greater than 2.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided; cannot determine if they are within limits.",
+      "clinical_question": "Is the patient's total bilirubin level ≤2.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "ALT and AST no greater than 2.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "ALT and AST levels are not provided; cannot determine if they are within limits.",
+      "clinical_question": "Are the patient's ALT and AST levels currently ≤62.5 U/L?"
+    },
+    {
+      "criterion": "Creatinine no greater than 2.0 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level ≤2.0 mg/dL?"
+    },
+    {
+      "criterion": "Not pregnant",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Pregnancy status is not mentioned; cannot confirm if the patient is not pregnant.",
+      "clinical_question": "Is the patient currently pregnant or has he been pregnant in the last 12 months?"
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pregnancy test results are provided; cannot confirm if negative.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 2 weeks after study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Fertility status and contraception use are not addressed in the profile.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, and has he been using it for at least 2 weeks prior to the study?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 4 of 24 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1667
+}

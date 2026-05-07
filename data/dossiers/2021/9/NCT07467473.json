@@ -1,0 +1,172 @@
+{
+  "nct_id": "NCT07467473",
+  "trial_title": "Causal Role of Rostromedial Prefrontal Cortex for Positive Savoring in Depression",
+  "phase": "NA",
+  "status": "ENROLLING_BY_INVITATION",
+  "brief_summary": "This is a non-invasive brain stimulation and neuroimaging study that will examine how activity in the medial prefrontal cortex influences reward processing, particularly positive savoring, in individuals with depression. The central question is whether modulating medial prefrontal brain regions using transcranial magnetic stimulation (TMS) alters neural and behavioral responses to rewards. Brain activity will be recorded using both electroencephalography (EEG) and functional magnetic resonance i",
+  "eligibility_table": [
+    {
+      "criterion": "Between the ages of 18 and 65",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 13.0 >= 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Between the ages of 18 and 65",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 13.0 <= 65.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Able to provide informed consent",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 13 years old and unable to provide informed consent due to severe intellectual disability.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have normal or corrected vision",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided regarding vision; unable to determine if vision is normal or corrected.",
+      "clinical_question": "Does the patient have a visual acuity of 20/40 or better in both eyes with correction?"
+    },
+    {
+      "criterion": "Right handed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about handedness.",
+      "clinical_question": "Is the patient right-handed as determined by a standardized handedness assessment?"
+    },
+    {
+      "criterion": "Willing to comply with all study procedures and be available for the duration of the study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Willingness to comply with study procedures is unknown.",
+      "clinical_question": "Is the patient able to understand and comply with all study procedures as assessed by a standardized cognitive evaluation?"
+    },
+    {
+      "criterion": "Speak and understand English",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe intellectual disability, likely affecting the ability to speak and understand English.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not color blind",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding color blindness.",
+      "clinical_question": "Is the patient able to accurately identify and differentiate between colors in a standardized color vision test?"
+    },
+    {
+      "criterion": "Acceptable suicide risk as determined by less than 5 on the Depression Symptom Index Suicidality Subscale (DSI-SS)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the patient's score on the DSI-SS.",
+      "clinical_question": "Does the patient have a score of less than 5 on the Depression Symptom Index Suicidality Subscale (DSI-SS)?"
+    },
+    {
+      "criterion": "A diagnosis of major depressive disorder (current episode) on the Structured Clinical Interview for the DSM-5 (SCID-5)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of epilepsy, which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ADHD (currently under treatment)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of epilepsy and seizures, which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Neurological disorders and conditions. Including but not limited to: history of epilepsy, seizures (except childhood febrile seizures), dementia, history of stroke, Parkindon's disease, multiple sclerosis, cerebral aneurysm, brain tumors",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a neurological condition (epilepsy), which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Medical or neurological illness or treatment for a medical disorder that could interfere with study participation. For example, unstable cardiac disease, HIV/AIDS, malignancy, liver or renal impairment",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has congestive heart failure (CHF), which is a medical condition that could interfere with study participation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior brain surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of prior brain surgery in the patient's history.",
+      "clinical_question": "Has the patient undergone any prior brain surgery procedures?"
+    },
+    {
+      "criterion": "Any brain devices/implants, including cochlear implants and aneurysm clips, cardiac pacemaker, or any other implanted electronic device",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have any reported brain devices or implants.",
+      "clinical_question": "Does the patient have any implanted electronic devices, including cochlear implants, aneurysm clips, or a cardiac pacemaker?"
+    },
+    {
+      "criterion": "History of current traumatic brain injury",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of a current traumatic brain injury in the patient's history.",
+      "clinical_question": "Has the patient experienced a traumatic brain injury within the last 12 months?"
+    },
+    {
+      "criterion": "Pregnancy (for females)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so pregnancy is not applicable.",
+      "clinical_question": "Is the patient currently pregnant or has the patient been pregnant at any point in the past?"
+    },
+    {
+      "criterion": "Claustrophobia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding claustrophobia.",
+      "clinical_question": "Does the patient exhibit a self-reported or observed fear of enclosed spaces that meets the diagnostic criteria for claustrophobia as defined by the DSM-5?"
+    },
+    {
+      "criterion": "DSM-5 diagnosis of present moderate or severe substance use disorder or alcohol use disorder, and past severe substance use disorder or alcohol use disorder, bipolar disorder, or psychotic disorder",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe intellectual disability, which may be associated with a DSM-5 diagnosis that could affect eligibility.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Based on the use of MRI, additional exclusion criteria are considered. These include participants having ferrous metal in their body, having non-removable jewelry that is ferrous, having tattoos on the face or neck, history of being a metal worker or having an eye injury involving metal",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding ferrous metal in the patient's body or related exclusions.",
+      "clinical_question": "Does the patient have any ferrous metal implants or non-removable ferrous jewelry that would contraindicate an MRI?"
+    },
+    {
+      "criterion": "Anything that in the opinion of the investigator would place the participant at increased risk or preclude the participant's full compliance with or completion of the study",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's complex medical history and multiple conditions may place them at increased risk for study participation.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: ADHD (currently under treatment)",
+    "EXCLUSION VIOLATED: Neurological disorders and conditions. Including but not limited to: history of ",
+    "EXCLUSION VIOLATED: Medical or neurological illness or treatment for a medical disorder that could i",
+    "EXCLUSION UNCLEAR: Prior brain surgery",
+    "EXCLUSION UNCLEAR: Any brain devices/implants, including cochlear implants and aneurysm clips, card",
+    "EXCLUSION UNCLEAR: History of current traumatic brain injury",
+    "EXCLUSION UNCLEAR: Pregnancy (for females)",
+    "EXCLUSION UNCLEAR: Claustrophobia",
+    "EXCLUSION VIOLATED: DSM-5 diagnosis of present moderate or severe substance use disorder or alcohol ",
+    "EXCLUSION UNCLEAR: Based on the use of MRI, additional exclusion criteria are considered. These inc",
+    "EXCLUSION VIOLATED: Anything that in the opinion of the investigator would place the participant at ",
+    "LOW INCLUSION MATCH: only 1 of 10 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.4762
+}

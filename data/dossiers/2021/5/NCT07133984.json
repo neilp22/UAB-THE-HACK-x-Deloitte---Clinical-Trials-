@@ -1,0 +1,66 @@
+{
+  "nct_id": "NCT07133984",
+  "trial_title": "STICH3C Cardiac Magnetic Resonance Observational Study",
+  "phase": "",
+  "status": "RECRUITING",
+  "brief_summary": "STICOS will test the hypothesis that residual jeopardized myocardium, late gadolinium enhancement, and non-ischemic substrate after revascularization is associated with postoperative adverse cardiovascular events such as heart failure , readmission, or death.\n\nThis study will look at whether certain heart tissue abnormalities seen on MRI scans can help predict serious health problems after heart procedures like stents or bypass surgery.",
+  "eligibility_table": [
+    {
+      "criterion": "Men and women ≥ 18 years old",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) of ≥35%?"
+    },
+    {
+      "criterion": "LVEF ≤ 40% (quantified by echo, single-photon emission computed tomography [SPECT], or CMR within 2 months of enrollment)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) ≤ 40% as measured by echocardiogram, SPECT, or cardiac magnetic resonance imaging (CMR) within 2 months of enrollment?"
+    },
+    {
+      "criterion": "Prognostically important CAD: either multivessel CAD (triple vessel or double vessel CAD including left anterior descendant artery (LAD), significant coronary stenosis defined as ≥ 70% based on coronary angiography, fractional flow reserve (FFR) ≤ 0.80 or instantaneous wave-free ratio (iFR) ≤ 0.89) or left main disease (+/- other CAD) for which significant stenosis defined as > 50% based on coronary angiography, intravascular ultrasound (IVUS) minimum luminal area [MLA] value ≤ 6.0 mm2 (< 4.5 mm2 Asian descent), or equivalent optical coherence tomography (OCT) measurements.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile indicates significant coronary artery disease with multiple conditions, but specific details on the degree of stenosis or angiography results are not provided to confirm multivessel CAD or left main disease.",
+      "clinical_question": "Does the patient have significant coronary stenosis defined as ≥ 70% based on coronary angiography, or an FFR ≤ 0.80, or an iFR ≤ 0.89?"
+    },
+    {
+      "criterion": "Planned CABG or PCI within 3 months",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of CABG, and there is no indication of a planned CABG or PCI within the next 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concomitant valve disease or other condition (e.g., LV aneurysm) requiring surgical repair or replacement",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not explicitly mention concomitant valve disease or other conditions requiring surgical repair, but the presence of multiple comorbidities raises concern.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) of less than 50% or evidence of significant left ventricular aneurysm requiring surgical intervention?"
+    },
+    {
+      "criterion": "Contraindication to CMR (i.e. magnetically activated materials), gadolinium, regadenoson/adenosine/dipyridamole",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding contraindications to CMR or gadolinium, but the patient's multiple health issues may suggest potential risks.",
+      "clinical_question": "Does the patient have any implanted devices or materials that are contraindicated for cardiac magnetic resonance imaging (CMR)?"
+    },
+    {
+      "criterion": "Active neoplasm and/or severe end-organ dysfunction with expected life expectancy less than 5 years.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of significant health issues, including diabetes with complications, which may indicate severe end-organ dysfunction, thus likely affecting life expectancy.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Concomitant valve disease or other condition (e.g., LV aneurysm) requiring surgi",
+    "EXCLUSION UNCLEAR: Contraindication to CMR (i.e. magnetically activated materials), gadolinium, reg",
+    "EXCLUSION VIOLATED: Active neoplasm and/or severe end-organ dysfunction with expected life expectanc",
+    "LOW INCLUSION MATCH: only 0 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.2857
+}

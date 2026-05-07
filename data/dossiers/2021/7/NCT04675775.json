@@ -1,0 +1,152 @@
+{
+  "nct_id": "NCT04675775",
+  "trial_title": "The BRAINFOOD Trial to Prevent Recurrent Hepatic Encephalopathy.",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "This study is being completed for patients with cirrhosis, including patients with a prior history of hepatic encephalopathy (HE) to evaluate the feasibility and benefits of medically-tailored meals as an intervention.\n\nPatients will be enrolled from the University of Michigan and will complete the baseline assessments in-person or remotely. In addition participants will complete study related materials before, during and after treatment with medically-tailored meals (MTM). After completing the ",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosis of cirrhosis will be based upon:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of cirrhosis due to Hepatitis C, which is a recognized cause.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "liver biopsy, OR",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No liver biopsy results are provided; thus, it is unclear if this criterion is met.",
+      "clinical_question": "Has the patient undergone a liver biopsy within the last 12 months?"
+    },
+    {
+      "criterion": "history of cirrhosis complication: ascites, variceal bleeding, hepatic encephalopathy, OR",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has grade II esophageal varices, which qualifies as a complication of cirrhosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "2 of the following 4 criteria:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has esophageal varices and likely meets the criteria based on complications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ultrasound, Computed tomography (CT), or Magnetic resonance imaging (MRI) findings of cirrhosis (cirrhotic appearing liver, splenomegaly, varices, ascites)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No imaging results are provided to confirm findings of cirrhosis.",
+      "clinical_question": "Does the patient have ultrasound, CT, or MRI findings indicating cirrhosis, specifically a cirrhotic appearing liver, splenomegaly, varices, or ascites?"
+    },
+    {
+      "criterion": "Fibroscan liver stiffness score >13 kilopascals (kPa)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No Fibroscan liver stiffness score is provided; thus, it is unclear if this criterion is met.",
+      "clinical_question": "Is the patient's Fibroscan liver stiffness score greater than 13 kilopascals (kPa)?"
+    },
+    {
+      "criterion": "Laboratory testing: aspartate aminotransferase/platelet ratio index (APRI) >2.0",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No laboratory testing results for APRI are provided; thus, it is unclear if this criterion is met.",
+      "clinical_question": "Is the patient's aspartate aminotransferase/platelet ratio index (APRI) greater than 2.0?"
+    },
+    {
+      "criterion": "CT, MRI or esophagogastroduodenoscopy (EGD) showing presence of esophageal varices",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a documented history of esophageal varices, which can be confirmed via EGD.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with history of > grade 2 HE within 180 days of enrollment based on review of clinical documentation verifying the event. If a description of HE symptoms is provided in clinical documentation, but it is unclear if it meets Grade 2 criteria, the principal investigator will assess the clinical documentation and provide an HE grade.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no documentation of hepatic encephalopathy (HE) symptoms provided.",
+      "clinical_question": "Did the patient experience symptoms of hepatic encephalopathy that meet the criteria for Grade 2 within the last 180 days?"
+    },
+    {
+      "criterion": "Non-English speaking",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's language proficiency is not mentioned; thus, it is unclear if this criterion is met.",
+      "clinical_question": "Is the patient fluent in a language other than English, as assessed by a standardized language proficiency test?"
+    },
+    {
+      "criterion": "Model for End-Stage Liver Disease (MELD) Score > 20",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The MELD score is not provided, so it cannot be determined if it is > 20.",
+      "clinical_question": "Is the patient's Model for End-Stage Liver Disease (MELD) score greater than 20?"
+    },
+    {
+      "criterion": "Pregnancy (self-reported)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding pregnancy status.",
+      "clinical_question": "Has the patient reported any history of pregnancy or current pregnancy status?"
+    },
+    {
+      "criterion": "Unable or unwilling to provide consent",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely able to provide consent as there is no indication of incapacity.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of liver transplant",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no history of liver transplant reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Current or planned admission to a nursing facility",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information about current or planned admission to a nursing facility.",
+      "clinical_question": "Is the patient currently residing in a nursing facility or has a nursing facility admission been planned within the next 30 days?"
+    },
+    {
+      "criterion": "Serum creatinine > 2.0 milligrams per deciliter (mg/dL) (with the exception that we will include patients with a serum creatinine > 2.0 mg/dL if they are receiving hemodialysis)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Serum creatinine levels are not provided, so this criterion cannot be assessed.",
+      "clinical_question": "Is the patient's serum creatinine level currently greater than 2.0 mg/dL?"
+    },
+    {
+      "criterion": "Disorientation at the time of enrollment",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of disorientation at the time of enrollment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Barcelona-Clinic Liver Cancer (BCLC) Stage D Hepatocellular Carcinoma with Child-Turcotte-Pugh (CTP) Class C",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding BCLC Stage or CTP Class.",
+      "clinical_question": "Does the patient have a Child-Turcotte-Pugh (CTP) score of 10 or higher?"
+    },
+    {
+      "criterion": "History of eating disorder",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no history of eating disorder reported.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Non-English speaking",
+    "EXCLUSION UNCLEAR: Model for End-Stage Liver Disease (MELD) Score > 20",
+    "EXCLUSION UNCLEAR: Pregnancy (self-reported)",
+    "EXCLUSION UNCLEAR: Current or planned admission to a nursing facility",
+    "EXCLUSION UNCLEAR: Serum creatinine > 2.0 milligrams per deciliter (mg/dL) (with the exception that",
+    "EXCLUSION UNCLEAR: Barcelona-Clinic Liver Cancer (BCLC) Stage D Hepatocellular Carcinoma with Child"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4211
+}

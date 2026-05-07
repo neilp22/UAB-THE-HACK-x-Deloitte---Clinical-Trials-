@@ -1,0 +1,511 @@
+{
+  "nct_id": "NCT00078949",
+  "trial_title": "Chemotherapy Before Autologous Stem Cell Transplantation +/- Rituximab in Relapsed or Refractory Aggressive Non-Hodgkin's Lymphoma",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as dexamethasone, cisplatin, gemcitabine, and cytarabine, work in different ways to stop cancer cells from dividing so they stop growing or die. Combining chemotherapy with autologous stem cell transplantation may allow the doctor to give higher doses of chemotherapy drugs and kill more cancer cells. Monoclonal antibodies, such as rituximab, can locate cancer cells and either kill them or deliver cancer-killing substances to them without harming normal",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed aggressive non-Hodgkin's lymphoma of 1 of the following subtypes:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has histologically confirmed Burkitt's lymphoma, which is an aggressive non-Hodgkin's lymphoma subtype.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse large cell lymphoma (includes primary mediastinal B-cell lymphoma and T-cell-rich B-cell lymphoma)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have diffuse large cell lymphoma; she has Burkitt's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior indolent lymphoma (e.g., follicular center cell lymphoma; marginal zone lymphoma, including extranodal mucosa-associated lymphoid tissue [MALT] lymphoma; and lymphoplasmacytoid lymphoma) with transformation to diffuse large B-cell lymphoma at relapse",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of prior indolent lymphoma transforming to diffuse large B-cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must be histologically confirmed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's Burkitt's lymphoma is histologically confirmed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No transformed lymphoma at diagnosis with subsequent indolent histology without transformation at relapse",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which is not classified as transformed lymphoma with subsequent indolent histology.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Peripheral T-cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have peripheral T-cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic large cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have anaplastic large cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Small noncleaved Burkitt-like lymphoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Burkitt's lymphoma is classified as a small noncleaved lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "T-cell or B-cell lineage confirmed by immunohistochemistry",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's Burkitt's lymphoma is of B-cell lineage, confirmed by immunohistochemistry.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Clinically or radiologically documented disease meeting either of the following criteria:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has clinically documented disease with a cardiac mass consistent with Burkitt's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Measurable disease, defined as at least 1 bidimensionally measurable site of disease using clinical exam, CT scan, or MRI",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a cardiac mass measuring 3cm x 1cm, which is a bidimensionally measurable site of disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lymph nodes must be > 1.5 cm by physical exam or CT scan",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is there evidence of lymphadenopathy with lymph nodes measuring > 1.5 cm on the patient's most recent CT scan?"
+    },
+    {
+      "criterion": "Other non-nodal lesions must be ≥ 1.0 cm by physical exam, CT scan, or MRI",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the size of the patient's cardiac mass ≥ 1.0 cm as measured by physical exam, CT scan, or MRI?"
+    },
+    {
+      "criterion": "Bone lesions are not considered measurable",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There are no bone lesions reported in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evaluable disease, defined as only nonmeasurable disease, including any of the following:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has measurable disease (the cardiac mass), thus does not qualify as only having nonmeasurable disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Marrow infiltration",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of marrow infiltration in the provided history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Cytology-confirmed ascites or effusions",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a large pericardial effusion, but it is not confirmed by cytology.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Bony involvement",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no mention of bony involvement in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Enlarged liver or spleen",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no evidence of enlarged liver or spleen in the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unidimensionally measurable intrathoracic or abdominal masses",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The cardiac mass can be considered a unidimensionally measurable mass in the thoracic region.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previously treated with 1, and only 1, chemotherapy regimen including an anthracycline and excluding cisplatin, cytarabine, and gemcitabine",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of multiple treatments, and it is unclear if they have received only one chemotherapy regimen.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No uncontrolled CNS involvement by lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of CNS involvement (viral encephalitis/meningitis), which may indicate uncontrolled CNS involvement by lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No CNS disease at time of relapse",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of CNS disease (viral encephalitis/meningitis) and current Burkitt's lymphoma with pericardial involvement, indicating CNS disease at the time of assessment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CNS disease diagnosed at initial presentation allowed provided a complete response for CNS disease was achieved and maintained",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of CNS disease and does not meet the requirement of having achieved a complete response for CNS disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PATIENT CHARACTERISTICS:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is being assessed for eligibility based on their characteristics.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 44 years old, which falls within the specified age range.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "16 to 65",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 44 years old, which is within the 16 to 65 age range.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Performance status is not provided; therefore, it cannot be determined if it meets the trial criteria.",
+      "clinical_question": "What is the patient's Eastern Cooperative Oncology Group (ECOG) performance status score?"
+    },
+    {
+      "criterion": "ECOG 0-3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status of 0, 1, 2, or 3?"
+    },
+    {
+      "criterion": "Life expectancy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Life expectancy is not clearly defined in the provided information, making it uncertain.",
+      "clinical_question": "What is the patient's estimated life expectancy in months based on current clinical guidelines for individuals with relapsed or refractory aggressive non-Hodgkin's lymphoma?"
+    },
+    {
+      "criterion": "At least 12 weeks",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's hematopoietic status is not provided, so it cannot be assessed.",
+      "clinical_question": "Has the patient received chemotherapy for at least 12 weeks prior to autologous stem cell transplantation?"
+    },
+    {
+      "criterion": "Hematopoietic",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's hepatic function is not provided, making it impossible to assess eligibility.",
+      "clinical_question": "Has the patient achieved a hematopoietic recovery defined as an absolute neutrophil count (ANC) of ≥1,000 cells/µL and a platelet count of ≥100,000 cells/µL following the last chemotherapy cycle?"
+    },
+    {
+      "criterion": "Absolute granulocyte count ≥ 1,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute granulocyte count currently ≥ 1,000/mm^3?"
+    },
+    {
+      "criterion": "Platelet count ≥ 75,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count ≥ 75,000/mm^3?"
+    },
+    {
+      "criterion": "Hepatic",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "LLM returned fewer verdicts than expected",
+      "clinical_question": "Does the patient have a baseline hepatic function with a total bilirubin level ≤1.5 mg/dL and AST/ALT levels ≤2.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Bilirubin ≤ 1.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided, making it unclear if the criterion is met.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "AST or ALT ≤ 2.5 times ULN (5 times ULN if liver involvement with lymphoma)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "AST and ALT levels are not provided, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the patient's AST or ALT level ≤ 2.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Hepatitis B status known (for patients with a history of hepatitis B or who are at high risk of hepatitis B infection)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hepatitis B status is not mentioned in the profile, leaving uncertainty regarding this criterion.",
+      "clinical_question": "Is the patient's hepatitis B status negative, or has she been vaccinated against hepatitis B?"
+    },
+    {
+      "criterion": "Renal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Renal function details are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine ≤ 1.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine levels are not provided, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the patient's serum creatinine level ≤ 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Cardiovascular",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Cardiovascular status is unclear due to lack of specific information on cardiac function.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) of ≥50% as assessed by echocardiogram or cardiac MRI prior to initiating chemotherapy?"
+    },
+    {
+      "criterion": "No significant cardiac dysfunction or cardiovascular disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of primary cardiac lymphoma raises concerns about potential cardiac dysfunction, but specific details are lacking.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) of ≥50% as assessed by echocardiogram or cardiac MRI?"
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding pregnancy status or nursing.",
+      "clinical_question": "Has the patient experienced a complete response to prior chemotherapy regimens before considering autologous stem cell transplantation?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pregnancy test results are mentioned, leaving this criterion uncertain.",
+      "clinical_question": "Is the patient currently pregnant or nursing?"
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Overall, the lack of specific lab values and medical history details prevents a clear assessment of eligibility.",
+      "clinical_question": "Has the patient undergone a negative serum or urine pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is female and of reproductive age, but there is no information provided about contraception use.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a hormonal method or an intrauterine device, to prevent pregnancy during the trial?"
+    },
+    {
+      "criterion": "Willing to complete quality of life questionnaires",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Willingness to complete questionnaires is not mentioned in the profile.",
+      "clinical_question": "Is the patient willing to complete all required quality of life questionnaires as part of the study protocol?"
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "HIV status is not provided in the patient profile.",
+      "clinical_question": "Has the patient tested negative for HIV within the last 12 months?"
+    },
+    {
+      "criterion": "No active, uncontrolled bacterial, fungal, or viral infection",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of viral encephalitis/meningitis, which may indicate an active viral infection.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other malignancy within the past 5 years except adequately treated basal cell skin cancer or carcinoma in situ of the cervix",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which is a malignancy and does not meet the criterion of no other malignancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent serious illness or medical condition that would preclude study participation",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple serious conditions (e.g., DVT, obesity, hypertension) that could preclude participation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify if the patient has undergone any prior concurrent therapy.",
+      "clinical_question": "Has the patient received any prior treatment with rituximab or other anti-CD20 monoclonal antibodies?"
+    },
+    {
+      "criterion": "Biologic therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's history with biologic therapy.",
+      "clinical_question": "Has the patient received at least one prior line of rituximab therapy for the treatment of Burkitt's lymphoma?"
+    },
+    {
+      "criterion": "See Chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not provide details on the patient's chemotherapy history.",
+      "clinical_question": "Has the patient received ≥2 cycles of a chemotherapy regimen prior to consideration for autologous stem cell transplantation?"
+    },
+    {
+      "criterion": "Prior rituximab allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention whether the patient has received rituximab.",
+      "clinical_question": "Has the patient received prior treatment with rituximab at any point in their medical history?"
+    },
+    {
+      "criterion": "Chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of Burkitt's lymphoma, but it is unclear if they have received chemotherapy recently or if they are currently undergoing treatment.",
+      "clinical_question": "Has the patient received ≥2 cycles of a chemotherapy regimen prior to autologous stem cell transplantation?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The disease characteristics are not explicitly provided, making it difficult to assess eligibility based on this criterion.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of relapsed or refractory aggressive non-Hodgkin's lymphoma based on histological evaluation?"
+    },
+    {
+      "criterion": "At least 4 weeks since prior IV chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the timing of the last IV chemotherapy, so it cannot be determined if the 4-week requirement is met.",
+      "clinical_question": "Has the patient received intravenous chemotherapy within the last 4 weeks?"
+    },
+    {
+      "criterion": "No prior high-dose chemotherapy with stem cell transplantation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not indicate prior high-dose chemotherapy with stem cell transplantation, but this is not explicitly confirmed.",
+      "clinical_question": "Has the patient received any prior high-dose chemotherapy with stem cell transplantation?"
+    },
+    {
+      "criterion": "Endocrine therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the use of endocrine therapy in the patient's treatment history.",
+      "clinical_question": "Has the patient received any form of endocrine therapy prior to the initiation of chemotherapy?"
+    },
+    {
+      "criterion": "No concurrent corticosteroids except for physiologic replacement",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to be on corticosteroids, but there is no confirmation regarding physiologic replacement.",
+      "clinical_question": "Has the patient received any corticosteroids in the past 30 days?"
+    },
+    {
+      "criterion": "Radiotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any prior radiotherapy treatments.",
+      "clinical_question": "Has the patient received radiotherapy as part of their treatment for Burkitt's lymphoma prior to the autologous stem cell transplantation?"
+    },
+    {
+      "criterion": "At least 4 weeks since prior radiotherapy and recovered",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Without details on prior radiotherapy, it cannot be determined if the 4-week recovery period is met.",
+      "clinical_question": "Has the patient recovered from any side effects of prior radiotherapy at least 4 weeks post-treatment?"
+    },
+    {
+      "criterion": "Exceptions may be made for low-dose, non-myelosuppressive radiotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on whether the patient has received low-dose, non-myelosuppressive radiotherapy.",
+      "clinical_question": "Has the patient received any prior low-dose, non-myelosuppressive radiotherapy?"
+    },
+    {
+      "criterion": "No prior radiotherapy to more than 25% of functioning bone marrow",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding prior radiotherapy to the bone marrow, making it impossible to assess this criterion.",
+      "clinical_question": "Has the patient received prior radiotherapy to more than 25% of functioning bone marrow?"
+    },
+    {
+      "criterion": "Involved-field radiotherapy may be given to areas of bulky disease at relapse (≥ 5 cm) after stem cell transplantation, according to the center's policy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of Burkitt's lymphoma and the presence of bulky disease (3cm mass) suggest potential eligibility, but the specific center's policy on involved-field radiotherapy is not provided.",
+      "clinical_question": "Does the patient have any areas of bulky disease at relapse measuring ≥5 cm that require involved-field radiotherapy after stem cell transplantation?"
+    },
+    {
+      "criterion": "Surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of multiple surgeries raises questions about surgical eligibility, but no specific details on current surgical status are provided.",
+      "clinical_question": "Has the patient undergone cholecystectomy to address the cholecystitis prior to the initiation of chemotherapy?"
+    },
+    {
+      "criterion": "At least 2 weeks since prior major surgery",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of knee surgery and other major procedures, which likely do not meet the 2-week requirement since the last major surgery.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is vague and does not provide specific details; further information is needed to assess eligibility.",
+      "clinical_question": "Has the patient experienced a complete response to prior chemotherapy regimens before considering autologous stem cell transplantation?"
+    },
+    {
+      "criterion": "No other concurrent anticancer therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of Burkitt's lymphoma and may require ongoing treatment, indicating potential concurrent anticancer therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent experimental agents",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medication history is empty, but without specific information on experimental agents, eligibility cannot be definitively assessed.",
+      "clinical_question": "Has the patient received any concurrent experimental agents during the treatment of her Burkitt's lymphoma?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 11 of 71 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4225
+}

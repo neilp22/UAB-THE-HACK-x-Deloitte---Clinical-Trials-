@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT03549052",
+  "trial_title": "Right Ventricular Echo Assessment in Mitral Valve Replacement",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "Rheumatic heart disease remains a major health problem in developing countries. It is the most important sequel of rheumatic fever and occurs in about 30% of patients with rheumatic fever.Rheumatic heart disease presents with different degrees of pancarditis and associated valve failure. Involvement of the mitral leaflets can cause mitral regurgitation (MR) or stenosis and eventually can lead to heart failure. Mitral repair or replacement is therefore recommended before left ventricular (LV) dys",
+  "eligibility_table": [
+    {
+      "criterion": "All ages will be accepted.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 34 years old, which meets the criterion of accepting all ages.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Isolated mitral valve lesion either stenosis or regurge.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe mitral valve prolapse with regurgitation, which qualifies as an isolated mitral valve lesion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Good LV function (EF <45%).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (EF) currently less than 45% as measured by transthoracic echocardiogram (TTE)?"
+    },
+    {
+      "criterion": "Any degree of tricuspid valve regurge.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The criterion allows for any degree of tricuspid valve regurgitation, and there is no indication of tricuspid valve issues in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concomitant Aortic valve lesion needs replacement.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not mention any aortic valve lesions, but the absence of this information makes it unclear whether this criterion is met.",
+      "clinical_question": "Does the patient have aortic stenosis or regurgitation with a mean gradient ≥40 mmHg or an effective orifice area <1.0 cm² on echocardiogram?"
+    },
+    {
+      "criterion": "Poor LV function (Low EF > 45%).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (EF) currently ≤ 45% as measured by transthoracic echocardiogram (TTE)?"
+    },
+    {
+      "criterion": "Other causes of pulmonary hypertension i.e.: (Chronic obstructive or restrictive pulmonary disease, connective tissue disease and chronic thromboembolism).",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has Marfan's syndrome, which is a connective tissue disease, potentially leading to pulmonary hypertension, but there is no explicit indication of pulmonary hypertension in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Emergency and Redo operations.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of planned mitral valve repair, but it is unclear if this constitutes an emergency or redo operation without further details.",
+      "clinical_question": "Has the patient undergone any emergency or redo cardiac operations prior to the planned mitral valve replacement?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Concomitant Aortic valve lesion needs replacement.",
+    "EXCLUSION UNCLEAR: Poor LV function (Low EF > 45%).",
+    "EXCLUSION UNCLEAR: Emergency and Redo operations."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

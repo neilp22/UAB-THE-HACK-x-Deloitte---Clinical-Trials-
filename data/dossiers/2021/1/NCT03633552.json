@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT03633552",
+  "trial_title": "Efficacy of Two Temozolomide Regimens in Adjuvant Treatment of Patients With Brain High Grade Glioma",
+  "phase": "PHASE3",
+  "status": "UNKNOWN",
+  "brief_summary": "This is a phase III, non-blinded, blocked randomized clinical trial. The study is conducted on 62 newly diagnosed patients with brain glioblastoma multiforme and anaplastic astrocytoma referring to the oncology clinics during March 2018 and March 2019. The patients will be randomized to 6-cycle and 12-cycle adjuvant Temozolomide groups using block randomization method (1:1).",
+  "eligibility_table": [
+    {
+      "criterion": "Newly diagnosed glioblastoma and anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma, which is included in the eligibility criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "age between 18 and 70 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 45 years old, which falls within the age range of 18 to 70 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Karnofsky Performance Scale Index equal or more than 60 percent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Karnofsky Performance Scale Index score of ≥60%?"
+    },
+    {
+      "criterion": "signed informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient has signed informed consent as part of the trial process.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "chronic hepatic",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's chronic pain and treatment history may suggest potential hepatic issues, but no specific lab values are provided to confirm chronic hepatic conditions.",
+      "clinical_question": "Does the patient have a chronic hepatic condition defined as a liver disease lasting more than 6 months, with documented liver function tests indicating elevated liver enzymes (AST/ALT > 40 U/L) or bilirubin levels > 1.2 mg/dL?"
+    },
+    {
+      "criterion": "renal failure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no explicit mention of renal failure, but the patient's treatment and conditions could imply renal concerns; further information is needed.",
+      "clinical_question": "Has the patient experienced a serum creatinine level ≥1.5 mg/dL at any point during the treatment regimen?"
+    },
+    {
+      "criterion": "cardiac failure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not explicitly indicate cardiac failure, but the presence of hypertension may raise concerns; further evaluation is necessary.",
+      "clinical_question": "Has the patient experienced any episodes of cardiac failure as defined by the New York Heart Association classification within the last 6 months?"
+    },
+    {
+      "criterion": "history of hematologic malignancies",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of anaplastic astrocytoma but no mention of hematologic malignancies; further clarification is needed.",
+      "clinical_question": "Has the patient ever been diagnosed with a hematologic malignancy, such as leukemia or lymphoma?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: chronic hepatic",
+    "EXCLUSION UNCLEAR: renal failure",
+    "EXCLUSION UNCLEAR: cardiac failure",
+    "EXCLUSION UNCLEAR: history of hematologic malignancies"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.375
+}

@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT03562741",
+  "trial_title": "Outcomes and Data Collection for Fecal Microbiota Transplantation for the Treatment of Recurrent Clostridium Difficile",
+  "phase": "NA",
+  "status": "RECRUITING",
+  "brief_summary": "The purpose of this study is to see if stool transplant performed by colonoscopy is effective at treating recurrent Clostridium difficile (C. diff) infection of the colon. During the procedure a stool sample is taken from a healthy donor (usually family member or close friend) and transplanted directly into the colon of the patient with C. diff infection. The goal of this experimental procedure (called fecal microbiota transplantation) is to replenish the good bacteria in the colon that can help",
+  "eligibility_table": [
+    {
+      "criterion": "Two or more recurrences of C. difficile infection (CDI) with recurrence defined as a positive test result, e.g. Polymerase Chain Reaction (PCR) test and with appropriate symptoms within 2-8 weeks of last positive result, provided that symptoms from earlier episode resolved with or without therapy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of 2 prior C. difficile infections, which meets the criterion for two or more recurrences.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Failed standard therapy with oral metronidazole and/or oral vancomycin",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has received antibiotic treatment for C. difficile, indicating a failure of standard therapy with oral metronidazole and/or oral vancomycin.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "One or more episodes of severe CDI resulting in hospitalization and not responding to standard antibiotic therapy. Hospitalization for CDI occurs in the setting of severe diarrhea, abdominal pain and signs of systemic toxicity",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient was hospitalized due to severe CDI, as indicated by the history of sepsis and ICU admission, which suggests severe symptoms.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age <16 years old",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 < 16.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "patients with acute severe colonic dilation at risk for colonic perforation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about acute severe colonic dilation or risk for colonic perforation, making it indeterminate.",
+      "clinical_question": "Does the patient have an abdominal X-ray or CT scan indicating acute severe colonic dilation with a diameter ≥6 cm?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: patients with acute severe colonic dilation at risk for colonic perforation"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.8
+}

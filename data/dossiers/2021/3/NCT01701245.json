@@ -1,0 +1,284 @@
+{
+  "nct_id": "NCT01701245",
+  "trial_title": "Prevention and Acute Treatment of Chronic Cluster Headache Compared to Standard of Care",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Subjects enrolled into this 10 week study will for the first two weeks document the number of cluster headaches and the means of treating (medication) of these attacks. Subjects will then be randomized to into either two groups. The first group is continuing with standard of care and the second group is treatment with the investigational device (GammaCore) for a period of 4 weeks. After this 4 week period, all subjects will treat with the GammaCore for another 4 week period. It is hypothesized t",
+  "eligibility_table": [
+    {
+      "criterion": "Signed Informed Consent Form",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient signed the informed consent form for participation in the trial?"
+    },
+    {
+      "criterion": "Subjects between the age of 18-70, both genders",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old, which falls within the age range of 18-70.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subjects diagnosed with chronic cluster headache for at least 1 year, without remission periods or with remission periods lasting <1 month, in accordance with the ICHD-II classification criteria (2ndEd)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not been diagnosed with chronic cluster headache; her conditions are related to spontaneous intraventricular hemorrhage and AVM.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 5 attacks fulfilling the following criteria: Severe or very severe unilateral orbital, supraorbital and/or temporal pain lasting 15-180 minutes if untreated",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a diagnosis of chronic cluster headache, thus cannot fulfill the attack criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Headache is accompanied by at least 1 of the following: Ipsilateral conjunctival injection and/or lacrimation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient exhibit ipsilateral conjunctival injection and/or lacrimation during headache episodes?"
+    },
+    {
+      "criterion": "Ipsilateral nasal congestion and/or rhinorrhea",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient exhibit ipsilateral nasal congestion and/or rhinorrhea during cluster headache episodes?"
+    },
+    {
+      "criterion": "Ipsilateral eyelid oedema",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient exhibit ipsilateral eyelid oedema with a measurable increase in eyelid thickness of ≥2 mm compared to the contralateral side?"
+    },
+    {
+      "criterion": "Ipsilateral forehead and facial sweating",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient exhibit ≥1 episode of ipsilateral forehead and facial sweating during cluster headache attacks?"
+    },
+    {
+      "criterion": "Ipsilateral miosis and/or ptosis",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient exhibit ipsilateral miosis and/or ptosis on the affected side during a cluster headache episode?"
+    },
+    {
+      "criterion": "A sense of restlessness or agitation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient reported a sense of restlessness or agitation on a scale of 1 to 10, with a threshold of ≥5 in the past week?"
+    },
+    {
+      "criterion": "Attacks have a frequency from 1 every other day to 8 per day and are not attributed to another disorder",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a diagnosis of chronic cluster headache, so the frequency of attacks is irrelevant.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Attacks recur over > 1 year without remission periods or with remission periods lasting < 1 month.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a diagnosis of chronic cluster headache, hence cannot meet the criteria for attack recurrence.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Has minimum mean attack frequency of 4 CH attacks per week.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient experienced an average of ≥4 cluster headache attacks per week over the past month?"
+    },
+    {
+      "criterion": "Is able to distinguish CH from other headaches (i.e. tension-type headaches).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced at least five episodes of unilateral, severe, stabbing pain lasting 15 to 180 minutes, accompanied by at least one autonomic symptom, to distinguish chronic cluster headache from tension-type headaches?"
+    },
+    {
+      "criterion": "Is capable of completing headache pain self-assessments.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Can the patient accurately complete a headache pain self-assessment using a numerical rating scale of 0 to 10?"
+    },
+    {
+      "criterion": "Agrees to use the GammaCore® device as intended and follow all of the requirements of the study, including follow-up visit requirements.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient agreed to use the GammaCore® device as intended and confirmed their ability to attend all required follow-up visits?"
+    },
+    {
+      "criterion": "Is currently taking CH prophylactic medication for indications other than CH which in the opinion of the clinician may interfere with the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently taking any chronic headache prophylactic medications that are not indicated for cluster headaches?"
+    },
+    {
+      "criterion": "Has had a change in type or dosage of prophylactic headache medications < 1 month prior to enrollment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on pain medication, but there is no information on whether there has been a change in dosage or type within the last month.",
+      "clinical_question": "Has the patient had a change in type or dosage of prophylactic headache medications within the last 30 days?"
+    },
+    {
+      "criterion": "Has a history of intracranial or carotid aneurysm, intracranial hemorrhage, brain tumors or significant head trauma.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient ever been diagnosed with an intracranial or carotid aneurysm, intracranial hemorrhage, brain tumors, or significant head trauma?"
+    },
+    {
+      "criterion": "Has a lesion (including lymphadenopathy), dysaesthesia, previous surgery or abnormal anatomy at the GammaCore® treatment site.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any lesions, including lymphadenopathy, or evidence of dysaesthesia at the GammaCore® treatment site as assessed by imaging or physical examination?"
+    },
+    {
+      "criterion": "Has other significant pain problem that might confound the study assessments in the opinion of the investigator.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient report a pain score of ≥4 on a scale of 0 to 10 for any other significant pain problem?"
+    },
+    {
+      "criterion": "Has known or suspected severe atherosclerotic cardiovascular disease, severe carotid artery disease (e.g. bruits or history of TIA or CVA), congestive heart failure (CHF), known severe coronary artery disease or recent myocardial infarction (within 5 years).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of significant medical conditions, but there is no explicit mention of severe atherosclerotic cardiovascular disease or related issues.",
+      "clinical_question": "Does the patient have a history of severe atherosclerotic cardiovascular disease, severe carotid artery disease, congestive heart failure, severe coronary artery disease, or a myocardial infarction within the last 5 years?"
+    },
+    {
+      "criterion": "Has had a previous unilateral or bilateral vagotomy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a unilateral or bilateral vagotomy at any point in their medical history?"
+    },
+    {
+      "criterion": "Has uncontrolled high blood pressure.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's blood pressure status is not provided, making it unclear if it is uncontrolled.",
+      "clinical_question": "Is the patient's systolic blood pressure consistently ≥140 mmHg or diastolic blood pressure consistently ≥90 mmHg?"
+    },
+    {
+      "criterion": "Is currently implanted with an electrical and/or neurostimulator device, including but not limited to cardiac pacemaker or defibrillator, vagal neurostimulator, deep brain stimulator, spinal stimulator, bone growth stimulator, or cochlear implant.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently implanted with any electrical or neurostimulator device, including but not limited to a cardiac pacemaker, vagal neurostimulator, deep brain stimulator, spinal stimulator, bone growth stimulator, or cochlear implant?"
+    },
+    {
+      "criterion": "Has a history of carotid endarterectomy or vascular neck surgery on the right side.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone carotid endarterectomy or vascular neck surgery on the right side?"
+    },
+    {
+      "criterion": "Is willing to keep all concomitant medication stable during the entire study period.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's willingness to keep medications stable is unknown, as there is no information provided on her agreement to this condition.",
+      "clinical_question": "Has the patient been stable on the current pain medication regimen for at least 4 weeks prior to enrollment in the study?"
+    },
+    {
+      "criterion": "Women of child-bearing potential must use 2 methods of contraceptive i.e. hormones and condom.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's contraceptive methods are not mentioned, so it is unclear if she meets the requirement for using two methods.",
+      "clinical_question": "Is the patient currently using at least two methods of contraception, specifically a hormonal method and a condom?"
+    },
+    {
+      "criterion": "Has been implanted with metal cervical spine hardware or has a metallic implant near the GammaCore® stimulation site.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention any metallic implants, but the presence of a significant medical condition (AVM) raises uncertainty.",
+      "clinical_question": "Does the patient have any metallic implants, including cervical spine hardware, within 5 cm of the GammaCore® stimulation site?"
+    },
+    {
+      "criterion": "Has a history, the last 12 month, of syncope.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of syncope in the patient's history, but the recent head injury and hemorrhage could complicate the assessment.",
+      "clinical_question": "Has the patient experienced any episodes of syncope in the last 12 months?"
+    },
+    {
+      "criterion": "Has a history, the last 12 month of seizures.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a significant medical history, but there is no explicit mention of seizures in the profile.",
+      "clinical_question": "Has the patient experienced any seizures in the last 12 months?"
+    },
+    {
+      "criterion": "Has a known history or suspicion of substance abuse or addiction, or overuse of acute headache medication for headaches other than CH.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate substance abuse, but the patient's medical history may warrant further investigation.",
+      "clinical_question": "Has the patient used acute headache medication for headaches other than chronic cluster headache on ≥10 days per month in the past 3 months?"
+    },
+    {
+      "criterion": "Has psychiatric or cognitive disorder and/or behavioral problems which in the opinion of the investigator may interfere with the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of AVM and hemorrhage may suggest potential cognitive issues, but no specific psychiatric disorders are mentioned.",
+      "clinical_question": "Does the patient have a history of psychiatric or cognitive disorders, as defined by the DSM-5 criteria, that could interfere with the study?"
+    },
+    {
+      "criterion": "In the opinion of the investigator the subject is incapable of operating the GammaCore® device as intended and performing the data collection procedures.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to operate the device is uncertain due to her medical conditions, but no explicit incapacity is noted.",
+      "clinical_question": "Can the patient demonstrate the ability to operate the GammaCore® device independently and accurately complete the data collection procedures as assessed by a standardized competency evaluation?"
+    },
+    {
+      "criterion": "Is participating in any other therapeutic clinical investigation or has participated in a clinical trial in the preceding 30 days.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on participation in other trials, but the patient's medical condition may limit her eligibility.",
+      "clinical_question": "Has the patient participated in any therapeutic clinical investigation or clinical trial within the last 30 days?"
+    },
+    {
+      "criterion": "Woman who are pregnant or lactating.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate pregnancy or lactation, but further confirmation is needed due to the patient's medical history.",
+      "clinical_question": "Is the patient currently pregnant or lactating?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Is currently taking CH prophylactic medication for indications other than CH whi",
+    "EXCLUSION UNCLEAR: Has had a change in type or dosage of prophylactic headache medications < 1 mont",
+    "EXCLUSION UNCLEAR: Has a history of intracranial or carotid aneurysm, intracranial hemorrhage, brai",
+    "EXCLUSION UNCLEAR: Has a lesion (including lymphadenopathy), dysaesthesia, previous surgery or abno",
+    "EXCLUSION UNCLEAR: Has other significant pain problem that might confound the study assessments in ",
+    "EXCLUSION UNCLEAR: Has known or suspected severe atherosclerotic cardiovascular disease, severe car",
+    "EXCLUSION UNCLEAR: Has had a previous unilateral or bilateral vagotomy.",
+    "EXCLUSION UNCLEAR: Has uncontrolled high blood pressure.",
+    "EXCLUSION UNCLEAR: Is currently implanted with an electrical and/or neurostimulator device, includi",
+    "EXCLUSION UNCLEAR: Has a history of carotid endarterectomy or vascular neck surgery on the right si",
+    "EXCLUSION UNCLEAR: Has been implanted with metal cervical spine hardware or has a metallic implant ",
+    "EXCLUSION UNCLEAR: Has a history, the last 12 month, of syncope.",
+    "EXCLUSION UNCLEAR: Has a history, the last 12 month of seizures.",
+    "EXCLUSION UNCLEAR: Has a known history or suspicion of substance abuse or addiction, or overuse of ",
+    "EXCLUSION UNCLEAR: Has psychiatric or cognitive disorder and/or behavioral problems which in the op",
+    "EXCLUSION UNCLEAR: In the opinion of the investigator the subject is incapable of operating the Gam",
+    "EXCLUSION UNCLEAR: Is participating in any other therapeutic clinical investigation or has particip",
+    "EXCLUSION UNCLEAR: Woman who are pregnant or lactating.",
+    "LOW INCLUSION MATCH: only 1 of 18 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1389
+}

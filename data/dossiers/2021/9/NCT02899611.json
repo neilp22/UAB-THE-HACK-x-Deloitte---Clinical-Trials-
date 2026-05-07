@@ -1,0 +1,397 @@
+{
+  "nct_id": "NCT02899611",
+  "trial_title": "A Dose Ranging Pilot Study for Intracerebroventricular (ICV) Delivery of Valproate in Subjects With Temporal Seizures",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "Patients with medically refractory epilepsy will be treated by intracerebroventricular (ICV) delivery of valproate using an implantable drug pump system. The dose of valproate will be escalated weekly during a blinded-evaluation period through Day 64 to determine the maximum tolerated dose (MTD). After Day 64, patients can continue for 52 weeks in the open-label evaluation period (non-blinded). .",
+  "eligibility_table": [
+    {
+      "criterion": "Subject is 18 to 65 years old.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 13.0 >= 65.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject does not have coagulopathy, ventricular anatomic distortion or abnormally low brain weight or significant volume loss etc. and is approved to have surgery.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The subject has significant neurological conditions including severe intellectual disability and anoxic brain injury, which may affect eligibility for surgery.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject had onset of epilepsy after age 5, had normal brain development up to age 5, and has full scale IQ > 70 by testing or functional assessment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The subject's epilepsy began at age 13, which is after the required age of 5, and the subject has severe intellectual disability, likely resulting in an IQ < 70.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has brain volume which is not noted to be abnormally small due to atrophy by either the radiologist reading on MRI scan or the treating clinicians (the neurosurgeon) review of the MRI scan.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "MRI findings indicate atrophic changes in the left temporal lobe, suggesting abnormal brain volume due to atrophy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has had confirmed epilepsy for a minimum of 1 year, with diagnosis of focal seizures with temporal lobe onset, with or without secondarily generalized seizures, as defined by the International League Against Epilepsy (ILAE) Classification of Epileptic Seizures (1981).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The subject has only recently developed seizures at age 13 and has not had confirmed epilepsy for a minimum of 1 year.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "In the opinion of the investigator, subject has disabling seizures. Disabling refers to seizures that are severe enough to cause injuries, or significantly impair functional ability in domains including employment, psychosocial education and mobility.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The subject's seizures are likely disabling due to their impact on functional ability, given the severe intellectual disability and other conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has had a CT or MRI of the brain to rule out progressive structural lesions.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The subject has had an MRI, which is necessary to rule out progressive structural lesions, although the findings are concerning.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has had an EEG or video EEG or invasive monitoring within the past 3 yrs consistent with partial seizures (a normal interictal EEG is consistent with partial seizures).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The subject's EEG reports are pending, and there is no evidence of a recent EEG consistent with partial seizures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has previously failed at least 3 AEDs in single or combination use.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient previously failed at least 3 different antiepileptic drugs (AEDs) in either single or combination use?"
+    },
+    {
+      "criterion": "Subject is taking currently approved AED medication(s) (but is not on valproate or divalproex sodium) and has been on a stable dosing regimen for 1 month prior to Screening.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The subject is currently taking valium, which is not an approved AED for this trial, and the stability of the regimen is unclear.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has any significant neurologic disease other than epilepsy.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The subject has significant neurological conditions, but epilepsy is the primary concern, and other conditions may not disqualify them.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has history, within 12 months prior to Screening, of repetitive seizures that cannot be counted.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The subject has a history of seizures that began recently, and there is no indication of repetitive seizures that cannot be counted.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has pseudoseizures or seizures secondary to illicit drug or alcohol use, neoplasia, active CNS infection, demyelinating disease, degenerative neurological disease, progressive central nervous system disease or metabolic illness.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of seizures but does not have evidence of pseudoseizures or seizures secondary to the listed conditions. However, further investigation is needed to confirm the absence of these conditions.",
+      "clinical_question": "Does the patient have a history of seizures secondary to illicit drug or alcohol use, neoplasia, active CNS infection, demyelinating disease, degenerative neurological disease, progressive central nervous system disease, or metabolic illness?"
+    },
+    {
+      "criterion": "Subject has been diagnosed with partial motor, primarily generalized seizures or has been diagnosed with psychogenic or nonepileptic seizures in the preceding year.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has focal epilepsy with secondary generalization, but it is unclear if they have been diagnosed with psychogenic or nonepileptic seizures in the past year. More information is needed.",
+      "clinical_question": "Has the patient been diagnosed with partial motor seizures or psychogenic nonepileptic seizures within the past year?"
+    },
+    {
+      "criterion": "Subject has had status epilepticus refractory to benzodiazepines and phenytoin within one year prior to Screening.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication that the patient has experienced status epilepticus refractory to benzodiazepines and phenytoin in the past year, but this needs confirmation.",
+      "clinical_question": "Has the patient experienced status epilepticus refractory to benzodiazepines and phenytoin within the past year?"
+    },
+    {
+      "criterion": "Subject is currently taking neuroleptic medication for behavior control.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is taking Valium, which is a benzodiazepine, but it is not specified if it is for behavior control. More information is needed.",
+      "clinical_question": "Is the patient currently taking any neuroleptic medication for behavior control, and if so, what is the specific medication and dosage?"
+    },
+    {
+      "criterion": "Subject is taking scheduled doses of benzodiazepines or has required, in the 3 months prior to Screening, benzodiazepine use more than 4 times per month for seizure control. One use is defined as taking up to 3 doses in a 24 hour period.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently taking 20 mg of Valium, which counts as scheduled doses of benzodiazepines.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject is currently implanted with an activated DBS, or RNS device used for treatment of a neurologic or psychiatric condition.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the presence of an activated DBS or RNS device, so this criterion cannot be assessed.",
+      "clinical_question": "Is the patient currently implanted with an activated deep brain stimulation (DBS) or responsive neurostimulation (RNS) device?"
+    },
+    {
+      "criterion": "Subject has VNS and the VNS stimulation parameters are not stable. Stable shall be defined such that the stimulation parameters have been changed in the last 4 months or the patient/designee is able to report \"magnet swipe\" during the same time period.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have VNS mentioned in their profile, but it is unclear if they have any stimulation parameters that are unstable.",
+      "clinical_question": "Have the VNS stimulation parameters been changed in the last 4 months?"
+    },
+    {
+      "criterion": "Subject is currently taking oral valproic acid or sodium divalproex.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is taking Valium, which is a benzodiazepine, thus this criterion is not met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has completed all investigations necessary to satisfy the PI that noninvasive therapies are not likely to be satisfactorily successful.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "It is unclear if the patient has completed all necessary investigations to rule out noninvasive therapies, as this information is not provided.",
+      "clinical_question": "Has the patient undergone at least two noninvasive therapies for seizure management that were deemed unsuccessful?"
+    },
+    {
+      "criterion": "For the 3 months before informed consent an average of four or more clinically significant focal seizures of temporal lobe onset, with or without secondary generalization, per month. Only seizures with objectively visible manifestations should be counted. The subject should have no period longer than 30 days in the 3 months prior to enrollment with less than 2 seizures. Seizures of hippocampal origin are preferred if the seizure origin is known or determined from imaging and seizure localization.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of seizures but lacks detailed seizure frequency data for the past 3 months to confirm this criterion.",
+      "clinical_question": "Has the patient experienced an average of four or more clinically significant focal seizures of temporal lobe onset per month in the 3 months prior to informed consent?"
+    },
+    {
+      "criterion": "Subject has seizures that are distinct, stereotypical events that can be reliably counted, in the opinion of the Investigator, by the subject or caregiver.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of seizures but only developed them at age 13 and has been seizure-free for 20 years, making it unclear if the current seizures are distinct and reliably countable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has hearing, vision, and physical abilities adequate to perform assessments, with or without corrective aids, including keeping a seizure and medication diary during study follow-up.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to perform assessments is uncertain due to severe intellectual disability, but it is not explicitly stated that he cannot use corrective aids.",
+      "clinical_question": "Does the patient have the ability to keep a seizure and medication diary independently or with minimal assistance during the study follow-up?"
+    },
+    {
+      "criterion": "Subject understands study procedures and has voluntarily provided signed, informed consent in accordance with institutional and local regulatory requirements.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Given the patient's severe intellectual disability, it is unlikely he can understand study procedures or provide informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Medically refractory for more than one year.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not been medically refractory for more than one year, as he has only recently developed seizures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Needs be literate in English or native language of the country of the study enrollment to complete neuropsychological testing.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's literacy in English or native language is unknown, and his severe intellectual disability may impact this.",
+      "clinical_question": "Can the patient demonstrate proficiency in English or their native language sufficient to complete neuropsychological testing?"
+    },
+    {
+      "criterion": "Subject can be reasonably expected to maintain a seizure diary alone or with the assistance of a competent individual.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Due to severe intellectual disability, it is unlikely the patient can maintain a seizure diary independently.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women of childbearing potential must be using a medically accepted method of contraception and have a negative qualitative β-human chorionic growth hormone (β-HCG) pregnancy test result from a urine or blood sample collected at Screening.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion does not apply, but it is unclear if he has any female caregivers who meet the criteria.",
+      "clinical_question": "Has the patient undergone a qualitative β-HCG pregnancy test with a negative result prior to screening?"
+    },
+    {
+      "criterion": "Non-childbearing potential is defined as any female who is post menopausal since the last 1 year or has had hysterectomy or bilateral oophorectomy or is surgically sterilized.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion does not apply.",
+      "clinical_question": "Has the patient undergone a hysterectomy or bilateral oophorectomy, or is the patient postmenopausal for at least 1 year?"
+    },
+    {
+      "criterion": "Subject has refractory motor seizures.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of focal epilepsy with secondary generalization, which may indicate refractory motor seizures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has had more than 10 seizures in one day or more than 300 seizures in one month within the last year.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not had more than 10 seizures in one day or more than 300 seizures in one month, as he has only recently developed seizures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has known allergy to valproic acid, divalproex sodium, Epilim, or Depacon.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about allergies to valproic acid or related medications.",
+      "clinical_question": "Does the patient have a documented allergy to valproic acid, divalproex sodium, Epilim, or Depacon?"
+    },
+    {
+      "criterion": "Subject has unstable depression being treated with more than 1 anti-depressant medication, or has current evidence of or history within the past 2 years of DSM-IV criteria for any major psychiatric disorder including psychosis, major depression, bipolar disorder, and prior suicide attempt within five years. Also excluded are subjects with a history of postictal psychosis or psychosis or depression secondary to a discontinued AED.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of current or past psychiatric disorders is provided, but the patient's history is complex.",
+      "clinical_question": "Does the patient have a current diagnosis of any major psychiatric disorder as defined by DSM-IV criteria, or a history of such a disorder within the past 2 years?"
+    },
+    {
+      "criterion": "Subject has had alcohol or substance abuse within the past 5 years.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on alcohol or substance abuse history is provided.",
+      "clinical_question": "Has the patient had any history of alcohol or substance abuse within the past 5 years?"
+    },
+    {
+      "criterion": "Subject has uncontrolled Type I or Type II diabetes, hypercoagulability. Controlled diabetics for >12 months as evidenced by HbA1C <8% can be included in study based on Investigators assessment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on diabetes or HbA1C levels is provided.",
+      "clinical_question": "Is the patient's HbA1C level <8% based on the most recent lab results?"
+    },
+    {
+      "criterion": "Subject has history or evidence of congestive heart failure, clinically significant peripheral edema, or anemia with a hematocrit <30%.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has congestive heart failure (CHF), which is an exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject has liver function tests aspartate aminotransferase (AST) or alanine aminotransferase (ALT) at Screening ≥ 3 times the upper limit of normal, or clinically significant renal disease or insufficiency.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No liver function tests or renal disease information is provided.",
+      "clinical_question": "Are the patient's aspartate aminotransferase (AST) or alanine aminotransferase (ALT) levels at Screening ≥ 3 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Subject has elevated (clinically significant thrombocytosis) or decreased (< 175/μL) platelet count. Subjects should not be taking aspirin or nonsteroidal anti-inflammatory drugs within the week before and week after implantation of catheter and pump.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No platelet count information is provided.",
+      "clinical_question": "What is the patient's current platelet count?"
+    },
+    {
+      "criterion": "Subject has abnormal prothrombin time or INR (> 14 seconds) or partial thromboplastin time (> 50 seconds).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No prothrombin time or INR information is provided.",
+      "clinical_question": "Is the patient's prothrombin time ≤ 14 seconds and partial thromboplastin time ≤ 50 seconds?"
+    },
+    {
+      "criterion": "Medically accepted forms of birth control include:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on birth control methods is provided.",
+      "clinical_question": "Is the patient currently using a medically accepted form of birth control, such as a hormonal implant or intrauterine device?"
+    },
+    {
+      "criterion": "Intrauterine device in place for at least 3 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the presence of an intrauterine device is provided.",
+      "clinical_question": "Has the patient had an intrauterine device in place for at least 3 months?"
+    },
+    {
+      "criterion": "Adequate barrier methods (e.g., diaphragm and foam), or an oral contraceptive in combination with another method (e.g., spermicidal cream). An oral contraceptive alone is not considered adequate for this study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is a 13-year-old male and does not appear to be using any barrier methods or oral contraceptives, but the specific details of contraceptive use are not provided.",
+      "clinical_question": "Has the patient been using an adequate barrier method, such as a diaphragm and foam or an oral contraceptive in combination with another method, for at least the last three months?"
+    },
+    {
+      "criterion": "If on hepatic inducing AEDs which could lower serum hormone levels (phenytoin, phenobarbital, primidone, carbamazepine, oxcarbazepine, topiramate, zonisamide, rufinamide, lacosamide) then an oral contraceptive must have minimum dosage equivalent to 50 µg daily of ethinyl estradiol.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on phenobarbital, which is a hepatic inducing AED, but there is no information on whether he is using an oral contraceptive or its dosage.",
+      "clinical_question": "Is the patient currently taking an oral contraceptive with a minimum dosage equivalent to 50 µg daily of ethinyl estradiol?"
+    },
+    {
+      "criterion": "Subject has, after 3 minutes in the supine position, systolic blood pressure < 90 or > 180 or pulse outside the range of 50-100 beats per minute.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's blood pressure or pulse after 3 minutes in the supine position.",
+      "clinical_question": "Is the patient's systolic blood pressure < 90 or > 180, or is the pulse rate outside the range of 50-100 beats per minute after 3 minutes in the supine position?"
+    },
+    {
+      "criterion": "Subject has had cancer within 3 years prior to Screening with the exception of squamous and basal cell carcinomas of the skin, and in situ carcinoma of the breast or cervix.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's blood pressure or pulse after 3 minutes in the supine position.",
+      "clinical_question": "Has the patient been diagnosed with any type of cancer within the last 3 years, excluding squamous and basal cell carcinomas of the skin, and in situ carcinoma of the breast or cervix?"
+    },
+    {
+      "criterion": "Subject is on chronic anticoagulants or, in the opinion of the Investigator, is not a suitable candidate for cranial surgery for any reason.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's blood pressure or pulse after 3 minutes in the supine position.",
+      "clinical_question": "Is the patient currently taking any chronic anticoagulants, such as warfarin or direct oral anticoagulants?"
+    },
+    {
+      "criterion": "Subject has known HIV infection or known or suspected prion disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's blood pressure or pulse after 3 minutes in the supine position.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of HIV infection or a known diagnosis of prion disease?"
+    },
+    {
+      "criterion": "Subject has known allergies to drugs or excipients.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of severe intellectual disability and other conditions, but there is no indication of cancer within the last 3 years.",
+      "clinical_question": "Does the patient have any known allergies to valproate or its excipients?"
+    },
+    {
+      "criterion": "Subject is breastfeeding.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to be on chronic anticoagulants, but suitability for cranial surgery is not assessed.",
+      "clinical_question": "Is the patient currently breastfeeding an infant?"
+    },
+    {
+      "criterion": "In the opinion of the investigator, the subject has a clinically significant or unstable medical condition (including alcohol and/or drug abuse) or a progressive CNS disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding HIV infection or prion disease.",
+      "clinical_question": "Does the patient have any clinically significant or unstable medical conditions, including evidence of alcohol or drug abuse, or a progressive CNS disease as assessed by the investigator?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Subject has history, within 12 months prior to Screening, of repetitive seizures",
+    "EXCLUSION UNCLEAR: Subject has pseudoseizures or seizures secondary to illicit drug or alcohol use,",
+    "EXCLUSION UNCLEAR: Subject has been diagnosed with partial motor, primarily generalized seizures or",
+    "EXCLUSION UNCLEAR: Subject has had status epilepticus refractory to benzodiazepines and phenytoin w",
+    "EXCLUSION UNCLEAR: Subject is currently taking neuroleptic medication for behavior control.",
+    "EXCLUSION VIOLATED: Subject is taking scheduled doses of benzodiazepines or has required, in the 3 m",
+    "EXCLUSION UNCLEAR: Subject is currently implanted with an activated DBS, or RNS device used for tre",
+    "EXCLUSION UNCLEAR: Subject has VNS and the VNS stimulation parameters are not stable. Stable shall ",
+    "EXCLUSION VIOLATED: Subject is currently taking oral valproic acid or sodium divalproex.",
+    "EXCLUSION VIOLATED: Subject has refractory motor seizures.",
+    "EXCLUSION VIOLATED: Subject has had more than 10 seizures in one day or more than 300 seizures in on",
+    "EXCLUSION UNCLEAR: Subject has known allergy to valproic acid, divalproex sodium, Epilim, or Depaco",
+    "EXCLUSION UNCLEAR: Subject has unstable depression being treated with more than 1 anti-depressant m",
+    "EXCLUSION UNCLEAR: Subject has had alcohol or substance abuse within the past 5 years.",
+    "EXCLUSION UNCLEAR: Subject has uncontrolled Type I or Type II diabetes, hypercoagulability. Control",
+    "EXCLUSION VIOLATED: Subject has history or evidence of congestive heart failure, clinically signific",
+    "EXCLUSION UNCLEAR: Subject has liver function tests aspartate aminotransferase (AST) or alanine ami",
+    "EXCLUSION UNCLEAR: Subject has elevated (clinically significant thrombocytosis) or decreased (< 175",
+    "EXCLUSION UNCLEAR: Subject has abnormal prothrombin time or INR (> 14 seconds) or partial thrombopl",
+    "EXCLUSION UNCLEAR: Subject has, after 3 minutes in the supine position, systolic blood pressure < 9",
+    "EXCLUSION UNCLEAR: Subject has had cancer within 3 years prior to Screening with the exception of s",
+    "EXCLUSION UNCLEAR: Subject is on chronic anticoagulants or, in the opinion of the Investigator, is ",
+    "EXCLUSION UNCLEAR: Subject has known HIV infection or known or suspected prion disease.",
+    "EXCLUSION UNCLEAR: Subject has known allergies to drugs or excipients.",
+    "EXCLUSION UNCLEAR: Subject is breastfeeding.",
+    "EXCLUSION UNCLEAR: In the opinion of the investigator, the subject has a clinically significant or ",
+    "LOW INCLUSION MATCH: only 2 of 24 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3922
+}

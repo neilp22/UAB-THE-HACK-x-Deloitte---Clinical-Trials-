@@ -1,0 +1,91 @@
+{
+  "nct_id": "NCT03710187",
+  "trial_title": "HCT+F vs. HCT Alone in Critically Ill Medical Septic Shock Patients",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This study will be conducted as a single-center, prospective, open-label, randomized trial that will evaluate adult patients admitted with septic shock to the medical critical care unit (MCC). The objective of the study is to determine if the use of hydrocortisone plus fludrocortisone is associated with a faster resolution of shock (defined as 24 hours vasopressor free) when compared to the use of hydrocortisone alone in medical, critically ill septic shock patients.",
+  "eligibility_table": [
+    {
+      "criterion": "Critically ill medical patients requiring addition of stress dose steroid therapy (hydrocortisone) in addition to pressors for septic shock management during ICU stay",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is critically ill with sepsis and has been on pressors, indicating a need for stress dose steroid therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fludrocortisone administered within 24 hours after initiation of hydrocortisone if in combination therapy group",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the administration of fludrocortisone within 24 hours after hydrocortisone initiation.",
+      "clinical_question": "Has the patient received fludrocortisone within 24 hours after the initiation of hydrocortisone?"
+    },
+    {
+      "criterion": "Use of fludrocortisone and/or hydrocortisone for any reason other than septic shock management during ICU stay",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's use of hydrocortisone is not specified, so it is unclear if it was for septic shock management.",
+      "clinical_question": "Has the patient received fludrocortisone or hydrocortisone for any reason other than septic shock management during their ICU stay?"
+    },
+    {
+      "criterion": "Fludrocortisone/hydrocortisone initiated by any service other than critical care medicine",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on which service initiated fludrocortisone/hydrocortisone.",
+      "clinical_question": "Has the patient received fludrocortisone or hydrocortisone initiated by a service other than critical care medicine?"
+    },
+    {
+      "criterion": "Prior use of fludrocortisone/hydrocortisone at time of admission (home or outside facility)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's prior use of fludrocortisone/hydrocortisone at admission is not documented.",
+      "clinical_question": "Has the patient received fludrocortisone or hydrocortisone within 30 days prior to admission?"
+    },
+    {
+      "criterion": "Patients not appropriate for study inclusion as determined by provider discretion",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Provider discretion regarding study inclusion is not provided.",
+      "clinical_question": "Does the patient have any contraindications to receiving HCT+F as determined by the provider, such as active bleeding or severe allergic reactions to components of the treatment?"
+    },
+    {
+      "criterion": "Patients receiving steroid therapy not in accordance with assigned group per location (MCC1 or MCC2)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the location of steroid therapy administration.",
+      "clinical_question": "Has the patient received steroid therapy in the past 7 days that was not in accordance with the assigned group (HCT+F or HCT Alone)?"
+    },
+    {
+      "criterion": "Patients re-admitted to the MCC during the same admission and restarted on vasopressor therapy will be noted during data collection and only the initial admission will be included for analysis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's re-admission status and vasopressor therapy details are not provided.",
+      "clinical_question": "Has the patient been re-admitted to the MCC during the same admission and restarted on vasopressor therapy?"
+    },
+    {
+      "criterion": "Any patient receiving greater than one dose of hydrocortisone 100 mg",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The number of hydrocortisone doses received by the patient is not specified.",
+      "clinical_question": "Has the patient received more than one dose of hydrocortisone 100 mg?"
+    },
+    {
+      "criterion": "Physical or medical contraindication to receiving PO or PER FT (per feeding tube) fludrocortisone",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on any physical or medical contraindications for fludrocortisone administration.",
+      "clinical_question": "Does the patient have any gastrointestinal obstruction or severe dysphagia that would prevent the administration of oral or per feeding tube fludrocortisone?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Use of fludrocortisone and/or hydrocortisone for any reason other than septic sh",
+    "EXCLUSION UNCLEAR: Fludrocortisone/hydrocortisone initiated by any service other than critical care",
+    "EXCLUSION UNCLEAR: Prior use of fludrocortisone/hydrocortisone at time of admission (home or outsid",
+    "EXCLUSION UNCLEAR: Patients not appropriate for study inclusion as determined by provider discretio",
+    "EXCLUSION UNCLEAR: Patients receiving steroid therapy not in accordance with assigned group per loc",
+    "EXCLUSION UNCLEAR: Patients re-admitted to the MCC during the same admission and restarted on vasop",
+    "EXCLUSION UNCLEAR: Any patient receiving greater than one dose of hydrocortisone 100 mg",
+    "EXCLUSION UNCLEAR: Physical or medical contraindication to receiving PO or PER FT (per feeding tube"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1
+}

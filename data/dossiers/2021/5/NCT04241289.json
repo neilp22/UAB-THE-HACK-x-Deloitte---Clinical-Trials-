@@ -1,0 +1,138 @@
+{
+  "nct_id": "NCT04241289",
+  "trial_title": "Detection and Neurological Impact of Cerebrovascular Events in Cardiac Surgery Patients",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "The investigators conducted a prospective observational pilot study to explore the incidence of peri-operative covert strokes (detected by brain MRI) and the potential impact on delirium and cognitive decline in post-operative cardiac surgery patients at the Hamilton General Hospital. This pilot study assessed the feasibility of a larger prospective international cohort study exploring this objective.",
+  "eligibility_table": [
+    {
+      "criterion": "Male or female ≥ 21 years old",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Does the patient have a history of any cerebrovascular events occurring within the last 12 months?"
+    },
+    {
+      "criterion": "Provide written informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can provide written informed consent as there are no indications of cognitive impairment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Scheduled to undergo isolated CABG through a median sternotomy approach",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone CABG previously, which disqualifies him from undergoing isolated CABG again.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have at least one of the following risk factors:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has multiple risk factors including CAD, HTN, DMII, and PVD.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Peripheral vascular disease (previous peripheral arterial bypass, amputation due to ischemia, ABPI <0.9, or previous AAA repair)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has moderate to severe PVD, which qualifies under the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Cerebrovascular disease (history of stroke, TIA, or carotid stenosis >70%)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has significant bilateral carotid stenosis, which is classified as cerebrovascular disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Renal insufficiency (eGFR <60 mL/min/1.73m2)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's eGFR is not provided; therefore, renal insufficiency status is unknown.",
+      "clinical_question": "What is the patient's estimated glomerular filtration rate (eGFR), and is it less than 60 mL/min/1.73m²?"
+    },
+    {
+      "criterion": "Diabetes mellitus (on oral hypoglycemic agent(s) and/or insulin replacement)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has diabetes mellitus and has a history of retinopathy, indicating he is likely on treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Urgent CABG (in-patient awaiting revascularization for ACS or MI)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not currently in an urgent situation for CABG as there is no mention of ACS or MI.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recent smoker (within the last year)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication that the patient is a recent smoker.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Left ventricular ejection fraction <35%",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's ejection fraction is 60%, which is above the threshold of <35%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concomitant cardiac procedure with CABG Prior enrolment in this study",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of Coronary Artery Bypass Grafting (CABG), which is a prior enrollment exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Emergency CABG surgery (immediate revascularization for hemodynamic instability)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication that the patient underwent emergency CABG surgery; however, the information is not explicitly provided.",
+      "clinical_question": "Does the patient exhibit hemodynamic instability as defined by a systolic blood pressure <90 mmHg or a heart rate >120 bpm prior to the emergency CABG surgery?"
+    },
+    {
+      "criterion": "Redo CABG",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of CABG, but it is not specified whether this was a redo CABG.",
+      "clinical_question": "Does the patient have a history of ≥1 cerebrovascular event that resulted in significant neurological deficits requiring intervention prior to the redo CABG?"
+    },
+    {
+      "criterion": "Circulatory arrest planned during the cardiac operation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding planned circulatory arrest during the cardiac operation.",
+      "clinical_question": "Is the planned duration of circulatory arrest during the cardiac operation expected to exceed 30 minutes?"
+    },
+    {
+      "criterion": "Diagnosed dementia of any types",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of diagnosed dementia in the patient's history.",
+      "clinical_question": "Has the patient been diagnosed with any type of dementia as defined by the DSM-5 criteria?"
+    },
+    {
+      "criterion": "Contra-indication for DW MRI e.g. claustrophobia, unable to lie flat for the duration of the study, pacemaker or ICD in-situ, or other metal implants",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not provided information regarding any contraindications for DW MRI, such as claustrophobia or metal implants.",
+      "clinical_question": "Does the patient have any contraindications for DW MRI, such as claustrophobia, inability to lie flat for the duration of the study, or the presence of a pacemaker, ICD, or other metal implants?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Concomitant cardiac procedure with CABG Prior enrolment in this study",
+    "EXCLUSION UNCLEAR: Emergency CABG surgery (immediate revascularization for hemodynamic instability)",
+    "EXCLUSION UNCLEAR: Redo CABG",
+    "EXCLUSION UNCLEAR: Circulatory arrest planned during the cardiac operation",
+    "EXCLUSION UNCLEAR: Diagnosed dementia of any types",
+    "EXCLUSION UNCLEAR: Contra-indication for DW MRI e.g. claustrophobia, unable to lie flat for the dur"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.5882
+}

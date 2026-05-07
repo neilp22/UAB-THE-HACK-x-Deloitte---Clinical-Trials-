@@ -1,0 +1,278 @@
+{
+  "nct_id": "NCT00113503",
+  "trial_title": "Imuran Dosing in Crohn's Disease Study",
+  "phase": "PHASE2",
+  "status": "TERMINATED",
+  "brief_summary": "This study will compare two different dosing methods of azathioprine (IMURAN) in participants with Crohn's disease who are currently taking steroids (e.g. prednisone or budesonide)or who have just started steroids. The study can be up to 54 weeks long. All participants enrolled will receive active drug. Participants will take doses either based upon weight or based on the patient's ability to breakdown the drug (monitored by 6-thioguanine nucleotides (6-TGN) metabolite levels in the blood). All ",
+  "eligibility_table": [
+    {
+      "criterion": "10-70 years-old.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 22.0 >= 70.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Weigh 20-100 kg (44-220 lbs).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's weight is not provided, so eligibility regarding weight cannot be assessed.",
+      "clinical_question": "Does the patient weigh between 20 kg and 100 kg?"
+    },
+    {
+      "criterion": "CD of the ileum, colon or ileocolon, verified by colonoscopy, barium enema, or small bowel series performed within 36 months",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No evidence of Crohn's disease (CD) in the patient's profile; they have systemic mastocytosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Perianal fistulae will be eligible provided that the perianal disease does not account for the preponderance of symptoms.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on perianal fistulae provided; cannot determine eligibility.",
+      "clinical_question": "Does the patient report that perianal disease accounts for less than 50% of her overall Crohn's disease symptoms?"
+    },
+    {
+      "criterion": "Have steroid-dependent, steroid-refractory or steroid naive CD.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has systemic mastocytosis, not steroid-dependent, steroid-refractory, or steroid-naïve CD.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Steroid-dependent CD: CDAI or mCDAI of < 150 while receiving prednisone 10-40 mg/day or budesonide 3-9 mg/day for at least 12 weeks prior to screening, but unable to taper prednisone below 10 mg/day or budesonide below 3 mg/day without experiencing a flare within the previous 6 months. Steroids must be at a stable dose for 2 weeks prior to screening (week #-2), prednisone at a dose of 10-40 mg/day and budesonide at a dose of 3-9 mg/day.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient does not have Crohn's disease, thus cannot meet steroid-dependent CD criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Steroid-refractory CD: currently moderately active CD (CDAI or mCDAI 200 - 450) despite treatment with 40 kg) or 0.5 mg/kg/day (if weighing 20 mg/day (if weighing prednisone <40 9 mg/day for the previous 4 weeks prior to the screening evaluation. Prednisone or budesonide must be at a stable dose for 2 weeks prior to screening (week #-2).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient does not have Crohn's disease, thus cannot meet stable steroid dose criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Steroid-naïve CD: currently moderately active CD, (CDAI or mCDAI 200 - 450) and one of the following:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient does not have Crohn's disease, thus cannot meet steroid-refractory CD criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Despite treatment with aminosalicylates and/or antibiotics for the previous 4 weeks prior to the screening evaluation, who are candidates for prednisone or budesonide.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient does not have Crohn's disease, thus cannot meet stable dose criteria for prednisone or budesonide.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not currently on therapy, who are candidates for prednisone or budesonide",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient does not have Crohn's disease, thus cannot meet steroid-naïve CD criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with prior exposure to steroids, who have not been treated with steroids for 4 weeks prior to screening, and are candidates for prednisone or budesonide. Prednisone or budesonide will be started at the screening visit, at a dose of 40 mg/day or 9 mg/day and tapered per the steroid taper.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient does not have Crohn's disease, thus cannot meet treatment criteria with aminosalicylates or antibiotics.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CDAI > 450",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is currently on a steroid taper and other medications, which disqualifies her from being considered 'not currently on therapy'.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CD requiring hospitalization and intravenous (iv) corticosteroids, iv antibiotics or total parenteral nutrition (TPN).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has been on a steroid taper and other steroid treatments recently, which does not meet the 4-week washout requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "TPN or enteral nutrition of >1000 Calories/day (both TPN and elemental diets impact the CDAI).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "CDAI score is not provided; unable to assess if CDAI > 450.",
+      "clinical_question": "Has the patient been receiving TPN or enteral nutrition providing >1000 calories per day?"
+    },
+    {
+      "criterion": "History of resection of more than 100 cm of small bowel, total proctocolectomy, or subtotal colectomy with ileorectal anastomosis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about hospitalization or need for IV corticosteroids or antibiotics.",
+      "clinical_question": "Has the patient undergone a surgical resection of more than 100 cm of small bowel, total proctocolectomy, or subtotal colectomy with ileorectal anastomosis?"
+    },
+    {
+      "criterion": "Ileostomy or colostomy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about caloric intake from TPN or enteral nutrition.",
+      "clinical_question": "Has the patient undergone an ileostomy or colostomy procedure?"
+    },
+    {
+      "criterion": "Severe fixed symptomatic stenosis of the small or large intestine",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of bowel resection or surgeries is mentioned; unable to assess.",
+      "clinical_question": "Does the patient have a documented narrowing of the intestinal lumen with a diameter of ≤ 2 cm due to severe fixed symptomatic stenosis?"
+    },
+    {
+      "criterion": "Blood transfusion within 3 months before screening",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the presence of an ileostomy or colostomy.",
+      "clinical_question": "Has the patient received a blood transfusion within the 3 months prior to screening?"
+    },
+    {
+      "criterion": "Treatment with 6-MP or AZA within the 6 months prior to screening",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the presence of severe fixed symptomatic stenosis.",
+      "clinical_question": "Has the patient received treatment with 6-mercaptopurine (6-MP) or azathioprine (AZA) within the last 6 months?"
+    },
+    {
+      "criterion": "Immunosuppressants or biologics 3 months before screening",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about blood transfusions within the last 3 months.",
+      "clinical_question": "Has the patient received any immunosuppressants or biologics within the 3 months prior to screening?"
+    },
+    {
+      "criterion": "Treatment 2 weeks before screening:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about treatment with 6-MP or AZA in the last 6 months.",
+      "clinical_question": "Has the patient received Imuran (azathioprine) for at least 2 weeks prior to the screening?"
+    },
+    {
+      "criterion": "Patients who have started steroids up to 14 days prior to screening will also qualify as steroid naïve, however patient needs to be on 40 mg prednisone or 9 mg budesonide.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is currently on IV steroids, which is considered an immunosuppressant.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Discontinue oral or rectal 5-Aminosalicylic acid (5-ASA) therapies, rectal steroids, ciprofloxacin or metronidazole at the screening visit.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has been on multiple medications including IV diphenhydramine and steroids within 2 weeks of screening.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Allopurinol;",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is on a steroid taper and not on the required dosage of 40 mg prednisone or 9 mg budesonide.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Trimethoprim-sulfamethoxazole;",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No oral or rectal 5-ASA therapies, rectal steroids, ciprofloxacin, or metronidazole reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "NSAIDs or aspirin >81mg/day;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of allopurinol.",
+      "clinical_question": "Has the patient taken any NSAIDs or aspirin at a dosage greater than 81 mg/day in the past month?"
+    },
+    {
+      "criterion": "Cholestyramine or other drugs interfering with enterohepatic circulation;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "Patient is on SS bactrim, which contains trimethoprim-sulfamethoxazole, but it is for prophylaxis against PCP.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Furosemide and thiazide diuretics;",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of adverse reaction to aspirin and is on SS bactrim, which may contain sulfa components.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fish-oil preparations.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of cholestyramine or similar drugs.",
+      "clinical_question": "Has the patient been prescribed fish-oil preparations as part of their treatment plan for Crohn's disease?"
+    },
+    {
+      "criterion": "Discontinue use at screening: Oral or rectal 5-ASA, rectal steroids, metronidazole or quinolones",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of furosemide or thiazide diuretics.",
+      "clinical_question": "Has the patient used oral or rectal 5-ASA, rectal steroids, metronidazole, or quinolones within the last 30 days?"
+    },
+    {
+      "criterion": "Any prior treatment with natalizumab",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of fish-oil preparations.",
+      "clinical_question": "Has the patient ever received natalizumab as a treatment for Crohn's disease?"
+    },
+    {
+      "criterion": "Presence of abnormal laboratory parameters:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not currently using any of the excluded medications, but the information on discontinuation is not provided.",
+      "clinical_question": "Does the patient have any abnormal liver function tests, specifically an AST or ALT level greater than 40 U/L?"
+    },
+    {
+      "criterion": "Carriage of hepatitis B surface antigen or positive hepatitis C antibody",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of prior treatment with natalizumab in the patient's history.",
+      "clinical_question": "Does the patient have a positive hepatitis B surface antigen test or a positive hepatitis C antibody test?"
+    },
+    {
+      "criterion": "Lack of one acceptable form of contraception while receiving AZA",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific lab values are provided to assess for abnormal laboratory parameters.",
+      "clinical_question": "Does the patient currently use an acceptable form of contraception, such as a hormonal method or an intrauterine device, while receiving azathioprine (AZA)?"
+    },
+    {
+      "criterion": "Low TPMT activity",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding hepatitis B or C status in the patient's profile.",
+      "clinical_question": "What is the patient's thiopurine methyltransferase (TPMT) enzyme activity level, and is it classified as low (≤15 U/mL)?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: TPN or enteral nutrition of >1000 Calories/day (both TPN and elemental diets imp",
+    "EXCLUSION UNCLEAR: History of resection of more than 100 cm of small bowel, total proctocolectomy, ",
+    "EXCLUSION UNCLEAR: Ileostomy or colostomy",
+    "EXCLUSION UNCLEAR: Severe fixed symptomatic stenosis of the small or large intestine",
+    "EXCLUSION UNCLEAR: Blood transfusion within 3 months before screening",
+    "EXCLUSION UNCLEAR: Treatment with 6-MP or AZA within the 6 months prior to screening",
+    "EXCLUSION UNCLEAR: Immunosuppressants or biologics 3 months before screening",
+    "EXCLUSION UNCLEAR: Treatment 2 weeks before screening:",
+    "EXCLUSION VIOLATED: Patients who have started steroids up to 14 days prior to screening will also qu",
+    "EXCLUSION VIOLATED: Discontinue oral or rectal 5-Aminosalicylic acid (5-ASA) therapies, rectal stero",
+    "EXCLUSION UNCLEAR: NSAIDs or aspirin >81mg/day;",
+    "EXCLUSION VIOLATED: Furosemide and thiazide diuretics;",
+    "EXCLUSION UNCLEAR: Fish-oil preparations.",
+    "EXCLUSION UNCLEAR: Discontinue use at screening: Oral or rectal 5-ASA, rectal steroids, metronidazo",
+    "EXCLUSION UNCLEAR: Any prior treatment with natalizumab",
+    "EXCLUSION UNCLEAR: Presence of abnormal laboratory parameters:",
+    "EXCLUSION UNCLEAR: Carriage of hepatitis B surface antigen or positive hepatitis C antibody",
+    "EXCLUSION UNCLEAR: Lack of one acceptable form of contraception while receiving AZA",
+    "EXCLUSION UNCLEAR: Low TPMT activity",
+    "LOW INCLUSION MATCH: only 1 of 15 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.4857
+}

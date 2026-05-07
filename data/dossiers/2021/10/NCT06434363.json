@@ -1,0 +1,542 @@
+{
+  "nct_id": "NCT06434363",
+  "trial_title": "Phase I/II Study of AD-PluReceptor Plus Tafasitamab-cxix and Lymphodepleting Chemotherapy in Patients With Autoimmune Disorders",
+  "phase": "PHASE1",
+  "status": "RECRUITING",
+  "brief_summary": "The goal of Safety Lead-In is to confirm the safety of tafasitamab when given to patients with SSc, SLE, and LN.\n\nThe goal of Phase 1 is to find the recommended dose of AD-PluReceptor-NK cells in combination with tafasitamab and lymphodepleting chemotherapy that can be given to patients with the disease.\n\nThe goal of Phase 2 is to learn if the dose of AD-PluReceptor-NK cells found in Phase 1 in combination with tafasitamab and lymphodepleting chemotherapy can help to control the disease.",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosis of SSc defined as follows: fulfilling 2013 American College of Rheumatology (ACR) and European League Against Rheumatism classification (EULAR) criteria for SSc.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient fulfill the 2013 ACR and EULAR classification criteria for systemic sclerosis (SSc)?"
+    },
+    {
+      "criterion": "Antinuclear Antibody (ANA) by immunofluorescence positive at titer ≥ 1:80 at screening or prior to screening.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about ANA status; unable to assess.",
+      "clinical_question": "Is the patient's antinuclear antibody (ANA) titer ≥ 1:80 as determined by immunofluorescence testing?"
+    },
+    {
+      "criterion": "SSc disease activity: Diffuse SSc meeting the following criteria: Disease duration ≤ 7 years (from onset of first non-Raynaud manifestation) AND mRSS ≥ 15 at screening.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient has systemic mastocytosis, not SSc; criteria not applicable.",
+      "clinical_question": "Does the patient have a modified Rodnan skin score (mRSS) ≥ 15 at screening?"
+    },
+    {
+      "criterion": "Participants diagnosed with diffuse or limited cutaneous SSc AND presence of ILD changes on HRCT AND Disease duration ≤ 7 years (from onset of first non-Raynaud manifestation).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient has systemic mastocytosis, not SSc; criteria not applicable.",
+      "clinical_question": "Does the patient have a diagnosis of diffuse or limited cutaneous systemic sclerosis (SSc) with interstitial lung disease (ILD) changes evident on high-resolution computed tomography (HRCT) and a disease duration of ≤ 7 years from the onset of the first non-Raynaud manifestation?"
+    },
+    {
+      "criterion": "Progressive ILD as defined by Raghu et al (≥ 2 of the following): (a) worsening respiratory symptoms (b) physiological evidence of disease progression (≥ 1 of the following): (i) Absolute decline in FVC ≥ 5% predicted within 1 year of follow-up (ii) Absolute decline in DLCO (corrected for Hb) ≥ 10% predicted within 1 year of follow-up radiological evidence of disease progression.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on respiratory symptoms or physiological evidence of ILD progression.",
+      "clinical_question": "Has the patient experienced an absolute decline in FVC of ≥5% predicted or an absolute decline in DLCO (corrected for Hb) of ≥10% predicted within the last year?"
+    },
+    {
+      "criterion": "Absolute decline in DLCO (corrected for Hb) ≥ 10% predicted within 1 year of follow-up radiological evidence of disease progression.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No data on DLCO values or follow-up assessments provided.",
+      "clinical_question": "Has the patient experienced an absolute decline in DLCO (corrected for Hb) of ≥ 10% predicted within 1 year of follow-up?"
+    },
+    {
+      "criterion": "Increased extent or severity of traction bronchiectasis and bronchiolectasis.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No imaging results provided to assess bronchiectasis.",
+      "clinical_question": "Has the patient experienced an increase in the extent or severity of traction bronchiectasis and bronchiolectasis as measured by a CT scan compared to previous imaging studies?"
+    },
+    {
+      "criterion": "New ground-glass opacity with traction bronchiectasis.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No imaging results provided to assess ground-glass opacity.",
+      "clinical_question": "Does the patient have new ground-glass opacity with traction bronchiectasis as confirmed by a recent chest CT scan?"
+    },
+    {
+      "criterion": "New fine reticulation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No imaging results provided to assess fine reticulation.",
+      "clinical_question": "Has the patient developed new fine reticulation on chest imaging since the initiation of treatment?"
+    },
+    {
+      "criterion": "Increased extent or increased coarseness of reticular abnormality.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No imaging results provided to assess reticular abnormality.",
+      "clinical_question": "Has the patient undergone imaging that shows an increased extent or increased coarseness of reticular abnormality compared to previous imaging studies?"
+    },
+    {
+      "criterion": "New or increased honeycombing.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No imaging results provided to assess honeycombing.",
+      "clinical_question": "Has the patient experienced new or increased honeycombing on a chest imaging study compared to previous imaging?"
+    },
+    {
+      "criterion": "Increased lobar volume loss.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided on lobar volume loss.",
+      "clinical_question": "Has the patient experienced ≥10% lobar volume loss on imaging compared to baseline?"
+    },
+    {
+      "criterion": "SSc related pulmonary arterial hypertension (PAH) requiring active treatment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on SSc related PAH treatment status.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of systemic sclerosis-related pulmonary arterial hypertension (PAH) with a mean pulmonary artery pressure ≥25 mmHg at rest or ≥30 mmHg during exercise?"
+    },
+    {
+      "criterion": "Rapidly progressive SSc related lower GI (small and large intestines) involvement (requiring parenteral nutrition); active gastric antral vascular ectasia.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on GI involvement or gastric antral vascular ectasia.",
+      "clinical_question": "Does the patient have evidence of rapidly progressive systemic sclerosis-related lower gastrointestinal involvement requiring parenteral nutrition, as indicated by a significant decrease in oral intake and the need for intravenous nutritional support?"
+    },
+    {
+      "criterion": "Prior scleroderma renal crisis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced a scleroderma renal crisis defined as acute kidney injury with a rise in serum creatinine ≥0.5 mg/dL or a decrease in urine output to <0.5 mL/kg/h for 6 hours or more?"
+    },
+    {
+      "criterion": "Severe pulmonary dysfunction with a hemoglobin corrected DLCO < 40% or FVC < 40% of predicted or O2 saturation < 92% at rest without supplemental oxygen as measured by forehead oxygen pulse oximetry.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No pulmonary function test results provided.",
+      "clinical_question": "Is the patient's hemoglobin corrected DLCO < 40% or FVC < 40% of predicted or O2 saturation < 92% at rest without supplemental oxygen?"
+    },
+    {
+      "criterion": "Evidence of severe chronicity on kidney biopsy, defined as a modified National Institute of Health chronicity index score of 3+ for any of the following individual biopsy features: total glomerulosclerosis score, fibrous crescents, tubular atrophy, or interstitial fibrosis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No kidney biopsy results or chronicity index score available.",
+      "clinical_question": "Does the patient's kidney biopsy show a modified National Institute of Health chronicity index score of 3 or higher for total glomerulosclerosis, fibrous crescents, tubular atrophy, or interstitial fibrosis?"
+    },
+    {
+      "criterion": "The presence of biopsy-proven kidney disease other than active lupus nephritis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No biopsy results indicating kidney disease provided.",
+      "clinical_question": "Does the patient have a biopsy-proven diagnosis of kidney disease other than active lupus nephritis?"
+    },
+    {
+      "criterion": "FVC < 80% predicted or extent of ILD changes on HRCT > 20%.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No FVC or HRCT data available to assess ILD.",
+      "clinical_question": "Is the patient's forced vital capacity (FVC) less than 80% of the predicted value?"
+    },
+    {
+      "criterion": "Inadequate response to at least 1 of the following treatments used for at least 3 months: mycophenolate, cyclophosphamide, rituximab, and/or tocilizumab.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on response to specified treatments.",
+      "clinical_question": "Has the patient received mycophenolate, cyclophosphamide, rituximab, or tocilizumab for at least 3 months with an inadequate response?"
+    },
+    {
+      "criterion": "A clinical diagnosis of SLE, based on the 2019 EULAR/ ACR classification criteria for adult SLE.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No clinical diagnosis of SLE provided.",
+      "clinical_question": "Does the patient have a clinical diagnosis of systemic lupus erythematosus (SLE) based on the 2019 EULAR/ACR classification criteria, including at least 4 out of the 11 criteria?"
+    },
+    {
+      "criterion": "Positive ANA titer ≥1:80 or positive anti-dsDNA antibody at screening or prior to screening.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No ANA or anti-dsDNA antibody test results available.",
+      "clinical_question": "Does the patient have a positive ANA titer of ≥1:80 or a positive anti-dsDNA antibody result?"
+    },
+    {
+      "criterion": "For LN subjects only: Active, biopsy-proven lupus nephritis (kidney biopsy should have been done within 1 year of study enrollment) class III or IV, with or without the presence of Class V, using the 2018 Revised International Society of Nephrology/Renal Pathology Society criteria.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has systemic mastocytosis and does not have lupus nephritis, which is required for this criterion.",
+      "clinical_question": "Has the patient undergone a kidney biopsy within the last year that confirms active, biopsy-proven lupus nephritis classified as class III or IV, with or without class V?"
+    },
+    {
+      "criterion": "Diagnosed with active SLE. Subjects with either LN or without LN will be eligible if they meet the following criteria:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not been diagnosed with active SLE, which is necessary for eligibility.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of active systemic lupus erythematosus (SLE) as defined by the American College of Rheumatology criteria?"
+    },
+    {
+      "criterion": "For LN subjects: urine protein-to-creatinine ratio (UPCR) ≥0.5 g/g on 2 first morning void urine samples during screening despite prior or current treatment with standard of care therapy for at least 12 weeks.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have lupus nephritis, thus this criterion is not applicable.",
+      "clinical_question": "Is the urine protein-to-creatinine ratio (UPCR) ≥0.5 g/g on two first morning void urine samples during screening?"
+    },
+    {
+      "criterion": "For non-renal SLE subjects: SLEDAI-2K ≥8 and clinical SLEDAI-2K ≥6 (excluding headache, alopecia, mucosal ulcers, fever, and organic brain syndrome) or ≥ 1 major organ system with a BILAG A score (excluding musculoskeletal, mucocutaneous, and/or constitutional organ system) during screening despite prior or current treatment with standard of care therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have SLE, so the SLEDAI-2K criteria cannot be assessed.",
+      "clinical_question": "Does the patient have a SLEDAI-2K score of ≥8 and a clinical SLEDAI-2K score of ≥6 during screening?"
+    },
+    {
+      "criterion": "If a subject is currently receiving:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current medications do not indicate any treatment related to SLE.",
+      "clinical_question": "Is the patient currently receiving any immunosuppressive therapy, such as corticosteroids or other agents, at the time of enrollment?"
+    },
+    {
+      "criterion": "A renin-angiotensin-aldosterone inhibitor, the subject must be on a stable dose for at least 8 weeks prior to screening.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not on a renin-angiotensin-aldosterone inhibitor, making this criterion not applicable.",
+      "clinical_question": "Has the patient been on a stable dose of a renin-angiotensin-aldosterone inhibitor for at least 8 weeks prior to screening?"
+    },
+    {
+      "criterion": "Regarding oral corticosteroid, doses <0.5 mg/kg prednisone equivalent at the time of enrollment are required.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on a steroid taper, which likely exceeds the required dose of <0.5 mg/kg prednisone equivalent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe pulmonary dysfunction with a hemoglobin corrected DLC0 < 40% or FVC < 40% of predicted or O2 saturation < 92% at rest without supplemental oxygen as measured by forehead oxygen pulse oximetry.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's pulmonary function, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's FVC < 40% of predicted as measured by spirometry?"
+    },
+    {
+      "criterion": "Active, severe cardiac manifestations of SLE, including constrictive pericarditis, hemodynamically significant pericardial effusions, and myocarditis at the time of screening.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have active, severe cardiac manifestations of SLE, but does not have SLE at all.",
+      "clinical_question": "Does the patient currently exhibit active, severe cardiac manifestations of SLE, specifically constrictive pericarditis, hemodynamically significant pericardial effusions, or myocarditis, as evidenced by echocardiogram or cardiac MRI findings?"
+    },
+    {
+      "criterion": "Treatment with any immunosuppressive drug (except steroids) within 5 half lives prior to administration of lymphodepleting therapy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not receiving any immunosuppressive drugs, but this criterion is not applicable as the patient does not have SLE.",
+      "clinical_question": "Has the patient received any immunosuppressive drug (except steroids) within the last 5 half-lives prior to the administration of lymphodepleting therapy?"
+    },
+    {
+      "criterion": "Receiving any immunosuppressive medications that are not being used for management of chronic GVHD.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is receiving IV steroids, which are considered immunosuppressive medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Treatment with steroids ≥0.5 mg/kg prednisone daily or equivalent at the time of enrollment and >10 mg prednisone daily or equivalent at the time of lymphodepletion.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on a steroid taper, which indicates they are receiving steroids at the time of enrollment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Received rituximab within 6 months of lymphodepletion.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about prior treatment with rituximab, so it cannot be determined.",
+      "clinical_question": "Has the patient received rituximab within the last 6 months prior to lymphodepletion?"
+    },
+    {
+      "criterion": "Subjects are excluded from the study if any of the following medical conditions apply: Uncontrolled medical, psychological, familial, sociological, or geographical conditions that do not permit compliance with the protocol, as judged by the Investigator; or unwillingness or inability to follow the procedures required in the protocol.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's uncontrolled medical conditions (systemic mastocytosis and related symptoms) may affect compliance, but this is subjective and requires investigator judgment.",
+      "clinical_question": "Does the patient have any uncontrolled medical or psychological conditions that would prevent compliance with the study protocol, as judged by the Investigator?"
+    },
+    {
+      "criterion": "Chronic GVHD specific inclusion criteria",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have chronic GVHD, so this criterion is not applicable.",
+      "clinical_question": "Does the patient have a diagnosis of chronic graft-versus-host disease (cGVHD) confirmed by clinical criteria and/or biopsy within the last 12 months?"
+    },
+    {
+      "criterion": "The patient has a history of steroid resistant chronic graft versus host disease (SR- chronic GVHD) or is intolerant of or has unacceptable complications with steroids.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have chronic GVHD, so this criterion is not applicable.",
+      "clinical_question": "Has the patient experienced a lack of response to ≥2 courses of systemic corticosteroids for chronic graft versus host disease?"
+    },
+    {
+      "criterion": "Definition of SR-chronic GVHD - Chronic GVHD that does not respond adequately to full-dose prednisone. Any of the following conditions would be considered SR-chronic GVHD:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have chronic GVHD, so this criterion is not applicable.",
+      "clinical_question": "Has the patient experienced a lack of improvement in chronic GVHD symptoms despite receiving a full-dose prednisone regimen of at least 1 mg/kg/day for a minimum of 4 weeks?"
+    },
+    {
+      "criterion": "Progressive symptoms / manifestations of chronic GVHD despite receiving prednisone 1 mg/kg/day (or equivalent) for two weeks",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have chronic GVHD, so this criterion is not applicable.",
+      "clinical_question": "Has the patient experienced progressive symptoms or manifestations of chronic GVHD despite receiving prednisone at a dose of 1 mg/kg/day for at least two weeks?"
+    },
+    {
+      "criterion": "Stable symptoms / manifestations of chronic GVHD after four to six weeks of prednisone ≥0.5 mg/kg/day (or equivalent)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have chronic GVHD, so this criterion is not applicable.",
+      "clinical_question": "Have the patient's symptoms of chronic GVHD remained stable after four to six weeks of receiving prednisone at a dose of ≥0.5 mg/kg/day?"
+    },
+    {
+      "criterion": "Inability to taper prednisone to <0.5 mg/kg/day (or equivalent) without worsening of symptoms / manifestations of chronic GVHD",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have chronic GVHD, so this criterion is not applicable.",
+      "clinical_question": "Has the patient been able to taper prednisone to <0.5 mg/kg/day without experiencing worsening symptoms or manifestations of chronic GVHD?"
+    },
+    {
+      "criterion": "Disease activity:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has systemic mastocytosis with recent flares, indicating disease activity, but the specific criteria for 'moderate to severe' are not provided.",
+      "clinical_question": "Has the patient experienced a reduction in serum tryptase levels to <20 ng/mL following treatment with AD-PluReceptor and Tafasitamab-cxix?"
+    },
+    {
+      "criterion": "Manifestations/symptoms of chronic GVHD rated as moderate to severe on the NIH chronic GVHD global severity score.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have chronic GVHD symptoms, as her condition is systemic mastocytosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Manifestations/symptoms of chronic GVHD that have not adequately responded or intolerant to both:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not been treated with Ruxolitinib, as her condition is systemic mastocytosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ruxolitinib",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not been treated with Ruxolitinib, which is a requirement for this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active, clinically significant central nervous system pathology",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding central nervous system pathology; further assessment is needed.",
+      "clinical_question": "Does the patient have any active, clinically significant central nervous system pathology as determined by MRI or CT imaging within the last 6 months?"
+    },
+    {
+      "criterion": "Prior history of malignancies or lymphoproliferative disease, following are allowed: Basal or squamous cell carcinoma of the skin, Carcinoma in situ of the cervix or breast or Smoldering Myeloma. History of malignancy that has been treated with a curative intent and is in remission may be allowed after discussion with PI.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of systemic mastocytosis but no prior malignancies or lymphoproliferative diseases.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active hepatitis C, active syphilis, any human immunodeficiency virus (HIV), human lymphocytic T-cell virus type 1 and/or type 2 (HTLV-1 and/or HTLV-2",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of active hepatitis C, HIV, or other specified infections in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Uncontrolled systemic fungal, bacterial, viral, or other infection despite appropriate anti- infective treatment at screening or within 72 hours before LD chemotherapy, or 5 days before AD-PluReceptor administration.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have uncontrolled infections as per the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of any one of the following cardiovascular conditions within the 6 months prior to screening: Class III or IV heart failure as defined by the New York Heart Association, myocardial infarction, unstable angina, or other clinically significant cardiac disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has tachycardia, but it is unclear if it falls under the specified cardiovascular conditions.",
+      "clinical_question": "Has the patient experienced any Class III or IV heart failure, myocardial infarction, unstable angina, or other clinically significant cardiac disease within the 6 months prior to screening?"
+    },
+    {
+      "criterion": "Prior CAR T cell therapy, genetically modified T cell therapy.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not undergone CAR T cell therapy or genetically modified T cell therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Treatment with cyclophosphamide within 3 days, tocilizumab within 9 weeks, and/or any other immunosuppressive drug (excluding steroids) within 5 half-lives prior to administration of lymphodepleting chemotherapy. Immunosuppressive medications are allowed if not being used for management of SLE, LN or SSc.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on multiple medications, including steroids, but there is no specific mention of cyclophosphamide or tocilizumab use within the specified time frames.",
+      "clinical_question": "Has the patient received any immunosuppressive drug, excluding steroids, within 5 half-lives prior to administration of lymphodepleting chemotherapy?"
+    },
+    {
+      "criterion": "Treatment with mycophenolate mofetil within 4 days prior to administration of lymphodepleting chemotherapy. For patients who will receive tafasitamab alone may continue mycophenolate mofetil throughout the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of mycophenolate mofetil in the patient's medication list, so this criterion is not applicable.",
+      "clinical_question": "Has the patient received mycophenolate mofetil within the 4 days prior to the administration of lymphodepleting chemotherapy?"
+    },
+    {
+      "criterion": "History of anaphylactic or severe systemic reaction to FLU, CY, Tafasitamab, or any of their metabolites.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of adverse reactions to aspirin, which may indicate a potential for severe reactions to other medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Uncontrolled infection at screening.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any current infections; therefore, it is unclear if this criterion is met.",
+      "clinical_question": "Does the patient have any signs or symptoms of an uncontrolled infection, such as fever, chills, or elevated white blood cell count, at the time of screening?"
+    },
+    {
+      "criterion": "For SLE, SSc, and chronic GVHD",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have SLE, SSc, or chronic GVHD, making this criterion not applicable.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of systemic lupus erythematosus (SLE), systemic sclerosis (SSc), or chronic graft-versus-host disease (GVHD)?"
+    },
+    {
+      "criterion": "Able to provide informed consent.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old and can provide informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age ≥18 to ≤80 years.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old, which falls within the age range of ≥18 to ≤80 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age ≥18 to ≤80 years.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old, which falls within the age range of ≥18 to ≤80 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Peripheral blood absolute neutrophil count (ANC) ≥ 1 × 10^9/L, unless the neutropenia is deemed to be caused by the underlying autoimmune disease.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's peripheral blood absolute neutrophil count (ANC) ≥ 1 × 10^9/L?"
+    },
+    {
+      "criterion": "Hemoglobin ≥ 8 g/dl, unless the anemia is deemed to be caused by the underlying autoimmune disease.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's hemoglobin level currently ≥ 8 g/dl?"
+    },
+    {
+      "criterion": "Platelet count ≥ 50 × 10^9/L without platelet transfusion support, unless the thrombocytopenia is deemed to be caused by the underlying autoimmune disease. No clinically significant active bleeding.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's platelet count currently ≥ 50 × 10^9/L without the need for platelet transfusion support?"
+    },
+    {
+      "criterion": "Aspartate aminotransferase (AST) / alanine aminotransferase (ALT) ≤ 3 × upper limit of normal (ULN) and total bilirubin ≤ 3 × ULN (or direct bilirubin ≤ 3 × ULN with documented Gilbert's syndrome).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values are provided to assess AST, ALT, or bilirubin levels.",
+      "clinical_question": "Is the patient's aspartate aminotransferase (AST) ≤ 3 × upper limit of normal (ULN) and alanine aminotransferase (ALT) ≤ 3 × upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Oxygen saturation (SaO2) ≥ 92% on room air (as measured by forehead probes in SSc patients).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's oxygen saturation (SaO2) ≥ 92% on room air as measured by forehead probes?"
+    },
+    {
+      "criterion": "Current symptoms of severe, progressive, or uncontrolled renal, hepatic, hematological, gastrointestinal (on TPN), pulmonary, psychiatric, cardiac, neurological, or cerebral disease, including severe and uncontrolled infections, such as sepsis and opportunistic infections.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has systemic mastocytosis and tachycardia, which may indicate uncontrolled systemic disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concomitant medical conditions that, in the opinion of the investigator, might place the subject at unacceptable risk for participation in this study, interfere with the assessment of the effects or safety of the investigational product or with the study procedures.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has systemic mastocytosis and other conditions that may complicate participation, but without specific details on how these conditions would interfere, the risk is uncertain.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Adequate cardiac function, defined as left ventricular ejection fraction (LVEF) ≥ 45% as assessed by echocardiogram (ECHO) or multigated acquisition (MUGA) scan.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) ≥ 45% as assessed by echocardiogram (ECHO) or multigated acquisition (MUGA) scan?"
+    },
+    {
+      "criterion": "Adequate renal function, defined as serum creatinine ≤ 2x ULN and estimated Glomerular Filtration Rate (eGFR using the CKD-EPI equation) ≥ 30 ml/min/1.73 m2.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess renal function; therefore, it is unclear if the patient meets the renal function criteria.",
+      "clinical_question": "Is the patient's serum creatinine level ≤ 2x ULN and is her estimated Glomerular Filtration Rate (eGFR) ≥ 30 ml/min/1.73 m²?"
+    },
+    {
+      "criterion": "Negative pregnancy test in WOCBP.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding a recent pregnancy test; unable to determine if the criterion is met.",
+      "clinical_question": "Has the patient had a negative serum or urine pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "All participants who are able to have children must practice effective birth control while on study and up to 3 months post completion of therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the patient's birth control practices; unable to assess compliance with this criterion.",
+      "clinical_question": "Is the patient currently using an effective form of birth control, such as hormonal contraception or an intrauterine device, and will she continue to do so for up to 3 months post completion of therapy?"
+    },
+    {
+      "criterion": "Participant is willing and able to adhere to the study visit schedule and other protocol requirements and willing to sign informed consent.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely willing to adhere to study requirements given her active participation in treatment, but this is based on assumption.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: SSc related pulmonary arterial hypertension (PAH) requiring active treatment.",
+    "EXCLUSION UNCLEAR: Rapidly progressive SSc related lower GI (small and large intestines) involvemen",
+    "EXCLUSION UNCLEAR: Prior scleroderma renal crisis.",
+    "EXCLUSION UNCLEAR: Severe pulmonary dysfunction with a hemoglobin corrected DLCO < 40% or FVC < 40%",
+    "EXCLUSION UNCLEAR: Evidence of severe chronicity on kidney biopsy, defined as a modified National I",
+    "EXCLUSION UNCLEAR: The presence of biopsy-proven kidney disease other than active lupus nephritis.",
+    "EXCLUSION UNCLEAR: Severe pulmonary dysfunction with a hemoglobin corrected DLC0 < 40% or FVC < 40%",
+    "EXCLUSION UNCLEAR: Active, severe cardiac manifestations of SLE, including constrictive pericarditi",
+    "EXCLUSION UNCLEAR: Treatment with any immunosuppressive drug (except steroids) within 5 half lives ",
+    "EXCLUSION VIOLATED: Receiving any immunosuppressive medications that are not being used for manageme",
+    "EXCLUSION VIOLATED: Treatment with steroids ≥0.5 mg/kg prednisone daily or equivalent at the time of",
+    "EXCLUSION UNCLEAR: Received rituximab within 6 months of lymphodepletion.",
+    "EXCLUSION UNCLEAR: Subjects are excluded from the study if any of the following medical conditions ",
+    "EXCLUSION UNCLEAR: Active, clinically significant central nervous system pathology",
+    "EXCLUSION VIOLATED: Prior history of malignancies or lymphoproliferative disease, following are allo",
+    "EXCLUSION VIOLATED: Active hepatitis C, active syphilis, any human immunodeficiency virus (HIV), hum",
+    "EXCLUSION VIOLATED: Uncontrolled systemic fungal, bacterial, viral, or other infection despite appro",
+    "EXCLUSION UNCLEAR: History of any one of the following cardiovascular conditions within the 6 month",
+    "EXCLUSION VIOLATED: Prior CAR T cell therapy, genetically modified T cell therapy.",
+    "EXCLUSION UNCLEAR: Treatment with cyclophosphamide within 3 days, tocilizumab within 9 weeks, and/o",
+    "EXCLUSION UNCLEAR: Treatment with mycophenolate mofetil within 4 days prior to administration of ly",
+    "EXCLUSION VIOLATED: History of anaphylactic or severe systemic reaction to FLU, CY, Tafasitamab, or ",
+    "EXCLUSION UNCLEAR: Uncontrolled infection at screening.",
+    "EXCLUSION VIOLATED: Current symptoms of severe, progressive, or uncontrolled renal, hepatic, hematol",
+    "LOW INCLUSION MATCH: only 4 of 47 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.2361
+}

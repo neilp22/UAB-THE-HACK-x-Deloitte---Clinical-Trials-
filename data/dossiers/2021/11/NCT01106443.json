@@ -1,0 +1,85 @@
+{
+  "nct_id": "NCT01106443",
+  "trial_title": "Central Compartment Neck Dissection With Thyroidectomy",
+  "phase": "NA",
+  "status": "TERMINATED",
+  "brief_summary": "When a patient presents with a thyroid mass, part of the work-up may include a fine needle aspiration biopsy (FNAB). The results of the biopsy then help plan treatment. If the results are benign, the management will typically be to follow the nodule. If the results demonstrate or are suspicious for cancer, such as papillary thyroid carcinoma (PTC), the treatment is a total thyroidectomy (total thyroid removal). The latest American thyroid association guidelines for PTC (2009) suggest that in man",
+  "eligibility_table": [
+    {
+      "criterion": "Indeterminate or benign pathology on fine needle aspirate biopsy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's pathology is not specified, making it unclear if it is indeterminate or benign.",
+      "clinical_question": "Has the patient undergone a fine needle aspirate biopsy that resulted in an indeterminate or benign pathology report?"
+    },
+    {
+      "criterion": "Scheduled to undergo total or hemi-thyroidectomy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not scheduled for thyroidectomy; the treatment history suggests otherwise.",
+      "clinical_question": "Is the patient scheduled to undergo either a total or hemi-thyroidectomy within the next 30 days?"
+    },
+    {
+      "criterion": "> 18 years old",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 75.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous thyroid surgery",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone previous thyroid surgery (RAI ablation), which disqualifies them.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous neck surgery in field of thyroidectomy",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of neck mass resection, which is considered neck surgery in the field of thyroidectomy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous neck irradiation",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has received neck radiation therapy (XRT), which is a disqualifying factor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pre-operative hypocalcemia or hypoparathyroidism",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about pre-operative hypocalcemia or hypoparathyroidism.",
+      "clinical_question": "Does the patient have a serum calcium level <8.5 mg/dL or a history of hypoparathyroidism?"
+    },
+    {
+      "criterion": "Biopsy suggestive of thyroid cancer",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's history of metastatic papillary thyroid cancer indicates a biopsy suggestive of thyroid cancer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Neck nodes suspicious for or with known cancer",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has known metastatic lymph nodes, which are suspicious for cancer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pre-operative vocal cord dysfunction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding pre-operative vocal cord dysfunction.",
+      "clinical_question": "Does the patient have a pre-operative vocal cord function assessment indicating any degree of vocal cord dysfunction?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Pre-operative hypocalcemia or hypoparathyroidism",
+    "EXCLUSION UNCLEAR: Pre-operative vocal cord dysfunction"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6
+}

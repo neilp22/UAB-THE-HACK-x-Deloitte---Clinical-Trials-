@@ -1,0 +1,114 @@
+{
+  "nct_id": "NCT00474773",
+  "trial_title": "Evaluation of Post Hospital Administration of Celecoxib Following Minimally Invasive Knee Replacement Surgery",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "This study will evaluate the benefits of continuing celecoxib through six weeks of total knee arthroplasty recovery. This is a randomized, double blind study with a group of approximately 130 primary total knee patients. All patients will receive celecoxib throughout their hospitalization as per current minimally invasive total knee arthroplasty protocol. At the time of hospital discharge, participating patients will be randomly placed on either celecoxib 200mg twice a day or a placebo twice a d",
+  "eligibility_table": [
+    {
+      "criterion": "having undergone a minimally invasive total knee by select surgeon",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the patient's surgical history or if they have undergone a minimally invasive total knee by a select surgeon.",
+      "clinical_question": "Has the patient undergone a minimally invasive total knee replacement surgery performed by the select surgeon within the last 30 days?"
+    },
+    {
+      "criterion": "voluntarily enrolled",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely to have voluntarily enrolled in the trial.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "independent community ambulators",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the patient's ability to ambulate independently in the community.",
+      "clinical_question": "Has the patient demonstrated the ability to ambulate independently for at least 100 feet without assistance following the administration of celecoxib post-surgery?"
+    },
+    {
+      "criterion": "only patients being discharged directly home",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the patient's discharge plans.",
+      "clinical_question": "Has the patient been discharged directly home without any need for additional post-hospitalization care or monitoring?"
+    },
+    {
+      "criterion": "celecoxib allergy or intolerence",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding any allergy or intolerance to celecoxib.",
+      "clinical_question": "Has the patient experienced any allergic reactions or intolerances to celecoxib or similar NSAIDs in the past?"
+    },
+    {
+      "criterion": "Renal insufficiency (defined as serum creatine level >1.5 mg/dL or BUN level >22mg/dL",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess renal function.",
+      "clinical_question": "Is the patient's serum creatinine level greater than 1.5 mg/dL or BUN level greater than 22 mg/dL?"
+    },
+    {
+      "criterion": "History of bleeding gastic or duodenal ulceration",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding any history of gastric or duodenal ulceration.",
+      "clinical_question": "Has the patient experienced any episodes of bleeding gastric or duodenal ulceration in the past 5 years?"
+    },
+    {
+      "criterion": "New York Heart Association Class III or IV Congestive Heart Failure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the patient's heart failure classification.",
+      "clinical_question": "Does the patient have a documented history of New York Heart Association Class III or IV Congestive Heart Failure?"
+    },
+    {
+      "criterion": "Previous myocardial infarction or cerebralvascular event",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding any previous myocardial infarction or cerebrovascular events.",
+      "clinical_question": "Has the patient experienced a myocardial infarction or cerebrovascular event in the past 5 years?"
+    },
+    {
+      "criterion": "Severe inflammatory bowel disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the presence of severe inflammatory bowel disease.",
+      "clinical_question": "Does the patient have a documented diagnosis of severe inflammatory bowel disease as defined by the presence of significant symptoms and endoscopic findings consistent with the disease?"
+    },
+    {
+      "criterion": "Known coagulation abnormality or hepatic disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of systemic mastocytosis and related conditions, but there is no specific information provided about coagulation abnormalities or hepatic disease.",
+      "clinical_question": "Does the patient have any documented history of coagulation abnormalities or hepatic disease, including specific lab values indicating such conditions?"
+    },
+    {
+      "criterion": "Chronic coumadin administration",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of chronic coumadin administration in the patient's profile, but it is unclear if they have ever been on it.",
+      "clinical_question": "Is the patient currently taking warfarin (coumadin) for anticoagulation therapy?"
+    },
+    {
+      "criterion": "Refusal by primary or cardiac physician",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate whether the primary or cardiac physician has refused participation in the trial.",
+      "clinical_question": "Has the primary or cardiac physician explicitly documented a refusal to approve the administration of celecoxib for this patient?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: celecoxib allergy or intolerence",
+    "EXCLUSION UNCLEAR: Renal insufficiency (defined as serum creatine level >1.5 mg/dL or BUN level >22",
+    "EXCLUSION UNCLEAR: History of bleeding gastic or duodenal ulceration",
+    "EXCLUSION UNCLEAR: New York Heart Association Class III or IV Congestive Heart Failure",
+    "EXCLUSION UNCLEAR: Previous myocardial infarction or cerebralvascular event",
+    "EXCLUSION UNCLEAR: Severe inflammatory bowel disease",
+    "EXCLUSION UNCLEAR: Known coagulation abnormality or hepatic disease",
+    "EXCLUSION UNCLEAR: Chronic coumadin administration",
+    "EXCLUSION UNCLEAR: Refusal by primary or cardiac physician",
+    "LOW INCLUSION MATCH: only 1 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.0769
+}

@@ -1,0 +1,66 @@
+{
+  "nct_id": "NCT07086560",
+  "trial_title": "PERceptions of Diltiazem Versus ADEnosine for Treatment of Supraventricular Tachycardia in the Emergency Department",
+  "phase": "",
+  "status": "RECRUITING",
+  "brief_summary": "Supraventricular tachycardia (SVT) is a dysrhythmia characterized rapid heart rate, typically with rapid onset. SVT accounts for over 50,000 emergency department visits per year. Of patients with regular, narrow-complex SVT, the mainstay of therapy includes adenosine and diltiazem. Adenosine is recommend by American and European guidelines as first-line therapy, however adenosine carries unique side effects that are potentially distressing to patients, including: \"feeling of impending death or d",
+  "eligibility_table": [
+    {
+      "criterion": "ED encounter for acute SVT",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of tachycardia, but there is no specific mention of an ED encounter for acute SVT.",
+      "clinical_question": "Has the patient experienced an ED encounter for acute supraventricular tachycardia (SVT) within the last 30 days?"
+    },
+    {
+      "criterion": "Age >= 18 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 22.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Receipt of IV adenosine and/or IV diltiazem for SVT in the ED or prehospital setting",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not been documented to have received IV adenosine or IV diltiazem, so this criterion cannot be assessed definitively.",
+      "clinical_question": "Has the patient received IV adenosine or IV diltiazem for the treatment of supraventricular tachycardia in the emergency department or prehospital setting?"
+    },
+    {
+      "criterion": "Neurologic status precluding survey participation due to medical instability",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's neurologic status or medical stability.",
+      "clinical_question": "Is the patient's neurologic status stable enough to participate in a survey, as indicated by a Glasgow Coma Scale score of ≥15?"
+    },
+    {
+      "criterion": "Pregnant",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's pregnancy status is not mentioned, so it cannot be determined.",
+      "clinical_question": "Is the patient currently pregnant, as confirmed by a urine or serum pregnancy test?"
+    },
+    {
+      "criterion": "Incarcerated",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating whether the patient is incarcerated.",
+      "clinical_question": "Is the patient currently incarcerated or has she been incarcerated within the last 30 days?"
+    },
+    {
+      "criterion": "Non-English speaking",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's language proficiency is not specified, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient fluent in English and able to communicate effectively without the need for an interpreter?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Neurologic status precluding survey participation due to medical instability",
+    "EXCLUSION UNCLEAR: Pregnant",
+    "EXCLUSION UNCLEAR: Incarcerated",
+    "EXCLUSION UNCLEAR: Non-English speaking"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1429
+}

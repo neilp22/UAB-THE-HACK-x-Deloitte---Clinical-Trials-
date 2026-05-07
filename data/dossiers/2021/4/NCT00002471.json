@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT00002471",
+  "trial_title": "Combination Chemotherapy in Treating Patients With Acute B-Lymphoblastic Leukemia or Non-Hodgkin's Lymphoma",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop cancer cells from dividing so they stop growing or die. Combining more than one drug may kill more cancer cells.\n\nPURPOSE: Phase II trial to study the effectiveness of combination chemotherapy in treating patients who have acute B-lymphoblastic leukemia or recurrent non-Hodgkin's lymphoma.",
+  "eligibility_table": [
+    {
+      "criterion": "Newly diagnosed undifferentiated nonlymphoblastic non-Hodgkin's lymphoma (Burkitt's or non-Burkitt's)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of Burkitt's lymphoma, which qualifies as undifferentiated nonlymphoblastic non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Newly diagnosed large cell lymphoma with CNS involvement",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history suggests CNS involvement due to prior viral encephalitis and intracranial hemorrhage, but there is no clear evidence of large cell lymphoma with CNS involvement.",
+      "clinical_question": "Does the patient have newly diagnosed large cell lymphoma with confirmed CNS involvement as evidenced by imaging or cerebrospinal fluid analysis?"
+    },
+    {
+      "criterion": "Recurrent non-Hodgkin's lymphoma L-3 and B-cell leukemia included",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a diagnosis of Burkitt's lymphoma, which does not qualify as recurrent non-Hodgkin's lymphoma L-3 or B-cell leukemia.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 1 of the following required: LDH at least 500 IU/liter (old method) or 2,000 IU/liter (new method)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no lab value provided to assess LDH levels, making it unclear if the criterion is met.",
+      "clinical_question": "Is the patient's LDH level at least 500 IU/liter using the old method or at least 2,000 IU/liter using the new method?"
+    },
+    {
+      "criterion": "Bone marrow involvement (greater than 5% lymphoblasts)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding bone marrow involvement or the percentage of lymphoblasts.",
+      "clinical_question": "Does the patient's bone marrow biopsy show greater than 5% lymphoblasts?"
+    },
+    {
+      "criterion": "CNS involvement (lymphoblasts on CSF cytospin or intracranial mass on CT or MRI scan)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's history of a cardiac mass consistent with Burkitt's lymphoma indicates CNS involvement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: Any age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 44 years old, which meets the age criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Performance status is not specified, so it cannot be determined if this criterion is met.",
+      "clinical_question": "What is the patient's Eastern Cooperative Oncology Group (ECOG) performance status score?"
+    },
+    {
+      "criterion": "Prior therapy allowed for non-Hodgkin's lymphoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Prior therapies listed are consistent with treatment for non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior therapy for all other diseases",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple prior treatments, which disqualifies her from this criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6
+}

@@ -1,0 +1,99 @@
+{
+  "nct_id": "NCT04408040",
+  "trial_title": "Use of Convalescent Plasma for COVID-19",
+  "phase": "PHASE2",
+  "status": "TERMINATED",
+  "brief_summary": "The plan is to transfuse COVID-19 infected patients with convalescent plasma and observe whether this will result in a significant improvement in clinical outcome in comparison to historical experience.",
+  "eligibility_table": [
+    {
+      "criterion": "Documented COVID-19 infection by nasal pharyngeal sampling",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No documentation of COVID-19 infection provided.",
+      "clinical_question": "Has the patient had a documented positive nasal pharyngeal swab for COVID-19 within the last 14 days?"
+    },
+    {
+      "criterion": "COVID-19 disease falling into one of the following groups:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the specific COVID-19 disease group.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of COVID-19 with a severity level that qualifies for convalescent plasma treatment, such as requiring supplemental oxygen or hospitalization?"
+    },
+    {
+      "criterion": "Critical disease: respiratory failure requiring mechanical ventilation, pressor support, or multiple organ dysfunction/failure",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of critical disease as defined.",
+      "clinical_question": "Has the patient experienced respiratory failure requiring mechanical ventilation or pressor support within the last 24 hours?"
+    },
+    {
+      "criterion": "Severe disease: tachypnea >=30 per min, O2 sats <=93% at rest, PaO2/FiO2 index <=300mmHg",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has O2 saturation <=93% at rest.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe disease: O2 sats <=93% at rest",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has O2 saturation <=93% at rest.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe disease: PaO2/FiO2 index <=300mmHg",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "PaO2/FiO2 index not provided.",
+      "clinical_question": "What is the patient's current PaO2/FiO2 index?"
+    },
+    {
+      "criterion": "High Risk: upper respiratory symptoms but no radiographic evidence of disease, immunocompromised, insulin-dependent diabetes, poorly controlled HIV disease, moderate to severe asthma history, severe COPD, morbid obesity (BMI >=40, age >=65 years)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "PaO2/FiO2 index not provided.",
+      "clinical_question": "Does the patient have a BMI of ≥40?"
+    },
+    {
+      "criterion": "High Risk: BMI >=40",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has multiple high-risk factors including severe COPD and obesity.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High Risk: age >=65 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient currently aged 65 years or older?"
+    },
+    {
+      "criterion": "Health Care Providers: health care providers at risk to exposure to COVID-19 infection or those with mild to non-severe disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient's BMI is not specified but likely not >=40 based on obesity hypoventilation syndrome.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of IgA deficiency",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on health care provider status.",
+      "clinical_question": "Does the patient have a documented history of selective IgA deficiency with serum IgA levels <7 mg/dL?"
+    },
+    {
+      "criterion": "History of anaphylatic reaction to blood product transfusion including hypersensitivity to immunoglobulin therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide any information regarding a history of anaphylactic reactions to blood products or immunoglobulin therapy, making it unclear whether this criterion is met or not.",
+      "clinical_question": "Has the patient ever experienced an anaphylactic reaction to any blood product transfusion or hypersensitivity to immunoglobulin therapy?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: History of IgA deficiency",
+    "EXCLUSION UNCLEAR: History of anaphylatic reaction to blood product transfusion including hypersens"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

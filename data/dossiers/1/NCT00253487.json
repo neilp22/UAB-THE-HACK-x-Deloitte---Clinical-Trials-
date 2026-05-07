@@ -1,0 +1,315 @@
+{
+  "nct_id": "NCT00253487",
+  "trial_title": "Combination Chemotherapy and Radiation Therapy in Treating Younger Patients Who Are Undergoing an Autologous Stem Cell Transplant for Newly Diagnosed Gliomas",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as temozolomide, busulfan, and O6-benzylguanine, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving more than one drug (combination chemotherapy) may kill more tumor cells. O6-benzylguanine may also help temozolomide work better by making tumor cells more sensitive to the drug. Radiation therapy uses high-energy x-rays to kill tumor cells. Giving chemotherapy with a peripheral",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed newly diagnosed high-grade glioma of 1 of the following types:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, which does not meet the requirement for high-grade glioma types specified.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Glioblastoma multiforme",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have glioblastoma multiforme; he has anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "WHO grade IV disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma, which is not classified as WHO grade IV disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma, which is included as a high-grade glioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "WHO grade III disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Anaplastic astrocytoma is classified as WHO grade III disease, but the criterion is for WHO grade IV.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No low-grade disease (i.e., WHO grade I-II disease)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have low-grade disease; he has anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No WHO grade III oligodendroglioma or oligoastrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have WHO grade III oligodendroglioma or oligoastrocytoma; he has anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients > 30 years of age who have undergone a gross total resection and have nonmeasurable disease as seen on postoperative MRI are eligible",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 > 30.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Measurable disease, as assessed by postoperative MRI, is required in patients ≤ 30 years of age",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 45.0 <= 30.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No tumor arising in the spine or brainstem",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's tumor is located in the spine, which does not meet the criterion of no tumor arising in the spine.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No metastatic disease in the spine",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has an unresectable tumor in the spine, indicating the presence of disease in that area.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 45 years old, which meets the age criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "5 to 55",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 45 years old, which falls within the inclusion range of 5 to 55.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Performance status is not provided; therefore, it cannot be assessed.",
+      "clinical_question": "Does the patient have a performance status score of 0-2 on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "Karnofsky 50-100% (for patients 11-30 years of age) OR",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Karnofsky score is not provided; the patient is outside the age range for this criterion.",
+      "clinical_question": "Does the patient have a Karnofsky Performance Status score of 50% or higher?"
+    },
+    {
+      "criterion": "Lansky 50-100% (for patients 5-10 years of age)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lansky score is not applicable as the patient is over 10 years old.",
+      "clinical_question": "Does the patient have a Lansky performance status score of 50-100%?"
+    },
+    {
+      "criterion": "Life expectancy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a life expectancy that can be assumed to be at least 9 months given the ongoing treatment for anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 9 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has been treated for a significant period, indicating a life expectancy of at least 9 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hematopoietic",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hematopoietic status is not provided; therefore, it cannot be assessed.",
+      "clinical_question": "Has the patient experienced a hematopoietic recovery defined as an absolute neutrophil count (ANC) of ≥1,500 cells/mm³ and a platelet count of ≥100,000 cells/mm³ following the last chemotherapy cycle?"
+    },
+    {
+      "criterion": "Absolute neutrophil count ≥ 1,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count currently ≥ 1,000/mm^3?"
+    },
+    {
+      "criterion": "Platelet count ≥ 75,000/mm^3 (transfusion independent)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count ≥ 75,000/mm^3?"
+    },
+    {
+      "criterion": "Hepatic",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hepatic status is not provided; therefore, it cannot be assessed.",
+      "clinical_question": "Does the patient have a total bilirubin level ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "Bilirubin ≤ 2.0 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level currently ≤ 2.0 mg/dL?"
+    },
+    {
+      "criterion": "ALT and AST ≤ 2.5 times upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "ALT and AST levels are not provided; therefore, it cannot be assessed.",
+      "clinical_question": "Are the patient's ALT and AST levels currently ≤ 62.5 U/L?"
+    },
+    {
+      "criterion": "Albumin ≥ 2.0 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum albumin level currently ≥2.0 g/dL?"
+    },
+    {
+      "criterion": "Hepatitis B surface antigen and core antibody negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hepatitis B status is not provided; therefore, it cannot be assessed.",
+      "clinical_question": "Is the patient currently negative for both Hepatitis B surface antigen and Hepatitis B core antibody?"
+    },
+    {
+      "criterion": "Hepatitis C antibody negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to confirm Hepatitis C status.",
+      "clinical_question": "Is the patient's Hepatitis C antibody test result negative?"
+    },
+    {
+      "criterion": "Renal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific renal function details provided.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No creatinine levels provided to assess normality.",
+      "clinical_question": "Is the patient's serum creatinine level ≤1.2 mg/dL?"
+    },
+    {
+      "criterion": "Glomerular filtration rate ≥ 70 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current glomerular filtration rate?"
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No additional information provided to assess this criterion.",
+      "clinical_question": "Has the patient undergone a prior autologous stem cell transplant?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on pregnancy or nursing status.",
+      "clinical_question": "Is the patient currently pregnant or nursing?"
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pregnancy test results provided.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on contraception use provided.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a barrier method, hormonal method, or intrauterine device, as defined by clinical guidelines?"
+    },
+    {
+      "criterion": "Neurologic deficits must be stable or decreasing",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has severe neurologic deficits and history of weakness, indicating instability.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No active infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding active infections.",
+      "clinical_question": "Does the patient currently have a body temperature ≥ 100.4°F or any signs of active infection?"
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to confirm HIV status.",
+      "clinical_question": "Is the patient's HIV status confirmed as negative through a recent laboratory test?"
+    },
+    {
+      "criterion": "No other serious illness or medical condition that would preclude study participation",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple serious conditions including anaplastic astrocytoma of the spine, hypertension, and chronic pain, which may preclude study participation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any prior chemotherapy treatments before the current regimen of temozolomide and CPT-11?"
+    },
+    {
+      "criterion": "Concurrent corticosteroids allowed provided dose is stable or decreasing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is on high-dose steroids, but the stability of the dose is not specified. However, concurrent corticosteroids are allowed if the dose is stable or decreasing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior radiotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any prior radiotherapy treatments for their anaplastic astrocytoma of the spine?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The specific disease characteristics are not provided, making it unclear if the patient's condition meets the study's disease criteria.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic astrocytoma with a World Health Organization (WHO) grade of 3 or higher?"
+    },
+    {
+      "criterion": "No other concurrent investigational anticancer agents",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is currently taking any other investigational anticancer agents.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 10 of 43 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4419
+}

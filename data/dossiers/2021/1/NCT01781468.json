@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT01781468",
+  "trial_title": "Armodafinil in Reducing Cancer-Related Fatigue in Patients With High Grade Glioma",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "This randomized phase III trial studies armodafinil to see how well it works in reducing cancer-related fatigue in patients with high grade glioma. Armodafinil may help relieve fatigue in patients with high grade glioma.",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosed with glioblastoma, gliosarcoma, small cell or large cell glioblastoma, glioblastoma with oligo features, glioblastoma with primitive neuroectodermal tumor-like components (GBM-PNET) features, anaplastic astrocytoma, anaplastic oligodendroglioma, or anaplastic oligoastrocytoma who are clinically stable and have completed radiation therapy (excluding stereotactic radiosurgery) > 21 days and =< 24 months prior to enrollment; NOTE: clinical stability will be defined as a stable or improved Karnofsky performance status (KPS) compared to the prior month",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma, is clinically stable, and has completed radiation therapy more than 21 days ago.",
+      "clinical_question": null
+    },
+    {
+      "criterion": ">= 6 score on the worst fatigue question of the BFI (Brief Fatigue Inventory, question 3); it is not required for the patient to complete the entire BFI to meet this criterion",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's fatigue score on the BFI.",
+      "clinical_question": "Does the patient report a score of ≥6 on the worst fatigue question of the Brief Fatigue Inventory?"
+    },
+    {
+      "criterion": "Undergone surgery (gross total or subtotal resection) or biopsy and will have been treated with concurrent radiation therapy and chemotherapy as standard of care for glioblastoma, gliosarcoma, small cell or large cell glioblastoma, glioblastoma with oligo features, glioblastoma with primitive neuroectodermal tumor-like components (GBM-PNET) features, anaplastic astrocytoma, anaplastic oligodendroglioma, or anaplastic oligoastrocytoma patients; Note: radiation must be completed, but chemotherapy is allowed; patients who are currently using Optune device will be eligible to participate in this trial",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not undergone surgery or biopsy as required; they have an unresectable tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative serum pregnancy test done =< 7 days prior to registration only for women determined to be of childbearing potential by their treating physician",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, and the criterion is only applicable to women of childbearing potential.",
+      "clinical_question": "Has the patient had a negative serum pregnancy test done within the last 7 days prior to registration?"
+    },
+    {
+      "criterion": "Ability to complete questionnaire(s) by themselves or with assistance",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely able to complete questionnaires with assistance, but specific details are not provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status (PS) of 0, 1, 2 or 3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "What is the patient's current Eastern Cooperative Oncology Group (ECOG) performance status score?"
+    },
+    {
+      "criterion": "Provide informed written consent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient provided a signed informed consent form for participation in the trial?"
+    },
+    {
+      "criterion": "Willing to return to enrolling institution for follow-up (during the Active Monitoring Phase of the study)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient willing to return to the enrolling institution for follow-up visits during the Active Monitoring Phase of the study?"
+    },
+    {
+      "criterion": "Stable dose of corticosteroid >= 14 days prior to registration",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on high-dose steroids, and there is no indication of a stable dose for 14 days prior to registration.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 2 of 9 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4444
+}

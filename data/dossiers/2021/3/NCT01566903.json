@@ -1,0 +1,81 @@
+{
+  "nct_id": "NCT01566903",
+  "trial_title": "Neurovascular Non Contrast-Enhanced MR Angiography at 3T",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "MR angiography (MRA) has become essential in the treatment of neurovascular diseases, including ischemic stroke - the first cause of disability in occidental countries, vascular malformations such as aneurysms, arteriovenous fistulas and malformations, whose treatments are improving year after year.\n\nMRA is an alternative to digital substracted angiography (DSA), circumventing th use of endovascular catheterism, irradiation and injection of iodinated contrast agent. Contrast-Enhanced MRA (CE-MRA",
+  "eligibility_table": [
+    {
+      "criterion": "Men and women over 18 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any adult patient known or clinically suspect to present a neurovascular disease (arterial stenosis ou arteriovenous malformations), the assessment of which requires an MRA or patient having an arteriovenous malformation for which treatment by embolization or radiosurgery is indicated multidisciplinary meeting and followed in the ordinary course of this treatment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has an arteriovenous malformation (AVM), which qualifies her under the inclusion criterion for neurovascular disease requiring assessment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient able of accepting protocol information",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old and presumably capable of understanding and accepting protocol information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient who received information about the protocol and had not expressed its opposition to participate",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether the patient has been informed about the protocol or expressed opposition to participate.",
+      "clinical_question": "Has the patient provided written informed consent to participate in the study protocol?"
+    },
+    {
+      "criterion": "A contraindication to MRI, in particular pacemakers or implantable defibrillators, cochlear implants, neurosurgical clips, intra-orbital or brain metallic foreign bodies, endo prothesis since less than 4 weeks or osteosynthesis material since less than 6 weeks",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding any contraindications to MRI, such as the presence of pacemakers or other devices.",
+      "clinical_question": "Does the patient have any contraindications to MRI, specifically including a pacemaker, implantable defibrillator, cochlear implant, neurosurgical clips, intra-orbital or brain metallic foreign bodies, an endoprosthesis placed within the last 4 weeks, or osteosynthesis material placed within the last 6 weeks?"
+    },
+    {
+      "criterion": "Contraindication to the injection of contrast agent: pregnancy, lactation, history of allergic reaction to contrast agent injection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information about the patient's pregnancy status, lactation, or history of allergic reactions to contrast agents.",
+      "clinical_question": "Has the patient ever experienced an allergic reaction to a contrast agent injection?"
+    },
+    {
+      "criterion": "Hemodynamically unstability, acute respiratory failure, a precarious condition or a need for continuous monitoring incompatible with the constraints of MR imaging",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's hemodynamic stability and need for monitoring are not specified, making it unclear if she meets this exclusion criterion.",
+      "clinical_question": "Is the patient's blood pressure stable with systolic readings consistently above 90 mmHg and diastolic readings above 60 mmHg?"
+    },
+    {
+      "criterion": "Patient with severe kidney with Glomerular Filtration rate < 30 ml/min",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's Glomerular Filtration Rate (GFR) less than 30 ml/min?"
+    },
+    {
+      "criterion": "Persons subject to major legal protection (safeguarding justice, guardianship, trusteeship), persons deprived of liberty",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's legal status or if she is under any form of legal protection.",
+      "clinical_question": "Is the patient currently under any form of legal protection, such as guardianship or trusteeship, due to her medical condition?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: A contraindication to MRI, in particular pacemakers or implantable defibrillator",
+    "EXCLUSION UNCLEAR: Contraindication to the injection of contrast agent: pregnancy, lactation, histo",
+    "EXCLUSION UNCLEAR: Hemodynamically unstability, acute respiratory failure, a precarious condition o",
+    "EXCLUSION UNCLEAR: Patient with severe kidney with Glomerular Filtration rate < 30 ml/min",
+    "EXCLUSION UNCLEAR: Persons subject to major legal protection (safeguarding justice, guardianship, t"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

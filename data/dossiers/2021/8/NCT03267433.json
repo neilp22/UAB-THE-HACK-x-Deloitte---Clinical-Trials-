@@ -1,0 +1,273 @@
+{
+  "nct_id": "NCT03267433",
+  "trial_title": "Rituximab With or Without Stem Cell Transplant in Treating Patients With Minimal Residual Disease-Negative Mantle Cell Lymphoma in First Complete Remission",
+  "phase": "PHASE3",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "This phase III trial studies rituximab after stem cell transplant and to see how well it works compared with rituximab alone in treating patients with in minimal residual disease-negative mantle cell lymphoma in first complete remission. Immunotherapy with rituximab, may induce changes in body's immune system and may interfere with the ability of tumor cells to grow and spread. Giving chemotherapy before a stem cell transplant helps kill any cancer cells that are in the body and helps make room ",
+  "eligibility_table": [
+    {
+      "criterion": "Age >= 18 and <= 70 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 <= 70.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age >= 18 and <= 70 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have histologically confirmed mantle cell lymphoma, with cyclin D1 by immunohistochemical stains and/or t(11;14) by cytogenetics or fluorescence in situ hybridization (FISH). If patient has cyclin D1 negative mantle cell lymphoma with classical morphology and an expression profile (including SOX11+) that is otherwise indistinguishable from mantle cell lymphoma, communication with investigator is required for consideration of enrollment. The proliferation rate, using Ki-67 or MIB-1, should also be determined, but is not required until step 1 registration; patients may register to step 0 without a documented Ki-67 index",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL and Richter's transformation, not mantle cell lymphoma, which is required for this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "In the opinion of the enrolling physician, patients must be felt to be a candidate for autologous stem cell transplantation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The enrolling physician's opinion on candidacy for autologous stem cell transplantation is not provided in the profile.",
+      "clinical_question": "Does the patient have a performance status of 0-2 on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "Patient may be about to begin, be receiving or have completed induction therapy within 120 days prior to preregistration to step 0; no more than 300 days may have passed between the first day of induction therapy and preregistration to step 0",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has completed multiple induction therapies within the last 120 days, meeting the time frame for preregistration.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient may be about to begin, be receiving or have completed induction therapy within 120 days prior to preregistration to step 0; no more than 300 days may have passed between the first day of induction therapy and preregistration to step 0",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Similar to criterion 3, the patient has completed induction therapies within the required time frame.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "For patients who have completed induction therapy and have been restaged, restaging evaluation must show status of partial (PR) or complete response (CR); post-induction patients with evidence of clinical disease progression are not eligible for preregistration",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the patient's restaging evaluation status after induction therapy.",
+      "clinical_question": "Has the patient achieved a complete response (CR) or partial response (PR) as determined by the restaging evaluation following induction therapy?"
+    },
+    {
+      "criterion": "Up to two regimens of therapy (conventional chemotherapy, antibody therapy, or an oral regimen) are allowed as long as a continuous response was ongoing throughout therapy; overall, a partial response needs to have been achieved (using studies at the time of diagnosis as the baseline)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify whether the patient achieved a partial response during the therapies.",
+      "clinical_question": "Has the patient achieved a partial response to therapy as defined by a ≥50% reduction in the sum of the products of the diameters of all measurable lesions?"
+    },
+    {
+      "criterion": "NOTE: For example, a patient who started treatment with rituximab/bendamustine and was then switched to rituximab(R)-cyclophosphamide, doxorubicin hydrochloride, vincristine sulfate, and prednisone (CHOP) (due to insufficient response or excessive toxicity) would be counted as having received 2 regimens; however, R-CHOP alternating with R-dexamethasone, high-dose cytarabine, and cisplatin (DHAP) as a planned induction regimen would count as one regimen",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not clarify if the patient received two distinct regimens or if the response was continuous.",
+      "clinical_question": "Has the patient received ≥2 distinct chemotherapy regimens prior to the current treatment?"
+    },
+    {
+      "criterion": "Patient does not have any documented history of central nervous system (CNS) involvement by mantle cell lymphoma; this includes no evidence of parenchymal brain, spinal cord, or cerebrospinal fluid involvement; radiculopathy symptoms from nerve root compression by lymphoma do not constitute CNS involvement",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no documented history of CNS involvement by mantle cell lymphoma in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient must have archived formalin-fixed paraffin-embedded (FFPE) tumor tissue specimen from the original diagnostic biopsy available for submission to Adaptive Biotechnologies for ClonoSEQ ID molecular marker identification of unique clonal immunoglobulin deoxyribonucleic acid (DNA) sequence",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention whether archived tumor tissue is available for submission.",
+      "clinical_question": "Does the patient have an archived formalin-fixed paraffin-embedded (FFPE) tumor tissue specimen from the original diagnostic biopsy available for submission to Adaptive Biotechnologies for ClonoSEQ ID molecular marker identification?"
+    },
+    {
+      "criterion": "If adequate tumor tissue is not available, peripheral blood collected prior to start of treatment with high disease burden (> 5%) is acceptable for molecular marker identification (ID) testing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate if adequate tumor tissue is unavailable or if peripheral blood was collected.",
+      "clinical_question": "Is there peripheral blood collected from the patient prior to the start of treatment that shows a high disease burden of >5%?"
+    },
+    {
+      "criterion": "Adaptive Biotechnologies will forward results within fourteen (14) days of receipt of any stored (e.g. frozen or FFPE) tumor tissue specimen to the submitting institution and to the ECOG-American College of Radiology Imaging Network (ACRIN) Operations Office",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion requires confirmation of results forwarding by Adaptive Biotechnologies, which is not provided in the patient profile.",
+      "clinical_question": "Has the patient submitted a stored tumor tissue specimen to Adaptive Biotechnologies within the required timeframe of fourteen (14) days?"
+    },
+    {
+      "criterion": "Patients for whom the molecular marker is identified will have peripheral blood collected after completion of induction (patient's disease status is PR or CR) and submitted to Adaptive Biotechnologies for minimal residual disease (MRD) assessment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not specify if the molecular marker has been identified or if peripheral blood has been collected for MRD assessment.",
+      "clinical_question": "Has the patient undergone peripheral blood collection for minimal residual disease assessment after completing induction therapy, confirming a disease status of partial response (PR) or complete response (CR)?"
+    },
+    {
+      "criterion": "Adaptive Biotechnologies will forward results within ten to fourteen (10-14) days of receipt of fresh peripheral blood specimen to the submitting institution and to the ECOG-ACRIN Operations Office",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information on whether fresh peripheral blood specimens have been submitted to Adaptive Biotechnologies.",
+      "clinical_question": "Has the patient provided a fresh peripheral blood specimen for analysis within the required timeframe of ten to fourteen days?"
+    },
+    {
+      "criterion": "Patients must have met eligibility criteria for the screening step 0",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not indicate if the eligibility criteria for screening step 0 have been met.",
+      "clinical_question": "Has the patient undergone screening step 0 and met all eligibility criteria, including having a confirmed diagnosis of minimal residual disease-negative mantle cell lymphoma in first complete remission?"
+    },
+    {
+      "criterion": "The proliferation rate, using Ki-67 or MIB-1 immunohistochemistry (<= 30% versus > 30% versus \"indeterminate\" Ki-67 index), must be documented for a baseline tumor biopsy specimen",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not document the proliferation rate using Ki-67 or MIB-1 immunohistochemistry for a baseline tumor biopsy.",
+      "clinical_question": "Is the Ki-67 proliferation index documented for the baseline tumor biopsy specimen, and is it classified as ≤30%, >30%, or \"indeterminate\"?"
+    },
+    {
+      "criterion": "Institution has received results from Adaptive Biotechnologies as defined by one of the following criteria:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not confirm if the institution has received results from Adaptive Biotechnologies.",
+      "clinical_question": "Has the patient received results from Adaptive Biotechnologies indicating minimal residual disease negativity?"
+    },
+    {
+      "criterion": "Patients are \"MRD Indeterminate\": ClonoSEQ ID molecular marker assessment did not identify any unique clonal immunoglobulin DNA sequence OR",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not indicate if the ClonoSEQ ID molecular marker assessment was performed or if the patient is MRD Indeterminate.",
+      "clinical_question": "Has the ClonoSEQ ID molecular marker assessment identified any unique clonal immunoglobulin DNA sequence in this patient?"
+    },
+    {
+      "criterion": "ClonoSEQ ID molecular marker assessment identified unique clonal immunoglobulin DNA sequence and MRD assessment is completed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not confirm if the ClonoSEQ ID assessment identified a unique clonal immunoglobulin DNA sequence or if MRD assessment is completed.",
+      "clinical_question": "Has the ClonoSEQ ID molecular marker assessment identified a unique clonal immunoglobulin DNA sequence in this patient?"
+    },
+    {
+      "criterion": "Patients must have completed induction therapy within 150 days prior to registration to step 1, AND no more than 300 days may have elapsed from the first dose of induction chemotherapy (cycle 1 [C1] day 1 [D1]) given, until the last day of induction chemotherapy administered; for those assigned to Arms A, C, or D, the date of transplant (\"day 0\") must not be greater than 365 days after the first dose of induction chemotherapy (C1D1) given",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide specific dates regarding the completion of induction therapy or the timing of chemotherapy cycles.",
+      "clinical_question": "Has the patient completed induction therapy within 150 days prior to registration?"
+    },
+    {
+      "criterion": "Patient must have received at least four (4) cycles of induction therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has received four cycles of FCR therapy, which meets the requirement for induction therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Up to two regimens of therapy (conventional chemotherapy, antibody therapy, or an oral regimen) are allowed as long as a continuous response was ongoing throughout therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple therapies (FCR, PCR, R-CVP), but it is unclear if a continuous response was maintained throughout these treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "NOTE: For example, a patient who started treatment with rituximab/bendamustine and was then switched to R-CHOP (due to insufficient response or excessive toxicity) would be counted as having received 2 regimens; however, R-CHOP alternating with R-DHAP as a planned induction regimen would count as one regimen",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple regimens, but the switching between therapies does not indicate a planned induction regimen, thus counting as separate regimens.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "INCLUSION CRITERIA FOR TREATMENT ASSIGNMENT (STEP 1): Patients must have achieved a radiologic complete or partial remission as defined by the Lugano criteria",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's radiologic response according to the Lugano criteria.",
+      "clinical_question": "Has the patient achieved a radiologic complete or partial remission as defined by the Lugano criteria?"
+    },
+    {
+      "criterion": "INCLUSION CRITERIA FOR TREATMENT ASSIGNMENT (STEP 1): In the opinion of the enrolling physician, patients must be felt to be a candidate for autologous stem cell transplantation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The enrolling physician's opinion on the patient's candidacy for autologous stem cell transplantation is not provided.",
+      "clinical_question": "Does the patient have a sufficient stem cell reserve as indicated by an adequate peripheral blood stem cell count (≥2 x 10^6 CD34+ cells/kg) for autologous stem cell transplantation?"
+    },
+    {
+      "criterion": "INCLUSION CRITERIA FOR TREATMENT ASSIGNMENT (STEP 1): Patients have an Eastern Cooperative Oncology Group (ECOG) performance status of 0-2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an Eastern Cooperative Oncology Group (ECOG) performance status of 0, 1, or 2?"
+    },
+    {
+      "criterion": "INCLUSION CRITERIA FOR TREATMENT ASSIGNMENT (STEP 1): Human immunodeficiency virus (HIV) positive patients are not excluded, but to enroll, must meet all of the below criteria:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's HIV status is not mentioned, making it impossible to assess this criterion.",
+      "clinical_question": "Does the patient have a CD4 count of ≥200 cells/mm³?"
+    },
+    {
+      "criterion": "HIV is sensitive to antiretroviral therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Without information on the patient's HIV status, it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the patient's HIV viral load undetectable while on antiretroviral therapy?"
+    },
+    {
+      "criterion": "Must be willing to take effective antiretroviral therapy that has minimal overlapping toxicity and pharmacokinetic interactions with protocol therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's willingness to take antiretroviral therapy is not addressed in the profile.",
+      "clinical_question": "Is the patient currently taking an effective antiretroviral therapy that has minimal overlapping toxicity and pharmacokinetic interactions with rituximab?"
+    },
+    {
+      "criterion": "No history of HIV-related opportunistic disease or acquired immune deficiency syndrome (AIDS)-defining conditions within past 12 months other than historic CD4+ T-cell counts below 200 cells/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's history of HIV-related opportunistic diseases or AIDS-defining conditions.",
+      "clinical_question": "Has the patient had a CD4+ T-cell count above 200 cells/mm^3 in the past 12 months?"
+    },
+    {
+      "criterion": "Expected long-term survival if lymphoma were not present",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's expected long-term survival without lymphoma is not provided.",
+      "clinical_question": "What is the patient's expected overall survival rate at 5 years if mantle cell lymphoma is not present, based on their current health status and treatment history?"
+    },
+    {
+      "criterion": "Patient must be disease-free >= 3 years of prior malignancies with the exception of adequately treated non-melanoma skin cancer, adequately treated in situ carcinoma, melanoma in situ post wide local excision or Mohs surgery, low grade prostate carcinoma (Gleason grade <= 6) managed with observation that has been stable for at least 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the patient's history of prior malignancies or their treatment status.",
+      "clinical_question": "Has the patient been disease-free for at least 3 years from any prior malignancies, excluding adequately treated non-melanoma skin cancer, in situ carcinoma, or low grade prostate carcinoma?"
+    },
+    {
+      "criterion": "Patient must not be pregnant or breast-feeding due to the potential for congenital abnormalities and of harm to nursing infants due to the treatment regimens used",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and therefore not pregnant or breast-feeding.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "All patients of childbearing potential must have a blood test or urine study within 2 weeks prior to registration to rule out pregnancy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's childbearing potential is not applicable as he is male, but the criterion is not explicitly stated for males.",
+      "clinical_question": "Has the patient had a blood test or urine study within the last 2 weeks to rule out pregnancy?"
+    },
+    {
+      "criterion": "A patient of childbearing potential is anyone, regardless of sexual orientation or whether they have undergone tubal ligation, who meets the following criteria: 1) has not undergone a hysterectomy or bilateral oophorectomy; or 2) has not been naturally postmenopausal for at least 24 consecutive months (i.e., has had menses at any time in the preceding 24 consecutive months)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "As a male, the criteria regarding childbearing potential do not apply, but it is unclear if any assessment was made.",
+      "clinical_question": "Has the patient undergone a hysterectomy or bilateral oophorectomy?"
+    },
+    {
+      "criterion": "Patient of childbearing potential and sexually active males must be strongly advised to use an accepted and effective method of contraception or to abstain from sexual intercourse for the duration of their participation in the study and for 12 months post rituximab treatment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "As a male, the patient is not required to use contraception related to the study.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 8 of 37 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2973
+}

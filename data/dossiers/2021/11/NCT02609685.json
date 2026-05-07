@@ -1,0 +1,71 @@
+{
+  "nct_id": "NCT02609685",
+  "trial_title": "Active Surveillance of Papillary Thyroid Microcarcinoma",
+  "phase": "NA",
+  "status": "RECRUITING",
+  "brief_summary": "The purpose of this study is to better understand the outcomes of active surveillance (observation) instead of immediate surgery, which is the current standard of care for papillary thyroid microcarcinoma (PTMC). Patients with a 1.5 cm or smaller thyroid nodule(s) with papillary thyroid carcinoma will be eligible for the study.",
+  "eligibility_table": [
+    {
+      "criterion": "Pathologically confirmed Bethesda V or VI thyroid nodules with papillary thyroid carcinoma or high clinical suspicion, or pathologically confirmed Bethesda III or IV nodules with BRAF mutation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile indicates metastatic papillary thyroid cancer, but it is unclear if the nodules are Bethesda V or VI or if there is a BRAF mutation.",
+      "clinical_question": "Does the patient have a pathologically confirmed Bethesda V or VI thyroid nodule, or a Bethesda III or IV nodule with a BRAF mutation?"
+    },
+    {
+      "criterion": "2.0 cm or smaller nodules by ultrasonographic criteria",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the largest nodule in the patient's thyroid 2.0 cm or smaller based on ultrasonographic measurements?"
+    },
+    {
+      "criterion": "Ability to understand and the willingness to sign a written informed consent and HIPAA Authorization form",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient is capable of understanding and willing to sign consent, which is typical for patients in clinical settings.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must be able to read and write English fluently to participate in the questionnaire portion of the study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to read and write English is not specified, making it uncertain.",
+      "clinical_question": "Can the patient read and write English fluently as demonstrated by completing a standardized questionnaire?"
+    },
+    {
+      "criterion": "High-grade or poorly differentiated PTC variants",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's cancer is metastatic, and the grade of the tumor is not specified, making it unclear if it is high-grade or poorly differentiated.",
+      "clinical_question": "Does the patient's pathology report indicate the presence of high-grade or poorly differentiated variants of papillary thyroid carcinoma?"
+    },
+    {
+      "criterion": "Central or lateral neck lymphadenopathy suspicious for PTC",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has metastatic disease, which typically involves lymph nodes, but the specific lymphadenopathy status is not detailed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unfavorable nodule location (e.g. Near dorsal surface (by recurrent laryngeal nerve); Adjacent to trachea (risk of cartilage invasion)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The tumor's proximity to critical structures suggests an unfavorable location, but the exact details of the nodule's location are not provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of radiation to neck",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of radiation therapy (XRT), which is relevant to the exclusion criteria.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: High-grade or poorly differentiated PTC variants",
+    "LOW INCLUSION MATCH: only 1 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

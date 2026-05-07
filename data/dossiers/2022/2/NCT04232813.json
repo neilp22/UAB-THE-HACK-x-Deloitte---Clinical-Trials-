@@ -1,0 +1,152 @@
+{
+  "nct_id": "NCT04232813",
+  "trial_title": "Evaluation of the Acceptability and Efficacy of 10 Micrograms of Estradiol Vaginal Tablets vs Promestriene Vaginal Cream",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "Evaluation of the Acceptability and Efficacy of 10 Micrograms of Estradiol Vaginal Tablets vs Promestriene Vaginal Cream in postmenopausal women aged 45 years or older, with one or more moderate to severe symptoms of vulvovaginal atrophy (dryness, dyspareunia, soreness or irritation).",
+  "eligibility_table": [
+    {
+      "criterion": "Postmenopausal women aged 45 years or older. Women will be considered postmenopausal with more than 12 months since last menstrual period",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 32.0 >= 45.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women who have read and signed the Informed Consent Form",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not specify whether she has read and signed the Informed Consent Form.",
+      "clinical_question": "Has the patient read and signed the Informed Consent Form for the trial?"
+    },
+    {
+      "criterion": "Women with an intact uterus",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a thin endometrium and no gestational sac, which may indicate an issue with uterine integrity.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "One or more vaginal symptoms (dryness, soreness, irritation, dyspareunia) rated as moderate to severe. Symptoms are moderate if the patient needs a treatment and feels discomfort. Symptoms are severe if the patient needs a treatment, and feels such a degree of discomfort that this could severely impact the subject's daily activities.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has vaginal spotting, but the severity of symptoms is not clearly rated as moderate to severe.",
+      "clinical_question": "Does the patient report experiencing one or more vaginal symptoms (dryness, soreness, irritation, dyspareunia) rated as moderate to severe on a standardized symptom scale?"
+    },
+    {
+      "criterion": "Blood estradiol concentration of 30 pg/ml or less",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current blood estradiol concentration 30 pg/ml or less?"
+    },
+    {
+      "criterion": "Women who have not signed the Informed consent Form",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not specify whether she has signed the Informed Consent Form.",
+      "clinical_question": "Has the patient signed the Informed Consent Form for participation in the trial?"
+    },
+    {
+      "criterion": "Women who had a known or suspected history of breast carcinoma",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding a history of breast carcinoma.",
+      "clinical_question": "Does the patient have a known or suspected history of breast carcinoma, as defined by a previous diagnosis or treatment for breast cancer?"
+    },
+    {
+      "criterion": "Estrogen dependent neoplasia. Women with a known, past or suspected Estrogen-dependent malignant tumours such as endometrial or ovarian cancer",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not indicate any known or suspected estrogen-dependent neoplasia.",
+      "clinical_question": "Does the patient have a current or past diagnosis of estrogen-dependent malignant tumors, such as endometrial or ovarian cancer?"
+    },
+    {
+      "criterion": "Positive or suspicious mammogram results",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any mammogram results.",
+      "clinical_question": "Has the patient undergone a mammogram within the last 12 months that resulted in a positive or suspicious finding?"
+    },
+    {
+      "criterion": "Any systemic malignant disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not indicate any systemic malignant disease.",
+      "clinical_question": "Does the patient have any evidence of systemic malignant disease based on imaging studies or biopsy results?"
+    },
+    {
+      "criterion": "Hormone therapy treatment (sex hormones or vaginal treatments or steroids) in the last three months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not currently on any medications, but there is no information about hormone therapy in the last three months.",
+      "clinical_question": "Has the patient received any form of hormone therapy, including sex hormones or vaginal treatments, in the last 3 months?"
+    },
+    {
+      "criterion": "Women who had abnormal vaginal bleeding or uterine bleeding of unknown cause",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has abnormal vaginal bleeding (spotting), which is noted, but the cause is not specified as unknown.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Vaginal infection requiring treatment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has vaginal spotting, but it is unclear if this indicates a vaginal infection requiring treatment without further diagnostic information.",
+      "clinical_question": "Has the patient experienced any vaginal infections requiring treatment in the past 6 months?"
+    },
+    {
+      "criterion": "Previous or current venous thromboembolism (deep venous thrombosis, pulmonary embolism) Untreated endometrial hyperplasia Known thrombophilic disorders (e.g. protein C, protein S, or antithrombin deficiency) Active or previous arterial thromboembolic disease (e.g. angina, myocardial infarction) Acute liver disease, or history of liver disease as long as liver function tests have failed to return to normal Known Hypersensitivity to the active substances or to any of the excipients Porphyria",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has no documented history of thromboembolic disorders or liver disease, but the absence of detailed lab values makes it difficult to fully assess.",
+      "clinical_question": "Does the patient have a history of venous thromboembolism, arterial thromboembolic disease, or any known thrombophilic disorders?"
+    },
+    {
+      "criterion": "Any serious disease or chronic condition that could interfere with study compliance",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "While the patient has complicated UTIs, it is uncertain if this constitutes a serious disease that would interfere with study compliance.",
+      "clinical_question": "Does the patient have any serious disease or chronic condition, such as uncontrolled diabetes or hypertension, that could interfere with study compliance?"
+    },
+    {
+      "criterion": "History of thrombolytic disorders",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no explicit history of thrombolytic disorders provided, but the patient's medical history is limited.",
+      "clinical_question": "Does the patient have a documented history of thromboembolic events, such as deep vein thrombosis or pulmonary embolism, in the past 5 years?"
+    },
+    {
+      "criterion": "Use of vaginal contraceptives (DIU, vaginal ring…)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of inconsistent use of barrier contraceptives, but there is no mention of vaginal contraceptives being used currently.",
+      "clinical_question": "Has the patient used any form of vaginal contraceptives, such as a DIU or vaginal ring, in the past 6 months?"
+    },
+    {
+      "criterion": "Participation in another clinical trial in the last three months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about participation in another clinical trial in the last three months, making it impossible to assess.",
+      "clinical_question": "Has the patient participated in any clinical trial within the last 3 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Women who have not signed the Informed consent Form",
+    "EXCLUSION UNCLEAR: Women who had a known or suspected history of breast carcinoma",
+    "EXCLUSION UNCLEAR: Estrogen dependent neoplasia. Women with a known, past or suspected Estrogen-dep",
+    "EXCLUSION UNCLEAR: Positive or suspicious mammogram results",
+    "EXCLUSION UNCLEAR: Any systemic malignant disease",
+    "EXCLUSION UNCLEAR: Hormone therapy treatment (sex hormones or vaginal treatments or steroids) in th",
+    "EXCLUSION UNCLEAR: Vaginal infection requiring treatment",
+    "EXCLUSION UNCLEAR: Previous or current venous thromboembolism (deep venous thrombosis, pulmonary em",
+    "EXCLUSION UNCLEAR: Any serious disease or chronic condition that could interfere with study complia",
+    "EXCLUSION UNCLEAR: History of thrombolytic disorders",
+    "EXCLUSION UNCLEAR: Use of vaginal contraceptives (DIU, vaginal ring…)",
+    "EXCLUSION UNCLEAR: Participation in another clinical trial in the last three months",
+    "LOW INCLUSION MATCH: only 0 of 5 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1667
+}

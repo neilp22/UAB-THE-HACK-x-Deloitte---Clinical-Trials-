@@ -1,0 +1,65 @@
+{
+  "nct_id": "NCT01792739",
+  "trial_title": "Lactobacillus Preparation on the Incidence of Diarrhea",
+  "phase": "PHASE4",
+  "status": "UNKNOWN",
+  "brief_summary": "The purpose of this trial is to clarify the impact of lactobacillus preparation on the incidence of diarrhea in ICU-admitted patients.\n\nAlmost all patients in ICU are treated with antibiotics for the effective control of various infections. However, antibiotics-associated diarrhea is another matter of concern. Many previous studies were proved that the use of probiotic lactobacillus preparation can reduce antibiotics-associated diarrhea in ward-admitted patients. In this study, we are planning t",
+  "eligibility_table": [
+    {
+      "criterion": "All patients admitted in intensive care unit",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient was admitted to the intensive care unit (ICU), fulfilling the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age more than 19",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 > 19.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diarrhea occurence within 1 week of ICU admission",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of C. difficile infection and is currently being treated for it, but there is no specific mention of diarrhea occurring within the week prior to ICU admission.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recent history of probiotics use (within 1 month)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding recent probiotic use, making it indeterminate.",
+      "clinical_question": "Has the patient used any probiotic supplements within the last 30 days?"
+    },
+    {
+      "criterion": "GI obstruction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of gastrointestinal obstruction in the patient's profile, but it is not explicitly ruled out.",
+      "clinical_question": "Does the patient have any evidence of gastrointestinal obstruction as indicated by imaging studies or clinical symptoms such as abdominal pain, distension, or inability to pass stool?"
+    },
+    {
+      "criterion": "History of abnormal symptoms and sign for the probiotics use (rash, edema, sepsis, etc.)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of sepsis and other conditions, but there is no specific mention of abnormal symptoms related to probiotics use.",
+      "clinical_question": "Has the patient experienced any rash, edema, or signs of sepsis during or after previous probiotic use?"
+    },
+    {
+      "criterion": "immunocompromized patients",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has End Stage Renal Disease (ESRD) and is on antibiotics, which may indicate an immunocompromised state, but the specific criterion for exclusion is not met as it does not explicitly state that all patients with ESRD are excluded.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Recent history of probiotics use (within 1 month)",
+    "EXCLUSION UNCLEAR: GI obstruction",
+    "EXCLUSION UNCLEAR: History of abnormal symptoms and sign for the probiotics use (rash, edema, sepsi"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5714
+}

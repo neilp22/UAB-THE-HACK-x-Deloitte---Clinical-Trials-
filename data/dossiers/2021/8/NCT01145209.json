@@ -1,0 +1,251 @@
+{
+  "nct_id": "NCT01145209",
+  "trial_title": "Ofatumumab-based Induction Chemoimmunotherapy in Previously Untreated Patients With CLL/SLL",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Background:\n\n\\- Ofatumumab was approved by the U.S. Food and Drug Administration to treat patients with chronic lymphocytic leukemia (CLL) or small lymphocytic lymphoma (SLL) who have not responded to standard chemotherapy. Ofatumumab is a substance that recognizes specific types of white blood cells called B-lymphocytes, which become cancerous in CLL/SLL. Ofatumumab attaches to a molecule called CD20, which is found on the surface of B-cells, and destroys them. Previous studies have shown that ",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed CLL or SLL as defined by the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of CLL, which is histologically confirmed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "B-lymphocytosis greater than 5000 cells/micro L (may be less than 5000 cells/micro L if lymphadenopathy is present with histologic confirmation of lymph node involvement by SLL).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "B-lymphocytosis is not provided; however, the patient has bulky lymphadenopathy which may support a lower threshold.",
+      "clinical_question": "Is the patient's B-lymphocyte count greater than 5000 cells/micro L?"
+    },
+    {
+      "criterion": "Immunophenotypic profile consistent with CLL as demonstrated by flow cytometry",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Immunophenotypic profile is not provided; flow cytometry results are needed to confirm.",
+      "clinical_question": "Does the patient's flow cytometry results show an immunophenotypic profile consistent with CLL, defined by the presence of ≥30% CD5+ and CD23+ B-cells?"
+    },
+    {
+      "criterion": "Appropriate immunophonotype (CD5/19/23+)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Appropriate immunophenotype is not confirmed; flow cytometry results are needed.",
+      "clinical_question": "Does the patient have a confirmed immunophenotype of CD5+, CD19+, and CD23+ in their lymphocyte population?"
+    },
+    {
+      "criterion": "Clonality of lymphocytosis confirmed by flow cytometry",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Clonality of lymphocytosis is not confirmed; flow cytometry results are needed.",
+      "clinical_question": "Has the clonality of the lymphocytosis been confirmed by flow cytometry showing a dominant B-cell population with a clonal immunophenotype?"
+    },
+    {
+      "criterion": "large lymphocytes less than 55 % of blood lymphocytes",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Percentage of large lymphocytes is not provided; lab values are needed.",
+      "clinical_question": "Are the patient's large lymphocytes currently less than 55% of their total blood lymphocytes?"
+    },
+    {
+      "criterion": "Active disease as defined by at least one of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has active disease indicated by elevated white count and bulky lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Weight loss greater than or equal to 10 percent within the previous 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Weight loss information is not provided; need to assess weight history.",
+      "clinical_question": "Has the patient experienced a weight loss of ≥10% within the previous 6 months?"
+    },
+    {
+      "criterion": "Extreme fatigue",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Extreme fatigue is not documented; patient history does not mention fatigue.",
+      "clinical_question": "Has the patient reported a fatigue score of ≥7 on a scale of 0 to 10 in the past week?"
+    },
+    {
+      "criterion": "Fevers of greater than 100.5 degree F for greater than or equal to 2 weeks without evidence of infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Fever history is not provided; need to assess for any recent fevers.",
+      "clinical_question": "Has the patient experienced fevers of ≥100.5°F for ≥2 weeks without any evidence of infection?"
+    },
+    {
+      "criterion": "Prior monoclonal antibody therapy with agents having anti-CLL activity",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received prior monoclonal antibody therapy (Campath) which has anti-CLL activity.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior cytotoxic chemotherapy with agents having anti-CLL activity (Fludarabine, Cyclophosphamide, Bendamustine, Chlorambucil)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone prior cytotoxic chemotherapy (FCR, PCR, R-CVP) which includes agents with anti-CLL activity.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Transformed CLL",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of Richter's transformation, indicating transformed CLL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active autoimmune hemolytic anemia or thrombocytopenia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about active autoimmune hemolytic anemia or thrombocytopenia.",
+      "clinical_question": "Does the patient have a documented hemoglobin level <10 g/dL or a platelet count <100,000/µL due to autoimmune hemolytic anemia or thrombocytopenia?"
+    },
+    {
+      "criterion": "Any medical condition that requires the chronic use of corticosteroids",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about any medical condition requiring chronic corticosteroid use.",
+      "clinical_question": "Does the patient require chronic corticosteroid therapy for any medical condition?"
+    },
+    {
+      "criterion": "Active or latent Hepatitis B infection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding active or latent Hepatitis B infection.",
+      "clinical_question": "Does the patient have a positive Hepatitis B surface antigen (HBsAg) test result?"
+    },
+    {
+      "criterion": "HIV infection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding HIV infection.",
+      "clinical_question": "Does the patient have a documented HIV infection status, and if so, is it negative?"
+    },
+    {
+      "criterion": "Severe chronic obstructive pulmonary disease, severe cardiac disease, or other uncontrolled medical condition that would, in the opinion of the principal investigator, place the subject at an unreasonable risk of life-threatening adverse events due to chemoimmunotherapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about severe chronic obstructive pulmonary disease or severe cardiac disease.",
+      "clinical_question": "Does the patient have a history of severe chronic obstructive pulmonary disease or severe cardiac disease as defined by New York Heart Association Class III or IV?"
+    },
+    {
+      "criterion": "ECOG performance status 3 or worse",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has an excellent performance status, likely ECOG 0 or 1.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Creatinine greater than or equal to 2 mg/dL or creatinine clearance less than or equal to 30 mL/min",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess creatinine levels or clearance.",
+      "clinical_question": "Is the patient's serum creatinine level ≥2 mg/dL or is the creatinine clearance ≤30 mL/min?"
+    },
+    {
+      "criterion": "Creatinine clearance less than or equal to 30 mL/min",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No creatinine clearance value provided; unable to assess.",
+      "clinical_question": "Is the patient's creatinine clearance ≤30 mL/min based on the most recent renal function tests?"
+    },
+    {
+      "criterion": "Night sweats for more than one month without evidence of infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on night sweats provided; unable to assess.",
+      "clinical_question": "Has the patient experienced night sweats for more than one month with no evidence of infection as confirmed by clinical evaluation and laboratory tests?"
+    },
+    {
+      "criterion": "Evidence of progressive marrow failure as manifested by the development of, or worsening of, anemia and/or thrombocytopenia",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has CLL and history of elevated white count, indicating possible marrow failure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Massive or progressive splenomegaly",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific information on splenomegaly provided; unable to assess.",
+      "clinical_question": "Does the patient have a splenic size greater than 10 cm in the longest dimension on imaging studies?"
+    },
+    {
+      "criterion": "Massive nodes or clusters or progressive lymphadenopathy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has bulky lymphadenopathy, indicating progressive lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Progressive lymphocytosis with an increase of greater than 50% over a 2 month period, or an anticipated doubling time of less than 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific data on lymphocytosis or doubling time provided; unable to assess.",
+      "clinical_question": "Has the patient's lymphocyte count increased by more than 50% over the past 2 months?"
+    },
+    {
+      "criterion": "Measurable disease (defined as two dimensional disease on imaging or quantifiable leukemic disease).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has a history of CLL and prior treatments indicating measurable disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ages 18 and over.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Bilirubin greater than or equal to 2 mg/dL or active hepatic or biliary disease (with exception of patients with Gilbert's syndrome, asymptomatic gallstones, or stable chronic liver disease per investigator assessment)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No bilirubin or liver disease information provided; unable to assess.",
+      "clinical_question": "Is the patient's total bilirubin level ≥2 mg/dL?"
+    },
+    {
+      "criterion": "Female patients: Current pregnancy or unwilling to take oral contraceptives or refrain from pregnancy if of childbearing potential or currently breastfeeding. Male patients who are unwilling to follow the contraception requirements described in this protocol.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient is male; no relevant exclusion applies.",
+      "clinical_question": "Is the patient willing to adhere to the contraception requirements outlined in the protocol for male participants?"
+    },
+    {
+      "criterion": "Psychiatric illness/social situations that would limit the patient s ability to tolerate and/or comply with study requirements.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on psychiatric illness or social situations provided; unable to assess.",
+      "clinical_question": "Does the patient have a history of psychiatric illness or social situations that would limit their ability to comply with study requirements, as assessed by a standardized psychiatric evaluation?"
+    },
+    {
+      "criterion": "Unable to understand the investigational nature of the study or give informed consent.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ability to understand the study or give informed consent.",
+      "clinical_question": "Can the patient accurately explain the purpose and potential risks of participating in the Ofatumumab-based Induction Chemoimmunotherapy study?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Prior monoclonal antibody therapy with agents having anti-CLL activity",
+    "EXCLUSION VIOLATED: Prior cytotoxic chemotherapy with agents having anti-CLL activity (Fludarabine, ",
+    "EXCLUSION VIOLATED: Transformed CLL",
+    "EXCLUSION UNCLEAR: Active autoimmune hemolytic anemia or thrombocytopenia",
+    "EXCLUSION UNCLEAR: Any medical condition that requires the chronic use of corticosteroids",
+    "EXCLUSION UNCLEAR: Active or latent Hepatitis B infection",
+    "EXCLUSION UNCLEAR: HIV infection",
+    "EXCLUSION UNCLEAR: Severe chronic obstructive pulmonary disease, severe cardiac disease, or other u",
+    "EXCLUSION UNCLEAR: Creatinine greater than or equal to 2 mg/dL or creatinine clearance less than or",
+    "EXCLUSION UNCLEAR: Creatinine clearance less than or equal to 30 mL/min",
+    "EXCLUSION UNCLEAR: Bilirubin greater than or equal to 2 mg/dL or active hepatic or biliary disease ",
+    "EXCLUSION UNCLEAR: Female patients: Current pregnancy or unwilling to take oral contraceptives or r",
+    "EXCLUSION UNCLEAR: Psychiatric illness/social situations that would limit the patient s ability to ",
+    "EXCLUSION UNCLEAR: Unable to understand the investigational nature of the study or give informed co"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3125
+}

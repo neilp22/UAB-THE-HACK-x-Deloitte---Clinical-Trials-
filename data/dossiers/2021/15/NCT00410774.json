@@ -1,0 +1,392 @@
+{
+  "nct_id": "NCT00410774",
+  "trial_title": "Gemcitabine and Bevacizumab in Treating Patients With Pancreatic Cancer That Has Been Completely Removed By Surgery",
+  "phase": "PHASE1",
+  "status": "TERMINATED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as gemcitabine, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Monoclonal antibodies, such as bevacizumab, can block tumor growth in different ways. Some block the ability of tumor cells to grow and spread. Others find tumor cells and help kill them or carry tumor-killing substances to them. Bevacizumab may also stop the growth of pancreatic cancer by blocking blood flow to the t",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically confirmed adenocarcinoma of the pancreas",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has pancreatic adenocarcinoma, which is a histologically confirmed diagnosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Completely resected disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not undergone any surgical resection of the tumor, as indicated by the prior treatment of angioplasty.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Underwent 1 of the following procedures 3-8 weeks ago:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not undergone any of the specified surgical procedures within the last 3-8 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Standard pancreaticoduodenectomy (for tumors of the pancreatic head)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication that the patient has undergone a standard pancreaticoduodenectomy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Distal pancreatectomy (for tumors of the pancreatic tail)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication that the patient has undergone a distal pancreatectomy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No grossly positive surgical margins",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about surgical margins, making it indeterminate.",
+      "clinical_question": "Does the patient have any grossly positive surgical margins as determined by the pathology report following the surgical resection of the pancreatic adenocarcinoma?"
+    },
+    {
+      "criterion": "Positive microscopic margins allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion allows for positive microscopic margins, but there is no information to confirm or deny this.",
+      "clinical_question": "Does the patient have any positive microscopic margins in the surgical pathology report?"
+    },
+    {
+      "criterion": "Nonmeasurable disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's disease status is not specified as measurable or nonmeasurable.",
+      "clinical_question": "Does the patient have any measurable disease as defined by the RECIST criteria, specifically a target lesion that can be accurately measured?"
+    },
+    {
+      "criterion": "No known CNS disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of known CNS disease in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ECOG performance status 0-1",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status of 0 or 1?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not pregnant or nursing, as indicated by the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's pregnancy status is not provided, making it unclear if a negative pregnancy test is available.",
+      "clinical_question": "Has the patient had a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 6 months after completion of study therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's fertility status and contraception use are not specified.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a hormonal method or an intrauterine device, and will she continue to do so during and for 6 months after completion of study therapy?"
+    },
+    {
+      "criterion": "CA 19-9 ≤ 2.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Pancreatic adenocarcinoma typically results in elevated CA 19-9 levels; specific value not provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absolute neutrophil count ≥ 1,500/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count currently ≥ 1,500/mm³?"
+    },
+    {
+      "criterion": "Hemoglobin ≥ 9 g/dL (transfusion or epoetin alfa allowed)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a hemoglobin level of ≥9 g/dL?"
+    },
+    {
+      "criterion": "Platelet count ≥ 100,000/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's platelet count ≥ 100,000/mm³?"
+    },
+    {
+      "criterion": "INR ≤ 1.5 (except in patients receiving full-dose warfarin)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's INR ≤ 1.5?"
+    },
+    {
+      "criterion": "Bilirubin ≤ 2.0 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 2.0 mg/dL?"
+    },
+    {
+      "criterion": "AST and ALT ≤ 2.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "AST and ALT levels are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Are the patient's AST and ALT levels ≤ 62.5 U/L?"
+    },
+    {
+      "criterion": "Creatinine ≤ 2.0 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level ≤ 2.0 mg/dL?"
+    },
+    {
+      "criterion": "No clinically significant impairment of renal function",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Chronic kidney disease indicated by SCr 2.1 suggests significant renal impairment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No postoperative complications, including any of the following:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on recent surgeries or postoperative status is provided.",
+      "clinical_question": "Did the patient experience any postoperative complications, including but not limited to infection, bleeding, or organ dysfunction, within 30 days following surgery?"
+    },
+    {
+      "criterion": "Wound dehiscence or infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on wound status is provided, making it unclear if there are complications.",
+      "clinical_question": "Has the patient experienced any signs of wound dehiscence or infection within 30 days post-surgery?"
+    },
+    {
+      "criterion": "Intra-abdominal abscess",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on intra-abdominal complications is provided.",
+      "clinical_question": "Has the patient developed an intra-abdominal abscess as defined by the presence of a fluid collection with associated symptoms or imaging findings within 30 days post-surgery?"
+    },
+    {
+      "criterion": "Pancreatic or biliary leak or fistula",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on pancreatic or biliary complications is provided.",
+      "clinical_question": "Has the patient experienced a pancreatic or biliary leak or fistula post-surgery, as defined by the presence of any drainage output greater than 30 mL per day?"
+    },
+    {
+      "criterion": "Grade 3 or 4 delayed hemorrhage (occurring > 5 days postoperatively)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on delayed hemorrhage is provided.",
+      "clinical_question": "Has the patient experienced any episodes of delayed hemorrhage classified as grade 3 or 4 occurring more than 5 days postoperatively?"
+    },
+    {
+      "criterion": "Bowel perforation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has diverticulitis, which may raise concerns about bowel perforation, but no specific evidence of perforation is provided.",
+      "clinical_question": "Has the patient experienced any signs or symptoms of bowel perforation, such as abdominal pain, fever, or changes in bowel habits, since the initiation of treatment with gemcitabine and bevacizumab?"
+    },
+    {
+      "criterion": "No abdominal fistula, gastrointestinal perforation, or intra-abdominal abcess within the past 6 months",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has diverticulitis, which could be considered an abdominal condition that may lead to complications such as perforation or abscess.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of major psychiatric disorder or other chronic medical illness that, in the opinion of the treating physician, contraindicates use of the study drugs or renders the patient at high risk of treatment-related complications",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple chronic conditions including coronary artery disease and chronic kidney disease, which may contraindicate the use of study drugs.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other cancer within the past 5 years except basal cell or squamous cell skin cancer",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has pancreatic adenocarcinoma, which is a cancer diagnosis within the past 5 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of serious systemic disease, including any of the following:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has serious systemic diseases including coronary artery disease and chronic kidney disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Myocardial infarction or unstable angina within the past 12 months",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of coronary artery disease, which may indicate a recent myocardial infarction or unstable angina.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "New York Heart Association class II-IV congestive heart failure",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's heart condition is not specified in terms of NYHA classification, but coronary artery disease raises concerns.",
+      "clinical_question": "Does the patient have a documented New York Heart Association class II, III, or IV classification of congestive heart failure?"
+    },
+    {
+      "criterion": "Unstable symptomatic arrhythmia requiring medication",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's arrhythmia status is not provided, making it unclear if they have unstable symptomatic arrhythmia.",
+      "clinical_question": "Does the patient have a documented history of unstable symptomatic arrhythmia requiring medication within the last 6 months?"
+    },
+    {
+      "criterion": "Chronic atrial arrhythmia (i.e., atrial fibrillation or paroxysmal supraventricular tachycardia) allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not mention chronic atrial arrhythmia, but it is unclear if they have any.",
+      "clinical_question": "Does the patient have a documented history of chronic atrial arrhythmia, specifically atrial fibrillation or paroxysmal supraventricular tachycardia, within the last 12 months?"
+    },
+    {
+      "criterion": "No history of stroke or transient ischemic attack",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a history of stroke or transient ischemic attack, but the patient's overall health raises concerns.",
+      "clinical_question": "Has the patient ever experienced a stroke or transient ischemic attack in the past?"
+    },
+    {
+      "criterion": "No symptomatic peripheral vascular disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's profile does not provide specific information about peripheral vascular disease symptoms.",
+      "clinical_question": "Does the patient have any documented symptoms of peripheral vascular disease, such as claudication or rest pain, within the last 6 months?"
+    },
+    {
+      "criterion": "No significant vascular disease (e.g., aortic aneurysm, aortic dissection)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on significant vascular diseases like aortic aneurysm or dissection is provided.",
+      "clinical_question": "Does the patient have any history of significant vascular disease, specifically an aortic aneurysm or aortic dissection, documented in their medical records?"
+    },
+    {
+      "criterion": "No inadequately controlled hypertension (i.e., blood pressure > 150/100 mm Hg on antihypertensive medication)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Blood pressure readings are not provided; thus, inadequately controlled hypertension cannot be assessed.",
+      "clinical_question": "Is the patient's blood pressure currently ≤ 150/100 mm Hg while on antihypertensive medication?"
+    },
+    {
+      "criterion": "No prior hypertensive crisis or hypertensive encephalopathy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of hypertensive crisis or encephalopathy is mentioned, but lack of specific details makes it uncertain.",
+      "clinical_question": "Has the patient experienced a hypertensive crisis or hypertensive encephalopathy in the past 12 months?"
+    },
+    {
+      "criterion": "No proteinuria (defined as urine protein:creatinine ratio ≥ 1.0 OR proteinuria ≥ 2+ by dipstick urinalysis OR protein > 1 g by 24-hour urine collection)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No urine protein or creatinine ratio data is available to assess for proteinuria.",
+      "clinical_question": "What is the patient's urine protein:creatinine ratio, and is it <1.0?"
+    },
+    {
+      "criterion": "No serious, nonhealing wound or ulcer",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the presence of serious, nonhealing wounds or ulcers is provided.",
+      "clinical_question": "Does the patient have any serious, nonhealing wounds or ulcers present at the time of evaluation?"
+    },
+    {
+      "criterion": "No evidence of bleeding diathesis or coagulopathy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of bleeding diathesis or coagulopathy is mentioned, but specifics are lacking.",
+      "clinical_question": "Does the patient have a platelet count ≥150,000 cells/µL and an INR ≤1.5?"
+    },
+    {
+      "criterion": "No significant traumatic injury within the past 28 days",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No significant traumatic injury is reported, but the timeframe is not specified.",
+      "clinical_question": "Has the patient experienced any significant traumatic injury within the past 28 days?"
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No details on prior concurrent therapy are provided, making it impossible to assess.",
+      "clinical_question": "Has the patient received any prior treatment for pancreatic adenocarcinoma, including chemotherapy or radiation therapy, before the surgical removal of the tumor?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not specified, so eligibility cannot be determined.",
+      "clinical_question": "Does the patient have a performance status of 0-2 on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "No prior chemotherapy or radiotherapy for pancreatic cancer",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received chemotherapy or radiotherapy for pancreatic cancer, as indicated by the absence of such treatments in the prior treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior systemic or investigational therapy for pancreatic cancer",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no record of the patient having received systemic or investigational therapy for pancreatic cancer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No major surgical procedure (except for resection of pancreatic cancer) or open biopsy within the past 28 days",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone angioplasty, which is not classified as a major surgical procedure related to pancreatic cancer, and there is no indication of any other major surgery within the past 28 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No fine-needle aspiration or core biopsy within the past 7 days",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no evidence of fine-needle aspiration or core biopsy within the past 7 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No anticipated need for a major surgical procedure during study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "It is unclear if the patient may require a major surgical procedure during the study treatment due to their multiple health conditions.",
+      "clinical_question": "Does the patient have any scheduled or anticipated major surgical procedures during the study treatment period?"
+    },
+    {
+      "criterion": "No concurrent newly prescribed nonsteroidal anti-inflammatory drugs (NSAIDs)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current medication list does not specify any newly prescribed NSAIDs, but it is unclear if any have been prescribed recently.",
+      "clinical_question": "Has the patient been prescribed any nonsteroidal anti-inflammatory drugs (NSAIDs) in the past 30 days?"
+    },
+    {
+      "criterion": "Concurrent chronic-dose NSAIDs for analgesia are allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medication list does not indicate the use of chronic-dose NSAIDs, but it is uncertain if they are using them for analgesia.",
+      "clinical_question": "Is the patient currently taking a chronic-dose NSAID for analgesia, defined as a daily dose of at least 300 mg of ibuprofen or equivalent?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 7 of 54 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

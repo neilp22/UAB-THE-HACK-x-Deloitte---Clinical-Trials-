@@ -1,0 +1,184 @@
+{
+  "nct_id": "NCT01233518",
+  "trial_title": "Determination of Fractional Flow Reserve by Anatomic Computed Tomographic Angiography",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "This is a prospective, multi-center trial conducted at up to 20 US, Canadian, European and Asian centers designed to determine the diagnostic performance of CT-FLOW (the investigational technology) by coronary computed tomographic angiography (CCTA) for non-invasive assessment of the hemodynamic significance of coronary lesions, as compared to direct measurement of fractional flow reserve (FFR) during cardiac catheterization as a reference standard.",
+  "eligibility_table": [
+    {
+      "criterion": "Age >18 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient currently over the age of 18 years?"
+    },
+    {
+      "criterion": "Patients providing written informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can provide written informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Scheduled to undergo clinically-indicated non-emergent invasive coronary angiography (ICA)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is scheduled for clinically-indicated non-emergent invasive coronary angiography.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Has undergone >64 multidetector row CCTA within 60 days prior to ICA",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient undergone >64 multidetector row CCTA within the last 60 days?"
+    },
+    {
+      "criterion": "No cardiac interventional therapy between the CCTA and ICA",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of cardiac interventional therapy between the CCTA and ICA.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior coronary artery bypass graft (CABG) surgery",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of prior coronary artery bypass graft (CABG) surgery.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior percutaneous coronary intervention (PCI) for which suspected coronary artery lesion(s) are within a stented coronary vessel",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on prior PCI; thus, it cannot be determined if there are suspected lesions within a stented vessel.",
+      "clinical_question": "Has the patient undergone a prior percutaneous coronary intervention (PCI) for a suspected coronary artery lesion within a stented coronary vessel?"
+    },
+    {
+      "criterion": "Contraindication to adenosine, including 2nd or 3rd degree heart block; sick sinus syndrome; long QT syndrome; severe hypotension, severe asthma, severe COPD or bronchodilator-dependent COPD",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has multiple comorbidities, but specific contraindications to adenosine are not clearly documented.",
+      "clinical_question": "Does the patient have a history of 2nd or 3rd degree heart block, sick sinus syndrome, long QT syndrome, severe hypotension, severe asthma, or severe COPD?"
+    },
+    {
+      "criterion": "Suspicion of acute coronary syndrome (acute myocardial infarction and unstable angina)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no current evidence of acute coronary syndrome, but the patient's history raises some concern.",
+      "clinical_question": "Does the patient exhibit symptoms consistent with acute coronary syndrome, such as chest pain, shortness of breath, or diaphoresis, within the last 24 hours?"
+    },
+    {
+      "criterion": "Recent prior myocardial infarction within 40 days of ICA",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not had a recent myocardial infarction within 40 days, but further details on recent cardiac events are needed.",
+      "clinical_question": "Has the patient experienced a myocardial infarction within the last 40 days?"
+    },
+    {
+      "criterion": "Known complex congenital heart disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding complex congenital heart disease.",
+      "clinical_question": "Does the patient have a documented diagnosis of complex congenital heart disease?"
+    },
+    {
+      "criterion": "Prior pacemaker or internal defibrillator lead implantation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of prior pacemaker or internal defibrillator lead implantation.",
+      "clinical_question": "Has the patient undergone prior implantation of a pacemaker or internal defibrillator lead?"
+    },
+    {
+      "criterion": "Prosthetic heart valve",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a prosthetic heart valve, but the information provided does not confirm or deny the presence of any other heart valve issues.",
+      "clinical_question": "Does the patient have a prosthetic heart valve currently in place?"
+    },
+    {
+      "criterion": "Significant arrhythmia or tachycardia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific mention of significant arrhythmia or tachycardia, but the patient's cardiovascular history suggests potential concerns.",
+      "clinical_question": "Has the patient experienced any episodes of significant arrhythmia or tachycardia defined as a heart rate >100 beats per minute in the past 30 days?"
+    },
+    {
+      "criterion": "Impaired chronic renal function (serum creatinine >1.5 mg/dl)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level greater than 1.5 mg/dl?"
+    },
+    {
+      "criterion": "Patients with known anaphylactic allergy to iodinated contrast",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's allergy status to iodinated contrast is not provided, making it unclear.",
+      "clinical_question": "Does the patient have a documented history of anaphylactic reaction to iodinated contrast agents?"
+    },
+    {
+      "criterion": "Pregnancy or unknown pregnancy status",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and there is no indication of pregnancy or unknown pregnancy status.",
+      "clinical_question": "Is the patient currently pregnant or has a confirmed pregnancy status been documented?"
+    },
+    {
+      "criterion": "Body mass index >35",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's body mass index (BMI) greater than 35?"
+    },
+    {
+      "criterion": "Patient requires an emergent procedure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication that the patient requires an emergent procedure, but the overall clinical picture suggests potential urgency.",
+      "clinical_question": "Does the patient have a current clinical indication for an emergent procedure based on the severity of their coronary artery disease and associated comorbidities?"
+    },
+    {
+      "criterion": "Evidence of ongoing or active clinical instability, including acute chest pain (sudden onset), cardiogenic shock, unstable blood pressure with systolic blood pressure <90 mmHg, and severe congestive heart failure (NYHA III or IV) or acute pulmonary edema",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has multiple significant health issues, but there is no clear evidence of ongoing clinical instability at this time.",
+      "clinical_question": "Does the patient currently exhibit acute chest pain with a sudden onset lasting more than 20 minutes?"
+    },
+    {
+      "criterion": "Any active, serious, life-threatening disease with a life expectancy of less than 2 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has several serious conditions, but there is no explicit indication of a life expectancy of less than 2 months.",
+      "clinical_question": "Does the patient have any active, serious, life-threatening disease that would result in a life expectancy of less than 2 months?"
+    },
+    {
+      "criterion": "Inability to comply with study procedures",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to comply with study procedures is not assessed, but given the complexity of his conditions, it is uncertain.",
+      "clinical_question": "Can the patient demonstrate the ability to comply with all study procedures as outlined in the protocol, including attending all scheduled visits and completing required assessments?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Prior coronary artery bypass graft (CABG) surgery",
+    "EXCLUSION UNCLEAR: Prior percutaneous coronary intervention (PCI) for which suspected coronary arte",
+    "EXCLUSION UNCLEAR: Contraindication to adenosine, including 2nd or 3rd degree heart block; sick sin",
+    "EXCLUSION UNCLEAR: Suspicion of acute coronary syndrome (acute myocardial infarction and unstable a",
+    "EXCLUSION UNCLEAR: Recent prior myocardial infarction within 40 days of ICA",
+    "EXCLUSION UNCLEAR: Known complex congenital heart disease",
+    "EXCLUSION UNCLEAR: Prior pacemaker or internal defibrillator lead implantation",
+    "EXCLUSION UNCLEAR: Prosthetic heart valve",
+    "EXCLUSION UNCLEAR: Significant arrhythmia or tachycardia",
+    "EXCLUSION UNCLEAR: Impaired chronic renal function (serum creatinine >1.5 mg/dl)",
+    "EXCLUSION UNCLEAR: Patients with known anaphylactic allergy to iodinated contrast",
+    "EXCLUSION UNCLEAR: Pregnancy or unknown pregnancy status",
+    "EXCLUSION UNCLEAR: Body mass index >35",
+    "EXCLUSION UNCLEAR: Patient requires an emergent procedure",
+    "EXCLUSION UNCLEAR: Evidence of ongoing or active clinical instability, including acute chest pain (",
+    "EXCLUSION UNCLEAR: Any active, serious, life-threatening disease with a life expectancy of less tha",
+    "EXCLUSION UNCLEAR: Inability to comply with study procedures"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.1818
+}

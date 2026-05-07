@@ -1,0 +1,239 @@
+{
+  "nct_id": "NCT02129413",
+  "trial_title": "Safety Study of Carotid Body Neurostimulation to Treat Cerebral Vasospasm",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "The purpose of this study is to evaluate the safety and performance of the Delta system in the treatment of cerebral vasospasm post aneurysmal subarachnoid hemorrhage (aSAH) patients.",
+  "eligibility_table": [
+    {
+      "criterion": "Male and female older than 18 years of age and no more than 75 years of age.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and older than 18 years of age, and is 75 years old or younger.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Male and female older than 18 years of age and no more than 75 years of age.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and older than 18 years of age, and is 75 years old or younger.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "aSAH patients with secured aneurysm.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a successful procedure to secure the aneurysm, confirmed by imaging studies?"
+    },
+    {
+      "criterion": "Patient has cerebral vasospasm and is anesthetized and intubated.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently experiencing cerebral vasospasm as confirmed by imaging studies?"
+    },
+    {
+      "criterion": "Mean Flow Velocity (MFV) >120 cm/sec in the intracranial ICA (Internal carotid artery), MCA (middle cerebral artery) or ACA (anterior cerebral artery) or MFV >110 cm/sec in the PCA, or >85 cm/sec in the vertebral or basilar arteries, as measured by TCD (Trans Cranial Doppler).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Mean Flow Velocity (MFV) values are not provided in the patient profile, making it impossible to assess this criterion.",
+      "clinical_question": "Is the mean flow velocity (MFV) in the patient's intracranial internal carotid artery (ICA), middle cerebral artery (MCA), or anterior cerebral artery (ACA) greater than 120 cm/sec as measured by Trans Cranial Doppler (TCD)?"
+    },
+    {
+      "criterion": "Mean Flow Velocity (MFV) >120 cm/sec in the intracranial ICA (Internal carotid artery), MCA (middle cerebral artery) or ACA (anterior cerebral artery) or MFV >110 cm/sec in the PCA, or >85 cm/sec in the vertebral or basilar arteries, as measured by TCD (Trans Cranial Doppler).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Mean Flow Velocity (MFV) values are not provided in the patient profile, making it impossible to assess this criterion.",
+      "clinical_question": "Is the mean flow velocity (MFV) in the patient's intracranial internal carotid artery (ICA), middle cerebral artery (MCA), or anterior cerebral artery (ACA) greater than 120 cm/sec as measured by Trans Cranial Doppler (TCD)?"
+    },
+    {
+      "criterion": "Mean Flow Velocity (MFV) >120 cm/sec in the intracranial ICA (Internal carotid artery), MCA (middle cerebral artery) or ACA (anterior cerebral artery) or MFV >110 cm/sec in the PCA, or >85 cm/sec in the vertebral or basilar arteries, as measured by TCD (Trans Cranial Doppler).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Mean Flow Velocity (MFV) values are not provided in the patient profile, making it impossible to assess this criterion.",
+      "clinical_question": "Is the mean flow velocity (MFV) in the patient's intracranial internal carotid artery (ICA), middle cerebral artery (MCA), or anterior cerebral artery (ACA) greater than 120 cm/sec as measured by Trans Cranial Doppler (TCD)?"
+    },
+    {
+      "criterion": "Extra/intracranial ratio for the carotid watershed (MCA, ACA, intracranial ICA) >3, or a proximal/distal ratio for the vertebrobasilar (VB) system > 2.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Extra/intracranial ratio values are not provided in the patient profile, making it impossible to assess this criterion.",
+      "clinical_question": "Is the extra/intracranial ratio for the carotid watershed (MCA, ACA, intracranial ICA) greater than 3 in this patient?"
+    },
+    {
+      "criterion": "Extra/intracranial ratio for the carotid watershed (MCA, ACA, intracranial ICA) >3, or a proximal/distal ratio for the vertebrobasilar (VB) system > 2.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Extra/intracranial ratio values are not provided in the patient profile, making it impossible to assess this criterion.",
+      "clinical_question": "Is the extra/intracranial ratio for the carotid watershed (MCA, ACA, intracranial ICA) greater than 3 in this patient?"
+    },
+    {
+      "criterion": "Affected/contralateral MCA MFV ratio ≥1.5.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Affected/contralateral MCA MFV ratio values are not provided in the patient profile, making it impossible to assess this criterion.",
+      "clinical_question": "What is the affected/contralateral middle cerebral artery (MCA) mean flow velocity (MFV) ratio for this patient?"
+    },
+    {
+      "criterion": "Affected / baseline MCA MFV ratio ≥1.5.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Affected/baseline MCA MFV ratio values are not provided in the patient profile, making it impossible to assess this criterion.",
+      "clinical_question": "What is the patient's current mean flow velocity (MFV) in the middle cerebral artery (MCA) compared to the baseline MFV to determine if the affected/baseline MCA MFV ratio is ≥1.5?"
+    },
+    {
+      "criterion": "WFNS score 5",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a WFNS score of 5 based on their clinical presentation?"
+    },
+    {
+      "criterion": "Unsecured aneurysm or Intracranial/SAH of other than aneurysmal origin.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have an unsecured aneurysm or an intracranial/subarachnoid hemorrhage (SAH) of non-aneurysmal origin?"
+    },
+    {
+      "criterion": "Signs attributable to serious aneurismal surgical procedure-related complications.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced any signs of neurological deficits or complications attributable to the aneurysmal surgical procedure within 30 days post-operation?"
+    },
+    {
+      "criterion": "Patient underwent decompressive craniectomy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a decompressive craniectomy within the last 12 months?"
+    },
+    {
+      "criterion": "S/p Carotid Endarterectomy, or other neck intervention.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a carotid endarterectomy or another neck intervention within the last 12 months?"
+    },
+    {
+      "criterion": "Known carotid body tumor, past or present.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a current or past diagnosis of a carotid body tumor?"
+    },
+    {
+      "criterion": "Hemodynamic instability due to cardiac arrhythmia or due to any other cause.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced any episodes of hemodynamic instability defined as a systolic blood pressure <90 mmHg or a heart rate >120 bpm in the past 30 days?"
+    },
+    {
+      "criterion": "Had a myocardial infarction, unstable angina or syncope, congestive heart failure that require hospitalization or ejection fraction ≤ 40% within the past 3 months. Note: Elevated Troponin is expected after aSAH and will not exclude patients.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of coronary artery disease and prior cerebrovascular accident, which may indicate a higher risk, but the ejection fraction is 60%, which does not meet the exclusion criteria of ≤ 40%. However, the patient's overall cardiovascular status raises concerns.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Had a stroke, within the past 1 year or transient ischemic attack at the last 3 months.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced a stroke or transient ischemic attack within the last 1 year or 3 months, respectively?"
+    },
+    {
+      "criterion": "Any anatomical variation or thrombotic finding that according to the physician judgment is not eligible.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any anatomical variations or thrombotic findings in the carotid arteries that would render them ineligible for the study, as determined by the physician's judgment?"
+    },
+    {
+      "criterion": "Vasoconstriction of at least 33% in at least one of the main cerebral arteries, measured by Angiography (Digital Subtraction Angiography (DSA) or Computed Tomography Angiography (CTA).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide specific information regarding vasoconstriction measurements in cerebral arteries.",
+      "clinical_question": "Has the patient demonstrated vasoconstriction of at least 33% in at least one of the main cerebral arteries as measured by Digital Subtraction Angiography (DSA) or Computed Tomography Angiography (CTA)?"
+    },
+    {
+      "criterion": "Hemodynamically stable, including subjects who are treated for fever, hydrocephalus, rebleeding, infection or metabolic abnormalities and are stable.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely hemodynamically stable as there are no indications of acute instability in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "For pre-menopausal females - a negative pregnancy test, using an accepted method of birth control and avoid breast feeding for the duration of the trial",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion is not applicable.",
+      "clinical_question": "Is the patient currently using an accepted method of birth control, and has he undergone a pregnancy test within the last 30 days?"
+    },
+    {
+      "criterion": "A legally Authorized representative have signed informed consent.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming a legally authorized representative can sign informed consent, this criterion is likely met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Renal insufficiency (Creatinine X2 of the normal).",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has proteinuria, which may indicate renal insufficiency.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Allergic to contrast media with no response to steroid pretreatment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding allergies to contrast media.",
+      "clinical_question": "Has the patient experienced an allergic reaction to contrast media requiring hospitalization or resulting in significant symptoms?"
+    },
+    {
+      "criterion": "Are unable or unwilling to fulfill the protocol follow-up requirements",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify the patient's willingness or ability to fulfill follow-up requirements.",
+      "clinical_question": "Is the patient willing to attend all scheduled follow-up visits as outlined in the study protocol?"
+    },
+    {
+      "criterion": "Are enrolled in another concurrent clinical trial, without prior approval of Samson NS and the PI.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating enrollment in another clinical trial.",
+      "clinical_question": "Is the patient currently enrolled in any other clinical trial without prior approval from Samson NS and the principal investigator?"
+    },
+    {
+      "criterion": "Have an uncontrolled comorbid medical condition that would adversely affect their health if they are enrolled.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple uncontrolled comorbid conditions (e.g., diabetes with retinopathy and peripheral neuropathy, significant carotid stenosis) that could adversely affect health.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: WFNS score 5",
+    "EXCLUSION UNCLEAR: Unsecured aneurysm or Intracranial/SAH of other than aneurysmal origin.",
+    "EXCLUSION UNCLEAR: Signs attributable to serious aneurismal surgical procedure-related complication",
+    "EXCLUSION UNCLEAR: Patient underwent decompressive craniectomy.",
+    "EXCLUSION UNCLEAR: S/p Carotid Endarterectomy, or other neck intervention.",
+    "EXCLUSION UNCLEAR: Known carotid body tumor, past or present.",
+    "EXCLUSION UNCLEAR: Hemodynamic instability due to cardiac arrhythmia or due to any other cause.",
+    "EXCLUSION VIOLATED: Had a myocardial infarction, unstable angina or syncope, congestive heart failur",
+    "EXCLUSION UNCLEAR: Had a stroke, within the past 1 year or transient ischemic attack at the last 3 ",
+    "EXCLUSION UNCLEAR: Any anatomical variation or thrombotic finding that according to the physician j",
+    "EXCLUSION VIOLATED: Renal insufficiency (Creatinine X2 of the normal).",
+    "EXCLUSION UNCLEAR: Allergic to contrast media with no response to steroid pretreatment.",
+    "EXCLUSION UNCLEAR: Are unable or unwilling to fulfill the protocol follow-up requirements",
+    "EXCLUSION UNCLEAR: Are enrolled in another concurrent clinical trial, without prior approval of Sam",
+    "EXCLUSION VIOLATED: Have an uncontrolled comorbid medical condition that would adversely affect thei",
+    "LOW INCLUSION MATCH: only 4 of 15 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.2333
+}

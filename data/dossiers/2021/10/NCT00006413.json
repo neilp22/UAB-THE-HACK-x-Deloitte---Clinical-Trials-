@@ -1,0 +1,266 @@
+{
+  "nct_id": "NCT00006413",
+  "trial_title": "Stem Cell Transplantation to Treat Systemic Mastocytosis",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This study will investigate the safety and effectiveness of an experimental stem cell transplant procedure for treating mastocytosis-a disease of abnormal mast cell growth. Patients often feel faint, have skin problems, joint and bone pain, low blood counts and enlarged liver, spleen or lymph nodes. As yet, there is no cure for mastocytosis, and treatment is aimed at controlling symptoms.\n\nStem cells are cells produced by the bone marrow that mature into the different blood components-white cell",
+  "eligibility_table": [
+    {
+      "criterion": "Ages greater than or equal to 2 to 80.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 22.0 >= 2.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Wt greater than 40 kg.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient weigh greater than 40 kg?"
+    },
+    {
+      "criterion": "Patients with systemic mastocytosis proven by a bone marrow biopsy and one of the following:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has systemic mastocytosis, but there is no mention of a bone marrow biopsy confirming the diagnosis.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of systemic mastocytosis based on a bone marrow biopsy?"
+    },
+    {
+      "criterion": "Category I disease with poor prognosis secondary to extensive bone marrow involvement of mast cells (i.e. greater than 50 percent of the bone marrow cavity replaced by mast cells) and evidence of a bone marrow failure state defined as presence of one of the following for greater than or equal to 2 months:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's bone marrow involvement and failure state are not clearly defined; further details on bone marrow biopsy results are needed.",
+      "clinical_question": "Does the patient have greater than 50 percent of the bone marrow cavity replaced by mast cells as determined by a recent bone marrow biopsy?"
+    },
+    {
+      "criterion": "Neutrophil count less than 500/ mm3.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's neutrophil count currently less than 500/mm³?"
+    },
+    {
+      "criterion": "Platelet count less than 20,000/mm3.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's platelet count currently less than 20,000/mm3?"
+    },
+    {
+      "criterion": "Dependency on transfusion of RBC or platelets.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's dependency on transfusions.",
+      "clinical_question": "Has the patient required ≥2 transfusions of red blood cells or platelets in the past 6 months?"
+    },
+    {
+      "criterion": "Category II disease with an associated hematologic disorder:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's condition does not specify if there is an associated hematologic disorder.",
+      "clinical_question": "Does the patient have a documented associated hematologic disorder, such as myelodysplastic syndrome or acute myeloid leukemia, in addition to systemic mastocytosis?"
+    },
+    {
+      "criterion": "Myelodysplastic syndromes.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication that the patient has myelodysplastic syndromes.",
+      "clinical_question": "Does the patient have a documented diagnosis of myelodysplastic syndromes based on bone marrow biopsy findings?"
+    },
+    {
+      "criterion": "Pregnant or lactating",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old and not pregnant or lactating.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age less than 2 or age greater than 80 years.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old, which is above the minimum age requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Weight less than or equal to 40 kg.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "What is the current weight of the patient in kilograms?"
+    },
+    {
+      "criterion": "ECOG performance status of 2 or more.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status of 2 or higher?"
+    },
+    {
+      "criterion": "Psychiatric disorder or mental deficiency severe as to make compliance with the BMT treatment unlikely, and making informed consent impossible.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any psychiatric disorders.",
+      "clinical_question": "Does the patient have a documented psychiatric disorder or mental deficiency that significantly impairs her ability to provide informed consent for the stem cell transplantation procedure?"
+    },
+    {
+      "criterion": "Major anticipated illness or organ failure incompatible with survival from PBSC transplant.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about any major anticipated illness or organ failure.",
+      "clinical_question": "Does the patient have any organ dysfunction, specifically a glomerular filtration rate (GFR) <60 mL/min or evidence of liver failure with a bilirubin level >2 mg/dL?"
+    },
+    {
+      "criterion": "DLCO less than 65 percent predicted.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's most recent diffusing capacity of the lungs for carbon monoxide (DLCO) percentage?"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction less than 40%.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction less than 40% as measured by echocardiogram?"
+    },
+    {
+      "criterion": "Baseline GFR less than 50ml/min: measured or calculated by the following formula: GFR = {(140-age) x body weight in kg}/72 x serum creatinine (for females, multiply by 0.85).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There are no lab values provided to assess the baseline GFR.",
+      "clinical_question": "Is the patient's baseline GFR less than 50 ml/min as measured or calculated using the formula: GFR = {(140-age) x body weight in kg}/72 x serum creatinine, with the appropriate serum creatinine value available?"
+    },
+    {
+      "criterion": "Myeloproliferative states except essential thrombocytosis or polycythemia vera.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has systemic mastocytosis, which is a myeloproliferative state, thus not eligible.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Increased blasts in peripheral blood or bone marrow greater than 10 percent.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess for increased blasts in peripheral blood or bone marrow.",
+      "clinical_question": "Does the patient have an increased blast percentage in peripheral blood or bone marrow greater than 10 percent?"
+    },
+    {
+      "criterion": "Bone marrow failure states as described above.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding bone marrow failure states.",
+      "clinical_question": "Does the patient have a bone marrow biopsy showing evidence of myelodysplastic syndrome or acute myeloid leukemia?"
+    },
+    {
+      "criterion": "Category III disease with enlarged peripheral lymph nodes with histopathological evidence of the replacement of the entire lymph node architecture with mast cells and/or accompanying peripheral eosinophilia. We also consider aggressive systemic mastocytosis with local tissue invasion as category III disease.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has systemic mastocytosis but no evidence of category III disease with lymph node involvement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Category IV disease with mast cell leukemia, characterized by the presence of malignant mast cells in the peripheral blood, which constitute greater than 10 percent of the nucleated cells.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have mast cell leukemia as there is no indication of malignant mast cells in peripheral blood.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No major organ dysfunction precluding transplantation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding major organ dysfunction.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) ≥50% as assessed by echocardiogram?"
+    },
+    {
+      "criterion": "DLCO greater than or equal to 65 percent predicted.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess DLCO.",
+      "clinical_question": "What is the patient's most recent DLCO value, and is it greater than or equal to 65 percent predicted?"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction of greater than or equal to 40%.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No echocardiogram results provided to assess left ventricular ejection fraction.",
+      "clinical_question": "Is the patient's left ventricular ejection fraction greater than or equal to 40%?"
+    },
+    {
+      "criterion": "ECOG performance status of 0 or 1.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status score of 0 or 1?"
+    },
+    {
+      "criterion": "Life expectancy of more than 3 months.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old and likely has a life expectancy greater than 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "HLA-identical sibling available as donor.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the availability of an HLA-identical sibling donor.",
+      "clinical_question": "Is there an HLA-identical sibling available as a donor for the patient?"
+    },
+    {
+      "criterion": "Patients or their parent(s)/responsible guardian(s) must be able to comprehend the investigational nature of the study and be willing to sign an informed consent.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old and likely capable of understanding the study's nature and signing informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "INCLUSION CRITERIA: DONOR",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion refers to donor eligibility, but the patient profile does not provide information about any potential donor.",
+      "clinical_question": "Does the potential donor have a compatible human leukocyte antigen (HLA) match with the patient?"
+    },
+    {
+      "criterion": "HLA identical family donor, (only HLA identical).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion specifies HLA identical family donor, but there is no information about the patient's family or donor status.",
+      "clinical_question": "Is there an HLA identical family donor available for the patient?"
+    },
+    {
+      "criterion": "Weight greater than or equal to 18 kg.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient weigh ≥18 kg?"
+    },
+    {
+      "criterion": "Age less than or equal to 80 years old.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 22.0 <= 80.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Informed consent given.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient can provide informed consent, this criterion is likely met.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Weight less than or equal to 40 kg.",
+    "EXCLUSION UNCLEAR: ECOG performance status of 2 or more.",
+    "EXCLUSION UNCLEAR: Psychiatric disorder or mental deficiency severe as to make compliance with the ",
+    "EXCLUSION UNCLEAR: Major anticipated illness or organ failure incompatible with survival from PBSC ",
+    "EXCLUSION UNCLEAR: DLCO less than 65 percent predicted.",
+    "EXCLUSION UNCLEAR: Left ventricular ejection fraction less than 40%.",
+    "EXCLUSION UNCLEAR: Baseline GFR less than 50ml/min: measured or calculated by the following formula",
+    "LOW INCLUSION MATCH: only 5 of 26 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2857
+}

@@ -1,0 +1,147 @@
+{
+  "nct_id": "NCT00418587",
+  "trial_title": "Vitamin D Therapy in Patients With Systemic Lupus Erythematosus (SLE)",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is to test the safety and effectiveness of different doses of vitamin D in patients with Systemic Lupus Erythematosus (SLE). A long term goal is to determine if vitamin D could be used as a treatment and/or preventative of SLE.",
+  "eligibility_table": [
+    {
+      "criterion": "SLE by ACR criteria (revised 1997)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have SLE as per ACR criteria; she has systemic mastocytosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "African American, participating in the SLE in Gullah Health (SLEIGH) Study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ethnicity is not specified; cannot determine if she is African American.",
+      "clinical_question": "Is the patient's serum 25-hydroxyvitamin D level <20 ng/mL?"
+    },
+    {
+      "criterion": "Outpatient",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely an outpatient given her current treatment regimen.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stable disease with no BILAG A or B in any system for the past 4 weeks",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has had a recent flare of systemic mastocytosis, indicating unstable disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stable prednisone (or equivalent corticosteroid) dose ≤ 20 mg/day for ≥ 4 weeks prior to study entry",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient been on a stable prednisone dose of ≤ 20 mg/day for at least 4 weeks prior to study entry?"
+    },
+    {
+      "criterion": "Baseline 25(OH)D concentration of < 30 ng/ml",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current 25(OH)D concentration?"
+    },
+    {
+      "criterion": "Willingness to discontinue other vitamin D supplements and/or multivitamins containing vitamin D while participating in the study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's willingness to discontinue vitamin D supplements is unknown.",
+      "clinical_question": "Is the patient willing to discontinue all current vitamin D supplements and/or multivitamins containing vitamin D for the duration of the study?"
+    },
+    {
+      "criterion": "Age 18 - 85 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old, which falls within the age range of 18-85 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to complete questionnaires in English",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient can complete questionnaires in English, as this is common.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to give informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely able to give informed consent as she is an adult.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Presence of hypercalcemia (>10.4 mg/dL), hypercalcuria (urinary calcium/creatinine ratio ≥ 0.8 mmol/mmol) or known primary hyperparathyroidism",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess for hypercalcemia or hypercalcuria.",
+      "clinical_question": "Does the patient have a serum calcium level greater than 10.4 mg/dL?"
+    },
+    {
+      "criterion": "Liver disease (serum ALT, AST >2x normal) or total serum bilirubin >1.5x normal",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess for liver disease or elevated liver enzymes.",
+      "clinical_question": "Is the patient's serum ALT or AST level greater than 80 U/L, or is the total serum bilirubin level greater than 1.5 mg/dL?"
+    },
+    {
+      "criterion": "History of renal stones",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about a history of renal stones.",
+      "clinical_question": "Has the patient experienced any episodes of renal stones in the past 5 years?"
+    },
+    {
+      "criterion": "Current treatment with any dose of cyclophosphamide",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No current treatment with cyclophosphamide is mentioned.",
+      "clinical_question": "Is the patient currently receiving any dose of cyclophosphamide as part of her treatment regimen?"
+    },
+    {
+      "criterion": "Dialysis or creatinine > 2.5 mg/dL",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess creatinine levels.",
+      "clinical_question": "Is the patient's serum creatinine level currently greater than 2.5 mg/dL?"
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding pregnancy status.",
+      "clinical_question": "Is the patient currently pregnant or planning to become pregnant within the next 12 months?"
+    },
+    {
+      "criterion": "Current drug or alcohol abuse",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about current drug or alcohol abuse.",
+      "clinical_question": "Has the patient reported any substance use or abuse within the past 12 months?"
+    },
+    {
+      "criterion": "Anticipated poor compliance",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding anticipated compliance.",
+      "clinical_question": "Has the patient demonstrated adherence to prescribed medications, defined as taking at least 80% of their vitamin D therapy over the past three months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Presence of hypercalcemia (>10.4 mg/dL), hypercalcuria (urinary calcium/creatini",
+    "EXCLUSION UNCLEAR: Liver disease (serum ALT, AST >2x normal) or total serum bilirubin >1.5x normal",
+    "EXCLUSION UNCLEAR: History of renal stones",
+    "EXCLUSION UNCLEAR: Current treatment with any dose of cyclophosphamide",
+    "EXCLUSION UNCLEAR: Dialysis or creatinine > 2.5 mg/dL",
+    "EXCLUSION UNCLEAR: Pregnancy",
+    "EXCLUSION UNCLEAR: Current drug or alcohol abuse",
+    "EXCLUSION UNCLEAR: Anticipated poor compliance"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

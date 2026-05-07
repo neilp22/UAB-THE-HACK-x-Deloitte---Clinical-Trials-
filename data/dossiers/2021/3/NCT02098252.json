@@ -1,0 +1,26 @@
+{
+  "nct_id": "NCT02098252",
+  "trial_title": "Treatment of Brain AVMs (TOBAS) Study",
+  "phase": "NA",
+  "status": "RECRUITING",
+  "brief_summary": "The objectives of this study and registry are to offer the best management possible for patients with brain arteriovenous malformations (AVMs) (ruptured or unruptured) in terms of long-term outcomes, despite the presence of uncertainty. Management may include interventional therapy (with endovascular procedures, neurosurgery, or radiotherapy, alone or in combination) or conservative management.\n\nThe trial has been designed to test a) whether medical management or interventional therapy will redu",
+  "eligibility_table": [
+    {
+      "criterion": "Any patient with a brain AVM",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosed arteriovenous malformation (AVM), which meets the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hemorrhagic presentation with mass effect requiring surgical management. In these cases, if a residual AVM is found after the initial surgery, the patient could then be a candidate for TOBAS.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a spontaneous intraventricular hemorrhage and significant blood in the right ventricle, indicating a hemorrhagic presentation. However, there is no indication of mass effect requiring surgical management, so this criterion is met.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE",
+  "confidence_score": 1.0
+}

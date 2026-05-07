@@ -1,0 +1,59 @@
+{
+  "nct_id": "NCT07137299",
+  "trial_title": "POPQ Associated With Total Laparoscopic Hysterectomy",
+  "phase": "",
+  "status": "NOT_YET_RECRUITING",
+  "brief_summary": "The goal of this observational study is to evaluate the impact of different hysterectomy (removal of the uterus) techniques on the risk of pelvic organ prolapse (situation when one or more of your pelvic organs like your bladder, uterus, or rectum have dropped down or slipped out of their normal position, sometimes even bulging into the vagina) and urinary incontinence (leaking urine unexpectedly) in women aged 18-85 who underwent hysterectomy or supracervical hysterectomy (removing of the uteru",
+  "eligibility_table": [
+    {
+      "criterion": "persons who underwent total or subtotal hysterectomy for benign conditions regardless of the type of surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone a hysterectomy, so this criterion is not applicable.",
+      "clinical_question": "Has the patient undergone a total or subtotal hysterectomy for benign conditions within the last 12 months?"
+    },
+    {
+      "criterion": "agree to participate and to follow-up",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can agree to participate and follow-up as there are no indications of refusal.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "having uterus",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of a viable intrauterine pregnancy based on transvaginal ultrasound findings?"
+    },
+    {
+      "criterion": "health state - ECOG >2",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status score of >2?"
+    },
+    {
+      "criterion": "pelvic organ prolapse prior to the surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about pelvic organ prolapse, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient have a pelvic organ prolapse classified as stage II or higher according to the POP-Q system?"
+    },
+    {
+      "criterion": "surgery due to malignant conditions (ovarian, cervical or endometrial cancer)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not indicate surgery due to malignant conditions, but there is no definitive information to confirm this.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of ovarian, cervical, or endometrial cancer based on histopathological examination?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: having uterus",
+    "EXCLUSION UNCLEAR: health state - ECOG >2",
+    "EXCLUSION UNCLEAR: pelvic organ prolapse prior to the surgery",
+    "EXCLUSION UNCLEAR: surgery due to malignant conditions (ovarian, cervical or endometrial cancer)"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1667
+}

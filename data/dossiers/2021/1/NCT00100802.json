@@ -1,0 +1,301 @@
+{
+  "nct_id": "NCT00100802",
+  "trial_title": "Radiation Therapy, Temozolomide, and Lomustine in Treating Young Patients With Newly Diagnosed Gliomas",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This phase II trial is studying how well giving radiation therapy together with temozolomide and lomustine works in treating young patients with newly diagnosed gliomas. Radiation therapy uses high energy x-rays to kill tumor cells. Drugs used in chemotherapy, such as temozolomide and lomustine, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Giving radiation therapy together with temozolomide and lomustine after surgery ma",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed, newly diagnosed high-grade glioma of 1 of the following histologies:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a histologically confirmed diagnosis of anaplastic astrocytoma, which is a high-grade glioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's diagnosis includes anaplastic astrocytoma, meeting this inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Glioblastoma multiforme",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have glioblastoma multiforme as per the provided diagnosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Gliosarcoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have gliosarcoma as per the provided diagnosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Primary spinal cord malignant gliomas allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, which qualifies as a primary spinal cord malignant glioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No primary brainstem tumors",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of a primary brainstem tumor in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Has undergone surgical resection or biopsy of the tumor within the past 31 days",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not undergone surgical resection or biopsy of the tumor within the past 31 days, as indicated by prior treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pre-operative and post-operative brain MRI with and without gadolinium-contrast OR pre-operative and post-operative spine MRI for spinal cord primaries",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's recent MRI status, making it indeterminate.",
+      "clinical_question": "Has the patient undergone a pre-operative and post-operative spine MRI with and without gadolinium-contrast?"
+    },
+    {
+      "criterion": "Post-operative MRI not required for patients who undergo biopsy only",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's treatment history does not clarify whether a biopsy was performed, leaving this criterion uncertain.",
+      "clinical_question": "Has the patient undergone a biopsy only without any surgical resection of the tumor?"
+    },
+    {
+      "criterion": "No evidence of neuraxis dissemination",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's history of an unresectable tumor suggests possible evidence of neuraxis dissemination.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Spine MRI and cerebrospinal fluid cytology required only if clinically indicated",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "MRI and cytology are not mentioned in the profile, but it's unclear if they are clinically indicated.",
+      "clinical_question": "Has the patient exhibited any new neurological symptoms or clinical signs that would necessitate a spine MRI or cerebrospinal fluid cytology evaluation?"
+    },
+    {
+      "criterion": "Performance status - Karnofsky 50-100% (for patients > 16 years of age)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Performance status is not provided; cannot assess Karnofsky score.",
+      "clinical_question": "Does the patient have a Karnofsky Performance Status score of 50% or higher?"
+    },
+    {
+      "criterion": "Performance status - Lansky 50-100% (for patients ≤ 16 years of age)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Performance status is not applicable as the patient is over 16 years old.",
+      "clinical_question": "Does the patient have a Lansky performance status score of 50% or higher?"
+    },
+    {
+      "criterion": "At least 8 weeks",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has been treated for over 8 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absolute neutrophil count ≥ 1,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count currently ≥ 1,000/mm^3?"
+    },
+    {
+      "criterion": "Platelet count ≥ 100,000/mm^3 (transfusion independent)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count ≥ 100,000/mm^3?"
+    },
+    {
+      "criterion": "Hemoglobin ≥ 8 g/dL (transfusions allowed)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a hemoglobin level of ≥8 g/dL at the time of evaluation?"
+    },
+    {
+      "criterion": "Bilirubin ≤ 1.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "ALT ≤ 2.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's alanine aminotransferase (ALT) level ≤ 2.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Albumin ≥ 2 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum albumin level currently ≥2 g/dL?"
+    },
+    {
+      "criterion": "Creatinine ≤ 1.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine levels are not provided; cannot assess against ULN.",
+      "clinical_question": "Is the patient's serum creatinine level ≤ 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Creatinine clearance or radioisotope glomerular filtration rate ≥ lower limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine clearance or GFR is not provided; cannot assess.",
+      "clinical_question": "Is the patient's creatinine clearance or radioisotope glomerular filtration rate ≥ the lower limit of normal?"
+    },
+    {
+      "criterion": "No evidence of dyspnea at rest",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient exhibit any signs of dyspnea at rest as assessed by a respiratory rate greater than 20 breaths per minute or oxygen saturation below 92%?"
+    },
+    {
+      "criterion": "No exercise intolerance",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented exercise tolerance level of at least 6 METs?"
+    },
+    {
+      "criterion": "Pulse oximetry ≥ 94% (if determination is clinically indicated)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Pulse oximetry is not mentioned; cannot determine if ≥ 94%.",
+      "clinical_question": "Is the patient's pulse oximetry reading ≥ 94% at the time of assessment?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently pregnant or nursing?"
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 2 months after study participation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Fertility status and contraception use are not mentioned.",
+      "clinical_question": "Is the patient currently using effective contraception, and has he been using it for at least 2 months prior to study participation?"
+    },
+    {
+      "criterion": "Able to swallow oral medication",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Can the patient swallow oral medications without difficulty, as assessed by a standardized swallowing evaluation?"
+    },
+    {
+      "criterion": "Seizures allowed provided they are well controlled with anticonvulsants",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No mention of uncontrolled seizures; assumed well controlled.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No hypersensitivity to temozolomide",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No hypersensitivity to temozolomide is indicated in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior biologic agents",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has received prior biologic agents (Avastin).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has received multiple prior chemotherapy treatments (temozolomide, CPT-11).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior corticosteroids allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is currently on high-dose steroids, which are allowed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent corticosteroids as an antiemetic",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is currently on high-dose steroids, which are considered concurrent corticosteroids.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concurrent corticosteroids allowed only for treatment of increased intracranial pressure",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is on high-dose steroids, which are not allowed unless for increased intracranial pressure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent radiotherapy using cobalt-60",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No concurrent radiotherapy using cobalt-60 has been reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not specified in the profile.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic astrocytoma based on histopathological evaluation?"
+    },
+    {
+      "criterion": "No other prior treatment",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has had multiple prior treatments including chemotherapy and radiation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent phenobarbital or cimetidine",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No concurrent phenobarbital or cimetidine has been reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent co-trimoxazole for Pneumocystis carinii pneumonia prophylaxis during study chemoradiotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No concurrent co-trimoxazole for Pneumocystis carinii pneumonia prophylaxis has been reported.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 11 of 41 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4878
+}

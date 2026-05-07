@@ -1,0 +1,182 @@
+{
+  "nct_id": "NCT00039130",
+  "trial_title": "Rituximab, Chemotherapy, and Filgrastim in Treating Patients With Burkitt's Lymphoma or Burkitt's Leukemia",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Monoclonal antibodies such as rituximab can locate tumor cells and either kill them or deliver tumor-killing substances to them without harming normal cells. Drugs used in chemotherapy use different ways to stop cancer cells from dividing so they stop growing or die. Colony-stimulating factors such as filgrastim may increase the numbers of immune cells found in bone marrow or peripheral blood and may help a person's immune system recover from the side effects of chemotherapy. Combinin",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically, cytogenetically, or immunophenotypically confirmed Burkitt's leukemia or Burkitt's or Burkitt-like lymphoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of Burkitt's lymphoma based on pericardial fluid analysis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "L3 morphology surface IgG expression",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding L3 morphology surface IgG expression.",
+      "clinical_question": "Does the patient exhibit L3 morphology with surface IgG expression as determined by flow cytometry?"
+    },
+    {
+      "criterion": "Cytogenetic evidence for t(8;14), t(8;22), or t(2;8)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Cytogenetic evidence for t(8;14), t(8;22), or t(2;8) is not mentioned in the patient's profile.",
+      "clinical_question": "Does the patient have cytogenetic evidence of t(8;14), t(8;22), or t(2;8) confirmed by FISH or karyotyping?"
+    },
+    {
+      "criterion": "Previously untreated disease except hydroxyurea for leukocytosis",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of prior treatments, which may disqualify her from being considered as previously untreated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CNS involvement allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "CNS involvement is allowed, and the patient has a history of CNS issues related to her lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with Burkitt's leukemia or Burkitt's lymphoma with bone marrow involvement must also be enrolled on CALGB-8461",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding bone marrow involvement or enrollment on CALGB-8461.",
+      "clinical_question": "Has the patient been enrolled in CALGB-8461 for the treatment of Burkitt's leukemia or Burkitt's lymphoma with bone marrow involvement?"
+    },
+    {
+      "criterion": "Patients with Burkitt's leukemia must also be enrolled on CALGB-9665",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding enrollment on CALGB-9665 for Burkitt's leukemia.",
+      "clinical_question": "Is the patient currently enrolled in CALGB-9665?"
+    },
+    {
+      "criterion": "Age:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 44 years old, which falls within the acceptable age range for the trial.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "16 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 44.0 >= 16.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Bilirubin no greater than 1.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided, so it cannot be determined if they are within the acceptable range.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Creatinine no greater than 1.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine levels are not provided, so it cannot be determined if they are within the acceptable range.",
+      "clinical_question": "Is the patient's serum creatinine level ≤ 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's HIV status is not provided, making it unclear if they are HIV negative.",
+      "clinical_question": "Is the patient's HIV status confirmed as negative through a recent laboratory test?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is female and of childbearing age, but there is no information on contraception use.",
+      "clinical_question": "Is the patient currently using a form of effective contraception, such as a hormonal method, intrauterine device, or barrier method, as defined by clinical guidelines?"
+    },
+    {
+      "criterion": "Biologic therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current use of biologic therapy is not mentioned.",
+      "clinical_question": "Has the patient received at least one prior line of biologic therapy for Burkitt's lymphoma?"
+    },
+    {
+      "criterion": "No concurrent interleukin-11",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding concurrent interleukin-11 therapy.",
+      "clinical_question": "Has the patient received any doses of interleukin-11 in the past 30 days?"
+    },
+    {
+      "criterion": "Chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current chemotherapy status is not specified.",
+      "clinical_question": "Has the patient received at least one cycle of standard chemotherapy regimen for Burkitt's lymphoma?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Details on disease characteristics are not provided.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of Burkitt's lymphoma based on histopathological examination and the presence of Myc rearrangement?"
+    },
+    {
+      "criterion": "No other concurrent chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is available regarding concurrent chemotherapy.",
+      "clinical_question": "Has the patient received any form of chemotherapy within the last 30 days?"
+    },
+    {
+      "criterion": "Endocrine therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's use of endocrine therapy is not mentioned.",
+      "clinical_question": "Has the patient received any form of endocrine therapy prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "No concurrent hormonal therapy except for non-disease-related conditions (e.g., insulin for diabetes)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on concurrent hormonal therapy, but the patient has conditions that may require it.",
+      "clinical_question": "Is the patient currently receiving any hormonal therapy for conditions unrelated to Burkitt's lymphoma?"
+    },
+    {
+      "criterion": "No concurrent steroids except for adrenal failure",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has multiple conditions and prior treatments, but there is no information provided about current steroid use. Therefore, it is unclear if this criterion is met.",
+      "clinical_question": "Has the patient received any corticosteroid treatment in the past 30 days?"
+    },
+    {
+      "criterion": "Radiotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of Burkitt's lymphoma and relevant treatments, but there is no specific information about whether they have received radiotherapy. Thus, eligibility regarding radiotherapy is uncertain.",
+      "clinical_question": "Has the patient received any form of radiotherapy as part of their treatment for Burkitt's lymphoma?"
+    },
+    {
+      "criterion": "No concurrent palliative radiotherapy except whole-brain irradiation for documented CNS disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a complex medical history, but there is no mention of concurrent palliative radiotherapy. Without this information, it is difficult to determine if this criterion is met.",
+      "clinical_question": "Has the patient received any concurrent palliative radiotherapy, excluding whole-brain irradiation for documented CNS disease, during the treatment of Burkitt's lymphoma?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 5 of 24 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.25
+}

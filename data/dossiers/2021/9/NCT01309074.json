@@ -1,0 +1,112 @@
+{
+  "nct_id": "NCT01309074",
+  "trial_title": "Does Pregabalin Improve Symptoms of Anxiety in Patients With Epilepsy? A Comparison With Sertraline",
+  "phase": "PHASE4",
+  "status": "WITHDRAWN",
+  "brief_summary": "The aim of the study is to compare the safety \\& efficacy of sertraline (up to a dose of 200mg/day) \\& pregabalin (up to a dose of 300mg/day) for the treatment of symptoms of anxiety in patients with epilepsy.",
+  "eligibility_table": [
+    {
+      "criterion": "GAD-7 total score above 10.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 13 years old, which is below the minimum age requirement of 18.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have a diagnosis of a Partial Seizure Disorder.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of Partial Seizure Disorder as per the latest EEG results?"
+    },
+    {
+      "criterion": "Have a Hamilton-A total score 20 and above.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's Hamilton-A total score.",
+      "clinical_question": "Does the patient have a Hamilton-A total score of 20 or above?"
+    },
+    {
+      "criterion": "18-80 years of age.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 13 years old, which is below the minimum age requirement of 18.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Able to read at a fourth grade level.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Can the patient read and comprehend written material at a fourth grade level or higher?"
+    },
+    {
+      "criterion": "If a woman of childbearing age, agrees to use an acceptable means of birth control.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so the criterion regarding women of childbearing age is not applicable.",
+      "clinical_question": "Is the patient currently using an acceptable means of birth control?"
+    },
+    {
+      "criterion": "Unable to understand and sign a consent.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Can the patient demonstrate an understanding of the study's purpose and procedures sufficient to provide informed consent, as assessed by a standardized consent comprehension tool?"
+    },
+    {
+      "criterion": "Unable to follow instructions for the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Can the patient demonstrate the ability to follow study instructions as assessed by a standardized compliance evaluation tool with a minimum score of 70%?"
+    },
+    {
+      "criterion": "Displaying current suicidal ideation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient currently express any thoughts of self-harm or suicide, as assessed by a standardized screening tool for suicidal ideation?"
+    },
+    {
+      "criterion": "Having psychogenic non-epileptic seizures",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with psychogenic non-epileptic seizures by a qualified healthcare professional?"
+    },
+    {
+      "criterion": "Have a history of drug or alcohol abuse.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient ever been diagnosed with a substance use disorder or received treatment for drug or alcohol abuse?"
+    },
+    {
+      "criterion": "Use of any investigational drug within the last 30 days.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient used any investigational drug within the last 30 days?"
+    },
+    {
+      "criterion": "Hypersensitivity reaction or other serious adverse event to PGB in prior trials.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced a hypersensitivity reaction or any serious adverse event to pregabalin in prior treatments?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Unable to understand and sign a consent.",
+    "EXCLUSION UNCLEAR: Unable to follow instructions for the study.",
+    "EXCLUSION UNCLEAR: Displaying current suicidal ideation",
+    "EXCLUSION UNCLEAR: Having psychogenic non-epileptic seizures",
+    "EXCLUSION UNCLEAR: Have a history of drug or alcohol abuse.",
+    "EXCLUSION UNCLEAR: Use of any investigational drug within the last 30 days.",
+    "EXCLUSION UNCLEAR: Hypersensitivity reaction or other serious adverse event to PGB in prior trials.",
+    "LOW INCLUSION MATCH: only 0 of 6 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1538
+}

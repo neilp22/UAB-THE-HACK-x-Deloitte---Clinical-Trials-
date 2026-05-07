@@ -1,0 +1,126 @@
+{
+  "nct_id": "NCT00918931",
+  "trial_title": "Obatoclax for Systemic Mastocytosis",
+  "phase": "PHASE2",
+  "status": "TERMINATED",
+  "brief_summary": "The goal of this clinical research study is to learn if obatoclax mesylate can help to control systemic mastocytosis. The safety of this drug will also be tested.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with Systemic Mastocytosis (SM); including mast cell leukemia.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of systemic mastocytosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age equal to or greater than 18 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 22.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Minimum of two weeks since any major surgery or completion of radiation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any recent surgeries or radiation treatments.",
+      "clinical_question": "Has the patient undergone any major surgery or completed radiation within the last two weeks?"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status equal to or less than 2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status score of 2 or less?"
+    },
+    {
+      "criterion": "Adequate liver function as shown by serum bilirubin equal to or less than 1.5 * upper limit of normal (ULN), and serum alanine aminotransferase (ALT) equal to or less than 3 * ULN.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Liver function tests are not provided; thus, we cannot assess adequacy.",
+      "clinical_question": "Is the patient's serum bilirubin level ≤ 1.5 * upper limit of normal (ULN) and serum alanine aminotransferase (ALT) level ≤ 3 * ULN?"
+    },
+    {
+      "criterion": "Signed informed consent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding whether the patient has signed informed consent.",
+      "clinical_question": "Has the patient signed the informed consent form for participation in the Obatoclax trial?"
+    },
+    {
+      "criterion": "Patients with low blood cell counts (Grade 3 or 4), unless it is known that the low blood cell count is due to systemic mastocytosis.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have low blood cell counts reported, and her condition is known to be due to systemic mastocytosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Treatment with any conventional (specifically, interferon or cladribine) or investigational medicine for SM within the preceding 4 weeks",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on a steroid taper, which is considered a conventional treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic treatment with systemic steroids (unless limited to 10 mg prednisone equivalent per day or less) or another immunosuppressive agent",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on a steroid taper, which exceeds the allowed limit of 10 mg prednisone equivalent per day.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other malignancies within the past 3 years except for adequately treated carcinoma of the cervix or basal or squamous cell carcinomas of the skin. Patient may have SM-associated clonal hematologic disease that does not require therapy, as judged by the treating physician and approved by the principal investigator.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about other malignancies in the past 3 years.",
+      "clinical_question": "Has the patient been diagnosed with any malignancies other than adequately treated carcinoma of the cervix or basal or squamous cell carcinomas of the skin within the past 3 years?"
+    },
+    {
+      "criterion": "Other concurrent severe and/or uncontrolled medical disease which could compromise participation in the study as judged by the Principal Investigator (i.e., severely impaired lung function, uncontrolled diabetes, uncontrolled hypertension, severe infection, severe malnutrition, unstable angina, or congestive heart failure - New York Heart Association Class III or IV, ventricular arrhythmias, active ischemic heart disease, myocardial infarction within six months, chronic liver or renal disease, active upper GI tract ulceration)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about other concurrent severe medical diseases.",
+      "clinical_question": "Does the patient have a New York Heart Association classification of III or IV due to congestive heart failure?"
+    },
+    {
+      "criterion": "A known history of human immunodeficiency virus (HIV) seropositivity",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's HIV status.",
+      "clinical_question": "Does the patient have a documented history of HIV seropositivity confirmed by a positive HIV test result?"
+    },
+    {
+      "criterion": "Women who are pregnant or breast feeding, or women/men able to conceive and unwilling to practice an effective method of birth control. Women of childbearing potential must have a negative urine or serum pregnancy test within 48 hours prior to administration of obatoclax. Women of childbearing potential is defined as women who have not undergone a hysterectomy or bilateral oophorectomy, has not been naturally postmenopausal for at least 24 consecutive months.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is a 22-year-old female and does not have documented pregnancy or breastfeeding status. However, there is no information on her willingness to practice effective birth control or the results of a recent pregnancy test.",
+      "clinical_question": "Has the patient had a negative urine or serum pregnancy test within 48 hours prior to the administration of obatoclax?"
+    },
+    {
+      "criterion": "Patients with a known hypersensitivity to obatoclax mesylate or to its excipients (PEG 300 and Tween 20)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's hypersensitivity to obatoclax mesylate or its excipients. Therefore, it cannot be determined if this criterion is met.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity to obatoclax mesylate or to its excipients (PEG 300 and Tween 20)?"
+    },
+    {
+      "criterion": "Patients unwilling to or unable to comply with the protocol",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of systemic mastocytosis and recent flares may affect her ability to comply with the protocol, but there is no explicit information on her willingness or ability to comply.",
+      "clinical_question": "Is the patient able to adhere to a treatment regimen that requires daily medication intake and regular follow-up visits?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Treatment with any conventional (specifically, interferon or cladribine) or inve",
+    "EXCLUSION VIOLATED: Chronic treatment with systemic steroids (unless limited to 10 mg prednisone equ",
+    "EXCLUSION UNCLEAR: Other malignancies within the past 3 years except for adequately treated carcino",
+    "EXCLUSION UNCLEAR: Other concurrent severe and/or uncontrolled medical disease which could compromi",
+    "EXCLUSION UNCLEAR: A known history of human immunodeficiency virus (HIV) seropositivity",
+    "EXCLUSION UNCLEAR: Women who are pregnant or breast feeding, or women/men able to conceive and unwi",
+    "EXCLUSION UNCLEAR: Patients with a known hypersensitivity to obatoclax mesylate or to its excipient",
+    "EXCLUSION UNCLEAR: Patients unwilling to or unable to comply with the protocol"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3333
+}

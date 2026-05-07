@@ -1,0 +1,56 @@
+{
+  "nct_id": "NCT01409356",
+  "trial_title": "Effects of Weight Loss on Portal Pressure in Patients With Overweight/Obesity and Cirrhosis",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Overweight/obesity is increasing both in the general population and in patients with cirrhosis. In compensated patients with cirrhosis increased BMI is a risk factor for clinical decompensation independent of liver function and portal pressure. Nonetheless, patients with cirrhosis and obesity show a progressive increase in portal pressure, which might explain their increased risk of complications. Since obesity is a potentially modifiable risk factor, we designed this proof-of-concept study to a",
+  "eligibility_table": [
+    {
+      "criterion": "Age: 18-75 years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 60.0 >= 75.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Compensated liver cirrhosis (diagnosed by biopsy or clear clinical, laboratory and imaging data), of any etiology; patients who presented decompensation due to gastroesophageal variceal hemorrhage can also be included if hemorrhage a) occurred > 3 months before inclusion AND b) has been treated with drugs+band ligation AND c) no other decompensations occurred simultaneously.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has grade II esophageal varices and has a history of UGIB, which indicates decompensation. The inclusion criteria require that any hemorrhage occurred more than 3 months prior and that it has been treated, which is not clearly established in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "HVPG > 5 mmHg",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's hepatic venous pressure gradient (HVPG) greater than 5 mmHg?"
+    },
+    {
+      "criterion": "BMI > 26 Kg/m2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's BMI greater than 26 kg/m²?"
+    },
+    {
+      "criterion": "Absence of gastroesophageal varices or small esophageal varices OR large varices only if the patient is already on treatment with beta-blockers since at least 6 weeks.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has grade II esophageal varices, which do not meet the inclusion criteria. The criteria specify that large varices can only be included if the patient is on beta-blockers, which is not the case here.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "In case of presence of systemic arterial hypertension and/or diabetes, patients can be included if the treatment of these condition is stable for at least 3 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's hypertension is being treated with lactulose, and there is no indication of instability in the treatment for at least 3 months, thus meeting the inclusion criteria.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 1 of 6 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

@@ -1,0 +1,197 @@
+{
+  "nct_id": "NCT07368270",
+  "trial_title": "Safety and Efficacy Study of Anti-PD1 Armored CD19 CAR-T Cells in Adult Subjects With Relapsed or Refractory Diffuse Large B-cell Lymphoma",
+  "phase": "PHASE1",
+  "status": "RECRUITING",
+  "brief_summary": "The purpose of this study is to investigate the safety and tolerability of anti-PD1 armored CD19 CAR-T Cells in adult subjects with relapsed or refractory diffuse large B-cell lymphoma.",
+  "eligibility_table": [
+    {
+      "criterion": "Subjects voluntarily participate in clinical research and sign informed consent.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient signed the informed consent form for participation in the clinical trial?"
+    },
+    {
+      "criterion": "Adult subjects (age ≥18 ) with relapsed or refractory diffuse large B-cell lymphoma: a) failure to achieve CR after 6 cycles, or PR after 3 cycles, of first-line therapy, or achieve CR after first-line therapy but relapse within 12 months; b) achieve CR after systemic treatment, but are refractory or relapsed, and no plan to transplant, or prepare for transplantation but cannot meet transplantation criteria after second-line therapy; c) not achieve CR after at least two courses of second-line treatment (including autologous stem cell transplantation).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 57 years old, which meets the age requirement for adult subjects with relapsed or refractory diffuse large B-cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Expected survival ≥ 3 months.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's excellent performance status and history suggest an expected survival of at least 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least one measurable lesion as per revised IWG response criteria for malignant lymphoma (2014 Lugano criteria).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific lab values provided to confirm the presence of a measurable lesion as per the revised IWG response criteria.",
+      "clinical_question": "Does the patient have at least one measurable lesion with a diameter of ≥1.5 cm as per the revised IWG response criteria for malignant lymphoma?"
+    },
+    {
+      "criterion": "CD19 positive expression are detected on tumor cells of subjects by flow cytometry or immunohistochemistry.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on CD19 expression on tumor cells is provided; cannot confirm eligibility.",
+      "clinical_question": "Is there evidence of CD19 positive expression on the tumor cells of the patient as determined by flow cytometry or immunohistochemistry?"
+    },
+    {
+      "criterion": "ECOG score ≤ 2.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status score of ≤2?"
+    },
+    {
+      "criterion": "Subjects with adequate organ functions prior to enrollment, meet the following laboratory values:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No laboratory values provided to assess organ function; cannot determine eligibility.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.5 mg/dL, a total bilirubin level ≤1.5 mg/dL, and a transaminase level (AST/ALT) ≤2.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Renal function: serum creatinine ≤ 1.5 × ULN or estimated glomerular filtration rate (eGFR) ≥ 60 mL/min/1.73 m².",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No serum creatinine or eGFR values provided to assess renal function; cannot determine eligibility.",
+      "clinical_question": "Is the patient's serum creatinine level ≤ 1.5 × ULN or is their estimated glomerular filtration rate (eGFR) ≥ 60 mL/min/1.73 m²?"
+    },
+    {
+      "criterion": "Hepatic function: Serum alanine aminotransferase (ALT) ≤ 5 × age-specific ULN and total bilirubin ≤ 2.0 mg/dL, except in subjects with Gilbert-Meulengracht syndrome. If total bilirubin ≤ 3.0 × ULN and direct bilirubin ≤ 1.5 × ULN, subjects with Gilbert-Meulengracht syndrome are included.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No ALT or bilirubin values provided to assess hepatic function; cannot determine eligibility.",
+      "clinical_question": "Is the patient's serum alanine aminotransferase (ALT) ≤ 5 × age-specific ULN and total bilirubin ≤ 2.0 mg/dL?"
+    },
+    {
+      "criterion": "Pulmonary reserve: ≤ Grade 1 dyspnea and oxygen saturation >95% on room air.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on pulmonary reserve or dyspnea grade provided; cannot determine eligibility.",
+      "clinical_question": "Is the patient's dyspnea graded as ≤ Grade 1 and is their oxygen saturation >95% on room air?"
+    },
+    {
+      "criterion": "Women who are pregnant or breastfeeding, or planned pregnancy within 6 months.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient's gender is male, so this criterion does not apply.",
+      "clinical_question": "Is the patient currently pregnant, breastfeeding, or planning a pregnancy within the next 6 months?"
+    },
+    {
+      "criterion": "Infectious disease(HIV, Active Tuberculosis etc.).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding infectious disease status; cannot determine eligibility.",
+      "clinical_question": "Does the patient have a negative test result for HIV and active tuberculosis within the last 6 months?"
+    },
+    {
+      "criterion": "Active infection: hepatitis B, hepatitis C.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess for active hepatitis B or C infection.",
+      "clinical_question": "Does the patient have a positive serology for hepatitis B surface antigen (HBsAg) or hepatitis C virus (HCV) RNA?"
+    },
+    {
+      "criterion": "Abnormal vital signs or refuse to receive examination.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on vital signs or willingness to undergo examination.",
+      "clinical_question": "Does the patient have any vital signs outside the normal range, specifically a systolic blood pressure <90 mmHg, heart rate >100 bpm, or respiratory rate >20 breaths per minute?"
+    },
+    {
+      "criterion": "Subjects with psychiatric or psychological disorders are unable to complete treatment or efficacy assessment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on psychiatric or psychological disorders.",
+      "clinical_question": "Does the patient have a history of psychiatric or psychological disorders that would prevent them from completing treatment or efficacy assessment?"
+    },
+    {
+      "criterion": "History of severe hypersensitivity or known hypersensitivity to IL-2.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of hypersensitivity to IL-2 mentioned.",
+      "clinical_question": "Does the patient have a documented history of severe hypersensitivity or known hypersensitivity to IL-2?"
+    },
+    {
+      "criterion": "Systemic or local severe infection requiring antimicrobial therapy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on current infections requiring antimicrobial therapy.",
+      "clinical_question": "Has the patient experienced a systemic or local severe infection requiring antimicrobial therapy within the last 30 days?"
+    },
+    {
+      "criterion": "Significant dysfunction of vital organs (heart, lung, brain, kidney, etc.), or in the investigator's judgment, subjects are unable to be enrolled with any other condition.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on vital organ function or other conditions affecting enrollment.",
+      "clinical_question": "Does the patient have any significant dysfunction of vital organs as assessed by specific laboratory tests or imaging studies indicating impairment?"
+    },
+    {
+      "criterion": "Stable hemodynamics and left ventricular ejection fraction (LVEF) ≥ 45 % assessed by echocardiography or multi-gated radionuclide angiography (MUGA).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No echocardiography or MUGA results provided to assess LVEF.",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) ≥ 45% as assessed by echocardiography or multi-gated radionuclide angiography (MUGA)?"
+    },
+    {
+      "criterion": "Adequate bone-marrow reserve without blood transfusion as defined by:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on bone marrow reserve or need for blood transfusion.",
+      "clinical_question": "Does the patient have a bone marrow reserve with an absolute neutrophil count (ANC) ≥1,000 cells/µL and a platelet count ≥100,000 cells/µL without requiring blood transfusion?"
+    },
+    {
+      "criterion": "Absolute neutrophil count (ANC) ≥ 1 x 10^9/L.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count (ANC) currently ≥ 1 x 10^9/L?"
+    },
+    {
+      "criterion": "Absolute lymphocyte count (ALC) ≥ 0.1 x 10^9/L.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute lymphocyte count (ALC) currently ≥ 0.1 x 10^9/L?"
+    },
+    {
+      "criterion": "Platelets ≥ 50 x 10^9/L.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a platelet count of ≥ 50 x 10^9/L?"
+    },
+    {
+      "criterion": "Hemoglobin >80g/L.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current hemoglobin level greater than 80 g/L?"
+    },
+    {
+      "criterion": "In the investigator's judgment, subjects' general condition and all biochemical values are either normal or sufficiently compensated to receive lymphodepletion and CAR-T cell therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No biochemical values provided to assess general condition for therapy.",
+      "clinical_question": "Are the patient's serum creatinine levels ≤1.5 mg/dL and total bilirubin levels ≤1.5 mg/dL?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Women who are pregnant or breastfeeding, or planned pregnancy within 6 months.",
+    "EXCLUSION UNCLEAR: Infectious disease(HIV, Active Tuberculosis etc.).",
+    "EXCLUSION UNCLEAR: Active infection: hepatitis B, hepatitis C.",
+    "EXCLUSION UNCLEAR: Abnormal vital signs or refuse to receive examination.",
+    "EXCLUSION UNCLEAR: Subjects with psychiatric or psychological disorders are unable to complete trea",
+    "EXCLUSION UNCLEAR: History of severe hypersensitivity or known hypersensitivity to IL-2.",
+    "EXCLUSION UNCLEAR: Systemic or local severe infection requiring antimicrobial therapy.",
+    "EXCLUSION UNCLEAR: Significant dysfunction of vital organs (heart, lung, brain, kidney, etc.), or i",
+    "LOW INCLUSION MATCH: only 2 of 17 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.08
+}

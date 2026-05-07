@@ -1,0 +1,266 @@
+{
+  "nct_id": "NCT04157920",
+  "trial_title": "Impact of Predilatation Between Self-expanding Valves",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "A Multicenter, prospective, non-randomized, trial evaluating the safety and clinical efficacy of the next-generation, self-expandable Boston Scientific ACURATE NEO/TF Transcatheter Heart Valves, implanted in patients with severe aortic stenosis and the impact of predilatation in comparison with the Medtronic CoreValve EvolutT R/PRO systems from the DIRECT trial.",
+  "eligibility_table": [
+    {
+      "criterion": "Patient with severe symptomatic aortic stenosis defined by a mean aortic gradient > 40 mmHg or peak jet velocity > 4.0 m/s or an aortic valve area (AVA) < 1cm2 or AVA indexed to body surface area (BSA) of <0.6 cm2/m2",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis with an EF of 25%, which indicates significant obstruction and likely meets the criteria for mean gradient or peak jet velocity.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient is symptomatic (heart failure with New York Heart Association (NYHA) Functional Class > I, angina or syncope)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is symptomatic with severe heart failure, indicated by an EF of 25% and likely NYHA Class III or IV.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients are considered at high risk for mortality with conventional surgical aortic valve replacement as assessed by a Heart Team consisting of a cardiologist and surgeon or as confirmed by a logistic EuroSCORE I ≥ 20% and / or EuroSCORE II ≥ 7% STS score ≥ 8%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's high risk for mortality is not explicitly confirmed by EuroSCORE or STS score data provided.",
+      "clinical_question": "Does the patient have a logistic EuroSCORE I ≥ 20% or EuroSCORE II ≥ 7% or STS score ≥ 8%?"
+    },
+    {
+      "criterion": "Over 80 years old",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient currently over 80 years old?"
+    },
+    {
+      "criterion": "Over 65 years old with 1 or 2 (but not more than two) from the following criteria:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Does the patient have a history of either worsening left ventricular function (EF < 30%) or severe aortic stenosis (mean gradient > 40 mmHg)?"
+    },
+    {
+      "criterion": "Liver cirrhosis (Class A or B). Pulmonary insufficiency: VMS<1 liter. Previous heart surgery (CABG, vascular surgery). Porcelain aorta. Pulmonary artery systolic pressure >60 mmHg and high risk for heart surgery. Relapsing pulmonary embolism. Right ventricular insufficiency. Thoracic wall injuries that contraindicate an open heart surgery. History of radiation therapy of the mediastinum. Connective tissue disease that contraindicates an open heart surgery. Frailty/cachexia.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding liver cirrhosis, pulmonary insufficiency, or other conditions listed that would exclude the patient.",
+      "clinical_question": "Does the patient have a pulmonary artery systolic pressure greater than 60 mmHg?"
+    },
+    {
+      "criterion": "Aortic valve diameter of ≥20mm and ≤29mm as measured by echo.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The aortic valve diameter is not provided in the patient profile, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's aortic valve diameter measured by echocardiogram between ≥20mm and ≤29mm?"
+    },
+    {
+      "criterion": "Ascending aorta diameter ≤ 43 mm at the sinotubular junction.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The ascending aorta diameter is not explicitly stated, but the presence of a dilated ascending aorta suggests it may be ≤ 43 mm.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Arterial aorto-iliac-femoral axis suitable for transfemoral access as assessed by conventional angiography and/or multi-detector computed tomographic angiography (access vessel diameter ≥ 6mm)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the suitability of the aorto-iliac-femoral axis for transfemoral access.",
+      "clinical_question": "Is the diameter of the patient's aorto-iliac-femoral axis ≥ 6mm as assessed by conventional angiography or multi-detector computed tomographic angiography?"
+    },
+    {
+      "criterion": "Patient understands the purpose, the potential risks as well as benefits of the trial and is willing to participate in all parts of the follow-up",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely to understand the trial's purpose and risks given the severity of their condition and prior treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A known hypersensitivity or contraindication to any of the following which cannot be adequately pre-medicated: aspirin or heparin and bivalirudin, ticlodipine and clopidogrel, nitinol (titanium or nickel), contrast media",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding any known hypersensitivity or contraindications to the listed medications.",
+      "clinical_question": "Does the patient have a known hypersensitivity or contraindication to aspirin, heparin, bivalirudin, ticlodipine, clopidogrel, nitinol, or contrast media that cannot be adequately pre-medicated?"
+    },
+    {
+      "criterion": "Ongoing sepsis, including active endocarditis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding ongoing sepsis or active endocarditis.",
+      "clinical_question": "Does the patient currently exhibit signs of ongoing sepsis, such as fever, elevated white blood cell count, or positive blood cultures?"
+    },
+    {
+      "criterion": "Any percutaneous coronary or peripheral interventional procedure with a bare metal or drug eluting stent performed within 30 days prior to Heart Team assessment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about recent coronary or peripheral interventions, so unable to assess.",
+      "clinical_question": "Has the patient undergone any percutaneous coronary or peripheral interventional procedure with a bare metal or drug-eluting stent within the 30 days prior to the Heart Team assessment?"
+    },
+    {
+      "criterion": "Echocardiographic evidence of LV or LA thrombus.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No echocardiographic evidence provided regarding LV or LA thrombus.",
+      "clinical_question": "Does the patient have echocardiographic evidence of left ventricular (LV) or left atrial (LA) thrombus present?"
+    },
+    {
+      "criterion": "Mitral or tricuspid valve insufficiency (> grade II).",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has mild MR, which is considered greater than grade II.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous aortic valve replacement (mechanical or bioprosthetic).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of previous aortic valve replacement mentioned.",
+      "clinical_question": "Has the patient undergone a previous aortic valve replacement with either a mechanical or bioprosthetic valve?"
+    },
+    {
+      "criterion": "Recent (within 6 months of Heart Team assessment) cerebrovascular accident (CVA) or transient ischemic attack (TIA).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on recent CVA or TIA provided.",
+      "clinical_question": "Has the patient experienced a cerebrovascular accident (CVA) or transient ischemic attack (TIA) within the last 6 months?"
+    },
+    {
+      "criterion": "Patients with:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Criterion is incomplete; specific conditions not listed.",
+      "clinical_question": "Has the patient undergone predilatation prior to the placement of a self-expanding valve?"
+    },
+    {
+      "criterion": "Femoral, iliac or aortic vascular disease (stenosis etc) that precludes the insertion of a transcatheter sheath.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No details on vascular disease provided.",
+      "clinical_question": "Does the patient have a femoral, iliac, or aortic vascular disease with ≥50% stenosis that precludes the insertion of a transcatheter sheath?"
+    },
+    {
+      "criterion": "OR Symptomatic carotid or vertebral artery disease (> 70% stenosis).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on carotid or vertebral artery disease provided.",
+      "clinical_question": "Does the patient have ≥70% stenosis in the carotid or vertebral arteries as assessed by imaging studies?"
+    },
+    {
+      "criterion": "Patient has given written consent to participate in the trial",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming patient has given consent as no information suggests otherwise.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The patient has a bleeding diathesis, coagulopathy or denies blood transfusion.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on bleeding diathesis or coagulopathy provided.",
+      "clinical_question": "Does the patient have a documented history of bleeding diathesis or coagulopathy, or has he explicitly denied the acceptance of blood transfusions?"
+    },
+    {
+      "criterion": "Estimated life expectancy of less than 12 months due to associated non-cardiac co-morbid conditions.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's estimated life expectancy is not explicitly stated, but the presence of severe aortic stenosis and worsening LV function raises concerns about overall prognosis.",
+      "clinical_question": "Does the patient have a documented prognosis indicating an estimated life expectancy of less than 12 months due to non-cardiac co-morbid conditions?"
+    },
+    {
+      "criterion": "Creatinine clearance < 20 ml/min.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's creatinine clearance currently measured at < 20 ml/min?"
+    },
+    {
+      "criterion": "Active gastritis or gastrointestinal ulcer.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of active gastritis or gastrointestinal ulcer in the patient's profile.",
+      "clinical_question": "Does the patient have a documented diagnosis of active gastritis or a gastrointestinal ulcer based on endoscopic findings or imaging studies?"
+    },
+    {
+      "criterion": "Pregnancy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so pregnancy is not applicable.",
+      "clinical_question": "Is the patient currently pregnant or has the patient been pregnant within the last 12 months?"
+    },
+    {
+      "criterion": "Severe left ventricular dysfunction with left ventricular ejection fraction (LVEF) < 20%.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) currently measured at less than 20%?"
+    },
+    {
+      "criterion": "Unicuspid aortic valve.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a bicuspid aortic valve, which does not meet the criterion for unicuspid aortic valve.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mixed aortic valve disease (aortic stenosis and aortic regurgitation > 2+).",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has 2+ aortic insufficiency, which does not meet the criterion for mixed aortic valve disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Liver failure (Child-Pugh class C).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding liver function or Child-Pugh classification.",
+      "clinical_question": "Does the patient have a Child-Pugh score of 10 or higher indicating class C liver failure?"
+    },
+    {
+      "criterion": "Severe dementia (resulting in either inability to provide informed consent for the study/procedure, prevents independent lifestyle outside of a chronic care facility, or will fundamentally complicate rehabilitation from the procedure or compliance with follow-up visits).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's cognitive function or dementia status.",
+      "clinical_question": "Does the patient exhibit a cognitive impairment score on a standardized assessment tool (e.g., MMSE) of ≤10, indicating severe dementia?"
+    },
+    {
+      "criterion": "Extreme aortic valve calcification and calcific asymmetry (Agatston score: grade 4 AgS>5000 AU).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the degree of aortic valve calcification or Agatston score.",
+      "clinical_question": "Does the patient have an Agatston score greater than 5000 AU for aortic valve calcification?"
+    },
+    {
+      "criterion": "Aortic valve area of < 0.4 cm2.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The aortic valve area is not specified in the patient's profile, making it unclear if it meets the criterion.",
+      "clinical_question": "Is the patient's aortic valve area measured to be < 0.4 cm²?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: A known hypersensitivity or contraindication to any of the following which canno",
+    "EXCLUSION UNCLEAR: Ongoing sepsis, including active endocarditis.",
+    "EXCLUSION UNCLEAR: Any percutaneous coronary or peripheral interventional procedure with a bare met",
+    "EXCLUSION UNCLEAR: Echocardiographic evidence of LV or LA thrombus.",
+    "EXCLUSION VIOLATED: Mitral or tricuspid valve insufficiency (> grade II).",
+    "EXCLUSION UNCLEAR: Previous aortic valve replacement (mechanical or bioprosthetic).",
+    "EXCLUSION UNCLEAR: Recent (within 6 months of Heart Team assessment) cerebrovascular accident (CVA)",
+    "EXCLUSION UNCLEAR: Patients with:",
+    "EXCLUSION UNCLEAR: Femoral, iliac or aortic vascular disease (stenosis etc) that precludes the inse",
+    "EXCLUSION UNCLEAR: OR Symptomatic carotid or vertebral artery disease (> 70% stenosis).",
+    "EXCLUSION UNCLEAR: The patient has a bleeding diathesis, coagulopathy or denies blood transfusion.",
+    "EXCLUSION UNCLEAR: Estimated life expectancy of less than 12 months due to associated non-cardiac c",
+    "EXCLUSION UNCLEAR: Creatinine clearance < 20 ml/min.",
+    "EXCLUSION UNCLEAR: Active gastritis or gastrointestinal ulcer.",
+    "EXCLUSION UNCLEAR: Pregnancy.",
+    "EXCLUSION UNCLEAR: Severe left ventricular dysfunction with left ventricular ejection fraction (LVE",
+    "EXCLUSION VIOLATED: Unicuspid aortic valve.",
+    "EXCLUSION VIOLATED: Mixed aortic valve disease (aortic stenosis and aortic regurgitation > 2+).",
+    "EXCLUSION UNCLEAR: Liver failure (Child-Pugh class C).",
+    "EXCLUSION UNCLEAR: Severe dementia (resulting in either inability to provide informed consent for t",
+    "EXCLUSION UNCLEAR: Extreme aortic valve calcification and calcific asymmetry (Agatston score: grade",
+    "EXCLUSION UNCLEAR: Aortic valve area of < 0.4 cm2."
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.2424
+}

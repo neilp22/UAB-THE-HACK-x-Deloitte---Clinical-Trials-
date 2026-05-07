@@ -1,0 +1,28 @@
+{
+  "nct_id": "NCT00304408",
+  "trial_title": "Association Between Response to Treatment of C. Diff Colitis and Anti-C.Diff Toxin Antibody",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is three fold: 1)To collect serum from patients with documented Clostridium difficile infection and test for the presence of antibody to C. difficile toxin at the start and at the end of therapy, and again if a relapse or recurrence occurs. 2)To collect stool samples for test of C. difficile toxin at similar time intervals. 3)To assay random serum samples from the VA lab in order to determine the rate of antibody to C. difficile toxin in our patient population.",
+  "eligibility_table": [
+    {
+      "criterion": "All patients at the Houston VA with documented C. difficile infection",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a documented C. difficile infection, which meets the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "None",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There are no specific exclusion criteria provided, but the patient's complex medical history raises concerns about overall eligibility.",
+      "clinical_question": "What is the patient's level of anti-C. diff toxin antibodies, and does it exceed the threshold of 1:64?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: None"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

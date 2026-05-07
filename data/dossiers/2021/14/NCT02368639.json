@@ -1,0 +1,67 @@
+{
+  "nct_id": "NCT02368639",
+  "trial_title": "Feasibility of a Modified Positive Airway Pressure Device to Treat Sleep Disordered Breathing",
+  "phase": "NA",
+  "status": "TERMINATED",
+  "brief_summary": "This study will use a modified version of a positive airway pressure device to supply air to the participant, while undergoing supervised polysomnography. Positive airway pressures are typically applied to many patients with hypoventilation, in this study these pressures will be titrated by a qualified sleep technician. During the night these pressures will be altered to optimise comfort.",
+  "eligibility_table": [
+    {
+      "criterion": "Aged 18+",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Has the patient experienced a reduction in apnea-hypopnea index (AHI) of ≥50% after 4 weeks of using the modified positive airway pressure device?"
+    },
+    {
+      "criterion": "Patients diagnosed with obesity hypoventilation syndrome (OHS) and/or obstructive sleep apnea (OSA) by a practicing sleep or respiratory physician, requiring positive airway pressure (PAP) therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of obesity hypoventilation syndrome and is on BiPAP therapy, indicating the requirement for positive airway pressure therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recent cardiac or respiratory arrest",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented evidence of recent cardiac or respiratory arrest in the patient's history, but the presence of multiple cardiac conditions raises some concern.",
+      "clinical_question": "Has the patient experienced a cardiac or respiratory arrest within the last 6 months?"
+    },
+    {
+      "criterion": "Gastro intestinal bleeding, ileus or recent gastrointestinal surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not reported any gastrointestinal bleeding, ileus, or recent gastrointestinal surgery, but the absence of lab values makes it difficult to fully assess.",
+      "clinical_question": "Has the patient experienced any episodes of gastrointestinal bleeding, ileus, or undergone any gastrointestinal surgery in the past 30 days?"
+    },
+    {
+      "criterion": "Coma, decreased level of consciousness or agitation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of schizophrenia, which could potentially affect their level of consciousness, but there is no current indication of coma or agitation.",
+      "clinical_question": "Has the patient exhibited a decreased level of consciousness, defined as a Glasgow Coma Scale score of less than 15, during the assessment period?"
+    },
+    {
+      "criterion": "Anatomical or subjective difficulty with airway access e.g. facial surgery, trauma, vomiting upper airway obstruction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific mention of anatomical or subjective difficulty with airway access, but the patient's multiple health issues could complicate airway management.",
+      "clinical_question": "Does the patient have any anatomical abnormalities or a history of facial surgery that would impede airway access for the modified positive airway pressure device?"
+    },
+    {
+      "criterion": "Cerebrospinal fluid leak, abnormalities of the cribiform plate or prior history of head trauma",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented cerebrospinal fluid leak or history of head trauma, but the patient's complex medical history leaves some uncertainty.",
+      "clinical_question": "Does the patient have a documented history of cerebrospinal fluid leak, abnormalities of the cribiform plate, or prior head trauma?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Recent cardiac or respiratory arrest",
+    "EXCLUSION UNCLEAR: Gastro intestinal bleeding, ileus or recent gastrointestinal surgery",
+    "EXCLUSION UNCLEAR: Coma, decreased level of consciousness or agitation",
+    "EXCLUSION UNCLEAR: Anatomical or subjective difficulty with airway access e.g. facial surgery, trau",
+    "EXCLUSION UNCLEAR: Cerebrospinal fluid leak, abnormalities of the cribiform plate or prior history "
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1429
+}

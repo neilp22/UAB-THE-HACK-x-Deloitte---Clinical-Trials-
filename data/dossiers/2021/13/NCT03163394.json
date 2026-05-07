@@ -1,0 +1,79 @@
+{
+  "nct_id": "NCT03163394",
+  "trial_title": "HD5 Levels in Catheter Versus Bag Urine Specimens in Young Children for the Diagnosis of UTI",
+  "phase": "",
+  "status": "TERMINATED",
+  "brief_summary": "Urinary tract infections (UTIs) are a common cause of bacteremia and serious bacterial infections in young children (2-24 months of age). Because these children are usually unable to say what symptoms they are experiencing, UTIs are diagnosed through testing. Current testing of urine samples require a catheter or suprapubic aspiration performed for urine collection for infections markers to be reliable. Bag specimens often have varying results that can be poor in sensitivity and specificity depe",
+  "eligibility_table": [
+    {
+      "criterion": "Patient is between 1 to 24 months of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 62.0 >= 24.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient has reported or measured fever >38.5 degrees C (101.3 degrees F)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of altered mental status and urosepsis, but there is no specific mention of a current fever >38.5 degrees C.",
+      "clinical_question": "Has the patient reported or been measured to have a fever of ≥38.5 degrees C (101.3 degrees F)?"
+    },
+    {
+      "criterion": "RSV Positive at time of urine collection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding RSV status at the time of urine collection.",
+      "clinical_question": "Is the patient currently RSV positive as determined by a PCR test or rapid antigen test at the time of urine collection?"
+    },
+    {
+      "criterion": "Flu Positive at time of urine collection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding Flu status at the time of urine collection.",
+      "clinical_question": "Is the patient's urine specimen positive for flu at the time of collection, as determined by a PCR test with a threshold of ≥10 copies/mL?"
+    },
+    {
+      "criterion": "Known GU abnormality",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of neurogenic bladder, which is considered a known GU abnormality.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Neurogenic bladder",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a documented neurogenic bladder condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Frequent catheterizations",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The frequency of catheterizations is not specified in the patient's profile.",
+      "clinical_question": "Has the patient undergone catheterization ≥3 times in the past month?"
+    },
+    {
+      "criterion": "Indwelling catheter",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a suprapubic catheter, which qualifies as an indwelling catheter.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Antibiotics in the last 7 days",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on antibiotics (vanc and meropenem), indicating antibiotic use within the last 7 days.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: RSV Positive at time of urine collection",
+    "EXCLUSION UNCLEAR: Flu Positive at time of urine collection",
+    "EXCLUSION UNCLEAR: Frequent catheterizations"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5556
+}

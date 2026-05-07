@@ -1,0 +1,150 @@
+{
+  "nct_id": "NCT03187795",
+  "trial_title": "Mirabegron and Oxybutynin Safety and Efficacy Trial in Spinal Cord Injury",
+  "phase": "PHASE2",
+  "status": "UNKNOWN",
+  "brief_summary": "The purpose of this research study is to determine the effectiveness and safety of mirabegron compared to oxybutynin chloride immediate release (oxybutynin IR) for a condition called neurogenic detrusor overactivity in individuals with chronic spinal cord injury (SCI).",
+  "eligibility_table": [
+    {
+      "criterion": "The subject has a neurological impairment secondary to a traumatic spinal cord injury that occurred at least twelve (12) months prior to the screening visit.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The subject has a history of multiple neurological conditions but does not have a documented traumatic spinal cord injury.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The injury is classified as complete or incomplete (AIS grade A-D) and the neurological level of the injury is above T12.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The subject's neurological impairments are due to conditions like SLE and transverse myelitis, not a spinal cord injury.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The subject's method of bladder management is intermittent catheterization (IC) or indwelling catheter (transurethral or suprapubic).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The subject is managed with a suprapubic catheter, which qualifies as an indwelling catheter.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "There is urodynamic documentation of neurogenic detrusor overactivity (NDO).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding urodynamic studies or documentation of neurogenic detrusor overactivity.",
+      "clinical_question": "Has the patient undergone urodynamic testing that confirms the presence of neurogenic detrusor overactivity with a maximum detrusor pressure of ≥40 cm H2O?"
+    },
+    {
+      "criterion": "The subject is on a stable dose of oxybutynin IR three times daily.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The subject is not on oxybutynin IR; instead, they are on ditropan and detrol.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The subject is able and willing to comply with the study protocol, including availability for all scheduled clinic visits and locomotor training sessions.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The subject's ability and willingness to comply with the study protocol is not explicitly stated.",
+      "clinical_question": "Is the patient able to attend all scheduled clinic visits and locomotor training sessions at least 80% of the time?"
+    },
+    {
+      "criterion": "The subject is able to and has voluntarily given informed consent prior to the performance of any study-specific procedures.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the subject's ability to give informed consent.",
+      "clinical_question": "Has the patient provided a signed informed consent form prior to the performance of any study-specific procedures?"
+    },
+    {
+      "criterion": "The subject has taken mirabegron within one month of the Screening Visit.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the use of mirabegron within the last month.",
+      "clinical_question": "Has the patient taken mirabegron within the last 30 days prior to the Screening Visit?"
+    },
+    {
+      "criterion": "The subject has received a botulinum toxin injection to the bladder within one year of the Screening Visit.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the subject receiving a botulinum toxin injection within the last year.",
+      "clinical_question": "Has the patient received a botulinum toxin injection to the bladder within the past 12 months?"
+    },
+    {
+      "criterion": "The subject is allergic to mirabegron.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any allergies to mirabegron.",
+      "clinical_question": "Has the patient experienced any allergic reactions to mirabegron, such as rash, swelling, or difficulty breathing, after previous exposure?"
+    },
+    {
+      "criterion": "The subject has a history of uncontrolled autonomic dysreflexia or significant autonomic dysreflexia on urodynamics (systolic BP≥150 mm/Hg).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medical history does not explicitly mention autonomic dysreflexia, but the presence of multiple conditions may complicate the assessment.",
+      "clinical_question": "Has the patient experienced a systolic blood pressure of ≥150 mm/Hg during urodynamics testing due to autonomic dysreflexia?"
+    },
+    {
+      "criterion": "The subject has a known history of significant anatomical problems of the upper tracts, including hydronephrosis, kidney stones, or ureteropelvic junction obstruction.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific mention of anatomical problems of the upper tracts, but the patient's history of recurrent UTIs and other conditions raises concern.",
+      "clinical_question": "Does the patient have a documented history of hydronephrosis, kidney stones, or ureteropelvic junction obstruction within the last 5 years?"
+    },
+    {
+      "criterion": "The subject has a known history or treatment for a non-neurogenic bladder or prostate problem (prostate cancer, bladder cancer).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of BPH and recurrent UTIs, but there is no clear indication of a non-neurogenic bladder or prostate cancer.",
+      "clinical_question": "Has the patient been diagnosed with or treated for prostate cancer or bladder cancer at any point in their medical history?"
+    },
+    {
+      "criterion": "The subject has recurrent UTIs, defined as a UTI more than every three months.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has recurrent UTIs, which are defined as occurring more than every three months, thus meeting this exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The subject has untreated Grade 3 or above vesicoureteral reflux.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documentation of vesicoureteral reflux in the patient's history, but the complexity of their conditions makes it difficult to ascertain.",
+      "clinical_question": "Does the patient have a documented diagnosis of Grade 3 or above vesicoureteral reflux based on imaging studies?"
+    },
+    {
+      "criterion": "If female, the subject is pregnant (documented by a urine pregnancy test) or breastfeeding.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion does not apply.",
+      "clinical_question": "Has the patient undergone a urine pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "The subject has taken another investigational drug within 30 days before screening.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the use of investigational drugs within the last 30 days, making it uncertain.",
+      "clinical_question": "Has the patient taken any investigational drug within the 30 days prior to screening?"
+    },
+    {
+      "criterion": "The subject has a medical condition that might pose a safety issue or would interfere with interpretation of study results or study conduct.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's multiple medical conditions could pose safety issues, but it is unclear how they would interfere with study results.",
+      "clinical_question": "Does the patient have a current active infection, as indicated by a positive culture or elevated inflammatory markers, that could pose a safety issue for participation in the trial?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: The subject has taken mirabegron within one month of the Screening Visit.",
+    "EXCLUSION UNCLEAR: The subject has received a botulinum toxin injection to the bladder within one y",
+    "EXCLUSION UNCLEAR: The subject is allergic to mirabegron.",
+    "EXCLUSION UNCLEAR: The subject has a history of uncontrolled autonomic dysreflexia or significant a",
+    "EXCLUSION UNCLEAR: The subject has a known history of significant anatomical problems of the upper ",
+    "EXCLUSION UNCLEAR: The subject has a known history or treatment for a non-neurogenic bladder or pro",
+    "EXCLUSION UNCLEAR: The subject has untreated Grade 3 or above vesicoureteral reflux.",
+    "EXCLUSION UNCLEAR: If female, the subject is pregnant (documented by a urine pregnancy test) or bre",
+    "EXCLUSION UNCLEAR: The subject has taken another investigational drug within 30 days before screeni",
+    "EXCLUSION UNCLEAR: The subject has a medical condition that might pose a safety issue or would inte",
+    "LOW INCLUSION MATCH: only 1 of 7 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2778
+}

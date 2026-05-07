@@ -1,0 +1,134 @@
+{
+  "nct_id": "NCT00429533",
+  "trial_title": "Efficacy of Dapsone as a Steroid Sparing Agent in Pemphigus Vulgaris",
+  "phase": "PHASE2",
+  "status": "TERMINATED",
+  "brief_summary": "The purpose of this 12-month study was to determine the efficacy of dapsone as a glucocorticoid-sparing agent in maintenance phase pemphigus vulgaris.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologic evidence compatible with pemphigus vulgaris and direct immunofluorescence evidence of pemphigus vulgaris.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has systemic mastocytosis, not pemphigus vulgaris, and there is no histologic evidence or direct immunofluorescence evidence for pemphigus vulgaris.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic disease that has been controlled with steroids and/or cytotoxics, e.g. maintenance phase.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's systemic mastocytosis is not described as being controlled with steroids or cytotoxics; rather, she is experiencing flares.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "On prednisone 15 or more mg/day to around 40 mg/day or on prednisone 15 or more mg every other day (qod) to around 40 mg qod.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on a steroid taper, but the exact dosage of prednisone is not specified to be within the required range of 15 to 40 mg/day.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Failure to taper steroids below a range of 15 mg/day to around 40 mg/day or 15 mg/qod to around 40 qod without flaring the disease.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has had flares and is currently tapering steroids, indicating she has not successfully maintained below the specified steroid dosage without flaring.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The steroid dosage at which the most recent flare occurred should not be less than 85% of the last (within 30 days) dosage which controlled the disease, i.e. 85% of the baseline steroid dosage.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The information does not specify the steroid dosage at which the most recent flare occurred, making it unclear if it meets the 85% requirement.",
+      "clinical_question": "Has the patient experienced a flare while on a steroid dosage of less than 85% of her baseline steroid dosage?"
+    },
+    {
+      "criterion": "Two baseline steroid dosages as determined by prior flares. It is common that patients will be repetitively unable to taper below a certain baseline steroid dose without experiencing a mild flare of their disease.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of steroid tapering, but specific baseline steroid dosages from prior flares are not provided.",
+      "clinical_question": "Has the patient experienced a mild flare of pemphigus vulgaris when tapering below a baseline steroid dose of 125 mg IV steroids?"
+    },
+    {
+      "criterion": "No pulse steroids, pulse cyclosphosphamide, or plasmapheresis within two months of beginning the protocol.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has received pulse steroids, pulse cyclophosphamide, or plasmapheresis within the last two months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient understands the procedures and agrees to participate in the study program by giving written informed consent.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's understanding of the procedures and willingness to participate is not documented, making it unclear if she can provide informed consent.",
+      "clinical_question": "Does the patient demonstrate an understanding of the study procedures as assessed by a standardized consent comprehension questionnaire with a score of ≥80%?"
+    },
+    {
+      "criterion": "Patients able to taper steroids without recurrence of disease.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not been able to taper steroids without experiencing flares, indicating she does not meet this exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with early, severe disease that have not responded to high doses of prednisone, cytotoxics, plasmapheresis, or other modalities.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has systemic mastocytosis and has not responded to treatments, but the criteria specify early, severe disease, which does not apply here.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Contraindications to the use of Dapsone, including severe anemia or G6PD deficiency.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have documented severe anemia or G6PD deficiency, but this information is not explicitly provided in the profile.",
+      "clinical_question": "Does the patient have a G6PD enzyme activity level below the normal threshold of 4.6 U/g Hb?"
+    },
+    {
+      "criterion": "Patient has behavioral problems that might interfere with compliance.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding behavioral problems that might interfere with compliance.",
+      "clinical_question": "Has the patient been assessed for behavioral problems using a standardized questionnaire, such as the Child Behavior Checklist, with a score indicating significant concerns (e.g., T-score ≥65)?"
+    },
+    {
+      "criterion": "Pregnancy or breast-feeding.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is a 22-year-old female, but there is no information regarding pregnancy or breast-feeding.",
+      "clinical_question": "Is the patient currently pregnant or breastfeeding?"
+    },
+    {
+      "criterion": "Younger than 18 or older than 80 years of age.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 22 years old, which does not meet the exclusion criterion of being younger than 18.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of allergy to dapsone.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of allergy to dapsone in the patient profile.",
+      "clinical_question": "Has the patient ever experienced an allergic reaction to dapsone, such as rash, itching, or difficulty breathing?"
+    },
+    {
+      "criterion": "Ischemic heart disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of tachycardia but no documented ischemic heart disease.",
+      "clinical_question": "Does the patient have a documented history of ischemic heart disease, defined as a previous myocardial infarction or coronary artery disease requiring intervention?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Patients able to taper steroids without recurrence of disease.",
+    "EXCLUSION VIOLATED: Patients with early, severe disease that have not responded to high doses of pre",
+    "EXCLUSION UNCLEAR: Contraindications to the use of Dapsone, including severe anemia or G6PD deficie",
+    "EXCLUSION UNCLEAR: Patient has behavioral problems that might interfere with compliance.",
+    "EXCLUSION UNCLEAR: Pregnancy or breast-feeding.",
+    "EXCLUSION VIOLATED: Younger than 18 or older than 80 years of age.",
+    "EXCLUSION UNCLEAR: History of allergy to dapsone.",
+    "EXCLUSION UNCLEAR: Ischemic heart disease.",
+    "LOW INCLUSION MATCH: only 1 of 8 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.5
+}

@@ -1,0 +1,102 @@
+{
+  "nct_id": "NCT03244644",
+  "trial_title": "Microbiota Restoration Therapy for Recurrent Clostridium Difficile Infection (PUNCHCD3)",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "This is a prospective, multicenter, randomized, double-blinded, placebo-controlled Phase 3 study of a microbiota suspension of intestinal microbes. Patients who have had at least one recurrence after a primary episode and have completed at least one round of standard-of-care oral antibiotic therapy or have had at least two episodes of severe Clostridioides difficile infection (CDI) resulting in hospitalization within the last year may be eligible for the study. Subjects who are deemed failures f",
+  "eligibility_table": [
+    {
+      "criterion": "≥ 18 years old.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Medical record documentation of recurrent CDI per the study definition, that includes either: a) at least one recurrence after a primary episode and has completed at least one round of standard-of-care oral antibiotic therapy or b) has had at least two episodes of severe CDI resulting in hospitalization within the last year.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of recurrent C. difficile infections and has completed antibiotic treatment, which aligns with the study's inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A positive stool test for the presence of toxigenic C. difficile within 30 days prior to or on the date of enrollment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no lab value provided to confirm a positive stool test for toxigenic C. difficile within the required timeframe.",
+      "clinical_question": "Has the patient tested positive for the presence of toxigenic C. difficile in a stool sample within 30 days prior to or on the date of enrollment?"
+    },
+    {
+      "criterion": "Is currently taking or was just prescribed antibiotics to control CDI related diarrhea at the time of enrollment.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on antibiotics (Vancomycin and Metronidazole) to control CDI-related diarrhea.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject's CDI diarrhea must be controlled (<3 unformed/loose stools/day) while taking this course of antibiotics.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of leukocytosis and recent antibiotic use, indicating potential ongoing diarrhea, which likely exceeds the threshold of <3 unformed stools/day.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Currently has continued CDI diarrhea despite being on antibiotics prescribed for CDI treatment.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently experiencing CDI diarrhea, which is not controlled, thus meeting the exclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous fecal transplant",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any previous fecal transplant.",
+      "clinical_question": "Has the patient undergone a fecal microbiota transplant at least once prior to enrollment in the PUNCHCD3 trial?"
+    },
+    {
+      "criterion": "History of inflammatory bowel disease (IBD), e.g., ulcerative colitis, Crohn's disease, or microscopic colitis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not mention inflammatory bowel disease, but this cannot be confirmed without further information.",
+      "clinical_question": "Does the patient have a documented history of inflammatory bowel disease (IBD), such as ulcerative colitis, Crohn's disease, or microscopic colitis?"
+    },
+    {
+      "criterion": "Diagnosis of irritable bowel syndrome (IBS) as determined by Rome III criteria.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding a diagnosis of irritable bowel syndrome.",
+      "clinical_question": "Does the patient exhibit abdominal pain or discomfort that occurs at least 1 day per week in the last 3 months, along with changes in stool frequency or form, as per the Rome III criteria for irritable bowel syndrome?"
+    },
+    {
+      "criterion": "Compromised immune system (e.g. immunosuppressed due to a medical condition or medication; current or recent (< 90 days) treatment with chemotherapy).",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has end-stage renal disease, which can compromise the immune system, but specific immunosuppressive conditions or treatments are not detailed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "An absolute neutrophil count of <1000 cells/µL during screening.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no absolute neutrophil count provided to assess eligibility based on this criterion.",
+      "clinical_question": "Is the patient's absolute neutrophil count currently <1000 cells/µL?"
+    },
+    {
+      "criterion": "Pregnant, breastfeeding, or intends to become pregnant during study participation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is a 55-year-old female, and there is no information provided about her pregnancy status or intentions regarding pregnancy. Therefore, it cannot be determined if this criterion is met or not.",
+      "clinical_question": "Is the patient currently pregnant, breastfeeding, or planning to become pregnant during the study participation period?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Previous fecal transplant",
+    "EXCLUSION UNCLEAR: History of inflammatory bowel disease (IBD), e.g., ulcerative colitis, Crohn's d",
+    "EXCLUSION UNCLEAR: Diagnosis of irritable bowel syndrome (IBS) as determined by Rome III criteria.",
+    "EXCLUSION UNCLEAR: An absolute neutrophil count of <1000 cells/µL during screening.",
+    "EXCLUSION UNCLEAR: Pregnant, breastfeeding, or intends to become pregnant during study participatio"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

@@ -1,0 +1,237 @@
+{
+  "nct_id": "NCT01385826",
+  "trial_title": "Effect of Adalimumab for the Treatment of Uveitis in Juvenile Idiopathic Arthritis",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "The investigators propose to study the efficacy of adalimumab versus placebo (double-blind randomization on inclusion into 2 equal groups) on reduction of ocular inflammation quantified by laser flare photometry after two months of treatment in patients with active uveitis despite well conducted treatment with steroid eye drops and MTX. The primary objective is to demonstrate a higher response rate at 2 months in the adalimumab arm versus the placebo arm. Will be considered as responding patient",
+  "eligibility_table": [
+    {
+      "criterion": "Active uveitis associated with juvenile idiopathic arthritis, with the exclusion of systemic JIA, juvenile-onset rheumatoid arthritis, and enthesitis-related JIA",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has systemic mastocytosis, but there is no information provided about active uveitis associated with juvenile idiopathic arthritis.",
+      "clinical_question": "Does the patient have active uveitis associated with juvenile idiopathic arthritis as defined by the presence of inflammatory signs in the eye within the last 3 months?"
+    },
+    {
+      "criterion": "Uveitis resistant to well conducted topical steroid therapy comprising either dexamethasone or rimexolone at a dose adapted to the patient's situation as validated by one of the investigating ophthalmologists.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's history of uveitis or response to topical steroid therapy.",
+      "clinical_question": "Has the patient been treated with topical steroid therapy comprising either dexamethasone or rimexolone at an appropriate dose for at least 4 weeks without improvement in uveitis symptoms?"
+    },
+    {
+      "criterion": "Failure of systemic treatment with methotrexate at a dose of 0.3 to 0.6 mg.kg (without exceeding 25 mg) once a week for at least 3 months (except in the case of methotrexate intolerance).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not been reported to have received methotrexate treatment, so this criterion cannot be assessed.",
+      "clinical_question": "Has the patient received methotrexate at a dose of 0.3 to 0.6 mg/kg (not exceeding 25 mg) once a week for at least 3 months?"
+    },
+    {
+      "criterion": "Patient who can be evaluated by laser flare photometry.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ability to be evaluated by laser flare photometry.",
+      "clinical_question": "Is the patient's laser flare photometry measurement ≤10 photons/ms?"
+    },
+    {
+      "criterion": "Patient at least 4 years old on initiation of trial medication and weighing a minimum of 15 kg",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 22 years old, which meets the age requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Signed informed consent both parents and/or patient's agreement",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's social security status.",
+      "clinical_question": "Have both parents signed the informed consent form for the patient to participate in the trial?"
+    },
+    {
+      "criterion": "Patient has a social security or similar",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether the patient has signed informed consent or if both parents have consented.",
+      "clinical_question": "Does the patient possess a valid social security number or a similar identification number?"
+    },
+    {
+      "criterion": "Systemic JIA, juvenile-onset rheumatoid arthritis, enthesitis-related JIA (with a risk of red eye uveitis).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has systemic mastocytosis, but there is no information provided about systemic JIA, juvenile-onset rheumatoid arthritis, or enthesitis-related JIA.",
+      "clinical_question": "Does the patient have a diagnosis of systemic juvenile idiopathic arthritis (sJIA) confirmed by a rheumatologist?"
+    },
+    {
+      "criterion": "History of treatment with anti-TNF alpha monoclonal antibody (either adalimumab or infliximab).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's treatment history with anti-TNF alpha monoclonal antibodies.",
+      "clinical_question": "Has the patient previously received treatment with either adalimumab or infliximab for uveitis?"
+    },
+    {
+      "criterion": "Any contraindication to administration of immunosuppressive therapy (immune deficit, opportunistic infection, other severe chronic disease)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has systemic mastocytosis and is on multiple immunosuppressive medications, which may indicate a contraindication to further immunosuppressive therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of cancer or lymphoproliferative disease other than successfully and completely resected squamous cell or basal cell skin cancer",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of systemic mastocytosis, which is a condition that may be considered a lymphoproliferative disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any uncontrolled disease: unstable diabetes with documented history of recurrent infections, unstable ischaemic heart disease, moderate to severe heart failure (NYHA stage III/IV), recent stroke and any other disease or condition inducing, in the investigator's opinion, a risk for the patient related to his/her participation in the trial",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has tachycardia and a recent flare of systemic mastocytosis, indicating potential instability in her condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Positive hepatitis B or C serology indicating active infection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess for active hepatitis B or C infection.",
+      "clinical_question": "Does the patient have a positive hepatitis B or C serology indicating active infection?"
+    },
+    {
+      "criterion": "History of positive HIV serology",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding HIV serology status.",
+      "clinical_question": "Does the patient have a documented history of positive HIV serology?"
+    },
+    {
+      "criterion": "Persistent infection or severe infections requiring hospitalisation or IV antibiotic therapy during the 30 days prior to inclusion in the trial or oral antibiotic therapy during the 14 days prior to inclusion in the trial",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on IV steroids and diphenhydramine, indicating recent severe symptoms that may require hospitalization.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of clinically significant alcohol or other substance abuse during the previous year",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding history of substance abuse.",
+      "clinical_question": "Has the patient experienced any clinically significant alcohol or other substance abuse within the past year?"
+    },
+    {
+      "criterion": "Previous diagnosis or signs of demyelinating disease of the central nervous system",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding previous diagnosis of demyelinating disease.",
+      "clinical_question": "Has the patient ever been diagnosed with or exhibited signs of demyelinating disease of the central nervous system, such as multiple sclerosis or neuromyelitis optica?"
+    },
+    {
+      "criterion": "History of active tuberculosis, histoplasmosis or listeriosis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding history of active tuberculosis or other specified infections.",
+      "clinical_question": "Has the patient ever been diagnosed with active tuberculosis, histoplasmosis, or listeriosis?"
+    },
+    {
+      "criterion": "Signs of latent tuberculosis (based on a history of nontreated contamination, or an opacity greater than 1 cm on chest x-ray, or a positive intradermal reaction to 5 IU of tuberculin ≥ 5 mm)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding signs of latent tuberculosis.",
+      "clinical_question": "Does the patient have a chest x-ray showing an opacity greater than 1 cm or a positive intradermal reaction to 5 IU of tuberculin ≥ 5 mm?"
+    },
+    {
+      "criterion": "Negative urine pregnancy test in girls with childbearing potential",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is a female of childbearing potential, and there is no mention of a negative urine pregnancy test.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic rupture of the blood-aqueous barrier with marked flare on the initial examination but not modified by one month of anti-inflammatory therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a chronic rupture of the blood-aqueous barrier, but the presence of systemic mastocytosis may complicate the assessment.",
+      "clinical_question": "Has the patient experienced a chronic rupture of the blood-aqueous barrier with a marked flare score of ≥2 on the initial examination despite one month of anti-inflammatory therapy?"
+    },
+    {
+      "criterion": "Impossibility to monitor flare",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Monitoring flare may be challenging due to the patient's systemic mastocytosis and its associated symptoms.",
+      "clinical_question": "Has the patient experienced ≥2 uveitis flares in the past 6 months that could not be monitored due to systemic mastocytosis symptoms?"
+    },
+    {
+      "criterion": "Children < 4 years",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 22.0 < 4.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "False flare due to the presence of giant cells on the surface of an artificial lens or in an aphakic child",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of false flare due to giant cells or an artificial lens, as the patient does not have such conditions.",
+      "clinical_question": "Are there giant cells present on the surface of the artificial lens or in the anterior chamber of the aphakic eye?"
+    },
+    {
+      "criterion": "Children presenting complications such as refractory glaucoma or cataract rapidly requiring surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not a child and does not present with complications requiring surgery, but her systemic condition may complicate the situation.",
+      "clinical_question": "Has the patient experienced refractory glaucoma or cataract requiring surgical intervention within the last 6 months?"
+    },
+    {
+      "criterion": "Phthisis bulbi with hypotonia and atrophy of the ciliary body",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have phthisis bulbi, but her systemic mastocytosis may raise concerns about ocular health.",
+      "clinical_question": "Does the patient exhibit phthisis bulbi with hypotonia and atrophy of the ciliary body as confirmed by ocular imaging or examination?"
+    },
+    {
+      "criterion": "Any other situation raising problems for maintenance of stable doses of steroids and immunosuppressive drugs during the period between 4 weeks before D0 and the M2 evaluation. Authorized immunosuppressive therapies that must be maintained at stable dose are steroid eye drops, systemic steroid therapy and once weekly oral or subcutaneous MTX at a dose of 0.3 to 0.6 mg (without exceeding 25 mg)",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on multiple medications, including steroids, which may complicate the maintenance of stable doses.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any ophthalmologic contraindication",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific ophthalmologic contraindications are noted, but the patient's systemic condition may pose risks.",
+      "clinical_question": "Does the patient have any history of ocular hypertension or glaucoma?"
+    },
+    {
+      "criterion": "If female and childbearing potential should have an appropriate contraceptive method during all study period and 5 months after last adalimumab dose. Abstinence with no oral contraception can be considered.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is female and of childbearing potential; however, there is no mention of contraceptive methods, which raises concerns.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Systemic JIA, juvenile-onset rheumatoid arthritis, enthesitis-related JIA (with ",
+    "EXCLUSION UNCLEAR: History of treatment with anti-TNF alpha monoclonal antibody (either adalimumab ",
+    "EXCLUSION VIOLATED: Any contraindication to administration of immunosuppressive therapy (immune defi",
+    "EXCLUSION VIOLATED: History of cancer or lymphoproliferative disease other than successfully and com",
+    "EXCLUSION VIOLATED: Any uncontrolled disease: unstable diabetes with documented history of recurrent",
+    "EXCLUSION UNCLEAR: Positive hepatitis B or C serology indicating active infection",
+    "EXCLUSION UNCLEAR: History of positive HIV serology",
+    "EXCLUSION VIOLATED: Persistent infection or severe infections requiring hospitalisation or IV antibi",
+    "EXCLUSION UNCLEAR: History of clinically significant alcohol or other substance abuse during the pr",
+    "EXCLUSION UNCLEAR: Previous diagnosis or signs of demyelinating disease of the central nervous syst",
+    "EXCLUSION UNCLEAR: History of active tuberculosis, histoplasmosis or listeriosis",
+    "EXCLUSION UNCLEAR: Signs of latent tuberculosis (based on a history of nontreated contamination, or",
+    "EXCLUSION VIOLATED: Negative urine pregnancy test in girls with childbearing potential",
+    "EXCLUSION UNCLEAR: Chronic rupture of the blood-aqueous barrier with marked flare on the initial ex",
+    "EXCLUSION UNCLEAR: Impossibility to monitor flare",
+    "EXCLUSION UNCLEAR: False flare due to the presence of giant cells on the surface of an artificial l",
+    "EXCLUSION UNCLEAR: Children presenting complications such as refractory glaucoma or cataract rapidl",
+    "EXCLUSION UNCLEAR: Phthisis bulbi with hypotonia and atrophy of the ciliary body",
+    "EXCLUSION VIOLATED: Any other situation raising problems for maintenance of stable doses of steroids",
+    "EXCLUSION UNCLEAR: Any ophthalmologic contraindication",
+    "LOW INCLUSION MATCH: only 1 of 7 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3103
+}

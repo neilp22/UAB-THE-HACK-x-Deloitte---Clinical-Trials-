@@ -1,0 +1,469 @@
+{
+  "nct_id": "NCT00006252",
+  "trial_title": "Fludarabine and Cyclophosphamide Followed by Peripheral Stem Cell Transplant in Treating Patients With Leukemia or Lymphoma",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Giving chemotherapy drugs, such as fludarabine and cyclophosphamide, before a donor peripheral blood stem cell transplant helps stop the growth of cancer cells. It also helps stop the patient's immune system from rejecting the donor's stem cells. When the healthy stem cells from a donor are infused into the patient they may help the patient's bone marrow make stem cells, red blood cells, white blood cells, and platelets.\n\nPURPOSE: This phase II trial is studying how well fludarabine a",
+  "eligibility_table": [
+    {
+      "criterion": "One of the following histologically confirmed diagnoses: Chronic lymphocytic leukemia",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of Chronic Lymphocytic Leukemia (CLL).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absolute lymphocytosis greater than 5,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have an absolute lymphocyte count greater than 5,000/mm^3?"
+    },
+    {
+      "criterion": "Morphologically mature lymphocytes with less than 55% prolymphocytes",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Do the patient's lymphocyte morphology results show less than 55% prolymphocytes?"
+    },
+    {
+      "criterion": "Lymphocyte phenotypic expression of CD19 and CD5",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lymphocyte phenotypic expression of CD19 and CD5 is not provided in the profile.",
+      "clinical_question": "What is the percentage of lymphocytes expressing CD19 and CD5 in the patient's peripheral blood or bone marrow sample?"
+    },
+    {
+      "criterion": "Failed at least 1 prior regimen",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone multiple prior treatments, indicating failure of at least one regimen.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Progressive lymphocytosis with more than 50% increase in peripheral lymphocytosis or a progressive lymph node or spleen enlargement (at least 25% enlargement or the appearance of new lymph nodes) that persists for at least 4 weeks despite concurrent or prior drug treatment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has elevated white count and bulky lymphadenopathy, suggesting progressive disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 1 of the following high-risk factors and not in first complete remission",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of elevated LDH and bulky lymphadenopathy, indicating high-risk factors.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "= 17p deletion",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The presence of 17p deletion is not mentioned in the profile.",
+      "clinical_question": "Does the patient have a confirmed 17p deletion in their leukemic cells?"
+    },
+    {
+      "criterion": "= 11q deletion",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The presence of 11q deletion is not mentioned in the profile.",
+      "clinical_question": "Does the patient have a documented 11q deletion in their cytogenetic analysis?"
+    },
+    {
+      "criterion": "Unmutated VH gene status",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Unmutated VH gene status is not provided in the profile.",
+      "clinical_question": "Does the patient have unmutated VH gene status as determined by PCR analysis?"
+    },
+    {
+      "criterion": "p53 mutations",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The presence of p53 mutations is not mentioned in the profile.",
+      "clinical_question": "Does the patient have a documented p53 mutation in their tumor tissue?"
+    },
+    {
+      "criterion": "Prolymphocytic leukemia (PLL)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL, not Prolymphocytic leukemia (PLL).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absolute lymphocytosis greater than 5,000/mm^3",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of elevated white count, which suggests absolute lymphocytosis likely above 5,000/mm^3.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Morphologically mature lymphocytes with more than 55% prolymphocytes",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's conditions include Richter's transformation, which indicates the presence of prolymphocytes, but the specific percentage of prolymphocytes is not provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Low-grade non-Hodgkin's lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL with large cell transformation and Richter's transformation, which does not qualify as low-grade non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Small lymphocytic lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL with large cell transformation and Richter's transformation, which does not qualify as small lymphocytic lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Follicular center lymphoma (grade I or II)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL with large cell transformation and Richter's transformation, which does not qualify as follicular center lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse (predominately small cell type)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL with large cell transformation and Richter's transformation, which does not qualify as diffuse (predominately small cell type) lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Marginal zone, B-cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL with large cell transformation and Richter's transformation, which does not qualify as marginal zone, B-cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No transformed lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Richter's transformation, indicating transformed lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Failure of at least 1 prior regimen",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone multiple prior treatments, indicating failure of at least 1 prior regimen.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 3 of the following risk factors",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide sufficient information to assess the presence of at least 3 risk factors.",
+      "clinical_question": "Does the patient have at least 3 of the following risk factors: elevated white count, elevated LDH, bulky lymphadenopathy, or poor performance status?"
+    },
+    {
+      "criterion": "Over 60 years of age",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 57.0 > 60.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status greater than 1",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have a performance status score of 1 or lower on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "LDH greater than normal",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has elevated LDH, indicating it is greater than normal.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "More than 1 site of extranodal disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify the number of extranodal disease sites; therefore, it is not clear if there is more than one.",
+      "clinical_question": "Does the patient have more than 1 site of extranodal disease as determined by imaging studies or clinical evaluation?"
+    },
+    {
+      "criterion": "Disease stage III or IV",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Richter's transformation, which typically indicates advanced disease, likely stage III or IV.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mantle cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL and Richter's transformation, but not mantle cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any stage",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has CLL, which is included in the criteria of any stage.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ineligible for protocol CALGB-59908",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's eligibility for protocol CALGB-59908 is not specified in the profile.",
+      "clinical_question": "Has the patient received any prior treatment with a monoclonal antibody targeting CD20?"
+    },
+    {
+      "criterion": "At least 1 prior treatment regimen",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone multiple prior treatment regimens.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 1 of the following:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is incomplete; it does not specify what is required for this inclusion.",
+      "clinical_question": "Has the patient experienced a complete or partial response to at least one prior treatment regimen for CLL or large cell transformation?"
+    },
+    {
+      "criterion": "Immunophenotypic expression of CD5 and CD19 and absence of CD23",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The immunophenotypic expression details are not provided in the profile.",
+      "clinical_question": "Does the patient's leukemic cells express CD5 and CD19 while being negative for CD23?"
+    },
+    {
+      "criterion": "Cytogenetic analysis with presence of t(11;14)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The profile does not mention cytogenetic analysis or the presence of t(11;14).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Overexpression of cyclin D1",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient profile does not provide information on cyclin D1 overexpression.",
+      "clinical_question": "Does the patient have a cyclin D1 expression level ≥15% in the biopsy of the left cervical node?"
+    },
+    {
+      "criterion": "Rearrangement of BCL1 gene",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient profile does not provide information on BCL1 gene rearrangement.",
+      "clinical_question": "Does the patient have a confirmed rearrangement of the BCL1 gene as determined by FISH analysis?"
+    },
+    {
+      "criterion": "Responsive or stable disease to most recent prior therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has a history of elevated white count and excellent performance status, suggesting responsive or stable disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior therapy for PLL not required",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has not received prior therapy specifically for PLL, which is acceptable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have HLA identical sibling (6/6) donor by serologic typing (A, B, DR)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No information on the availability of an HLA identical sibling donor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No syngeneic donors",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient profile does not indicate any syngeneic donors.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No age restriction",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No age restriction is specified, and the patient is 57 years old.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Under 70",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 57.0 >= 70.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Criterion is not specified, cannot assess.",
+      "clinical_question": "Has the patient achieved a complete response after the last treatment cycle prior to stem cell transplant?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Criterion is not specified, cannot assess.",
+      "clinical_question": "Has the patient achieved a complete response after the last treatment cycle prior to stem cell transplant?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Criterion is not specified, cannot assess.",
+      "clinical_question": "Has the patient achieved a complete response after the last treatment cycle prior to stem cell transplant?"
+    },
+    {
+      "criterion": "Granulocyte count at least 500/mm^3*",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's granulocyte count at least 500/mm^3?"
+    },
+    {
+      "criterion": "Platelet count at least 50,000/mm^3* NOTE: *Unless attributable to disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count at least 50,000/mm^3?"
+    },
+    {
+      "criterion": "Bilirubin no greater than 3 times upper limit of normal (ULN)*",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided, so it is unclear if they are within the acceptable range.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 3 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "AST no greater than 3 times ULN* NOTE: *Unless attributable to disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "AST levels are not provided, making it impossible to determine if they are within the acceptable range.",
+      "clinical_question": "Is the patient's AST level currently ≤3 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Creatinine clearance at least 40 mL/min, unless attributable to disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's creatinine clearance ≥40 mL/min?"
+    },
+    {
+      "criterion": "LVEF at least 30% by MUGA",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) at least 30% as measured by a MUGA scan?"
+    },
+    {
+      "criterion": "DLCO greater than 40%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "DLCO value is not provided, so we cannot assess if it is greater than 40%.",
+      "clinical_question": "Is the patient's DLCO greater than 40%?"
+    },
+    {
+      "criterion": "No symptomatic pulmonary disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the presence of symptomatic pulmonary disease.",
+      "clinical_question": "Does the patient have any evidence of symptomatic pulmonary disease, defined as a history of cough, dyspnea, or pulmonary infiltrates on imaging?"
+    },
+    {
+      "criterion": "Other:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific details are provided for this criterion.",
+      "clinical_question": "Has the patient undergone a prior autologous stem cell transplant?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's pregnancy status is not mentioned, so it is unclear if they are pregnant or nursing.",
+      "clinical_question": "Is the patient currently pregnant or nursing?"
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding a pregnancy test result.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the use of contraception.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a condom, hormonal birth control, or an intrauterine device?"
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "HIV status is not mentioned, so we cannot determine if the patient is HIV negative.",
+      "clinical_question": "Is the patient's HIV status confirmed as negative through a recent laboratory test?"
+    },
+    {
+      "criterion": "No uncontrolled diabetes mellitus",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the control of diabetes mellitus.",
+      "clinical_question": "Does the patient have a hemoglobin A1c level < 6.5% to rule out uncontrolled diabetes mellitus?"
+    },
+    {
+      "criterion": "No active serious infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of CLL and Richter's transformation, which may complicate the assessment of active infections without specific lab values provided.",
+      "clinical_question": "Does the patient currently have any active serious infections, as defined by the presence of fever ≥38.3°C, persistent cough, or positive cultures?"
+    },
+    {
+      "criterion": "No known hypersensitivity to E. coli-derived products",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any known hypersensitivity to E. coli-derived products.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to E. coli-derived products?"
+    },
+    {
+      "criterion": "No prior autologous transplantation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone any prior autologous stem cell transplantation?"
+    },
+    {
+      "criterion": "At least 4 weeks since prior chemotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has completed multiple cycles of chemotherapy, and it has been more than 4 weeks since the last treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 4 weeks since prior radiotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding prior radiotherapy.",
+      "clinical_question": "Has the patient received any prior radiotherapy within the last 4 weeks?"
+    },
+    {
+      "criterion": "At least 4 weeks since prior surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding prior surgeries.",
+      "clinical_question": "Has the patient undergone any surgical procedures within the last 4 weeks?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 15 of 65 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4308
+}

@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT02552771",
+  "trial_title": "The Canadian Mitral Research Alliance (CAMRA) Trial CardioLink-2",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "Multicentre, double-armed, randomized controlled trial designed to compare mitral valve leaflet resection versus leaflet preservation with regards to the development of functional mitral stenosis following surgical repair of mitral valve prolapse. Patients will be randomized (1:1) to receive: (1) mitral valve repair with a leaflet resection or (2) mitral valve repair with leaflet preservation (using polytetrafluoroethylene neochordae), followed by echocardiographic and clinical assessment at 12-",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with mitral regurgitation and mitral valve prolapse who are scheduled for elective mitral valve repair by an experienced mitral valve repair surgeon (>15 degenerative mitral valve repairs per year, with a repair rate>90%, and able to perform mitral repair with either a leaflet resection or leaflet preservation strategy).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe mitral valve prolapse with regurgitation and is scheduled for elective mitral valve repair, which meets the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Planned mitral valve repair amenable to either a leaflet resection or leaflet preservation surgical repair strategy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The planned mitral valve repair is likely amenable to either leaflet resection or preservation, aligning with the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with anterior leaflet or commissural prolapse",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's specific type of mitral valve prolapse (not specified as anterior or commissural) is unclear, making it uncertain if this criterion is met.",
+      "clinical_question": "Does the patient have documented evidence of anterior leaflet or commissural prolapse on echocardiogram?"
+    },
+    {
+      "criterion": "Patients with endocarditis or rheumatic mitral valve disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of endocarditis or rheumatic mitral valve disease in the provided history, but this cannot be definitively confirmed.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of endocarditis or rheumatic mitral valve disease based on current clinical evaluation and diagnostic criteria?"
+    },
+    {
+      "criterion": "Patients with mitral annular calcification extending beyond the circumference of one leaflet scallop",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's lab values do not indicate mitral annular calcification, but this information is not explicitly provided.",
+      "clinical_question": "Does the patient have mitral annular calcification that extends beyond the circumference of one leaflet scallop as assessed by echocardiography?"
+    },
+    {
+      "criterion": "Patients with significant LV dysfunction defined as a LVEF <40%",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current left ventricular ejection fraction (LVEF) as measured by transthoracic echocardiogram (TTE)?"
+    },
+    {
+      "criterion": "Patients undergoing concomitant aortic valve surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of concomitant aortic valve surgery, but it is unclear if any such surgery is planned.",
+      "clinical_question": "Is the patient scheduled to undergo aortic valve surgery in conjunction with the planned mitral valve repair?"
+    },
+    {
+      "criterion": "Patients unable to undergo bicycle ergometry",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to undergo bicycle ergometry is not addressed in the provided information.",
+      "clinical_question": "Does the patient have a contraindication to undergoing bicycle ergometry as determined by a physician?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients with anterior leaflet or commissural prolapse",
+    "EXCLUSION UNCLEAR: Patients with endocarditis or rheumatic mitral valve disease",
+    "EXCLUSION UNCLEAR: Patients with mitral annular calcification extending beyond the circumference of",
+    "EXCLUSION UNCLEAR: Patients with significant LV dysfunction defined as a LVEF <40%",
+    "EXCLUSION UNCLEAR: Patients undergoing concomitant aortic valve surgery",
+    "EXCLUSION UNCLEAR: Patients unable to undergo bicycle ergometry"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.25
+}

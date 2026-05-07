@@ -1,0 +1,234 @@
+{
+  "nct_id": "NCT01589380",
+  "trial_title": "A Randomized Trial of Angiotensin Receptor bLocker,Fimasartan, in Aortic Stenosis (ALFA Trial)",
+  "phase": "PHASE4",
+  "status": "UNKNOWN",
+  "brief_summary": "We hypothesized that fimasartan, a new generation ARBs, would improve exercise capacity and decrease the rate of progression of AS by modifying hemodynamic factors and reducing adverse LV remodeling favorably in patients with asymptomatic moderate to severe AS.",
+  "eligibility_table": [
+    {
+      "criterion": "Male or female",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "criterion targets female; patient is male",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: 20-75 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient aged between 20 and 75 years old?"
+    },
+    {
+      "criterion": "Moderate to severe aortic stenosis defined as a continuous wave Doppler determined peak aortic valve jet velocity of 3.0 - 4.5 m/s, mean pressure gradient of 25 - 49 mmHg, or aortic valve area of 0.76 - 1.5 cm2.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on aortic stenosis severity or Doppler measurements provided.",
+      "clinical_question": "What is the patient's peak aortic valve jet velocity measured by continuous wave Doppler?"
+    },
+    {
+      "criterion": "Asymptomatic aortic stenosis patients, Stationary or minimum dyspnea on exertion (NYHA Fc ≤ I or II) will be included.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on symptoms related to aortic stenosis provided.",
+      "clinical_question": "Does the patient have a New York Heart Association Functional Classification (NYHA FC) of ≤ II?"
+    },
+    {
+      "criterion": "Patients who were prescribed ACEI or ARBs for treatment of hypertension will be enrolled after 2 weeks wash-out period.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on ACEI or ARB use or wash-out period provided.",
+      "clinical_question": "Has the patient been prescribed an ACE inhibitor or angiotensin receptor blocker (ARB) for hypertension within the last 2 weeks prior to enrollment?"
+    },
+    {
+      "criterion": "SBP 120-140 mmHg with or without medication regardless of presence of hypertension or not.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Blood pressure readings not provided; hypertension status unclear.",
+      "clinical_question": "Is the patient's systolic blood pressure currently measured between 120-140 mmHg?"
+    },
+    {
+      "criterion": "Patients with BP > 140/90 mmHg with or without medication will be included after their BP is controlled with anti-hypertensive medication other than ACEI/ARBs.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Blood pressure readings not provided; hypertension status unclear.",
+      "clinical_question": "Is the patient's blood pressure currently controlled to ≤ 140/90 mmHg with anti-hypertensive medication other than ACEI/ARBs?"
+    },
+    {
+      "criterion": "Patients who are able to perform appropriate cardiopulmonary exercise test with treadmill.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the patient's ability to perform a cardiopulmonary exercise test.",
+      "clinical_question": "Can the patient achieve a maximum oxygen uptake (VO2 max) of at least 20 mL/kg/min during a cardiopulmonary exercise test on a treadmill?"
+    },
+    {
+      "criterion": "The patient agrees to the study protocol and the schedule of clinical, cardiopulmonary exercise test, and echocardiographic follow-up, and provides informed, written consent, as approved by the appropriate Institutional Review Board/Ethical Committee of the respective clinical site.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the patient's agreement to the study protocol or consent.",
+      "clinical_question": "Has the patient provided informed, written consent as approved by the Institutional Review Board/Ethical Committee?"
+    },
+    {
+      "criterion": "Symptomatic aortic stenosis: presence of exertional dyspnea (≥ NYHA Fc III), angina or syncope",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of symptomatic aortic stenosis provided.",
+      "clinical_question": "Does the patient experience exertional dyspnea classified as ≥ NYHA Functional Class III?"
+    },
+    {
+      "criterion": "Very severe aortic stenosis regardless of presence of symptoms. It was defined as a critical stenosis in the aortic valve area ≤ 0.75 cm2 accompanied by a peak aortic jet velocity ≥4.5 m/s or a mean transaortic pressure gradient ≥50 mm Hg on Doppler echocardiography.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on aortic stenosis severity or Doppler measurements provided.",
+      "clinical_question": "Is the patient's aortic valve area ≤ 0.75 cm² and does he have a peak aortic jet velocity ≥4.5 m/s or a mean transaortic pressure gradient ≥50 mm Hg on Doppler echocardiography?"
+    },
+    {
+      "criterion": "Uncontrolled HTN (SBP > 160 or DBP >100) without ACEI or ARBs during 2-weeks wash out period in patients who were prescribed ACEI or ARBs for treatment of hypertension.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on blood pressure control or medication use during wash-out period.",
+      "clinical_question": "Is the patient's systolic blood pressure greater than 160 mmHg or diastolic blood pressure greater than 100 mmHg during the 2-week washout period?"
+    },
+    {
+      "criterion": "Patients with known history of coronary artery disease including myocardial infarction, regardless of the treatment (medication only, percutaneous coronary intervention, or coronary artery bypass grafting).",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a known history of coronary artery disease, including prior coronary artery bypass grafting.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Planned cardiac surgery or planned major non-cardiac surgery within the study period.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any planned surgeries within the study period.",
+      "clinical_question": "Does the patient have any planned cardiac surgery or planned major non-cardiac surgery scheduled within the next 6 months?"
+    },
+    {
+      "criterion": "Stroke or resuscitated sudden death in the past 6 months.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient had a prior cerebrovascular accident (CVA) which may be considered a stroke, although it was not recent (more than 6 months ago). However, the criterion specifies exclusion for stroke in the past 6 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic disease requiring treatment with oral, intravenous, or intra-articular corticosteroids (use of topical, or nasal corticosteroids is permissible).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the use of corticosteroids.",
+      "clinical_question": "Has the patient been prescribed oral, intravenous, or intra-articular corticosteroids for a chronic condition in the past 6 months?"
+    },
+    {
+      "criterion": "Untreated hyperthyroidism or hypothyroidism with TSH levels more than 2 times upper limit of normal.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's thyroid nodule status and TSH levels are not provided, making it unclear if this criterion is met.",
+      "clinical_question": "Is the patient's TSH level greater than 10 mIU/L?"
+    },
+    {
+      "criterion": "A diagnosis of cancer (other than superficial squamous or basal cell skin cancer) in the past 3 years or current treatment for the active cancer.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a thyroid nodule but no current cancer diagnosis or treatment is mentioned.",
+      "clinical_question": "Has the patient been diagnosed with any cancer (other than superficial squamous or basal cell skin cancer) in the past 3 years or is currently undergoing treatment for active cancer?"
+    },
+    {
+      "criterion": "Female of child-bearing potential who do not use adequate contraception and women who are pregnant or breast-feeding.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion does not apply.",
+      "clinical_question": "Is the patient currently using an adequate form of contraception, such as hormonal birth control, an IUD, or a sterilization method?"
+    },
+    {
+      "criterion": "Any clinically significant abnormality identified at the screening visit, physical examination, laboratory tests, or electrocardiogram which, in the judgment of the Investigator, would preclude safe completion of the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No clinically significant abnormalities are reported from screening, but this cannot be confirmed without further information.",
+      "clinical_question": "Does the patient have any laboratory test results indicating a hemoglobin level <10 g/dL or any other clinically significant abnormality that would preclude safe completion of the study?"
+    },
+    {
+      "criterion": "Evidence of congestive heart failure, or left ventricular ejection fraction < 50%.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a left ventricular ejection fraction of 60%, which does not meet the exclusion for congestive heart failure, but the presence of coronary artery disease raises concerns.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Significant renal disease manifested by serum creatinine > 2.0mg/dL",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's serum creatinine levels.",
+      "clinical_question": "Is the patient's serum creatinine level currently greater than 2.0 mg/dL?"
+    },
+    {
+      "criterion": "Hepatic disease or biliary tract obstruction, or significant hepatic enzyme elevation (ALT or AST > 3 times upper limit of normal).",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No evidence of hepatic disease or elevated liver enzymes in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Documented bilateral renal artery stenosis or known contraindication of ACEI or ARBs",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has diabetes with retinopathy and peripheral neuropathy, which may indicate renal issues, and significant bilateral carotid stenosis could suggest renal artery involvement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of chronic obstructive pulmonary disease or asthma manifested by acute aggravation of COPD in the past 6 months, or currently taking bronchodilators including long-acting beta2 agonist, anticholinergics, or inhaled steroids.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of chronic obstructive pulmonary disease or asthma is mentioned, and no current use of bronchodilators is indicated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other valvular disease : Moderate or severe mitral regurgitation or mitral stenosis, Moderate or severe aortic regurgitation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific information about valvular disease is provided; further cardiac evaluation would be needed to assess for mitral or aortic regurgitation.",
+      "clinical_question": "Does the patient have moderate or severe mitral regurgitation or mitral stenosis as assessed by echocardiography?"
+    },
+    {
+      "criterion": "Patients who are unable to perform cardiopulmonary exercise test.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's history of prior cerebrovascular accident and current conditions may affect their ability to perform a cardiopulmonary exercise test.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unwillingness or inability to comply with the procedures described in this protocol.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's willingness to comply with the protocol is not explicitly stated; further inquiry would be necessary.",
+      "clinical_question": "Is the patient willing and able to attend all scheduled follow-up visits and comply with the study protocol procedures?"
+    },
+    {
+      "criterion": "Patient who have been diagnosed with galactose intolerance, lactase deficiency, malabsorption of glucose or galactose which is main ingredient of placebo.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of galactose intolerance, lactase deficiency, or malabsorption is reported in the patient profile.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Symptomatic aortic stenosis: presence of exertional dyspnea (≥ NYHA Fc III), ang",
+    "EXCLUSION UNCLEAR: Very severe aortic stenosis regardless of presence of symptoms. It was defined a",
+    "EXCLUSION UNCLEAR: Uncontrolled HTN (SBP > 160 or DBP >100) without ACEI or ARBs during 2-weeks was",
+    "EXCLUSION VIOLATED: Patients with known history of coronary artery disease including myocardial infa",
+    "EXCLUSION UNCLEAR: Planned cardiac surgery or planned major non-cardiac surgery within the study pe",
+    "EXCLUSION VIOLATED: Stroke or resuscitated sudden death in the past 6 months.",
+    "EXCLUSION UNCLEAR: Chronic disease requiring treatment with oral, intravenous, or intra-articular c",
+    "EXCLUSION UNCLEAR: Untreated hyperthyroidism or hypothyroidism with TSH levels more than 2 times up",
+    "EXCLUSION UNCLEAR: A diagnosis of cancer (other than superficial squamous or basal cell skin cancer",
+    "EXCLUSION UNCLEAR: Female of child-bearing potential who do not use adequate contraception and wome",
+    "EXCLUSION UNCLEAR: Any clinically significant abnormality identified at the screening visit, physic",
+    "EXCLUSION VIOLATED: Evidence of congestive heart failure, or left ventricular ejection fraction < 50",
+    "EXCLUSION UNCLEAR: Significant renal disease manifested by serum creatinine > 2.0mg/dL",
+    "EXCLUSION VIOLATED: Documented bilateral renal artery stenosis or known contraindication of ACEI or ",
+    "EXCLUSION UNCLEAR: Other valvular disease : Moderate or severe mitral regurgitation or mitral steno",
+    "EXCLUSION VIOLATED: Patients who are unable to perform cardiopulmonary exercise test.",
+    "EXCLUSION UNCLEAR: Unwillingness or inability to comply with the procedures described in this proto",
+    "LOW INCLUSION MATCH: only 0 of 9 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3103
+}
