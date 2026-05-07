@@ -106,14 +106,16 @@ def _condition_queries(conditions: list[str]) -> list[QuerySpec]:
 
 
 def _biomarker_queries(patient: PatientProfile, patient_text: str) -> list[QuerySpec]:
-    text = _combined_patient_text(patient, patient_text)
-    found_biomarkers = _find_terms(text, BIOMARKERS)
+    # Only search conditions + patient_text; biomarkers appearing in
+    # medications/treatments are treatments received, not condition biomarkers.
+    condition_text = patient_text + " " + " ".join(patient.conditions)
+    found_biomarkers = _find_terms_exact(condition_text, BIOMARKERS)
 
     return [
         QuerySpec(
             query_type="term",
             query=biomarker,
-            reason=f"Biomarker search: {biomarker}",
+            reason=f"Biomarker detected in condition context: {biomarker}",
             priority=85,
         )
         for biomarker in found_biomarkers[:5]
@@ -182,7 +184,20 @@ def _find_terms(text: str, terms: Iterable[str]) -> list[str]:
     found = []
 
     for term in terms:
-        if term in text:
+        if re.search(r'\b' + re.escape(term) + r'\b', text):
+            found.append(term)
+
+    return _deduplicate(found)
+
+
+def _find_terms_exact(text: str, terms: Iterable[str]) -> list[str]:
+    """Word-boundary–safe term search; prevents substring false positives."""
+    text = _normalise(text)
+    found = []
+
+    for term in terms:
+        pattern = r'\b' + re.escape(term) + r'\b'
+        if re.search(pattern, text):
             found.append(term)
 
     return _deduplicate(found)
