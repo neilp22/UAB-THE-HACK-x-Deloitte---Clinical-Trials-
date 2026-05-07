@@ -71,7 +71,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 SYSTEM_NAME = "clinical_agent"
-CANDIDATE_CAP = 50
+CANDIDATE_CAP = 100
 DOSSIER_TOP_K = 10  # generate dossiers only for top-K ranked trials per topic
 RUN_PATH = DATA_DIR / "runs" / "full_pipeline_2021.txt"
 PREDICTIONS_PATH = DATA_DIR / "predictions" / "full_pipeline_2021.json"
@@ -152,11 +152,30 @@ def _eligibility_summary(typed_verdicts: list, eliminated: bool) -> dict:
 
 
 def _derive_label(summary: dict) -> str:
-    """Pure-logic T2 label from eligibility summary (no float threshold)."""
-    if summary["exclusion_violations"] > 0:
+    """T2 label with NEI gates to fix over-confident MET labelling."""
+    inc_met  = summary.get("inclusion_met", 0)
+    inc_not_met = summary.get("inclusion_not_met", 0)
+    inc_nei  = summary.get("inclusion_nei", 0)
+    excl_viol = summary.get("exclusion_violations", 0)
+
+    inc_total = max(inc_met + inc_not_met + inc_nei, 1)
+    inc_ratio = inc_met / inc_total
+    nei_ratio = inc_nei / inc_total
+
+    if excl_viol > 0:
         return "NOT_MET"
-    if summary["inclusion_met"] > 0:
+
+    # Gate 1: majority uncertain → NEI
+    if nei_ratio > 0.5:
+        return "NEI"
+
+    # Gate 2: very weak inclusion match → NEI
+    if inc_ratio < 0.2:
+        return "NEI"
+
+    if inc_met > 0:
         return "MET"
+
     return "NEI"
 
 
@@ -496,7 +515,13 @@ def main() -> None:
                         help="Retrieval strategy (default: hybrid)")
     parser.add_argument("--max-workers", type=int, default=5,
                         help="ThreadPoolExecutor workers for per-trial processing (default: 5)")
+    parser.add_argument("--candidate-cap", type=int, default=None,
+                        help="Override CANDIDATE_CAP (default: use module-level constant)")
     args = parser.parse_args()
+
+    if args.candidate_cap is not None:
+        global CANDIDATE_CAP
+        CANDIDATE_CAP = args.candidate_cap
 
     use_cache = not args.no_cache
     budget_usd = args.budget
