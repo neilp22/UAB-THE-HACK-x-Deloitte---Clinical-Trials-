@@ -193,6 +193,7 @@ def run_topic(
     retriever=None,              # any of: TrecIndexRetriever | SemanticRetriever | HybridRetriever | None
     max_workers: int = 5,
     use_clinical_planner: bool = False,
+    use_combined: bool = False,
 ) -> tuple[dict[str, float], dict, int, int, int]:
     """
     Full pipeline for one topic.
@@ -220,31 +221,36 @@ def run_topic(
         if not top_trials:
             logger.warning("Topic %s: no candidates from retriever.", topic_id)
             return {}, {"patient_id": topic_id, "ranked_trials": []}, 0, 0, 0
-    elif use_clinical_planner:
-        # Clinical query planner path (structured queries + MeSH, no TREC index)
-        nct_ids = build_queries_clinical(
-            patient_text=patient_text,
-            profile=profile,
-            max_candidates=CANDIDATE_CAP,
-            use_cache=use_cache,
-            cache=qb_cache,
-        )
-        top_trials = [
-            t for nid in nct_ids
-            if (t := qb_cache.get(f"trial:{nid}")) and isinstance(t, dict)
-        ]
-        # Fall back to CT API fetch for any NCT IDs not in local cache
-        missing = [nid for nid in nct_ids if not qb_cache.get(f"trial:{nid}")]
-        if missing:
-            from src.retrieval.trec_index_retriever import TrecIndexRetriever as _TI
-            _tc = diskcache.Cache(str(CACHE_DIR / "trial_data"))
-            for nid in missing[:CANDIDATE_CAP]:
-                td = _tc.get(nid)
-                if td:
-                    top_trials.append(td)
+    elif use_combined or use_clinical_planner:
+        # Combined path: union of clinical planner + MeSH (default)
+        # Clinical-only path: structured queries + MeSH
+        if use_combined:
+            from src.retrieval.query_builder import build_queries_combined
+            nct_ids = build_queries_combined(
+                patient_text=patient_text,
+                profile=profile,
+                max_candidates=CANDIDATE_CAP,
+                use_cache=use_cache,
+                cache=qb_cache,
+            )
+        else:
+            nct_ids = build_queries_clinical(
+                patient_text=patient_text,
+                profile=profile,
+                max_candidates=CANDIDATE_CAP,
+                use_cache=use_cache,
+                cache=qb_cache,
+            )
+        _tc = diskcache.Cache(str(CACHE_DIR / "trial_data"))
+        top_trials = []
+        for nid in nct_ids:
+            t = qb_cache.get(f"trial:{nid}") or _tc.get(nid)
+            if t and isinstance(t, dict):
+                top_trials.append(t)
         top_trials = top_trials[:CANDIDATE_CAP]
         if not top_trials:
-            logger.warning("Topic %s: no candidates from clinical planner.", topic_id)
+            label = "combined" if use_combined else "clinical planner"
+            logger.warning("Topic %s: no candidates from %s.", topic_id, label)
             return {}, {"patient_id": topic_id, "ranked_trials": []}, 0, 0, 0
     else:
         # Original CT API path
@@ -537,9 +543,9 @@ def main() -> None:
     parser.add_argument("--trec-index-path", default="data/cache/bm25_trec2021_index.pkl",
                         help="Path to saved TREC BM25 index")
     parser.add_argument("--retrieval-mode",
-                        choices=["api", "trec-index", "semantic", "hybrid", "clinical"],
-                        default="hybrid",
-                        help="Retrieval strategy (default: hybrid)")
+                        choices=["api", "trec-index", "semantic", "hybrid", "clinical", "combined"],
+                        default="combined",
+                        help="Retrieval strategy (default: combined)")
     parser.add_argument("--max-workers", type=int, default=5,
                         help="ThreadPoolExecutor workers for per-trial processing (default: 5)")
     parser.add_argument("--candidate-cap", type=int, default=None,
@@ -607,12 +613,15 @@ def main() -> None:
             retriever = HybridRetriever(sem, args.trec_index_path)
             logger.info("Retrieval mode: hybrid (BioBERT + BM25, alpha=%.2f beta=%.2f)",
                         retriever.alpha, retriever.beta)
+    elif mode == "combined":
+        logger.info("Retrieval mode: combined (ClinicalQueryPlanner ∪ MeSH)")
     elif mode == "clinical":
         logger.info("Retrieval mode: clinical (ClinicalQueryPlanner + MeSH)")
     else:
         logger.info("Retrieval mode: api (CT API + QueryBuilder)")
 
     use_clinical_planner = (mode == "clinical")
+    use_combined = (mode == "combined")
 
     # Shared caches
     qb_cache = diskcache.Cache(str(CACHE_DIR / "query_builder"))
@@ -649,6 +658,7 @@ def main() -> None:
                 retriever=retriever,
                 max_workers=args.max_workers,
                 use_clinical_planner=use_clinical_planner,
+                use_combined=use_combined,
             )
         except Exception as exc:
             logger.error("Topic %s FAILED: %s", topic_id, exc)

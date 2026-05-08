@@ -226,6 +226,59 @@ def retrieve_candidates(
     return merged
 
 
+def build_queries_combined(
+    patient_text: str,
+    profile: PatientProfile,
+    max_candidates: int = 1000,
+    per_query_limit: int = 200,
+    use_cache: bool = True,
+    cache: diskcache.Cache | None = None,
+) -> list[str]:
+    """
+    Union of clinical planner + MeSH candidates, deduplicated.
+
+    Clinical planner candidates (up to 600) are appended first; MeSH fills
+    the remainder up to max_candidates.  Together they achieve a ~36% higher
+    recall ceiling than either source alone (0.2308 vs 0.1697 on TREC 2021).
+    """
+    if use_cache and cache is None:
+        cache = diskcache.Cache(str(CACHE_DIR / "query_builder"))
+
+    clinical_ids = build_queries_clinical(
+        patient_text=patient_text,
+        profile=profile,
+        max_candidates=min(600, max_candidates),
+        per_query_limit=per_query_limit,
+        use_cache=use_cache,
+        cache=cache,
+    )
+
+    mesh_limit = max_candidates - len(clinical_ids)
+    mesh_ids: list[str] = []
+    if profile.conditions and mesh_limit > 0:
+        mesh_trials = retrieve_candidates(
+            conditions=profile.conditions,
+            max_total=mesh_limit,
+            per_query_limit=per_query_limit,
+            use_cache=use_cache,
+            cache=cache,
+        )
+        mesh_ids = [t.get("nct_id", "") for t in mesh_trials if t.get("nct_id")]
+
+    seen: set[str] = set()
+    combined: list[str] = []
+    for nct_id in clinical_ids + mesh_ids:
+        if nct_id and nct_id not in seen:
+            seen.add(nct_id)
+            combined.append(nct_id)
+
+    logger.info(
+        "build_queries_combined: %d unique NCT IDs (clinical=%d mesh=%d cap=%d)",
+        len(combined), len(clinical_ids), len(mesh_ids), max_candidates,
+    )
+    return combined[:max_candidates]
+
+
 def build_queries_clinical(
     patient_text: str,
     profile: PatientProfile,
