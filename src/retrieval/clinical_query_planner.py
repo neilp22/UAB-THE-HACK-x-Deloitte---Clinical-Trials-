@@ -90,17 +90,37 @@ def _condition_queries(conditions: list[str]) -> list[QuerySpec]:
         aliases = _expand_condition(condition)
 
         for alias_index, alias in enumerate(aliases[:3]):
-            query = _clean_query(alias)
+            cleaned = _clean_query(alias, max_words=8)
+            if not cleaned:
+                continue
 
-            if query:
-                queries.append(
-                    QuerySpec(
-                        query_type="condition",
-                        query=query,
-                        reason=f"Condition search based on: {condition}",
-                        priority=100 - index * 10 - alias_index,
-                    )
-                )
+            words = cleaned.split()
+            base_priority = 100 - index * 10 - alias_index
+
+            if len(words) <= 2:
+                # Short condition — query.cond AND logic is safe
+                queries.append(QuerySpec(
+                    query_type="condition",
+                    query=cleaned,
+                    reason=f"Condition (precise): {condition}",
+                    priority=base_priority,
+                ))
+            else:
+                # Long condition — two queries:
+                # 1. query.cond on first 2 words: broad recall, no zero-result AND trap
+                queries.append(QuerySpec(
+                    query_type="condition",
+                    query=" ".join(words[:2]),
+                    reason=f"Condition broad: {condition}",
+                    priority=base_priority,
+                ))
+                # 2. query.term on full phrase: flexible full-text match
+                queries.append(QuerySpec(
+                    query_type="term",
+                    query=cleaned,
+                    reason=f"Condition specific: {condition}",
+                    priority=base_priority - 5,
+                ))
 
     return queries
 
@@ -203,10 +223,14 @@ def _find_terms_exact(text: str, terms: Iterable[str]) -> list[str]:
     return _deduplicate(found)
 
 
-def _clean_query(text: str, max_words: int = 3) -> str:
+def _clean_query(text: str, max_words: int = 8) -> str:
+    """Strip special chars and stopwords; cap at max_words.
+
+    Default raised to 8 — the CT API v2 has no word-count hard limit.
+    Routing in _condition_queries handles the query.cond AND-logic trap.
+    """
     text = re.sub(r"[^a-zA-Z0-9+\-\s]", " ", text.lower())
     words = [word for word in text.split() if word not in STOPWORDS]
-
     return " ".join(words[:max_words])
 
 

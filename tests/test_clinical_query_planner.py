@@ -55,9 +55,9 @@ SIMPLE_PROFILE = PatientProfile(
 # ---------------------------------------------------------------------------
 
 class TestCleanQuery:
-    def test_max_three_words(self):
-        result = _clean_query("non small cell lung cancer metastatic")
-        assert len(result.split()) <= 3
+    def test_max_eight_words(self):
+        result = _clean_query("non small cell lung cancer metastatic stage four")
+        assert len(result.split()) <= 8
 
     def test_stopwords_removed(self):
         result = _clean_query("a patient with cancer")
@@ -80,9 +80,10 @@ class TestCleanQuery:
         # commas removed, alphanumeric kept
         assert "," not in result
 
-    def test_respects_3_word_limit_exactly(self):
-        result = _clean_query("alpha beta gamma delta epsilon")
-        assert len(result.split()) == 3
+    def test_respects_8_word_limit_exactly(self):
+        # 10 non-stopwords → capped at 8
+        result = _clean_query("alpha beta gamma delta epsilon zeta eta theta iota kappa")
+        assert len(result.split()) == 8
 
 
 # ---------------------------------------------------------------------------
@@ -125,11 +126,11 @@ class TestNSCLCQueries:
         cond_queries = [q for q in queries if q.query_type == "condition"]
         assert len(cond_queries) > 0
 
-    def test_no_query_exceeds_3_words(self):
+    def test_no_query_exceeds_8_words(self):
         queries = plan_clinical_queries(NSCLC_PROFILE, NSCLC_TEXT)
         for q in queries:
-            assert len(q.query.split()) <= 3, (
-                f"Query '{q.query}' exceeds 3 words"
+            assert len(q.query.split()) <= 8, (
+                f"Query '{q.query}' exceeds 8 words"
             )
 
     def test_high_priority_condition_first(self):
