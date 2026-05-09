@@ -505,6 +505,8 @@ def main() -> None:
                         help="TREC year to evaluate (default: 2021)")
     parser.add_argument("--topic", type=int, default=None,
                         help="Run a single topic ID (debug mode)")
+    parser.add_argument("--topics", default=None,
+                        help="Comma-separated topic IDs to run (e.g. 3,4,7)")
     parser.add_argument("--topics-limit", type=int, default=None,
                         help="Run only the first N topics")
     parser.add_argument("--no-cache", action="store_true",
@@ -556,6 +558,12 @@ def main() -> None:
             logger.error("Topic %d not found.", args.topic)
             sys.exit(1)
         topics = {key: topics[key]}
+    elif args.topics is not None:
+        ids = [t.strip() for t in args.topics.split(",") if t.strip()]
+        topics = {k: topics[k] for k in ids if k in topics}
+        if not topics:
+            logger.error("None of the requested topic IDs found: %s", args.topics)
+            sys.exit(1)
     elif args.topics_limit:
         topics = dict(list(topics.items())[: args.topics_limit])
 
