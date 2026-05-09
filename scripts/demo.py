@@ -14,22 +14,26 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from src.matching.label_deriver import derive_label
+
 
 def _label(enriched: list, eliminated: bool) -> str:
+    """Map enriched verdict tuples to a display label using the canonical derive_label."""
     if eliminated:
         return "NOT_ELIGIBLE"
-    excl_viol = sum(1 for ct, _, v in enriched if ct == "exclusion" and v.verdict == "NOT_MET")
-    inc_met = sum(1 for ct, _, v in enriched if ct == "inclusion" and v.verdict == "MET")
-    inc_nei = sum(1 for ct, _, v in enriched if ct == "inclusion" and v.verdict == "NEI")
-    if excl_viol > 0:
+    summary = {
+        "inclusion_met": sum(1 for ct, _, v in enriched if ct == "inclusion" and v.verdict == "MET"),
+        "inclusion_not_met": sum(1 for ct, _, v in enriched if ct == "inclusion" and v.verdict == "NOT_MET"),
+        "inclusion_nei": sum(1 for ct, _, v in enriched if ct == "inclusion" and v.verdict == "NEI"),
+        "exclusion_violations": sum(1 for ct, _, v in enriched if ct == "exclusion" and v.verdict == "NOT_MET"),
+    }
+    base = derive_label(summary)
+    if base == "NOT_MET":
         return "NOT_ELIGIBLE"
-    if inc_met > 0 and inc_nei == 0:
-        return "ELIGIBLE"
-    if inc_met > 0 and inc_nei > 0:
-        return "ELIGIBLE_PENDING_CLARIFICATION"
-    if inc_nei > 0:
-        return "ELIGIBLE_PENDING_CLARIFICATION"
-    return "NEI"
+    if base == "MET":
+        return "ELIGIBLE" if summary["inclusion_nei"] == 0 else "ELIGIBLE_PENDING_CLARIFICATION"
+    # NEI — may still show pending if there's partial inclusion evidence
+    return "ELIGIBLE_PENDING_CLARIFICATION" if summary["inclusion_met"] > 0 else "NEI"
 
 
 def main() -> None:

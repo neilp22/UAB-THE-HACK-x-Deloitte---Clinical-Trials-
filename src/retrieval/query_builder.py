@@ -237,17 +237,20 @@ def build_queries_combined(
     """
     Union of clinical planner + MeSH candidates, deduplicated.
 
-    Clinical planner candidates (up to 600) are appended first; MeSH fills
-    the remainder up to max_candidates.  Together they achieve a ~36% higher
-    recall ceiling than either source alone (0.2308 vs 0.1697 on TREC 2021).
+    Budget is split 50/50: clinical gets half the cap, MeSH fills the rest.
+    This ensures MeSH contributes even at small caps (e.g. cap=100 → 50 each).
+    Clinical candidates are placed first (higher precision), MeSH adds coverage.
+    Together they achieve a ~36% higher recall ceiling (0.2308 vs 0.1697 TREC 2021).
     """
     if use_cache and cache is None:
         cache = diskcache.Cache(str(CACHE_DIR / "query_builder"))
 
+    half = max_candidates // 2  # e.g. 50 at cap=100, 300 at cap=600
+
     clinical_ids = build_queries_clinical(
         patient_text=patient_text,
         profile=profile,
-        max_candidates=min(600, max_candidates),
+        max_candidates=half,
         per_query_limit=per_query_limit,
         use_cache=use_cache,
         cache=cache,
