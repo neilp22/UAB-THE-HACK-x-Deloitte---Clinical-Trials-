@@ -15,6 +15,7 @@ diskcache>=5.6.3
 
 # TREC evaluation
 pytrec_eval-terrier>=0.5.9
+scikit-learn>=1.4.0
 
 # XML parsing
 lxml>=5.2.0
