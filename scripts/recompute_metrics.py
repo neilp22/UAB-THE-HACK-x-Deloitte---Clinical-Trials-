@@ -19,37 +19,18 @@ from pathlib import Path
 import pytrec_eval
 from sklearn.metrics import classification_report, f1_score
 
+sys.path.insert(0, str(Path(__file__).parent.parent))
+from src.matching.label_deriver import derive_label as _new_derive_label
+
 # ---------------------------------------------------------------------------
 # Label derivation — two versions
 # ---------------------------------------------------------------------------
 
 def _old_derive_label(s: dict) -> str:
-    """Original logic: MET if any inclusion_met, else NEI."""
+    """Original (pre-gate) logic kept for before/after comparison only."""
     if s.get("exclusion_violations", 0) > 0:
         return "NOT_MET"
     if s.get("inclusion_met", 0) > 0:
-        return "MET"
-    return "NEI"
-
-
-def _new_derive_label(s: dict) -> str:
-    """Gates: majority NEI → NEI; weak inclusion match → NEI."""
-    inc_met     = s.get("inclusion_met", 0)
-    inc_not_met = s.get("inclusion_not_met", 0)
-    inc_nei     = s.get("inclusion_nei", 0)
-    excl_viol   = s.get("exclusion_violations", 0)
-
-    inc_total = max(inc_met + inc_not_met + inc_nei, 1)
-    inc_ratio = inc_met / inc_total
-    nei_ratio = inc_nei / inc_total
-
-    if excl_viol > 0:
-        return "NOT_MET"
-    if nei_ratio > 0.5:
-        return "NEI"
-    if inc_ratio < 0.3:
-        return "NEI"
-    if inc_met > 0:
         return "MET"
     return "NEI"
 

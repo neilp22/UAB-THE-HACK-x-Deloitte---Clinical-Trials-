@@ -23,6 +23,7 @@ sys.path.insert(0, str(Path(__file__).parent.parent))
 import pytrec_eval
 
 from src.config import DATA_DIR, TREC_2021_DIR
+from src.matching.label_deriver import derive_label
 
 # ---------------------------------------------------------------------------
 # Grid definition
@@ -116,13 +117,6 @@ def main() -> None:
     # Baseline T2 (fixed — not affected by score weights)
     from sklearn.metrics import f1_score
     _GRADE_TO_LABEL = {2: "MET", 1: "NOT_MET", 0: "NEI"}
-
-    def derive_label(s: dict) -> str:
-        if s.get("exclusion_violations", 0) > 0:
-            return "NOT_MET"
-        if s.get("inclusion_met", 0) > 0:
-            return "MET"
-        return "NEI"
 
     y_true, y_pred_base = [], []
     for entry in predictions:

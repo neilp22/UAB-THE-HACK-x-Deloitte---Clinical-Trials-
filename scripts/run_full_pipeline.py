@@ -55,6 +55,7 @@ from src.matching.hard_filter import apply_hard_filter
 from src.output.dossier_generator import generate_dossier
 from src.output.nei_question_generator import generate_nei_question
 from src.parsing.criteria_parser import parse_criteria
+from src.matching.label_deriver import derive_label as _derive_label
 from src.parsing.patient_normalizer import normalize_patient
 from src.ranking.scorer import score_trial
 from src.retrieval.bm25_retriever import BM25Retriever
@@ -149,34 +150,6 @@ def _eligibility_summary(typed_verdicts: list, eliminated: bool) -> dict:
         "inclusion_nei": inc_nei,
         "exclusion_violations": excl_viol,
     }
-
-
-def _derive_label(summary: dict) -> str:
-    """T2 label with NEI gates to fix over-confident MET labelling."""
-    inc_met  = summary.get("inclusion_met", 0)
-    inc_not_met = summary.get("inclusion_not_met", 0)
-    inc_nei  = summary.get("inclusion_nei", 0)
-    excl_viol = summary.get("exclusion_violations", 0)
-
-    inc_total = max(inc_met + inc_not_met + inc_nei, 1)
-    inc_ratio = inc_met / inc_total
-    nei_ratio = inc_nei / inc_total
-
-    if excl_viol > 0:
-        return "NOT_MET"
-
-    # Gate 1: majority uncertain → NEI
-    if nei_ratio > 0.5:
-        return "NEI"
-
-    # Gate 2: weak inclusion match → NEI
-    if inc_ratio < 0.3:
-        return "NEI"
-
-    if inc_met > 0:
-        return "MET"
-
-    return "NEI"
 
 
 # ---------------------------------------------------------------------------
