@@ -113,7 +113,7 @@ def main() -> None:
     parser.add_argument("--quick", action="store_true", help="Alias for --topics 3")
     parser.add_argument("--no-dual", action="store_true",
                         help="Use gpt-4o-mini only (already the default)")
-    parser.add_argument("--mode", choices=["combined", "hybrid", "api"], default="combined")
+    parser.add_argument("--mode", choices=["combined", "hybrid", "api"], default="hybrid")
     args = parser.parse_args()
 
     _check_env()
