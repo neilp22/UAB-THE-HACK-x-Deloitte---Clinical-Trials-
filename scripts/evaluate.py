@@ -49,7 +49,7 @@ def _check_data(year: int) -> None:
 def _stream_pipeline(cmd: list[str]) -> tuple[int, float]:
     """Run cmd, stream output to terminal in real-time, return (returncode, cost_usd)."""
     cost = 0.0
-    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)
+    proc = subprocess.Popen(cmd, stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True, cwd=str(ROOT))
     assert proc.stdout is not None
     for line in proc.stdout:
         print(line, end="", flush=True)
