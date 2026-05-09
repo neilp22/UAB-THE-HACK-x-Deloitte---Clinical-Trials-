@@ -150,18 +150,12 @@ def main() -> None:
         pred_path = ROOT / "data" / "predictions" / f"full_pipeline_{year}.json"
 
         if topic_ids is not None:
-            all_preds: list[dict] = []
-            for tid in topic_ids:
-                cmd = base_cmd + ["--topic", str(tid)]
-                rc, cost = _stream_pipeline(cmd)
-                total_cost += cost
-                if rc != 0:
-                    print(f"WARNING: pipeline exited {rc} for topic {tid}")
-                    continue
-                if pred_path.exists():
-                    data = json.loads(pred_path.read_text())
-                    all_preds.extend(data if isinstance(data, list) else [data])
-            pred_path.write_text(json.dumps(all_preds, indent=2))
+            cmd = base_cmd + ["--topics", ",".join(str(t) for t in topic_ids)]
+            rc, cost = _stream_pipeline(cmd)
+            total_cost += cost
+            if rc != 0:
+                print(f"WARNING: pipeline exited {rc} for TREC {year} topics {topic_ids}")
+                continue
         else:
             cmd = base_cmd + ["--topics-limit", str(n_display)]
             rc, cost = _stream_pipeline(cmd)
