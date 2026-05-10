@@ -182,8 +182,12 @@ def run_topic(
 
     # 2. Retrieve candidates
     if retriever is not None:
-        # Index-based path (TrecIndex / Semantic / Hybrid): query → NCT IDs → trial dicts
-        nct_ids = retriever.query(patient_text, top_k=CANDIDATE_CAP)
+        # Index-based path (TrecIndex / Semantic / Hybrid / HighRecall)
+        from src.retrieval.high_recall_retriever import HighRecallRetriever
+        if isinstance(retriever, HighRecallRetriever):
+            nct_ids = retriever.retrieve(patient_text, profile=profile, top_k=CANDIDATE_CAP)
+        else:
+            nct_ids = retriever.query(patient_text, top_k=CANDIDATE_CAP)
         # SemanticRetriever.query() returns list[dict]; others return list[str]
         if nct_ids and isinstance(nct_ids[0], dict):
             nct_ids = [r["nct_id"] for r in nct_ids]
@@ -518,7 +522,8 @@ def main() -> None:
     parser.add_argument("--trec-index-path", default="data/cache/bm25_trec2021_index.pkl",
                         help="Path to saved TREC BM25 index")
     parser.add_argument("--retrieval-mode",
-                        choices=["api", "trec-index", "semantic", "hybrid", "clinical", "combined"],
+                        choices=["api", "trec-index", "semantic", "hybrid", "clinical", "combined",
+                                 "high-recall"],
                         default="combined",
                         help="Retrieval strategy (default: combined)")
     parser.add_argument("--max-workers", type=int, default=5,
@@ -594,6 +599,16 @@ def main() -> None:
             retriever = HybridRetriever(sem, args.trec_index_path)
             logger.info("Retrieval mode: hybrid (BioBERT + BM25, alpha=%.2f beta=%.2f)",
                         retriever.alpha, retriever.beta)
+    elif mode == "high-recall":
+        from src.retrieval.high_recall_retriever import HighRecallRetriever
+        retriever = HighRecallRetriever(
+            bm25_index_path=args.trec_index_path,
+            field_index_path=str(CACHE_DIR / "field_bm25_index.pkl"),
+            embeddings_path=str(CACHE_DIR / "embeddings" / "trial_embeddings.npy"),
+            nct_ids_pkl=str(CACHE_DIR / "embeddings" / "trial_nct_ids.pkl"),
+            trial_cache_dir=str(CACHE_DIR / "trial_data"),
+        )
+        logger.info("Retrieval mode: high-recall (multi-query × field-BM25 × RRF)")
     elif mode == "combined":
         logger.info("Retrieval mode: combined (ClinicalQueryPlanner ∪ MeSH)")
     elif mode == "clinical":
