@@ -66,6 +66,11 @@ from src.retrieval.hybrid_retriever import HybridRetriever
 from src.retrieval.query_builder import build_queries_clinical, retrieve_candidates
 from src.retrieval.semantic_retriever import SemanticRetriever
 from src.retrieval.trec_index_retriever import TrecIndexRetriever
+from src.utils.run_artifacts import (
+    make_run_dir,
+    materialize_run_artifacts,
+    write_config_snapshot,
+)
 
 logging.basicConfig(
     level=logging.INFO,
@@ -561,6 +566,21 @@ def main() -> None:
                         help="ThreadPoolExecutor workers for per-trial processing (default: 5)")
     parser.add_argument("--candidate-cap", type=int, default=None,
                         help="Override CANDIDATE_CAP (default: use module-level constant)")
+    parser.add_argument(
+        "--run-artifacts",
+        action="store_true",
+        help="Save reproducible per-run artifacts under runs/",
+    )
+    parser.add_argument(
+        "--run-id",
+        default=None,
+        help="Optional explicit run id, e.g. 2026-05-12_run_001",
+    )
+    parser.add_argument(
+        "--run-root",
+        default="runs",
+        help="Root folder for per-run artifacts (default: runs)",
+    )
     args = parser.parse_args()
 
     if args.candidate_cap is not None:
@@ -576,6 +596,29 @@ def main() -> None:
     RUN_PATH = DATA_DIR / "runs" / f"full_pipeline_{args.year}.txt"
     PREDICTIONS_PATH = DATA_DIR / "predictions" / f"full_pipeline_{args.year}.json"
     DOSSIERS_DIR = DATA_DIR / "dossiers" / str(args.year)
+
+    run_artifacts_dir = None
+
+    if args.run_artifacts:
+        run_artifacts_dir = make_run_dir(args.run_root, args.run_id)
+        write_config_snapshot(
+            run_artifacts_dir,
+            {
+                "year": args.year,
+                "topic": args.topic,
+                "topics": args.topics,
+                "topics_limit": args.topics_limit,
+                "retrieval_mode": args.retrieval_mode,
+                "candidate_cap": CANDIDATE_CAP,
+                "max_workers": args.max_workers,
+                "use_cache": use_cache,
+                "budget_usd": budget_usd,
+                "run_path": str(RUN_PATH),
+                "predictions_path": str(PREDICTIONS_PATH),
+                "dossiers_dir": str(DOSSIERS_DIR),
+            },
+        )
+        logger.info("Run artifacts directory: %s", run_artifacts_dir)
 
     topics_path = trec_dir / "topics.xml"
     qrels_path = trec_dir / "qrels.txt"
@@ -754,6 +797,43 @@ def main() -> None:
     t3_ndcg10 = retrieval["ndcg_cut_10"]
     map_score = retrieval["map"]
     composite = 0.20 * t1_recall20 + 0.30 * t2_micro_f1 + 0.25 * t3_ndcg10
+
+    metrics_payload = {
+        "year": args.year,
+        "topics_evaluated": len(all_predictions),
+        "failed_topics": failed_topics,
+        "elapsed_seconds": elapsed_total,
+        "llm_cost_est_usd": _llm_cost_usd(),
+        "retrieval_mode": mode,
+        "candidate_cap": CANDIDATE_CAP,
+        "recall_20": t1_recall20,
+        "micro_f1": t2_micro_f1,
+        "ndcg_cut_10": t3_ndcg10,
+        "map": map_score,
+        "composite": composite,
+        "t2_report": t2_report,
+    }
+
+    if run_artifacts_dir is not None:
+        materialize_run_artifacts(
+            run_artifacts_dir,
+            predictions=all_predictions,
+            metrics=metrics_payload,
+            run_file_path=RUN_PATH,
+            predictions_path=PREDICTIONS_PATH,
+            dossiers_dir=DOSSIERS_DIR,
+            summary={
+                "year": args.year,
+                "topics_evaluated": len(all_predictions),
+                "failed_topics": failed_topics,
+                "retrieval_mode": mode,
+                "candidate_cap": CANDIDATE_CAP,
+                "avg_survivors": avg_survivors,
+                "criteria_cache_hits": total_criteria_hits,
+                "criteria_cache_total": total_criteria_calls,
+            },
+        )
+        logger.info("Run artifacts written to %s", run_artifacts_dir)
 
     # --- Results banner ---
     print("\n" + "=" * 60)
