@@ -53,12 +53,36 @@ STOPWORDS = {
 }
 
 
+def extract_clinical_terms_llm(patient_text: str) -> list[str]:
+    from src.llm_client import complete
+    import json
+    prompt = f"""Extract 2-4 precise medical terms for clinical trial search.
+Prefer full names over acronyms. Return ONLY a JSON array.
+Example: ["non-small cell lung carcinoma", "EGFR mutation"]
+Patient: {patient_text}"""
+    try:
+        raw = complete(prompt, temperature=0, max_tokens=150)
+        terms = json.loads(raw.strip())
+        return [str(t).strip() for t in terms if t][:4]
+    except Exception:
+        return []
+
+
 def plan_clinical_queries(
     patient: PatientProfile,
     patient_text: str,
     max_queries: int = 12,
 ) -> list[QuerySpec]:
     queries: list[QuerySpec] = []
+
+    llm_terms = extract_clinical_terms_llm(patient_text)
+    for i, term in enumerate(llm_terms):
+        queries.append(QuerySpec(
+            query_type="condition",
+            query=term[:50],
+            reason=f"LLM expanded term: {term}",
+            priority=95 - i,
+        ))
 
     queries.extend(_condition_queries(patient.conditions))
     queries.extend(_biomarker_queries(patient, patient_text))

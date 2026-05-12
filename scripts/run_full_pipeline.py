@@ -72,7 +72,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 SYSTEM_NAME = "clinical_agent"
-CANDIDATE_CAP = 100
+CANDIDATE_CAP = 250
 DOSSIER_TOP_K = 10  # generate dossiers only for top-K ranked trials per topic
 RUN_PATH = DATA_DIR / "runs" / "full_pipeline_2021.txt"
 PREDICTIONS_PATH = DATA_DIR / "predictions" / "full_pipeline_2021.json"

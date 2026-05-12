@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import sys
 from pathlib import Path
+from unittest.mock import patch
 
 import pytest
 
@@ -166,7 +167,12 @@ class TestFallback:
 
     def test_fallback_is_term_type(self):
         profile = PatientProfile()
-        queries = plan_clinical_queries(profile, "rare genetic syndrome xyz123")
+        # Patch LLM to return [] so the text-based fallback is exercised
+        with patch(
+            "src.retrieval.clinical_query_planner.extract_clinical_terms_llm",
+            return_value=[],
+        ):
+            queries = plan_clinical_queries(profile, "rare genetic syndrome xyz123")
         assert any(q.reason == "Fallback query from patient text" for q in queries)
 
     def test_no_fallback_when_conditions_present(self):

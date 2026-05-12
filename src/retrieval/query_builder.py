@@ -275,9 +275,30 @@ def build_queries_combined(
             seen.add(nct_id)
             combined.append(nct_id)
 
+    # LLM expansion: generate additional MeSH-compatible terms and query CT API
+    from src.retrieval.llm_query_expander import get_expanded_condition_variants
+    llm_terms = get_expanded_condition_variants(profile, patient_text)
+    llm_count = 0
+    for term in llm_terms[:6]:
+        if len(combined) >= max_candidates:
+            break
+        try:
+            llm_trials = search_trials(
+                query_term=term,
+                max_results=50,
+            )
+            for t in llm_trials:
+                nct = t.get("nct_id", "") if isinstance(t, dict) else t
+                if nct and nct not in seen:
+                    seen.add(nct)
+                    combined.append(nct)
+                    llm_count += 1
+        except Exception as exc:
+            logger.warning("LLM term '%s' failed: %s", term, exc)
+
     logger.info(
-        "build_queries_combined: %d unique NCT IDs (clinical=%d mesh=%d cap=%d)",
-        len(combined), len(clinical_ids), len(mesh_ids), max_candidates,
+        "build_queries_combined: %d unique NCT IDs (clinical=%d mesh=%d llm=%d cap=%d)",
+        len(combined), len(clinical_ids), len(mesh_ids), llm_count, max_candidates,
     )
     return combined[:max_candidates]
 
