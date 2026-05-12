@@ -57,7 +57,10 @@ from src.output.nei_question_generator import generate_nei_question
 from src.parsing.criteria_parser import parse_criteria
 from src.matching.label_deriver import derive_label as _derive_label
 from src.parsing.patient_normalizer import normalize_patient
-from src.ranking.scorer import score_trial
+from src.ranking.scorer import (
+    explain_score_breakdown,
+    score_trial_breakdown,
+)
 from src.retrieval.bm25_retriever import BM25Retriever
 from src.retrieval.hybrid_retriever import HybridRetriever
 from src.retrieval.query_builder import build_queries_clinical, retrieve_candidates
@@ -267,10 +270,22 @@ def run_topic(
 
             if not survived:
                 return {
-                    "nct_id": nct_id, "score": 0.0,
+                    "nct_id": nct_id,
+                    "score": 0.0,
+                    "score_breakdown": {
+                        "hard_filter_eliminated": True,
+                        "exclusion_penalty": 1.0,
+                        "raw_score": 0.0,
+                        "final_score": 0.0,
+                    },
+                    "score_explanation": (
+                        "Ranked low because a deterministic exclusion criterion "
+                        "eliminated the trial."
+                    ),
                     "summary": _eligibility_summary([], eliminated=True),
                     "title": trial.get("title", ""),
-                    "_cache_hit": cache_hit, "_survived": False,
+                    "_cache_hit": cache_hit,
+                    "_survived": False,
                 }
 
             typed_verdicts = evaluate_trial(
@@ -285,25 +300,39 @@ def run_topic(
                 "phase": phase_list[0] if phase_list else "",
                 "status": trial.get("status", ""),
             }
-            score = score_trial(typed_verdicts, metadata)
+            score_breakdown = score_trial_breakdown(typed_verdicts, metadata)
+            score = score_breakdown["final_score"]
+            score_explanation = explain_score_breakdown(score_breakdown)
             summary = _eligibility_summary(typed_verdicts, eliminated=False)
             enriched = [
                 (ctype, c.text, v)
                 for c, (ctype, v) in zip(parsed.criteria, typed_verdicts)
             ]
             return {
-                "nct_id": nct_id, "score": score, "summary": summary,
+                "nct_id": nct_id,
+                "score": score,
+                "score_breakdown": score_breakdown,
+                "score_explanation": score_explanation,
+                "summary": summary,
                 "title": trial.get("title", ""),
-                "trial_meta": trial, "enriched_verdicts": enriched,
-                "_cache_hit": cache_hit, "_survived": True,
+                "trial_meta": trial,
+                "enriched_verdicts": enriched,
+                "_cache_hit": cache_hit,
+                "_survived": True,
             }
         except Exception as exc:
             logger.warning("Trial %s failed (topic %s): %s", nct_id, topic_id, exc)
             return {
-                "nct_id": nct_id, "score": 0.0,
-                "summary": _eligibility_summary([], eliminated=False),
+                "nct_id": nct_id,
+                "score": score,
+                "score_breakdown": score_breakdown,
+                "score_explanation": score_explanation,
+                "summary": summary,
                 "title": trial.get("title", ""),
-                "_cache_hit": False, "_survived": False,
+                "trial_meta": trial,
+                "enriched_verdicts": enriched,
+                "_cache_hit": cache_hit,
+                "_survived": True,
             }
 
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
@@ -336,6 +365,8 @@ def run_topic(
             "rank": rank,
             "nct_id": t["nct_id"],
             "score": round(t["score"], 6),
+            "score_breakdown": t.get("score_breakdown", {}),
+            "score_explanation": t.get("score_explanation", ""),
             "title": t["title"],
             "phase": _phases[0] if _phases else _meta.get("phase", ""),
             "status": _meta.get("status", ""),
