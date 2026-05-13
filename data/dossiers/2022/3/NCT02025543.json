@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT02025543",
+  "trial_title": "Confounder-Corrected Quantitative MRI Biomarker of Hepatic Iron Content",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this multi-site research is to validate a rapid magnetic resonance based confounder-corrected R-2 mapping method as a quantitative imaging biomarker of liver iron concentrations.",
+  "eligibility_table": [
+    {
+      "criterion": "know or suspected iron overload",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has hemochromatosis, which is characterized by iron overload, as indicated by the transferrin saturation and serum ferritin levels.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "minimum age: Stanford- 8years , University of Wisconsin - 10 years, John Hopkins follow- 10 years, University of Texas-Southwestern - 18 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 51 years old, which exceeds the minimum age requirement of 18 years for all listed institutions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "contraindication to magnetic resonance imaging",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any contraindications to magnetic resonance imaging; therefore, it cannot be determined definitively.",
+      "clinical_question": "Does the patient have any implanted medical devices or metallic foreign bodies that would contraindicate magnetic resonance imaging?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: contraindication to magnetic resonance imaging"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

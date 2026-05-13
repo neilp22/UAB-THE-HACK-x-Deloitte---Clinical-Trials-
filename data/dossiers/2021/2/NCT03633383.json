@@ -1,0 +1,28 @@
+{
+  "nct_id": "NCT03633383",
+  "trial_title": "Outcomes of Transcatheter Aortic Valve Implantation in Management of Severe Symptomatic Aortic Stenosis",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "TAVI is still a relatively new technique that is emerging with advance in the percutaneous and implantable valve technology. Despite its safe use in inoperable and high risk patients with severe symptomatic aortic valve stenosis, minimizing complications, predictors of outcomes and approach preference is still an area of study. Here we decided to study the outcomes of patients undergoing TAVI, different approaches used and their subsequent results and complications.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with severe symptomatic aortic stenosis undergoing TAVI.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and is symptomatic, which aligns with the inclusion criterion for TAVI.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with concomitant valvular heart disease.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has concomitant valvular heart disease, specifically aortic insufficiency and mild mitral regurgitation, which disqualifies him from the trial.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Patients with concomitant valvular heart disease."
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 1.0
+}

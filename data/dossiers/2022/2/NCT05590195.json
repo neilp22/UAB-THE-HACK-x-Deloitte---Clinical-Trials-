@@ -1,0 +1,124 @@
+{
+  "nct_id": "NCT05590195",
+  "trial_title": "Effect of PreforPro® on Urinary and Vaginal Health",
+  "phase": "PHASE3",
+  "status": "UNKNOWN",
+  "brief_summary": "This study will investigate the effects of PreforPro® (prebiotic and bacteriophages (LH01-Myoviridae, LL5-Siphoviridae, T4D-Myoviridae, and LL12-Myoviridae, greater \\> 6.7 X 107 PFU/gram) on bacterial vaginosis.",
+  "eligibility_table": [
+    {
+      "criterion": "Female",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "criterion targets female; patient is female",
+      "clinical_question": null
+    },
+    {
+      "criterion": "18-45 years old premenopausal (period within 6 months)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old, which is within the inclusion age range of 18-45 years old and is premenopausal as her last menstrual period was 10 weeks ago.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Nugent score of 4-6 (intermediate) or 7-10 (BV)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The Nugent score is not provided in the patient profile, making it unclear if the inclusion criterion regarding the Nugent score is met.",
+      "clinical_question": "What is the patient's current Nugent score, and does it fall within the range of 4-10?"
+    },
+    {
+      "criterion": "Have an ability to collect a clean urine sample",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has the ability to collect a clean urine sample, as there are no indications of issues that would prevent this.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prescription and over the counter medication unchanged for > 30 days prior to the study. -Participants who are taking medications as needed (PRN) may be included if they began PRN usage >30 days prior to baseline",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently on any medications, which implies that there have been no changes in medications for over 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Sexually active status of the participants can be either active or inactive",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is sexually active, as indicated by having multiple male partners and inconsistent use of barrier contraceptives.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants must agree to use a medically approved method of birth control (e.g. hormonal contraceptives, intrauterine devices, vasectomy/tubal ligation, barrier methods and double-barrier method) and must have negative pregnancy test results at screening and baseline",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a positive serum β-hCG level, indicating a potential pregnancy, which does not meet the requirement for a negative pregnancy test.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Faecal incontinence",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding faecal incontinence, making it unclear if this exclusion criterion is met.",
+      "clinical_question": "Has the patient experienced ≥1 episode of fecal incontinence in the past month?"
+    },
+    {
+      "criterion": "History of urinary fistula, bladder or kidney stones, interstitial cystitis, or cystoscopic abnormalities that could be malignant",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of complicated UTIs, but there is no specific mention of urinary fistula, bladder or kidney stones, or interstitial cystitis, leaving this criterion uncertain.",
+      "clinical_question": "Does the patient have a documented history of urinary fistula, bladder or kidney stones, interstitial cystitis, or any cystoscopic abnormalities that could be malignant?"
+    },
+    {
+      "criterion": "Neurogenic bladder",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding neurogenic bladder, making it unclear if this exclusion criterion is met.",
+      "clinical_question": "Does the patient have a documented diagnosis of neurogenic bladder based on urodynamic studies showing detrusor overactivity or underactivity?"
+    },
+    {
+      "criterion": "A history of currently undergoing immunosuppressive drug therapy, chemotherapy, or radiation therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not currently undergoing any known immunosuppressive therapy, chemotherapy, or radiation therapy, but this is not explicitly stated, leaving uncertainty.",
+      "clinical_question": "Is the patient currently receiving any immunosuppressive drug therapy, chemotherapy, or radiation therapy?"
+    },
+    {
+      "criterion": "Antibiotic and/or anti-fungal medication used within the last four weeks",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently on any medications, including antibiotics or anti-fungal medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Oral probiotic supplement use within 2 weeks prior the study excluding yogurt",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has used any oral probiotic supplements within the last 2 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Drug abuse",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no explicit mention of drug abuse in the patient's profile, but the history of multiple male partners and inconsistent contraceptive use raises some concerns.",
+      "clinical_question": "Has the patient reported any history of substance abuse, including the use of recreational drugs or misuse of prescription medications, within the past 12 months?"
+    },
+    {
+      "criterion": "Uncontrolled psychological disorders",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not report any psychological disorders, but the potential for psychological stress related to her medical conditions cannot be ruled out.",
+      "clinical_question": "Does the patient have a documented diagnosis of an uncontrolled psychological disorder as defined by the DSM-5 criteria?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Faecal incontinence",
+    "EXCLUSION UNCLEAR: History of urinary fistula, bladder or kidney stones, interstitial cystitis, or ",
+    "EXCLUSION UNCLEAR: Neurogenic bladder",
+    "EXCLUSION UNCLEAR: A history of currently undergoing immunosuppressive drug therapy, chemotherapy, ",
+    "EXCLUSION UNCLEAR: Drug abuse",
+    "EXCLUSION UNCLEAR: Uncontrolled psychological disorders"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5333
+}

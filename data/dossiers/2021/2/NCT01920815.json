@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT01920815",
+  "trial_title": "Bicuspid Valve Aortopathy Feasibility Study",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "In order to determine the effectiveness of medical therapy options to prevent enlargement of the aorta in patients with a bicuspid aortic valve, a randomized study will be planned. This feasibility study will gather accurate data on number needed to screen, changes in medication use over time, and variance of the intended study endpoint.",
+  "eligibility_table": [
+    {
+      "criterion": "Bicuspid aortic valve",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a bicuspid aortic valve, which meets the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Aortic measurement of 35 - 49 mm on prior imaging study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific aortic measurement provided in the profile; therefore, it is not possible to determine if this criterion is met.",
+      "clinical_question": "Is the patient's most recent aortic measurement between 35 mm and 49 mm on prior imaging studies?"
+    },
+    {
+      "criterion": "Prior aortic valve or thoracic aortic surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone any prior aortic valve or thoracic aortic surgery?"
+    },
+    {
+      "criterion": "Prior aortic dissection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced an aortic dissection at any point in their medical history?"
+    },
+    {
+      "criterion": "Other condition associated with enlarged aorta including Coarctation, Marfans, Turner syndrome, Loeys-Dietz, etc.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have any listed conditions associated with an enlarged aorta such as Coarctation, Marfans, Turner syndrome, or Loeys-Dietz.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe aortic stenosis or regurgitation",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis, but this criterion is likely referring to the exclusion of patients with severe aortic stenosis for the trial, which is not applicable here.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Contraindication to MRI such as claustrophobia or implanted pacer/defibrillator",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding contraindications to MRI, such as claustrophobia or implanted devices.",
+      "clinical_question": "Does the patient have a documented history of claustrophobia that would prevent them from undergoing an MRI?"
+    },
+    {
+      "criterion": "Anticipated pregnancy, surgery, or move outside the area within 2 years",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding anticipated pregnancy, surgery, or relocation within 2 years.",
+      "clinical_question": "Does the patient anticipate undergoing surgery, becoming pregnant, or moving outside the area within the next 2 years?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Prior aortic valve or thoracic aortic surgery",
+    "EXCLUSION UNCLEAR: Prior aortic dissection",
+    "EXCLUSION UNCLEAR: Contraindication to MRI such as claustrophobia or implanted pacer/defibrillator",
+    "EXCLUSION UNCLEAR: Anticipated pregnancy, surgery, or move outside the area within 2 years"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.375
+}

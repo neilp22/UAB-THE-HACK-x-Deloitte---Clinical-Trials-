@@ -1,0 +1,149 @@
+{
+  "nct_id": "NCT06086626",
+  "trial_title": "A Study to Assess the Safety, Tolerability, and Pharmacokinetics of Cefiderocol in Hospitalized Neonates and Infants",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "The primary purpose of this study is to understand the pharmacokinetics (PK) of single and multiple doses of cefiderocol in children from birth to less than 3 months of age with suspected or confirmed aerobic Gram-negative bacterial infections.",
+  "eligibility_table": [
+    {
+      "criterion": "Written informed consent has been provided by parent(s) or legally authorized representative(s) in accordance with local regulatory requirements",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is 32 years old and does not have a parent or legally authorized representative to provide consent.",
+      "clinical_question": "Has written informed consent been provided by the parent(s) or legally authorized representative(s) in accordance with local regulatory requirements?"
+    },
+    {
+      "criterion": "Hospitalized infants from birth to < 3 months (< 90 days) of age at the time written informed consent is provided. Enrollment of premature infants will not be restricted, but they must have a GA ≥ 26 weeks, PNA of 0 to 3 months, and weight of at least 1 kilogram (kg)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not an infant; she is 32 years old.",
+      "clinical_question": "Is the patient a hospitalized infant aged between 0 to 3 months with a gestational age of at least 26 weeks and a weight of at least 1 kilogram?"
+    },
+    {
+      "criterion": "Require systemic IV antibiotic treatment for suspected or confirmed aerobic Gram-negative infections including, but not limited to, complicated urinary tract infection, complicated intra-abdominal infection, hospital-acquired/ ventilator-associated bacterial pneumonia, and BSI/sepsis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of complicated UTIs, which may require systemic IV antibiotic treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "For the multiple-dose phase, within 72 hours of the start of potentially effective treatment with SOC antibiotics for the suspected or confirmed primary aerobic Gram-negative infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The timing of potentially effective treatment with SOC antibiotics is not specified in the patient's profile.",
+      "clinical_question": "Has the patient received potentially effective treatment with standard of care antibiotics for the suspected or confirmed primary aerobic Gram-negative infection within 72 hours of starting treatment?"
+    },
+    {
+      "criterion": "Documented history of any moderate or severe hypersensitivity or allergic reaction to any β-lactam antibiotic",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of hypersensitivity or allergic reaction to β-lactam antibiotics in the profile.",
+      "clinical_question": "Has the patient documented a history of any moderate or severe hypersensitivity or allergic reaction to any β-lactam antibiotic?"
+    },
+    {
+      "criterion": "Life expectancy of < 72 hours after enrollment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's life expectancy is not provided; therefore, it cannot be assessed.",
+      "clinical_question": "Does the patient have a life expectancy of less than 72 hours based on current clinical assessment and prognosis?"
+    },
+    {
+      "criterion": "Urine output < 1.0 milliliter (mL)/kg/hour within the 24 hours prior to study drug administration on Day 1",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Urine output is not documented in the patient's profile.",
+      "clinical_question": "What is the patient's urine output in milliliters per kilogram per hour within the 24 hours prior to study drug administration on Day 1?"
+    },
+    {
+      "criterion": "Serum creatinine value greater than the maximum for GA and PNA shown below within the 24 hours prior to study drug administration on Day 1",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Serum creatinine values are not provided in the patient's profile.",
+      "clinical_question": "Is the patient's serum creatinine value greater than the maximum for gestational age (GA) and postnatal age (PNA) within the 24 hours prior to study drug administration on Day 1?"
+    },
+    {
+      "criterion": "Neonatal acute kidney injury (AKI), defined as a serum creatinine level greater than 1.5 milligrams per deciliter (mg/dL) (133 micromoles[μmol]/liter [L]) or an increase of 0.3 mg/dL (17 to 27 μmol/L) per day from a previous lower value",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on serum creatinine levels to assess for neonatal AKI.",
+      "clinical_question": "Has the patient had a serum creatinine level measured that exceeds 1.5 mg/dL or shows an increase of 0.3 mg/dL per day from a previous lower value?"
+    },
+    {
+      "criterion": "Acute kidney injury based on an increase in serum creatinine ≥ 0.3 mg/dL within 48 hours from an established baseline value",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no established baseline value for serum creatinine to assess for acute kidney injury.",
+      "clinical_question": "Has the patient experienced an increase in serum creatinine of ≥ 0.3 mg/dL within 48 hours from an established baseline value?"
+    },
+    {
+      "criterion": "Any condition or circumstance that, in the opinion of the investigator, would compromise the safety of the participant or the quality of the study data",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's conditions and history may raise concerns about safety, but without specific details on the investigator's opinion, it's uncertain.",
+      "clinical_question": "Does the patient have any active bleeding or significant risk factors for hemorrhage that would compromise safety during the study?"
+    },
+    {
+      "criterion": "Receiving renal replacement therapy",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not receiving renal replacement therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Received any other investigational medicinal product within 30 days of study drug administration",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has received any investigational medicinal product within the last 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Receiving treatment with a vasopressor at Screening",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not receiving treatment with a vasopressor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Has a confirmed or strongly suspected infection at Screening with a pathogen known to be resistant to cefiderocol or only a Gram-positive pathogen or viral, fungal, or parasitic pathogen as the sole cause of infection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's complicated UTIs may raise concerns about resistant pathogens, but specific testing results are not provided.",
+      "clinical_question": "Does the patient have a confirmed or strongly suspected infection with a pathogen known to be resistant to cefiderocol?"
+    },
+    {
+      "criterion": "Anticipated need for antibacterial therapy longer than 14 days (example, osteomyelitis or endocarditis); this applies to both study treatment with cefiderocol, as well as adjunctive IV antibacterial treatment for suspected coinfection with Gram-positive organisms or multidrug resistant Gram-negative organisms",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of an anticipated need for antibacterial therapy longer than 14 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Suspected or confirmed central nervous system (CNS) infection, including suspected CNS infection who do not have a lumbar puncture (LP) but who are treated for potential CNS infection, evidence suggestive of CNS infection based on LP results (polymorphonuclear pleocytosis, hypoglycorrhachia, and increased protein concentration), regardless of culture results, LP with organisms on Gram stain or culture-positive cerebrospinal fluid",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no evidence of a suspected or confirmed CNS infection based on the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Note: Other protocol-defined Inclusion/Exclusion criteria may apply.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Other protocol-defined criteria may apply, but specific details are not provided.",
+      "clinical_question": "Is the patient currently hospitalized and aged between 28 days and 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Documented history of any moderate or severe hypersensitivity or allergic reacti",
+    "EXCLUSION UNCLEAR: Life expectancy of < 72 hours after enrollment",
+    "EXCLUSION UNCLEAR: Urine output < 1.0 milliliter (mL)/kg/hour within the 24 hours prior to study dr",
+    "EXCLUSION UNCLEAR: Serum creatinine value greater than the maximum for GA and PNA shown below withi",
+    "EXCLUSION UNCLEAR: Neonatal acute kidney injury (AKI), defined as a serum creatinine level greater ",
+    "EXCLUSION UNCLEAR: Acute kidney injury based on an increase in serum creatinine ≥ 0.3 mg/dL within ",
+    "EXCLUSION UNCLEAR: Any condition or circumstance that, in the opinion of the investigator, would co",
+    "EXCLUSION UNCLEAR: Has a confirmed or strongly suspected infection at Screening with a pathogen kno",
+    "EXCLUSION UNCLEAR: Note: Other protocol-defined Inclusion/Exclusion criteria may apply.",
+    "LOW INCLUSION MATCH: only 1 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

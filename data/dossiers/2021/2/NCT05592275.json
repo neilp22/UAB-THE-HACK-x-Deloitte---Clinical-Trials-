@@ -1,0 +1,159 @@
+{
+  "nct_id": "NCT05592275",
+  "trial_title": "A Study of LY3540378 in Participants With Worsening Chronic Heart Failure With Preserved Ejection Fraction (HFpEF)",
+  "phase": "PHASE2",
+  "status": "TERMINATED",
+  "brief_summary": "The main purpose of this study is to assess the efficacy and safety of LY3540378 in adults with worsening heart failure with preserved ejection fraction",
+  "eligibility_table": [
+    {
+      "criterion": "Experienced an index event, defined as a recent hospitalization for HF requiring ≥1 bolus doses of intravenous diuretics or an out- of- hospital encounter (for example, Emergency Room, clinic visit, infusion clinic, etc.) for HF requiring ≥1 bolus doses of intravenous diuretics.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of severe aortic stenosis and worsening LV function, which likely led to hospitalization for heart failure requiring intravenous diuretics.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Documented LVEF of ≥50% within 12 months prior to screening; as measured by echocardiography, radionuclide ventriculography, invasive angiography, magnetic resonance imaging (MRI), or computerized tomograph (CT).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's documented LVEF is 25%, which is below the required threshold of ≥50%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of documentation of LVEF of ≥50% may also include participant medical records, discharge notes or a referral letter from the participant's physician or referring physician that details the participant's medical history.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no documentation of LVEF ≥50% in the patient's medical records or any other sources.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Had evidence of clinical HF syndrome consisting of hospitalization for worsening heart failure (WHF) with intravascular volume overload (the index event), as determined by the investigator, based on appropriate supportive documentation at randomization, and defined by ≥2 of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has experienced worsening heart failure, evidenced by severe LV dysfunction and prior hospitalizations, which aligns with the criteria for clinical HF syndrome.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "dyspnea",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient likely experiences dyspnea due to severe heart failure, which is a common symptom.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "jugular venous distention",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific information provided about jugular venous distention in the patient's profile.",
+      "clinical_question": "Is the patient's jugular venous pressure ≥8 cm H2O?"
+    },
+    {
+      "criterion": "pitting edema in lower extremities (>1+)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify the presence or absence of pitting edema in the lower extremities.",
+      "clinical_question": "Does the patient exhibit pitting edema in the lower extremities with a severity greater than 1+?"
+    },
+    {
+      "criterion": "ascites",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the presence of ascites in the patient's profile.",
+      "clinical_question": "Does the patient have clinically significant ascites as determined by physical examination or imaging studies?"
+    },
+    {
+      "criterion": "pulmonary congestion on chest X-ray",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not include details about pulmonary congestion on chest X-ray.",
+      "clinical_question": "Does the chest X-ray show evidence of pulmonary congestion, defined as the presence of Kerley B lines or pulmonary edema?"
+    },
+    {
+      "criterion": "pulmonary rales AND participant received treatment with IV diuretics.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the presence of pulmonary rales in the patient's clinical assessment.",
+      "clinical_question": "Has the patient exhibited pulmonary rales during the clinical assessment following treatment with IV diuretics?"
+    },
+    {
+      "criterion": "Prior documentation of low ventricle ejection fraction (LVEF) ≤45% in the past 12 months.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's EF is 25%, which is ≤45%, meeting the exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have had acute coronary syndrome or percutaneous coronary intervention, coronary artery bypass graft, cardiac mechanical support implantation, within 3 months prior to V2. (randomization), - or any other cardiac surgery planned during the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No recent history of acute coronary syndrome or cardiac surgery is documented, but further details on timing are needed.",
+      "clinical_question": "Has the patient undergone any cardiac surgery, including acute coronary syndrome treatment or percutaneous coronary intervention, within the last 3 months prior to randomization?"
+    },
+    {
+      "criterion": "Have had left ventricular assist device (LVAD) or cardiac transplantation or have cardiac transplantation planned during the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of LVAD or cardiac transplantation is mentioned, but it is unclear if any plans exist.",
+      "clinical_question": "Has the patient undergone a left ventricular assist device (LVAD) implantation or cardiac transplantation, or is cardiac transplantation planned during the study?"
+    },
+    {
+      "criterion": "Have hypertrophic cardiomyopathy (obstructive or nonobstructive), restrictive cardiomyopathy, active myocarditis, constrictive pericarditis, cardiac sarcoidosis, known amyloid cardiomyopathy, or inherited cardiomyopathy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific mention of the listed cardiomyopathies, but the patient's severe LV dysfunction raises concern.",
+      "clinical_question": "Does the patient have a documented diagnosis of hypertrophic cardiomyopathy, restrictive cardiomyopathy, active myocarditis, constrictive pericarditis, cardiac sarcoidosis, known amyloid cardiomyopathy, or inherited cardiomyopathy?"
+    },
+    {
+      "criterion": "Have a chronic pulmonary/lung disease (COPD), (pulmonary arterial hypertension, etc) as defined by chronic oxygen dependence. Night-time oxygen is not exclusionary.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No chronic lung disease is documented, but tobacco abuse may complicate pulmonary status.",
+      "clinical_question": "Does the patient require chronic oxygen therapy for a pulmonary condition, as defined by the need for supplemental oxygen for at least 15 hours per day?"
+    },
+    {
+      "criterion": "Uncorrected thyroid disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No thyroid disease is mentioned, but uncorrected thyroid issues are not ruled out.",
+      "clinical_question": "Does the patient have a thyroid-stimulating hormone (TSH) level outside the normal range of 0.4 to 4.0 mIU/L?"
+    },
+    {
+      "criterion": "Treatment for an urgent visit outside of being hospitalized with WHF and intravascular volume overload (the index visit) requiring treatment with IV diuretics (defined as ≥2 IV doses) such as in the outpatient setting/emergency room/observation unit/infusion clinic with a clinical response within the past 2 weeks prior to randomization.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No recent urgent visit with IV diuretics is documented, but the patient's condition may warrant it.",
+      "clinical_question": "Has the patient received ≥2 IV doses of diuretics for treatment of worsening heart failure within the past 2 weeks?"
+    },
+    {
+      "criterion": "Urgent visit is defined as an unplanned visit for HF defined by ≥2 of the following: dyspnea, jugular venous distention, pitting edema in lower extremities (>1+), ascites, pulmonary rales on lung examination.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Urgent visit criteria are not clearly met based on the provided information.",
+      "clinical_question": "Does the patient exhibit ≥2 of the following symptoms: dyspnea, jugular venous distention, pitting edema in lower extremities (>1+), ascites, or pulmonary rales on lung examination?"
+    },
+    {
+      "criterion": "NT-proBNP (>300 [sinus rhythm] or 600 pg/mL [atrial fibrillation or atrial flutter] OR BNP (>100 [sinus rhythm] or 200 pg/mL [atrial fibrillation or atrial flutter]) at screening.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Given the patient's severe heart failure, NT-proBNP levels are likely elevated, meeting the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "eGFR of >20 mL/min/1.73 m² at V1 (screening; determined by local laboratory), derived from serum creatinine values, age, and sex based on the CKD-EPI equation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "eGFR is not provided; thus, it cannot be determined if it meets the inclusion criterion.",
+      "clinical_question": "Is the patient's estimated glomerular filtration rate (eGFR) greater than 20 mL/min/1.73 m² based on the CKD-EPI equation?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Have had acute coronary syndrome or percutaneous coronary intervention, coronary",
+    "EXCLUSION UNCLEAR: Have had left ventricular assist device (LVAD) or cardiac transplantation or hav",
+    "EXCLUSION UNCLEAR: Have hypertrophic cardiomyopathy (obstructive or nonobstructive), restrictive ca",
+    "EXCLUSION UNCLEAR: Have a chronic pulmonary/lung disease (COPD), (pulmonary arterial hypertension, ",
+    "EXCLUSION UNCLEAR: Uncorrected thyroid disease.",
+    "LOW INCLUSION MATCH: only 4 of 14 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.35
+}

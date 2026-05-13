@@ -1,0 +1,257 @@
+{
+  "nct_id": "NCT00003470",
+  "trial_title": "Antineoplaston Therapy in Treating Patients With Anaplastic Astrocytoma",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Current therapies for adults with anaplastic astrocytomas that have not responded to standard therapy provide very limited benefit to the patient. The anti-cancer properties of Antineoplaston therapy suggest that it may prove beneficial in the treatment of adults with anaplastic astrocytomas that have not responded to standard therapy.\n\nPURPOSE: This study is being performed to determine the effects (good and bad) that Antineoplaston therapy has on adults with anaplastic astrocytomas ",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically confirmed incurable adult anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of progressive or recurrent tumor by MRI scan performed within 2 weeks prior to study entry",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No MRI scan results are provided to confirm evidence of progressive or recurrent tumor.",
+      "clinical_question": "Has the patient had an MRI scan within the last 2 weeks that shows evidence of progressive or recurrent tumor?"
+    },
+    {
+      "criterion": "Must have received and failed standard therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding prior standard therapy received or its failure.",
+      "clinical_question": "Has the patient received and failed at least one standard therapy for anaplastic astrocytoma prior to enrollment?"
+    },
+    {
+      "criterion": "Tumor must be at least 5 mm",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the size of the patient's anaplastic astrocytoma at least 5 mm?"
+    },
+    {
+      "criterion": "Age: 18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: Karnofsky 60-100%",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "ECOG 2.0 >= 60.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy: At least 2 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's age and condition suggest a life expectancy of at least 2 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "WBC at least 2000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Does the patient have a white blood cell count of at least 2000/mm^3?"
+    },
+    {
+      "criterion": "Platelet count at least 50,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's current platelet count at least 50,000/mm^3?"
+    },
+    {
+      "criterion": "Bilirubin no greater than 2.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level currently ≤2.5 mg/dL?"
+    },
+    {
+      "criterion": "SGOT and SGPT no greater than 5 times upper limit of normal",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ALT level of 38 U/L is within the acceptable range (not greater than 5 times upper limit of normal).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No hepatic failure",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No evidence of hepatic failure is indicated in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Renal:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific renal criteria or contraindications regarding sodium dosages are provided.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine no greater than 2.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "creatinine=1.1 mg/dL <= 2.5 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of renal conditions that contraindicate high dosages of sodium",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has hypertension, which is considered uncontrolled given the current medication regimen.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No uncontrolled hypertension",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No history of congestive heart failure is mentioned in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of congestive heart failure",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding any renal conditions that may contraindicate high dosages of sodium.",
+      "clinical_question": "Has the patient ever been diagnosed with congestive heart failure or experienced symptoms consistent with congestive heart failure, such as shortness of breath or edema?"
+    },
+    {
+      "criterion": "No history of other cardiovascular conditions that contraindicate high dosages of sodium",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No history of cardiovascular conditions is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No serious lung disease such as severe chronic obstructive pulmonary disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No serious lung disease is indicated in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male, so pregnancy or nursing is not applicable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 4 weeks after study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Fertility status and contraception use are not specified.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, and will he continue to do so during the study and for 4 weeks after?"
+    },
+    {
+      "criterion": "No active infection",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No active infection is mentioned in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other serious concurrent disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma, which is a serious concurrent disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 4 weeks since prior immunotherapy and recovered",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior immunotherapy or recovery time is provided.",
+      "clinical_question": "Has the patient completed at least 4 weeks since the last administration of any immunotherapy?"
+    },
+    {
+      "criterion": "At least 4 weeks since prior chemotherapy (6 weeks for nitrosoureas) and recovered",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior chemotherapy or recovery time is provided.",
+      "clinical_question": "Has the patient completed at least 4 weeks since the last chemotherapy treatment, or 6 weeks if it was a nitrosourea?"
+    },
+    {
+      "criterion": "No concurrent antineoplastic agents",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No concurrent antineoplastic agents are listed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent immunomodulating agents",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No concurrent immunomodulating agents are mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Endocrine therapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Information about the patient's use of endocrine therapy is not provided.",
+      "clinical_question": "Has the patient received any form of endocrine therapy in the past 6 months?"
+    },
+    {
+      "criterion": "Concurrent corticosteroids allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Concurrent corticosteroids are allowed and the patient is currently on dexamethasone.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Radiotherapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Details regarding prior radiotherapy are not specified.",
+      "clinical_question": "Has the patient received radiotherapy to the spine within the last 6 months?"
+    },
+    {
+      "criterion": "At least 8 weeks since prior radiotherapy and recovered",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not clarify if they have had prior radiotherapy or if 8 weeks have passed since any such treatment.",
+      "clinical_question": "Has the patient completed prior radiotherapy at least 8 weeks ago and demonstrated recovery from any associated side effects?"
+    },
+    {
+      "criterion": "Surgery:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about any prior surgeries.",
+      "clinical_question": "Has the patient undergone surgical intervention for the anaplastic astrocytoma within the last 6 months?"
+    },
+    {
+      "criterion": "Fully recovered from any prior surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's recovery status from any prior surgery is not mentioned.",
+      "clinical_question": "Has the patient been free of any surgical complications and fully recovered from the effects of prior surgery for at least 4 weeks?"
+    },
+    {
+      "criterion": "Prior cytodifferentiating agent allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of prior use of cytodifferentiating agents.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior antineoplaston therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no history of antineoplaston therapy.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5429
+}

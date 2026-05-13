@@ -1,0 +1,26 @@
+{
+  "nct_id": "NCT00035373",
+  "trial_title": "Eligibility Screening of Patients With Central Nervous System Tumors for the National Cancer Institute s (NCI) Clinical Research Protocols",
+  "phase": "",
+  "status": "TERMINATED",
+  "brief_summary": "The objective of this study is to evaluate patients with tumors of the central nervous system (CNS) for eligibility in the National Cancer Institute s research studies. These patients will undergo a series of procedures, usually including a complete medical history and physical examination; laboratory testing of blood, CSF, urine, bone marrow, or other samples; an evaluation of tumor location and size by x-rays, CT (computed tomography) or MRI (magnetic resonance imaging) scans, or nuclear medic",
+  "eligibility_table": [
+    {
+      "criterion": "Adult patients (greater than or equal to 18 yrs of age) with tumors of the CNS or a history of a CNS tumor who are being evaluated for protocols within the National Cancer Institute.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "All patients or their previously designated LAR (Legally Authorized Representative) (if the patient is deemed by the treating physician to be impaired or questionably impaired in such a way that the ability of the patient to give informed consent is questionable) must sign an informed consent indicating that they are aware of the investigational nature of this study and the risks of the procedures that will be performed to assess eligibility for primary research protocols.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to provide informed consent is not explicitly stated, and given the history of severe neurological symptoms, it is uncertain whether he can fully understand the risks involved.",
+      "clinical_question": "Is the patient currently able to provide informed consent, or has a Legally Authorized Representative been designated due to impairment in decision-making capacity?"
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT02366650",
+  "trial_title": "Help in the Emergency Room to Detect Organ Dysfunction",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "The purpose of this prospective, non-interventional clinical study is to assess the clinical validity of a number of markers (including Heparin Binding Protein (HBP), Procalcitonin (PCT), C-reactive protein (CRP), White cell count (WCC) and lactate) for indicating the presence of organ dysfunction, or outcome, of patients with organ dysfunctions following emergency department admission or hospitalization. Secondary objectives are to identify novel putative biomarkers and to identify risk factors",
+  "eligibility_table": [
+    {
+      "criterion": "≥18 years of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 51.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "1 or more of the following criteria: Saturation<90% without oxygen or <93% with oxygen or reported saturation<90%, Respiratory frequency >25/min, Altered mental awareness, Heart rate >120/min, Systolic blood pressure <100 mm Hg",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's transferrin saturation is 55%, which is above the threshold of 90%, indicating that this criterion is not met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can provide informed consent as there are no indications of altered mental awareness or other factors that would prevent this.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "None",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a serum ferritin level greater than 1000 μg/L?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: None"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.75
+}

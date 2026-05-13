@@ -1,0 +1,299 @@
+{
+  "nct_id": "NCT00834678",
+  "trial_title": "Bendamustine and Erlotinib in Treating Patients With Stage IIIB, Stage IIIC, or Stage IV Breast Cancer",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as bendamustine, work in different ways to stop the growth of tumor cells, either by killing the cells or by stopping them from dividing. Erlotinib may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth and by blocking blood flow to the tumor. Giving bendamustine together with erlotinib may kill more tumor cells.\n\nPURPOSE: This phase I/II trial is studying the side effects and best dose of giving bendamustine together",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed breast cancer meeting 1 of the following criteria:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has stage IV non-small cell lung cancer, not breast cancer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unresectable stage IIIB or IIIC disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has stage IV non-small cell lung cancer, not unresectable stage IIIB or IIIC breast cancer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stage IV disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has stage IV disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must be negative for all of the following:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has non-small cell lung cancer, not breast cancer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Estrogen receptor (< 10%)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's estrogen receptor status < 10%?"
+    },
+    {
+      "criterion": "Progesterone receptor (<10%)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's progesterone receptor status <10%?"
+    },
+    {
+      "criterion": "HER-2 (negative FISH, IHC 0 - 1+, or IHC +2 with negative FISH)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has non-small cell lung cancer, not breast cancer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Measurable or evaluable disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about measurable or evaluable disease.",
+      "clinical_question": "Does the patient have measurable or evaluable disease as defined by RECIST criteria?"
+    },
+    {
+      "criterion": "No symptomatic or progressive CNS (central nervous system) metastases",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no symptomatic or progressive CNS metastases.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previously treated CNS metastases allowed provided all of the following criteria are met:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about previous CNS metastases.",
+      "clinical_question": "Has the patient been free of CNS metastases for at least 3 months prior to starting treatment?"
+    },
+    {
+      "criterion": "At least 8 weeks since prior radiation to brain or CNS metastases",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the timing of prior radiation to brain or CNS metastases.",
+      "clinical_question": "Has the patient received prior radiation to the brain or CNS metastases within the last 8 weeks?"
+    },
+    {
+      "criterion": "No concurrent steroids",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on dexamethasone, which is a steroid.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No leptomeningeal disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no history of leptomeningeal disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Menopausal status not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Menopausal status is not specified in the patient profile.",
+      "clinical_question": "Is the patient's menopausal status classified as premenopausal or postmenopausal?"
+    },
+    {
+      "criterion": "ECOG (Eastern Cooperative Oncology Group) performance status 0-2",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ECOG 1.0 <= 2.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy ≥ 6 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's ECOG performance status of 1 suggests a life expectancy of at least 6 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "WBC > 1,500/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Does the patient have a white blood cell count (WBC) greater than 1,500/mm³?"
+    },
+    {
+      "criterion": "Platelet count > 100,000/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's platelet count greater than 100,000/mm³?"
+    },
+    {
+      "criterion": "Creatinine clearance > 40 mL/min",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Creatinine clearance is estimated to be > 40 mL/min based on a creatinine level of 0.9 mg/dL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Normal electrolytes (i.e., Na, K, and Ca normal; minor deviations are allowed if they do not impact on patient safety in the clinical judgment of the treating physician)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Normal electrolyte levels are not provided in the patient profile.",
+      "clinical_question": "Are the patient's serum sodium, potassium, and calcium levels within the normal range as defined by standard laboratory reference values?"
+    },
+    {
+      "criterion": "Bilirubin ≤ 1.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided in the patient profile.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "ALT and AST ≤ 2.5 times ULN (≤ 5 times ULN in the presence of documented liver metastases)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ALT is 28 U/L, which is within the acceptable range (≤ 2.5 times ULN).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Alkaline phosphatase ≤ 2.5 times ULN (≤ 5 times ULN in the presence of liver or bone metastases)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Alkaline phosphatase levels are not provided in the patient profile.",
+      "clinical_question": "Is the patient's alkaline phosphatase level ≤ 2.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Pregnancy or nursing status is not specified in the patient profile.",
+      "clinical_question": "Is the patient currently pregnant or nursing?"
+    },
+    {
+      "criterion": "Fertile patients must use effective barrier contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Fertility status and contraception use are not specified in the patient profile.",
+      "clinical_question": "Is the patient currently using an effective barrier contraception method, such as a condom or diaphragm, to prevent pregnancy?"
+    },
+    {
+      "criterion": "No uncontrolled intercurrent illness",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have any uncontrolled intercurrent illnesses listed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No active infection requiring systemic therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of an active infection requiring systemic therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Able to swallow oral medications and with no medical problems or prior surgeries that may interfere with the absorption of oral medications including the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is able to swallow oral medications and there are no reported medical problems or prior surgeries that would interfere with absorption.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Uncontrolled nausea, vomiting, or diarrhea",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no evidence of uncontrolled nausea, vomiting, or diarrhea.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lack of the physical integrity of the upper gastrointestinal tract",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of a lack of physical integrity of the upper gastrointestinal tract.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Malabsorption syndrome",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of a malabsorption syndrome.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No known hypersensitivity to bendamustine hydrochloride, mannitol, or erlotinib hydrochloride",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no known hypersensitivity to the listed medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior malignancy in the past 5 years except for adequately treated basal cell or squamous cell skin carcinoma, or adequately treated stage I-II cancer for which the patient is in complete remission",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a prior malignancy (stage IV non-small cell lung cancer) which does not meet the criteria of being adequately treated basal cell or squamous cell skin carcinoma or stage I-II cancer in complete remission.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion regarding prior concurrent therapy lacks specific details about what is required.",
+      "clinical_question": "Has the patient received any prior treatment with bendamustine?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion regarding disease characteristics lacks specific details about what is required.",
+      "clinical_question": "Does the patient have measurable disease as defined by RECIST criteria?"
+    },
+    {
+      "criterion": "Prior adjuvant or neoadjuvant chemotherapy and 1 prior chemotherapy regimen in the metastatic setting allowed provided recovered from all acute toxicities",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received erlotinib, which is an EGFR-directed therapy, thus not meeting the criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior bendamustine hydrochloride or EGFR-directed therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received erlotinib, which is an EGFR-directed therapy, thus not meeting the criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent antineoplastic treatments, including radiotherapy, chemotherapy, biological therapy, hormonal therapy, immunotherapy, gene therapy, and surgery",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on dexamethasone, which is a corticosteroid and may be considered a concurrent antineoplastic treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Intravenous bisphosphonates allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is receiving intravenous bisphosphonates.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent antiretroviral therapy for HIV-positive patients",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not reported to be HIV-positive, thus this criterion does not apply.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent investigational agents",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is receiving any concurrent investigational agents.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6341
+}

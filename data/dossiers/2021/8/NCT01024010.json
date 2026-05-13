@@ -1,0 +1,316 @@
+{
+  "nct_id": "NCT01024010",
+  "trial_title": "Ofatumumab, Pentostatin, and Cyclophosphamide in Treating Patients With Untreated Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This phase II trial studies how well giving ofatumumab together with pentostatin and cyclophosphamide works in treating patients with untreated chronic lymphocytic leukemia or small lymphocytic lymphoma. Monoclonal antibodies, such as ofatumumab, can block the ability of cancer cells to grow and spread. Drugs used in chemotherapy, such as pentostatin and cyclophosphamide, work in different ways to stop the growth of cancer cells, either by killing the cells, by stopping them from dividing, or by",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosis of CLL according to the National Cancer Institute (NCI) criteria or SLL according to the World Health Organization (WHO) criteria, including previous documentation of:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of CLL, which aligns with NCI criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biopsy-proven SLL",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not had a biopsy-proven SLL; only CLL is documented.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diagnosis of CLL according to NCI working group criteria as evidenced by all of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient meets NCI working group criteria for CLL diagnosis based on history and lab values.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Peripheral blood lymphocyte count of > 5,000/mm^3 consisting of small to moderate size lymphocytes, with < 55% prolymphocytes",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The peripheral blood lymphocyte count is not provided; cannot confirm > 5,000/mm^3.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Immunophenotyping consistent with CLL defined as:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Immunophenotyping results are not provided; cannot assess consistency with CLL.",
+      "clinical_question": "Is the patient's immunophenotyping consistent with chronic lymphocytic leukemia (CLL) as defined by the presence of CD5, CD19, and CD23 markers?"
+    },
+    {
+      "criterion": "The predominant population of lymphocytes share both B-cell antigens (CD19, CD20 [typically dim expression], or CD23) as well as CD5 in the absence of other pan-T-cell markers (CD3, CD2, etc.)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Details on the predominant population of lymphocytes are not available.",
+      "clinical_question": "Do the predominant lymphocytes in the patient's biopsy express both CD19 and CD5 while lacking CD3 and CD2 markers?"
+    },
+    {
+      "criterion": "Clonality as evidenced by kappa or lambda light chain expression (typically dim immunoglobulin expression)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Clonality evidence is not provided; cannot confirm kappa or lambda light chain expression.",
+      "clinical_question": "Does the patient exhibit dim immunoglobulin expression with a kappa to lambda light chain ratio indicative of clonality?"
+    },
+    {
+      "criterion": "Note: splenomegaly, hepatomegaly, or lymphadenopathy are not required for the diagnosis of CLL",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The presence of bulky lymphadenopathy does not negate the diagnosis of CLL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Before diagnosing CLL or SLL, mantle cell lymphoma must be excluded by demonstrating a negative FISH analysis for t(11;14)(immunoglobulin heavy [IgH]/cyclin D1 [CCND1]) on peripheral blood or tissue biopsy or negative immunohistochemical stains for CCND1 on involved tissue biopsy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on FISH analysis or immunohistochemical stains for CCND1 is provided.",
+      "clinical_question": "Has the patient undergone a FISH analysis for t(11;14) on peripheral blood or tissue biopsy, and what were the results?"
+    },
+    {
+      "criterion": "Patients must be previously untreated and meet at least one of the following indications for chemotherapy:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple prior treatments, thus not previously untreated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any of the following comorbid conditions:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific comorbid conditions listed in the profile, but further details on comorbidities are needed.",
+      "clinical_question": "Does the patient have any of the following comorbid conditions: cardiovascular disease, diabetes mellitus, or chronic obstructive pulmonary disease?"
+    },
+    {
+      "criterion": "New York Heart Association Class III or IV heart disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about heart disease; further assessment required.",
+      "clinical_question": "Does the patient have a documented New York Heart Association classification of III or IV heart disease?"
+    },
+    {
+      "criterion": "Recent myocardial infarction (< 1 month)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No recent myocardial infarction reported, but additional cardiac history is needed.",
+      "clinical_question": "Has the patient experienced a myocardial infarction within the last 30 days?"
+    },
+    {
+      "criterion": "Uncontrolled infection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No uncontrolled infection mentioned, but lab values are not provided to confirm.",
+      "clinical_question": "Has the patient experienced any signs or symptoms of uncontrolled infection, such as fever ≥38°C, chills, or persistent cough, in the past 30 days?"
+    },
+    {
+      "criterion": "Infection with the human immunodeficiency virus (HIV/acquired immunodeficiency syndrome [AIDS])",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on HIV status; further testing required.",
+      "clinical_question": "Has the patient been tested for HIV and received a negative result within the last 12 months?"
+    },
+    {
+      "criterion": "Infection with known chronic, active Hepatitis C",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on Hepatitis C status; further testing required.",
+      "clinical_question": "Does the patient have a documented positive test for Hepatitis C virus (HCV) RNA or anti-HCV antibodies?"
+    },
+    {
+      "criterion": "Positive serology for hepatitis B (HB) defined as a positive test for HB surface antigen (HBsAg); in addition, if negative for HBsAg but HB core antibody (HBcAb) positive (regardless of HBsAb status), a HB deoxyribonucleic acid (DNA) test will be performed and if positive the subject will be excluded",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on Hepatitis B status; further testing required.",
+      "clinical_question": "Is the patient's hepatitis B surface antigen (HBsAg) test result positive, or if negative, is the hepatitis B core antibody (HBcAb) test result positive with a subsequent HB DNA test result negative?"
+    },
+    {
+      "criterion": "Pregnant women",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient is male; pregnancy is not applicable.",
+      "clinical_question": "Is the patient currently pregnant or breastfeeding?"
+    },
+    {
+      "criterion": "Nursing women",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient is male; nursing status is not applicable.",
+      "clinical_question": "Is the patient currently breastfeeding or has the patient breastfed within the last 12 months?"
+    },
+    {
+      "criterion": "Men or women of childbearing potential who are unwilling to employ adequate contraception",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on contraception willingness; further clarification needed.",
+      "clinical_question": "Is the patient willing to employ adequate contraception during the treatment period?"
+    },
+    {
+      "criterion": "Evidence of progressive marrow failure as manifested by the development of or worsening anemia (<= 11 g/dl) and/or thrombocytopenia (<= 100,000/mm^3) not due to autoimmune disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess anemia or thrombocytopenia.",
+      "clinical_question": "Does the patient have a hemoglobin level ≤ 11 g/dl or a platelet count ≤ 100,000/mm^3?"
+    },
+    {
+      "criterion": "Symptomatic or progressive lymphadenopathy, splenomegaly or hepatomegaly",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has bulky lymphadenopathy, indicating symptomatic or progressive lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "One or more of the following disease-related symptoms:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific disease-related symptoms listed; further information needed.",
+      "clinical_question": "Does the patient have one or more disease-related symptoms such as fever, night sweats, or weight loss exceeding 10% of body weight in the past six months?"
+    },
+    {
+      "criterion": "Weight loss > 10% within the previous 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on weight loss provided.",
+      "clinical_question": "Has the patient experienced a weight loss of >10% within the previous 6 months?"
+    },
+    {
+      "criterion": "Extreme fatigue attributed to CLL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on fatigue attributed to CLL provided.",
+      "clinical_question": "Has the patient reported a fatigue score of ≥7 on a scale of 0 to 10 in the past week?"
+    },
+    {
+      "criterion": "Fevers > 100.5 degree Fahrenheit for 2 weeks without evidence of infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on fevers provided.",
+      "clinical_question": "Has the patient experienced fevers ≥100.5 degrees Fahrenheit for at least 14 consecutive days without any documented evidence of infection?"
+    },
+    {
+      "criterion": "Drenching night sweats without evidence of infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on night sweats provided.",
+      "clinical_question": "Has the patient experienced drenching night sweats occurring ≥3 times per week without evidence of infection?"
+    },
+    {
+      "criterion": "Progressive lymphocytosis due to CLL with an increase of > 50% over a two-month period or an anticipated doubling time of less than six months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess lymphocytosis.",
+      "clinical_question": "Has the patient's lymphocyte count increased by more than 50% over the past two months?"
+    },
+    {
+      "criterion": "Prior chemotherapy or monoclonal antibody based therapy for treatment of CLL will be considered prior therapy; nutraceutical treatments with no established benefit in CLL (such as epigallocatechin gallate [EGCG], found in green tea or other herbal treatments) will not be considered 'prior treatment'",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has received multiple prior therapies for CLL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Marked hypogammaglobulinemia or the development of a monoclonal protein in the absence of any of the above criteria for active disease are not sufficient for protocol therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on hypogammaglobulinemia or monoclonal protein provided.",
+      "clinical_question": "Does the patient have a serum immunoglobulin G (IgG) level <400 mg/dL or evidence of a monoclonal protein in serum or urine?"
+    },
+    {
+      "criterion": "Other active primary malignancy requiring treatment or limiting survival to <= 2 years",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has CLL and Richter's transformation, but no information is provided about other active primary malignancies.",
+      "clinical_question": "Does the patient have any active primary malignancy that requires treatment or is expected to limit survival to less than or equal to 2 years?"
+    },
+    {
+      "criterion": "Any radiation therapy <= 4 weeks prior to registration",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding any radiation therapy within the last 4 weeks.",
+      "clinical_question": "Has the patient received any radiation therapy within the last 4 weeks prior to registration?"
+    },
+    {
+      "criterion": "Any major surgery <= 4 weeks prior to registration",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding any major surgery within the last 4 weeks.",
+      "clinical_question": "Has the patient undergone any major surgery within the 4 weeks prior to registration?"
+    },
+    {
+      "criterion": "Current use of corticosteroids; EXCEPTION: low doses of steroids (< 10 mg of prednisone or equivalent dose of other steroid) used for treatment of non-hematologic medical conditions; Note: previous use of corticosteroids is allowed",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient’s current use of corticosteroids is not mentioned; previous use is allowed.",
+      "clinical_question": "Is the patient currently taking corticosteroids at a dose of ≥10 mg of prednisone or equivalent?"
+    },
+    {
+      "criterion": "Active hemolytic anemia requiring immunosuppressive therapy or other pharmacologic treatment; patients who have a positive Coombs test but no evidence of hemolysis are NOT excluded from participation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about active hemolytic anemia or Coombs test results.",
+      "clinical_question": "Does the patient have active hemolytic anemia requiring immunosuppressive therapy, as indicated by a hemoglobin level <10 g/dL and evidence of elevated indirect bilirubin or low haptoglobin?"
+    },
+    {
+      "criterion": "Serum creatinine =< 1.5 x upper normal levels (UNL)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided, so serum creatinine status is unknown.",
+      "clinical_question": "Is the patient's serum creatinine level ≤ 1.5 times the upper normal level?"
+    },
+    {
+      "criterion": "Total bilirubin =< 1.5 x UNL unless due to Gilbert's disease; if total bilirubin is > 1.5 x UNL, a direct bilirubin should be performed and must be < 1.5 mg/dL for Gilbert's to be diagnosed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided, so total bilirubin status is unknown.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 x UNL?"
+    },
+    {
+      "criterion": "Aspartate aminotransferase (AST) =< 3.0 x UNL and alanine aminotransferase (ALT) =< 3.0 x UNL (unless due to hemolysis or CLL)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided, so AST and ALT levels are unknown.",
+      "clinical_question": "Is the patient's aspartate aminotransferase (AST) level ≤ 3.0 x upper normal limit (UNL) and alanine aminotransferase (ALT) level ≤ 3.0 x UNL?"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status (PS): 0, 1, or 2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an Eastern Cooperative Oncology Group (ECOG) performance status of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Willingness to provide blood samples as required",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely willing to provide blood samples as required.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Able to adhere to the study visit schedule and other protocol requirements",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has an excellent performance status, suggesting adherence to study visit schedule and protocol requirements.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Any of the following comorbid conditions:",
+    "EXCLUSION UNCLEAR: New York Heart Association Class III or IV heart disease",
+    "EXCLUSION UNCLEAR: Recent myocardial infarction (< 1 month)",
+    "EXCLUSION UNCLEAR: Uncontrolled infection",
+    "EXCLUSION UNCLEAR: Infection with the human immunodeficiency virus (HIV/acquired immunodeficiency s",
+    "EXCLUSION UNCLEAR: Infection with known chronic, active Hepatitis C",
+    "EXCLUSION UNCLEAR: Positive serology for hepatitis B (HB) defined as a positive test for HB surface",
+    "EXCLUSION UNCLEAR: Pregnant women",
+    "EXCLUSION UNCLEAR: Nursing women",
+    "EXCLUSION UNCLEAR: Men or women of childbearing potential who are unwilling to employ adequate cont",
+    "EXCLUSION UNCLEAR: Other active primary malignancy requiring treatment or limiting survival to <= 2",
+    "EXCLUSION UNCLEAR: Any radiation therapy <= 4 weeks prior to registration",
+    "EXCLUSION UNCLEAR: Any major surgery <= 4 weeks prior to registration",
+    "EXCLUSION UNCLEAR: Current use of corticosteroids; EXCEPTION: low doses of steroids (< 10 mg of pre",
+    "EXCLUSION UNCLEAR: Active hemolytic anemia requiring immunosuppressive therapy or other pharmacolog",
+    "LOW INCLUSION MATCH: only 7 of 26 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2439
+}

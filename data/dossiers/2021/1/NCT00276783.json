@@ -1,0 +1,301 @@
+{
+  "nct_id": "NCT00276783",
+  "trial_title": "Pemetrexed Disodium in Treating Patients With Recurrent Malignant Gliomas, Primary CNS Lymphoma, or Brain Metastases",
+  "phase": "PHASE2",
+  "status": "UNKNOWN",
+  "brief_summary": "RATIONALE: Pemetrexed disodium may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth.\n\nPURPOSE: This phase II trial is studying how well pemetrexed disodium works in treating patients with recurrent malignant gliomas, primary CNS lymphoma, or brain metastases.",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosis of 1 of the following: Malignant glioma, including the following subtypes: glioblastoma or gliosarcoma, anaplastic astrocytoma, anaplastic oligodendroglioma, anaplastic mixed glioma, or malignant glioma not otherwise specified, meeting the following criteria:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of anaplastic astrocytoma, which is included in the list of malignant gliomas.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not required to have measurable or evaluable disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The criterion does not require measurable or evaluable disease, which aligns with the patient's current status.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have failed prior radiation therapy > 4 weeks ago",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone radiation therapy, and it has been more than 4 weeks since the last treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have failed at least 1 prior chemotherapy regimen",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has failed multiple chemotherapy regimens, including temozolomide and CPT-11.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Confirmation of tumor progression by MR spectroscopy, PET scan, or biopsy/resection if prior radiosurgery was performed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about confirmation of tumor progression through imaging or biopsy.",
+      "clinical_question": "Has the patient undergone a confirmatory MR spectroscopy, PET scan, or biopsy/resection to assess for tumor progression within the last 30 days?"
+    },
+    {
+      "criterion": "Primary CNS lymphoma, meeting the following criteria: Measurable disease as defined by bidimensionally measurable lesions with clearly defined margins by CT scan or MRI",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have primary CNS lymphoma; they have anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have failed at least one prior chemotherapy regimen",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has failed multiple chemotherapy regimens, satisfying this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have failed at least one agent or regimen",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has failed multiple agents, including temozolomide and Avastin.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Brain metastases from a solid tumor, meeting the following criteria:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have brain metastases from a solid tumor; they have a primary spinal tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Measurable disease as defined by bidimensionally measurable lesions with clearly defined margins by CT scan or MRI",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have measurable disease as defined by the criterion, as they have a spinal tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biopsy is not required if radiographic imaging is consistent with brain metastases",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma of the spine, and it is unclear if radiographic imaging shows brain metastases.",
+      "clinical_question": "Is there radiographic imaging available that shows evidence of brain metastases consistent with the criteria for not requiring a biopsy?"
+    },
+    {
+      "criterion": "Must have failed prior whole-brain radiotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's treatment history does not specify if they have undergone whole-brain radiotherapy.",
+      "clinical_question": "Has the patient received whole-brain radiotherapy prior to enrollment in this trial?"
+    },
+    {
+      "criterion": "Patients with leptomeningeal metastases with or without brain metastases are eligible for therapy (may be diagnosed by MRI or cytology)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the presence of leptomeningeal metastases.",
+      "clinical_question": "Has the patient been diagnosed with leptomeningeal metastases confirmed by MRI or cytology?"
+    },
+    {
+      "criterion": "Confirmation of tumor progression by MR spectroscopy, PET scan, or biopsy/resection if prior radiosurgery was performed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Confirmation of tumor progression is not documented in the provided information.",
+      "clinical_question": "Has the patient undergone a confirmatory MR spectroscopy, PET scan, or biopsy/resection to assess for tumor progression within the last 30 days?"
+    },
+    {
+      "criterion": "Effusions or fluid collections must be drained prior to study entry",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the presence of effusions or fluid collections.",
+      "clinical_question": "Has the patient undergone drainage of any effusions or fluid collections prior to study entry?"
+    },
+    {
+      "criterion": "Karnofsky performance score ≥ 60",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Karnofsky performance score of ≥ 60?"
+    },
+    {
+      "criterion": "WBC > 3,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided, so WBC count is unknown.",
+      "clinical_question": "Does the patient have a white blood cell count (WBC) greater than 3,000/mm^3?"
+    },
+    {
+      "criterion": "Absolute neutrophil count > 1,500/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided, so absolute neutrophil count is unknown.",
+      "clinical_question": "Is the patient's absolute neutrophil count currently greater than 1,500/mm^3?"
+    },
+    {
+      "criterion": "Platelet count > 100,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided, so platelet count is unknown.",
+      "clinical_question": "Is the patient's current platelet count greater than 100,000/mm^3?"
+    },
+    {
+      "criterion": "Hemoglobin > 10 mg/dL (transfusion allowed)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided, so hemoglobin level is unknown.",
+      "clinical_question": "Is the patient's hemoglobin level currently greater than 10 mg/dL?"
+    },
+    {
+      "criterion": "SGOT/SGPT < 3.0 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided, so SGOT/SGPT levels are unknown.",
+      "clinical_question": "Is the patient's SGOT/SGPT level less than 3.0 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Bilirubin < 1.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's total bilirubin level less than 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Creatinine < 1.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine levels are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's serum creatinine level currently less than 1.5 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine clearance > 45 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine clearance is not provided, making it impossible to assess this criterion.",
+      "clinical_question": "What is the patient's current creatinine clearance value?"
+    },
+    {
+      "criterion": "Women of childbearing potential and sexually active males must commit to the use of effective contraception while on study and for 3 months after completing study treatment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and does not require contraception commitment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women who are pregnant or breast-feeding are not eligible for study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on pregnancy or breastfeeding status.",
+      "clinical_question": "Is the patient currently pregnant or breastfeeding?"
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a pregnancy test within the last 7 days, and was the result negative?"
+    },
+    {
+      "criterion": "Able to take steroids, vitamin B12, or folate",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently taking vitamin B12 and folate supplements as part of their treatment regimen?"
+    },
+    {
+      "criterion": "No significant medical illnesses or infection that, in the investigator's opinion, cannot be adequately controlled with appropriate therapy or would compromise the patient's ability to tolerate this therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has significant medical conditions (anaplastic astrocytoma, hypertension, chronic pain) that may compromise treatment tolerance.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Only one active tumor type allowed, except nonmelanoma skin cancer or carcinoma in situ of the cervix",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has an active tumor type (anaplastic astrocytoma), which does not meet the criterion of only one active tumor type.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A history of other malignancies are acceptable if in complete remission and off all therapy for that disease for a minimum of 3 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on other malignancies or their treatment history.",
+      "clinical_question": "Has the patient been in complete remission from any prior malignancies and off all therapy for at least 3 years?"
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific details provided regarding prior concurrent therapy.",
+      "clinical_question": "Has the patient received any prior treatment with pemetrexed or other antifolate agents?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific disease characteristics provided to assess eligibility.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of recurrent malignant glioma, primary CNS lymphoma, or brain metastases based on imaging and histopathological evaluation?"
+    },
+    {
+      "criterion": "More than 4 weeks since prior whole-brain or other radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone radiation therapy, and it is unclear if more than 4 weeks have passed since the last treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recovered from any side effects (6 weeks for a nitrosourea; 4 weeks for temozolomide, procarbazine, etoposide or experimental agent; 3 weeks for isotretinoin or tamoxifen) (for patients with gliomas)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on temozolomide, which has a recovery period of 4 weeks, and it is uncertain if this requirement is met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No more than 2 prior chemotherapeutic agents or regimens (includes biologic agents) (for patients with gliomas)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple chemotherapeutic agents, exceeding the limit of 2 prior regimens.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recovered from prior biopsy or re-resection of the tumor (10-14 days for resection or 3-5 days for a biopsy) (for patients with gliomas)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific information on the timing of the last biopsy or resection, making it indeterminate.",
+      "clinical_question": "Has the patient recovered from the prior biopsy or re-resection of the tumor within 10-14 days?"
+    },
+    {
+      "criterion": "May not be on any other chemotherapy except for hormonal therapy or trastuzumab (Herceptin®) (for patients with brain metastases)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on multiple chemotherapeutic agents, which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No limitations on prior CNS-directed therapies (for patients with brain metastases)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is not applicable as the patient does not have brain metastases.",
+      "clinical_question": "Has the patient received any prior CNS-directed therapies for their brain metastases?"
+    },
+    {
+      "criterion": "Able to discontinue nonsteroidal anti-inflammatory drugs (NSAIDs)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the use of NSAIDs, making it indeterminate.",
+      "clinical_question": "Has the patient successfully discontinued all nonsteroidal anti-inflammatory drugs (NSAIDs) for at least 7 days prior to enrollment?"
+    },
+    {
+      "criterion": "Patients taking NSAIDs or aspirin are required to interrupt therapy for at least 2 days before the study treatment and 2 days after the infusion",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the use of NSAIDs or aspirin, making it indeterminate.",
+      "clinical_question": "Has the patient interrupted the use of NSAIDs or aspirin for at least 2 days before and 2 days after the infusion of study treatment?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 7 of 41 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3902
+}

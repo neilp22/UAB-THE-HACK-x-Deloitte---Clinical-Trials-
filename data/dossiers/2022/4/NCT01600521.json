@@ -1,0 +1,86 @@
+{
+  "nct_id": "NCT01600521",
+  "trial_title": "A Clinical Study of a Natural Remedy for Rheumatoid Arthritis vs. Commonly Used Conventional Medications",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is to evaluate the efficacy and safety of a combined therapy for rheumatoid arthritis (RA). The combined therapy contained paeoniflorin (Brand name: Pafulin), which has anti-inflammation properties, and Cervus and Cucumis polypeptide injection (Brand name: Songmeile), which has bone healing, pain relieving, and anti-inflammation properties. The hypothesis is that this remedy, which has long been used by the world's largest RA community, is effective and safe when tested",
+  "eligibility_table": [
+    {
+      "criterion": "age of 18 years or older",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 66.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "active RA, defined by at least 8 swollen joints and at least 10 tender joints (excluding distal interphalangeal joints)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have active RA as defined by the criteria; she has joint pain and nodules but does not meet the swollen and tender joint counts.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "an erythrocyte sedimentation rate (ESR) of at least 28 mm per hour",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's erythrocyte sedimentation rate (ESR) at least 28 mm per hour?"
+    },
+    {
+      "criterion": "the 1987 revised American College of Rheumatology (ACR) criteria for diagnosis of RA for at least 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the duration of the patient's symptoms or if they meet the ACR criteria for RA diagnosis for at least 6 months.",
+      "clinical_question": "Has the patient experienced joint pain and stiffness for at least 6 weeks, with at least 3 swollen joints and a positive rheumatoid factor test?"
+    },
+    {
+      "criterion": "not use of NSAIDs within two weeks",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently taking Tylenol, which is not an NSAID, and there is no indication of NSAID use in the past two weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "agreement to participate in this study",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not been indicated to have any objections to participating in the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "poor compliance",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's compliance history.",
+      "clinical_question": "Has the patient reported taking their prescribed medications for rheumatoid arthritis at least 80% of the time over the past month?"
+    },
+    {
+      "criterion": "severe medical conditions",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has hypertension and hypercholesteremia, but it is unclear if these are considered severe medical conditions in the context of the trial.",
+      "clinical_question": "Does the patient have any severe medical conditions, such as heart failure, chronic obstructive pulmonary disease, or renal failure, that would contraindicate participation in the study?"
+    },
+    {
+      "criterion": "abnormalities in liver, or kidney function, or in haematological parameters",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There are no lab values provided to assess liver, kidney function, or hematological parameters.",
+      "clinical_question": "Have the patient's liver function tests (ALT, AST, and bilirubin) and kidney function tests (creatinine and BUN) been measured, and do they fall within the normal reference ranges?"
+    },
+    {
+      "criterion": "pregnancy or breast feeding",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is pregnant or breastfeeding.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: poor compliance",
+    "EXCLUSION UNCLEAR: severe medical conditions",
+    "EXCLUSION UNCLEAR: abnormalities in liver, or kidney function, or in haematological parameters"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

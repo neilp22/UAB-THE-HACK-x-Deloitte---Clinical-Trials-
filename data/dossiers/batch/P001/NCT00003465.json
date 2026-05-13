@@ -1,0 +1,278 @@
+{
+  "nct_id": "NCT00003465",
+  "trial_title": "Temozolomide in Treating Patients With Anaplastic Oligodendroglioma",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: Phase II trial to study the effectiveness of temozolomide in treating patients with anaplastic oligodendroglioma.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed supratentorial anaplastic oligodendroglioma or anaplastic oligoastrocytoma not requiring immediate radiotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a histologically confirmed diagnosis of supratentorial anaplastic oligodendroglioma or anaplastic oligoastrocytoma?"
+    },
+    {
+      "criterion": "Newly diagnosed, progressive, or recurrent disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma, which is a newly diagnosed condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Bidimensionally measurable disease At least 1.5 cm2 by MRI",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No MRI results provided to confirm if the disease is bidimensionally measurable at least 1.5 cm2.",
+      "clinical_question": "Does the patient have at least one measurable lesion with a minimum area of 1.5 cm² as determined by MRI?"
+    },
+    {
+      "criterion": "Age: 18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: Karnofsky 70-100%",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "ECOG 2.0 >= 70.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy: More than 12 weeks",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 45 years old and likely has a life expectancy greater than 12 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hematopoietic: Neutrophil count at least 1,500/mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's neutrophil count at least 1,500/mm3?"
+    },
+    {
+      "criterion": "Platelet count at least 100,000/mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's current platelet count at least 100,000/mm3?"
+    },
+    {
+      "criterion": "Hemoglobin at least 10 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Does the patient have a hemoglobin level of at least 10 g/dL?"
+    },
+    {
+      "criterion": "Hepatic: Bilirubin less than 1.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided, so it cannot be determined if they are less than 1.5 times ULN.",
+      "clinical_question": "Is the patient's total bilirubin level less than 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "SGOT/SGPT less than 2.5 times ULN",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ALT is 38 U/L, which is below 2.5 times the ULN.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Alkaline phosphatase less than 2 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Alkaline phosphatase levels are not provided, so it cannot be determined if they are less than 2 times ULN.",
+      "clinical_question": "Is the patient's alkaline phosphatase level less than 90 U/L?"
+    },
+    {
+      "criterion": "Renal: BUN less than 1.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "BUN levels are not provided, so it cannot be determined if they are less than 1.5 times ULN.",
+      "clinical_question": "Is the patient's BUN level less than 22.5 mg/dL (1.5 times the upper limit of normal)?"
+    },
+    {
+      "criterion": "Creatinine less than 1.5 times ULN",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Creatinine is 1.1 mg/dL, which is below 1.5 times ULN.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other: Neurologically stable",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe lower extremity weakness and urinary retention, indicating they may not be neurologically stable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No nonmalignant systemic disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has hypertension and hyperlipidemia, which are considered nonmalignant systemic diseases.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No acute infection treated with intravenous antibiotics",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No information provided about acute infections or treatment with intravenous antibiotics.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No frequent vomiting",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No information provided about frequent vomiting.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No medical condition (e.g., partial bowel obstruction) that would interfere with oral medication intake",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No medical conditions mentioned that would interfere with oral medication intake.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other prior or concurrent malignancy except surgically cured carcinoma in situ of the cervix or basal cell or squamous cell carcinoma of the skin",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No other malignancies reported except for the primary condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No AIDS-related illness",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No information provided indicating an AIDS-related illness.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "HIV status is not provided; cannot confirm if the patient is HIV negative.",
+      "clinical_question": "Is the patient's HIV status confirmed as negative through a recent laboratory test?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No information provided indicating the patient is pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pregnancy test results provided.",
+      "clinical_question": "Has the patient undergone a pregnancy test within the last 7 days, and was the result negative?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on contraception use provided.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a barrier method, hormonal method, or intrauterine device?"
+    },
+    {
+      "criterion": "Biologic therapy: No more than 1 prior biologic therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No prior biologic therapy mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent biologic therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No concurrent biologic therapy is mentioned in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent growth factors (e.g., epoetin alfa)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No concurrent growth factors are listed in the patient's medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chemotherapy: No more than 1 prior chemotherapy regimen",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone prior treatments, but the number of chemotherapy regimens is not specified.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent chemotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No other concurrent chemotherapy is mentioned in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Endocrine therapy: Must be on stable dose of steroids for at least 1 week prior to study",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on dexamethasone, but it is unclear if the dose has been stable for at least 1 week.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concurrent steroids allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Concurrent steroids are allowed, and the patient is currently on dexamethasone.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Radiotherapy: See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion requires information about disease characteristics which is not provided.",
+      "clinical_question": "Has the patient received prior radiotherapy for the treatment of anaplastic oligodendroglioma?"
+    },
+    {
+      "criterion": "No concurrent radiotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No concurrent radiotherapy is mentioned in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery: At least 2 weeks since prior surgical resection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The time since the last surgical resection is not specified.",
+      "clinical_question": "Has the patient undergone surgical resection at least 2 weeks prior to the initiation of temozolomide treatment?"
+    },
+    {
+      "criterion": "(newly diagnosed patients must be enrolled within 28 days of surgery or biopsy)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's enrollment timeline post-surgery or biopsy is not provided.",
+      "clinical_question": "Has the patient been enrolled in the trial within 28 days of their surgery or biopsy?"
+    },
+    {
+      "criterion": "Recovered from prior major surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of prior treatments including 's/p Foley catheter' and 'high-dose steroids', but it is unclear if they have fully recovered from any major surgery.",
+      "clinical_question": "Has the patient fully recovered from the prior major surgery, as evidenced by an ECOG performance status of 0 or 1?"
+    },
+    {
+      "criterion": "No other concurrent investigational drugs",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of the patient being on any concurrent investigational drugs, suggesting this criterion is likely met.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6053
+}

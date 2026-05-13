@@ -1,0 +1,119 @@
+{
+  "nct_id": "NCT03549559",
+  "trial_title": "Imaging Histone Deacetylase in the Heart",
+  "phase": "NA",
+  "status": "RECRUITING",
+  "brief_summary": "The overall goal of this PET-MR imaging trial is to evaluate 11C-Martinostat, a histone deacetylase targeted radioligand, in patients with aortic stenosis, individuals with diabetes, and healthy volunteers.",
+  "eligibility_table": [
+    {
+      "criterion": "Healthy Volunteers (n = 30)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe aortic stenosis and multiple cardiovascular conditions, disqualifying him as a healthy volunteer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Healthy adults with no known history of medical disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a known history of severe cardiovascular disease, which excludes him from being considered a healthy adult.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age 18-85 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient aged between 18 and 85 years old?"
+    },
+    {
+      "criterion": "No history cardiovascular disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a significant history of cardiovascular disease, including severe aortic stenosis and worsening LV function.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to provide informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is capable of providing informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with Diabetes (n = 16)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a diagnosis of diabetes, but the criterion is not applicable to his current conditions.",
+      "clinical_question": "Does the patient have a documented history of diabetes with an HbA1c level ≥6.5%?"
+    },
+    {
+      "criterion": "Age 18-85 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient aged between 18 and 85 years old?"
+    },
+    {
+      "criterion": "Diagnosis of diabetes",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a diagnosis of diabetes.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Echocardiogram within last 12 months showing no evidence of left ventricular hypertrophy or hemodynamic findings consistent with heart failure with preserved ejection fraction",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's echocardiogram shows left ventricular hypertrophy and hemodynamic findings consistent with heart failure, disqualifying him.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to provide informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is capable of providing informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with Aortic Stenosis (n = 50)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of aortic stenosis, qualifying him for this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age 18-85 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient aged between 18 and 85 years old?"
+    },
+    {
+      "criterion": "Echocardiogram or cardiac MRI scan within last 12 months documenting left ventricular hypertrophy and degenerative calcific aortic stenosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's echocardiogram shows left ventricular hypertrophy and degenerative calcific aortic stenosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to provide informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and likely has the capacity to provide informed consent, assuming no cognitive impairments are indicated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known contraindication to MRI",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not explicitly mention any known contraindications to MRI, but the presence of severe aortic stenosis and other cardiac conditions raises concerns that may not be fully assessed without further information.",
+      "clinical_question": "Does the patient have any known allergies to gadolinium-based contrast agents?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Known contraindication to MRI"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

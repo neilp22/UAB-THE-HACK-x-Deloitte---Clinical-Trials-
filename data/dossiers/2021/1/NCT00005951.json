@@ -1,0 +1,315 @@
+{
+  "nct_id": "NCT00005951",
+  "trial_title": "Irinotecan Plus Temozolomide in Treating Patients With Recurrent Primary Malignant Glioma",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells.\n\nPURPOSE: Phase I trial to study the effectiveness of irinotecan plus temozolomide in treating patients who have recurrent primary malignant glioma.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed recurrent primary malignant glioma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a histologically confirmed anaplastic astrocytoma, which is a type of primary malignant glioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's diagnosis includes anaplastic astrocytoma, meeting this inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Glioblastoma multiforme",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have glioblastoma multiforme; they have anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic oligodendroglioma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have anaplastic oligodendroglioma; they have anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Gliosarcoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have gliosarcoma; they have anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic mixed oligoastrocytoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have anaplastic mixed oligoastrocytoma; they have anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Measurable disease by MRI or CT",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's condition is likely measurable by MRI or CT given the presence of an unresectable tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No immediate radiotherapy required",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any form of radiotherapy in the past 6 months?"
+    },
+    {
+      "criterion": "Neurologically stable for at least 2 weeks prior to study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's neurological stability is unclear; they have severe lower extremity weakness and urinary retention, which may indicate instability.",
+      "clinical_question": "Has the patient demonstrated neurological stability, defined as no new or worsening neurological deficits, for at least 2 weeks prior to study enrollment?"
+    },
+    {
+      "criterion": "18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Karnofsky 60-100%",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's Karnofsky performance status is not provided, but given their severe symptoms, it is likely below 60.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Greater than 12 weeks",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion of greater than 12 weeks is unclear without specific treatment timelines; further information is needed.",
+      "clinical_question": "Has the patient experienced a progression-free survival of greater than 12 weeks following the initiation of irinotecan and temozolomide treatment?"
+    },
+    {
+      "criterion": "Absolute neutrophil count at least 1,500/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count currently at least 1,500/mm^3?"
+    },
+    {
+      "criterion": "Platelet count at least 100,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count at least 100,000/mm^3?"
+    },
+    {
+      "criterion": "Life expectancy greater than 12 weeks",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 45 years old and has a life expectancy likely greater than 12 weeks due to ongoing treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hemoglobin at least 10 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's hemoglobin level currently at least 10 g/dL?"
+    },
+    {
+      "criterion": "Bilirubin less than 1.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess bilirubin levels.",
+      "clinical_question": "Is the patient's total bilirubin level less than 1.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "SGOT and SGPT less than 2.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess SGOT and SGPT levels.",
+      "clinical_question": "Are the patient's SGOT and SGPT levels currently less than 2.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Alkaline phosphatase less than 2 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess alkaline phosphatase levels.",
+      "clinical_question": "Is the patient's alkaline phosphatase level less than 2 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Blood urea nitrogen and creatinine less than 1.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess blood urea nitrogen and creatinine levels.",
+      "clinical_question": "Is the patient's blood urea nitrogen and creatinine level less than 1.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication of being pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding a pregnancy test.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding contraception use.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a hormonal method, barrier method, or intrauterine device, as defined by clinical guidelines?"
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient's HIV status confirmed as negative through a recent laboratory test?"
+    },
+    {
+      "criterion": "No other nonmalignant systemic disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple conditions including chronic pain and hypertension, which may be considered nonmalignant systemic diseases.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No acute infection treated with IV antibiotics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding any acute infections or treatments.",
+      "clinical_question": "Has the patient experienced any acute infections requiring treatment with intravenous antibiotics in the past 30 days?"
+    },
+    {
+      "criterion": "No frequent vomiting or other condition that would preclude oral medication administration (e.g., partial bowel obstruction)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have any reported issues with vomiting or conditions that would prevent oral medication administration.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other prior malignancies except surgically cured carcinoma in situ of the cervix or basal or squamous cell skin cancer",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of anaplastic astrocytoma, which is a malignancy, and does not meet the criterion of having no other prior malignancies.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple prior treatments including 11 cycles of temozolomide and CPT-11, indicating prior concurrent therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biologic therapy:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently receiving biologic therapy (Avastin), which does not meet the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No more than 1 prior biologic therapy regimen",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received more than 1 prior biologic therapy regimen?"
+    },
+    {
+      "criterion": "Chemotherapy:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple chemotherapy regimens, including temozolomide and CPT-11, exceeding the limit of one prior regimen.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No more than 1 prior chemotherapy regimen",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received chemotherapy within the last 6 weeks, as they are currently on a regimen that includes temozolomide.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 6 weeks since prior chemotherapy, unless evidence of disease progression",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has previously failed temozolomide as part of their treatment history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior failure of irinotecan or temozolomide",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any prior endocrine therapy.",
+      "clinical_question": "Has the patient previously experienced any treatment-related progression or adverse effects from irinotecan or temozolomide?"
+    },
+    {
+      "criterion": "Endocrine therapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any prior endocrine therapy.",
+      "clinical_question": "Has the patient received any form of endocrine therapy prior to enrollment in this trial?"
+    },
+    {
+      "criterion": "Concurrent corticosteroids allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on high-dose steroids, which are allowed concurrently.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Radiotherapy:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone radiation therapy as part of prior treatments, and there is no indication that 6 weeks have passed since the last treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 6 weeks since prior radiotherapy, unless evidence of disease progression",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has had prior radiotherapy, and there is no evidence provided that indicates at least 6 weeks have elapsed since the last session.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of surgery (s/p Foley catheter), and it is unclear if at least 3 weeks have passed since this procedure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 3 weeks since prior surgery, unless evidence of disease progression, and recovered",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone surgery recently and has not provided evidence of recovery or that 3 weeks have passed since the last surgery.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is vague and does not specify what 'Other' entails; therefore, it cannot be definitively assessed.",
+      "clinical_question": "Has the patient experienced disease progression after receiving at least one prior line of therapy with temozolomide?"
+    },
+    {
+      "criterion": "No concurrent immunosuppressive agents",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on high-dose steroids and other medications that may have immunosuppressive effects, which disqualifies them from this criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 8 of 43 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5814
+}

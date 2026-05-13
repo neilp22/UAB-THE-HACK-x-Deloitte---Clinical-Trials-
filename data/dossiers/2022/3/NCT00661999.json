@@ -1,0 +1,243 @@
+{
+  "nct_id": "NCT00661999",
+  "trial_title": "Darbepoetin Alfa With or Without Iron in Treating Anemia Caused By Chemotherapy in Patients With Cancer",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Darbepoetin alfa may cause the body to make more red blood cells. Red blood cells contain iron that is needed to carry oxygen to the tissues. It is not yet known whether giving darbepoetin alfa (DA) together with intravenous iron or oral iron is more effective than giving darbepoetin alfa together with a placebo in treating anemia caused by chemotherapy.\n\nPURPOSE: This randomized phase III trial is studying giving darbepoetin alfa together with iron to see how well it works compared w",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosis of a non-myeloid cancer (other than non-melanomatous skin cancer)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a diagnosis of hemochromatosis, which is a condition that does not qualify as a non-myeloid cancer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Receiving or scheduled to receive chemotherapy (biological agents, such as small molecules/tyrosine kinase inhibitors and antibody-based therapies, are allowed)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not receiving or scheduled to receive chemotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Has chemotherapy-related anemia (hemoglobin < 11 g/dL)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's hemoglobin levels are not provided, but given the transferrin saturation and ferritin levels, it is likely that the patient does not have chemotherapy-related anemia.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No anemia known to be secondary to gastrointestinal bleeding or hemolysis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of anemia due to gastrointestinal bleeding or hemolysis based on the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No anemia known to be secondary to vitamin B12 or folic acid deficiency",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of anemia due to vitamin B12 or folic acid deficiency based on the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "+ Vitamin B12 and folic acid deficiency must be ruled out if the mean corpuscular volume (MCV) is > 100 fL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Mean corpuscular volume (MCV) is not provided; therefore, it cannot be determined if vitamin B12 and folic acid deficiency have been ruled out.",
+      "clinical_question": "Has the patient had a mean corpuscular volume (MCV) measurement, and if so, is it greater than 100 fL?"
+    },
+    {
+      "criterion": "No anemia secondary to chemotherapy-induced myelodysplastic syndromes",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of anemia secondary to chemotherapy-induced myelodysplastic syndromes.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No primary hematologic disorder causing moderate to severe anemia (e.g., congenital dyserythropoietic anemia, homozygous hemoglobin S disease or compound heterozygous sickling states, or thalassemia major)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a known condition (hemochromatosis) that could be considered a primary hematologic disorder causing anemia.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "- Carriers for these disease states are eligible",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not a carrier of the specified severe hematologic disorders.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No first-degree relative with primary hemochromatosis (unless the patient has undergone HFE genotyping and was found to have at least one wild-type allele, while the proband in the family demonstrated to have either the common C282Y or H63D mutation)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has homozygosity for the C282Y mutation, which indicates a familial link to primary hemochromatosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ECOG performance status 0-2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status score of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Ferritin > 20 mcg/L (i.e., not obviously iron deficient)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum ferritin level greater than 20 mcg/L?"
+    },
+    {
+      "criterion": "ALT or AST < 5 times upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "ALT and AST levels are not provided in the lab values, making it unclear if they are < 5 times the upper limit of normal.",
+      "clinical_question": "Is the patient's ALT or AST level less than 250 U/L?"
+    },
+    {
+      "criterion": "Alert, mentally competent, and able to sign informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is a 51-year-old male and there is no indication of mental incompetence or inability to sign informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pregnancy test results are provided, so it is unclear if the patient has a negative pregnancy test.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 3 months after completion of study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, but there is no information on contraception use or fertility status.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, and if so, what method is being utilized?"
+    },
+    {
+      "criterion": "Willing or able to be randomized and undergo study treatment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not indicated any unwillingness to participate in the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Willing or able to fill out quality-of-life forms",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not indicated any unwillingness to fill out quality-of-life forms.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No uncontrolled hypertension (i.e., systolic blood pressure [BP] ≥ 180 mm Hg or diastolic BP ≥ 100 mm Hg)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No blood pressure readings are provided, making it unclear if the patient has uncontrolled hypertension.",
+      "clinical_question": "Is the patient's current systolic blood pressure less than 180 mm Hg and diastolic blood pressure less than 100 mm Hg?"
+    },
+    {
+      "criterion": "No history of uncontrolled cardiac arrhythmias",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's history of cardiac arrhythmias.",
+      "clinical_question": "Does the patient have a documented history of any cardiac arrhythmias, including atrial fibrillation or ventricular tachycardia, within the past 12 months?"
+    },
+    {
+      "criterion": "No pulmonary embolism or deep venous thrombosis within the past year (unless the patient is on anticoagulation therapy and planning to continue it during study participation)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's history of pulmonary embolism or deep venous thrombosis.",
+      "clinical_question": "Has the patient experienced any pulmonary embolism or deep venous thrombosis within the past year?"
+    },
+    {
+      "criterion": "No known hypersensitivity to darbepoetin alfa, erythropoietin, mammalian cell-derived products, iron, or human albumin",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has no documented hypersensitivity to the specified substances, but this information is not explicitly provided.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to darbepoetin alfa, erythropoietin, mammalian cell-derived products, iron, or human albumin?"
+    },
+    {
+      "criterion": "No seizures within the past 3 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no history of seizures, thus meeting this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No gastrointestinal conditions expected to cause significant impairment of oral iron, such as untreated celiac disease or amyloidosis involving the gut - Patients with celiac disease who are adhering to a gluten-free diet are eligible",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have gastrointestinal conditions that would impair oral iron absorption.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about prior concurrent therapy, making it unclear.",
+      "clinical_question": "Has the patient received any prior treatment with iron supplements or intravenous iron therapy?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not specified in the patient profile.",
+      "clinical_question": "Does the patient have a diagnosis of anemia with a hemoglobin level <10 g/dL due to chemotherapy?"
+    },
+    {
+      "criterion": "More than 3 months since prior darbepoetin alfa, epoetin alfa, or any investigational forms of erythropoietin (e.g., gene-activated erythropoietin or novel erythropoiesis-stimulating protein)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the timing of prior erythropoietin treatments.",
+      "clinical_question": "Has the patient received darbepoetin alfa, epoetin alfa, or any investigational forms of erythropoietin within the last 3 months?"
+    },
+    {
+      "criterion": "More than 1 year since prior peripheral blood stem cell or bone marrow transplantation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding any prior stem cell or bone marrow transplantation.",
+      "clinical_question": "Has the patient undergone a peripheral blood stem cell or bone marrow transplantation more than 1 year ago?"
+    },
+    {
+      "criterion": "More than 2 weeks since prior red blood cell transfusions",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding prior red blood cell transfusions.",
+      "clinical_question": "Has the patient received any red blood cell transfusions in the past 2 weeks?"
+    },
+    {
+      "criterion": "More than 14 days since prior major surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding any major surgeries the patient may have had.",
+      "clinical_question": "Has the patient undergone any major surgery within the last 14 days?"
+    },
+    {
+      "criterion": "No prior gastrectomy or resection of > 100 cm of small intestine",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not had a gastrectomy or significant resection of the small intestine.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not planning to undergo stem cell or bone marrow transplantation within the next 6 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no indication of planning for stem cell or bone marrow transplantation within the next 6 months.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5152
+}

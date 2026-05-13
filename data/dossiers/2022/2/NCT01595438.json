@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT01595438",
+  "trial_title": "Ceftazidime-Avibactam Compared With Doripenem Followed by Oral Therapy for Hospitalized Adults With Complicated UTIs (Urinary Tract Infections)",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is to evaluate the effects of Ceftazidime Avibactam compared to Doripenem for treating hospitalized patients with complicated urinary tract infections, including acute pyelonephritis",
+  "eligibility_table": [
+    {
+      "criterion": "18 to 90 years of age inclusive",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 32.0 >= 90.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Female patients can participate if they are surgically sterile or completed menopause or females capable of having children and agree not to attempt pregnancy while receiving IV study therapy and for a period of 7 days after",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is female and capable of having children, but there is no indication that she is currently pregnant or attempting to conceive, which aligns with the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Has pyuria with >= 10 WBCs (white blood cell) and has a positive urine culture within 48 hours of enrollment containing >=10 to the fifth CFU (colony forming unit )/ml of a recognized uropathogen known to be susceptible to IV study therapy (CAZ-AVI and doripenem)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no lab data provided regarding pyuria or urine culture results, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient have a positive urine culture within 48 hours of enrollment containing ≥10 to the fifth CFU/ml of a recognized uropathogen known to be susceptible to IV study therapy?"
+    },
+    {
+      "criterion": "Demonstrates either acute pyelonephritis or complicated lower UTI without pyelonephritis.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's conditions do not clearly indicate acute pyelonephritis or complicated lower UTI without pyelonephritis, and further information is needed.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of acute pyelonephritis or a complicated lower UTI without pyelonephritis based on clinical evaluation and laboratory results?"
+    },
+    {
+      "criterion": "Urine pathogen is a Gram-positive pathogen or a uropathogen resistant to CAZ-AVI or doripenem",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the specific urine pathogen or its susceptibility to CAZ-AVI or doripenem, making it uncertain.",
+      "clinical_question": "Is the urine culture positive for a Gram-positive pathogen or a uropathogen resistant to ceftazidime-avibactam or doripenem?"
+    },
+    {
+      "criterion": "Patient's urine culture at study entry isolates more than 2 microorganisms regardless of colony count or patient has a confirmed fungal UTI",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The urine culture results are not provided, so it is unclear if the patient isolates more than 2 microorganisms or has a fungal UTI.",
+      "clinical_question": "Does the patient's urine culture at study entry isolate more than 2 microorganisms regardless of colony count?"
+    },
+    {
+      "criterion": "Patient is receiving hemodialysis or peritoneal dialysis or had a renal transplant",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of complicated UTIs, but there is no indication of renal transplant or dialysis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient is immunocompromised",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's immune status, making it uncertain.",
+      "clinical_question": "Does the patient have a documented history of immunosuppressive therapy, such as corticosteroids or chemotherapy, within the last 6 months?"
+    },
+    {
+      "criterion": "Patient is considered unlikely to survive the 6- to 8-week study period or has a rapidly progressive or terminal illness including septic shock which is associated with a high risk of mortality",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's overall health status and prognosis are not detailed enough to assess the likelihood of survival during the study period.",
+      "clinical_question": "Does the patient exhibit signs of septic shock, such as a systolic blood pressure <90 mmHg or a lactate level >2 mmol/L?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Urine pathogen is a Gram-positive pathogen or a uropathogen resistant to CAZ-AVI",
+    "EXCLUSION UNCLEAR: Patient's urine culture at study entry isolates more than 2 microorganisms regar",
+    "EXCLUSION VIOLATED: Patient is receiving hemodialysis or peritoneal dialysis or had a renal transpla",
+    "EXCLUSION UNCLEAR: Patient is immunocompromised",
+    "EXCLUSION UNCLEAR: Patient is considered unlikely to survive the 6- to 8-week study period or has a",
+    "LOW INCLUSION MATCH: only 1 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3333
+}

@@ -1,0 +1,43 @@
+{
+  "nct_id": "NCT02102269",
+  "trial_title": "Sonographic Evaluation of the Effect of Shoulder Orthosis on the Subluxation in Stroke Patients",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "Shoulder pain is frequently reported as a complication among stroke patients. Muscular imbalance disrupts stability of the glenohumeral joint creating a subluxation. Stretching the soft tissue can cause shoulder pain which impedes quality of life, length of stay and rehabilitation outcome. To align the humeral head in the cavitas glenoïdalis a shoulder orthosis is often provided to the patient. Since the use of these orthoses is not always considered positive by the patient nor the therapist the",
+  "eligibility_table": [
+    {
+      "criterion": "First stroke",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not had a stroke, but the criterion specifies 'first stroke', which is unclear if it applies to this patient.",
+      "clinical_question": "Has the patient experienced a first stroke as confirmed by neuroimaging within the last 3 months?"
+    },
+    {
+      "criterion": "Patients must be able to sit independently on a chair with arm support during 30 minutes",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 66 years old and likely able to sit independently on a chair with arm support for 30 minutes, assuming no other mobility issues.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No shoulder problems prior to stroke",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has joint pain and stiffness, but there is no specific mention of shoulder problems, making it unclear.",
+      "clinical_question": "Has the patient experienced any shoulder pain or dysfunction prior to the stroke event?"
+    },
+    {
+      "criterion": "No severe cognitive problems that make it impossible to understand brief commands",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's cognitive status, making it impossible to assess this criterion.",
+      "clinical_question": "Does the patient demonstrate the ability to follow at least three brief commands without assistance?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: No shoulder problems prior to stroke",
+    "EXCLUSION UNCLEAR: No severe cognitive problems that make it impossible to understand brief command"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.25
+}

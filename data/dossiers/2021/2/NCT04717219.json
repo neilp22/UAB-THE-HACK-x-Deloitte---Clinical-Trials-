@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT04717219",
+  "trial_title": "Myeloid Cells in Aortic Valve Stenosis",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "Investigators plan to characterize systemic inflammation and circulating immune cells in participants with moderate and severe calcific aortic valve disease and matched healthy controls.",
+  "eligibility_table": [
+    {
+      "criterion": "Age > 18 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient over 18 years of age?"
+    },
+    {
+      "criterion": "Mild, moderate or severe degenerative aortic valve stenosis as defined by transthoracic echocardiography according to the 2017 ESC/EACTS guidelines for the management of valvular heart disease.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis, which meets the inclusion criterion for degenerative aortic valve stenosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active auto-inflammatory or auto-immune diseases",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of active auto-inflammatory or auto-immune diseases in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anti-inflammatory drugs",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is on Lasix and a beta-blocker, which are not classified as anti-inflammatory drugs.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Vaccination less than one month before inclusion",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of vaccination within the last month in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Bone marrow transplantation",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not undergone bone marrow transplantation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active malignancy, except for local basal cell carcinoma or local squamous cell skin carcinoma, that can be treated curatively by excision.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of active malignancy in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of endocarditis of the aortic valve",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no history of endocarditis of the aortic valve noted in the patient's medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of radiation therapy aimed at the chest",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received radiation therapy aimed at the chest.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Acute ischemic cardiac event less than three months before inclusion",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no record of an acute ischemic cardiac event within the last three months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Systemic inflammation less than one month before inclusion with fever and/or for which antibiotics have been prescribed, with the exception for the use of nitrofurantoin for a urinary tract infection without fever",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no evidence of systemic inflammation or recent fever in the patient's profile.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.9091
+}

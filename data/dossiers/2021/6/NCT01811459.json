@@ -1,0 +1,67 @@
+{
+  "nct_id": "NCT01811459",
+  "trial_title": "Trial Comparing Haloperidol, Quetiapine and Placebo in the Pharmacological Treatment of Delirium",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "Background:\n\nDelirium is an important problem in critical care. Its prevalence often reaches 75% in intensive care patients. Its occurrence is associated with numerous complications and deleterious consequences such as death, longer stay, higher cost, and long-term cognitive impairment. Delirium treatment entails correcting its underlying causes and usually initiating a pharmacological intervention with an antipsychotic. Typical antipsychotics, particularly haloperidol, are commonly used to trea",
+  "eligibility_table": [
+    {
+      "criterion": "Patients aged 18 years or older.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with a diagnosis of delirium made by a psychiatrist.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention a diagnosis of delirium made by a psychiatrist, but it is unclear if such a diagnosis has been evaluated.",
+      "clinical_question": "Has the patient been evaluated by a psychiatrist and diagnosed with delirium within the last 48 hours?"
+    },
+    {
+      "criterion": "Patients with active schizophrenia or bipolar disorder.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's mental health history, specifically if they have schizophrenia or bipolar disorder.",
+      "clinical_question": "Does the patient have a current diagnosis of schizophrenia or bipolar disorder?"
+    },
+    {
+      "criterion": "Patients with Parkinson disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not indicate a diagnosis of Parkinson disease, but this information is not explicitly stated.",
+      "clinical_question": "Does the patient have a diagnosis of Parkinson's disease?"
+    },
+    {
+      "criterion": "Patients with severe liver failure.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's liver function is not detailed in the lab values, making it unclear if they have severe liver failure.",
+      "clinical_question": "Does the patient have a Child-Pugh score of 10 or higher indicating severe liver failure?"
+    },
+    {
+      "criterion": "Patients with alcohol or sedative/hypnotics dependence.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of alcohol or sedative/hypnotic dependence in the patient's history.",
+      "clinical_question": "Does the patient have a documented history of alcohol or sedative/hypnotic dependence within the past 12 months?"
+    },
+    {
+      "criterion": "Patients with QTc interval above 500 msec.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The QTc interval is not provided in the lab values, so it cannot be determined if it is above 500 msec.",
+      "clinical_question": "Does the patient have a QTc interval greater than 500 msec as measured on an ECG?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients with active schizophrenia or bipolar disorder.",
+    "EXCLUSION UNCLEAR: Patients with Parkinson disease.",
+    "EXCLUSION UNCLEAR: Patients with severe liver failure.",
+    "EXCLUSION UNCLEAR: Patients with alcohol or sedative/hypnotics dependence.",
+    "EXCLUSION UNCLEAR: Patients with QTc interval above 500 msec."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1429
+}

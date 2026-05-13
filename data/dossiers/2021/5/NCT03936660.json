@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT03936660",
+  "trial_title": "A 12 Month Site Randomized Trial in Adults With Type 2 Diabetes Mellitus and History of Cardiovascular Disease",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "COORDINATE-Diabetes is a cluster-randomized clinical trial to test the effectiveness of an innovative, clinic-level educational intervention to improve the management of patients with type 2 diabetes mellitus and cardiovascular disease.",
+  "eligibility_table": [
+    {
+      "criterion": "Age ≥ 18 years old",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Does the patient have a documented history of cardiovascular disease, specifically including coronary artery disease or a prior cerebrovascular accident?"
+    },
+    {
+      "criterion": "Diagnosis of Type 2 diabetes mellitus (T2DM)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of Type 2 diabetes mellitus (DMII).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of at least one of the following conditions:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of multiple relevant conditions including CAD, HTN, HL, and PVD.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Coronary artery disease (defined as prior MI, coronary revascularization (CABG or PCI), and/or obstructive CAD (≥50%) as documented by angiography or CTA)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of coronary artery disease, evidenced by prior CABG.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stroke and/or carotid artery stenosis (≥50%)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has significant bilateral carotid artery stenosis, with 90% stenosis of the left ICA.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Peripheral Arterial disease (defined as claudication with ABI<0.9, prior peripheral revascularization, and/or amputation due to circulatory insufficiency)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has moderate to severe peripheral vascular disease (PVD).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to communicate with site staff and understand and provide written informed consent and proof of Health Insurance Portability and Accountability Act (HIPAA) authorization",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is able to communicate and provide informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Determined to be highly unlikely to survive and/or to continue follow-up in that clinic for at least 1 year, as identified by site investigator",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's overall health status and multiple comorbidities raise concerns about long-term survival and follow-up.",
+      "clinical_question": "Is the patient's estimated 1-year survival probability less than 50% based on their current health status and comorbidities?"
+    },
+    {
+      "criterion": "GFR<30 mL/min/1.73m2",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's estimated glomerular filtration rate (GFR) less than 30 mL/min/1.73m²?"
+    },
+    {
+      "criterion": "Already on all guideline-recommended therapies for T2DM and CVD",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not been documented to be on all guideline-recommended therapies for T2DM and CVD.",
+      "clinical_question": "Is the patient currently taking all guideline-recommended medications for Type 2 Diabetes Mellitus and cardiovascular disease, including metformin, a GLP-1 receptor agonist or SGLT2 inhibitor, and a statin?"
+    },
+    {
+      "criterion": "Absolute contraindication to any of the guideline recommended therapies for T2DM and CVD",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no clear documentation of absolute contraindications to guideline-recommended therapies, but the patient's multiple conditions warrant caution.",
+      "clinical_question": "Does the patient have any documented history of severe allergic reactions or adverse effects to any of the guideline-recommended therapies for Type 2 Diabetes Mellitus and cardiovascular disease?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Determined to be highly unlikely to survive and/or to continue follow-up in that",
+    "EXCLUSION UNCLEAR: GFR<30 mL/min/1.73m2",
+    "EXCLUSION UNCLEAR: Already on all guideline-recommended therapies for T2DM and CVD",
+    "EXCLUSION UNCLEAR: Absolute contraindication to any of the guideline recommended therapies for T2DM"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5455
+}

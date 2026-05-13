@@ -1,0 +1,67 @@
+{
+  "nct_id": "NCT04189471",
+  "trial_title": "Improving Outcomes for Patients With Life-Threatening Neurologic Illness",
+  "phase": "",
+  "status": "RECRUITING",
+  "brief_summary": "Background:\n\nWhile the intensive care of patients with life-threatening brain illnesses has advanced tremendously, a large number of therapies are still without proper scientific support.\n\nThis can be partly explained by the fact that mechanisms of initial brain injury are still not well understood. Why additional neurological injury occurs during a patient's stay in the NeuroCritical Care Unit (NCCU) despite current best, evidence-based clinical practices, is also not well understood. However, ",
+  "eligibility_table": [
+    {
+      "criterion": "clinical diagnosis of potentially life-threatening neurological illness",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a spontaneous intraventricular hemorrhage, which is a potentially life-threatening neurological condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "admitted to Neuro ICU within 14 days of initial injury",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient was admitted to the Neuro ICU following a head injury, which is consistent with the requirement of admission within 14 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "known pre-existing neurological deficits related to a developmental disorder",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any pre-existing neurological deficits related to a developmental disorder.",
+      "clinical_question": "Does the patient have a documented history of developmental disorders, such as cerebral palsy or intellectual disability, prior to the onset of her current neurological conditions?"
+    },
+    {
+      "criterion": "prior severe stroke",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a significant head injury but there is no specific mention of a prior severe stroke.",
+      "clinical_question": "Has the patient experienced a prior severe stroke defined as a National Institutes of Health Stroke Scale (NIHSS) score of ≥15?"
+    },
+    {
+      "criterion": "prior severe dementia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating that the patient has a history of severe dementia.",
+      "clinical_question": "Has the patient been diagnosed with severe dementia as defined by a score of ≤10 on the Mini-Mental State Examination (MMSE)?"
+    },
+    {
+      "criterion": "prior severe head injury",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a significant head injury from a recent incident, but it is unclear if this qualifies as a prior severe head injury.",
+      "clinical_question": "Has the patient experienced a Glasgow Coma Scale score of ≤8 at any point following the severe head injury?"
+    },
+    {
+      "criterion": "prisoners",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating that the patient is a prisoner.",
+      "clinical_question": "Is the patient currently incarcerated or has she been incarcerated within the past 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: known pre-existing neurological deficits related to a developmental disorder",
+    "EXCLUSION UNCLEAR: prior severe stroke",
+    "EXCLUSION UNCLEAR: prior severe dementia",
+    "EXCLUSION UNCLEAR: prior severe head injury",
+    "EXCLUSION UNCLEAR: prisoners"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2857
+}

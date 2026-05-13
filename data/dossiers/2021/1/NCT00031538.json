@@ -1,0 +1,33 @@
+{
+  "nct_id": "NCT00031538",
+  "trial_title": "Genetic Analysis of Brain Tumors",
+  "phase": "",
+  "status": "TERMINATED",
+  "brief_summary": "This study will analyze tissue and blood samples from patients with gliomas (a type of brain tumor) to develop a new classification system for these tumors. Tumor classification can help guide treatment, in part by predicting how aggressive a tumor may be. Gliomas are currently classified according to their grade (how quickly they may grow) and the type of cells they are composed of. This system, however, is not always accurate, and sometimes two tumors that appear to be identical under the micr",
+  "eligibility_table": [
+    {
+      "criterion": "Any patient with radiographic suggestion of a primary glial neoplasm or any patient with a known glial neoplasm.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a known glial neoplasm, specifically anaplastic astrocytoma of the spine.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Medically indicated (diagnostic and/or therapeutic) tumor resection, or biopsy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The information provided does not specify whether a medically indicated tumor resection or biopsy is currently indicated or planned.",
+      "clinical_question": "Is there evidence of tumor progression or new neurological deficits that necessitate a diagnostic or therapeutic intervention, such as tumor resection or biopsy, within the last 30 days?"
+    },
+    {
+      "criterion": "Informed consent from patient or parents of children under the age of 18 years old. Patients or parents of children under the age of 18 must sign an authorization for the release of their protected health information.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is an adult and can provide informed consent for participation in the trial.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

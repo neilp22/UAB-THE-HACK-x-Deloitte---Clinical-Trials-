@@ -1,0 +1,258 @@
+{
+  "nct_id": "NCT01880086",
+  "trial_title": "Clomiphene Citrate for the Treatment of Low Testosterone Associated With Chronic Opioid Pain Medication Administration",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this randomized controlled clinical trial is to evaluate the effects of clomiphene citrate compared to placebo (substance without active medication) in men who are taking pain medication (opioids) for chronic pain conditions and who have low blood testosterone levels.\n\nThe condition of men having low testosterone with long-term pain medication (opioid) usage is called opioid-induced androgen deficiency (OPIAD). Low testosterone can be caused by pain medication effects on part of t",
+  "eligibility_table": [
+    {
+      "criterion": "Male",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "criterion targets male; patient is male",
+      "clinical_question": null
+    },
+    {
+      "criterion": "18 years to 65 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 19 years old, which falls within the inclusion age range of 18 to 65 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Low testosterone as defined by criteria (serum total testosterone <350 ng/dl in men <55 years, <300 ng/dl in men 55-65 years)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's serum testosterone level is 65 ng/dL, which is below the threshold of 350 ng/dL for men under 55 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "EITHER taking opioid pain medication (see A below) OR planning to start new pain medication regimen (see B below)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not currently taking opioid pain medication and there is no indication of a planned new pain medication regimen.",
+      "clinical_question": "Is the patient currently taking any opioid pain medication or planning to start a new pain medication regimen within the next month?"
+    },
+    {
+      "criterion": "A) EITHER continuous opioid treatment for chronic nonmalignant pain for >=6 months receiving one of several specified opioid regimens for the past 1 month (including >=20 mg/day of oral methadone, >=30 mg/day of oral sustained release oxycodone, >=30 mg/day of oral morphine sulfate, >=6 mg/day of oral dilaudid or >= 8 mg/day of dilaudid ER, or >=25 mcg/hr of transdermal fentanyl or buprenorphine, or intrathecal morphine pump)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not meet the criteria for continuous opioid treatment for chronic nonmalignant pain as there is no evidence of such treatment.",
+      "clinical_question": "Has the patient been receiving continuous opioid treatment for chronic nonmalignant pain for at least 6 months, with a current regimen that includes ≥20 mg/day of oral methadone, ≥30 mg/day of oral sustained release oxycodone, ≥30 mg/day of oral morphine sulfate, ≥6 mg/day of oral dilaudid, ≥8 mg/day of dilaudid ER, ≥25 mcg/hr of transdermal fentanyl or buprenorphine, or intrathecal morphine pump?"
+    },
+    {
+      "criterion": "B) OR the pain management physician is planning to start pain medication (opioid or non-opioid pain therapy) but you have not received it yet. If this is the case, your testosterone will be checked before starting and during 1 month of pain therapy to determine if you have low testosterone to qualify to begin medication (clomiphene or placebo) treatment in this study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided that indicates the patient is planning to start a pain medication regimen.",
+      "clinical_question": "Has the patient had a serum testosterone level checked within the last month to confirm it is ≤300 ng/dL before starting any pain therapy?"
+    },
+    {
+      "criterion": "BMI (20-35 kg/m2)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's BMI is not provided, making it impossible to assess if it falls within the required range of 20-35 kg/m2.",
+      "clinical_question": "Does the patient have a body mass index (BMI) between 20 and 35 kg/m²?"
+    },
+    {
+      "criterion": "Presence of clear secondary hypogonadism with hypogonadal symptoms and low total testosterone level (confirmed with morning testosterone level <= 350 ng/dL for men age >= 55 and <= 300ng/dl for men age 55-65) or total testosterone <=200 ng/dl (regardless of symptoms). Additionally luteinizing hormone (LH) should be <15 mIU (milli-International unit )/mL (at baseline only). Symptoms of hypogonadism include fatigue, decreased energy level/endurance, depressed mood, decreased libido, erectile dysfunction.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has clear secondary hypogonadism with low total testosterone level and symptoms consistent with hypogonadism.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic nonmalignant pain etiology includes rheumatoid arthritis, osteoarthritis, spinal stenosis, polymyalgia, complex region pain syndrome I and II, neurinoma, phantom limb pain, neuropathic pain of other origin, scoliosis, neck pain, failed back surgery, or chronic pancreatitis.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's chronic pain etiology is not specified, and thus it cannot be determined if it falls within the listed conditions.",
+      "clinical_question": "Does the patient have a documented history of chronic nonmalignant pain due to any of the specified conditions, such as rheumatoid arthritis or osteoarthritis, lasting for at least 3 months?"
+    },
+    {
+      "criterion": "All patients must have ability to complete the study in compliance with the protocol, and the ability to understand and provide written informed consent.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 19 years old and presumably has the ability to understand and provide written informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic pain of malignant etiology (cancer-related)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a diagnosis of chronic pain specifically related to a malignant etiology, such as cancer?"
+    },
+    {
+      "criterion": "Preexisting testosterone deficiency",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a serum testosterone level below 300 ng/dL?"
+    },
+    {
+      "criterion": "Concomitant use of medication that could interfere with testosterone levels including antidepressant medication, spironolactone, cimetidine, clomiphene (use in the past 1 year), human chorionic gonadotropin (hCG), androgen, estrogen, anabolic steroid, 5-alpha-reductase inhibitors such as finasteride, dehydroepiandrosterone (DHEA), testosterone therapy (topical testosterone within 7 days of study, injectable testosterone within 6 months of study)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently on any medications that could interfere with testosterone levels as per the exclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Uncontrolled hypertension",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a systolic blood pressure ≥140 mmHg or diastolic blood pressure ≥90 mmHg?"
+    },
+    {
+      "criterion": "Clinically significant abnormal findings on screening examination based on the Investigator's assessment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's screening examination findings are not provided, making it unclear if there are any clinically significant abnormalities.",
+      "clinical_question": "Does the patient exhibit any clinically significant abnormal findings on the screening examination as assessed by the Investigator?"
+    },
+    {
+      "criterion": "Known hypersensitivity to clomiphene",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to clomiphene citrate?"
+    },
+    {
+      "criterion": "Symptomatic cataracts",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented diagnosis of symptomatic cataracts as defined by visual impairment or other related symptoms?"
+    },
+    {
+      "criterion": "Presence or history of known hyperprolactinemia with or without a tumor",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of hyperprolactinemia in the patient's history, but it is unclear if this has been ruled out.",
+      "clinical_question": "Does the patient have a serum prolactin level ≥20 ng/mL indicating hyperprolactinemia?"
+    },
+    {
+      "criterion": "End-stage renal disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have an estimated glomerular filtration rate (eGFR) of less than 15 mL/min?"
+    },
+    {
+      "criterion": "Any contraindication to testosterone supplementation therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has hypogonadism, which may indicate a need for testosterone therapy, but no specific contraindications are listed.",
+      "clinical_question": "Does the patient have any history of prostate cancer or other contraindications to testosterone supplementation therapy?"
+    },
+    {
+      "criterion": "Absolute contraindications to hormone supplementation therapy which include active prostate cancer (or suspicion of prostate disease unless ruled out by biopsy)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of prostate cancer or suspicion of prostate disease is mentioned, but this needs to be confirmed.",
+      "clinical_question": "Has the patient undergone a prostate biopsy to rule out active prostate cancer or suspicion of prostate disease?"
+    },
+    {
+      "criterion": "prostatic specific antigen (PSA) >= 3.6",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's prostatic specific antigen (PSA) level ≥ 3.6 ng/mL?"
+    },
+    {
+      "criterion": "breast cancer",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of breast cancer in the patient's history.",
+      "clinical_question": "Does the patient have a personal or family history of breast cancer?"
+    },
+    {
+      "criterion": "hematocrit >= 51% (hemoglobin >= 17 g/dL)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a hematocrit level of ≥51%?"
+    },
+    {
+      "criterion": "uncontrolled congestive heart failure (CHF)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a history of congestive heart failure, but this needs to be confirmed.",
+      "clinical_question": "Does the patient have a documented history of uncontrolled congestive heart failure as defined by New York Heart Association Class III or IV symptoms?"
+    },
+    {
+      "criterion": "myocardial infarction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a myocardial infarction in the patient's history.",
+      "clinical_question": "Has the patient experienced a myocardial infarction as defined by the presence of elevated cardiac biomarkers and/or ECG changes consistent with myocardial injury?"
+    },
+    {
+      "criterion": "acute coronary event",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of an acute coronary event in the patient's history.",
+      "clinical_question": "Has the patient experienced any acute coronary events as defined by the occurrence of myocardial infarction or unstable angina within the past 12 months?"
+    },
+    {
+      "criterion": "unstable angina",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of unstable angina in the patient's history.",
+      "clinical_question": "Does the patient have a history of unstable angina as defined by episodes of chest pain at rest or with minimal exertion occurring within the last 30 days?"
+    },
+    {
+      "criterion": "coronary revascularization procedure in the preceding 6 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a coronary revascularization procedure in the patient's history.",
+      "clinical_question": "Has the patient undergone a coronary revascularization procedure in the past 6 months?"
+    },
+    {
+      "criterion": "untreated obstructive sleep apnea",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information regarding the presence or absence of untreated obstructive sleep apnea, making it unclear whether this criterion is met.",
+      "clinical_question": "Does the patient have a diagnosis of untreated obstructive sleep apnea based on a polysomnography showing an apnea-hypopnea index (AHI) of ≥5 events per hour?"
+    },
+    {
+      "criterion": "high risk of prostate cancer (ethnicity or family history)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information about the patient's ethnicity or family history related to prostate cancer, so it cannot be determined if the patient is at high risk.",
+      "clinical_question": "Does the patient have a family history of prostate cancer in first-degree relatives?"
+    },
+    {
+      "criterion": "severe lower urinary tract symptoms (AUA symptom score > 19)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have an AUA symptom score greater than 19?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Chronic pain of malignant etiology (cancer-related)",
+    "EXCLUSION UNCLEAR: Preexisting testosterone deficiency",
+    "EXCLUSION UNCLEAR: Uncontrolled hypertension",
+    "EXCLUSION UNCLEAR: Clinically significant abnormal findings on screening examination based on the I",
+    "EXCLUSION UNCLEAR: Known hypersensitivity to clomiphene",
+    "EXCLUSION UNCLEAR: Symptomatic cataracts",
+    "EXCLUSION UNCLEAR: Presence or history of known hyperprolactinemia with or without a tumor",
+    "EXCLUSION UNCLEAR: End-stage renal disease",
+    "EXCLUSION UNCLEAR: Any contraindication to testosterone supplementation therapy",
+    "EXCLUSION UNCLEAR: Absolute contraindications to hormone supplementation therapy which include acti",
+    "EXCLUSION UNCLEAR: prostatic specific antigen (PSA) >= 3.6",
+    "EXCLUSION UNCLEAR: breast cancer",
+    "EXCLUSION UNCLEAR: hematocrit >= 51% (hemoglobin >= 17 g/dL)",
+    "EXCLUSION UNCLEAR: uncontrolled congestive heart failure (CHF)",
+    "EXCLUSION UNCLEAR: myocardial infarction",
+    "EXCLUSION UNCLEAR: acute coronary event",
+    "EXCLUSION UNCLEAR: unstable angina",
+    "EXCLUSION UNCLEAR: coronary revascularization procedure in the preceding 6 months",
+    "EXCLUSION UNCLEAR: untreated obstructive sleep apnea",
+    "EXCLUSION UNCLEAR: high risk of prostate cancer (ethnicity or family history)",
+    "EXCLUSION UNCLEAR: severe lower urinary tract symptoms (AUA symptom score > 19)"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1875
+}

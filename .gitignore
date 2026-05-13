@@ -15,7 +15,6 @@ build/
 
 # Data (large / raw / sensitive)
 /data/raw/
-/data/cache/
 
 # Cache files
 *.cache
@@ -38,4 +37,3 @@ node_modules/
 logs/
 
 # Local run artifacts
-runs/

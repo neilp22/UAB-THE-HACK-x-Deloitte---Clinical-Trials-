@@ -216,6 +216,8 @@ def retrieve_candidates(
             if nct_id and nct_id not in seen_nct:
                 seen_nct.add(nct_id)
                 merged.append(trial)
+                if use_cache and cache is not None:
+                    cache.set(f"trial:{nct_id}", trial)
                 if len(merged) >= max_total:
                     break
 
@@ -292,6 +294,8 @@ def build_queries_combined(
                 if nct and nct not in seen:
                     seen.add(nct)
                     combined.append(nct)
+                    if isinstance(t, dict) and use_cache and cache is not None:
+                        cache.set(f"trial:{nct}", t)
                     llm_count += 1
         except Exception as exc:
             logger.warning("LLM term '%s' failed: %s", term, exc)
@@ -353,6 +357,8 @@ def build_queries_clinical(
             if nct and nct not in seen_nct:
                 seen_nct.add(nct)
                 results.append(nct)
+                if use_cache and cache is not None:
+                    cache.set(f"trial:{nct}", t)
 
     # Path 1: structured clinical queries from planner
     specs = plan_clinical_queries(profile, patient_text, max_queries=12)

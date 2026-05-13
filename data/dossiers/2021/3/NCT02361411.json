@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT02361411",
+  "trial_title": "Methods of Etiological Diagnosis of Cerebral Amyloid Angiopathy",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "The purpose of this study is to\n\n1. Early identify patients based on clinical manifestation, imaging, gene and histology, explore diagnostic tools\n2. get gene repertoire of Chinese\n3. Build a cerebral amyloid angiopathy (CAA) prospective cohorts, observing the disease history, and exploring prognostic factors of hemorrhage in CAA patients",
+  "eligibility_table": [
+    {
+      "criterion": "diagnosed with spontaneous cerebral hemorrhage after the head CT.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has been diagnosed with spontaneous intraventricular hemorrhage, which qualifies as a spontaneous cerebral hemorrhage.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "the patients and their family members agreed to participate in this study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether the patient and their family members agreed to participate in the study.",
+      "clinical_question": "Did the patient and at least one family member provide written informed consent to participate in the study?"
+    },
+    {
+      "criterion": "cerebral hemorrhage caused by traumatic, cerebral infarction, tumor and arteriovenous malformation.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's cerebral hemorrhage is associated with an arteriovenous malformation (AVM), which is a known exclusion criterion, but the hemorrhage itself is classified as spontaneous.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "patients who can not provide reliable information or are considered unsuitable for the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to provide reliable information is not assessed in the provided profile, making it unclear if they are suitable for the study.",
+      "clinical_question": "Can the patient provide a reliable history of their symptoms and medical conditions as assessed by a standardized cognitive evaluation tool?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: patients who can not provide reliable information or are considered unsuitable f"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

@@ -1,0 +1,119 @@
+{
+  "nct_id": "NCT02917525",
+  "trial_title": "Bicuspid Aortic Valve Stenosis and the Effect of vItamin K2 on Calciummetabolism on 18F-NaF PET/MRI",
+  "phase": "PHASE2",
+  "status": "UNKNOWN",
+  "brief_summary": "Early development of calcified aortic valve disease (CAVD) is a commonly occurring complication in patients with a bicuspid aortic valve (BAV, an aortic valve consisting of two leaflets instead of three). In general, CAVD is characterized by progressive narrowing of the aortic valve, with involvement of altered calcium metabolism. CAVD progression in fact may lead to necessity of valve replacement, since to date, no other therapies have been shown effective in the treatment of CAVD.\n\nThe primary",
+  "eligibility_table": [
+    {
+      "criterion": "known bicuspid aortic valve",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a known bicuspid aortic valve as part of their medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "calcified mild to moderate aortic valve stenosis on prior echocardiography",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific echocardiography data provided to confirm calcified mild to moderate aortic valve stenosis.",
+      "clinical_question": "Does the patient's prior echocardiography report indicate calcified mild to moderate aortic valve stenosis with a mean gradient of 25-40 mmHg?"
+    },
+    {
+      "criterion": "informed consent provided",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely to have provided informed consent as part of the preoperative workup.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "absence of calcified aortic valve stenosis on echocardiography",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis, which implies the absence of calcified aortic valve stenosis is not applicable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "presence of severe aortic valve stenosis",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis, which meets the exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "history of aortic valve repair or replacement",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not undergone any aortic valve repair or replacement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "accepted atrial fibrillation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of atrial fibrillation.",
+      "clinical_question": "Does the patient have a documented history of atrial fibrillation as defined by an ECG showing atrial fibrillation on at least two separate occasions?"
+    },
+    {
+      "criterion": "use of oral anticoagulants",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to be using oral anticoagulants, but this is not explicitly stated.",
+      "clinical_question": "Is the patient currently taking any oral anticoagulants, such as warfarin or direct oral anticoagulants?"
+    },
+    {
+      "criterion": "claustrophobia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's mental health status or claustrophobia.",
+      "clinical_question": "Does the patient have a history of claustrophobia that would prevent them from undergoing an 18F-NaF PET/MRI scan?"
+    },
+    {
+      "criterion": "presence of a pacemaker, ICD or ferromagnetic materials in the body",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of a pacemaker, ICD, or ferromagnetic materials.",
+      "clinical_question": "Does the patient have a pacemaker, ICD, or any ferromagnetic materials implanted in their body?"
+    },
+    {
+      "criterion": "life expectancy < 2 years",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's severe aortic stenosis and worsening LV function suggest a significantly reduced life expectancy, but specific prognosis data is not provided.",
+      "clinical_question": "Does the patient have a documented life expectancy of less than 2 years based on clinical assessment and prognostic scoring?"
+    },
+    {
+      "criterion": "Pregnancy (current or wish for near future)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's pregnancy status or future plans for pregnancy.",
+      "clinical_question": "Is the patient currently pregnant or does he have a documented wish to conceive within the next 12 months?"
+    },
+    {
+      "criterion": "soy allergy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a soy allergy in the patient's profile.",
+      "clinical_question": "Does the patient have a documented history of soy allergy confirmed by an allergist or through allergy testing?"
+    },
+    {
+      "criterion": "use of vitamin K-containing supplements",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medication list does not indicate the use of vitamin K-containing supplements, but this is not explicitly confirmed.",
+      "clinical_question": "Has the patient taken any vitamin K-containing supplements in the past 30 days?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: accepted atrial fibrillation",
+    "EXCLUSION UNCLEAR: use of oral anticoagulants",
+    "EXCLUSION UNCLEAR: claustrophobia",
+    "EXCLUSION UNCLEAR: presence of a pacemaker, ICD or ferromagnetic materials in the body",
+    "EXCLUSION UNCLEAR: life expectancy < 2 years",
+    "EXCLUSION UNCLEAR: Pregnancy (current or wish for near future)",
+    "EXCLUSION UNCLEAR: soy allergy",
+    "EXCLUSION UNCLEAR: use of vitamin K-containing supplements"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3571
+}

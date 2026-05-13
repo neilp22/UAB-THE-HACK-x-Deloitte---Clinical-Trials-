@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT03066414",
+  "trial_title": "Respiratory Variations For Assessing Blood Withdrawal",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "OBJECTIVES: To investigate whether respiratory variations of the inferior vena cava (ΔIVC) and internal jugular vein (ΔIJV) diameters during standardized breathing (ΔIVCST and ΔIJVST) increase after a therapeutic bleeding in spontaneously breathing and non-obese patients with genetic hemochromatosis.\n\nDESIGN: Prospective, monocentric study in the EFS Nord-de-France blood center.\n\nPATIENTS: Non-obese patients with genetic hemochromatosis undergoing a therapeutic bleeding.\n\nINTERVENTIONS: Ultrasou",
+  "eligibility_table": [
+    {
+      "criterion": "adult patients of > or equal 18 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 51.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "genetic hemochromatosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of genetic hemochromatosis due to homozygosity for the C282Y mutation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "undergoing a therapeutic blood withdrawal",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely undergoing therapeutic blood withdrawal due to elevated transferrin saturation and serum ferritin levels.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "health insured",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's health insurance status is not provided, making it uncertain whether this criterion is met.",
+      "clinical_question": "Is the patient currently enrolled in a health insurance plan that covers the costs associated with blood withdrawal procedures?"
+    },
+    {
+      "criterion": "non-obese (body mass index <30Kg/m²)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's age and gender suggest a likely non-obese status, and no obesity-related information is provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and not pregnant, but pregnancy status cannot be definitively assessed without further information.",
+      "clinical_question": "Is the patient currently pregnant, as confirmed by a positive pregnancy test?"
+    },
+    {
+      "criterion": "transthoracic echogenicity unsuitable for measuring the inferior vena cava diameters",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding transthoracic echogenicity, making it uncertain whether this criterion is met.",
+      "clinical_question": "Is the transthoracic echogenicity of the patient sufficient to accurately measure the inferior vena cava diameters, as defined by a minimum echogenicity score of 2 on a scale of 0 to 4?"
+    },
+    {
+      "criterion": "clinical signs of active exhalation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There are no clinical signs of active exhalation mentioned, but without further clinical details, this cannot be definitively assessed.",
+      "clinical_question": "Does the patient exhibit clinical signs of active exhalation, such as increased respiratory rate or use of accessory muscles, during a standardized assessment?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: pregnancy",
+    "EXCLUSION UNCLEAR: transthoracic echogenicity unsuitable for measuring the inferior vena cava diame",
+    "EXCLUSION UNCLEAR: clinical signs of active exhalation"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

@@ -1,0 +1,198 @@
+{
+  "nct_id": "NCT00115440",
+  "trial_title": "BNCT to Treat Glioma That Has Progressed Following Radiotherapy",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "Boron Neutron Capture Therapy (BNCT) is an experimental radiation therapy technique which is based on the principle of irradiating boron atoms with neutrons. When neutrons have relatively low energy, boron atoms that have been targeted to cancerous tissue using a suitable boron carrier (an amino acid derivative called BPA, boronophenylalanine) will capture the neutrons. As a result from the neutron capture the boron atoms will split into two, producing helium and lithium ions. The helium and lit",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed supratentorial glioblastoma or anaplastic astrocytoma.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a histologically confirmed diagnosis of anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recurred tumor after surgery and radiotherapy or tumor progressing after radiotherapy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of tumor progression after prior treatments including surgery and radiotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recurrence/progression has been confirmed by serial MRI scans and a biopsy, or by debulking surgery.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about serial MRI scans or biopsy confirming recurrence/progression.",
+      "clinical_question": "Has the patient undergone a biopsy or debulking surgery that confirms recurrence/progression of the glioma as evidenced by serial MRI scans?"
+    },
+    {
+      "criterion": "The World Health Organization performance status <2.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have a World Health Organization performance status score of <2?"
+    },
+    {
+      "criterion": "WBC >2,500/mm3, platelet count >75,000/mm3, serum creatinine <180 umol/L.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided; WBC, platelet count, and serum creatinine levels are unknown.",
+      "clinical_question": "Is the patient's white blood cell count greater than 2,500/mm³?"
+    },
+    {
+      "criterion": "A written informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient can provide informed consent as they are an adult.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age less than 18",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 < 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Tumor infiltrates into the brain stem or the optic tracts",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about tumor infiltration into the brain stem or optic tracts.",
+      "clinical_question": "Does imaging evidence show tumor infiltration into the brain stem or optic tracts?"
+    },
+    {
+      "criterion": "The majority of tumor tissue consists of grade II glioma with only a focal grade III component",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's tumor grade details are not specified; only the presence of anaplastic astrocytoma is noted.",
+      "clinical_question": "Does the histopathological analysis of the tumor tissue show that at least 50% consists of grade II glioma?"
+    },
+    {
+      "criterion": "A minimum gross tumor dose of 17 Gy (W) is not obtained in dose-planning",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the gross tumor dose obtained in dose-planning.",
+      "clinical_question": "Has the patient undergone dose-planning to confirm that a minimum gross tumor dose of 17 Gy (W) can be achieved?"
+    },
+    {
+      "criterion": "Less than 6 months has elapsed from the last date of external irradiation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The time elapsed since the last external irradiation is not specified.",
+      "clinical_question": "Has the patient received external irradiation within the last 6 months?"
+    },
+    {
+      "criterion": "Less than 4 weeks has elapsed from the last cancer chemotherapy dose prior to giving BNCT",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The time since the last cancer chemotherapy dose is not provided.",
+      "clinical_question": "Has the patient received their last dose of cancer chemotherapy within the past 4 weeks?"
+    },
+    {
+      "criterion": "The total conventional radiation therapy dose given is more than 61 Gy or less than 50 Gy, or one of nonconventional fractionation schemes has been used",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's prior treatments include radiation, but the exact total dose is not specified, making it unclear if it exceeds the limits.",
+      "clinical_question": "Has the patient received a total conventional radiation therapy dose of either >61 Gy or <50 Gy?"
+    },
+    {
+      "criterion": "More than approximately 1/3 of the total brain volume has been within the 90% isodose",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the brain volume affected by radiation, so it cannot be determined.",
+      "clinical_question": "Has imaging confirmed that more than 1/3 of the total brain volume has been within the 90% isodose line following the patient's prior radiotherapy?"
+    },
+    {
+      "criterion": "Gliomas where the enhancing tumor volume is larger than 2/3 of the volume of one hemisphere in the MRI examination preceding BNCT",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The MRI examination details regarding the enhancing tumor volume are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the enhancing tumor volume on the MRI examination preceding BNCT greater than 2/3 of the volume of one hemisphere?"
+    },
+    {
+      "criterion": "More than one radiotherapy course has been given to the brain tumor",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has undergone multiple treatments, but it is unclear if they count as separate courses of radiotherapy.",
+      "clinical_question": "Has the patient received more than one course of radiotherapy to the brain tumor?"
+    },
+    {
+      "criterion": "Untreated congestive heart failure or renal failure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has hypertension, but there is no mention of congestive heart failure or renal failure.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) < 40% or a creatinine clearance < 30 mL/min?"
+    },
+    {
+      "criterion": "Uncontrolled brain oedema despite the use of corticosteroids",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current management with corticosteroids does not indicate uncontrolled brain edema, but this is not explicitly stated.",
+      "clinical_question": "Is the patient's brain oedema classified as uncontrolled, defined as a ≥25% increase in volume despite the current high-dose corticosteroid regimen?"
+    },
+    {
+      "criterion": "A cardiac pace-maker or an unremovable metal implant present in the head and neck region that will interfere with MRI-based dose-planning",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information about the presence of a cardiac pacemaker or metal implants in the head and neck region.",
+      "clinical_question": "Does the patient have a cardiac pacemaker or an unremovable metal implant in the head and neck region that would interfere with MRI-based dose-planning?"
+    },
+    {
+      "criterion": "Restlessness or inability to lie in a cast for 30 to 60 minutes",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to lie still for the required duration is not assessed in the provided information.",
+      "clinical_question": "Has the patient demonstrated restlessness or an inability to lie still for 30 to 60 minutes during previous treatment sessions?"
+    },
+    {
+      "criterion": "Clinical follow-up after therapy cannot be arranged",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the arrangement of clinical follow-up after therapy.",
+      "clinical_question": "Can the patient attend follow-up appointments at least once every 4 weeks for the next 6 months post-therapy?"
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so pregnancy is not applicable.",
+      "clinical_question": "Is the patient currently pregnant or has the patient been pregnant within the last 12 months?"
+    },
+    {
+      "criterion": "Inability to understand treatment options",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ability to understand treatment options, making it unclear.",
+      "clinical_question": "Can the patient accurately explain the potential benefits and risks of BNCT as a treatment option for his glioma?"
+    },
+    {
+      "criterion": "Unwillingness to take part in the follow-up schedule",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's willingness to participate in the follow-up schedule is not mentioned, leaving this criterion uncertain.",
+      "clinical_question": "Is the patient willing to attend all scheduled follow-up appointments over the next 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Tumor infiltrates into the brain stem or the optic tracts",
+    "EXCLUSION UNCLEAR: The majority of tumor tissue consists of grade II glioma with only a focal grade",
+    "EXCLUSION UNCLEAR: A minimum gross tumor dose of 17 Gy (W) is not obtained in dose-planning",
+    "EXCLUSION UNCLEAR: Less than 6 months has elapsed from the last date of external irradiation",
+    "EXCLUSION UNCLEAR: Less than 4 weeks has elapsed from the last cancer chemotherapy dose prior to gi",
+    "EXCLUSION UNCLEAR: The total conventional radiation therapy dose given is more than 61 Gy or less t",
+    "EXCLUSION UNCLEAR: More than approximately 1/3 of the total brain volume has been within the 90% is",
+    "EXCLUSION UNCLEAR: Gliomas where the enhancing tumor volume is larger than 2/3 of the volume of one",
+    "EXCLUSION UNCLEAR: More than one radiotherapy course has been given to the brain tumor",
+    "EXCLUSION UNCLEAR: Untreated congestive heart failure or renal failure",
+    "EXCLUSION UNCLEAR: Uncontrolled brain oedema despite the use of corticosteroids",
+    "EXCLUSION UNCLEAR: A cardiac pace-maker or an unremovable metal implant present in the head and nec",
+    "EXCLUSION UNCLEAR: Restlessness or inability to lie in a cast for 30 to 60 minutes",
+    "EXCLUSION UNCLEAR: Clinical follow-up after therapy cannot be arranged",
+    "EXCLUSION UNCLEAR: Pregnancy",
+    "EXCLUSION UNCLEAR: Inability to understand treatment options",
+    "EXCLUSION UNCLEAR: Unwillingness to take part in the follow-up schedule"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1667
+}

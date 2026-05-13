@@ -1,0 +1,66 @@
+{
+  "nct_id": "NCT04616352",
+  "trial_title": "Cefuroxime Resistance in Pyelonephritis",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Resistance to empirical antibiotic treatment has resulted in increased mortality and morbidity in serious infections caused by certain common resistant pathogens in the community. The risk for increased mortality has been also the motivation for recent guidelines that suggest early empirical antimicrobial treatment with broad spectrum antibiotics within a few hours of suspecting sepsis, regardless of the potential microorganism or infection focus. Resistance to second-generation cephalosporins a",
+  "eligibility_table": [
+    {
+      "criterion": "Age ≥ 18 years.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Clinical diagnosis of pyelonephritis.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of complicated UTIs, but there is no clinical diagnosis of pyelonephritis provided.",
+      "clinical_question": "Does the patient exhibit ≥2 symptoms of pyelonephritis, such as fever, flank pain, or dysuria?"
+    },
+    {
+      "criterion": "Antibiotic treatment with cefuroxime.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating that the patient has received antibiotic treatment with cefuroxime.",
+      "clinical_question": "Has the patient had a urine culture that shows cefuroxime resistance in the isolated uropathogen?"
+    },
+    {
+      "criterion": "Urine culture positive for Escherichia coli",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The urine culture results are not provided, so it is unclear if Escherichia coli is present.",
+      "clinical_question": "Is the urine culture positive for Escherichia coli with a colony count of ≥10^5 CFU/mL?"
+    },
+    {
+      "criterion": "Use of antibiotic for less than 24 hours.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the duration of any antibiotic treatment the patient may have received.",
+      "clinical_question": "Has the patient received any antibiotic treatment for pyelonephritis for less than 24 hours prior to this evaluation?"
+    },
+    {
+      "criterion": "Not availability of antimicrobial susceptibility testing.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The availability of antimicrobial susceptibility testing is not mentioned in the patient profile.",
+      "clinical_question": "Has the patient undergone antimicrobial susceptibility testing for cefuroxime resistance within the last 30 days?"
+    },
+    {
+      "criterion": "Use of urinary catheter for more than 30 days.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the use of a urinary catheter in the patient's history.",
+      "clinical_question": "Has the patient had a urinary catheter in place for more than 30 consecutive days?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Use of antibiotic for less than 24 hours.",
+    "EXCLUSION UNCLEAR: Not availability of antimicrobial susceptibility testing.",
+    "EXCLUSION UNCLEAR: Use of urinary catheter for more than 30 days.",
+    "LOW INCLUSION MATCH: only 1 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1429
+}

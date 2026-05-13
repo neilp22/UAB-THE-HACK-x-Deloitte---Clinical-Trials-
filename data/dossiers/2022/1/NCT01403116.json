@@ -1,0 +1,155 @@
+{
+  "nct_id": "NCT01403116",
+  "trial_title": "Safety and Efficacy Trial of Oral Testosterone Undecanoate (TU) in Hypogonadal Men",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is to determine the safety and efficacy of an oral testosterone undecanoate formulation for use as testosterone-replacement therapy in men with low testosterone.",
+  "eligibility_table": [
+    {
+      "criterion": "Serum testosterone of less than or equal to 300 ng/dL on two occasions within one week (may wash out from previous oral, topical or buccal testosterone therapy)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's serum testosterone level is 65 ng/dL, which is less than 300 ng/dL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Significant intercurrent disease of any type, in particular liver, kidney, uncontrolled or poorly controlled heart disease, or psychiatric illness",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No significant intercurrent disease is reported, but the patient's hypogonadism and delayed puberty may complicate the assessment.",
+      "clinical_question": "Does the patient have any history of liver disease, kidney disease, uncontrolled heart disease, or psychiatric illness?"
+    },
+    {
+      "criterion": "Recent history of stroke, not including transient ischemic attack",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No recent history of stroke is mentioned, but the patient's overall health status is unclear.",
+      "clinical_question": "Has the patient experienced a stroke, excluding transient ischemic attacks, within the last 6 months?"
+    },
+    {
+      "criterion": "Untreated, sever obstructive sleep apnea.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on obstructive sleep apnea is provided; further assessment is needed.",
+      "clinical_question": "Does the patient have an apnea-hypopnea index (AHI) of ≥15 events per hour on a sleep study?"
+    },
+    {
+      "criterion": "Hematocrit <35% or >48",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No hematocrit values are provided; cannot assess eligibility.",
+      "clinical_question": "Is the patient's hematocrit level <35% or >48%?"
+    },
+    {
+      "criterion": "Hematocrit <35% or >48",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No hematocrit values are provided; cannot assess eligibility.",
+      "clinical_question": "Is the patient's hematocrit level <35% or >48%?"
+    },
+    {
+      "criterion": "Serum transaminases >2 times upper limit of normal, serum bilirubin > 2.0 mg/dL and serum creatinine > 2.0 mg/dL",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values for transaminases, bilirubin, or creatinine are provided; cannot assess eligibility.",
+      "clinical_question": "Does the patient have serum transaminases greater than 2 times the upper limit of normal, serum bilirubin greater than 2.0 mg/dL, and serum creatinine greater than 2.0 mg/dL?"
+    },
+    {
+      "criterion": "BMI >= 36",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No BMI information is provided; cannot assess eligibility.",
+      "clinical_question": "Does the patient have a body mass index (BMI) of 36 or greater?"
+    },
+    {
+      "criterion": "Stable doses of lipid-lowering medication for less than 3 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on lipid-lowering medication is provided; cannot assess eligibility.",
+      "clinical_question": "Has the patient been on a stable dose of lipid-lowering medication for less than 3 months?"
+    },
+    {
+      "criterion": "Stable doses of oral medication for diabetes for less than 2 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on diabetes medication is provided; cannot assess eligibility.",
+      "clinical_question": "Has the patient been on a stable dose of oral medication for diabetes for less than 2 months?"
+    },
+    {
+      "criterion": "Abnormal prostate DRE [palpable nodule(s)], elevated PSA (>4 ng/mL), IPSS score >= 19 points.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No evidence of abnormal prostate DRE, elevated PSA, or high IPSS score in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Abnormal prostate DRE [palpable nodule(s)], elevated PSA (>4 ng/mL), IPSS score >= 19 points.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No evidence of abnormal prostate DRE, elevated PSA, or high IPSS score in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of breast cancer",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has no history of breast cancer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of dietary supplement saw palmetto or phytoestrogens and use of any dietary supplements that may increase serum testosterone within previous 4 weeks",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not using any dietary supplements that may affect testosterone levels.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known malabsorption syndrome and/or current treatment with oral lipase inhibitors",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No known malabsorption syndrome or treatment with oral lipase inhibitors is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of abuse of alcohol or any drug substance within the previous 2 years",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of substance abuse is indicated in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Current use of antiandrogens, estrogens, oral CYP3A4 inducers or inhibitors, or long-acting opioid analgesics",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently using any prohibited medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Receipt of any drug as part of a research study within 30 days of initial dose administration in this study.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No indication that the patient has participated in any research study within the last 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Blood donation within the 12 week period before the initial study dose.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No blood donation is reported within the 12 weeks prior to the initial study dose.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Significant intercurrent disease of any type, in particular liver, kidney, uncon",
+    "EXCLUSION UNCLEAR: Recent history of stroke, not including transient ischemic attack",
+    "EXCLUSION UNCLEAR: Untreated, sever obstructive sleep apnea.",
+    "EXCLUSION UNCLEAR: Hematocrit <35% or >48",
+    "EXCLUSION UNCLEAR: Hematocrit <35% or >48",
+    "EXCLUSION UNCLEAR: Serum transaminases >2 times upper limit of normal, serum bilirubin > 2.0 mg/dL ",
+    "EXCLUSION UNCLEAR: BMI >= 36",
+    "EXCLUSION UNCLEAR: Stable doses of lipid-lowering medication for less than 3 months",
+    "EXCLUSION UNCLEAR: Stable doses of oral medication for diabetes for less than 2 months"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5263
+}

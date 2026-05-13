@@ -1,0 +1,207 @@
+{
+  "nct_id": "NCT01539824",
+  "trial_title": "A Study of IMM-101 in Combination With Radiation Induced Tumour Necrosis in Colorectal Cancer",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is to investigate the safety and effects of IMM 101 in combination with a single targeted dose of radiation in patients with metastatic colorectal cancer in whom chemotherapy or other treatment has not been effective. Administration of radiation (using the CyberKnife) to the target tumour growth in the liver results in the release of tumour material. IMM-101 may help the immune system to react to the tumour material released from the damaged tumour, and so have a benefi",
+  "eligibility_table": [
+    {
+      "criterion": "Male or female; aged ≥ 18 years.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 67.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Histologically confirmed colorectal adenocarcinoma.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has metastatic colorectal cancer, which is a histologically confirmed diagnosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Documented evidence of disease progression following at least one line of chemotherapy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has received prior treatments and is experiencing disease progression.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No further standard chemotherapy options available have refused further chemotherapy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no further standard chemotherapy options available and has not refused further chemotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Metastatic lesions in at least two sites in the liver (+/- other sites) suitable for bidimensional and volumetric evaluation by CT scan.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The information about the number and location of metastatic lesions is not provided.",
+      "clinical_question": "Does the patient have metastatic lesions in at least two distinct sites in the liver that are suitable for bidimensional and volumetric evaluation by CT scan?"
+    },
+    {
+      "criterion": "World Health Organization (WHO) performance status of 0-2.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ECOG 1.0 <= 2.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Cockcroft calculated Glomerular Filtration Rate of > 40mL/min at screening.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "What is the patient's calculated Cockcroft-Gault Glomerular Filtration Rate?"
+    },
+    {
+      "criterion": "Life expectancy, in the opinion of the Investigator, of > 3 months from screening.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's ECOG score of 1 suggests a life expectancy of greater than 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of central nervous system metastasis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of central nervous system metastasis.",
+      "clinical_question": "Does the patient have any evidence of central nervous system metastasis as determined by a recent MRI or CT scan of the brain?"
+    },
+    {
+      "criterion": "Severe, active uncontrolled infection requiring systemic antibiotics, antiviral or antifungal treatments.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medical history does not mention any active uncontrolled infections.",
+      "clinical_question": "Does the patient currently have any signs or symptoms of a severe, active uncontrolled infection that requires systemic antibiotics, antiviral, or antifungal treatments?"
+    },
+    {
+      "criterion": "Any previous or concurrent malignancy, except adequately treated carcinoma in situ of the cervix, basal cell carcinoma of the skin and/or non-melanoma skin cancer, or if previous malignancy was more than 5 years earlier and there are no signs of recurrence.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has no previous or concurrent malignancy that disqualifies them.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serum albumin < 30 g/L at screening.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's serum albumin level less than 30 g/L at screening?"
+    },
+    {
+      "criterion": "C-reactive protein (CRP) > 70 mg/L at screening.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's C-reactive protein (CRP) level greater than 70 mg/L at screening?"
+    },
+    {
+      "criterion": "Transaminases (ALT or AST) > 5 X Upper Limit of Normal at screening.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's lab values do not indicate transaminases > 5 X Upper Limit of Normal.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Bilirubin level > 2 X Upper Limit of Normal at screening.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's bilirubin level is not provided, but no indication of elevated levels is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Radiotherapy in the 12 weeks before screening.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No information provided indicates that the patient has received radiotherapy in the 12 weeks before screening.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Depot corticosteroid use in the 6 weeks before screening.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not reported to be using depot corticosteroids.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic use of any systemic corticosteroids (> 10 mg per day of prednisolone or equivalent for a period of 2 weeks or more) and/or immunosuppressant drugs (such as azathioprine, tacrolimus, cyclosporin) within the 2-week period before the first administration of study drug.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of chronic use of systemic corticosteroids or immunosuppressants.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Woman of child-bearing potential who is not using an approved method of birth control.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and therefore not applicable for this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any investigational product administration in the 3 months before screening.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No investigational product administration is reported in the 3 months before screening.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Contraindication to CT scan, e.g., allergy to iodine based contrast medium.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No contraindication to CT scan is mentioned in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A surgical or medical condition which, in the judgement of the Investigator, might interfere with the activity of IMM-101, or with the performance of this study.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No surgical or medical conditions are reported that would interfere with the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any uncontrolled concomitant disease which, in the judgement of the Investigator, might interfere with the activity of IMM-101, or with the performance of this study.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No uncontrolled concomitant diseases are reported that would interfere with the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of serious adverse reaction or serious hypersensitivity to any drug that in the opinion of the Investigator may raise a safety concern.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of serious adverse reactions or hypersensitivity to drugs is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any previous treatment with IMM-101 or related mycobacterial immunotherapy (prior bacillus Calmette-Guerin (BCG) vaccination against Tuberculosis is allowed).",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received any treatment with IMM-101 or related mycobacterial immunotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known history of human immunodeficiency virus (HIV) or syphilis, current symptomatic Hepatitis B or C.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient profile does not indicate any history of HIV, syphilis, or current symptomatic Hepatitis B or C.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unable or unwilling to comply with the protocol.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information on the patient's willingness or ability to comply with the protocol.",
+      "clinical_question": "Is the patient willing to adhere to the study protocol requirements, including attending all scheduled visits and following treatment guidelines?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Evidence of central nervous system metastasis.",
+    "EXCLUSION UNCLEAR: Severe, active uncontrolled infection requiring systemic antibiotics, antiviral ",
+    "EXCLUSION UNCLEAR: Serum albumin < 30 g/L at screening.",
+    "EXCLUSION UNCLEAR: C-reactive protein (CRP) > 70 mg/L at screening.",
+    "EXCLUSION UNCLEAR: Unable or unwilling to comply with the protocol."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.7407
+}

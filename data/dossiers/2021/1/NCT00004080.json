@@ -1,0 +1,320 @@
+{
+  "nct_id": "NCT00004080",
+  "trial_title": "Gene Therapy in Treating Patients With Recurrent or Progressive Brain Tumors",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Inserting the gene for p53 into a person's brain cells may improve the body's ability to fight cancer.\n\nPURPOSE: Phase I trial to study the effectiveness of p53 gene therapy with SCH-58500 in treating patients who have recurrent, or progressive glioblastoma multiforme, anaplastic astrocytoma, or anaplastic mixed glioma that can be removed during surgery.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically proven glioblastoma multiforme, anaplastic astrocytoma, or anaplastic mixed glioma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a histologically confirmed diagnosis of anaplastic astrocytoma, glioblastoma multiforme, or anaplastic mixed glioma?"
+    },
+    {
+      "criterion": "Progressive or recurrent disease following radiotherapy (54-64 Gy) and/or chemotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma and has undergone prior treatments, indicating progressive disease after chemotherapy and radiotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Tumor recurrence must have anatomic characteristics that allow safe and reasonable surgical intervention",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's tumor is described as unresectable, which suggests that it does not have the anatomic characteristics for safe surgical intervention.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Measurable disease by serial MR or CT imaging",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the current imaging status of the tumor, making it unclear if the disease is measurable.",
+      "clinical_question": "Has the patient undergone serial MR or CT imaging within the last 3 months that shows measurable disease with a minimum tumor size of 1 cm?"
+    },
+    {
+      "criterion": "No Li-Fraumeni syndrome or known germline defect in p53 gene",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of Li-Fraumeni syndrome or a known germline defect in the p53 gene in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No radiographically or surgically proven gliomatosis cerebri",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have gliomatosis cerebri as per the provided conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No tumors requiring immediate excision due to impending neurologic decline",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have tumors requiring immediate excision, as the tumor is described as unresectable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: 18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: Karnofsky 60-100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have a Karnofsky Performance Status score of ≥60?"
+    },
+    {
+      "criterion": "WBC at least 3,000/mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a white blood cell count of at least 3,000/mm3?"
+    },
+    {
+      "criterion": "Absolute neutrophil count at least 1,000/mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count currently ≥1,000/mm3?"
+    },
+    {
+      "criterion": "Platelet count at least 100,000/mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count at least 100,000/mm3?"
+    },
+    {
+      "criterion": "Hematocrit at least 25%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current hematocrit level at least 25%?"
+    },
+    {
+      "criterion": "Bilirubin less than 1.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level currently less than 1.5 mg/dL?"
+    },
+    {
+      "criterion": "SGOT and SGPT less than 2.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for SGOT and SGPT are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Are the patient's SGOT and SGPT levels less than 62.5 U/L?"
+    },
+    {
+      "criterion": "PT or PTT no greater than ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "PT or PTT values are not provided, so it cannot be determined if they are within the acceptable range.",
+      "clinical_question": "Is the patient's prothrombin time (PT) or partial thromboplastin time (PTT) less than or equal to the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Creatinine no greater than 1.7 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level currently ≤1.7 mg/dL?"
+    },
+    {
+      "criterion": "No uncontrolled hypertension",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of hypertension, and it is unclear if it is controlled, which raises concerns about uncontrolled hypertension.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No uncontrolled or unstable angina pectoris",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of unstable angina pectoris in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No uncontrolled cardiac dysrhythmia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's cardiac status is not provided; unable to assess for uncontrolled cardiac dysrhythmia.",
+      "clinical_question": "Does the patient have a documented history of any uncontrolled cardiac dysrhythmia in the past 6 months?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Male patient, not applicable for pregnancy or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pregnancy test results provided; unable to confirm negative status.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 6 months after study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on contraception use provided; unable to assess compliance.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, and will he continue to do so for 6 months after the study?"
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "HIV status is not provided; unable to confirm HIV negative.",
+      "clinical_question": "Is the patient's HIV status confirmed as negative through a recent laboratory test within the last 6 months?"
+    },
+    {
+      "criterion": "No other active malignancy within the past 5 years except curatively treated basal or squamous cell skin cancer or carcinoma in situ of the cervix",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has anaplastic astrocytoma, which is an active malignancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No uncontrolled or serious concurrent infection or other serious medical illness that would preclude study therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on concurrent infections or serious medical illnesses provided.",
+      "clinical_question": "Does the patient currently have any uncontrolled infections or serious medical illnesses, as defined by the presence of conditions requiring hospitalization or significant medical intervention?"
+    },
+    {
+      "criterion": "No viral syndrome diagnosed within 2 weeks prior to study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No recent viral syndrome information provided; unable to assess.",
+      "clinical_question": "Has the patient been diagnosed with any viral syndrome within the 2 weeks prior to study enrollment?"
+    },
+    {
+      "criterion": "No other underlying medical condition that would increase risk of study or obscure interpretation of adverse results",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No details on other underlying medical conditions provided.",
+      "clinical_question": "Does the patient have any underlying medical conditions, such as uncontrolled hypertension or significant chronic pain, that could increase the risk of study participation or obscure the interpretation of adverse results?"
+    },
+    {
+      "criterion": "No active adenoviral infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on adenoviral infection status provided.",
+      "clinical_question": "Has the patient tested negative for adenoviral infection within the last 30 days?"
+    },
+    {
+      "criterion": "At least 3 weeks since prior biologic therapy and recovered",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently receiving Avastin, which is a biologic therapy, and has not been off it for at least 3 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent biologic therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on Avastin, indicating concurrent biologic therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No more than 1 prior chemotherapy regimen",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple chemotherapy regimens, including temozolomide and CPT-11, which exceeds the limit of 1 prior regimen.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 3 weeks since prior chemotherapy (6 weeks for nitrosoureas) and recovered",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received chemotherapy (temozolomide and CPT-11) within the last 3 weeks, thus not meeting the required interval.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior interstitial chemotherapy such as Gliadel wafer implantation for present brain tumor",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of prior interstitial chemotherapy such as Gliadel wafer implantation for the current brain tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently receiving chemotherapy (CPT-11 and Avastin), indicating concurrent chemotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 3 weeks since prior hormonal therapy and recovered",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received hormonal therapy, thus meeting this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent hormonal therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any concurrent hormonal therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 3 months since other prior radiotherapy and recovered",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received radiation therapy recently, and it is unclear if 3 months have passed since the last treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior brachytherapy for present brain tumor",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no record of prior brachytherapy for the present brain tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of radiation treatment for their spinal tumor, which indicates concurrent radiotherapy may still be affecting them.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior radiosurgery for present brain tumor",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of prior radiosurgery for the present brain tumor, as the patient has only undergone radiation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 3 weeks since other prior oncologic surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's last oncologic surgery is not specified in terms of timing relative to the current date, making it unclear if 3 weeks have passed.",
+      "clinical_question": "Has the patient undergone any prior oncologic surgery within the last 3 weeks?"
+    },
+    {
+      "criterion": "No other concurrent oncologic surgery",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of any ongoing oncologic surgeries in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent investigational drugs",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not reported to be taking any investigational drugs concurrently.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5455
+}

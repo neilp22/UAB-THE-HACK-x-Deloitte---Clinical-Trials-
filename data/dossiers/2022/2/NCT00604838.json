@@ -1,0 +1,106 @@
+{
+  "nct_id": "NCT00604838",
+  "trial_title": "Pivotal Study of the Al-Sense Study Protocol",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is to demonstrate that the Diagnostic Absorbent Panty liner (AL-SENSE Amniotic Leak Test Kit), developed by Common Sense Ltd., can distinguish between wetness sensed by pregnant women that is caused by amniotic fluid leakage and that which is caused by urinary incontinence.",
+  "eligibility_table": [
+    {
+      "criterion": "age 18 to 45 years.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 32.0 >= 45.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "minimum 16 weeks of pregnancy.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is only 10 weeks pregnant, which does not meet the minimum requirement of 16 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "willing to sign the informed consent form.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is unwilling to sign the informed consent form.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "arrived at the obstetric department reporting a feeling of vaginal wetness (undetermined whether this is amniotic fluid leakage or urinary incontinence).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient reported vaginal wetness, but it is unclear if this is amniotic fluid or urinary incontinence.",
+      "clinical_question": "Has the patient experienced any leakage of fluid that tests positive for amniotic fluid using a pH test or ferning test?"
+    },
+    {
+      "criterion": "experienced intermittent vaginal bleeding between the 2nd and 3rd trimester.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of vaginal spotting, but it is not specified if this occurred between the 2nd and 3rd trimester.",
+      "clinical_question": "Has the patient experienced intermittent vaginal bleeding at least twice between the 2nd and 3rd trimester?"
+    },
+    {
+      "criterion": "have had sexual relations within the last 12 hours.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has multiple male partners and inconsistent use of barrier contraceptives, but there is no specific information about sexual relations within the last 12 hours.",
+      "clinical_question": "Has the patient engaged in sexual relations within the last 12 hours?"
+    },
+    {
+      "criterion": "unable or unwilling to cooperate with study procedures.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's willingness or ability to cooperate with study procedures.",
+      "clinical_question": "Is the patient willing to attend all scheduled study visits and comply with the study procedures as outlined in the Al-Sense Study Protocol?"
+    },
+    {
+      "criterion": "used the AL-SENSE before joining this study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating whether the patient has used the AL-SENSE device before joining the study.",
+      "clinical_question": "Has the patient used the AL-SENSE device at least once prior to joining this study?"
+    },
+    {
+      "criterion": "diagnosed with Bacterial Vaginosis or Trichomonas infection within the last 3 days.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no recent diagnosis of Bacterial Vaginosis or Trichomonas infection within the last 3 days provided.",
+      "clinical_question": "Has the patient been diagnosed with Bacterial Vaginosis or Trichomonas infection within the last 3 days?"
+    },
+    {
+      "criterion": "uses vaginal products such as some douching formulas, some antibiotic treatments which reduce lactobacillus population.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information about the use of vaginal products that could affect eligibility.",
+      "clinical_question": "Has the patient used any vaginal products, including douching formulas or antibiotic treatments, that have been shown to reduce lactobacillus population in the past 30 days?"
+    },
+    {
+      "criterion": "uses drugs which reduce estrogen level such as tamoxifen or drugs that dry out the mucous membranes, such as antihistamines.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the use of drugs that reduce estrogen levels or dry out mucous membranes.",
+      "clinical_question": "Has the patient been prescribed any medications that reduce estrogen levels, such as tamoxifen, or antihistamines that may dry out mucous membranes?"
+    },
+    {
+      "criterion": "on a diet of alkalizing foods such as Alkalive™ Green, which may cause elevation of the vaginal pH level.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's dietary habits are not specified, so it is unclear if she is on a diet of alkalizing foods. Therefore, it cannot be determined if this exclusion applies.",
+      "clinical_question": "Is the patient's vaginal pH level ≥4.5 after following a diet of alkalizing foods such as Alkalive™ Green for at least two weeks?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: experienced intermittent vaginal bleeding between the 2nd and 3rd trimester.",
+    "EXCLUSION UNCLEAR: have had sexual relations within the last 12 hours.",
+    "EXCLUSION UNCLEAR: unable or unwilling to cooperate with study procedures.",
+    "EXCLUSION UNCLEAR: used the AL-SENSE before joining this study.",
+    "EXCLUSION UNCLEAR: diagnosed with Bacterial Vaginosis or Trichomonas infection within the last 3 da",
+    "EXCLUSION UNCLEAR: uses vaginal products such as some douching formulas, some antibiotic treatments",
+    "EXCLUSION UNCLEAR: uses drugs which reduce estrogen level such as tamoxifen or drugs that dry out t",
+    "EXCLUSION UNCLEAR: on a diet of alkalizing foods such as Alkalive™ Green, which may cause elevation",
+    "LOW INCLUSION MATCH: only 1 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.25
+}

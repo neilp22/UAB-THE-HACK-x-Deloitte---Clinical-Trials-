@@ -1,0 +1,581 @@
+{
+  "nct_id": "NCT00060242",
+  "trial_title": "Combretastatin A4 Phosphate in Treating Patients With Advanced Anaplastic Thyroid Cancer",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Combretastatin A4 phosphate may stop the growth of anaplastic thyroid cancer by stopping blood flow to the tumor.\n\nPURPOSE: This phase II trial is studying how well combretastatin A4 phosphate works in treating patients with advanced recurrent or metastatic anaplastic thyroid cancer.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed anaplastic or poorly differentiated variant thyroid cancer, including 1 of the following:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, not anaplastic or poorly differentiated variant thyroid cancer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recurrent/regionally advanced disease no longer amenable to definitive curative surgery or radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's condition is not recurrent or regionally advanced thyroid cancer; it is anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Untreated metastatic disease NOTE: If original/diagnostic tumor blocks are unavailable, tumor must be accessible for pretreatment core needle biopsy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have untreated metastatic disease; the profile indicates a specific type of brain tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have relapsed or progressed during or after prior combined modality therapy (e.g., systemic chemotherapy and radiotherapy) for regionally advanced (but not metastatic) disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not relapsed or progressed from prior therapy for thyroid cancer, as they have a spinal tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Measurable or evaluable disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The disease is not measurable or evaluable in the context of thyroid cancer; it is a spinal tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patent trachea and airway by screening direct and indirect laryngoscopy NOTE: For patients with bulky thyroid/neck masses and/or suspected airway obstruction",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's airway status is not provided; further assessment is needed to determine if the trachea is patent.",
+      "clinical_question": "Has the patient undergone direct and indirect laryngoscopy to assess for patent trachea and airway, with no evidence of obstruction?"
+    },
+    {
+      "criterion": "No active brain metastases, as evidenced by any of the following:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a spinal tumor, and there is no indication of active brain metastases.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Symptomatic involvement",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Symptomatic involvement is not specified; further information is needed.",
+      "clinical_question": "Does the patient report experiencing ≥3 symptoms related to their anaplastic thyroid cancer, such as pain, weakness, or urinary issues, within the last month?"
+    },
+    {
+      "criterion": "Cerebral edema by CT scan or MRI",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Cerebral edema status is not provided; imaging results are required for assessment.",
+      "clinical_question": "Has the patient undergone a CT scan or MRI within the last 30 days that shows evidence of cerebral edema?"
+    },
+    {
+      "criterion": "Radiographic evidence of progression since definitive therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no radiographic evidence of progression related to thyroid cancer, as the patient has a spinal tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Continued requirement for corticosteroids",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on high-dose steroids, indicating a continued requirement for corticosteroids.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 45 years old, which meets the age inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Performance status is not provided; therefore, it cannot be assessed.",
+      "clinical_question": "What is the patient's Eastern Cooperative Oncology Group (ECOG) performance status score?"
+    },
+    {
+      "criterion": "ECOG 0-2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Life expectancy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Life expectancy is not specified; thus, it cannot be determined.",
+      "clinical_question": "What is the patient's estimated life expectancy based on current clinical guidelines for advanced anaplastic thyroid cancer?"
+    },
+    {
+      "criterion": "At least 12 weeks",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been treated with Combretastatin A4 Phosphate for at least 12 weeks?"
+    },
+    {
+      "criterion": "Hematopoietic",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hematopoietic status is not provided; further information is needed to assess.",
+      "clinical_question": "Does the patient have a hemoglobin level of ≥10 g/dL?"
+    },
+    {
+      "criterion": "Absolute granulocyte count at least 1,500/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute granulocyte count currently ≥1,500/mm^3?"
+    },
+    {
+      "criterion": "Platelet count at least 75,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's platelet count currently ≥75,000/mm^3?"
+    },
+    {
+      "criterion": "Hemoglobin at least 8.5 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a hemoglobin level of at least 8.5 g/dL?"
+    },
+    {
+      "criterion": "Bilirubin no greater than 1.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not available; cannot assess against ULN.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "ALT and AST no greater than 3.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "ALT and AST levels are not provided; cannot assess against ULN.",
+      "clinical_question": "Are the patient's ALT and AST levels currently ≤3.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Creatinine no greater than 1.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine levels are not available; cannot assess against ULN.",
+      "clinical_question": "Is the patient's serum creatinine level ≤1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "LVEF at least 50% by MUGA",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) at least 50% as measured by a MUGA scan?"
+    },
+    {
+      "criterion": "EKG normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No EKG results are provided; cannot assess normality.",
+      "clinical_question": "Does the patient have a baseline EKG that shows no abnormalities, including a normal heart rate and rhythm, and no evidence of ischemia or arrhythmia?"
+    },
+    {
+      "criterion": "No evidence of prior myocardial infarction (e.g., significant Q waves), QTc greater than 450 msec, or other clinically significant abnormalities",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of prior myocardial infarction or EKG abnormalities is provided; cannot assess.",
+      "clinical_question": "Does the patient have a QTc interval measured at less than 450 msec?"
+    },
+    {
+      "criterion": "No history of angina (even if controlled by medication)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not mention any history of angina, but without specific cardiac history, it is uncertain.",
+      "clinical_question": "Does the patient have any documented history of angina, regardless of control by medication, at any point in their medical history?"
+    },
+    {
+      "criterion": "No congestive heart failure",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of congestive heart failure in the patient's profile, but lack of detailed cardiac history leaves this uncertain.",
+      "clinical_question": "Does the patient have a history of congestive heart failure as defined by the presence of symptoms such as dyspnea, edema, or a reduced ejection fraction of <40%?"
+    },
+    {
+      "criterion": "No uncontrolled atrial arrhythmias",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide information on atrial arrhythmias, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient have a history of uncontrolled atrial arrhythmias as defined by episodes of atrial fibrillation or atrial flutter lasting longer than 30 seconds?"
+    },
+    {
+      "criterion": "No clinically significant arrhythmias, including any of the following:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific information on clinically significant arrhythmias is provided, so it is uncertain.",
+      "clinical_question": "Has the patient undergone a 12-lead electrocardiogram (ECG) within the last 30 days that shows no clinically significant arrhythmias?"
+    },
+    {
+      "criterion": "Conduction abnormalities",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention conduction abnormalities, but without further cardiac evaluation, this remains uncertain.",
+      "clinical_question": "Does the patient have a documented history of conduction abnormalities on an electrocardiogram (ECG) with a heart rate below 60 beats per minute?"
+    },
+    {
+      "criterion": "Nodal junctional arrhythmias and dysrhythmias",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding nodal junctional arrhythmias or dysrhythmias, leaving this criterion uncertain.",
+      "clinical_question": "Has the patient experienced any nodal junctional arrhythmias or dysrhythmias as defined by a heart rate <60 bpm or >100 bpm on ECG during the treatment period?"
+    },
+    {
+      "criterion": "Sinus bradycardia or tachycardia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not specify sinus bradycardia or tachycardia, making it unclear.",
+      "clinical_question": "Has the patient experienced a heart rate of <60 beats per minute or >100 beats per minute at any point during the treatment?"
+    },
+    {
+      "criterion": "Supraventricular arrhythmias",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No details on supraventricular arrhythmias are provided, so this criterion cannot be assessed.",
+      "clinical_question": "Has the patient experienced ≥1 episode of supraventricular arrhythmias as defined by the presence of a heart rate >100 beats per minute on an ECG during the treatment period?"
+    },
+    {
+      "criterion": "Atrial fibrillation or flutter",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention atrial fibrillation or flutter, but without further cardiac history, this remains uncertain.",
+      "clinical_question": "Does the patient have a documented history of atrial fibrillation or flutter with an episode lasting ≥30 seconds?"
+    },
+    {
+      "criterion": "Syncope or vasovagal episodes",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of syncope or vasovagal episodes in the patient's history, but this is not definitively assessed.",
+      "clinical_question": "Has the patient experienced any episodes of syncope or vasovagal reactions in the past 30 days?"
+    },
+    {
+      "criterion": "No significant heart wall abnormality or heart muscle damage by MUGA",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess heart wall abnormalities or muscle damage.",
+      "clinical_question": "Does the patient have a MUGA scan result indicating no significant heart wall abnormality or heart muscle damage, defined as a left ventricular ejection fraction (LVEF) of ≥50%?"
+    },
+    {
+      "criterion": "No uncontrolled hypertension (blood pressure consistently greater than 150 mm Hg systolic and 100 mm Hg diastolic regardless of medication)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of hypertension and is currently on medication, but no evidence of controlled blood pressure is provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with previous hypertension are allowed provided there is clinical documentation of controlled blood pressure for 2 months prior to study enrollment",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of hypertension and is currently on medication, but no documentation of controlled blood pressure for 2 months is available.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No symptomatic peripheral vascular disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding peripheral vascular disease symptoms.",
+      "clinical_question": "Does the patient have a history of symptomatic peripheral vascular disease, defined as claudication, rest pain, or non-healing ulcers?"
+    },
+    {
+      "criterion": "No symptomatic cerebrovascular disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding cerebrovascular disease symptoms.",
+      "clinical_question": "Does the patient have a history of symptomatic cerebrovascular disease, defined as experiencing a stroke or transient ischemic attack within the past 12 months?"
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific details provided to assess this criterion.",
+      "clinical_question": "Has the patient experienced disease progression after receiving at least one prior systemic therapy for anaplastic thyroid cancer?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is male; however, no information on pregnancy or nursing status is provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pregnancy test results provided.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding contraception use.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a barrier method, hormonal method, or intrauterine device, as defined by clinical guidelines?"
+    },
+    {
+      "criterion": "No grade 2 or greater preexisting motor or sensory peripheral neuropathy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of severe lower extremity weakness and other neurological symptoms, indicating potential grade 2 or greater neuropathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No uncontrolled hypokalemia or hypomagnesemia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess potassium or magnesium levels.",
+      "clinical_question": "Does the patient have serum potassium levels ≥3.5 mEq/L and serum magnesium levels ≥1.5 mEq/L?"
+    },
+    {
+      "criterion": "No concurrent serious infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on current infections is available.",
+      "clinical_question": "Does the patient currently have any signs or symptoms of a serious infection, such as fever ≥38°C, chills, or localized infection requiring treatment?"
+    },
+    {
+      "criterion": "No other nonmalignant medical illness that is uncontrolled or whose control may be jeopardized by study therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has chronic pain and hypertension, which may be considered uncontrolled.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No psychiatric disorders or other conditions that would preclude study compliance",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on psychiatric history is provided.",
+      "clinical_question": "Does the patient have any documented psychiatric disorders, such as depression or anxiety, that would preclude study compliance?"
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is currently undergoing multiple therapies, which may conflict with study therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biologic therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is currently receiving Avastin, which is a biologic therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent biologic therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is currently receiving Avastin, which is a concurrent biologic therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent immunotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on immunotherapy is provided.",
+      "clinical_question": "Has the patient received any form of immunotherapy in the past 6 months?"
+    },
+    {
+      "criterion": "No concurrent prophylactic colony-stimulating factors (e.g., filgrastim [G-CSF] or sargramostim [GM-CSF])",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prophylactic colony-stimulating factors is provided.",
+      "clinical_question": "Has the patient received any prophylactic colony-stimulating factors, such as filgrastim or sargramostim, within the last 30 days?"
+    },
+    {
+      "criterion": "Chemotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is currently receiving chemotherapy (temozolomide and CPT-11).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma, which is a type of brain tumor, and the eligibility criteria likely require specific disease characteristics that may not be met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 3 weeks since prior chemotherapy (6 weeks for nitrosoureas or mitomycin)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on temozolomide and has had multiple cycles of chemotherapy, indicating that it has not been 3 weeks since the last chemotherapy treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently receiving Avastin and CPT-11, which are forms of chemotherapy, thus not meeting the criterion for no concurrent chemotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Endocrine therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion for endocrine therapy is unclear as the patient's profile does not specify any endocrine therapy being used.",
+      "clinical_question": "Has the patient received ≥1 line of endocrine therapy for their advanced anaplastic thyroid cancer?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Similar to criterion 1, the disease characteristics likely do not align with the trial's requirements for inclusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent hormonal therapy, except any of the following:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on multiple medications, including steroids and chemotherapy, which likely disqualifies them from concurrent hormonal therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Gonadotropin-releasing hormone agonists for hormone-refractory prostate cancer",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a history of hormone-refractory prostate cancer, making this criterion not applicable.",
+      "clinical_question": "Has the patient received gonadotropin-releasing hormone agonists as part of their treatment for hormone-refractory prostate cancer?"
+    },
+    {
+      "criterion": "Hormone replacement therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of hormone replacement therapy in the patient's profile.",
+      "clinical_question": "Has the patient been on hormone replacement therapy for at least 3 months prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "Oral contraceptives",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not mention the use of oral contraceptives.",
+      "clinical_question": "Is the patient currently using any form of oral contraceptives?"
+    },
+    {
+      "criterion": "Megestrol for anorexia/cachexia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of megestrol use for anorexia/cachexia in the patient's treatment history.",
+      "clinical_question": "Has the patient experienced a weight loss of ≥5% of baseline body weight in the last month due to anorexia/cachexia?"
+    },
+    {
+      "criterion": "Radiotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone prior radiotherapy as part of their treatment for anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not explicitly detailed in the profile, making it unclear if they meet specific inclusion criteria.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of advanced anaplastic thyroid cancer based on histopathological evaluation?"
+    },
+    {
+      "criterion": "More than 4 weeks since prior radiotherapy with progressive disease beyond radiation ports",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received radiotherapy in the last 4 weeks and has progressive disease beyond radiation ports.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior radiotherapy to more than 30% of the bone marrow",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify the extent of prior radiotherapy in relation to the bone marrow.",
+      "clinical_question": "Has the patient received prior radiotherapy to more than 30% of the bone marrow?"
+    },
+    {
+      "criterion": "No concurrent radiotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently receiving concurrent radiotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not provide information on any recent surgeries.",
+      "clinical_question": "Has the patient undergone any surgical intervention for the management of their anaplastic thyroid cancer?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not explicitly detailed in the profile, making it unclear if they meet specific inclusion criteria.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of advanced anaplastic thyroid cancer based on histopathological evaluation?"
+    },
+    {
+      "criterion": "More than 4 weeks since prior major surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify the timing of any major surgeries relative to the 4-week requirement.",
+      "clinical_question": "Has the patient undergone any major surgery in the last 4 weeks?"
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not provide sufficient information to assess this criterion.",
+      "clinical_question": "Has the patient experienced disease progression after receiving at least one prior systemic therapy for anaplastic thyroid cancer?"
+    },
+    {
+      "criterion": "At least 6 weeks since other prior therapy associated with delayed toxicity",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify the timing of other therapies associated with delayed toxicity.",
+      "clinical_question": "Has the patient completed all prior therapies associated with delayed toxicity at least 6 weeks before the start of the trial?"
+    },
+    {
+      "criterion": "No prior therapy for metastatic disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple prior therapies including temozolomide and CPT-11, which indicates prior treatment for their condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent medication(s) known to prolong the QTc interval, unless medication(s) can be held for at least 72 hours before, during, and for at least 6 hours after study drug administration",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on high-dose steroids and temozolomide, which may prolong the QTc interval, and there is no indication that these medications can be held as required.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent investigational therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently receiving Avastin, which is considered an investigational therapy in some contexts, indicating concurrent investigational therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent antineoplastic or cytotoxic therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is undergoing treatment with multiple antineoplastic therapies including temozolomide and CPT-11, which disqualifies them from this criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 7 of 81 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3827
+}

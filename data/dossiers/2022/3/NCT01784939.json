@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT01784939",
+  "trial_title": "HEPFER-Evaluation of a New Phenotypic Biological Marker in Genetic Type 1 Hemochromatosis",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "HFE(High iron FE)-related hereditary hemochromatosis has a highly variable penetrance. No phenotypic or genetic markers can predict the disease. The Iron Reabsorption Index (IRI), recently described by our group, correspond to the daily reabsorbed iron for a subject whose iron stock is stable and less than 50 µg / L.\n\nThe IRI is constant over time, reflecting the importance of the underlying functional deficit.\n\nHepcidin / ferritin (H / F) ratio may be an independent and constant over time marke",
+  "eligibility_table": [
+    {
+      "criterion": "Men, at least 18 years old",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 51.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "hereditary hemochromatosis C282Y homozygous diagnosed and followed in the service of Liver Diseases, University Hospital of Rennes",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is homozygous for the C282Y mutation, which is a key criterion for hereditary hemochromatosis, and there is no indication that they are not being followed by a relevant medical service.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Maintenance therapy with phlebotomy for at least 1 year with stable iron stock on the basis of at least four previous plasma ferritin < 50μg / L",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a serum ferritin level of 550 μg/L, which is significantly above the required <50μg/L, indicating that they have not undergone maintenance therapy with phlebotomy to achieve stable iron levels.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Written, free and informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has not provided written, free, and informed consent, which is a standard requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Intercurrent illness unrelated to hemochromatosis causing cytolysis or inflammatory reaction.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any intercurrent illness unrelated to hemochromatosis; therefore, it is uncertain whether this criterion is met or not.",
+      "clinical_question": "Has the patient experienced any intercurrent illness in the past month that resulted in a serum alanine aminotransferase (ALT) level greater than 40 U/L?"
+    },
+    {
+      "criterion": "Person with a measure of legal protection (guardianship)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's legal status or whether they are under guardianship, making it unclear if this exclusion applies.",
+      "clinical_question": "Does the patient have a legal guardian or conservator appointed due to a mental or physical condition that impairs decision-making capacity?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Intercurrent illness unrelated to hemochromatosis causing cytolysis or inflammat",
+    "EXCLUSION UNCLEAR: Person with a measure of legal protection (guardianship)"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT04771936",
+  "trial_title": "Relationship of Core Stability on Pain and Functional Levels in Patients Diagnosed With Hip Osteoarthritis",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "Osteoarthritis (OA) is a common disease that occurs more commonly amongst the elderly and is caused by the destruction of the joint cartilage. It is considered to be one of the most common joint disorders worldwide and a main cause of disability amongst older adults. After the knee, the hip is considered to be the second most commonly affected joint by OA. One of the functional capacities affected by OA is muscle strength with studies looking into knee OA documenting a decrement of this measure.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients awaiting a total hip replacement",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has joint pain and stiffness, but there is no explicit mention of awaiting a total hip replacement.",
+      "clinical_question": "Has the patient been diagnosed with hip osteoarthritis and is currently awaiting a total hip replacement?"
+    },
+    {
+      "criterion": "Anyone above the age of 40 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 66.0 > 40.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with neurologic conditions affecting mobility",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of any neurologic conditions affecting mobility in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with cognitive impairments",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's cognitive status is not provided, making it unclear if there are any cognitive impairments.",
+      "clinical_question": "Does the patient have a documented cognitive impairment score of ≤24 on the Mini-Mental State Examination (MMSE)?"
+    },
+    {
+      "criterion": "Patients not willing to comply",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's willingness to comply is not addressed in the provided information.",
+      "clinical_question": "Is the patient willing to participate in a structured core stability exercise program at least 3 times per week for the duration of the study?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients with cognitive impairments",
+    "EXCLUSION UNCLEAR: Patients not willing to comply"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4
+}

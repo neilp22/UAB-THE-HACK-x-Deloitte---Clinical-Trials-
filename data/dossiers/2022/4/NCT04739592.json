@@ -1,0 +1,204 @@
+{
+  "nct_id": "NCT04739592",
+  "trial_title": "A Study of Alendronate Sodium Vitamin D3 Tablets on Knee Osteoarthritis",
+  "phase": "PHASE4",
+  "status": "UNKNOWN",
+  "brief_summary": "The purpose of this study is to evaluate the effect of alendronate sodium vitamin D3 tablets compared with placebo on the improvement of joint structure and joint pain in participants with knee osteoarthritis. The treatment period of this study is one year and followed-up period is 2 years. The results of knee joint MRI will be evaluated by using the WORMS score.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with significant knee pain (pain score≥40mm on the 100mmVAS scale)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's knee pain is noted, but no specific pain score is provided to confirm if it meets the threshold of ≥40mm on the VAS scale.",
+      "clinical_question": "Is the patient's knee pain score ≥40mm on the 100mm VAS scale?"
+    },
+    {
+      "criterion": "Male or female patients, between 50-75 years old",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 66.0 >= 50.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Male or female patients, between 50-75 years old",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 66.0 <= 75.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "MRI suggests bone marrow edema-like lesions",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no MRI data provided to assess for bone marrow edema-like lesions.",
+      "clinical_question": "Does the MRI report indicate the presence of bone marrow edema-like lesions in the knee joints?"
+    },
+    {
+      "criterion": "Knee osteoarthritis (in accordance with the diagnostic criteria of American College of Rheumatology (ACR) and Chinese Orthopaedic Association)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's symptoms and findings are consistent with knee osteoarthritis as per ACR criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Kellgren-Lawrence gradingⅠorⅡin X-ray",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No X-ray results are provided to determine Kellgren-Lawrence grading.",
+      "clinical_question": "Does the patient's knee X-ray show a Kellgren-Lawrence grade of I or II?"
+    },
+    {
+      "criterion": "Other forms of active arthritis (such as rheumatoid arthritis or other inflammatory arthritis)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of other forms of active arthritis based on the provided history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Taken non-steroidal anti-inflammatory drugs and central analgesics (such as opioids) within two weeks",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently taking Tylenol, which is not a non-steroidal anti-inflammatory drug or central analgesic.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Liver function ALT or AST is 1.5 times the upper limit of normal; creatinine clearance <35ml/min",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values are provided to assess liver function or creatinine clearance.",
+      "clinical_question": "Is the patient's ALT or AST level greater than 1.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Pregnancy or suckling",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not pregnant or suckling, as no such information is provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serious heart disease, endocrine, digestive, mental, nervous system diseases or cancer",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding serious heart disease, endocrine, digestive, mental, nervous system diseases, or cancer.",
+      "clinical_question": "Does the patient have a history of serious heart disease, endocrine disorders, digestive diseases, mental health conditions, nervous system diseases, or cancer as defined by the study's exclusion criteria?"
+    },
+    {
+      "criterion": "Active ulcers and a history of upper gastrointestinal bleeding",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about active ulcers or a history of upper gastrointestinal bleeding.",
+      "clinical_question": "Does the patient have any active ulcers or a documented history of upper gastrointestinal bleeding within the past 12 months?"
+    },
+    {
+      "criterion": "Esophageal motility disorders, such as esophageal tardiness or stenosis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about esophageal motility disorders.",
+      "clinical_question": "Does the patient have a documented diagnosis of esophageal motility disorders, such as esophageal tardiness or stenosis, confirmed by esophageal manometry or barium swallow studies?"
+    },
+    {
+      "criterion": "Renal dysfunction or osteomalacia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess renal function or osteomalacia.",
+      "clinical_question": "Does the patient have a serum creatinine level greater than 1.5 mg/dL or a history of osteomalacia?"
+    },
+    {
+      "criterion": "Tobacco addiction (mean 10 cigarettes per day or more) or/and alcohol addiction (mean 50ml per day or more)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about tobacco or alcohol use.",
+      "clinical_question": "Does the patient smoke an average of ≥10 cigarettes per day or consume ≥50ml of alcohol per day?"
+    },
+    {
+      "criterion": "Tobacco addiction (mean 10 cigarettes per day or more) or/and alcohol addiction (mean 50ml per day or more)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about tobacco or alcohol use.",
+      "clinical_question": "Does the patient smoke an average of ≥10 cigarettes per day or consume ≥50ml of alcohol per day?"
+    },
+    {
+      "criterion": "Fresh fracture in the last six months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about recent fractures.",
+      "clinical_question": "Has the patient experienced a fresh fracture within the last six months?"
+    },
+    {
+      "criterion": "Serious illnesses and life expectancy < 2 years",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about serious illnesses or life expectancy.",
+      "clinical_question": "Does the patient have a life expectancy of less than 2 years based on current health status and prognosis?"
+    },
+    {
+      "criterion": "Allergic to study drugs",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about allergies to study drugs.",
+      "clinical_question": "Is the patient allergic to alendronate sodium or vitamin D3?"
+    },
+    {
+      "criterion": "Used any study drug or device within 30 days before randomization or within the drug half-life (whichever is longer)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior use of study drugs or devices.",
+      "clinical_question": "Has the patient used any study drug or device within the 30 days prior to randomization or within the half-life of the drug, whichever is longer?"
+    },
+    {
+      "criterion": "Failure to take medication as required",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about medication adherence.",
+      "clinical_question": "Has the patient missed ≥3 doses of Alendronate Sodium Vitamin D3 tablets in the past month?"
+    },
+    {
+      "criterion": "Replacement surgery in the near future",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about planned replacement surgery.",
+      "clinical_question": "Has the patient experienced a worsening of knee osteoarthritis symptoms leading to a recommendation for total knee replacement surgery within the next 12 months?"
+    },
+    {
+      "criterion": "Contraindications to MRI scans (e.g. implanted pacemakers, metal sutures, shrapnel or iron filings in the eyes, claustrophobia, knees too large to use coils)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information about any contraindications to MRI scans, but without specific details on implanted devices or conditions, it is uncertain.",
+      "clinical_question": "Does the patient have any implanted medical devices, such as a pacemaker or metal sutures, that would contraindicate an MRI scan?"
+    },
+    {
+      "criterion": "Sensitive to or unsuitable for X-ray exposure (e.g. aplastic anemia, etc)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a known condition that would make them sensitive to X-ray exposure, but there is no explicit mention of any relevant lab values or history that would confirm this.",
+      "clinical_question": "Does the patient have a history of conditions that are sensitive to X-ray exposure, such as aplastic anemia, that would contraindicate the use of X-ray imaging?"
+    },
+    {
+      "criterion": "Poor dental health or dental surgery in the near future",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention the patient's dental health status or any upcoming dental surgeries, making it unclear whether this criterion is met.",
+      "clinical_question": "Has the patient had any dental procedures or surgeries in the past 6 months or have plans for any dental surgery in the next 3 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Liver function ALT or AST is 1.5 times the upper limit of normal; creatinine cle",
+    "EXCLUSION UNCLEAR: Serious heart disease, endocrine, digestive, mental, nervous system diseases or ",
+    "EXCLUSION UNCLEAR: Active ulcers and a history of upper gastrointestinal bleeding",
+    "EXCLUSION UNCLEAR: Esophageal motility disorders, such as esophageal tardiness or stenosis",
+    "EXCLUSION UNCLEAR: Renal dysfunction or osteomalacia",
+    "EXCLUSION UNCLEAR: Tobacco addiction (mean 10 cigarettes per day or more) or/and alcohol addiction ",
+    "EXCLUSION UNCLEAR: Tobacco addiction (mean 10 cigarettes per day or more) or/and alcohol addiction ",
+    "EXCLUSION UNCLEAR: Fresh fracture in the last six months",
+    "EXCLUSION UNCLEAR: Serious illnesses and life expectancy < 2 years",
+    "EXCLUSION UNCLEAR: Allergic to study drugs",
+    "EXCLUSION UNCLEAR: Used any study drug or device within 30 days before randomization or within the ",
+    "EXCLUSION UNCLEAR: Failure to take medication as required",
+    "EXCLUSION UNCLEAR: Replacement surgery in the near future",
+    "EXCLUSION UNCLEAR: Contraindications to MRI scans (e.g. implanted pacemakers, metal sutures, shrapn",
+    "EXCLUSION UNCLEAR: Sensitive to or unsuitable for X-ray exposure (e.g. aplastic anemia, etc)",
+    "EXCLUSION UNCLEAR: Poor dental health or dental surgery in the near future"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.24
+}

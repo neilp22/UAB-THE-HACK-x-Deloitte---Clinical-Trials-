@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT01238835",
+  "trial_title": "PREVAIL-TA: Placement of Aortic Balloon Expandable Transcatheter Valves Trial (Europe)",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "A single arm, prospective multicenter non-randomized confirmatory clinical trial evaluating the Edwards SAPIEN XT™ transcatheter heart valve (model 9300TFX; \"study valve\"), the next generation Ascendra™ transapical delivery system, and crimper accessories.",
+  "eligibility_table": [
+    {
+      "criterion": "EuroSCORE of ≥ 15 %",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a EuroSCORE of ≥ 15%?"
+    },
+    {
+      "criterion": "Severe senile degenerative aortic valve stenosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis, which is consistent with the criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Symptomatic aortic valve stenosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is symptomatic due to severe aortic stenosis and worsening LV function.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can provide informed consent as there is no indication of cognitive impairment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Compliance",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone extensive preoperative workup, indicating likely compliance with trial protocols.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Logistic Euroscore > 40 %",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's Logistic Euroscore calculated to be greater than 40%?"
+    },
+    {
+      "criterion": "Evidence of an acute myocardial infarction",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no evidence of an acute myocardial infarction in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Congenital unicuspid or congenital bicuspid valve/ non-calcified",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a congenital bicuspid aortic valve, which meets the criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mixed aortic valve disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's condition may suggest mixed aortic valve disease, but further clarification on the definition of mixed disease is needed.",
+      "clinical_question": "Does the patient have aortic valve area ≤1.0 cm² and a mean gradient ≥40 mmHg?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Logistic Euroscore > 40 %"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

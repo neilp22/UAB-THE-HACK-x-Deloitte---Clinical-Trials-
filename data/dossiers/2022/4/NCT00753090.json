@@ -1,0 +1,204 @@
+{
+  "nct_id": "NCT00753090",
+  "trial_title": "Vanguard™ Deep Dish Rotating Platform Knee Clinical Evaluation",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "This study is being conducted on the Vanguard™ Deep Dish Rotating Platform (DD RP) to evaluate the clinical efficacy of the DDRP components.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with a pre-operative Knee Society Score of < 70",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's Knee Society Score is not provided, making it unclear if it is < 70.",
+      "clinical_question": "Does the patient have a pre-operative Knee Society Score of less than 70?"
+    },
+    {
+      "criterion": "Patients scheduled to undergo primary total knee replacement with any of the following indication: Painful and disabled knee joint resulting from osteoarthritis, Traumatic Arthritis, Rheumatoid Arthritis; One or more compartments are involved",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has painful and disabled knee joints due to osteoarthritis, which fits the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Need to obtain pain relief and improve function",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is seeking pain relief and improved function due to joint pain and stiffness.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability and willingness to follow instructions, including control of weight and activity level, and to return for follow-up evaluations",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely able and willing to follow instructions, as there is no indication otherwise.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A good nutritional state of the patient",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The nutritional state of the patient is not provided, making it unclear.",
+      "clinical_question": "Does the patient have a serum albumin level of ≥3.5 g/dL?"
+    },
+    {
+      "criterion": "Full skeletal maturity of the patient, patients who are at least 18 years of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 66.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients of either sex",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Cannot identify target gender from criterion text",
+      "clinical_question": "Does the patient have a diagnosis of osteoarthritis confirmed by radiographic evidence of joint space narrowing and osteophyte formation?"
+    },
+    {
+      "criterion": "Consent form read, understood, and signed by patient",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether the consent form was read, understood, and signed.",
+      "clinical_question": "Has the patient confirmed that she has read, understood, and signed the consent form prior to participating in the Vanguard™ Deep Dish Rotating Platform Knee Clinical Evaluation?"
+    },
+    {
+      "criterion": "Absolute contraindications include the following diagnoses:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No absolute contraindications are listed in the patient's profile, but specific diagnoses are not provided.",
+      "clinical_question": "Does the patient have a diagnosis of inflammatory arthritis, such as rheumatoid arthritis or psoriatic arthritis, that would contraindicate the use of the Vanguard™ Deep Dish Rotating Platform Knee?"
+    },
+    {
+      "criterion": "Patients with a pre-operative Knee Society Score of >= 70",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's Knee Society Score is not provided, making it unclear if it is >= 70.",
+      "clinical_question": "Does the patient have a pre-operative Knee Society Score of ≥ 70?"
+    },
+    {
+      "criterion": "Infection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced any signs of infection, such as fever or increased redness and swelling at the surgical site, within 30 days post-operation?"
+    },
+    {
+      "criterion": "Osteomyelitis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of osteomyelitis based on imaging studies or positive cultures?"
+    },
+    {
+      "criterion": "Previous partial or total prosthetic knee replacement on the operative side",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a previous partial or total knee prosthetic replacement on the operative side?"
+    },
+    {
+      "criterion": "Patients who are less than 18 years of age",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 66.0 < 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Sepsis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced any signs of infection, such as fever or elevated white blood cell count, within 30 days post-surgery?"
+    },
+    {
+      "criterion": "Patients who had body mass index >= 40",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's body mass index is not provided, making it unclear if it is >= 40.",
+      "clinical_question": "Does the patient have a body mass index (BMI) of 40 or greater?"
+    },
+    {
+      "criterion": "Relative contraindications include the following factors:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No relative contraindications are specified in the patient's profile.",
+      "clinical_question": "Does the patient have a body mass index (BMI) of ≥35 kg/m²?"
+    },
+    {
+      "criterion": "Uncooperative patient or patient with neurological disorders who are incapable of following directions or who are predictably unwilling to return for follow-up examinations",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not indicate any neurological disorders or uncooperativeness, but further assessment of her ability to follow directions is needed.",
+      "clinical_question": "Does the patient demonstrate the ability to follow simple verbal instructions during a clinical assessment?"
+    },
+    {
+      "criterion": "Osteoporosis or marked bone loss, which may preclude proper fixation of the prosthesis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no explicit mention of osteoporosis or marked bone loss in the provided information, but the presence of joint issues may warrant further investigation.",
+      "clinical_question": "Does the patient have a T-score of ≤ -2.5 on a dual-energy X-ray absorptiometry (DEXA) scan indicating osteoporosis?"
+    },
+    {
+      "criterion": "Metabolic disorders, which may impair bone formation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No metabolic disorders are mentioned, but the patient's conditions could potentially affect bone formation, requiring further evaluation.",
+      "clinical_question": "Does the patient have a documented diagnosis of a metabolic disorder, such as osteoporosis or hyperparathyroidism, that is known to impair bone formation?"
+    },
+    {
+      "criterion": "Osteomalacia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of osteomalacia in the patient's profile, but lab values are not provided to confirm bone health.",
+      "clinical_question": "Does the patient have a serum 25-hydroxyvitamin D level <20 ng/mL indicating osteomalacia?"
+    },
+    {
+      "criterion": "Distant foci of infections, which may spread to the implant site",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No distant infections are noted in the patient's history, but this would need to be confirmed with further medical evaluation.",
+      "clinical_question": "Has the patient been evaluated for the presence of any distant foci of infection, such as osteomyelitis or septic arthritis, within the last 6 months?"
+    },
+    {
+      "criterion": "Rapid joint destruction, marked bone loss, or bone resorption apparent on roentgenogram",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's joint issues suggest possible rapid joint destruction, but imaging results are not provided to confirm this.",
+      "clinical_question": "Has the patient experienced ≥2 mm of joint space narrowing or ≥5% bone loss on roentgenogram within the last 12 months?"
+    },
+    {
+      "criterion": "Vascular insufficiency, muscular atrophy, or neuromuscular disease in the affected limb.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention vascular insufficiency or neuromuscular disease, but further assessment of the affected limb is necessary.",
+      "clinical_question": "Does the patient exhibit any signs of vascular insufficiency, muscular atrophy, or neuromuscular disease in the affected limb as assessed by a physical examination and relevant diagnostic tests?"
+    },
+    {
+      "criterion": "Incomplete or deficient soft tissue surrounding the knee",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the condition of the soft tissue surrounding the knee, which is critical for eligibility.",
+      "clinical_question": "Does the patient exhibit any signs of incomplete or deficient soft tissue surrounding the knee as assessed by MRI or ultrasound imaging?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Absolute contraindications include the following diagnoses:",
+    "EXCLUSION UNCLEAR: Patients with a pre-operative Knee Society Score of >= 70",
+    "EXCLUSION UNCLEAR: Infection",
+    "EXCLUSION UNCLEAR: Osteomyelitis",
+    "EXCLUSION UNCLEAR: Previous partial or total prosthetic knee replacement on the operative side",
+    "EXCLUSION UNCLEAR: Sepsis",
+    "EXCLUSION UNCLEAR: Patients who had body mass index >= 40",
+    "EXCLUSION UNCLEAR: Relative contraindications include the following factors:",
+    "EXCLUSION UNCLEAR: Uncooperative patient or patient with neurological disorders who are incapable o",
+    "EXCLUSION UNCLEAR: Osteoporosis or marked bone loss, which may preclude proper fixation of the pros",
+    "EXCLUSION UNCLEAR: Metabolic disorders, which may impair bone formation",
+    "EXCLUSION UNCLEAR: Osteomalacia",
+    "EXCLUSION UNCLEAR: Distant foci of infections, which may spread to the implant site",
+    "EXCLUSION UNCLEAR: Rapid joint destruction, marked bone loss, or bone resorption apparent on roentg",
+    "EXCLUSION UNCLEAR: Vascular insufficiency, muscular atrophy, or neuromuscular disease in the affect",
+    "EXCLUSION UNCLEAR: Incomplete or deficient soft tissue surrounding the knee"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2
+}

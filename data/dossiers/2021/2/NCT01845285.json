@@ -1,0 +1,63 @@
+{
+  "nct_id": "NCT01845285",
+  "trial_title": "A Registry to Evaluate the Direct Flow Medical Transcatheter Aortic Valve System",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "The purpose of this postmarket Registry is to assess the standard of care and clinical outcomes of the Direct Flow Medical Transcatheter Aortic Valve System used in clinical routine according to the approved commercial indications. Procedures and assessments required by this registry are generally considered standard of care for Transcatheter Aortic Valve Replacement patients.\n\nEvaluation criteria will be the incidence of mortality/morbidity and adverse events clinical performance, and hemodynam",
+  "eligibility_table": [
+    {
+      "criterion": "Age > 70 years old",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient currently aged 70 years or older?"
+    },
+    {
+      "criterion": "Severe aortic valve stenosis determined by echocardiogram and Doppler",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis, which is supported by the presence of a bicuspid aortic valve and significant left ventricular dysfunction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "mean gradient > 40 mmHg or peak jet velocity > 4.0 m/s",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The specific mean gradient or peak jet velocity values are not provided in the profile, making it unclear if this criterion is met.",
+      "clinical_question": "Is the patient's mean gradient across the aortic valve greater than 40 mmHg or is the peak jet velocity greater than 4.0 m/s?"
+    },
+    {
+      "criterion": "aortic valve area ≤ 0.8 cm2 or aortic valve area index ≤ 0.5 cm2/m2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The aortic valve area is not specified in the profile, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the patient's aortic valve area ≤ 0.8 cm² or aortic valve area index ≤ 0.5 cm²/m² as measured by echocardiography?"
+    },
+    {
+      "criterion": "Symptomatic aortic valve stenosis (angina, congestive heart failure, NYHA Functional Class ≥ II, or syncope)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient exhibits symptoms consistent with severe aortic stenosis, including worsening left ventricular function and likely congestive heart failure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient is an extreme risk candidate for open surgical aortic valve repair such that the site Investigators agree that medical factors preclude operation, based on the conclusion that the probability of death or serious morbidity exceeds the probability of meaningful improvement due to the patient's co-morbidities or logistic EuroSCORE ≥ 20",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Given the patient's severe comorbidities and low ejection fraction, he is likely considered an extreme risk candidate for surgical intervention.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The Direct Flow Medical device is contraindicated for post implant balloon valvuloplasty",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the contraindications for the Direct Flow Medical device, making it unclear if this exclusion applies.",
+      "clinical_question": "Has the patient undergone post-implant balloon valvuloplasty after receiving the Direct Flow Medical Transcatheter Aortic Valve System?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: The Direct Flow Medical device is contraindicated for post implant balloon valvu"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4286
+}

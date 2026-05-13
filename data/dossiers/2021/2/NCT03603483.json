@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT03603483",
+  "trial_title": "Aortic Root Enlargement in Aortic Valve Replacement",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "Aortic valve disease is a progressive illness that varies from minor valve thickening lacking obstruction of blood stream to severe calcification and alteration of the valve leading to weakened leaflet motion. Aortic valve replacement is a usual operation but can be complicated by a small aortic annulus requiring the insertion of an aortic valve prosthesis. Prosthesis-patient discrepancy results in worse outcomes.",
+  "eligibility_table": [
+    {
+      "criterion": "17-75 years old",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient's age between 17 and 75 years old?"
+    },
+    {
+      "criterion": "patients with sever aortic valve stenosis undergoing valve replacement surgery",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and is undergoing valve replacement surgery, meeting the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "informed consent has been obtained",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether informed consent has been obtained, making it indeterminate.",
+      "clinical_question": "Has the patient signed an informed consent form for the aortic valve replacement procedure?"
+    },
+    {
+      "criterion": "Planned off-pump cardiac surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's surgical plan is not specified as off-pump or on-pump, so it cannot be determined if this exclusion applies.",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (EF) ≥30% to qualify for planned off-pump cardiac surgery?"
+    },
+    {
+      "criterion": "Patients required intra-aortic balloon pump",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating whether the patient requires an intra-aortic balloon pump, leaving this criterion indeterminate.",
+      "clinical_question": "Does the patient have a documented requirement for an intra-aortic balloon pump during the preoperative assessment?"
+    },
+    {
+      "criterion": "under 17 years of age",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient's age under 17 years at the time of aortic valve replacement?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Planned off-pump cardiac surgery",
+    "EXCLUSION UNCLEAR: Patients required intra-aortic balloon pump",
+    "EXCLUSION UNCLEAR: under 17 years of age"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1667
+}

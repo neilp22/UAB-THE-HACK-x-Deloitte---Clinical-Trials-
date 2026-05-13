@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT03209258",
+  "trial_title": "The Third, Intensive Care Bundle With Blood Pressure Reduction in Acute Cerebral Hemorrhage Trial",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "Continued uncertainty exists over benefits of early intensive blood pressure (BP) lowering in acute intracerebral hemorrhage (ICH), related to the non-significant primary outcomes, patient selection, and discordant results of INTERACT2 and ATACH-II. We designed INTERACT3 to determine the effectiveness of a goal-directed care bundle of active management (intensive BP lowering, glycemic control, treatment of pyrexia and reversal of anticoagulation) vs. usual care in ICH.\n\nINTERACT3 is a large-scal",
+  "eligibility_table": [
+    {
+      "criterion": "Aged ≥18 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Acute stroke syndrome that is due to presumed spontaneous ICH, confirmed by clinical history and a CT scan within 6 hours of stroke onset without/without contrast, and if an CT angiogram is also undertaken as part of routine care.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a spontaneous intraventricular hemorrhage (ICH) confirmed by clinical history and likely a CT scan, as indicated by the significant amount of blood in the right ventricle.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Presentation to hospital within 6 hours of stroke onset.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The time of presentation to the hospital relative to stroke onset is not provided, making it unclear if this criterion is met.",
+      "clinical_question": "Did the patient present to the hospital within 6 hours of the onset of stroke symptoms?"
+    },
+    {
+      "criterion": "Definite evidence that the ICH is secondary to a structural abnormality in the brain (eg an AVM, intracranial aneurysm, tumour, trauma, or previous cerebral infarction) or previous thrombolysis.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a known arteriovenous malformation (AVM), which is a structural abnormality, but the ICH is classified as spontaneous, suggesting it may not be secondary to the AVM.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A high likelihood that the patient will not adhere to the study treatment and follow-up regimen. In each case, the decision about the patient's eligibility will be based on the attending clinician's interpretation of the above eligibility criteria.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is insufficient information regarding the patient's ability to adhere to treatment and follow-up, as no relevant history or behavioral factors are provided.",
+      "clinical_question": "Does the patient have a history of non-adherence to medical treatments or follow-up appointments in the past 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: A high likelihood that the patient will not adhere to the study treatment and fo"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6
+}

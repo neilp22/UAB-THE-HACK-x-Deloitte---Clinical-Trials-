@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT02818946",
+  "trial_title": "Diagnostic Utility of MRI in Female Patients With Nipple Discharge: A Prospective Trial",
+  "phase": "NA",
+  "status": "TERMINATED",
+  "brief_summary": "The purpose of the proposed prospective study is to determine the diagnostic value of MRI for the evaluation of patients with pathologic nipple discharge. Breast surgeons will identify clinic patients with pathologic nipple discharge (unilateral and bloody or unilateral and clear) and refer them for breast MRI. When the clinical team notifies the study team that an MRI has been ordered for that purpose, the study team will consent patients to document the results and follow-up. The study team wi",
+  "eligibility_table": [
+    {
+      "criterion": "female patients with unilateral and bloody nipple discharge OR unilateral and clear nipple discharge",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is female but does not have nipple discharge, either bloody or clear.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "clinical decision to have contrast enhanced MRI",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The clinical decision for a contrast enhanced MRI is likely given the patient's conditions, but it is not explicitly stated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "male gender",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "criterion targets male; patient is female",
+      "clinical_question": null
+    },
+    {
+      "criterion": "non-English speakers",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's language proficiency is not provided, so it is unclear if she is a non-English speaker.",
+      "clinical_question": "Is the patient fluent in English and able to understand medical instructions without the need for an interpreter?"
+    },
+    {
+      "criterion": "age < 21 years",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 < 21.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "lack of capacity to give legally effective consent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's capacity to give consent is not mentioned, making it uncertain whether she lacks the capacity.",
+      "clinical_question": "Does the patient demonstrate the cognitive ability to understand the nature and consequences of the MRI procedure, as assessed by a standardized capacity evaluation tool?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: non-English speakers",
+    "EXCLUSION UNCLEAR: lack of capacity to give legally effective consent"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

@@ -1,0 +1,56 @@
+{
+  "nct_id": "NCT02687711",
+  "trial_title": "Study to Look at How Effective Briviact is as add-on Treatment for Patients With Epilepsy With Partial Onset Seizures",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Study is the first study after commercialization of brivaracetam. It is designed to collect real world information on the effectiveness of brivaracetam in patients with Partial Onset Seizure epislepsy who are treated in standard clinical practice.",
+  "eligibility_table": [
+    {
+      "criterion": "Patient has never been treated with brivaracetam (BRV) prior to enrollment in this Non-Interventional Study (NIS)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not been treated with brivaracetam (BRV) prior to enrollment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The decision by the treating physician to prescribe BRV is made independently of the participation in the NIS",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "It is unclear if the decision to prescribe BRV was made independently of the NIS, as this information is not provided.",
+      "clinical_question": "Did the treating physician prescribe Briviact independently of the patient's participation in the non-interventional study?"
+    },
+    {
+      "criterion": "Patient is a male or female ≥16 years of age",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 13.0 >= 16.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient has a clinical diagnosis of epilepsy with partial-onset seizures POS with or without secondary generalization",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a clinical diagnosis of epilepsy, specifically focal epilepsy with secondary generalization.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient uses an epilepsy/seizure diary.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no mention of the patient using an epilepsy/seizure diary.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No specific exclusion criteria",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been treated with ≥2 antiepileptic medications prior to the current treatment?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: No specific exclusion criteria"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

@@ -45,8 +45,6 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 import diskcache
-import pytrec_eval
-from sklearn.metrics import classification_report, f1_score
 
 from src.config import CACHE_DIR, DATA_DIR, TREC_2021_DIR, TREC_2022_DIR
 from src.llm_client import get_usage
@@ -248,7 +246,8 @@ def run_topic(
             return {}, {"patient_id": topic_id, "ranked_trials": []}, 0, 0, 0
         try:
             bm25 = BM25Retriever(trials)
-            top_trials = bm25.query(patient_text, top_k=CANDIDATE_CAP)
+            bm25_query = " ".join(profile.conditions) if profile.conditions else patient_text
+            top_trials = bm25.query(bm25_query, top_k=CANDIDATE_CAP)
         except ValueError:
             top_trials = trials[:CANDIDATE_CAP]
 
@@ -276,12 +275,12 @@ def run_topic(
             if not survived:
                 return {
                     "nct_id": nct_id,
-                    "score": 0.0,
+                    "score": -0.5,
                     "score_breakdown": {
                         "hard_filter_eliminated": True,
                         "exclusion_penalty": 1.0,
-                        "raw_score": 0.0,
-                        "final_score": 0.0,
+                        "raw_score": -0.5,
+                        "final_score": -0.5,
                     },
                     "score_explanation": (
                         "Ranked low because a deterministic exclusion criterion "
@@ -430,6 +429,7 @@ def compute_t2(
       inclusion_met > 0         → MET
       else                      → NEI
     """
+    from sklearn.metrics import classification_report, f1_score
     y_true: list[str] = []
     y_pred: list[str] = []
 
@@ -462,6 +462,7 @@ def compute_retrieval_metrics(
     qrels: dict[str, dict[str, int]],
 ) -> dict[str, float]:
     """Compute T1 Recall@20, T3 NDCG@10, and MAP via pytrec_eval."""
+    import pytrec_eval
     eval_qrels = {tid: qrels[tid] for tid in run if tid in qrels}
     if not eval_qrels:
         return {"ndcg_cut_10": 0.0, "recall_20": 0.0, "map": 0.0}
@@ -536,11 +537,101 @@ def print_diagnostics(
 
 
 # ---------------------------------------------------------------------------
+# Demo mode
+# ---------------------------------------------------------------------------
+
+_DEMO_RETRIEVAL_MODES = {"api", "combined", "clinical"}
+_TREC_ONLY_MODES = {"trec-index", "semantic", "hybrid", "high-recall"}
+
+
+def _run_demo(args: argparse.Namespace) -> None:
+    """
+    Demo mode: live ClinicalTrials.gov retrieval for an arbitrary real-world patient.
+
+    Does NOT require TREC topics/qrels files and does NOT compute TREC metrics.
+    """
+    if not args.patient_text:
+        logger.error("--mode demo requires --patient-text TEXT")
+        sys.exit(1)
+
+    use_cache = not args.no_cache
+
+    retrieval_mode = args.retrieval_mode
+    if retrieval_mode in _TREC_ONLY_MODES:
+        logger.warning(
+            "demo mode: '%s' requires TREC index — overriding to 'combined'",
+            retrieval_mode,
+        )
+        retrieval_mode = "combined"
+
+    if args.candidate_cap is not None:
+        global CANDIDATE_CAP
+        CANDIDATE_CAP = args.candidate_cap
+
+    use_clinical_planner = retrieval_mode == "clinical"
+    use_combined = retrieval_mode == "combined"
+
+    qb_cache = diskcache.Cache(str(CACHE_DIR / "query_builder"))
+    criteria_cache = diskcache.Cache(str(CACHE_DIR / "criteria_parser"))
+    reasoner_cache = diskcache.Cache(str(CACHE_DIR / "eligibility_reasoner"))
+
+    logger.info(
+        "Demo mode — retrieval: %s, candidate_cap: %d", retrieval_mode, CANDIDATE_CAP
+    )
+
+    scores, pred_entry, survivors, c_hits, c_total = run_topic(
+        topic_id="demo",
+        patient_text=args.patient_text,
+        use_cache=use_cache,
+        qb_cache=qb_cache,
+        criteria_cache=criteria_cache,
+        reasoner_cache=reasoner_cache,
+        retriever=None,
+        max_workers=args.max_workers,
+        use_clinical_planner=use_clinical_planner,
+        use_combined=use_combined,
+    )
+
+    ranked = pred_entry.get("ranked_trials", [])
+
+    print("\n" + "=" * 60)
+    print("  DEMO RESULTS")
+    print("=" * 60)
+    print(f"  Retrieval mode          : {retrieval_mode}")
+    print(f"  Trials retrieved & ranked: {len(ranked)}")
+    print(f"  Surviving hard filter   : {survivors}")
+    print("-" * 60)
+    for entry in ranked[:10]:
+        label = "  "
+        sb = entry.get("score_breakdown", {})
+        if sb.get("hard_filter_eliminated"):
+            label = "X "
+        print(
+            f"  {label}#{entry['rank']:2d}  {entry['nct_id']}  "
+            f"score={entry['score']:+.4f}  {entry.get('title', '')[:55]}"
+        )
+    print("=" * 60)
+
+    out_path = DATA_DIR / "predictions" / "demo_results.json"
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(json.dumps(pred_entry, indent=2))
+    logger.info("Demo results written to %s", out_path)
+
+
+# ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Full pipeline eval — TREC Clinical Trials")
+    parser.add_argument(
+        "--mode", choices=["benchmark", "demo"], default="benchmark",
+        help="benchmark: TREC evaluation; demo: live CT API retrieval (default: benchmark)",
+    )
+    parser.add_argument(
+        "--patient-text", default=None,
+        help="Free-text patient profile for --mode demo",
+    )
     parser.add_argument("--year", type=int, choices=[2021, 2022], default=2021,
                         help="TREC year to evaluate (default: 2021)")
     parser.add_argument("--topic", type=int, default=None,
@@ -582,6 +673,11 @@ def main() -> None:
         help="Root folder for per-run artifacts (default: runs)",
     )
     args = parser.parse_args()
+
+    # Demo mode: live CT API retrieval, no TREC files, no metrics
+    if args.mode == "demo":
+        _run_demo(args)
+        return
 
     if args.candidate_cap is not None:
         global CANDIDATE_CAP

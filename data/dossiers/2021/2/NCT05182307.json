@@ -1,0 +1,285 @@
+{
+  "nct_id": "NCT05182307",
+  "trial_title": "DurAVR™ THV System: First-In-Human Study",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "A prospective, non-randomized, single-arm, single-center, first-in-human study designed to evaluate the safety and feasibility of the DurAVR™ THV System in the treatment of subjects with symptomatic severe aortic stenosis.",
+  "eligibility_table": [
+    {
+      "criterion": "Symptomatic, severe aortic stenosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and is symptomatic, as indicated by the low EF and other cardiac issues.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Eligible for delivery of the DurAVR™ THV",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The eligibility for delivery of the DurAVR™ THV cannot be determined without specific anatomical measurements or imaging results.",
+      "clinical_question": "Is the patient's aortic valve area ≤1.0 cm² as measured by echocardiography?"
+    },
+    {
+      "criterion": "Anatomy appropriate to accommodate safe placement of DurAVR™ THV",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Anatomy appropriateness for safe placement of the DurAVR™ THV is unclear without detailed imaging data.",
+      "clinical_question": "Does the patient have aortic annulus dimensions within the acceptable range of 20-27 mm to safely accommodate the DurAVR™ THV?"
+    },
+    {
+      "criterion": "Understands the study requirements and the treatment procedures and provides written informed consent.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient is capable of understanding the study requirements, as he has undergone extensive preoperative workup.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject agrees to complete all required scheduled follow-up visits.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely to agree to complete follow-up visits given his severe condition and prior treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anatomical",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Anatomical exclusion criteria are not fully assessed without imaging data.",
+      "clinical_question": "Does the patient have a left ventricular outflow tract (LVOT) diameter of ≥20 mm as measured by echocardiography?"
+    },
+    {
+      "criterion": "Anatomy precluding safe placement of DurAVR™ THV",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Anatomy precluding safe placement of the DurAVR™ THV cannot be confirmed without specific anatomical details.",
+      "clinical_question": "Does the patient's aortic annulus diameter measure less than 20 mm or greater than 27 mm?"
+    },
+    {
+      "criterion": "Pre-existing prosthetic heart valve in any position",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a bicuspid aortic valve, which is a known exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unicuspid or bicuspid aortic valve",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a bicuspid aortic valve, which is a known exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe aortic regurgitation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The presence of severe aortic regurgitation is noted, but the severity and impact on eligibility are unclear without further assessment.",
+      "clinical_question": "Does the patient have a documented left ventricular ejection fraction (LVEF) of less than 30%?"
+    },
+    {
+      "criterion": "Severe mitral or severe tricuspid regurgitation requiring intervention",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has mild MR but no mention of severe mitral or tricuspid regurgitation requiring intervention.",
+      "clinical_question": "Does the patient have a measured effective regurgitant orifice area (EROA) of ≥0.40 cm² for severe mitral or tricuspid regurgitation?"
+    },
+    {
+      "criterion": "Moderate to severe mitral stenosis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of moderate to severe mitral stenosis is provided in the profile.",
+      "clinical_question": "Does the patient have a mitral valve area ≤1.5 cm² indicating moderate to severe mitral stenosis?"
+    },
+    {
+      "criterion": "Hypertrophic obstructive cardiomyopathy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of hypertrophic obstructive cardiomyopathy in the patient's history.",
+      "clinical_question": "Does the patient have a documented left ventricular outflow tract gradient of ≥30 mmHg at rest or with provocation?"
+    },
+    {
+      "criterion": "Echocardiographic evidence of intracardiac mass, thrombus or vegetation requiring treatment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No echocardiographic evidence of intracardiac mass, thrombus, or vegetation is mentioned.",
+      "clinical_question": "Does the patient have echocardiographic evidence of an intracardiac mass, thrombus, or vegetation that requires treatment?"
+    },
+    {
+      "criterion": "Severe basal septal hypertrophy with outflow gradient Clinical",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate severe basal septal hypertrophy with an outflow gradient.",
+      "clinical_question": "Does the patient have a left ventricular outflow tract gradient of ≥30 mmHg due to severe basal septal hypertrophy?"
+    },
+    {
+      "criterion": "Evidence of an acute myocardial infarction ≤ 30 days before the intended treatment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of an acute myocardial infarction within 30 days prior to treatment.",
+      "clinical_question": "Has the patient experienced an acute myocardial infarction within the last 30 days prior to the intended treatment?"
+    },
+    {
+      "criterion": "Determined inoperable/ineligible for surgery by the Heart Team",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's eligibility for surgery has not been explicitly stated; further assessment by the Heart Team is needed.",
+      "clinical_question": "Has the Heart Team determined that the patient's estimated surgical risk is ≥15% based on the STS score?"
+    },
+    {
+      "criterion": "Any percutaneous coronary or peripheral interventional procedure performed within 30 days prior to the index procedure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No percutaneous coronary or peripheral interventional procedures are reported within the last 30 days.",
+      "clinical_question": "Has the patient undergone any percutaneous coronary or peripheral interventional procedure within the 30 days prior to the index procedure?"
+    },
+    {
+      "criterion": "Blood dyscrasias as defined: leukopenia (WBC < 1000mm3), thrombocytopenia (platelet count < 50,000 cells/mm3), history of bleeding diathesis or coagulopathy, or hypercoagulable states",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No blood dyscrasias are indicated in the patient's profile.",
+      "clinical_question": "Does the patient have a white blood cell count (WBC) less than 1000 cells/mm³ or a platelet count less than 50,000 cells/mm³?"
+    },
+    {
+      "criterion": "Untreated clinically significant Coronary Artery Disease (CAD) requiring revascularization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify untreated clinically significant CAD requiring revascularization.",
+      "clinical_question": "Does the patient have a documented coronary artery stenosis of ≥70% in one or more major coronary arteries requiring revascularization?"
+    },
+    {
+      "criterion": "Cardiogenic shock manifested by low cardiac output, vasopressor dependence, or mechanical hemodynamic support",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has severe aortic stenosis and worsening LV function, but there is no explicit mention of cardiogenic shock or mechanical support.",
+      "clinical_question": "Is the patient's cardiac output less than 2.0 L/min or is there a requirement for ≥1 vasopressor to maintain a mean arterial pressure of ≥65 mmHg?"
+    },
+    {
+      "criterion": "Need for emergency surgery for any reason",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication that the patient requires emergency surgery at this time.",
+      "clinical_question": "Has the patient required emergency surgery for any reason within 30 days post-implantation of the DurAVR™ THV System?"
+    },
+    {
+      "criterion": "Ventricular dysfunction with left ventricular ejection fraction (LVEF) ≤ 40% as measured by resting echocardiogram",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's ejection fraction (EF) is 25%, which is below the threshold of 40%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recent (within 6 months) cerebrovascular accident (CVA) or transient ischemic attack (TIA)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of a CVA or TIA within the past 6 months.",
+      "clinical_question": "Has the patient experienced a cerebrovascular accident (CVA) or transient ischemic attack (TIA) within the last 6 months?"
+    },
+    {
+      "criterion": "Symptomatic carotid or vertebral artery disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has mild plaque in the carotid arteries, but no symptoms of carotid or vertebral artery disease are reported.",
+      "clinical_question": "Does the patient have ≥50% stenosis in either the carotid or vertebral artery as assessed by imaging studies?"
+    },
+    {
+      "criterion": "End stage renal disease requiring chronic dialysis or creatinine clearance < 20 cc/min",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of end stage renal disease or low creatinine clearance.",
+      "clinical_question": "Is the patient's creatinine clearance currently < 20 cc/min?"
+    },
+    {
+      "criterion": "GI bleeding within the past 3 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no report of GI bleeding in the patient's history.",
+      "clinical_question": "Has the patient experienced any episodes of gastrointestinal bleeding within the past 3 months?"
+    },
+    {
+      "criterion": "A known hypersensitivity or contraindication to any of the following which cannot be adequately pre-medicated: aspirin, heparin, nitinol (titanium or nickel), ticlopidine and clopidogrel, contrast media",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No known hypersensitivity or contraindication to the listed medications is reported.",
+      "clinical_question": "Does the patient have a known hypersensitivity or contraindication to aspirin, heparin, nitinol, ticlopidine, clopidogrel, or contrast media that cannot be adequately pre-medicated?"
+    },
+    {
+      "criterion": "Ongoing sepsis, including active endocarditis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of ongoing sepsis or active endocarditis.",
+      "clinical_question": "Does the patient currently exhibit signs of ongoing sepsis or active endocarditis, as defined by the presence of fever, leukocytosis, or positive blood cultures?"
+    },
+    {
+      "criterion": "Subject refuses a blood transfusion",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's willingness to accept a blood transfusion.",
+      "clinical_question": "Has the patient explicitly documented a refusal for blood transfusion in their medical record?"
+    },
+    {
+      "criterion": "Life expectancy < 12 months due to associated non-cardiac co-morbid conditions",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's severe aortic stenosis and worsening LV function suggest a significantly reduced life expectancy, but specific non-cardiac co-morbid conditions are not detailed enough to definitively conclude life expectancy < 12 months.",
+      "clinical_question": "Does the patient have a documented prognosis indicating a life expectancy of less than 12 months due to non-cardiac co-morbid conditions?"
+    },
+    {
+      "criterion": "Other medical, social, or psychological conditions that in the opinion of an Investigator precludes the subject from appropriate consent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ability to provide informed consent or any psychological conditions that may affect this, making it unclear whether this criterion is met.",
+      "clinical_question": "Does the patient have any cognitive impairment or psychiatric condition that would prevent them from providing informed consent as assessed by a standardized cognitive assessment tool?"
+    },
+    {
+      "criterion": "Severe dementia (resulting in either inability to provide informed consent for the trial/procedure, prevents independent lifestyle outside of a chronic care facility, or will fundamentally complicate rehabilitation from the procedure or compliance with follow-up visits)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not mention any cognitive impairments or dementia, but without explicit confirmation, it cannot be definitively assessed.",
+      "clinical_question": "Does the patient exhibit a score of ≥24 on the Mini-Mental State Examination (MMSE) to assess cognitive function?"
+    },
+    {
+      "criterion": "Currently participating in an investigational drug or another investigational device trial",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication that the patient is currently participating in any investigational trials, but this information is not explicitly stated.",
+      "clinical_question": "Is the patient currently enrolled in any investigational drug or device trial, including those that are not related to the DurAVR™ THV System?"
+    },
+    {
+      "criterion": "Subject belongs to a vulnerable population",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not specify if he belongs to a vulnerable population, but given his medical conditions, he may be considered vulnerable; however, this is not clearly defined.",
+      "clinical_question": "Does the patient have a documented history of cognitive impairment or mental health issues that would classify him as part of a vulnerable population?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Anatomical",
+    "EXCLUSION UNCLEAR: Anatomy precluding safe placement of DurAVR™ THV",
+    "EXCLUSION UNCLEAR: Severe aortic regurgitation",
+    "EXCLUSION UNCLEAR: Severe mitral or severe tricuspid regurgitation requiring intervention",
+    "EXCLUSION UNCLEAR: Moderate to severe mitral stenosis",
+    "EXCLUSION UNCLEAR: Hypertrophic obstructive cardiomyopathy",
+    "EXCLUSION UNCLEAR: Echocardiographic evidence of intracardiac mass, thrombus or vegetation requirin",
+    "EXCLUSION UNCLEAR: Severe basal septal hypertrophy with outflow gradient Clinical",
+    "EXCLUSION UNCLEAR: Evidence of an acute myocardial infarction ≤ 30 days before the intended treatme",
+    "EXCLUSION UNCLEAR: Determined inoperable/ineligible for surgery by the Heart Team",
+    "EXCLUSION UNCLEAR: Any percutaneous coronary or peripheral interventional procedure performed withi",
+    "EXCLUSION UNCLEAR: Blood dyscrasias as defined: leukopenia (WBC < 1000mm3), thrombocytopenia (plate",
+    "EXCLUSION UNCLEAR: Untreated clinically significant Coronary Artery Disease (CAD) requiring revascu",
+    "EXCLUSION UNCLEAR: Cardiogenic shock manifested by low cardiac output, vasopressor dependence, or m",
+    "EXCLUSION UNCLEAR: Need for emergency surgery for any reason",
+    "EXCLUSION UNCLEAR: Recent (within 6 months) cerebrovascular accident (CVA) or transient ischemic at",
+    "EXCLUSION UNCLEAR: Symptomatic carotid or vertebral artery disease",
+    "EXCLUSION UNCLEAR: End stage renal disease requiring chronic dialysis or creatinine clearance < 20 ",
+    "EXCLUSION UNCLEAR: GI bleeding within the past 3 months",
+    "EXCLUSION UNCLEAR: A known hypersensitivity or contraindication to any of the following which canno",
+    "EXCLUSION UNCLEAR: Ongoing sepsis, including active endocarditis",
+    "EXCLUSION UNCLEAR: Subject refuses a blood transfusion",
+    "EXCLUSION UNCLEAR: Life expectancy < 12 months due to associated non-cardiac co-morbid conditions",
+    "EXCLUSION UNCLEAR: Other medical, social, or psychological conditions that in the opinion of an Inv",
+    "EXCLUSION UNCLEAR: Severe dementia (resulting in either inability to provide informed consent for t",
+    "EXCLUSION UNCLEAR: Currently participating in an investigational drug or another investigational de",
+    "EXCLUSION UNCLEAR: Subject belongs to a vulnerable population"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1714
+}

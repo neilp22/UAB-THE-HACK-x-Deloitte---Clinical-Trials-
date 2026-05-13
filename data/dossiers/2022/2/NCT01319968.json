@@ -1,0 +1,52 @@
+{
+  "nct_id": "NCT01319968",
+  "trial_title": "Postpartum Dyspareunia Resulting From Vaginal Atrophy",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Postpartum dyspareunia (PD) is a recognized phenomenon: it is estimated that 50-60% of women have dyspareunia 6 to 7 weeks following delivery, and 33% and 17% will still report pain during intercourse three and six months after delivery, respectively.\n\nStudies that evaluated the prevalence and the causes for PD referred primarily to obstetric trauma, such as vaginal tears, episiotomy, the mode of repair and damage to the pelvic floor muscles as probable causes for PD. These studies did not refer",
+  "eligibility_table": [
+    {
+      "criterion": "Healthy, puerperal women who will be willing to participate, over 18 years old.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with puerperal complications such as: bleeding, fever, endometritis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has vaginal spotting, which could be considered a form of bleeding, but it is unclear if this qualifies as a puerperal complication since there is no indication of recent childbirth.",
+      "clinical_question": "Has the patient experienced any signs of puerperal complications such as bleeding (≥100 mL), fever (≥38°C), or endometritis within the last 6 weeks postpartum?"
+    },
+    {
+      "criterion": "Patients with significant systemic diseases.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have any documented significant systemic diseases, but the presence of complicated UTIs may raise concerns that require further evaluation.",
+      "clinical_question": "Does the patient have any significant systemic diseases, such as diabetes mellitus, hypertension, or autoimmune disorders, that would impact treatment eligibility?"
+    },
+    {
+      "criterion": "Patients who conceive again during the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a serum β-hCG level indicating a potential pregnancy, but it is uncertain if she will conceive again during the study, as this cannot be predicted.",
+      "clinical_question": "Has the patient conceived again, as indicated by a serum β-hCG level ≥1500 mIU/mL with a visible gestational sac on ultrasound?"
+    },
+    {
+      "criterion": "Patients who are not willing to participate.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's willingness to participate in the study, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient willing to participate in the clinical trial for postpartum dyspareunia despite her current medical conditions and history?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients with puerperal complications such as: bleeding, fever, endometritis.",
+    "EXCLUSION UNCLEAR: Patients with significant systemic diseases.",
+    "EXCLUSION UNCLEAR: Patients who conceive again during the study.",
+    "EXCLUSION UNCLEAR: Patients who are not willing to participate."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2
+}

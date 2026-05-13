@@ -1,0 +1,36 @@
+{
+  "nct_id": "NCT04251338",
+  "trial_title": "Delayed Visual Maturation: Outcome and Predictive Factors",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "The objectives of the study are to describe the developmental outcome in a population of children with delayed visual maturation.",
+  "eligibility_table": [
+    {
+      "criterion": "Infants (male or female) with suboptimal/absent visual contact at the age of ≥3 months, without other known general developmental delay at the time diagnosis of delayed visual contact and without anatomic ocular abnormalities at the initial ophthalmological examination.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 19.0 >= 3.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Children with known underlying psychomotor developmental delay or epilepsy at first ophthalmic consultation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not explicitly mention any psychomotor developmental delay or epilepsy, but the inability to detect coffee smell may suggest some neurological issues. Therefore, it is uncertain if this criterion is met.",
+      "clinical_question": "Does the patient have a documented history of psychomotor developmental delay or epilepsy prior to the first ophthalmic consultation?"
+    },
+    {
+      "criterion": "Children with ophthalmic (anatomical) abnormalities that explain delayed visual maturation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any ophthalmic anatomical abnormalities in the patient profile. However, without specific ophthalmic examination results, it is difficult to definitively assess this criterion.",
+      "clinical_question": "Does the patient have any documented ophthalmic anatomical abnormalities, such as retinopathy or optic nerve hypoplasia, that could explain delayed visual maturation?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Children with known underlying psychomotor developmental delay or epilepsy at fi",
+    "EXCLUSION UNCLEAR: Children with ophthalmic (anatomical) abnormalities that explain delayed visual "
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

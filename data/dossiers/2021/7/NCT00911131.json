@@ -1,0 +1,152 @@
+{
+  "nct_id": "NCT00911131",
+  "trial_title": "Enhancing Detection of Small Esophageal Varices by PillCam ESO",
+  "phase": "PHASE3",
+  "status": "WITHDRAWN",
+  "brief_summary": "Increasing intra-abdominal pressure (IAP) with an abdominal binder will increase pressure within smaller esophageal varices which will therefore enhance the ability of capsule endoscopy to detect these varices better.\n\nTherefore, the aims of the investigators' study are as follows:\n\n1. To determine if using an abdominal binder to increase IAP can increase the detection rate of small esophageal varices when using capsule endoscopy.\n2. To determine if using an abdominal binder to increase IAP duri",
+  "eligibility_table": [
+    {
+      "criterion": "patients identified with grade I and grade II esophageal varices by conventional endoscopy who are returning for screening or surveillance",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has grade II esophageal varices as identified by their medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "patients who have had endoscopic banding of varices in the past",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether the patient has had endoscopic banding of varices.",
+      "clinical_question": "Has the patient undergone endoscopic banding of esophageal varices at least once in the past?"
+    },
+    {
+      "criterion": "patients aged 18 years or older",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 60.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "patients able to give consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 60 years old and can likely provide informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "patients eligible and willing to undergo upper endoscopy and PillCam ESO capsule endoscopy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's willingness or eligibility to undergo upper endoscopy and PillCam ESO capsule endoscopy.",
+      "clinical_question": "Is the patient willing to undergo both upper endoscopy and PillCam ESO capsule endoscopy?"
+    },
+    {
+      "criterion": "dysphagia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of dysphagia.",
+      "clinical_question": "Does the patient report experiencing dysphagia with a severity score of ≥3 on a 0-10 scale?"
+    },
+    {
+      "criterion": "Zenker's diverticulum",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of Zenker's diverticulum.",
+      "clinical_question": "Does the patient have a diagnosis of Zenker's diverticulum confirmed by imaging studies?"
+    },
+    {
+      "criterion": "pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and 60 years old, but there is no information provided about pregnancy.",
+      "clinical_question": "Is the patient currently pregnant or has the patient been pregnant within the last 12 months?"
+    },
+    {
+      "criterion": "esophageal stricture",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of esophageal stricture.",
+      "clinical_question": "Does the patient have an esophageal stricture defined as a diameter of ≤13 mm on endoscopic evaluation?"
+    },
+    {
+      "criterion": "gastric or intestinal obstruction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding gastric or intestinal obstruction.",
+      "clinical_question": "Does the patient have any evidence of gastric or intestinal obstruction as determined by imaging studies such as an abdominal X-ray or CT scan?"
+    },
+    {
+      "criterion": "multiple abdominal surgeries",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the number of abdominal surgeries the patient has had.",
+      "clinical_question": "Has the patient undergone ≥2 abdominal surgeries prior to the evaluation for PillCam ESO?"
+    },
+    {
+      "criterion": "cardiac pacemakers",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention a cardiac pacemaker, but without specific lab values or imaging, it cannot be definitively assessed.",
+      "clinical_question": "Does the patient have a cardiac pacemaker that is currently functioning?"
+    },
+    {
+      "criterion": "implanted electronic medical devices",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Similar to the first criterion, there is no mention of implanted electronic medical devices, but this cannot be confirmed without further information.",
+      "clinical_question": "Has the patient had any implanted electronic medical devices prior to the PillCam ESO procedure?"
+    },
+    {
+      "criterion": "cognitive impairment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of neuro evaluation, but the specific cognitive status is not detailed, making it uncertain.",
+      "clinical_question": "Does the patient have a cognitive impairment score of ≥24 on the Mini-Mental State Examination (MMSE)?"
+    },
+    {
+      "criterion": "patients found to have bleeding, requiring banding, or other complications on screening EGD the day of the trial will not proceed to capsule endoscopy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of UGIB and esophageal varices raises concern, but there is no specific information about the results of a screening EGD.",
+      "clinical_question": "Has the patient experienced any bleeding, requiring banding, or other complications during the screening EGD performed today?"
+    },
+    {
+      "criterion": "urine pregnancy test will be conducted prior to participation; this is part of the standard procedure for women of child-bearing age undergoing upper endoscopy in the GI lab",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and does not require a urine pregnancy test, but this criterion is not applicable to him.",
+      "clinical_question": "Has the patient undergone a urine pregnancy test prior to participation in the trial?"
+    },
+    {
+      "criterion": "all patients being evaluated for the current study will be evaluated for the presence or absence of overt portosystemic encephalopathy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of Hep C cirrhosis suggests potential for portosystemic encephalopathy, but there is no clear evidence provided.",
+      "clinical_question": "Does the patient exhibit any signs of overt portosystemic encephalopathy as defined by the presence of asterixis, confusion, or altered level of consciousness?"
+    },
+    {
+      "criterion": "Those found to have overt portosystemic encephalopathy will then be graded based on the standard scale of grade 1 through 4 portosystemic encephalopathy. Assessment of whether patients with liver disease and hepatocellular carcinoma possess decisional capacity is essentially the same as for other subjects with the exception that due diligence must be used to address whether there is any evidence of active ongoing overt portosystemic encephalopathy. From the available data and current standards of care, patients with stage 1 overt hepatic encephalopathy are decisional but may have minimal impairment in their cognitive skills particularly in the domains of attention and sleep. Decisional capacity in patients with grades 2-4 overt portosystemic encephalopathy is impaired and will lead to them being excluded from the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Without specific grading of the patient's cognitive status or evidence of overt portosystemic encephalopathy, it is unclear if he meets this criterion.",
+      "clinical_question": "Does the patient exhibit any signs of grade 2 or higher overt portosystemic encephalopathy based on the standard grading scale?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: dysphagia",
+    "EXCLUSION UNCLEAR: Zenker's diverticulum",
+    "EXCLUSION UNCLEAR: pregnancy",
+    "EXCLUSION UNCLEAR: esophageal stricture",
+    "EXCLUSION UNCLEAR: gastric or intestinal obstruction",
+    "EXCLUSION UNCLEAR: multiple abdominal surgeries",
+    "EXCLUSION UNCLEAR: cardiac pacemakers",
+    "EXCLUSION UNCLEAR: implanted electronic medical devices",
+    "EXCLUSION UNCLEAR: cognitive impairment",
+    "EXCLUSION UNCLEAR: patients found to have bleeding, requiring banding, or other complications on sc",
+    "EXCLUSION UNCLEAR: urine pregnancy test will be conducted prior to participation; this is part of t",
+    "EXCLUSION UNCLEAR: all patients being evaluated for the current study will be evaluated for the pre",
+    "EXCLUSION UNCLEAR: Those found to have overt portosystemic encephalopathy will then be graded based"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1667
+}

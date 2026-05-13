@@ -60,7 +60,7 @@ class CriterionVerdict(BaseModel):
 # LLM prompt (verbatim per spec)
 # ---------------------------------------------------------------------------
 
-_SYSTEM = "You are a clinical trial eligibility assessor. Be conservative. Default to NEI."
+_SYSTEM = "You are a clinical trial eligibility assessor. Be conservative. Return NEI only when required information is explicitly missing."
 
 _PROMPT_TEMPLATE = """\
 Patient profile: {profile_json}
@@ -278,7 +278,7 @@ _TRIAL_BATCH_SIZE = 10
 _TRIAL_TOKEN_THRESHOLD = 3000
 _CHARS_PER_TOKEN = 4
 
-_TRIAL_SYSTEM = "You are a clinical trial eligibility assessor. Be conservative. Default to NEI."
+_TRIAL_SYSTEM = "You are a clinical trial eligibility assessor. Be conservative. Return NEI only when required information is explicitly missing."
 
 _TRIAL_PROMPT_TEMPLATE = """\
 Patient profile: {profile_json}

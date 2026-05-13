@@ -1,0 +1,293 @@
+{
+  "nct_id": "NCT02591667",
+  "trial_title": "Histopathological Response to FOLFOXIRI + Bevacizumab in Peritoneal Metastasis From Colorectal Cancer",
+  "phase": "PHASE2",
+  "status": "UNKNOWN",
+  "brief_summary": "There is a paucity of data on the histopathological response of peritoneal tumor deposits from colorectal cancer to neoadjuvant chemotherapy. Particularly, no prospective assessment of chemotherapy-associated histopathological response within the peritoneum has been performed so far. Therefore, there is an urgent need to conduct a clinical trial aimed at prospectively assessing the histopathological response within the peritoneum in patients with peritoneal metastasis from colorectal cancer.\n\nRe",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed carcinoma of the colon or rectum with synchronous or metachronous peritoneal metastasis.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has metastatic colorectal cancer, which meets the inclusion criterion for histologically confirmed carcinoma with peritoneal metastasis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Male and female patients, aged ≥ 18 years.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 67.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance score of ≤ 2.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ECOG 1.0 <= 2.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy ≥ 26 weeks.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced a progression-free survival of ≥26 weeks following the initiation of FOLFOXIRI plus bevacizumab?"
+    },
+    {
+      "criterion": "Neutrophils (absolute count) ≥ 1.5 g/l.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count ≥ 1.5 g/l?"
+    },
+    {
+      "criterion": "Platelet count ≥ 100 g/l.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's platelet count ≥ 100 g/l?"
+    },
+    {
+      "criterion": "Hemoglobin > 9 g/dL.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "hemoglobin=11.2 g/dL > 9.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Total bilirubin ≤ 1.8 mg/dl.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.8 mg/dl?"
+    },
+    {
+      "criterion": "Aspartate aminotransferase (AST) and Alanine transaminase (ALT) ≤ 88 U/l (≤ 175 U/l if liver metastases are present).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "AST and ALT levels are not provided in the patient profile, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's aspartate aminotransferase (AST) level ≤ 88 U/l or alanine transaminase (ALT) level ≤ 88 U/l, considering he has no liver metastases?"
+    },
+    {
+      "criterion": "Alkaline phosphatase ≤ 325 U/l (≤ 650 U/l if liver metastases are present).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Alkaline phosphatase levels are not provided in the patient profile, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's alkaline phosphatase level ≤ 325 U/l?"
+    },
+    {
+      "criterion": "Major surgical procedure or significant traumatic injury within 28 days prior to study enrolment (surgical exploration with diagnostic biopsy/sampling of peritoneal tumor deposits but without bowel resection or comparable surgical procedure is allowed).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding any major surgical procedures or significant traumatic injuries within the last 28 days.",
+      "clinical_question": "Has the patient undergone any major surgical procedure or significant traumatic injury within the 28 days prior to study enrolment?"
+    },
+    {
+      "criterion": "History of previous cytoreductive surgery in combination with hyperthermic intraperitoneal chemotherapy.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of previous cytoreductive surgery in combination with hyperthermic intraperitoneal chemotherapy is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnancy or lactation.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and not pregnant or lactating.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Inability or unwillingness to comply with the protocol.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's willingness to comply with the protocol is not addressed in the profile.",
+      "clinical_question": "Is the patient willing to adhere to the treatment protocol as outlined, including attending all scheduled appointments and following medication instructions?"
+    },
+    {
+      "criterion": "Evidence of current extraabdominal metastatic disease. Prior extraabdominal metastatic disease is allowed, provided that it has been curatively resected ≥6 months before study entry and that current staging shows no evidence of disease recurrence.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about current extraabdominal metastatic disease.",
+      "clinical_question": "Does the current staging show any evidence of extraabdominal metastatic disease?"
+    },
+    {
+      "criterion": ">3 liver metastases or any liver metastases not amenable to upfront curative resection using a minor liver resection.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The number of liver metastases and their amenability to resection are not specified in the patient profile.",
+      "clinical_question": "Does the patient have more than 3 liver metastases or any liver metastases that are not amenable to upfront curative resection using a minor liver resection?"
+    },
+    {
+      "criterion": "Prior systemic chemotherapy completed ≤3 months before study inclusion.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient completed all prior systemic chemotherapy treatments within the last 3 months?"
+    },
+    {
+      "criterion": "Treatment with any other investigational agent, or participation in another clinical trial within 30 days prior to entering this study.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has participated in another clinical trial or received investigational agents within the last 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History or evidence upon physical/neurological examination of central nervous system (CNS) disease (unrelated to cancer) unless adequately treated with standard medical therapy (e.g. uncontrolled seizures).",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No evidence of CNS disease was reported in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Untreated brain metastases, spinal cord compression or primary brain tumors.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported brain metastases or primary brain tumors.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Calculated creatinine clearance > 50 mL/min OR serum creatinine ≤ 1.5 mg/dl.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Serum creatinine is 1.0 mg/dL, which is ≤ 1.5 mg/dL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Calculated creatinine clearance > 50 mL/min OR serum creatinine ≤ 1.5 mg/dl.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "creatinine=1.0 mg/dL <= 1.5 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not pregnant or nursing.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and therefore not pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test (for females of childbearing potential).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male; however, the criterion is specific to females of childbearing potential.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Patients of childbearing / reproductive potential should use adequate birth control measures, as defined by the investigator, during the study treatment period and for at least 6 months after the last study treatment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male; however, the criterion is specific to females of childbearing potential.",
+      "clinical_question": "Is the patient currently using an adequate birth control method as defined by the investigator?"
+    },
+    {
+      "criterion": "Written informed consent.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient provided written informed consent for participation in the trial?"
+    },
+    {
+      "criterion": "General condition considered feasible for major abdominal surgery after systemic chemotherapy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's ECOG score of 1 suggests a general condition that may be feasible for major surgery.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "≤3 liver metastases amenable to curative resection using a minor liver resection.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Does the patient have ≤3 liver metastases that are amenable to curative resection using a minor liver resection?"
+    },
+    {
+      "criterion": "Past or current history (within the last 2 years prior to treatment start) of other malignancies except colorectal cancer (patients with curatively treated basal and squamous cell carcinoma of the skin or in situ carcinoma of the cervix are eligible).",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of other malignancies was reported in the last 2 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Clinically significant cardiovascular disease, for example cerebrovascular accident (CVA), myocardial infarction (≤12 months before treatment start), unstable angina, New York Heart Association (NYHA) > Class II congestive heart failure (CHF), arrhythmia requiring medication, or uncontrolled hypertension.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on cardiovascular disease was provided; further details are needed.",
+      "clinical_question": "Has the patient experienced a cerebrovascular accident (CVA) or myocardial infarction within the last 12 months?"
+    },
+    {
+      "criterion": "Significant vascular disease (e.g. aortic aneurysm requiring surgical repair or recent arterial thrombosis) within 6 months of study enrolment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on significant vascular disease was provided; further details are needed.",
+      "clinical_question": "Has the patient experienced any significant vascular disease events, such as an aortic aneurysm requiring surgical repair or recent arterial thrombosis, within the last 6 months?"
+    },
+    {
+      "criterion": "Any previous venous thromboembolism > NCI Common Toxicity Criteria for Adverse Effects (CTCAE) Grade 3.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No previous venous thromboembolism reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior history of hypertensive crisis or hypertensive encephalopathy.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of hypertensive crisis or hypertensive encephalopathy reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of bleeding diathesis or significant coagulopathy.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No evidence of bleeding diathesis or significant coagulopathy reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of abdominal fistula, gastrointestinal perforation, intra-abdominal abscess or active gastrointestinal bleeding within 6 months prior to the first study treatment.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of abdominal fistula, gastrointestinal perforation, intra-abdominal abscess, or active gastrointestinal bleeding within the last 6 months reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known hypersensitivity to any of the study drugs.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No known hypersensitivity to any study drugs reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serious, non-healing wound, ulcer or bone fracture.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No serious, non-healing wound, ulcer, or bone fracture reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of any other disease, metabolic dysfunction, physical examination finding or laboratory finding giving reasonable suspicion of a disease or condition that puts the patient at high risk for treatment-related complications.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No evidence of any other disease or condition that puts the patient at high risk for treatment-related complications reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Symptomatic peripheral neuropathy ≥ grade 1 according to the NCI Common Toxicity Criteria.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No symptomatic peripheral neuropathy ≥ grade 1 reported.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Major surgical procedure or significant traumatic injury within 28 days prior to",
+    "EXCLUSION UNCLEAR: Inability or unwillingness to comply with the protocol.",
+    "EXCLUSION UNCLEAR: Evidence of current extraabdominal metastatic disease. Prior extraabdominal meta",
+    "EXCLUSION UNCLEAR: >3 liver metastases or any liver metastases not amenable to upfront curative res",
+    "EXCLUSION UNCLEAR: Prior systemic chemotherapy completed ≤3 months before study inclusion.",
+    "EXCLUSION UNCLEAR: Clinically significant cardiovascular disease, for example cerebrovascular accid",
+    "EXCLUSION UNCLEAR: Significant vascular disease (e.g. aortic aneurysm requiring surgical repair or "
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5641
+}

@@ -1,59 +1,51 @@
-#!/usr/bin/env python3
-"""
-Build the field-weighted BM25 index required for --retrieval-mode high-recall.
+Changes Made
 
-Run once before using HighRecallRetriever:
-    python scripts/build_field_index.py
+  src/retrieval/bm25_retriever.py
 
-The script reads the existing BM25 index (data/cache/bm25_trec2021_index.pkl)
-to get the canonical NCT ID list, then loads each trial from the diskcache,
-splits inclusion/exclusion criteria, and builds four BM25Okapi indexes:
-  title / summary / inclusion_criteria / exclusion_criteria
+  _trial_text() — removed eligibility_criteria from the BM25 document corpus. The index now only uses title, brief_summary, and conditions. Eligibility text was dominating BM25 scores
+   with noisy boolean lists.
 
-Output: data/cache/field_bm25_index.pkl (~120 MB, loads in <2s)
-"""
-from __future__ import annotations
+  src/matching/label_deriver.py
 
-import pickle
-import sys
-from pathlib import Path
+  derive_label() — added if inclusion_not_met > inclusion_met: return "NOT_MET" before the nei_ratio check. Previously a patient with 3 inclusion misses and 1 inclusion hit could
+  still reach MET.
 
-ROOT = Path(__file__).resolve().parent.parent
-sys.path.insert(0, str(ROOT))
+  src/matching/eligibility_reasoner.py
 
-from src.config import CACHE_DIR
-from src.retrieval.field_bm25 import FieldBM25Retriever
+  _SYSTEM + _TRIAL_SYSTEM — replaced "Default to NEI." with "Return NEI only when required information is explicitly missing." in both single-criterion and batched-trial system
+  prompts.
 
+  src/retrieval/query_builder.py
 
-def main() -> None:
-    bm25_path = CACHE_DIR / "bm25_trec2021_index.pkl"
-    field_path = CACHE_DIR / "field_bm25_index.pkl"
-    trial_cache = CACHE_DIR / "trial_data"
+  retrieve_candidates(), _fetch() inside build_queries_clinical(), build_queries_combined() LLM expansion loop — each now writes cache.set(f"trial:{nct_id}", trial) when a new NCT ID
+  is seen, so downstream lookup via qb_cache.get(f"trial:{nid}") hits without a second API call.
 
-    if not bm25_path.exists():
-        print(f"ERROR: BM25 index not found at {bm25_path}", file=sys.stderr)
-        print("Run TrecIndexRetriever().build_index() first.", file=sys.stderr)
-        sys.exit(1)
+  scripts/run_full_pipeline.py
 
-    if field_path.exists():
-        print(f"Field BM25 index already exists at {field_path}")
-        print("Delete it and re-run to rebuild.")
-        return
+  ┌──────────────────────────────────────────────┬─────────────────────────────────────┐
+  │                    Change                    │              Location               │
+  ├──────────────────────────────────────────────┼─────────────────────────────────────┤
+  │ import pytrec_eval moved lazy                │ inside compute_retrieval_metrics()  │
+  ├──────────────────────────────────────────────┼─────────────────────────────────────┤
+  │ from sklearn.metrics import … moved lazy     │ inside compute_t2()                 │
+  ├──────────────────────────────────────────────┼─────────────────────────────────────┤
+  │ Hard-filter score 0.0 → -0.5                 │ _process_trial() return dict        │
+  ├──────────────────────────────────────────────┼─────────────────────────────────────┤
+  │ BM25 query uses " ".join(profile.conditions) │ CT API fallback path in run_topic() │
+  ├──────────────────────────────────────────────┼─────────────────────────────────────┤
+  │ --mode {benchmark,demo} added                │ main() parser                       │
+  ├──────────────────────────────────────────────┼─────────────────────────────────────┤
+  │ --patient-text TEXT added                    │ main() parser                       │
+  ├──────────────────────────────────────────────┼─────────────────────────────────────┤
+  │ Demo early-return if args.mode == "demo"     │ main()                              │
+  ├──────────────────────────────────────────────┼─────────────────────────────────────┤
+  │ _run_demo() function                         │ new, before main()                  │
+  └──────────────────────────────────────────────┴─────────────────────────────────────┘
 
-    with open(bm25_path, "rb") as f:
-        data = pickle.load(f)
-    nct_ids = data["nct_ids"]
-    print(f"Building field BM25 index over {len(nct_ids)} NCT IDs...")
+  CLI usage:
+  # benchmark (unchanged — default)
+  python scripts/run_full_pipeline.py --year 2021 --retrieval-mode hybrid
 
-    FieldBM25Retriever().build_from_cache(
-        trial_cache_dir=trial_cache,
-        nct_ids=nct_ids,
-        save_path=field_path,
-    )
-    print(f"Done. Index saved to {field_path}")
-    size_mb = field_path.stat().st_size / (1024 * 1024)
-    print(f"File size: {size_mb:.1f} MB")
-
-
-if __name__ == "__main__":
-    main()
+  # demo — live CT API, no TREC files required
+  python scripts/run_full_pipeline.py --mode demo \
+    --patient-text "67-year-old female with NSCLC, EGFR exon 19 deletion, ECOG 1"

@@ -1,0 +1,146 @@
+{
+  "nct_id": "NCT00682435",
+  "trial_title": "Safety Study of Intravenous Hydromorphone Using Incremental 1mg Doses up to 2mg for Adult ED Patients",
+  "phase": "PHASE4",
+  "status": "COMPLETED",
+  "brief_summary": "We wish to examine the safety and speed of onset of giving a dose of 1mg hydromorphone followed by an additional 1mg. Eligible patients will be given 1 mg intravenous (IV) hydromorphone. At 15 minutes, these patients will be asked the question, \"Do you need more pain medication?\" Those that answer \"yes\" will receive an additional 1mg IV hydromorphone. Those that answer \"no\" will not receive additional pain medications at that time period (15 minutes). Thus, we wish to give up to 2 mg IV hydromor",
+  "eligibility_table": [
+    {
+      "criterion": "Age greater than 21 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 51.0 > 21.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age less than 65 years of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 51.0 < 65.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pain with onset within 7 days",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not report current pain, and there is no information on pain onset within the last 7 days.",
+      "clinical_question": "Has the patient experienced pain with an onset within the last 7 days?"
+    },
+    {
+      "criterion": "ED attending physician's judgment that patient's pain warrants use of morphine",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's current pain level or the ED attending physician's judgment.",
+      "clinical_question": "Does the patient report a pain score of ≥7 on a scale of 0 to 10?"
+    },
+    {
+      "criterion": "Normal mental status",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported cognitive impairments or mental health issues, suggesting normal mental status.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior use of methadone",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not reported any prior use of methadone.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of other opioids or tramadol within past seven days",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not used other opioids or tramadol in the past seven days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior adverse reaction to hydromorphone",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no record of prior adverse reactions to hydromorphone.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic pain syndrome",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has hemochromatosis, but it is unclear if this condition qualifies as a chronic pain syndrome.",
+      "clinical_question": "Has the patient been diagnosed with chronic pain syndrome as defined by the presence of pain lasting longer than 3 months and significantly affecting daily functioning?"
+    },
+    {
+      "criterion": "Alcohol intoxication",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has no history of alcohol intoxication.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Systolic Blood Pressure <90 mm Hg",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient's systolic blood pressure been measured and recorded as <90 mm Hg at any point during their treatment in the emergency department?"
+    },
+    {
+      "criterion": "Oxygen saturation <95% on room air",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's oxygen saturation level currently <95% on room air?"
+    },
+    {
+      "criterion": "Use of monoamine oxidase (MAO) inhibitors in past 30 days",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has used monoamine oxidase inhibitors in the past 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "C02 measurement greater than 46",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's C02 measurement greater than 46?"
+    },
+    {
+      "criterion": "History of chronic obstructive pulmonary disease (COPD)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no history of chronic obstructive pulmonary disease (COPD) reported for the patient.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of asthma together with greater than a 20 pack-year smoking history",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has no history of asthma and no smoking history, so the criterion regarding asthma and smoking history is not applicable.",
+      "clinical_question": "Does the patient have a history of asthma and a smoking history of greater than 20 pack-years?"
+    },
+    {
+      "criterion": "Less than a 20 pack-year smoking history who are having an asthma exacerbation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has no history of asthma and no smoking history, making this criterion irrelevant.",
+      "clinical_question": "Does the patient have a smoking history of less than 20 pack-years?"
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so the criterion regarding pregnancy does not apply.",
+      "clinical_question": "Is the patient currently pregnant or has the patient had a positive pregnancy test within the last 30 days?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Chronic pain syndrome",
+    "EXCLUSION UNCLEAR: Systolic Blood Pressure <90 mm Hg",
+    "EXCLUSION UNCLEAR: Oxygen saturation <95% on room air",
+    "EXCLUSION UNCLEAR: C02 measurement greater than 46",
+    "EXCLUSION UNCLEAR: History of asthma together with greater than a 20 pack-year smoking history",
+    "EXCLUSION UNCLEAR: Less than a 20 pack-year smoking history who are having an asthma exacerbation",
+    "EXCLUSION UNCLEAR: Pregnancy"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

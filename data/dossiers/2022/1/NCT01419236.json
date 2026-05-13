@@ -1,0 +1,149 @@
+{
+  "nct_id": "NCT01419236",
+  "trial_title": "A Study of Ejaculatory Dysfunction in Men With Low Testosterone Levels",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is to see if testosterone solution 2% can impact symptoms of ejaculatory dysfunction in men with low testosterone.",
+  "eligibility_table": [
+    {
+      "criterion": "Total testosterone level <10.4 nanomoles per liter (nmol/L) [300 nanograms per deciliter (ng/dL)] at screening",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's serum testosterone level of 65 ng/dL is below the threshold of 300 ng/dL (10.4 nmol/L), meeting the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Presents with 1 or more of the following symptom(s) of ejaculatory dysfunction: delayed ejaculation, anejaculation, decreased force of ejaculation, or decreased ejaculatory volume, as determined by investigator assessment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has delayed puberty and hypogonadism, but there is no specific mention of ejaculatory dysfunction symptoms, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient reported experiencing delayed ejaculation, anejaculation, decreased force of ejaculation, or decreased ejaculatory volume during sexual activity?"
+    },
+    {
+      "criterion": "Prostate-Specific Antigen (PSA) <4 nanograms per milliliter (ng/mL) at screening",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's PSA level is not provided, but as there is no indication of prostate issues, it is reasonable to assume it is below 4 ng/mL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Sexual partner who is or becomes pregnant at any time during the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and has no reported sexual partner, making it uncertain if this exclusion applies.",
+      "clinical_question": "Has the patient's sexual partner become pregnant at any time during the study period?"
+    },
+    {
+      "criterion": "Premature ejaculation as determined by investigator assessment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about premature ejaculation, so it is unclear if this criterion is met.",
+      "clinical_question": "Has the patient been assessed by the investigator and determined to have a score indicating premature ejaculation according to the defined assessment criteria?"
+    },
+    {
+      "criterion": "Currently receiving testosterone replacement therapy or have a history of insufficient response to testosterone replacement therapy for ejaculatory dysfunction symptoms",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently receiving testosterone replacement therapy and has no history of insufficient response to such therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Currently receiving treatment with cancer chemotherapy or antiandrogens",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is receiving cancer chemotherapy or antiandrogens.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of use of estrogenizing agents",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no history of use of estrogenizing agents reported for this patient.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Current use of warfarin",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no current use of warfarin indicated in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of selective serotonin reuptake inhibitor (SSRI) and/or serotonin-norepinephrine reuptake inhibitor (SNRI) treatment in the 6 months prior to screening",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no history of SSRI or SNRI treatment in the past 6 months as per the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of frequent opioid use within 30 days prior to screening, with exception of treatment for chronic pain as determined by investigator.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about opioid use, so unable to assess.",
+      "clinical_question": "Has the patient used opioids for any reason in the 30 days prior to screening, excluding treatment for chronic pain as determined by the investigator?"
+    },
+    {
+      "criterion": "Body Mass Index (BMI) >35 kilograms per square meter (kg/m^2) at screening",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "BMI not provided; unable to determine eligibility.",
+      "clinical_question": "Is the patient's Body Mass Index (BMI) greater than 35 kilograms per square meter (kg/m^2) at screening?"
+    },
+    {
+      "criterion": "Significant peripheral neuropathy affecting erectile, ejaculatory, or orgasmic function",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on peripheral neuropathy provided.",
+      "clinical_question": "Does the patient have a documented diagnosis of significant peripheral neuropathy as defined by a neuropathy score of ≥3 on the Toronto Clinical Neuropathy Score?"
+    },
+    {
+      "criterion": "Hematocrit ≥50% at screening",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Hematocrit level not provided; unable to assess.",
+      "clinical_question": "Is the patient's hematocrit level ≥50% at screening?"
+    },
+    {
+      "criterion": "Exhibit systolic blood pressure >170 millimeters of mercury (mm Hg) or <90 mm Hg or diastolic blood pressure >100 mm Hg or <50 mm Hg at screening (if stress is suspected, retest under basal conditions at screening), or have history of malignant hypertension",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Blood pressure values not provided; unable to determine eligibility.",
+      "clinical_question": "Is the patient's systolic blood pressure ≥170 mm Hg or ≤90 mm Hg, or diastolic blood pressure ≥100 mm Hg or ≤50 mm Hg at screening?"
+    },
+    {
+      "criterion": "History of any of the following coronary conditions within 90 days of screening: myocardial infarction, coronary artery bypass graft surgery, percutaneous coronary intervention (for example, angioplasty or stent placement)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of coronary conditions provided; unable to assess.",
+      "clinical_question": "Has the patient experienced a myocardial infarction, coronary artery bypass graft surgery, or percutaneous coronary intervention within the last 90 days?"
+    },
+    {
+      "criterion": "Known or suspected carcinoma (or history of carcinoma) of the prostate or suspicious nodules on digital rectal exam at screening",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on prostate cancer or suspicious nodules provided.",
+      "clinical_question": "Does the patient have a history of prostate carcinoma or any suspicious nodules detected on digital rectal exam?"
+    },
+    {
+      "criterion": "Known or suspected breast cancer (or history of breast cancer) or other active cancer (with the exception of nonmelanotic skin cancer)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on breast cancer or other active cancers provided.",
+      "clinical_question": "Does the patient have a current diagnosis of breast cancer or any other active cancer, excluding nonmelanotic skin cancer?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Sexual partner who is or becomes pregnant at any time during the study",
+    "EXCLUSION UNCLEAR: Premature ejaculation as determined by investigator assessment",
+    "EXCLUSION UNCLEAR: History of frequent opioid use within 30 days prior to screening, with exception",
+    "EXCLUSION UNCLEAR: Body Mass Index (BMI) >35 kilograms per square meter (kg/m^2) at screening",
+    "EXCLUSION UNCLEAR: Significant peripheral neuropathy affecting erectile, ejaculatory, or orgasmic f",
+    "EXCLUSION UNCLEAR: Hematocrit ≥50% at screening",
+    "EXCLUSION UNCLEAR: Exhibit systolic blood pressure >170 millimeters of mercury (mm Hg) or <90 mm Hg",
+    "EXCLUSION UNCLEAR: History of any of the following coronary conditions within 90 days of screening:",
+    "EXCLUSION UNCLEAR: Known or suspected carcinoma (or history of carcinoma) of the prostate or suspic",
+    "EXCLUSION UNCLEAR: Known or suspected breast cancer (or history of breast cancer) or other active c"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3889
+}

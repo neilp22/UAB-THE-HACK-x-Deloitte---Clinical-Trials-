@@ -1,0 +1,29 @@
+{
+  "nct_id": "NCT04779749",
+  "trial_title": "Pregnancy Outcomes According to the Gestational Age of Acquiring COVID-19",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "A new coronavirus, called severe acute respiratory syndrome coronavirus 2 (SARS-CoV2) appeared in Wuhan, China and it arrived to Europe 2-3 months later. It infected millions of persons and led to the death of thousands until May 2020 where numbers of infections per week decreased significantly. However, starting September, number of infections started to escalate again and continued to rise until now.\n\nHundreds of good quality articles were published during this period to study the relationship",
+  "eligibility_table": [
+    {
+      "criterion": "Pregnant women with viable fetus after 10 weeks' gestation and known pregnancy outcome during the period starting on February 1st 2020 and ending on November 30th 2020.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information about pregnancy status, making it unclear whether the inclusion criterion is met.",
+      "clinical_question": "Is the patient currently pregnant with a viable fetus after 10 weeks' gestation?"
+    },
+    {
+      "criterion": "All ongoing pregnancies, those with unknown outcomes, those terminated medically or voluntary, as well as patients with spontaneous abortion before the 11th gestational week.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Similar to the first criterion, there is no information regarding the patient's pregnancy status, thus making it impossible to determine if the exclusion criterion applies.",
+      "clinical_question": "Has the patient experienced a spontaneous abortion before the 11th gestational week?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: All ongoing pregnancies, those with unknown outcomes, those terminated medically",
+    "LOW INCLUSION MATCH: only 0 of 1 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.0
+}

@@ -1,0 +1,44 @@
+{
+  "nct_id": "NCT00193661",
+  "trial_title": "Observation Study of T-Gel (1%) in Treatment of Adolescent Boys With Hypogonadism",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This study is to observe efficacy and safety after T-Gel 1% treatment in delayed puberty adolescents. Subjects who complete this trial may enter a 3 month extension study (UMD-01-090E).",
+  "eligibility_table": [
+    {
+      "criterion": "Primary or secondary hypogonadism or constitutional delay in growth and puberty (CDGP)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has hypogonadism, which qualifies under the inclusion criterion for primary or secondary hypogonadism.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Skin intolerance to alcohol or allergy to soy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding skin intolerance to alcohol or allergy to soy, making it indeterminate.",
+      "clinical_question": "Does the patient have a documented history of skin intolerance to alcohol or an allergy to soy?"
+    },
+    {
+      "criterion": "Generalized skin disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is available about generalized skin disease, so it cannot be determined.",
+      "clinical_question": "Does the patient have any generalized skin disease as defined by the presence of lesions affecting more than 5% of the body surface area?"
+    },
+    {
+      "criterion": "Contraindication to testosterone or androgen products",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about contraindications to testosterone or androgen products, making it indeterminate.",
+      "clinical_question": "Does the patient have a history of severe allergic reactions to testosterone or androgen products?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Skin intolerance to alcohol or allergy to soy",
+    "EXCLUSION UNCLEAR: Generalized skin disease",
+    "EXCLUSION UNCLEAR: Contraindication to testosterone or androgen products"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.25
+}

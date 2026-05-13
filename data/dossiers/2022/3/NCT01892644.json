@@ -1,0 +1,310 @@
+{
+  "nct_id": "NCT01892644",
+  "trial_title": "Treatment of Iron Overload With Deferasirox (Exjade) in Hereditary Hemochromatosis and Myelodysplastic Syndrome",
+  "phase": "PHASE2",
+  "status": "WITHDRAWN",
+  "brief_summary": "Hypothesis: Deferasirox can be used as a therapeutic agent to deplete the liver, heart and bone marrow of excess iron in patients with iron overload caused by myelodysplastic syndrome (MDS) and hemochromatosis (HC.\n\nAssess the effect of new serum biomarkers (NTBI and hepcidin) and MRI as indicators of iron overload and their usefulness to monitor iron depletion treatment.\n\nStudy the effect of iron overload and iron depletion on intracellular signal transduction, trace metals concentrations in se",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with hemochromatosis, aged > 30 years, C282Y- homozygote, with serum-ferritin >= 1000 µg/L",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has hemochromatosis and is a C282Y homozygote, but the serum ferritin level is 550 µg/L, which is below the required 1000 µg/L.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients aged > 18 years with verified low-risk or intermediate-1 risk of myelodysplastic syndrome, with normal cytogenetics and serum-ferritin > 1500 µg/L, or with a transfusion history of >= red-blood-cell-transfusions.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have verified low-risk or intermediate-1 risk of myelodysplastic syndrome, and the serum ferritin level is below the required 1500 µg/L.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous or current venesection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone any venesection procedures in the past or currently?"
+    },
+    {
+      "criterion": "MDS patients eligible for hematopoietic stem cell transplantation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a successful hematopoietic stem cell transplantation within the last 12 months?"
+    },
+    {
+      "criterion": "Subject complies with one or more of the following standard exclusion criteria for MRI examination;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any contraindications for MRI examination, such as a pacemaker or metallic implants?"
+    },
+    {
+      "criterion": "If the patient has a pacemaker.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a pacemaker implanted?"
+    },
+    {
+      "criterion": "If the patient has a neurostimulator",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a neurostimulator implanted?"
+    },
+    {
+      "criterion": "If the patient has a 'aneurismeclips'",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have an aneurysmal dilation of ≥3 cm in any major artery?"
+    },
+    {
+      "criterion": "If the patient has a foreign object in the eye. If yes, what object.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a foreign object in the eye, and if so, what is the specific object?"
+    },
+    {
+      "criterion": "If the patient has a cochlea-/earimplant.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a cochlear or ear implant currently in place?"
+    },
+    {
+      "criterion": "If the patient has a V/P shunt.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a ventriculoperitoneal (V/P) shunt in place?"
+    },
+    {
+      "criterion": "If the patient is claustrophobic.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented history of claustrophobia that affects their ability to undergo MRI imaging?"
+    },
+    {
+      "criterion": "If the patient has an artificial heart valve.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the presence of an artificial heart valve.",
+      "clinical_question": "Does the patient have an artificial heart valve currently in place?"
+    },
+    {
+      "criterion": "If the patient has known renal failure, eGFR <30.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about renal function or eGFR.",
+      "clinical_question": "What is the patient's estimated glomerular filtration rate (eGFR)?"
+    },
+    {
+      "criterion": "If the patient has or will have a liver transplantation.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the need for or presence of a liver transplantation.",
+      "clinical_question": "Does the patient have a scheduled or planned liver transplantation within the next 12 months?"
+    },
+    {
+      "criterion": "Other: metal prostheses, metal implant",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the presence of metal prostheses or implants.",
+      "clinical_question": "Does the patient have any metal prostheses or metal implants currently in place?"
+    },
+    {
+      "criterion": "Presence of inflammation (CRP ≥ 5 mg/L)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about inflammation or CRP levels.",
+      "clinical_question": "Is the patient's C-reactive protein (CRP) level ≥ 5 mg/L?"
+    },
+    {
+      "criterion": "Presence of proteinuria or creatinine > 2 x UNL (Upper Normal Limit)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about proteinuria or creatinine levels.",
+      "clinical_question": "Does the patient have a proteinuria level greater than 0.2 g/day or a creatinine level greater than 2 x UNL?"
+    },
+    {
+      "criterion": "Estimated glomerular filtration rate (GFR) < 60 mL/min",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the estimated glomerular filtration rate (GFR).",
+      "clinical_question": "Is the patient's estimated glomerular filtration rate (GFR) less than 60 mL/min?"
+    },
+    {
+      "criterion": "ALAT, ASAT, GT or ALP > 2 x ULN ( Upper Normal Limit)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about ALAT, ASAT, GT, or ALP levels.",
+      "clinical_question": "Is the patient's ALAT, ASAT, GT, or ALP level greater than 2 times the upper normal limit?"
+    },
+    {
+      "criterion": "ALAT > 90 U/L for women, ALAT > 140 U/L for men",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "ALAT levels are not provided; unable to assess.",
+      "clinical_question": "Is the patient's ALAT level greater than 140 U/L?"
+    },
+    {
+      "criterion": "ASAT > 70 U/L for women, ASAT > 90 U/L for men",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "ASAT levels are not provided; unable to assess.",
+      "clinical_question": "Is the patient's ASAT level greater than 90 U/L?"
+    },
+    {
+      "criterion": "ALP > 210 U/L for women and men",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "ALP levels are not provided; unable to assess.",
+      "clinical_question": "Is the patient's alkaline phosphatase (ALP) level greater than 210 U/L?"
+    },
+    {
+      "criterion": "GT > 90 U/L for women ≤ 40 years, GT > 150 U/L for women > 40 years",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "GT levels are not provided; unable to assess.",
+      "clinical_question": "Is the patient's GT level greater than 150 U/L?"
+    },
+    {
+      "criterion": "GT > 160 U/L for men ≤ 40 years, GT > 230 U/L for men > 40 years",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "GT levels are not provided; unable to assess.",
+      "clinical_question": "Is the patient's GT level greater than 230 U/L?"
+    },
+    {
+      "criterion": "Acute or chronic hepatitis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on hepatitis status; unable to assess.",
+      "clinical_question": "Does the patient have a documented history of acute or chronic hepatitis with elevated liver enzymes (AST or ALT > 40 U/L)?"
+    },
+    {
+      "criterion": "Patients with chronic liver disease Child Pugh Class B and C",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on Child Pugh Class; unable to assess.",
+      "clinical_question": "Does the patient have a Child-Pugh score of 7 or higher?"
+    },
+    {
+      "criterion": "Chronic skin disease with rash",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on chronic skin disease; unable to assess.",
+      "clinical_question": "Does the patient have a chronic skin disease characterized by a rash that has persisted for at least 6 months?"
+    },
+    {
+      "criterion": "Estimated survival < 6 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on estimated survival; unable to assess.",
+      "clinical_question": "Does the patient have an estimated survival of less than 6 months based on clinical assessment and prognostic scoring?"
+    },
+    {
+      "criterion": "Prior or concomitant treatment with other iron chelator therapies within 6 weeks of screening",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior treatments with iron chelators; unable to assess.",
+      "clinical_question": "Has the patient received any iron chelator therapies within the 6 weeks prior to screening?"
+    },
+    {
+      "criterion": "History of non-compliance to medical regimens, or considered potentially unreliable and/or not cooperative",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of non-compliance or unreliability is noted in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Uncontrolled diabetes, defined as glycolated hemoglobin (HbAlc) > 8.5%",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No information suggests uncontrolled diabetes; the patient's profile does not mention diabetes.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Presence of cataracts or hearing loss disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention cataracts or hearing loss, but this information is not explicitly provided.",
+      "clinical_question": "Does the patient have a history of cataracts or hearing loss as defined by a visual acuity of less than 20/40 or a hearing threshold greater than 25 dB in the better ear?"
+    },
+    {
+      "criterion": "Presence of a surgical or medical condition which might significantly alter absorption, distribution, metabolism or excretion of study drug",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No surgical or medical conditions affecting drug metabolism are indicated in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Planned in-hospital surgeries during the course of the study",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No planned in-hospital surgeries are mentioned in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subjects who are pregnant, breast-feeding, or intending to become pregnant",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male, thus not applicable for pregnancy or breastfeeding criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hypersensitivity to the active substance or the excipients in drug product",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No hypersensitivity to the active substance or excipients is indicated in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any other reason why, in the opinion of the investigator, the patient should not participate (e.g. serious heart disease, infection, cancer, etc)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention serious conditions like heart disease, infection, or cancer, but further assessment may be needed.",
+      "clinical_question": "Does the patient have any history of serious heart disease, defined as a left ventricular ejection fraction (LVEF) <50%?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Previous or current venesection",
+    "EXCLUSION UNCLEAR: MDS patients eligible for hematopoietic stem cell transplantation",
+    "EXCLUSION UNCLEAR: Subject complies with one or more of the following standard exclusion criteria f",
+    "EXCLUSION UNCLEAR: If the patient has a pacemaker.",
+    "EXCLUSION UNCLEAR: If the patient has a neurostimulator",
+    "EXCLUSION UNCLEAR: If the patient has a 'aneurismeclips'",
+    "EXCLUSION UNCLEAR: If the patient has a foreign object in the eye. If yes, what object.",
+    "EXCLUSION UNCLEAR: If the patient has a cochlea-/earimplant.",
+    "EXCLUSION UNCLEAR: If the patient has a V/P shunt.",
+    "EXCLUSION UNCLEAR: If the patient is claustrophobic.",
+    "EXCLUSION UNCLEAR: If the patient has an artificial heart valve.",
+    "EXCLUSION UNCLEAR: If the patient has known renal failure, eGFR <30.",
+    "EXCLUSION UNCLEAR: If the patient has or will have a liver transplantation.",
+    "EXCLUSION UNCLEAR: Other: metal prostheses, metal implant",
+    "EXCLUSION UNCLEAR: Presence of inflammation (CRP ≥ 5 mg/L)",
+    "EXCLUSION UNCLEAR: Presence of proteinuria or creatinine > 2 x UNL (Upper Normal Limit)",
+    "EXCLUSION UNCLEAR: Estimated glomerular filtration rate (GFR) < 60 mL/min",
+    "EXCLUSION UNCLEAR: ALAT, ASAT, GT or ALP > 2 x ULN ( Upper Normal Limit)",
+    "EXCLUSION UNCLEAR: ALAT > 90 U/L for women, ALAT > 140 U/L for men",
+    "EXCLUSION UNCLEAR: ASAT > 70 U/L for women, ASAT > 90 U/L for men",
+    "EXCLUSION UNCLEAR: ALP > 210 U/L for women and men",
+    "EXCLUSION UNCLEAR: GT > 90 U/L for women ≤ 40 years, GT > 150 U/L for women > 40 years",
+    "EXCLUSION UNCLEAR: GT > 160 U/L for men ≤ 40 years, GT > 230 U/L for men > 40 years",
+    "EXCLUSION UNCLEAR: Acute or chronic hepatitis",
+    "EXCLUSION UNCLEAR: Patients with chronic liver disease Child Pugh Class B and C",
+    "EXCLUSION UNCLEAR: Chronic skin disease with rash",
+    "EXCLUSION UNCLEAR: Estimated survival < 6 months",
+    "EXCLUSION UNCLEAR: Prior or concomitant treatment with other iron chelator therapies within 6 weeks",
+    "EXCLUSION UNCLEAR: Presence of cataracts or hearing loss disease",
+    "EXCLUSION UNCLEAR: Any other reason why, in the opinion of the investigator, the patient should not",
+    "LOW INCLUSION MATCH: only 0 of 2 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2105
+}

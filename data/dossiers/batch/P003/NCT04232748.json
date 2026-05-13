@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT04232748",
+  "trial_title": "Change in Body Weight During Treatment of Advanced Colorectal Cancer",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "Colorectal cancer (CRC) is a significant and growing health burden in Hong Kong. According to data from Hong Kong Cancer Registry, CRC ranked the first in incidence and the second in mortality, with around 5,000 new cases diagnosed and more than 2,000 cancer-related mortality in 2014. The investigators aim to evaluate the association between serial weight change during first line treatment and outcomes in patients with metastatic CRC.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically proven adenocarcinoma of colorectal origin",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has metastatic colorectal cancer, which is a histologically proven adenocarcinoma of colorectal origin.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stage IV disease with systemic treatment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has stage IV disease and has received systemic treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Estimated life expectancy >3 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's ECOG score of 1 and overall health suggest an estimated life expectancy greater than 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Adequate organ functions",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's lab values indicate adequate organ function, with normal creatinine and hemoglobin levels.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group performance status 3 or above",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "ECOG 1.0 >= 3.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, and there is no information provided regarding pregnancy.",
+      "clinical_question": "Is the patient currently pregnant or has the patient had a positive pregnancy test within the last 30 days?"
+    },
+    {
+      "criterion": "Human immunodeficiency virus infection and acquired immune deficiency syndrome (HIV/AIDS)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's HIV status.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of HIV infection or AIDS based on serological testing?"
+    },
+    {
+      "criterion": "Past medical history of another cancer",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding a past medical history of another cancer.",
+      "clinical_question": "Has the patient been diagnosed with any other cancer prior to the current diagnosis of metastatic colorectal cancer?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Pregnancy",
+    "EXCLUSION UNCLEAR: Human immunodeficiency virus infection and acquired immune deficiency syndrome (",
+    "EXCLUSION UNCLEAR: Past medical history of another cancer"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.625
+}

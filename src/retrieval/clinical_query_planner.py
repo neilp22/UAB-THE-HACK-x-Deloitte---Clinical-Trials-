@@ -62,7 +62,8 @@ Example: ["non-small cell lung carcinoma", "EGFR mutation"]
 Patient: {patient_text}"""
     try:
         raw = complete(prompt, temperature=0, max_tokens=150)
-        terms = json.loads(raw.strip())
+        raw = raw.strip().lstrip("```json").lstrip("```").rstrip("```").strip()  # ← afegeix això
+        terms = json.loads(raw)
         return [str(t).strip() for t in terms if t][:4]
     except Exception:
         return []

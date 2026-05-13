@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT01830894",
+  "trial_title": "Feasibility Study of New MRI Protocol in Assessing Early Blood Brain Barrier Disruption (BBBD)in Related to Delay Brain Edema",
+  "phase": "PHASE1",
+  "status": "UNKNOWN",
+  "brief_summary": "MRI research Group in the Advanced Technology Center of the Sheba Medical Center has developed an innovative methodology based on leakage (extravasation) contrast agent that allows to map the entire brain with high resolution and high sensitivity to check and describe disorders BBB (blood brain barrier).\n\nThe aim of the current study is to evaluate the feasibility of the BBB disruption detection method to predict delayed peri - hemorrhage edema.",
+  "eligibility_table": [
+    {
+      "criterion": "Age between 18-80 years.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 19.0 >= 80.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "patient is able to sign the informed consent form.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 19 years old and legally able to sign the informed consent form.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Spontaneous brain hemorrhage ICH in the last 12 hours (pre-admission, or sub-dural bleeding (whether acute or chronic)).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of spontaneous brain hemorrhage or sub-dural bleeding in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The patient meets a contraindication to undergo MRI.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide information on any contraindications for MRI, making it unclear.",
+      "clinical_question": "Does the patient have any implanted medical devices, metallic foreign bodies, or other contraindications to MRI as defined by the American College of Radiology guidelines?"
+    },
+    {
+      "criterion": "The patient is too unstable to undergo MRI.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's stability for undergoing MRI is not assessed in the provided information.",
+      "clinical_question": "Is the patient's current vital signs stable, with a blood pressure of at least 90/60 mmHg and a heart rate between 60-100 bpm?"
+    },
+    {
+      "criterion": "The patient is a candidate for surgery within 24 hours.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication that the patient is a candidate for surgery within 24 hours based on the provided history.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: The patient meets a contraindication to undergo MRI.",
+    "EXCLUSION UNCLEAR: The patient is too unstable to undergo MRI.",
+    "EXCLUSION VIOLATED: The patient is a candidate for surgery within 24 hours."
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.6667
+}

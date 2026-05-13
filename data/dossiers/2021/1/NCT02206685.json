@@ -1,0 +1,99 @@
+{
+  "nct_id": "NCT02206685",
+  "trial_title": "A Trial Comparing Single Intra-op Dose of Methadone Versus Placebo in Patients Undergoing Spine Surgery",
+  "phase": "PHASE4",
+  "status": "COMPLETED",
+  "brief_summary": "Scoliosis is a disease that involves lateral and/or rotational deformity of the spine and can affect up to 4% of the population. Typically, surgery is considered when Cobb's angle, which is a measurement used for evaluation of curves in scoliosis on an anterior-posterior radiographic projection of the spine, is greater than 50 degrees in the thoracic region (40 degrees in the lumbar region) or when the curvature causes significant pain, or respiratory and cardiovascular restriction. Patient unde",
+  "eligibility_table": [
+    {
+      "criterion": "Patient age 10 - 17 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 17.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients undergoing multilevel thoraco-lumbar spine surgery with instrumentation and fusion",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is undergoing treatment for anaplastic astrocytoma of the spine, which may necessitate multilevel thoraco-lumbar spine surgery with instrumentation and fusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Preoperative methadone therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about preoperative methadone therapy in the patient's profile.",
+      "clinical_question": "Has the patient been on a continuous methadone regimen for at least 30 days prior to the surgery?"
+    },
+    {
+      "criterion": "Inability to use the PCA",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to use a PCA (Patient-Controlled Analgesia) is not specified in the profile.",
+      "clinical_question": "Has the patient experienced any adverse effects or complications that would prevent the use of a patient-controlled analgesia (PCA) device post-surgery?"
+    },
+    {
+      "criterion": "Allergy to methadone or morphine",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of an allergy to methadone or morphine in the patient's profile.",
+      "clinical_question": "Does the patient have a documented allergy to methadone or morphine as indicated by a previous adverse reaction?"
+    },
+    {
+      "criterion": "Morbid obesity with a body mass index >36.0 kg/m2",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a body mass index (BMI) greater than 36.0 kg/m²?"
+    },
+    {
+      "criterion": "Patients with chronic renal failure defined by serum creatinine >2.0 mg/dL",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level greater than 2.0 mg/dL?"
+    },
+    {
+      "criterion": "Liver failure defined as a history of cirrhosis or fulminant hepatic failure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's liver function is not detailed, and there is no indication of liver failure or cirrhosis.",
+      "clinical_question": "Does the patient have a documented history of cirrhosis or fulminant hepatic failure?"
+    },
+    {
+      "criterion": "Preoperative congenital heart disease or arrhythmias",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding any history of congenital heart disease or arrhythmias in the patient's profile.",
+      "clinical_question": "Does the patient have a documented history of congenital heart disease or arrhythmias as per the medical records?"
+    },
+    {
+      "criterion": "Patient refusal to participate in study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's willingness to participate in the study is not addressed in the profile.",
+      "clinical_question": "Has the patient explicitly stated a refusal to participate in the study after being informed of the trial details?"
+    },
+    {
+      "criterion": "Pregnancy (It is standard of care for all post menarche female patients to undergo a urine pregnancy test prior to surgery)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so the pregnancy criterion does not apply.",
+      "clinical_question": "Has the patient undergone a urine pregnancy test within the standard timeframe prior to surgery?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Preoperative methadone therapy",
+    "EXCLUSION UNCLEAR: Inability to use the PCA",
+    "EXCLUSION UNCLEAR: Allergy to methadone or morphine",
+    "EXCLUSION UNCLEAR: Morbid obesity with a body mass index >36.0 kg/m2",
+    "EXCLUSION UNCLEAR: Patients with chronic renal failure defined by serum creatinine >2.0 mg/dL",
+    "EXCLUSION UNCLEAR: Liver failure defined as a history of cirrhosis or fulminant hepatic failure",
+    "EXCLUSION UNCLEAR: Preoperative congenital heart disease or arrhythmias",
+    "EXCLUSION UNCLEAR: Patient refusal to participate in study",
+    "EXCLUSION UNCLEAR: Pregnancy (It is standard of care for all post menarche female patients to under"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1818
+}

@@ -1,0 +1,191 @@
+{
+  "nct_id": "NCT02481258",
+  "trial_title": "A Study Evaluating the Effects of Ataciguat (HMR1766) on Aortic Valve Calcification",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "The primary objective of the current study is to determine whether Ataciguat (HMR1766) slows progression of valve calcification in patients with moderate calcific aortic valve stenosis. Secondary and tertiary objectives are to determine whether Ataciguat slows progression of aortic valve function, reduces systemic inflammation, and prevents left ventricular dysfunction in patients with moderate calcific aortic valve stenosis.",
+  "eligibility_table": [
+    {
+      "criterion": "Age > 50 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 51.0 > 50.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Male or female sex",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male, meeting the gender inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Aortic valve area greater than 1.0 cm2 but less than 2.0 cm2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No aortic valve area measurement is provided; cannot assess if it is greater than 1.0 cm2 but less than 2.0 cm2.",
+      "clinical_question": "Is the patient's aortic valve area measured between 1.0 cm² and 2.0 cm²?"
+    },
+    {
+      "criterion": "Aortic valve area greater than 1.0 cm2 but less than 2.0 cm2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No aortic valve area measurement is provided; cannot assess if it is greater than 1.0 cm2 but less than 2.0 cm2.",
+      "clinical_question": "Is the patient's aortic valve area measured between 1.0 cm² and 2.0 cm²?"
+    },
+    {
+      "criterion": "Aortic valve calcium levels greater than 300 AU from chest CT",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have aortic valve calcium levels greater than 300 AU as measured by chest CT?"
+    },
+    {
+      "criterion": "Ejection fraction >50%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's ejection fraction greater than 50% as measured by echocardiogram?"
+    },
+    {
+      "criterion": "Orthostatic intolerance or symptomatic hypotension prior to study or during study visits",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on orthostatic intolerance or symptomatic hypotension is provided.",
+      "clinical_question": "Has the patient experienced orthostatic intolerance or symptomatic hypotension, defined as a drop in systolic blood pressure of ≥20 mmHg upon standing, during the study visits?"
+    },
+    {
+      "criterion": "Positive pregnancy test during screening visit",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and does not have a pregnancy test result; cannot assess this criterion.",
+      "clinical_question": "Does the patient have a positive pregnancy test result during the screening visit?"
+    },
+    {
+      "criterion": "Nitrate use or α-antagonist medication use within 24 hours",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any medications, thus not using nitrates or α-antagonists.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Systolic blood pressure <110 mm Hg",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current systolic blood pressure measured at less than 110 mm Hg?"
+    },
+    {
+      "criterion": "Mean systemic arterial pressure <75 mm Hg",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's mean systemic arterial pressure currently measured at less than 75 mm Hg?"
+    },
+    {
+      "criterion": "Severe mitral or aortic regurgitation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on mitral or aortic regurgitation is provided.",
+      "clinical_question": "Does the patient have a measured aortic regurgitation fraction of ≥30% on echocardiogram?"
+    },
+    {
+      "criterion": "Retinal or optic nerve problems",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on retinal or optic nerve problems is provided.",
+      "clinical_question": "Has the patient experienced any retinal or optic nerve problems, such as vision changes or eye pain, in the past 12 months?"
+    },
+    {
+      "criterion": "Recent (≤30 days) acute coronary syndrome",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on recent acute coronary syndrome is provided.",
+      "clinical_question": "Has the patient experienced an acute coronary syndrome event within the last 30 days?"
+    },
+    {
+      "criterion": "Oxygen saturation <90% on room air",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's oxygen saturation level measured on room air currently less than 90%?"
+    },
+    {
+      "criterion": "Congenital valve disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on congenital valve disease is provided.",
+      "clinical_question": "Does the patient have a documented history of congenital aortic valve disease or any other congenital valve abnormalities?"
+    },
+    {
+      "criterion": "Hepatic dysfunction/elevated liver enzymes",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's lab values do not provide information on liver enzymes, making it unclear if hepatic dysfunction is present.",
+      "clinical_question": "Are the patient's alanine aminotransferase (ALT) and aspartate aminotransferase (AST) levels elevated above the normal range of 0-40 U/L?"
+    },
+    {
+      "criterion": "Prescription of drugs known to alter NO-sGC-cGMP signaling (sildenafil, nitrates, etc.)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any medications that alter NO-sGC-cGMP signaling.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prescription of Warfarin (Coumadin) for chronic anticoagulation",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not prescribed Warfarin or any anticoagulants.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concomitant participation in other trials at Mayo Clinic or elsewhere",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of concurrent participation in other trials.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of phenytoin or related compounds for any indication",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not using phenytoin or related compounds.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic midazolam treatment for any indication",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of chronic midazolam treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of monoamine oxidase inhibitors for any indication",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not using monoamine oxidase inhibitors.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of anti-diabetic drugs in the sulfonylurea family",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not using any anti-diabetic drugs in the sulfonylurea family.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Orthostatic intolerance or symptomatic hypotension prior to study or during stud",
+    "EXCLUSION UNCLEAR: Positive pregnancy test during screening visit",
+    "EXCLUSION UNCLEAR: Systolic blood pressure <110 mm Hg",
+    "EXCLUSION UNCLEAR: Mean systemic arterial pressure <75 mm Hg",
+    "EXCLUSION UNCLEAR: Severe mitral or aortic regurgitation",
+    "EXCLUSION UNCLEAR: Retinal or optic nerve problems",
+    "EXCLUSION UNCLEAR: Recent (≤30 days) acute coronary syndrome",
+    "EXCLUSION UNCLEAR: Oxygen saturation <90% on room air",
+    "EXCLUSION UNCLEAR: Congenital valve disease",
+    "EXCLUSION UNCLEAR: Hepatic dysfunction/elevated liver enzymes"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4167
+}

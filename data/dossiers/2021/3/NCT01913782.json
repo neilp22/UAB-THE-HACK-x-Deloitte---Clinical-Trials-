@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT01913782",
+  "trial_title": "The Impact of Epidural Steroid Analgesia on Functional MRI for Patients With LBP",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Chronic low back pain (CLBP) is the most prevalent form of chronic pain, and the most common reason for disability in working-age population \\[2\\]. CLBP has also been reported associated with many abnormal brain anatomy and function which includes the reduction in cortical gray matter in the bilateral dorsolateral prefrontal cortex (DLPFC), thalamus, brain stem, primary somatosensory cortex, and posterior parietal cortex. \\[3-5\\] There are already many studies that demonstrated abnormal cortical",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with disc herniation or radiculitis who are over 18 years of age.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with a history of chronic function-limiting low back pain and lower extremity pain for at least one months' duration.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a history of chronic function-limiting low back pain or lower extremity pain for at least one month.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients who are competent to understand the study and provide written informed consent and participate in outcome measurements.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old and likely competent to understand the study and provide informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients have previous lumbar surgery with metal instrument. Initial MRI shows spinal stenosis or without disc herniation. Patients have unstable opioid use, uncontrolled psychiatric disorders, uncontrolled acute medical illness, any condition that could interfere with the interpretation of outcome assessments, pregnant or lactating women or allergy to local anesthetics or steroid. Patients who are unable to perform MRI or fMRI will also be excluded.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medical history includes significant conditions, but there is no specific information about previous lumbar surgery, opioid use, or other exclusion criteria.",
+      "clinical_question": "Does the patient have any history of lumbar surgery with metal instrumentation?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients have previous lumbar surgery with metal instrument. Initial MRI shows s"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.75
+}

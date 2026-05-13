@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT04654832",
+  "trial_title": "IVC Index in Patient With Diarrhea and Dehydration And How It Affects Its Management",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "IVC Index in patient with Diarrhea and Dehydration And How It affects its management.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients under 5 years old who presented with acute diarrhea and clinical evidence of significant (Moderate and severe) dehydration and sepsis based on blood picture, high grade fever and CRP",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 >= 5.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients under 5 years old with dehydration and non septic condition.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 >= 5.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients under 5 years old have cardiomyopathy previously diagnosed.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 >= 5.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients receiving oral rehydration solution only.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not receiving oral rehydration solution only, but the specific hydration method is not detailed.",
+      "clinical_question": "Has the patient received an oral rehydration solution for at least 24 hours prior to assessment?"
+    },
+    {
+      "criterion": "Chronic medical conditions, bronchopulmonary dysplasia and renal and liver diseases.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has End Stage Renal Disease (ESRD), which is a chronic medical condition that falls under the exclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Children with acute blood loss were also excluded.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is an adult, and the criterion specifically excludes children, so it does not apply.",
+      "clinical_question": "Has the patient experienced acute blood loss within the last 24 hours?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients receiving oral rehydration solution only.",
+    "EXCLUSION UNCLEAR: Children with acute blood loss were also excluded."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

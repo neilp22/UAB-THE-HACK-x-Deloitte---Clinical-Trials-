@@ -1,0 +1,152 @@
+{
+  "nct_id": "NCT03524222",
+  "trial_title": "Home Hospital for Suddenly Ill Adults",
+  "phase": "NA",
+  "status": "RECRUITING",
+  "brief_summary": "The investigators propose a home hospital model of care that substitutes for treatment in an acute care hospital. Limited studies of the home hospital model have demonstrated that a sizeable proportion of acute care can be delivered in the home with equal quality and safety, reduced cost, and improved patient experience.",
+  "eligibility_table": [
+    {
+      "criterion": "Resides within either a 5-mile or 20 minute driving radius of emergency department",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's residence details are not provided, making it unclear if they meet the distance requirement.",
+      "clinical_question": "Does the patient reside within a 5-mile radius or a 20-minute driving distance from the emergency department?"
+    },
+    {
+      "criterion": "Has capacity to consent to study OR can assent to study and has proxy who can consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "At 23 years old, the patient likely has the capacity to consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": ">= 18 years-old",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 23.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Can identify a potential caregiver who agrees to stay with patient for first 24 hours of admission. Caregiver must be competent to call care team if a problem is evident to her/him. After 24 hours, this caregiver should be available for as-needed spot checks on the patient. This criterion may be waived for highly competent patients at the patient and clinician's discretion.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on whether the patient has a caregiver or if they are competent.",
+      "clinical_question": "Is there a competent caregiver identified who agrees to stay with the patient for the first 24 hours of admission?"
+    },
+    {
+      "criterion": "Primary or possible diagnosis of cellulitis, heart failure, complicated urinary tract infection, pneumonia, COPD/asthma, other infection, chronic kidney disease, malignant pain, diabetes and its complications, gout flare, hypertensive urgency, previously diagnosed atrial fibrillation with rapid ventricular response, anticoagulation needs, or a patient who desires only medical management that requires inpatient admission, as determined by the emergency room team.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has asymmetric interventricular septal hypertrophy, which does not fit the listed diagnoses.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Undomiciled",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No indication that the patient is undomiciled.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No working heat (October-April), no working air conditioning if forecast > 80°F (June-September), or no running water",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the patient's living conditions regarding heat, air conditioning, or water.",
+      "clinical_question": "Does the patient's residence have a functioning heating system during the months of October to April?"
+    },
+    {
+      "criterion": "On methadone requiring daily pickup of medication",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "Patient is not on methadone.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "In police custody",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No indication that the patient is in police custody.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Resides in facility that provides on-site medical care (e.g., skilled nursing facility)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No evidence that the patient resides in a facility providing on-site medical care.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Domestic violence screen positive",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No information suggesting the patient has experienced domestic violence.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Acute delirium, as determined by the Confusion Assessment Method",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's mental status is not explicitly mentioned, so it's unclear if acute delirium is present.",
+      "clinical_question": "Does the patient exhibit acute delirium as indicated by a positive score on the Confusion Assessment Method (CAM) assessment?"
+    },
+    {
+      "criterion": "Cannot establish peripheral access in emergency department (or access requires ultrasound guidance)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ability to establish peripheral access.",
+      "clinical_question": "Can the patient establish peripheral venous access without the use of ultrasound guidance?"
+    },
+    {
+      "criterion": "Secondary condition: end-stage renal disease, acute myocardial infarction, acute cerebral vascular accident, acute hemorrhage",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have any of the listed secondary conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Primary diagnosis requires multiple or routine administrations of intravenous narcotics for pain control",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient requires intravenous narcotics for pain control.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Cannot independently ambulate to bedside commode",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is 23 years old and likely able to ambulate independently.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "As deemed by on-call medical doctor, patient likely to require any of the following procedures: computed tomography, magnetic resonance imaging, endoscopic procedure, blood transfusion, cardiac stress test, or surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medical history does not provide enough information to assess the likelihood of requiring the listed procedures.",
+      "clinical_question": "Does the patient require a cardiac stress test based on current clinical guidelines for individuals with asymmetric interventricular septal hypertrophy and syncope?"
+    },
+    {
+      "criterion": "High risk for clinical deterioration",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's risk for clinical deterioration is not clearly defined based on the provided information.",
+      "clinical_question": "Does the patient have a left ventricular outflow tract gradient of ≥30 mmHg on echocardiogram?"
+    },
+    {
+      "criterion": "Home hospital census is full (maximum 5 patients at any time)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the home hospital census status.",
+      "clinical_question": "Is the current home hospital census equal to or less than 5 patients?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: No working heat (October-April), no working air conditioning if forecast > 80°F ",
+    "EXCLUSION UNCLEAR: Acute delirium, as determined by the Confusion Assessment Method",
+    "EXCLUSION UNCLEAR: Cannot establish peripheral access in emergency department (or access requires u",
+    "EXCLUSION UNCLEAR: As deemed by on-call medical doctor, patient likely to require any of the follow",
+    "EXCLUSION UNCLEAR: High risk for clinical deterioration",
+    "EXCLUSION UNCLEAR: Home hospital census is full (maximum 5 patients at any time)"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5789
+}

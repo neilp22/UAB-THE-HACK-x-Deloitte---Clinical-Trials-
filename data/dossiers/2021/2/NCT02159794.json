@@ -1,0 +1,284 @@
+{
+  "nct_id": "NCT02159794",
+  "trial_title": "HLT transfemOral Replacement of aortIc Valve Via transcatherteriZatiON CANADA",
+  "phase": "NA",
+  "status": "WITHDRAWN",
+  "brief_summary": "The purpose of this study is to evaluate the safety and performance of the HLT System in patients with severe aortic stenosis who present at High Risk for aortic valve replacement surgery.",
+  "eligibility_table": [
+    {
+      "criterion": "75 years of age or older",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient 75 years of age or older?"
+    },
+    {
+      "criterion": "Echocardiographic or hemodynamic based evidence of calcific (senile) aortic stenosis with one of the following: aortic valve EOA <1.0 cm2 or 0.6 cm2/m2 , mean aortic valve gradient >40 mmHg or peak aortic valve velocity >4 m/sec",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Echocardiographic or hemodynamic data regarding aortic valve area or gradient are not provided in the profile.",
+      "clinical_question": "Does the patient have an aortic valve effective orifice area (EOA) <1.0 cm² or 0.6 cm²/m²?"
+    },
+    {
+      "criterion": "Echocardiographic or hemodynamic based evidence of calcific (senile) aortic stenosis with one of the following: aortic valve EOA <1.0 cm2 or 0.6 cm2/m2 , mean aortic valve gradient >40 mmHg or peak aortic valve velocity >4 m/sec",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Echocardiographic or hemodynamic data regarding aortic valve area or gradient are not provided in the profile.",
+      "clinical_question": "Does the patient have an aortic valve effective orifice area (EOA) <1.0 cm² or 0.6 cm²/m²?"
+    },
+    {
+      "criterion": "Echocardiographic or hemodynamic based evidence of calcific (senile) aortic stenosis with one of the following: aortic valve EOA <1.0 cm2 or 0.6 cm2/m2 , mean aortic valve gradient >40 mmHg or peak aortic valve velocity >4 m/sec",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Echocardiographic or hemodynamic data regarding aortic valve area or gradient are not provided in the profile.",
+      "clinical_question": "Does the patient have an aortic valve effective orifice area (EOA) <1.0 cm² or 0.6 cm²/m²?"
+    },
+    {
+      "criterion": "Echocardiographic or hemodynamic based evidence of calcific (senile) aortic stenosis with one of the following: aortic valve EOA <1.0 cm2 or 0.6 cm2/m2 , mean aortic valve gradient >40 mmHg or peak aortic valve velocity >4 m/sec",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Echocardiographic or hemodynamic data regarding aortic valve area or gradient are not provided in the profile.",
+      "clinical_question": "Does the patient have an aortic valve effective orifice area (EOA) <1.0 cm² or 0.6 cm²/m²?"
+    },
+    {
+      "criterion": "Symptomatology due to aortic stenosis resulting in a New York Heart Association (NYHA) Functional Classification of II or greater",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Symptomatology due to aortic stenosis is not explicitly stated in the profile.",
+      "clinical_question": "Does the patient have a New York Heart Association (NYHA) Functional Classification of II or greater?"
+    },
+    {
+      "criterion": "Aortic valve annular diameter ≥ 21 and ≤23mm measured by MSCT",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Aortic valve annular diameter is not provided in the profile.",
+      "clinical_question": "Is the aortic valve annular diameter measured by MSCT between 21mm and 23mm?"
+    },
+    {
+      "criterion": "Aortic valve annular diameter ≥ 21 and ≤23mm measured by MSCT",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Aortic valve annular diameter is not provided in the profile.",
+      "clinical_question": "Is the aortic valve annular diameter measured by MSCT between 21mm and 23mm?"
+    },
+    {
+      "criterion": "An STS score ≥10; or Logistic EuroScore I ≥ 15; or a determination by one cardiovascular surgeon and one cardiologist that the co-morbidities not captured by the STS or EuroScore expected to increase the operative mortality risk to > 15%.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No STS or EuroScore data is provided in the profile.",
+      "clinical_question": "Does the cardiovascular surgeon and cardiologist agree that the patient's co-morbidities increase the operative mortality risk to > 15%?"
+    },
+    {
+      "criterion": "An STS score ≥10; or Logistic EuroScore I ≥ 15; or a determination by one cardiovascular surgeon and one cardiologist that the co-morbidities not captured by the STS or EuroScore expected to increase the operative mortality risk to > 15%.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No STS or EuroScore data is provided in the profile.",
+      "clinical_question": "Does the cardiovascular surgeon and cardiologist agree that the patient's co-morbidities increase the operative mortality risk to > 15%?"
+    },
+    {
+      "criterion": "Geographically available, willing to comply with follow up and able to provide written informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely geographically available and able to provide consent, but willingness to comply with follow-up is not confirmed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Congenital unicuspid or bicuspid aortic valve, or noncalcified aortic valve; or valve eccentricity (calcific or otherwise) that in the opinion of the investigator could compromise procedural success.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a bicuspid aortic valve, which is an exclusion criterion. However, the severity of the aortic stenosis and the presence of other conditions may complicate procedural success.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pre-existing prosthetic heart valve in any position, or prosthetic ring",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of a pre-existing prosthetic heart valve in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe (Grade 3 to 4) aortic, mitral or tricuspid valve regurgitation",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has 2+ aortic insufficiency, which indicates some degree of regurgitation, but it is not classified as severe (Grade 3 to 4). However, the presence of severe aortic stenosis and other cardiac issues may still pose a risk.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Moderate to severe mitral stenosis",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of moderate to severe mitral stenosis in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Myocardial infarction within the past 30 days*",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no evidence of a myocardial infarction within the past 30 days in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Echocardiographic evidence of intracardiac mass, thrombus or vegetation",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No echocardiographic evidence of intracardiac mass, thrombus, or vegetation is mentioned in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "LVEF < 30%",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's LVEF is reported as 25%, which is below the exclusion threshold of <30%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Uncontrolled hypertension (i.e. blood pressure at baseline > 140 mmHg systolic ; or in the opinion of the investigator cannot be controlled by medical therapy).",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's hypertension is noted, and while specific blood pressure values are not provided, the presence of uncontrolled hypertension is a concern given the patient's overall condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe pulmonary hypertension with pulmonary systolic pressure greater than two-thirds of systemic pressure",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of severe pulmonary hypertension with pulmonary systolic pressure greater than two-thirds of systemic pressure in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hemodynamic instability requiring inotropic drug therapy within the past 14 days or mechanical support within the past 6 months*",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no evidence of hemodynamic instability requiring inotropic drug therapy or mechanical support within the specified time frames.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Untreated clinically significant coronary artery disease requiring revascularization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not explicitly mention untreated coronary artery disease, but the presence of significant cardiac conditions raises concern.",
+      "clinical_question": "Does the patient have ≥50% stenosis in any coronary artery requiring revascularization?"
+    },
+    {
+      "criterion": "Presence of significant aortic disease such as atheroma, thrombus, or aneurysm which, in the opinion of the investigator, precludes safe implant delivery",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a dilated ascending aorta, which may be considered significant aortic disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Blood dyscrasias defined as: acute leukopenia, acute anemia, acute thrombocytopenia, history of bleeding diathesis or coagulopathy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific blood dyscrasias are mentioned, but the patient's severe heart condition may complicate this assessment.",
+      "clinical_question": "Does the patient have a documented history of acute leukopenia, acute anemia, or acute thrombocytopenia, or a known history of bleeding diathesis or coagulopathy?"
+    },
+    {
+      "criterion": "Patient ineligible for or refuses blood transfusions",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the patient's willingness regarding blood transfusions.",
+      "clinical_question": "Has the patient expressed a documented refusal of blood transfusions in their medical record?"
+    },
+    {
+      "criterion": "Unfavorable peripheral vascular anatomy or disease (e.g. severe obstructive calcification, severe tortuosity or small vessels) that would preclude passage of catheters from the femoral arterial access to the aorta as evidenced by peripheral MSCT",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's peripheral vascular anatomy is not detailed, making it difficult to assess this criterion.",
+      "clinical_question": "Does the patient have severe obstructive calcification, severe tortuosity, or vessel diameters less than 6 mm in the peripheral vascular anatomy as evidenced by peripheral MSCT?"
+    },
+    {
+      "criterion": "Active peptic ulcer or gastrointestinal bleeding within the past 90 days",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No active peptic ulcer or gastrointestinal bleeding is reported, but the patient's overall health status is concerning.",
+      "clinical_question": "Has the patient experienced an active peptic ulcer or gastrointestinal bleeding within the past 90 days?"
+    },
+    {
+      "criterion": "Stroke or transient ischemic attack within past 6 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a stroke or transient ischemic attack in the past 6 months.",
+      "clinical_question": "Has the patient experienced a stroke or transient ischemic attack within the past 6 months?"
+    },
+    {
+      "criterion": "Renal insufficiency as demonstrated by a serum creatinine > 2.5 mg/dL or end stage renal disease requiring chronic dialysis",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's EF of 25% and other cardiac issues suggest possible renal insufficiency, but specific creatinine levels are not provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active infection requiring ongoing treatment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No active infection is reported, but the patient's overall health status may complicate this.",
+      "clinical_question": "Does the patient currently have an active infection requiring ongoing treatment, as evidenced by a positive culture or clinical signs of infection?"
+    },
+    {
+      "criterion": "Need for emergent surgery or intervention other than the investigational procedure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of the need for emergent surgery or intervention outside of the investigational procedure.",
+      "clinical_question": "Has the patient experienced any need for emergent surgery or intervention within 30 days post-procedure?"
+    },
+    {
+      "criterion": "Any therapeutic invasive cardiac procedure performed or planned to perform within 30 days of the index procedure, (or 6 months for drug eluting coronary stent or biventricular pacemaker implantation)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has undergone multiple prior cardiac evaluations and procedures, but it is unclear if any invasive cardiac procedure is planned within 30 days of the index procedure.",
+      "clinical_question": "Has the patient undergone or is scheduled to undergo any therapeutic invasive cardiac procedure within 30 days of the index procedure?"
+    },
+    {
+      "criterion": "Hypersensitivity or contraindication to procedural medication and device materials (e.g. titanium, nickel, pork) which cannot be adequately pre-medicated",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding hypersensitivity or contraindications to procedural medications or device materials.",
+      "clinical_question": "Does the patient have a documented hypersensitivity or contraindication to titanium, nickel, or pork that cannot be adequately pre-medicated?"
+    },
+    {
+      "criterion": "Life expectancy < 1 year due to non-cardiac co-morbid conditions",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's severe aortic stenosis and significantly reduced ejection fraction (EF 25%) suggest a life expectancy likely less than 1 year due to cardiac conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Currently participating in any investigational drug or device studies that may confound the results of this study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating the patient is currently participating in any investigational drug or device studies.",
+      "clinical_question": "Is the patient currently participating in any investigational drug or device studies that may confound the results of this study?"
+    },
+    {
+      "criterion": "History of any cognitive or mental health status that would interfere with study participation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's cognitive or mental health status is not documented, making it unclear if there are any issues that would interfere with study participation.",
+      "clinical_question": "Does the patient have a documented history of cognitive impairment or mental health disorders that would interfere with study participation?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Severe (Grade 3 to 4) aortic, mitral or tricuspid valve regurgitation",
+    "EXCLUSION VIOLATED: LVEF < 30%",
+    "EXCLUSION VIOLATED: Uncontrolled hypertension (i.e. blood pressure at baseline > 140 mmHg systolic ;",
+    "EXCLUSION UNCLEAR: Untreated clinically significant coronary artery disease requiring revasculariza",
+    "EXCLUSION VIOLATED: Presence of significant aortic disease such as atheroma, thrombus, or aneurysm w",
+    "EXCLUSION UNCLEAR: Blood dyscrasias defined as: acute leukopenia, acute anemia, acute thrombocytope",
+    "EXCLUSION UNCLEAR: Patient ineligible for or refuses blood transfusions",
+    "EXCLUSION UNCLEAR: Unfavorable peripheral vascular anatomy or disease (e.g. severe obstructive calc",
+    "EXCLUSION UNCLEAR: Active peptic ulcer or gastrointestinal bleeding within the past 90 days",
+    "EXCLUSION UNCLEAR: Stroke or transient ischemic attack within past 6 months",
+    "EXCLUSION VIOLATED: Renal insufficiency as demonstrated by a serum creatinine > 2.5 mg/dL or end sta",
+    "EXCLUSION UNCLEAR: Active infection requiring ongoing treatment",
+    "EXCLUSION UNCLEAR: Need for emergent surgery or intervention other than the investigational procedu",
+    "EXCLUSION UNCLEAR: Any therapeutic invasive cardiac procedure performed or planned to perform withi",
+    "EXCLUSION UNCLEAR: Hypersensitivity or contraindication to procedural medication and device materia",
+    "EXCLUSION VIOLATED: Life expectancy < 1 year due to non-cardiac co-morbid conditions",
+    "EXCLUSION UNCLEAR: Currently participating in any investigational drug or device studies that may c",
+    "EXCLUSION UNCLEAR: History of any cognitive or mental health status that would interfere with study",
+    "LOW INCLUSION MATCH: only 1 of 11 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3889
+}

@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT00379951",
+  "trial_title": "A Study to Assess the Safety, Tolerability and Efficacy of Ertapenem Sodium in the Treatment of Complicated Urinary Tract Infections (0826-048)",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is to evaluate the safety, tolerability and efficacy of ertapenem sodium as initial therapy for the treatment of complicated urinary tract infections, including pyelonephritis in indian adults.",
+  "eligibility_table": [
+    {
+      "criterion": "Patient has a complicated urinary tract infection",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of complicated UTIs, which meets the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient has acute pyelonephritis with fever, flank pain, pus in the urine, and positive urine culture",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of acute pyelonephritis as the patient does not present with fever, flank pain, or pus in the urine.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient is indian and 18 years of age or greater.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient had a kidney transplant",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a kidney transplant at any point in her medical history?"
+    },
+    {
+      "criterion": "Patient had been given antibiotic therapy for condition",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not been reported to have received antibiotic therapy for the current condition, but this is unclear.",
+      "clinical_question": "Has the patient received any antibiotic therapy for her complicated urinary tract infection within the last 30 days?"
+    },
+    {
+      "criterion": "Patient had poor liver function",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's liver function.",
+      "clinical_question": "What is the patient's current liver function status as indicated by their serum alanine aminotransferase (ALT) and aspartate aminotransferase (AST) levels, and are these levels above the normal threshold of 40 U/L?"
+    },
+    {
+      "criterion": "Patient has complete obstruction of urinary tract",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's urinary tract status is not fully assessed; no complete obstruction is mentioned.",
+      "clinical_question": "Does the patient have imaging results indicating complete obstruction of the urinary tract?"
+    },
+    {
+      "criterion": "Patient has history of serious allergy to antibiotics and multivitamins",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of allergies is not specified, making it unclear if there is a serious allergy to antibiotics.",
+      "clinical_question": "Does the patient have a documented history of anaphylaxis or severe allergic reactions to any antibiotics or multivitamins?"
+    },
+    {
+      "criterion": "Patient is pregnant",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently confirmed to be pregnant based on the presence of a gestational sac in the uterus via ultrasound?"
+    },
+    {
+      "criterion": "Patient not likely to respond to 10 to 14 days of antibiotic therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's response to antibiotic therapy is uncertain based on the provided information.",
+      "clinical_question": "Has the patient previously failed to respond to at least 10 days of antibiotic therapy for complicated urinary tract infections?"
+    },
+    {
+      "criterion": "Patient not likely to survive 4 week study period",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's overall health status or prognosis for survival during the study period.",
+      "clinical_question": "Is the patient's estimated survival probability over the next 4 weeks less than 50% based on their current clinical status and medical history?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patient had a kidney transplant",
+    "EXCLUSION UNCLEAR: Patient had been given antibiotic therapy for condition",
+    "EXCLUSION UNCLEAR: Patient had poor liver function",
+    "EXCLUSION UNCLEAR: Patient has complete obstruction of urinary tract",
+    "EXCLUSION UNCLEAR: Patient has history of serious allergy to antibiotics and multivitamins",
+    "EXCLUSION UNCLEAR: Patient is pregnant",
+    "EXCLUSION UNCLEAR: Patient not likely to respond to 10 to 14 days of antibiotic therapy",
+    "EXCLUSION UNCLEAR: Patient not likely to survive 4 week study period"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2727
+}

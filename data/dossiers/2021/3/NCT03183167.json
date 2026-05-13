@@ -1,0 +1,44 @@
+{
+  "nct_id": "NCT03183167",
+  "trial_title": "Longitudinal Cohort Study on ICH Care",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Intracerebral hemorrhage \\[ICH\\] is the most feared sub-type of stroke, associated with a high mortality rate up to 50% and thus leaving large proportions of patients in functionally dependent states. In recent years randomized trials have failed to provide an effective intervention to improve functional outcome in ICH. Therefore, evidence regarding acute therapeutic interventions as well as secondary treatment approaches is still limited.\n\nThe present monocentric longitudinal study on spontaneo",
+  "eligibility_table": [
+    {
+      "criterion": "Spontaneous Primary Intracerebral Hemorrhage",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a diagnosis of arteriovenous malformation (AVM), which is a secondary cause of intracerebral hemorrhage, thus not meeting the inclusion criterion for spontaneous primary intracerebral hemorrhage.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Secondary ICH etiology (i.e. AVM, SAH, SVT, Fistulas, Tumor, Trauma)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's spontaneous intraventricular hemorrhage is due to an AVM, which is classified as a secondary etiology, thus meeting the exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ICH patients on active anticoagulation (known NOAC intake, INR Level on Admission >1.4)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on pain medication, but there is no information provided about active anticoagulation or INR levels, making it indeterminate.",
+      "clinical_question": "Is the patient's INR level on admission greater than 1.4?"
+    },
+    {
+      "criterion": "Patients with intraparenchymal hemorrhage after Thrombolysis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any prior thrombolysis treatment, making it indeterminate whether this exclusion criterion is met.",
+      "clinical_question": "Has the patient experienced an intraparenchymal hemorrhage within 24 hours after receiving thrombolysis?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: ICH patients on active anticoagulation (known NOAC intake, INR Level on Admissio",
+    "EXCLUSION UNCLEAR: Patients with intraparenchymal hemorrhage after Thrombolysis",
+    "LOW INCLUSION MATCH: only 0 of 1 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

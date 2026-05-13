@@ -1,0 +1,187 @@
+{
+  "nct_id": "NCT00003564",
+  "trial_title": "Procarbazine and Isotretinoin in Treating Patients With Recurrent Primary Malignant Gliomas",
+  "phase": "PHASE3",
+  "status": "WITHDRAWN",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells. It is not yet known whether giving procarbazine alone or with isotretinoin is more effective for recurrent primary malignant glioma.\n\nPURPOSE: Randomized phase III trial to compare the effectiveness of procarbazine alone or with isotretinoin in treating patients with recurrent primary malignant gliomas.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically proven primary malignant gliomas including the following: Glioblastoma multiforme, Gliosarcoma, Anaplastic astrocytoma, Anaplastic oligodendroglioma, Anaplastic infiltrating glioma, Mixed malignant gliomas",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma, which is included in the list of histologically proven primary malignant gliomas.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must show evidence of tumor recurrence or progression on at least 2 serial enhanced MRI scans",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's MRI scans to confirm evidence of tumor recurrence or progression.",
+      "clinical_question": "Have at least 2 serial enhanced MRI scans been performed that show evidence of tumor recurrence or progression?"
+    },
+    {
+      "criterion": "Must have measurably enhancing residual disease on MRI or CT scan of brain",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's imaging results are not provided, so it is unclear if there is measurably enhancing residual disease.",
+      "clinical_question": "Does the patient's MRI or CT scan of the brain show ≥1 cm of measurably enhancing residual disease?"
+    },
+    {
+      "criterion": "Age: 16 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 45 years old, which is above the minimum age requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: Karnofsky 60-100%",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's history of severe lower extremity weakness and other neurological deficits likely indicates a Karnofsky performance status below 60.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy: Greater than 8 weeks",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely to have a life expectancy greater than 8 weeks given the ongoing treatment and management of their condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absolute granulocyte count at least 1,500/mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute granulocyte count currently ≥1,500/mm3?"
+    },
+    {
+      "criterion": "Platelet count at least 100,000/mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count at least 100,000/mm3?"
+    },
+    {
+      "criterion": "SGPT less than 2 times institutional normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for SGPT are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's SGPT level less than 80 U/L, which is 2 times the institutional normal value?"
+    },
+    {
+      "criterion": "Alkaline phosphatase less than 2 times institutional normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for alkaline phosphatase are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's alkaline phosphatase level less than 2 times the institutional normal value?"
+    },
+    {
+      "criterion": "Bilirubin less than 1.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level currently less than 1.5 mg/dL?"
+    },
+    {
+      "criterion": "BUN less than 1.5 times institutional normal OR Creatinine less than 1.5 times institutional normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for BUN and creatinine are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's BUN less than 22.5 mg/dL or is the patient's creatinine less than 1.5 times the institutional normal value?"
+    },
+    {
+      "criterion": "No active infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence or absence of active infections.",
+      "clinical_question": "Does the patient currently exhibit any signs or symptoms of active infection, such as fever, chills, or elevated white blood cell count?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication of being pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception 1 month before, during, and 1 month after study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male; however, there is no information on contraception use.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, as defined by the study protocol, for at least 1 month prior to enrollment?"
+    },
+    {
+      "criterion": "No other disease that will obscure toxicity or alter drug metabolism",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple conditions (hypertension, chronic pain) that may obscure toxicity or alter drug metabolism.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent medical illness",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has chronic pain and hypertension, which are concurrent medical illnesses.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biologic therapy: Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Biologic therapy is not specified, so it is unclear if this criterion is met.",
+      "clinical_question": "Has the patient received any biologic therapy prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "No prior procarbazine",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no record of prior procarbazine use in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior isotretinoin",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no record of prior isotretinoin use in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 4 weeks since prior chemotherapy (6 weeks for nitrosoureas) and recovered",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received chemotherapy (temozolomide and CPT-11) within the last 4 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Endocrine therapy: Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Endocrine therapy is not specified, so it is unclear if this criterion is met.",
+      "clinical_question": "Has the patient received any form of endocrine therapy prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "Prior radiotherapy allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of prior radiotherapy, which is allowed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery: Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion regarding surgery is not specified in the patient's profile, making it unclear whether this criterion is met or not.",
+      "clinical_question": "Has the patient undergone any surgical intervention for the recurrent primary malignant glioma prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "No concurrent tetracyclines",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not reported to be taking any tetracyclines concurrently with their other medications.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.48
+}

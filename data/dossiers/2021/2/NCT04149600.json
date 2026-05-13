@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT04149600",
+  "trial_title": "Identification of Genetic Causes of Calcific Aortic Valve Disease",
+  "phase": "",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "This study aims to identify the molecular genetic causes of the variability in development of calcific aortic valve disease in bicuspid and tricuspid aortic valves and their associated aortic dilation.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with a plan to undergo elective aortic valve replacement and/or ascending aortic surgery",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and is likely undergoing elective aortic valve replacement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age < 20 years",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient currently under the age of 20 years?"
+    },
+    {
+      "criterion": "Unable/unwilling to consent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ability or willingness to consent.",
+      "clinical_question": "Is the patient able to provide informed consent as assessed by a standardized consent capacity evaluation?"
+    },
+    {
+      "criterion": "History of aortic valve replacement or transcatheter aortic valve replacement (TAVR)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not had a prior aortic valve replacement or TAVR.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of endocarditis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of endocarditis in the patient's profile.",
+      "clinical_question": "Has the patient ever been diagnosed with endocarditis or experienced symptoms consistent with endocarditis, such as fever, new heart murmur, or embolic phenomena?"
+    },
+    {
+      "criterion": "History of rheumatic fever",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of rheumatic fever in the patient's profile.",
+      "clinical_question": "Has the patient ever been diagnosed with rheumatic fever?"
+    },
+    {
+      "criterion": "History of chest radiotherapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of chest radiotherapy in the patient's profile.",
+      "clinical_question": "Has the patient received chest radiotherapy at any point in their medical history?"
+    },
+    {
+      "criterion": "History of organ transplant",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no documented history of organ transplant in the patient's profile.",
+      "clinical_question": "Has the patient undergone an organ transplant at any point in their medical history?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Age < 20 years",
+    "EXCLUSION UNCLEAR: Unable/unwilling to consent",
+    "EXCLUSION UNCLEAR: History of endocarditis",
+    "EXCLUSION UNCLEAR: History of rheumatic fever",
+    "EXCLUSION UNCLEAR: History of chest radiotherapy",
+    "EXCLUSION UNCLEAR: History of organ transplant"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.25
+}

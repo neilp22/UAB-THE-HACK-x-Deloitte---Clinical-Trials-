@@ -1,0 +1,26 @@
+{
+  "nct_id": "NCT00004793",
+  "trial_title": "Pilot Study of the Effect of Baclofen and Bromocriptine on Luteinizing Hormone Secretion in Pubertal Children",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "OBJECTIVES: I. Evaluate the effect of bromocriptine on luteinizing hormone (LH) secretion by suppression of prolactin and stimulation of dopaminergic receptors in early pubertal boys and girls.\n\nII. Evaluate the effect of baclofen on LH secretion by stimulation of gamma-aminobutyric acid receptors in early pubertal boys and girls.",
+  "eligibility_table": [
+    {
+      "criterion": "Short stature and/or constitutional growth delay",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is 19 years old and has delayed puberty, which may suggest growth delay, but there is no specific information on height or growth patterns to definitively assess short stature or constitutional growth delay.",
+      "clinical_question": "Does the patient have a height below the 3rd percentile for age and gender, indicating short stature?"
+    },
+    {
+      "criterion": "No epilepsy or risk of epilepsy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of epilepsy or any risk factors for epilepsy in the patient's profile, indicating that this criterion is likely met.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

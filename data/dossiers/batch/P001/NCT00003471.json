@@ -1,0 +1,320 @@
+{
+  "nct_id": "NCT00003471",
+  "trial_title": "Antineoplaston Therapy in Treating Patients With Low-Grade Astrocytoma",
+  "phase": "PHASE2",
+  "status": "TERMINATED",
+  "brief_summary": "RATIONALE: Current therapies for adult recurrent/progressive low grade astrocytoma provide limited benefit to the patient. The anti-cancer properties of Antineoplaston therapy suggest that it may prove beneficial in the treatment of adult recurrent/progressive low grade astrocytoma.\n\nPURPOSE: This study is being performed to determine the effects (good and bad) that Antineoplaston therapy has on adults with a recurrent/progressive low grade astrocytoma.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically confirmed low-grade astrocytoma that has progressed, recurred, or persisted after initial therapy, including radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma, which is a high-grade tumor, not low-grade as required.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previously treated with at least 1 prior standard therapy (e.g., radiotherapy, chemotherapy, immunotherapy, or cytodifferentiating agent)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone prior treatments, including high-dose steroids.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Measurable tumor by MRI scan performed within two weeks prior to study entry",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about a recent MRI scan to confirm measurable tumor.",
+      "clinical_question": "Has the patient undergone an MRI scan within the last two weeks that shows measurable tumor size?"
+    },
+    {
+      "criterion": "Tumor must be at least 5 mm",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Does the patient's tumor measure at least 5 mm in diameter?"
+    },
+    {
+      "criterion": "No brain stem tumors",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have a brain stem tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: 18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The ECOG score is 2, which does not meet the required performance status.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Karnofsky 60-100%",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Karnofsky performance status is not provided, but ECOG 2 suggests it is below 60.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy: More than 2 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely to have a life expectancy of more than 2 months given the context.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "WBC at least 2,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Does the patient have a white blood cell count of at least 2,000/mm^3?"
+    },
+    {
+      "criterion": "Platelet count at least 50,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's current platelet count at least 50,000/mm^3?"
+    },
+    {
+      "criterion": "Bilirubin no greater than 2.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level ≤2.5 mg/dL?"
+    },
+    {
+      "criterion": "SGOT and SGPT no greater than 5 times upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "ALT is 38 U/L, which is within normal limits, but not confirmed if it is within 5 times the upper limit.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No hepatic failure",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No indication of hepatic failure is provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Creatinine no greater than 2.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "creatinine=1.1 mg/dL <= 2.5 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No renal insufficiency",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Creatinine level of 1.1 mg/dL indicates no renal insufficiency.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of renal conditions that contraindicate high dosages of sodium",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported history of renal conditions that would contraindicate high dosages of sodium.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No uncontrolled hypertension",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has hypertension, which is considered uncontrolled given the context of their medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No chronic heart failure",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of chronic heart failure in the patient's medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of congestive heart failure",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported history of congestive heart failure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of other cardiovascular conditions that contraindicate high dosages of sodium",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of other cardiovascular conditions that would contraindicate high dosages of sodium.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pulmonary:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding pulmonary conditions.",
+      "clinical_question": "Does the patient have a pulmonary function test showing a forced expiratory volume in 1 second (FEV1) ≥70% of predicted?"
+    },
+    {
+      "criterion": "No severe lung disease (e.g., chronic obstructive pulmonary disease)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of severe lung disease such as chronic obstructive pulmonary disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding other unspecified eligibility criteria.",
+      "clinical_question": "Has the patient experienced a measurable reduction in tumor size of ≥20% following antineoplaston therapy?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and therefore not pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 4 weeks after study participation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the use of contraception.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a barrier method or hormonal contraceptive, and will he continue to do so during and for 4 weeks after study participation?"
+    },
+    {
+      "criterion": "No other concurrent serious disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has hypertension and hyperlipidemia, which are considered serious concurrent diseases.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No active infection",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No information provided about active infections, but the presence of severe conditions raises concern.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior concurrent therapy.",
+      "clinical_question": "Has the patient received any prior treatment with antineoplastons?"
+    },
+    {
+      "criterion": "Biologic therapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior biologic therapy.",
+      "clinical_question": "Has the patient received at least one prior biologic therapy for the treatment of anaplastic astrocytoma?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific disease characteristics provided to assess.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of low-grade astrocytoma based on histopathological examination?"
+    },
+    {
+      "criterion": "At least 4 weeks since prior immunotherapy and recovered",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior immunotherapy or recovery status.",
+      "clinical_question": "Has the patient completed at least 4 weeks since the last administration of any immunotherapy?"
+    },
+    {
+      "criterion": "No concurrent immunomodulating agents",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about concurrent immunomodulating agents.",
+      "clinical_question": "Has the patient received any immunomodulating agents within the last 30 days?"
+    },
+    {
+      "criterion": "Chemotherapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior chemotherapy.",
+      "clinical_question": "Has the patient received any prior chemotherapy treatment for anaplastic astrocytoma?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific disease characteristics provided to assess.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of low-grade astrocytoma based on histopathological examination?"
+    },
+    {
+      "criterion": "At least 4 weeks since prior chemotherapy (6 weeks for nitrosoureas) and recovered",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior chemotherapy or recovery status.",
+      "clinical_question": "Has the patient completed at least 4 weeks since the last chemotherapy treatment and has fully recovered from any related side effects?"
+    },
+    {
+      "criterion": "No concurrent antineoplastic agents",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is currently on dexamethasone, which is a corticosteroid and may be considered an antineoplastic agent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Endocrine therapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the use of endocrine therapy.",
+      "clinical_question": "Has the patient received any form of endocrine therapy prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "Concurrent corticosteroids allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Concurrent corticosteroids are allowed and the patient is on dexamethasone.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Radiotherapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the patient's history of radiotherapy.",
+      "clinical_question": "Has the patient received radiotherapy as part of their treatment for anaplastic astrocytoma?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific details provided about disease characteristics.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of low-grade astrocytoma based on histopathological examination?"
+    },
+    {
+      "criterion": "At least 8 weeks since prior radiotherapy and recovered",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the timing of prior radiotherapy.",
+      "clinical_question": "Has the patient completed at least 8 weeks since the last radiotherapy treatment and demonstrated recovery from any related side effects?"
+    },
+    {
+      "criterion": "Must recover from prior surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about recovery from prior surgery.",
+      "clinical_question": "Has the patient demonstrated a recovery of neurological function sufficient to achieve an ECOG performance status of 0 or 1 following prior surgery?"
+    },
+    {
+      "criterion": "No prior antineoplastons",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No prior antineoplastons have been mentioned in the patient's history.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5227
+}

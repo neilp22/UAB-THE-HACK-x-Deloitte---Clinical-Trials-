@@ -1,0 +1,261 @@
+{
+  "nct_id": "NCT00483834",
+  "trial_title": "A Phase II Study of Bevacizumab, Irinotecan and Capecitabine in Patients With Previously Untreated Metastatic Colorectal Cancer",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Bevacizumab has recently been shown to improve survival when combined with chemotherapy in patients with previously untreated metastatic colorectal cancer. Bevacizumab is usually given together with infusional 5-FU, which requires a central line. A central line is inconvenient for patients, and may increase risk of infection, and thrombosis. Furthermore, a central line increases resource demands for interventional radiology, chemo daycare. Capecitabine is administered orally, and converted to 5-",
+  "eligibility_table": [
+    {
+      "criterion": "Patients must have histologically or cytologically confirmed colorectal cancer which is recurrent or metastatic, and not amendable to surgical resection or radiation.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has metastatic colorectal cancer, which is not amenable to surgical resection or radiation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have measurable disease, defined as at least one lesion that can be accurately measured in at least one dimension (longest diameter to be recorded) as >20 mm with conventional techniques or as >10 mm with spiral CT scan.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide information on whether there are measurable lesions.",
+      "clinical_question": "Does the patient have at least one measurable lesion with a longest diameter greater than 20 mm using conventional techniques or greater than 10 mm using spiral CT scan?"
+    },
+    {
+      "criterion": "Patients must have had no previous chemotherapy or treatment with an investigational agent for recurrent or metastatic disease. Prior chemotherapy in the adjuvant setting for colorectal cancer is acceptable. Prior surgery or radiotherapy for recurrent or metastatic disease is acceptable, however, patients must be adequately recovered from the effects of these treatments. At least 6 weeks must have elapsed from major surgery and 4 weeks must have elapsed from any radiation therapy.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received prior chemotherapy (FOLFOX and FOLFIRI plus bevacizumab) for metastatic disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age >18 years. Because no dosing or adverse event data are currently available on the use of bevacizumab in combination with capecitabine and irinotecan in patients <18 years of age, children are excluded from this study.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 67.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Estimated life expectancy of greater than 3 months.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 67 years old, which is above the age threshold, and there is no indication of a life expectancy less than 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ECOG performance status 0, 1, or 2 (or Karnofsky >60%; see Appendix A).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's ECOG performance status is 1, which is acceptable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have normal organ and marrow function as defined below: leukocytes >= 3,000/mcL absolute neutrophil count >= 1,500/mcL platelets >= 100,000/mcL hemoglobin >= 90 g/L total bilirubin <= 1.5 x upper limit of normal AST(SGOT)/ALT(SGPT) <= 2.5 x upper limit of normal creatinine within normal institutional limits OR creatinine clearance >= 50 mL/min/1.73 m2 for patients with creatinine levels above institutional normal proteinuria < 2+ on dipstick patients with >= 2+ proteinuria on urine dipstick at baseline should undergo a 24-hour urine collection, and must have <= 1g protein / 24 hours.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's hemoglobin is 11.2 g/dL, which is below the required threshold of 90 g/L (9.0 g/dL).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Appropriate imaging investigations, including chest X-rays and / or CT/MRI of chest / abdomen / pelvis or other scans as clinically indicated to document all sites of disease must be performed within 28 days of study entry.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the timing of imaging investigations.",
+      "clinical_question": "Has the patient undergone appropriate imaging investigations, including chest X-rays and/or CT/MRI of the chest/abdomen/pelvis, within 28 days prior to study entry?"
+    },
+    {
+      "criterion": "The effects of bevacizumab on the developing human fetus at the recommended therapeutic dose are unknown. For this reason and because antiangiogenic agents as well as other therapeutic agents used in this trial are known to be teratogenic, women of child-bearing potential and men must agree to use adequate contraception (hormonal or barrier method of birth control; abstinence) prior to study entry, for the duration of study and for a period of four weeks after cessation of study therapy. Should a woman become pregnant or suspect she is pregnant while participating in this study, she must inform her treating physician immediately.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and does not require contraception, thus meeting the requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of other malignancies, except: adequately treated non-melanoma skin cancer, curatively treated in-situ cancer of the cervix, or other solid malignancies curatively treated with no evidence of disease for ≥ 5 years.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has no history of other malignancies as per the provided profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients may not be receiving any other investigational agents.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently receiving any investigational agents.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with known metastases in the central nervous system.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No information indicates the patient has central nervous system metastases.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any condition that does not permit compliance with the study protocol",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of any condition that would prevent compliance with the study protocol.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous history of gastrointestinal perforation, uncontrolled gastrointestinal bleeding, uncontrolled thromboembolism",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of gastrointestinal perforation, uncontrolled bleeding, or thromboembolism is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Presence of uncontrolled hypertension and / or proteinuria. Patients must have systolic blood pressure ≤ 150 mmHg and diastolic blood pressure ≤ 100 mmHg, and be on stable blood pressure medication at the time of study entry. Patients discovered to have ≥ 1+ proteinuria at baseline, should undergo a 24-hour urine collection and must have < 500 mg of protein / 24 hours.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Blood pressure and proteinuria status are not provided; cannot confirm if hypertension or proteinuria is uncontrolled.",
+      "clinical_question": "Is the patient's systolic blood pressure ≤ 150 mmHg and diastolic blood pressure ≤ 100 mmHg while on stable blood pressure medication?"
+    },
+    {
+      "criterion": "History of allergic reactions, or intolerance, attributed to compounds of similar chemical or biologic composition to 5-fluorouracil, irinotecan, or bevacizumab.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of allergic reactions or intolerance to the specified compounds is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women who are pregnant or breastfeeding are excluded from this study because bevacizumab is an antiangiogenic agent with the potential for teratogenic or abortifacient effects. Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with bevacizumab, breastfeeding should be discontinued if the mother is treated with bevacizumab. These potential risks may also apply to other agents used in this study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient is male; however, no information is provided about pregnancy or breastfeeding.",
+      "clinical_question": "Is the patient currently pregnant or breastfeeding?"
+    },
+    {
+      "criterion": "Uncontrolled inter-current illness including, but not limited to, ongoing or active infection, or psychiatric illness/social situations that would limit compliance with study requirements.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No uncontrolled inter-current illness is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "HIV-positive patients on combination antiretroviral therapy are ineligible because of the potential for pharmacokinetic interactions with the agents used in this study. In addition, these patients are at increased risk of lethal infections when treated with marrow-suppressive therapy.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No indication of HIV-positive status or use of antiretroviral therapy is provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to understand and the willingness to sign a written informed consent document.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is 67 years old and there is no indication of inability to understand or sign consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with active cardiovascular disease, i.e., unstable angina, New York Heart Association grade II or greater congestive heart failure, serious cardiac arrhythmia requiring medications, or grade II or greater peripheral vascular disease. In addition, patients with arterial thrombosis, myocardial infarction, and cerebral vascular accidents (stroke / transient ischemic attach (TIA)) within 6 months prior to study entry will be excluded.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding active cardiovascular disease or recent cardiovascular events.",
+      "clinical_question": "Does the patient have any history of unstable angina, New York Heart Association grade II or greater congestive heart failure, serious cardiac arrhythmia requiring medications, or grade II or greater peripheral vascular disease within the last 6 months?"
+    },
+    {
+      "criterion": "Patients who had major surgical procedure, open biopsy or significant traumatic injury within 28 days prior to the first study treatment, or anticipation of need for major surgical procedure during the course of the study; minor surgical procedures within 7 days prior to study treatment start.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No information provided indicates that the patient has had a major surgical procedure or significant traumatic injury within the specified time frame.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Planned radiotherapy for underlying disease.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of planned radiotherapy for the patient's underlying disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serious non-healing wound or ulcer.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have a serious non-healing wound or ulcer as per the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of bleeding diathesis or coagulopathy.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no evidence of bleeding diathesis or coagulopathy in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Current or recent (within 10 days prior to study treatment start) use of full dose oral or intravenous anticoagulants or thrombolytic agents. Patients on low molecular weight heparins are allowed to participate in the study. Patients with anticoagulation for maintenance of patency of permanent indwelling intravenous catheters will be eligible. However, INR should be monitored closely if patients are taking low-dose coumadin for this purpose.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently using full dose anticoagulants or thrombolytic agents, and there is no indication of recent use.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ongoing treatment with aspirin ( > 325 mg/day) or other medications known to predispose to gastrointestinal ulceration.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no ongoing treatment with high-dose aspirin or other medications that predispose to gastrointestinal ulceration.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients who have received prior radiation therapy to > 15% of bone marrow (see Appendix D), or standard pelvic radiation for rectal cancer.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received prior radiation therapy to more than 15% of bone marrow or standard pelvic radiation for rectal cancer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with predisposing colonic or small bowel disorders in which symptoms are uncontrolled as indicated by pre-treatment/baseline pattern of > 3 loose stools daily in patients without a colostomy or ileostomy. Patients with a colostomy or ileostomy may be entered as the investigator's discretion.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of uncontrolled colonic or small bowel disorders as the patient does not report more than 3 loose stools daily.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with partial or complete bowel obstruction, known chronic malabsorption, total colectomy or other major abdominal surgery that might result in substantial alteration in absorption of oral medications.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have partial or complete bowel obstruction, chronic malabsorption, or a total colectomy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with known Gilbert's syndrome.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of Gilbert's syndrome in the patient's medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients who were started on phenytoid, phenobarbital, carbamazepine or any other enzyme-inducing anti-convulsant drug (EIACD) within 7 days prior to the first study treatment or patients who are unable or unwilling to discontinue EIACD use or switch to a non-EIACD at least 7 days prior to the first study treatment. Concomitant use of gabapentin or other non-EIACDs is permitted.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not reported to be on any enzyme-inducing anti-convulsant drugs, thus meeting the criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients who are unable or unwilling to discontinue St. John's wort (hypericum perforatum) at least 14 days prior to the first study treatment; Patients who are taking fluconazole / ketoconazole at the time of first study treatment.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is using St. John's wort or fluconazole/ketoconazole, so this criterion is met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lack of physical integrity of the upper gastrointestinal tract, malabsorption syndrome, or inability to take oral medication.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported issues with the upper gastrointestinal tract or malabsorption syndrome, indicating they can take oral medication.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Organ allografts requiring immunosuppressive therapy.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have any organ allografts requiring immunosuppressive therapy, thus meeting this exclusion criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Presence of uncontrolled hypertension and / or proteinuria. Patients must have s",
+    "EXCLUSION UNCLEAR: Women who are pregnant or breastfeeding are excluded from this study because bev",
+    "EXCLUSION UNCLEAR: Patients with active cardiovascular disease, i.e., unstable angina, New York Hea"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.8571
+}

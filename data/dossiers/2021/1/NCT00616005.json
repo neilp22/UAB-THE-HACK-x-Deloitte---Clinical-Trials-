@@ -1,0 +1,146 @@
+{
+  "nct_id": "NCT00616005",
+  "trial_title": "Ph. II Treatment of Adults w Primary Malignant Glioma w Irinotecan + Temozolomide",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Objective:\n\nTo determine activity of combo of Irinotecan + Temozolomide To further characterize any toxicity associated w combo of Irinotecan + Temozolomide",
+  "eligibility_table": [
+    {
+      "criterion": "Pts have histologically proven supratentorial GBM",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a histologically confirmed diagnosis of supratentorial glioblastoma multiforme (GBM)?"
+    },
+    {
+      "criterion": "Pts have newly diagnosed disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been diagnosed with primary malignant glioma within the last 6 weeks?"
+    },
+    {
+      "criterion": "There must be measurable disease on contrast-enhanced magnetic resonance imaging performed <14 days before drug administration. Those who underwent resection must have MRI <72 hrs/ >14 days after surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to confirm measurable disease on MRI.",
+      "clinical_question": "Has the patient undergone a contrast-enhanced magnetic resonance imaging within 14 days prior to drug administration that shows measurable disease?"
+    },
+    {
+      "criterion": "Prior Surgical Resection/Biopsy: Although surgical resection is not required, pts must be treated <42 days of surgery or biopsy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has undergone prior treatments but no specific surgery within 42 days mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age >18 yrs",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Karnofsky Performance Status >70 percent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have a Karnofsky Performance Status score of ≥70 percent?"
+    },
+    {
+      "criterion": "Serum creatinine < 1.5 x ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No serum creatinine value provided to assess eligibility.",
+      "clinical_question": "Is the patient's serum creatinine level less than 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Absolute neutrophil count >1500 cells/microliter; platelet count >100,000 cells/microliter",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided for absolute neutrophil count or platelet count.",
+      "clinical_question": "Is the patient's absolute neutrophil count greater than 1500 cells/microliter and platelet count greater than 100,000 cells/microliter?"
+    },
+    {
+      "criterion": "Serum SGOT & total bilirubin <2.5 x ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided for SGOT or total bilirubin.",
+      "clinical_question": "Is the patient's serum SGOT level and total bilirubin level both less than 2.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Signed informed consent, approved by IRB, will be obtained prior to initiating treatment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming informed consent can be obtained as per standard practice.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pts must agree to practice effective birth control measures while on study & for 2 months after completing therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on birth control measures provided.",
+      "clinical_question": "Has the patient confirmed their agreement to practice effective birth control measures during the study and for 2 months after completing therapy?"
+    },
+    {
+      "criterion": "Pregnant/breast feeding women / women/men w reproductive potential not practicing adequate contraception. This therapy may be associated w potential toxicity to fetus/child that exceeds minimum risks necessary to meet health needs of mother",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on pregnancy or contraception practices provided.",
+      "clinical_question": "Is the patient currently practicing adequate contraception, defined as using a reliable method such as hormonal birth control, intrauterine device, or barrier methods consistently?"
+    },
+    {
+      "criterion": "Active infection requiring intravenous antibiotics",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on active infections provided.",
+      "clinical_question": "Does the patient currently have an active infection that requires intravenous antibiotics as per clinical evaluation?"
+    },
+    {
+      "criterion": "Known diagnosis of HIV infection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed HIV viral load of ≥200 copies/mL?"
+    },
+    {
+      "criterion": "Pts w history of another primary malignancy that currently requires active intervention",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of other malignancies provided, but cannot confirm without more information.",
+      "clinical_question": "Does the patient currently require active intervention for any primary malignancy other than anaplastic astrocytoma?"
+    },
+    {
+      "criterion": "Pts unwilling/unable to comply w protocol due to serious medical/psychiatric condition",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has multiple serious medical conditions, including anaplastic astrocytoma and chronic pain, which may affect their ability to comply with the protocol. However, there is no explicit indication of unwillingness or inability to comply.",
+      "clinical_question": "Does the patient have a serious medical or psychiatric condition that would prevent compliance with the treatment protocol as defined by the presence of ≥1 significant comorbidity impacting daily functioning?"
+    },
+    {
+      "criterion": "Pts who underwent surgical resection for GBM <2 weeks of start of treatment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has an unresectable tumor and has not undergone surgical resection for GBM, but the specific timeline regarding any surgical interventions is unclear.",
+      "clinical_question": "Did the patient undergo surgical resection for glioblastoma multiforme (GBM) within 14 days prior to the start of treatment?"
+    },
+    {
+      "criterion": "Pts who have received prior chemo, biologic therapy, XRT, interstitial brachytherapy/radiosurgery to brain",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has received prior chemotherapy (temozolomide and CPT-11) and biologic therapy (Avastin), which disqualifies them based on the criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Pregnant/breast feeding women / women/men w reproductive potential not practicin",
+    "EXCLUSION UNCLEAR: Active infection requiring intravenous antibiotics",
+    "EXCLUSION UNCLEAR: Known diagnosis of HIV infection",
+    "EXCLUSION UNCLEAR: Pts w history of another primary malignancy that currently requires active inter",
+    "EXCLUSION UNCLEAR: Pts unwilling/unable to comply w protocol due to serious medical/psychiatric con",
+    "EXCLUSION UNCLEAR: Pts who underwent surgical resection for GBM <2 weeks of start of treatment",
+    "LOW INCLUSION MATCH: only 3 of 11 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2222
+}

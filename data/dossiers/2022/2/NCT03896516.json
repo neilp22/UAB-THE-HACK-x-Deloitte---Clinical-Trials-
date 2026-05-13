@@ -1,0 +1,323 @@
+{
+  "nct_id": "NCT03896516",
+  "trial_title": "Manipulating Ghrelin Signaling Via GOAT Inhibition in Alcohol Use Disorder",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "Background:\n\nPeople with alcohol use disorder (AUD) have trouble controlling their drinking. Medications can help some people with AUD but are not effective for many others. Researchers want to test new drugs to better treat the disease.\n\nObjective:\n\nTo see if the investigational drug GLWL-01 is safe to use in people with alcohol problems. Also, to find out if the drug reduces the urge to drink alcohol.\n\nEligibility:\n\nPeople ages 18-70 with Alcohol Use Disorder (AUD)\n\nDesign:\n\nParticipants will ",
+  "eligibility_table": [
+    {
+      "criterion": "Alcohol Use Disorder (Minimum 2 symptoms on a validated diagnostic tool e.g., the Mini-International Neuropsychiatric Interview (MINI) or the Structured Clinical Interview for DSM Disorders (SCID)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the patient's symptoms related to Alcohol Use Disorder.",
+      "clinical_question": "Does the patient exhibit at least 2 symptoms of Alcohol Use Disorder as assessed by the Mini-International Neuropsychiatric Interview (MINI) or the Structured Clinical Interview for DSM Disorders (SCID)?"
+    },
+    {
+      "criterion": "Male or female individuals 18-70 years old (inclusive)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 <= 70.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Able to speak, read, write and understand English",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is assumed to be able to speak, read, write, and understand English unless stated otherwise.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Most recent urine drug test for benzodiazepines, barbiturates, cocaine metabolites, morphine, oxycodone, methadone, amphetamine, & buprenorphine is negative.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the results of the most recent urine drug test.",
+      "clinical_question": "Has the patient had a urine drug test within the last 30 days that is negative for benzodiazepines, barbiturates, cocaine metabolites, morphine, oxycodone, methadone, amphetamine, and buprenorphine?"
+    },
+    {
+      "criterion": "Most recent Clinical Institute Withdrawal Assessment for Alcohol - revised (CIWA-Ar) score is less than or equal to 8",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's most recent Clinical Institute Withdrawal Assessment for Alcohol - revised (CIWA-Ar) score less than or equal to 8?"
+    },
+    {
+      "criterion": "Males only:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is female, and this criterion is for males only.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Males agree to sexual abstinence or to use a reliable method of birth control during the study and three months following the last dose of the study drug. Acceptable methods of birth control may include: 1) condom with spermicide; 2) diaphragm with spermicide; or 3) female condom with spermicide.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is female, and this criterion is for males only.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Females only:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is female and eligible for criteria related to females.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women of child-bearing potential may participate in the study if they test negative for pregnancy (based on a urine pregnancy test) prior to initiation of treatment",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a positive serum β-hCG level indicating potential pregnancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lifetime clinical diagnosis of schizophrenia or bipolar disorder",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about a lifetime clinical diagnosis of schizophrenia or bipolar disorder.",
+      "clinical_question": "Has the patient ever received a clinical diagnosis of schizophrenia or bipolar disorder by a qualified mental health professional?"
+    },
+    {
+      "criterion": "BMI < 18.5 kg/m(2) and weight less than 60 Kg (both must be met)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the patient's BMI or weight.",
+      "clinical_question": "Is the patient's BMI less than 18.5 kg/m² and is her weight less than 60 kg?"
+    },
+    {
+      "criterion": "BMI >= 40 kg/m(2)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a body mass index (BMI) of ≥40 kg/m²?"
+    },
+    {
+      "criterion": "History of epilepsy and/or seizures",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the patient's history of epilepsy or seizures.",
+      "clinical_question": "Does the patient have a documented history of epilepsy or seizures occurring at any point in their medical history?"
+    },
+    {
+      "criterion": "NOTE: individuals who have a history of alcohol withdrawal seizures may be in the study as long as they have been abstinent from alcohol for at least 2 weeks prior to consent and during that period of abstinence, there were no seizure episodes (otherwise, participant remains not eligible).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about a history of alcohol withdrawal seizures.",
+      "clinical_question": "Has the patient been abstinent from alcohol for at least 2 weeks prior to consent without experiencing any seizure episodes during that period?"
+    },
+    {
+      "criterion": "Creatinine greater than or equal to 2 mg/dL, aspartate aminotransferase (AST) or alanine aminotransferase (ALT) > 1.5 times the upper normal limit, hemoglobin <10.5 g/dl",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess creatinine, AST, ALT, or hemoglobin levels.",
+      "clinical_question": "Is the patient's serum creatinine level ≥2 mg/dL?"
+    },
+    {
+      "criterion": "Diagnosis of liver cirrhosis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding liver cirrhosis.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of liver cirrhosis based on imaging studies or liver biopsy results?"
+    },
+    {
+      "criterion": "Clinically significant history or current eating, pituitary or adrenal gland disorders or disorder of gastric motility as judged by a study clinician as determined from medical history and/or current clinical screening information",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about eating, pituitary, adrenal gland disorders, or gastric motility issues.",
+      "clinical_question": "Does the patient have any history of eating disorders, pituitary or adrenal gland disorders, or disorders of gastric motility as assessed by clinical screening?"
+    },
+    {
+      "criterion": "Current thyroid disorders that are not stable on dose of FDA-approved medications for that disease, as judged by a study clinician as determined from medical history and/or current clinical screening information. A pre-existing stable medical condition is defined as a disease not requiring significant change in therapy or hospitalization for worsening disease during the past 3 months.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding current thyroid disorders or stability of treatment.",
+      "clinical_question": "Has the patient experienced any significant changes in therapy or hospitalization for worsening thyroid disease in the past 3 months?"
+    },
+    {
+      "criterion": "Clinically significant abnormal 12-Lead ECG",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the 12-Lead ECG results.",
+      "clinical_question": "Does the patient have a clinically significant abnormal 12-Lead ECG defined as any new ST segment elevation or depression of ≥1 mm in two contiguous leads?"
+    },
+    {
+      "criterion": "they must also agree to use either one highly effective method of contraception or a combination of two effective methods of contraception during the study.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of inconsistent use of barrier contraceptives, which does not meet the requirement for effective contraception.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Highly effective method may include hormonal contraceptives (e.g., combined oral contraceptives, patch, vaginal ring, injectables, and implants); intrauterine device or/ intrauterine system; vasectomy and tubal ligation.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient's history of inconsistent barrier contraceptive use does not meet the requirement for highly effective contraception.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Effective methods may include barrier methods of contraception (e.g., male condom, female condom, cervical cap, diaphragm, contraceptive sponge)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient's history of inconsistent barrier contraceptive use does not meet the requirement for effective contraception.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women may choose to use a double-barrier method of contraception. Barrier methods without concomitant use of a spermicide are not reliable or an acceptable method. Thus, each barrier method must include use of a spermicide. It should be noted that the use of male and female condoms as a double-barrier method is not considered acceptable due to the high failure rate when these methods are combined.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient's history of inconsistent barrier contraceptive use does not meet the requirement for acceptable double-barrier contraception.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women not of child-bearing potential may participate in the study and include those who have spontaneous amenorrhea for at least 12 months, not induced by a medical condition such as anorexia nervosa and not taking medications that induced amenorrhea e.g., oral contraceptives, hormones, gonadotropin-releasing hormone, anti-estrogens, selective estrogen receptor modulators, or chemotherapy; or spontaneous amenorrhea for 6 to 12 months and a follicle-stimulating hormone (FSH) level greater than 40 mIU/mL; or women with a history of hysterectomy or bilateral oophorectomy must be at least 40 years of age and FSH >40 mIU/mL.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is a 32-year-old female with a history of vaginal spotting and elevated β-hCG levels, indicating potential pregnancy. The inclusion criterion specifies conditions for women not of child-bearing potential, but the patient's current status regarding amenorrhea and FSH levels is unclear.",
+      "clinical_question": "Is the patient's follicle-stimulating hormone (FSH) level greater than 40 mIU/mL?"
+    },
+    {
+      "criterion": "QTcF > 450 msec for men and > 470 msec for women",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's QTcF is not provided, so it cannot be determined if it exceeds the threshold for exclusion.",
+      "clinical_question": "Is the patient's QTcF interval greater than 470 msec?"
+    },
+    {
+      "criterion": "Family history of Long QT Syndrome.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's family history, making it impossible to assess this criterion.",
+      "clinical_question": "Does the patient have a documented family history of Long QT Syndrome in first-degree relatives?"
+    },
+    {
+      "criterion": "Patients on weight loss medications within 30 days of dosing",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not currently on any medications, but there is no information on any weight loss medications taken in the past 30 days.",
+      "clinical_question": "Has the patient taken any weight loss medications within the last 30 days prior to dosing?"
+    },
+    {
+      "criterion": "Patients with a history of bariatric surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of appendectomy, but there is no indication of bariatric surgery.",
+      "clinical_question": "Has the patient undergone bariatric surgery at any point in their medical history?"
+    },
+    {
+      "criterion": "Diagnosis of diabetes and currently on medication",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a diagnosis of diabetes, but there is no information on current medications that could affect this criterion.",
+      "clinical_question": "Does the patient have a diagnosis of diabetes and is currently taking any diabetes medication?"
+    },
+    {
+      "criterion": "Unable to refrain from or anticipates the use of any drugs known to be significant inhibitors of cytochrome P450 (CYP)3A enzymes and/or P-glycoprotein (P-gp) including regular consumption of grapefruit or grapefruit juice for 14 days prior to the first dose of study medication.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the patient's ability to refrain from using significant inhibitors of CYP3A enzymes or P-gp.",
+      "clinical_question": "Has the patient consumed grapefruit or grapefruit juice regularly in the 14 days prior to the first dose of study medication?"
+    },
+    {
+      "criterion": "Any drugs known to be significant inducers of CYP3A enzymes and/or P-gp, including St. John's Wort, for 28 days prior to the first dose of study medication.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the use of significant inducers of CYP3A enzymes or P-gp by the patient.",
+      "clinical_question": "Has the patient taken any drugs known to be significant inducers of CYP3A enzymes and/or P-gp, including St. John's Wort, in the 28 days prior to the first dose of study medication?"
+    },
+    {
+      "criterion": "Any medications that prolong the QTcF, unless the patient has been stable on the medication for at least 3 months and has a QTcF equal to or < 450 msec",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current medications are not listed, so it cannot be determined if any prolong the QTcF.",
+      "clinical_question": "Does the patient have a QTcF interval measured at ≤450 msec?"
+    },
+    {
+      "criterion": "Benzodiazepines. If a participant received a benzodiazepine as part of their treatment during the alcohol detoxification, then s/he can still be enrolled. However, 5 half-lives (for that benzodiazepine) will be required to elapse before the anticipated date of first study drug administration",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to be on benzodiazepines, but there is no information on past use during alcohol detoxification.",
+      "clinical_question": "Has the patient received a benzodiazepine within the last 5 half-lives prior to the anticipated date of first study drug administration?"
+    },
+    {
+      "criterion": "Currently taking simvastatin >10 mg per day, atorvastatin >20 mg per day, or lovastatin >20 mg per day.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently taking any statins.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The doses of these statins in combination products should not exceed these defined dose levels.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not taking any statins, so this criterion is not applicable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with a history of statin-induced myopathy/rhabdomyolysis.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no history of statin-induced myopathy or rhabdomyolysis reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Vision is unable to be corrected to (Snellen) 20/100",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's vision is not mentioned, so it is unclear if it can be corrected to 20/100.",
+      "clinical_question": "Does the patient have a best-corrected visual acuity of 20/100 or worse?"
+    },
+    {
+      "criterion": "Clinically-significant history of motion or car sickness, or history of vestibular disorders",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no reported history of motion or car sickness, or vestibular disorders.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "FIB-4 Score > 1.30",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The FIB-4 Score is not provided in the lab values, making it impossible to assess.",
+      "clinical_question": "Does the patient have a FIB-4 score greater than 1.30?"
+    },
+    {
+      "criterion": "Any other reason or clinical condition for which the PI or the MAI or other study clinician will consider unsafe for a possible participant to participate in this study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific clinical conditions are mentioned that would be considered unsafe for participation.",
+      "clinical_question": "Is the patient currently pregnant, as indicated by a serum β-hCG level ≥5 mIU/mL?"
+    },
+    {
+      "criterion": "These criteria are based on the target population for this study. Other criteria are consistent with an ongoing study that GLWL Research Inc. is conducting with GLWL-01 in patients with Prader-Willi Syndrome (ClinicalTrials.gov NCT03274856).",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have Prader-Willi Syndrome, so this criterion does not apply.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Lifetime clinical diagnosis of schizophrenia or bipolar disorder",
+    "EXCLUSION UNCLEAR: BMI < 18.5 kg/m(2) and weight less than 60 Kg (both must be met)",
+    "EXCLUSION UNCLEAR: BMI >= 40 kg/m(2)",
+    "EXCLUSION UNCLEAR: History of epilepsy and/or seizures",
+    "EXCLUSION UNCLEAR: NOTE: individuals who have a history of alcohol withdrawal seizures may be in th",
+    "EXCLUSION UNCLEAR: Creatinine greater than or equal to 2 mg/dL, aspartate aminotransferase (AST) or",
+    "EXCLUSION UNCLEAR: Diagnosis of liver cirrhosis",
+    "EXCLUSION UNCLEAR: Clinically significant history or current eating, pituitary or adrenal gland dis",
+    "EXCLUSION UNCLEAR: Current thyroid disorders that are not stable on dose of FDA-approved medication",
+    "EXCLUSION UNCLEAR: Clinically significant abnormal 12-Lead ECG",
+    "EXCLUSION UNCLEAR: QTcF > 450 msec for men and > 470 msec for women",
+    "EXCLUSION UNCLEAR: Family history of Long QT Syndrome.",
+    "EXCLUSION UNCLEAR: Patients on weight loss medications within 30 days of dosing",
+    "EXCLUSION UNCLEAR: Patients with a history of bariatric surgery",
+    "EXCLUSION UNCLEAR: Diagnosis of diabetes and currently on medication",
+    "EXCLUSION UNCLEAR: Unable to refrain from or anticipates the use of any drugs known to be significa",
+    "EXCLUSION UNCLEAR: Any drugs known to be significant inducers of CYP3A enzymes and/or P-gp, includi",
+    "EXCLUSION UNCLEAR: Any medications that prolong the QTcF, unless the patient has been stable on the",
+    "EXCLUSION UNCLEAR: Benzodiazepines. If a participant received a benzodiazepine as part of their tre",
+    "EXCLUSION UNCLEAR: Vision is unable to be corrected to (Snellen) 20/100",
+    "EXCLUSION UNCLEAR: FIB-4 Score > 1.30",
+    "EXCLUSION UNCLEAR: Any other reason or clinical condition for which the PI or the MAI or other stud",
+    "LOW INCLUSION MATCH: only 3 of 14 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3659
+}

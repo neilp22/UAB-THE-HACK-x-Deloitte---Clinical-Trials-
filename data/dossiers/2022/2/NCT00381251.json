@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT00381251",
+  "trial_title": "Study Comparing Bioequivalence of Two New Formulations of Premarin/MPA With Premarin/MPA Reference Formulation.",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "This study will compare the bioequivalence of two new investigational combination formulations of Premarin and medroxyprogesterone acetate (MPA) with a currently marketed formulation of Premarin and medroxyprogesterone, Prempro™.\n\nPrempro is indicated for use after menopause in women with a uterus to reduce moderate to severe hot flashes; to treat moderate to severe dryness, itching, and burning, in and around the vagina; and to help reduce your chances of getting osteoporosis (thin weak bones).",
+  "eligibility_table": [
+    {
+      "criterion": "Healthy, postmenopausal women ages 35 to 70 years, inclusive.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 32.0 >= 35.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Healthy, postmenopausal women ages 35 to 70 years, inclusive.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 <= 70.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Naturally postmenopausal women must not have had a menstrual period for at least six months, but less than 12 months, as confirmed by a blood test; or for at least 12 months with no blood hormone test confirmation. Naturally postmenopausal women must not have had a menstrual period since the age of 54.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not had a menstrual period for 10 weeks, which does not meet the requirement of at least 6 months without a period for naturally postmenopausal women.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgically menopausal women must have undergone bilateral oophorectomy (removal of both ovaries) at least 5 months prior to the start of the study, and the surgical report may be requested to confirm the surgery date and that the surgery was not due to a cancerous condition.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding whether the patient has undergone a bilateral oophorectomy, making it indeterminate.",
+      "clinical_question": "Has the patient undergone bilateral oophorectomy at least 5 months prior to the start of the study?"
+    },
+    {
+      "criterion": "Nonsmoker or smoker of fewer than 10 cigarettes per day as determined by history. Must be able to abstain from smoking during the inpatient stay.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient’s smoking status is not mentioned, so it cannot be determined if she meets the smoking criteria.",
+      "clinical_question": "Has the patient smoked fewer than 10 cigarettes per day in the past month?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 1 of 5 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6
+}

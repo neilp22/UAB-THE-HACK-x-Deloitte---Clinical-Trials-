@@ -1,0 +1,77 @@
+{
+  "nct_id": "NCT02688153",
+  "trial_title": "EDWARDS INTUITY Valve System CADENCE Study",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "The study purpose is to compare the EDWARDS INTUITY valve system with commercially available stented aortic bioprostheses, in patients requiring aortic valve replacement surgery with coronary artery bypass.",
+  "eligibility_table": [
+    {
+      "criterion": "≥18 years of age",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Does the patient have a documented left ventricular ejection fraction (LVEF) of ≤30%?"
+    },
+    {
+      "criterion": "aortic stenosis / mixed aortic stenosis and aortic insufficiency",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis, which meets the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "SAVR+CABG (1-4 distal anastomoses)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has severe aortic stenosis but there is no indication of needing CABG based on the provided information.",
+      "clinical_question": "Does the patient require surgical intervention for both severe aortic stenosis and coronary artery bypass grafting (CABG) with 1-4 distal anastomoses?"
+    },
+    {
+      "criterion": "Log. EuroSCORE ≥6",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a Log. EuroSCORE of ≥6?"
+    },
+    {
+      "criterion": "NYHA Class ≥II",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's EF of 25% and symptoms suggest they are likely at least NYHA Class II.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "pure aortic insufficiency",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has aortic insufficiency but it is not pure; there is mixed aortic stenosis and aortic insufficiency.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "pre-existing prosthetic heart valve or ring",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a pre-existing prosthetic heart valve or ring.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "congenital true bicuspid / unicuspid aortic valve",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a congenital true bicuspid aortic valve.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "LVEF <20%",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) currently measured at less than 20%?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: LVEF <20%"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5556
+}

@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT03824977",
+  "trial_title": "Prognostic Value of the 6-minute Stepper Test in Non-small Cell Lung Cancer Surgery",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "The objective of this study is to evaluate the performances of the Six-Minute Stepper Test (6MST) and Sit To Stand test (STST) to predict post-operative complications after minimally invasive lung cancer resection.",
+  "eligibility_table": [
+    {
+      "criterion": "Age >18",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 58.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Non-small cell lung cancer stage I to II, justifying major resection by VATS or RATS (segmentectomy, lobectomy, pneumonectomy), with or without histological confirmation",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has stage IV non-small cell lung cancer, which does not meet the inclusion criterion requiring stage I to II.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Partial or total amputation localized to the lower limb",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of any amputation localized to the lower limb.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Weight greater than 100 kg",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's weight is not provided, but there is no evidence suggesting it exceeds 100 kg.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Orthopedic, vascular or neurological disorders leading to the incapacity of realize the 6MST",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding orthopedic, vascular, or neurological disorders that could affect the 6-Minute Walk Test (6MST).",
+      "clinical_question": "Does the patient have any orthopedic, vascular, or neurological disorders that would prevent her from performing the 6-minute stepper test?"
+    },
+    {
+      "criterion": "Patient under tutorship or curatorship",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is under tutorship or curatorship.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnant woman",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is pregnant.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery canceled",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no information suggesting that any surgery has been canceled.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Orthopedic, vascular or neurological disorders leading to the incapacity of real"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.875
+}

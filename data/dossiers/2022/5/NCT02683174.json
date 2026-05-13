@@ -1,0 +1,164 @@
+{
+  "nct_id": "NCT02683174",
+  "trial_title": "Diagnostic Yield of an Ambulatory Patch Monitor in Unexplained Emergency Department Syncope: A Pilot Study (PATCH-ED)",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "Syncope is a common Emergency Department (ED) presentation but the underlying diagnosis is not apparent in 60% of patients after assessment and serious adverse event rate is 7% at one month with most having acute cardiovascular events, also more likely to be unexplained after ED assessment. Many cardiovascular events are due to arrhythmia, difficult for clinicians to diagnose, as examination and Electrocardiogram (ECG) findings may both be normal and symptoms have resolved by the time the patien",
+  "eligibility_table": [
+    {
+      "criterion": "Patients aged 16 years or over presenting within 6 hours of an episode of syncope and whose syncope remains unexplained after ED assessment.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 23.0 >= 16.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Obvious underlying cause after ED assessment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has syncope, but the underlying cause is not clearly defined without further assessment.",
+      "clinical_question": "Has the patient undergone a comprehensive cardiac evaluation, including echocardiography and Holter monitoring, to rule out any significant arrhythmias or structural heart disease?"
+    },
+    {
+      "criterion": "Alcohol or illicit drugs as presumptive cause of TLOC",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not use alcohol or illicit drugs, ruling this out as a cause.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Epileptic seizure as presumptive cause of TLOC (seizure activity with a >15 min witness reported post-ictal phase)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of seizure activity or a post-ictal phase reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stroke / transient ischemic attack as presumptive cause of TLOC",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No evidence of stroke or transient ischemic attack is provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Head trauma followed by TLOC",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of head trauma prior to the loss of consciousness.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hypoglycemia as presumptive cause of TLOC",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No lab values indicate hypoglycemia, and the patient has no relevant history suggesting this.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No consent i.e. patient lacking capacity",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is 23 years old and appears to have the capacity to consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous recruitment into the study",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has been previously recruited into the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient in custody or prison",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not in custody or prison.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Obvious underlying causes will be defined as:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The definition of obvious underlying causes is not provided, making it difficult to assess.",
+      "clinical_question": "Does the patient have any documented history of cardiac arrhythmias or structural heart disease that could explain the syncope?"
+    },
+    {
+      "criterion": "Clinical history of vasovagal syncope i.e. pre-syncope symptoms and low-risk patient according to current ESC guidelines",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of syncope but does not have documented vasovagal syncope or pre-syncope symptoms according to ESC guidelines.",
+      "clinical_question": "Does the patient report experiencing pre-syncope symptoms such as lightheadedness or palpitations prior to the syncopal event?"
+    },
+    {
+      "criterion": "Arrhythmia on ED ECG thought to have caused syncope",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about arrhythmias on the ED ECG; thus, it cannot be determined if this criterion is met.",
+      "clinical_question": "Did the patient's ECG in the emergency department show any arrhythmias that were classified as potentially causing syncope?"
+    },
+    {
+      "criterion": "Arrhythmia on pre-hospital ECG causing syncope",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No details are given regarding arrhythmias on a pre-hospital ECG, making it unclear if this criterion is met.",
+      "clinical_question": "Did the pre-hospital ECG show any arrhythmias that could be classified as causing syncope?"
+    },
+    {
+      "criterion": "Pulmonary embolism (PE) diagnosed on Computed Tomography Pulmonary Angiography (CTPA; or equivalent e.g. symptoms of PE plus positive leg ultrasound scan/ventilation-perfusion scan/echo)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not been diagnosed with pulmonary embolism based on the provided information.",
+      "clinical_question": "Has the patient undergone a Computed Tomography Pulmonary Angiography (CTPA) that confirmed the presence of a pulmonary embolism?"
+    },
+    {
+      "criterion": "Postural hypotension (postural drop >20 mmHg in ED with symptoms during test and suggestive history)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no evidence of postural hypotension or relevant symptoms during testing mentioned.",
+      "clinical_question": "Does the patient exhibit a postural drop in blood pressure of >20 mmHg during the test in the emergency department while experiencing symptoms?"
+    },
+    {
+      "criterion": "Myocardial Infarction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has no history of myocardial infarction as per the provided profile.",
+      "clinical_question": "Does the patient have any evidence of myocardial infarction as indicated by elevated troponin levels or ST-segment changes on an ECG?"
+    },
+    {
+      "criterion": "CT brain or clinical signs/symptoms in ED showing cerebrovascular accident or subarachnoid haemorrhage",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There are no indications of cerebrovascular accidents or subarachnoid hemorrhage in the patient's history.",
+      "clinical_question": "Does the patient exhibit any clinical signs or symptoms indicative of a cerebrovascular accident or subarachnoid hemorrhage during the emergency department evaluation?"
+    },
+    {
+      "criterion": "Evidence of haemorrhage in ED thought to have caused syncope",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of hemorrhage is mentioned that could have caused syncope.",
+      "clinical_question": "Is there evidence of haemorrhage on the patient's imaging studies that could be linked to the syncope episode?"
+    },
+    {
+      "criterion": "Other obvious cause of syncope apparent in ED.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There are no other obvious causes of syncope provided in the patient's profile.",
+      "clinical_question": "Is there evidence of any acute intracranial pathology or significant cardiac arrhythmia identified during the emergency department evaluation that could explain the syncope?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Obvious underlying cause after ED assessment",
+    "EXCLUSION UNCLEAR: Obvious underlying causes will be defined as:",
+    "EXCLUSION UNCLEAR: Clinical history of vasovagal syncope i.e. pre-syncope symptoms and low-risk pat",
+    "EXCLUSION UNCLEAR: Arrhythmia on ED ECG thought to have caused syncope",
+    "EXCLUSION UNCLEAR: Arrhythmia on pre-hospital ECG causing syncope",
+    "EXCLUSION UNCLEAR: Pulmonary embolism (PE) diagnosed on Computed Tomography Pulmonary Angiography (",
+    "EXCLUSION UNCLEAR: Postural hypotension (postural drop >20 mmHg in ED with symptoms during test and",
+    "EXCLUSION UNCLEAR: Myocardial Infarction",
+    "EXCLUSION UNCLEAR: CT brain or clinical signs/symptoms in ED showing cerebrovascular accident or su",
+    "EXCLUSION UNCLEAR: Evidence of haemorrhage in ED thought to have caused syncope",
+    "EXCLUSION UNCLEAR: Other obvious cause of syncope apparent in ED."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.45
+}

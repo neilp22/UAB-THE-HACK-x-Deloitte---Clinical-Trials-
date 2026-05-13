@@ -1,0 +1,146 @@
+{
+  "nct_id": "NCT04437810",
+  "trial_title": "To Study Efficacy of Albumin in Cirrhosis With Spontaneous Bacterial Peritonitis at Low Risk for AKI Development",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "The role of Albumin in prevention and Treatment of Acute Kidney Injury (AKI) in patients with Spontaneous Bacterial Peritonitis (SBP) who are at high risk of AKI development has been clearly defined , which decreases the morbidity and mortality. But the role of Albumin in patient with SBP who are at low risk of AKI development (Serum Bilirubin \\<4mg/dl, Creatinine \\<1mg/dl at the time of presentation) has been controversial and there are no placebo controlled trials. We propose that Albumin at t",
+  "eligibility_table": [
+    {
+      "criterion": "Patients who are above 18 years of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with Cirrhosis and SBP (community acquired /Health care associated/ nosocomial) with baseline Creatinine <1mg/dl, Bilirubin <4mg/dl",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have cirrhosis or SBP, so this criterion is not applicable.",
+      "clinical_question": "Is the patient's baseline creatinine level less than 1 mg/dl?"
+    },
+    {
+      "criterion": "Patients with Cirrhosis and SBP (community acquired /Health care associated/ nosocomial) with baseline Creatinine <1mg/dl, Bilirubin <4mg/dl",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have cirrhosis or SBP, so this criterion is not applicable.",
+      "clinical_question": "Is the patient's baseline creatinine level less than 1 mg/dl?"
+    },
+    {
+      "criterion": "Antibiotic treatment within one week before the diagnosis of SBP (except for prophylactic treatment with norfloxacin)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not been diagnosed with SBP, thus this exclusion does not apply.",
+      "clinical_question": "Has the patient received any antibiotic treatment within one week prior to the diagnosis of spontaneous bacterial peritonitis, excluding prophylactic treatment with norfloxacin?"
+    },
+    {
+      "criterion": "Significant cardiac failure, pulmonary disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about cardiac failure or pulmonary disease; however, the patient's conditions do not suggest significant issues.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) < 40% or evidence of significant pulmonary disease as defined by a forced expiratory volume in 1 second (FEV1) < 50% predicted?"
+    },
+    {
+      "criterion": "Known Chronic Kidney Disease or findings suggestive of organic nephropathy (proteinuria, haematuria, or abnormal findings on renal USG)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of chronic kidney disease or nephropathy is provided in the profile.",
+      "clinical_question": "Does the patient have a urine protein-to-creatinine ratio ≥0.2 g/g or evidence of hematuria on urinalysis?"
+    },
+    {
+      "criterion": "Hepatocellular carcinoma",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not been diagnosed with hepatocellular carcinoma.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of hepatocellular carcinoma based on imaging or biopsy results?"
+    },
+    {
+      "criterion": "HIV infection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information suggests the patient is HIV positive.",
+      "clinical_question": "Does the patient have a documented positive HIV test result?"
+    },
+    {
+      "criterion": "GI bleed within 1 month before the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of a GI bleed is mentioned in the patient's history.",
+      "clinical_question": "Has the patient experienced a gastrointestinal bleed within the last 30 days?"
+    },
+    {
+      "criterion": "Ileus",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information suggests the patient has ileus.",
+      "clinical_question": "Has the patient experienced a delay in bowel movements for more than 72 hours following the onset of spontaneous bacterial peritonitis?"
+    },
+    {
+      "criterion": "Grade 3 to 4 hepatic encephalopathy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not indicate any signs of hepatic encephalopathy.",
+      "clinical_question": "Does the patient exhibit a Glasgow Coma Scale score of ≤8, indicating Grade 3 to 4 hepatic encephalopathy?"
+    },
+    {
+      "criterion": "Other types of infection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention any infections, but without specific lab values or additional history, it is unclear if there are any other types of infections present.",
+      "clinical_question": "Has the patient experienced any other types of infection, such as urinary tract infections or pneumonia, in the past 30 days?"
+    },
+    {
+      "criterion": "Shock",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not show signs of shock in the provided information, but without vital signs or further clinical context, this cannot be definitively assessed.",
+      "clinical_question": "Does the patient exhibit a systolic blood pressure of <90 mmHg or a mean arterial pressure of <65 mmHg?"
+    },
+    {
+      "criterion": "Serum Bilirubin ≥4 mg/dL and Serum Creatinine ≥ 1 mg/dl at presentation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There are no lab values provided for serum bilirubin or creatinine, making it impossible to determine if these criteria are met.",
+      "clinical_question": "Is the patient's serum bilirubin level ≥4 mg/dL and serum creatinine level ≥1 mg/dL at presentation?"
+    },
+    {
+      "criterion": "Serum Bilirubin ≥4 mg/dL and Serum Creatinine ≥ 1 mg/dl at presentation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "This criterion is a repeat of the previous one, and the same reasoning applies regarding the lack of lab values.",
+      "clinical_question": "Is the patient's serum bilirubin level ≥4 mg/dL and serum creatinine level ≥1 mg/dL at presentation?"
+    },
+    {
+      "criterion": "Patients requiring Albumin for any other indication",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on pain medication, but there is no indication of requiring albumin for any other indication, though this cannot be confirmed without more information.",
+      "clinical_question": "Does the patient require Albumin for any indication other than spontaneous bacterial peritonitis?"
+    },
+    {
+      "criterion": "Presence of any potential causes of dehydration (such as diarrhea or an intense response to diuretic treatment) within one week before the diagnosis of SBP",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of dehydration or related causes in the patient's history, but without specific details, this cannot be definitively assessed.",
+      "clinical_question": "Has the patient experienced any episodes of diarrhea or received diuretic treatment within the week prior to the diagnosis of spontaneous bacterial peritonitis?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Antibiotic treatment within one week before the diagnosis of SBP (except for pro",
+    "EXCLUSION UNCLEAR: Significant cardiac failure, pulmonary disease",
+    "EXCLUSION UNCLEAR: Known Chronic Kidney Disease or findings suggestive of organic nephropathy (prot",
+    "EXCLUSION UNCLEAR: Hepatocellular carcinoma",
+    "EXCLUSION UNCLEAR: HIV infection",
+    "EXCLUSION UNCLEAR: GI bleed within 1 month before the study",
+    "EXCLUSION UNCLEAR: Ileus",
+    "EXCLUSION UNCLEAR: Grade 3 to 4 hepatic encephalopathy",
+    "EXCLUSION UNCLEAR: Other types of infection",
+    "EXCLUSION UNCLEAR: Shock",
+    "EXCLUSION UNCLEAR: Serum Bilirubin ≥4 mg/dL and Serum Creatinine ≥ 1 mg/dl at presentation",
+    "EXCLUSION UNCLEAR: Serum Bilirubin ≥4 mg/dL and Serum Creatinine ≥ 1 mg/dl at presentation",
+    "EXCLUSION UNCLEAR: Patients requiring Albumin for any other indication",
+    "EXCLUSION UNCLEAR: Presence of any potential causes of dehydration (such as diarrhea or an intense "
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.0588
+}

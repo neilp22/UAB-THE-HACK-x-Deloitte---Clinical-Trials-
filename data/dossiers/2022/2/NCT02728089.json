@@ -1,0 +1,230 @@
+{
+  "nct_id": "NCT02728089",
+  "trial_title": "Study of Ceftolozane/Tazobactam (MK-7625A) in Japanese Participants With Uncomplicated Pyelonephritis and Complicated Urinary Tract Infection (MK-7625A-014)",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "This is a Phase 3, multi-site, non-randomized, open-label study evaluating the safety and efficacy of MK-7625A 1.5 g (ceftolozane 1 g/tazobactam 0.5 g) for the treatment of complicated urinary tract infection (cUTI) including pyelonephritis (uncomplicated or complicated pyelonephritis and complicated lower urinary tract infection) in Japanese participants. Efficacy will be primarily assessed by microbiological response defined as eradication of the baseline pathogen or pathogens.",
+  "eligibility_table": [
+    {
+      "criterion": "Japanese males or females who need hospitalization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion specifies Japanese males or females, but the patient's gender and ethnicity are not provided.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of uncomplicated pyelonephritis or complicated urinary tract infection requiring hospitalization?"
+    },
+    {
+      "criterion": "Clinical signs and/or symptoms of urinary tract infection (UTI) at screening visit, either one of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of complicated UTIs, which suggests clinical signs and/or symptoms of UTI.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pyelonephritis (uncomplicated or complicated)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a confirmed diagnosis of pyelonephritis; further information is needed.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of uncomplicated pyelonephritis based on clinical evaluation and imaging studies?"
+    },
+    {
+      "criterion": "Complicated lower UTI (cUTI)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has complicated UTIs, which meets the criterion for complicated lower UTI.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Has a pretreatment baseline urine culture specimen obtained within 24 hours of start of study drug",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about a pretreatment baseline urine culture specimen.",
+      "clinical_question": "Has a pretreatment baseline urine culture specimen been obtained from the patient within 24 hours prior to the start of the study drug?"
+    },
+    {
+      "criterion": "Requires IV antibacterial therapy for the treatment of the presumed UTI",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The need for IV antibacterial therapy is not specified in the patient's profile.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of a complicated urinary tract infection that necessitates intravenous antibacterial therapy?"
+    },
+    {
+      "criterion": "Female participants of child bearing potential must not be pregnant (negative human chorionic gonadotropin test) or breastfeeding and must agree to use adequate contraception for the duration of the study and up to 35 days after the last dose of study drug",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a positive serum β-hCG level, indicating pregnancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Male participants must agree to use adequate contraception for the duration of the study and up to 75 days after the last dose of study drug",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is female; however, there is no information about male participants.",
+      "clinical_question": "Has the patient agreed to use adequate contraception for the duration of the study and up to 75 days after the last dose of the study drug?"
+    },
+    {
+      "criterion": "Has a history of recent or recurrent Gram-positive organism UTI suggesting colonization, or participant with UTI that shows or suspects the presence of a Gram-positive organism only",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's history of Gram-positive organism UTI.",
+      "clinical_question": "Has the patient had ≥2 episodes of urinary tract infections caused by Gram-positive organisms in the past 12 months?"
+    },
+    {
+      "criterion": "Has a history of any moderate or severe hypersensitivity or allergic reaction to any Beta-lactam antibacterial including cephalosporins, carbapenems and penicillins, or tazobactam",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's history of hypersensitivity or allergic reactions to Beta-lactam antibacterials.",
+      "clinical_question": "Has the patient ever experienced a moderate or severe hypersensitivity or allergic reaction to any Beta-lactam antibacterial, including cephalosporins, carbapenems, penicillins, or tazobactam?"
+    },
+    {
+      "criterion": "Has a concomitant infection at the time of randomization, which requires non-study systemic antibacterial therapy in addition to study drug with the exception of an antibacterial with Gram-positive activity only (vancomycin, linezolid, daptomycin and teicoplanin)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of complicated UTIs but no current infection requiring systemic antibacterial therapy is mentioned.",
+      "clinical_question": "Does the patient have a concomitant infection that requires systemic antibacterial therapy, excluding Gram-positive agents, at the time of randomization?"
+    },
+    {
+      "criterion": "Is receiving probenecid",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient receiving probenecid.",
+      "clinical_question": "Has the patient received probenecid within the last 30 days?"
+    },
+    {
+      "criterion": "Is currently receiving bladder infusions with topical urinary antiseptics or antibacterial agents",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to be receiving bladder infusions with topical urinary antiseptics or antibacterial agents.",
+      "clinical_question": "Is the patient currently receiving bladder infusions with topical urinary antiseptics or antibacterial agents?"
+    },
+    {
+      "criterion": "Has received any amount of potentially therapeutic antibacterial therapy after collection of the pretreatment baseline urine culture and before administration of the first dose of study drug.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about the timing of any antibacterial therapy relative to the baseline urine culture.",
+      "clinical_question": "Has the patient received any amount of potentially therapeutic antibacterial therapy after the collection of the pretreatment baseline urine culture and before the administration of the first dose of the study drug?"
+    },
+    {
+      "criterion": "Has received any dose of a potentially therapeutic antibacterial agent for the treatment of the current UTI within 48 hours before the pretreatment baseline urine is obtained",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication that the patient has received any therapeutic antibacterial agent for the current UTI within 48 hours before the baseline urine collection.",
+      "clinical_question": "Has the patient received any dose of a potentially therapeutic antibacterial agent for the treatment of the current UTI within the 48 hours prior to the baseline urine collection?"
+    },
+    {
+      "criterion": "Intractable urinary infection at baseline that would require more than 7 days of study drug",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not indicate an intractable urinary infection that would require more than 7 days of study drug.",
+      "clinical_question": "Does the patient have a urinary infection that has required antibiotic treatment for more than 7 days prior to enrollment?"
+    },
+    {
+      "criterion": "Has complete, permanent obstruction of the urinary tract.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of complete, permanent obstruction of the urinary tract.",
+      "clinical_question": "Does the patient have evidence of complete, permanent obstruction of the urinary tract as confirmed by imaging studies such as a CT scan or ultrasound?"
+    },
+    {
+      "criterion": "Has confirmed fungal urinary tract infection at time of randomization (with ≥ 10^3 fungal colony forming units /mL)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a confirmed fungal urinary tract infection as no fungal colony forming units are reported.",
+      "clinical_question": "Does the patient have a confirmed fungal urinary tract infection with ≥ 10^3 fungal colony forming units/mL at the time of randomization?"
+    },
+    {
+      "criterion": "Has permanent indwelling bladder catheter or urinary stent including nephrostomy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication that the patient has a permanent indwelling bladder catheter or urinary stent.",
+      "clinical_question": "Does the patient currently have a permanent indwelling bladder catheter or urinary stent, including nephrostomy, in place?"
+    },
+    {
+      "criterion": "Has suspected or confirmed perinephric or intrarenal abscess",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of suspected or confirmed perinephric or intrarenal abscess.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of perinephric or intrarenal abscess as evidenced by imaging studies such as ultrasound or CT scan?"
+    },
+    {
+      "criterion": "Has suspected or confirmed prostatitis, urethritis, or epididymitis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of complicated UTIs but there is no mention of prostatitis, urethritis, or epididymitis.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of prostatitis, urethritis, or epididymitis based on clinical evaluation and laboratory tests?"
+    },
+    {
+      "criterion": "Has ileal loop or known vesico-ureteral reflux",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about an ileal loop or vesico-ureteral reflux in the patient's profile.",
+      "clinical_question": "Does the patient have a documented history of ileal loop surgery or a confirmed diagnosis of vesico-ureteral reflux?"
+    },
+    {
+      "criterion": "Severe impairment of renal function including an estimated CrCl < 30 mL/min, requirement for peritoneal dialysis, hemodialysis or hemofiltration, or oliguria (< 20 mL/hr urine output over 24 hours)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's renal function is not assessed in the provided information, so it cannot be determined if they meet this criterion.",
+      "clinical_question": "What is the patient's estimated creatinine clearance (CrCl) in mL/min?"
+    },
+    {
+      "criterion": "Has urinary catheter that is not scheduled to be removed before the end of therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a urinary catheter in the patient's profile.",
+      "clinical_question": "Is the urinary catheter currently in place and scheduled to remain until at least the end of the therapy for the treatment of uncomplicated pyelonephritis or complicated urinary tract infection?"
+    },
+    {
+      "criterion": "Has any rapidly progressing disease or immediately life-threatening illness including acute hepatic failure, respiratory failure, and septic shock",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not appear to have any rapidly progressing disease or immediately life-threatening illness based on the provided information.",
+      "clinical_question": "Does the patient exhibit any signs of acute hepatic failure, respiratory failure, or septic shock as defined by clinical criteria?"
+    },
+    {
+      "criterion": "Has an immunocompromising condition (i.e., AIDS, hematological malignancy, or bone marrow transplantation, or immunosuppressive therapy) or is receiving ≥ 40 mg of prednisone per day administered continuously for > 14 days prior to study start",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of an immunocompromising condition or high-dose prednisone use in the patient's history.",
+      "clinical_question": "Is the patient currently receiving ≥ 40 mg of prednisone per day administered continuously for > 14 days prior to study start?"
+    },
+    {
+      "criterion": "Has participated in any clinical study of an investigational product within 30 days prior to the first dose of study drug",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating that the patient has participated in any clinical study of an investigational product within the last 30 days.",
+      "clinical_question": "Has the patient participated in any clinical study of an investigational product within the 30 days prior to the first dose of the study drug?"
+    },
+    {
+      "criterion": "Has previously participated in any study of ceftolozane or MK-7625A",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not indicate any previous participation in studies of ceftolozane or MK-7625A.",
+      "clinical_question": "Has the patient previously participated in any clinical study involving ceftolozane or MK-7625A?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Has a history of recent or recurrent Gram-positive organism UTI suggesting colon",
+    "EXCLUSION UNCLEAR: Has a history of any moderate or severe hypersensitivity or allergic reaction to",
+    "EXCLUSION UNCLEAR: Has a concomitant infection at the time of randomization, which requires non-stu",
+    "EXCLUSION UNCLEAR: Is receiving probenecid",
+    "EXCLUSION UNCLEAR: Is currently receiving bladder infusions with topical urinary antiseptics or ant",
+    "EXCLUSION UNCLEAR: Has received any amount of potentially therapeutic antibacterial therapy after c",
+    "EXCLUSION UNCLEAR: Has received any dose of a potentially therapeutic antibacterial agent for the t",
+    "EXCLUSION UNCLEAR: Intractable urinary infection at baseline that would require more than 7 days of",
+    "EXCLUSION UNCLEAR: Has complete, permanent obstruction of the urinary tract.",
+    "EXCLUSION UNCLEAR: Has confirmed fungal urinary tract infection at time of randomization (with ≥ 10",
+    "EXCLUSION UNCLEAR: Has permanent indwelling bladder catheter or urinary stent including nephrostomy",
+    "EXCLUSION UNCLEAR: Has suspected or confirmed perinephric or intrarenal abscess",
+    "EXCLUSION UNCLEAR: Has suspected or confirmed prostatitis, urethritis, or epididymitis",
+    "EXCLUSION UNCLEAR: Has ileal loop or known vesico-ureteral reflux",
+    "EXCLUSION UNCLEAR: Severe impairment of renal function including an estimated CrCl < 30 mL/min, req",
+    "EXCLUSION UNCLEAR: Has urinary catheter that is not scheduled to be removed before the end of thera",
+    "EXCLUSION UNCLEAR: Has any rapidly progressing disease or immediately life-threatening illness incl",
+    "EXCLUSION UNCLEAR: Has an immunocompromising condition (i.e., AIDS, hematological malignancy, or bo",
+    "EXCLUSION UNCLEAR: Has participated in any clinical study of an investigational product within 30 d",
+    "EXCLUSION UNCLEAR: Has previously participated in any study of ceftolozane or MK-7625A",
+    "LOW INCLUSION MATCH: only 2 of 8 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1071
+}

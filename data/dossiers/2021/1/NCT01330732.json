@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT01330732",
+  "trial_title": "Kyphosis Evaluation Using SPINESCAN®",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "The purpose of this study is to evaluate the accuracy of SPINESCAN® with standard lateral x-rays of the spine in patients monitored for kyphosis.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients examined in scoliosis clinic for kyphosis with recent lateral spine X-rays.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine and does not appear to have been examined in a scoliosis clinic for kyphosis, nor is there any mention of recent lateral spine X-rays.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: 7 years old and above.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 7.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Less than 7 years old.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 < 7.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No informed consent.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's ability or inability to provide informed consent, making it indeterminate.",
+      "clinical_question": "Has the patient provided informed consent for participation in the trial, as documented in the medical record?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: No informed consent."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.75
+}

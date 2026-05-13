@@ -1,0 +1,86 @@
+{
+  "nct_id": "NCT03513679",
+  "trial_title": "Gait in Adult Patients With Cervical Spondylotic Myelopathy",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "The purpose of this study is to evaluate the effect of cervical decompression surgery on the biomechanics of the lower extremities and spine during balance and gait in patients with cervical spondylotic myelopathy (CSM), before and after surgical intervention, and compare these parameters to an asymptomatic control group. To test our hypothesis that cervical decompression will improve preexisting gait disturbance, a gait analysis using dynamic surface EMG, video motion capture, and force plate a",
+  "eligibility_table": [
+    {
+      "criterion": "Age 30 years and older",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 30.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diagnosis of CSM with correlative imaging studies (MRI or CT-myelogram)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has anaplastic astrocytoma of the spine, but there is no specific mention of CSM or relevant imaging studies provided.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of cervical spondylotic myelopathy based on MRI or CT-myelogram imaging studies?"
+    },
+    {
+      "criterion": "Able to ambulate without assistance and stand without assistance with participant eyes open for a minimum of 10 seconds",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe lower extremity weakness and urinary retention, indicating an inability to ambulate or stand without assistance.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Able and willing to attend and perform the activities described in the informed consent within the boundaries of the timelines set forth for pre-, and post-operative follow-up",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient may be willing to participate, but their ability to perform activities as described in the informed consent is uncertain due to their medical condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of prior attempt at fusion (successful or not) at the indicated levels, (history of one level fusion is not an exclusion)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no clear history of prior fusion attempts at the indicated levels mentioned in the profile.",
+      "clinical_question": "Has the patient had a prior attempt at fusion surgery at the cervical spine levels indicated, regardless of the outcome?"
+    },
+    {
+      "criterion": "Major lower extremity surgery or previous injury that may affect gait (a successful total joint replacement is not an exclusion)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "While the patient has chronic pain and weakness, there is no indication of major lower extremity surgery or injury affecting gait.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "BMI higher than 35",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current body mass index (BMI)?"
+    },
+    {
+      "criterion": "Neurological disorder (beside cervical spondylotic myelopathy), diabetic neuropathy or other disease that impairs the patient's ability to ambulate or stand without assistance",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a neurological disorder (anaplastic astrocytoma), but it is not specified if it impairs ambulation or standing without assistance.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Usage of blood thinners",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on multiple medications, but there is no specific mention of blood thinners.",
+      "clinical_question": "Is the patient currently taking any anticoagulant medications, such as warfarin or direct oral anticoagulants, at the time of evaluation?"
+    },
+    {
+      "criterion": "Pregnant or wishing to become pregnant during the study",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication of pregnancy or desire to become pregnant.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: History of prior attempt at fusion (successful or not) at the indicated levels, ",
+    "EXCLUSION UNCLEAR: BMI higher than 35",
+    "EXCLUSION UNCLEAR: Usage of blood thinners"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6
+}

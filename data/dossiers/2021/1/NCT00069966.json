@@ -1,0 +1,518 @@
+{
+  "nct_id": "NCT00069966",
+  "trial_title": "Pixantrone, Cytarabine, Methylprednisolone, and Cisplatin in Treating Patients With Aggressive Non-Hodgkin's Lymphoma in First Relapse",
+  "phase": "PHASE2",
+  "status": "UNKNOWN",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as pixantrone, cytarabine, methylprednisolone, and cisplatin, work in different ways to stop cancer cells from dividing so they stop growing or die. Combining more than one drug may kill more cancer cells.\n\nPURPOSE: Phase II trial to study the effectiveness of combination chemotherapy in treating patients who have relapsed aggressive non-Hodgkin's lymphoma.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed aggressive non-Hodgkin's lymphoma (NHL)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, which is a type of brain tumor, not aggressive non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any stage, with or without B symptoms",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have non-Hodgkin's lymphoma; therefore, this criterion is not applicable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The following subtypes are eligible:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have any subtype of non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse large cell (B and T cell types)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have diffuse large cell non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic large cell",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have anaplastic large cell non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse mixed cell",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have diffuse mixed cell non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Immunoblastic large cell",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have immunoblastic large cell non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Follicular large cell",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have follicular large cell non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Transformed follicular NHL",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have transformed follicular non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse aggressive not otherwise classified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of diffuse aggressive non-Hodgkin's lymphoma?"
+    },
+    {
+      "criterion": "Burkitt-like lymphoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of Burkitt-like lymphoma based on histopathological evaluation?"
+    },
+    {
+      "criterion": "Bone marrow positive or negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient's bone marrow biopsy result positive or negative for malignant cells?"
+    },
+    {
+      "criterion": "At least 1 measurable lesion",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have any measurable lesions related to non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with bone marrow as the only site of disease are eligible without a measurable lesion",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, which is not limited to bone marrow as the only site of disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No more than 1 episode of progressive disease, occurring after a response (complete response [CR], complete response unconfirmed [CR_u], or partial response [PR]) to prior chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple treatments and has a history of severe lower extremity weakness, indicating possible progressive disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No chemotherapy-refractory disease, defined as follows: Stable or progressive disease documented at restaging immediately after the completion of induction therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of multiple treatments and has not shown stable disease after induction therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No lymphoblastic lymphoma, or mantle cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of lymphoblastic lymphoma or mantle cell lymphoma?"
+    },
+    {
+      "criterion": "Age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's performance status is likely affected by severe lower extremity weakness and chronic pain.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "WHO 0-1",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Given the patient's condition and treatment history, it is unlikely that they meet the WHO performance status of 0-1.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's severe symptoms and ongoing treatments suggest a limited life expectancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 3 months",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's complex medical history and current condition likely indicate a life expectancy of less than 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hematopoietic",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hematopoietic eligibility cannot be determined without specific lab values.",
+      "clinical_question": "Does the patient have a hematopoietic stem cell count of ≥2,000 cells/µL?"
+    },
+    {
+      "criterion": "Neutrophil count at least 1,500/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's neutrophil count currently at least 1,500/mm^3?"
+    },
+    {
+      "criterion": "Platelet count at least 100,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count at least 100,000/mm^3?"
+    },
+    {
+      "criterion": "Hepatic",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hepatic eligibility cannot be determined without specific lab values.",
+      "clinical_question": "Does the patient have a baseline hepatic function with a total bilirubin level ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "Bilirubin no greater than 1.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "AST or ALT no greater than 2.0 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for AST and ALT are not provided, making it unclear if they meet the criterion.",
+      "clinical_question": "Is the patient's AST or ALT level currently ≤ 2.0 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Alkaline phosphatase no greater than 2.0 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for alkaline phosphatase are not provided, making it unclear if they meet the criterion.",
+      "clinical_question": "Is the patient's alkaline phosphatase level ≤ 2.0 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "No history or clinical symptoms of hepatitis B or hepatitis C virus",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No history or clinical symptoms of hepatitis B or C are mentioned in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with seropositivity due to prior vaccination for hepatitis B are eligible",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No indication of seropositivity due to vaccination for hepatitis B is mentioned, so this criterion is met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Creatinine no greater than 1.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level currently ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "LVEF at least 50% by MUGA",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) at least 50% as measured by a MUGA scan?"
+    },
+    {
+      "criterion": "No clinically significant cardiovascular abnormalities",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific cardiovascular abnormalities are mentioned, but the patient's hypertension raises concerns.",
+      "clinical_question": "Does the patient have a resting heart rate of ≤100 beats per minute and a blood pressure within the normal range (systolic <140 mmHg and diastolic <90 mmHg) at the time of evaluation?"
+    },
+    {
+      "criterion": "No New York Heart Association grade II-IV cardiovascular disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on New York Heart Association grade is provided, making it unclear.",
+      "clinical_question": "Does the patient have a documented New York Heart Association classification of I or lower?"
+    },
+    {
+      "criterion": "No myocardial infarction within the past 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on myocardial infarction history is provided, making it unclear.",
+      "clinical_question": "Has the patient experienced a myocardial infarction within the past 6 months?"
+    },
+    {
+      "criterion": "No severe cardiac arrhythmia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on severe cardiac arrhythmia is provided, making it unclear.",
+      "clinical_question": "Has the patient undergone a 12-lead electrocardiogram (ECG) within the last 30 days to assess for any severe cardiac arrhythmias?"
+    },
+    {
+      "criterion": "No uncontrolled hypertension",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of hypertension, which is considered uncontrolled.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No additional information provided to assess this criterion.",
+      "clinical_question": "Has the patient experienced a first relapse of aggressive non-Hodgkin's lymphoma within the last 12 months?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication of being pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pregnancy test results are provided; unable to assess if the patient has a negative pregnancy test.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 6 months after study participation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, but there is no information on whether effective contraception is being used.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, and will he continue to do so during and for 6 months after study participation?"
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of HIV infection in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No clinically significant neurological abnormalities",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has significant neurological abnormalities including severe lower extremity weakness and urinary retention.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No condition that would preclude study safety or interfere with study results",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's multiple conditions and ongoing treatments may interfere with study safety and results.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent serious uncontrolled infection",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of any concurrent serious uncontrolled infections.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple prior therapies including high-dose steroids and chemotherapy, which may not meet the criterion for prior concurrent therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biologic therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not specify if they have received biologic therapy; further information is needed.",
+      "clinical_question": "Has the patient received any biologic therapy as part of their treatment regimen for aggressive non-Hodgkin's lymphoma?"
+    },
+    {
+      "criterion": "Prior rituximab immediately after the first chemotherapy regimen allowed",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not received rituximab as part of their prior treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current chemotherapy regimen includes temozolomide and CPT-11, but the specific inclusion criteria for chemotherapy are not detailed.",
+      "clinical_question": "Has the patient received at least one prior line of chemotherapy for aggressive non-Hodgkin's lymphoma?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not specified in the patient profile, making it unclear if they meet the inclusion criteria.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of aggressive non-Hodgkin's lymphoma with evidence of first relapse?"
+    },
+    {
+      "criterion": "See Biologic therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Biologic therapy details are not provided in the patient profile, so eligibility cannot be determined.",
+      "clinical_question": "Has the patient received any prior biologic therapy for their aggressive non-Hodgkin's lymphoma?"
+    },
+    {
+      "criterion": "At least 6 months since prior anthracycline therapy (e.g., cyclophosphamide, doxorubicin, vincristine, and prednisone [CHOP])",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received anthracycline therapy, thus meeting the 6-month requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "More than 2 years since prior fludarabine",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding prior fludarabine treatment in the patient's history.",
+      "clinical_question": "Has the patient received fludarabine treatment more than 2 years ago?"
+    },
+    {
+      "criterion": "More than 2 years since prior nitrosoureas",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not mention prior nitrosoureas, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient received any nitrosourea-based chemotherapy within the last 2 years?"
+    },
+    {
+      "criterion": "More than 1 year since prior platinum-based chemotherapy or cytarabine, unless a CR or CR_u was achieved",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not specify prior platinum-based chemotherapy or cytarabine, so eligibility is uncertain.",
+      "clinical_question": "Has the patient received any platinum-based chemotherapy or cytarabine within the last year?"
+    },
+    {
+      "criterion": "No prior cumulative dose of cisplatin greater than 600 mg/m^2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received a cumulative dose of cisplatin greater than 600 mg/m^2?"
+    },
+    {
+      "criterion": "No prior single or cumulative dose of doxorubicin greater than 450 mg/m^2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received a cumulative dose of doxorubicin greater than 450 mg/m^2?"
+    },
+    {
+      "criterion": "Endocrine therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Endocrine therapy is not mentioned in the patient's treatment history, leaving this criterion unclear.",
+      "clinical_question": "Has the patient received any form of endocrine therapy prior to this treatment?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is not specified, making it impossible to assess eligibility.",
+      "clinical_question": "Has the patient experienced a first relapse of aggressive non-Hodgkin's lymphoma within the last 12 months?"
+    },
+    {
+      "criterion": "Radiotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone prior radiotherapy as part of their treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior radiotherapy to the whole pelvis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received prior radiotherapy to the whole pelvis, as their history indicates prior radiation was for the spine.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior radioimmunotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of prior radioimmunotherapy in the patient's treatment history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone prior surgeries related to their condition, including s/p Foley catheter and s/p radiation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "More than 4 weeks since prior major thoracic and/or abdominal surgery",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has had multiple treatments and surgeries, making it likely that they have not waited more than 4 weeks since any major thoracic or abdominal surgery.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 1 week since prior minor surgery",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Given the patient's extensive treatment history, it is unlikely they have waited at least 1 week since any minor surgery.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is vague and does not provide specific details to assess eligibility.",
+      "clinical_question": "Has the patient experienced a first relapse of aggressive non-Hodgkin's lymphoma within the last 12 months?"
+    },
+    {
+      "criterion": "Recovered from prior therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has ongoing treatments and symptoms, indicating they may not have fully recovered from prior therapies.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Alopecia allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Alopecia is a common side effect of the treatments the patient is receiving, and it is allowed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Grade 1 peripheral neuropathy allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Grade 1 peripheral neuropathy is allowed, and the patient has not indicated a higher grade of neuropathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "More than 30 days since prior participation in another investigational drug study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's participation in another investigational drug study.",
+      "clinical_question": "Has the patient participated in any investigational drug study within the last 30 days?"
+    },
+    {
+      "criterion": "No other concurrent investigational drugs",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on multiple medications including high-dose steroids, temozolomide, CPT-11, and Avastin, which may be considered investigational in the context of the trial.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 12 of 72 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5417
+}

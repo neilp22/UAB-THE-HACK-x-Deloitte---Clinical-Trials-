@@ -1,0 +1,236 @@
+{
+  "nct_id": "NCT01442649",
+  "trial_title": "Efficacy of Chemotherapy, Associated to Either Cetuximab or Bevacizumab, in KRAS Wild-type Metastatic Colorectal Cancer Patients With Progressive Disease After Receiving First-line Treatment With Bevacizumab",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "The main objective is to evaluate progression-free survival (PFS) at 4 months.\n\nThe secondary objectives are to evaluate the objective response rate (OR) (= complete responses (CR) and partial responses (PR)) according to the RECIST v1.1 criteria, the progression-free survival (PFS), the overall survival (OS), the overall survival from the date of the first-line chemotherapy used on the metastatic disease, the treatment tolerance (NCI CTC AE V4 criteria, except for peripheral neurological toxici",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically proven adenocarcinoma of the colon expressing non-mutated (wild-type) KRAS.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has metastatic colorectal cancer with KRAS wild-type status.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Progressive metastatic disease after first-line treatment with chemotherapy alone: based on 5-FU (iv or per os) with irinotecan or oxaliplatin associated to bevacizumab.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not shown progressive disease after first-line treatment with chemotherapy alone, as he has received FOLFOX and FOLFIRI plus bevacizumab.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior adjuvant chemotherapy (of the primary tumor) with fluoropyrimidine and oxaliplatin is allowed if the time interval between the end of this chemotherapy and the beginning of the first-line metastatic treatment is ≥ 6 months.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has received prior adjuvant chemotherapy with fluoropyrimidine and oxaliplatin, and the time interval is likely sufficient.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Measurable disease (at least one measurable metastatic lesion) according to the RECIST V1.1 criteria (the lesion should not be located in a previous field of radiation).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The information about measurable disease according to RECIST V1.1 criteria is not provided.",
+      "clinical_question": "Does the patient have at least one measurable metastatic lesion according to the RECIST V1.1 criteria that is not located in a previous field of radiation?"
+    },
+    {
+      "criterion": "Previous radiotherapy is authorized if discontinued ≥ 15 days prior to randomization and if the measurable metastatic lesions are outside the radiation area.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about previous radiotherapy and its timing.",
+      "clinical_question": "Has the patient discontinued any prior radiotherapy at least 15 days before randomization?"
+    },
+    {
+      "criterion": "Sites of disease evaluated within 28 days prior to randomization with thoracic-abdominal-pelvic CT scan (or abdominal-pelvic MRI plus Chest Xray).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The information regarding the evaluation of disease sites within 28 days prior to randomization is not provided.",
+      "clinical_question": "Has the patient undergone a thoracic-abdominal-pelvic CT scan or an abdominal-pelvic MRI plus Chest X-ray within the 28 days prior to randomization?"
+    },
+    {
+      "criterion": "Age ≥18 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 67.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient with ECOG 0 or 1",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ECOG 1.0 <= 1.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life Expectancy ≥ 3 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented life expectancy of ≥3 months based on clinical assessment and prognostic indicators?"
+    },
+    {
+      "criterion": "Hematologic function (polynuclear neutrophiles ≥ 1.5.109/L ; platelets ≥ 100.109/L ; hemoglobin ≥ 9 g/dL.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's hemoglobin level is above the required threshold of 9 g/dL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known meningeal or brain metastases",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the presence of meningeal or brain metastases.",
+      "clinical_question": "Does the patient have any known meningeal or brain metastases as confirmed by imaging studies within the last 3 months?"
+    },
+    {
+      "criterion": "Pre-treatment with anti-EGFR",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has no prior anti-EGFR therapy, which meets the exclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Specific contraindication or known hypersensitivity to one treatment product",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding specific contraindications or known hypersensitivity to treatment products.",
+      "clinical_question": "Does the patient have any documented history of hypersensitivity reactions to cetuximab or bevacizumab?"
+    },
+    {
+      "criterion": "Patient with known allergy or hypersensitivity to monoclonal antibodies (bevacizumab, cetuximab)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient's allergy status to monoclonal antibodies is not provided.",
+      "clinical_question": "Does the patient have a documented allergy or hypersensitivity to monoclonal antibodies, specifically bevacizumab or cetuximab?"
+    },
+    {
+      "criterion": "Clinically significant affection of the coronaries or myocardial infarction within 6 months prior to inclusion.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on coronary health or myocardial infarction history is provided.",
+      "clinical_question": "Has the patient experienced any clinically significant affection of the coronaries or myocardial infarction within the last 6 months?"
+    },
+    {
+      "criterion": "Peripheral neuropathy of grade > 1 (CTCAE scale version 4.0).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the presence or severity of peripheral neuropathy is provided.",
+      "clinical_question": "Has the patient experienced any symptoms of peripheral neuropathy that are graded >1 on the CTCAE scale version 4.0?"
+    },
+    {
+      "criterion": "Known depletion of the dihydropyrimidine dehydrogenase (DPD).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on dihydropyrimidine dehydrogenase (DPD) status is provided.",
+      "clinical_question": "Has the patient been tested for dihydropyrimidine dehydrogenase (DPD) deficiency, and if so, what were the results?"
+    },
+    {
+      "criterion": "Acute intestinal obstruction or sub-obstruction, history of inflammatory intestinal disease or extended resection of the small intestine. Presence of a colic prosthesis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on intestinal obstruction, inflammatory disease, or colic prosthesis is provided.",
+      "clinical_question": "Does the patient have a history of acute intestinal obstruction, inflammatory intestinal disease, or extended resection of the small intestine?"
+    },
+    {
+      "criterion": "Uncontrolled Arterial hypertension (systolic pressure > 150 mmHg and/or diastolic pressure > 100 mmHg with and without antihypertensive medication. Patients with high hypertension are eligible if antihypertensive medication lowers their arterial pressure to the level of acceptability specified by the inclusion criteria.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on blood pressure readings is provided.",
+      "clinical_question": "Is the patient's systolic blood pressure consistently ≤150 mmHg and diastolic blood pressure consistently ≤100 mmHg while on antihypertensive medication?"
+    },
+    {
+      "criterion": "History of hypertensive crisis or hypertensive encephalopathy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on history of hypertensive crisis or encephalopathy is provided.",
+      "clinical_question": "Has the patient experienced a hypertensive crisis or hypertensive encephalopathy in the past 12 months?"
+    },
+    {
+      "criterion": "Hepatic transaminases ≤ 2.5 times upper limit of normal (ULN) (≤ 5 ULN in case of hepatic metastases), alkaline phosphatases ≤ 2.5 ULN (≤ 5 ULN in case of hepatic metastases), total bilirubinemia ≤ 1.5 ULN",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Lab values for hepatic transaminases and bilirubin are not provided, but no evidence suggests they exceed limits.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Renal function (creatinemia ≤1.5 ULN; creatine clearance ≥ 50 mL/mn (Cockcroft and Gault) ; urine test strip < 2+. If proteinuria is ≥ +2 at inclusion, the serum urea test must be redone and show proteinuria ≤ 1 g/L within 24 h)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Creatinine level is 1.0 mg/dL, which is within acceptable limits for renal function.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Completion of the EORTC QLQ-C30 quality of life form",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient completed the EORTC QLQ-C30 quality of life form with a score reported?"
+    },
+    {
+      "criterion": "Negative pregnancy test for women of child-bearing age",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Information given to the patient and signed informed consent",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been provided with a detailed explanation of the trial, including potential risks and benefits, and signed the informed consent form?"
+    },
+    {
+      "criterion": "Public Health insurance coverage",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have public health insurance coverage that includes reimbursement for chemotherapy combined with cetuximab or bevacizumab for KRAS wild-type metastatic colorectal cancer?"
+    },
+    {
+      "criterion": "Other concomitant malignancy or history cancer (except carcinoma in situ of the cervix, or non melanoma skin cancer, with curative intent treatment, when considered in complete remission for at least 5 years before randomization.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on other malignancies or cancer history is provided.",
+      "clinical_question": "Does the patient have any other concomitant malignancy or history of cancer, excluding carcinoma in situ of the cervix or non-melanoma skin cancer, within the last 5 years?"
+    },
+    {
+      "criterion": "Any treatment including an experimental drug, or participation in another clinical trial within 28 days preceding inclusion.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient participated in any treatment including an experimental drug or another clinical trial within the 28 days preceding inclusion?"
+    },
+    {
+      "criterion": "Persons deprived of liberty or under guardianship.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently incarcerated or under legal guardianship?"
+    },
+    {
+      "criterion": "Psychological, familial, sociological or geographical condition potentially hampering compliance with the study protocol and follow-up schedule.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's psychological, familial, sociological, or geographical conditions that could affect compliance.",
+      "clinical_question": "Does the patient have any psychological, familial, sociological, or geographical conditions that would prevent them from attending at least 80% of scheduled study visits?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Known meningeal or brain metastases",
+    "EXCLUSION UNCLEAR: Specific contraindication or known hypersensitivity to one treatment product",
+    "EXCLUSION UNCLEAR: Patient with known allergy or hypersensitivity to monoclonal antibodies (bevaciz",
+    "EXCLUSION UNCLEAR: Clinically significant affection of the coronaries or myocardial infarction with",
+    "EXCLUSION UNCLEAR: Peripheral neuropathy of grade > 1 (CTCAE scale version 4.0).",
+    "EXCLUSION UNCLEAR: Known depletion of the dihydropyrimidine dehydrogenase (DPD).",
+    "EXCLUSION UNCLEAR: Acute intestinal obstruction or sub-obstruction, history of inflammatory intesti",
+    "EXCLUSION UNCLEAR: Uncontrolled Arterial hypertension (systolic pressure > 150 mmHg and/or diastoli",
+    "EXCLUSION UNCLEAR: History of hypertensive crisis or hypertensive encephalopathy",
+    "EXCLUSION UNCLEAR: Other concomitant malignancy or history cancer (except carcinoma in situ of the ",
+    "EXCLUSION UNCLEAR: Any treatment including an experimental drug, or participation in another clinic",
+    "EXCLUSION UNCLEAR: Persons deprived of liberty or under guardianship.",
+    "EXCLUSION UNCLEAR: Psychological, familial, sociological or geographical condition potentially hamp"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3
+}

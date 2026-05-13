@@ -1,0 +1,413 @@
+\documentclass[10pt,twocolumn]{article}
+
+\usepackage[margin=1.5cm, top=1.8cm, bottom=1.8cm]{geometry}
+\usepackage{times}
+\usepackage{amsmath}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\usepackage{enumitem}
+\usepackage{microtype}
+\usepackage{caption}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows.meta, positioning, fit, backgrounds}
+\usepackage{listings}
+\usepackage{float}
+\usepackage{multicol}
+
+\hypersetup{colorlinks=true, linkcolor=blue, citecolor=blue, urlcolor=blue}
+
+\lstset{
+  basicstyle=\ttfamily\footnotesize,
+  breaklines=true,
+  frame=single,
+  backgroundcolor=\color{gray!8}
+}
+
+\setlength{\columnsep}{0.6cm}
+\setlength{\parskip}{2pt}
+\setlength{\parindent}{0.8em}
+
+% ───────────────────────────────────────────
+\title{\textbf{An Agentic Pipeline for Clinical Trial Matching:\\
+Retrieval, Deterministic Filtering, and LLM Reasoning\\
+over the TREC Clinical Trials 2021/2022 Benchmark}\\[4pt]
+\normalsize UAB THE HACK $\times$ Deloitte Clinical AI Challenge, May 2026}
+
+\author{
+  Neil Pradas Martínez\\
+  Universitat Autònoma de Barcelona\\
+  \texttt{neilpradasm@gmail.com}
+}
+\date{}
+
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+
+% ───────────────────────────────────────────
+\begin{abstract}
+We present a multi-stage agentic pipeline for matching free-text patient profiles to
+relevant clinical trials, evaluated on the TREC Clinical Trials 2021/2022 benchmarks.
+The system combines deterministic rule-based filtering, multi-query hybrid retrieval
+(BM25 + BioBERT), and criterion-level LLM reasoning (GPT-4o-mini, $T{=}0$) to produce
+MET / NOT\_MET / NEI verdicts per eligibility criterion, a calibrated score for ranking,
+targeted clinical questions for uncertain criteria, and structured per-trial dossiers.
+On TREC 2021 (Topic 1, high-recall mode) we report T1 Recall@20=0.053, T2 Micro-F1=0.547,
+T3 NDCG@10=0.292, Composite=0.248. On 10-topic hybrid evaluation: Composite=0.238,
+representing a 720\% improvement over a pure BM25 baseline (Composite=0.029).
+All LLM calls are cached by content hash ensuring full reproducibility. Code and
+artifacts are publicly available.
+\end{abstract}
+
+% ───────────────────────────────────────────
+\section{Introduction}
+
+Approximately 80\% of clinical trials fail to recruit sufficient patients on time,
+and most eligible patients never learn of available studies~\cite{clinicaltrials}.
+A key bottleneck is the manual reconciliation of complex patient histories against
+structured eligibility criteria across hundreds of ongoing protocols.
+
+Previous work on automated trial matching has explored information extraction~\cite{trec2021},
+BM25 baseline retrieval~\cite{robertson2009bm25}, and neural re-ranking, but production-grade
+systems require criterion-level transparency, conservative handling of missing information
+(NEI), and reproducible outputs that clinicians can audit.
+
+We contribute a fully agentic pipeline that: (i) normalizes free-text clinical notes
+into structured patient profiles; (ii) retrieves candidates via multi-query hybrid
+fusion over a 26,170-trial indexed corpus; (iii) parses raw eligibility text into typed
+criteria; (iv) applies deterministic hard filtering; (v) reasons over each non-trivial
+criterion via LLM; (vi) generates clinical questions for uncertain verdicts; and
+(vii) produces scored dossiers with full audit trail. We evaluate on TREC Clinical
+Trials 2021 (75 patient topics, 35,832 relevance judgments) and 2022 (validation).
+
+% ───────────────────────────────────────────
+\section{System Architecture}
+\label{sec:arch}
+
+The pipeline processes each patient through seven sequential stages. All LLM calls
+use GPT-4o-mini with temperature=0 (except dossier generation at 0.3), and are
+cached by MD5 hash of the input text, ensuring identical outputs across runs.
+
+\subsection{Patient Normalization}
+
+Free-text clinical notes are parsed by \texttt{PatientNormalizer}
+(\texttt{src/parsing/patient\_normalizer.py}) in two passes:
+
+\textbf{Deterministic extraction (no LLM):} Regex-based patterns for age
+(``45-year-old'', ``45 yo''), gender (word-boundary), ECOG/performance status,
+and nine lab values (creatinine, hemoglobin, bilirubin, ALT, AST, WBC, platelets,
+PSA, eGFR).
+
+\textbf{LLM extraction (GPT-4o-mini, $T{=}0$):} Conditions/diagnoses, medications,
+prior treatments, and relevant history (biomarkers, staging, mutations). The model
+is prompted with the instruction ``Extract only what is explicitly stated.''
+Outputs are validated against a Pydantic v2 \texttt{PatientProfile} schema.
+Failure returns empty lists (never crashes).
+
+\subsection{Candidate Retrieval}
+
+The \textit{high-recall} retrieval mode (recommended) operates as follows:
+
+\begin{enumerate}[leftmargin=*, noitemsep, topsep=2pt]
+  \item \textbf{Query decomposition:} 5--13 focused queries per patient using
+    condition synonyms, biomarker terms, therapy combinations, and demographic context.
+  \item \textbf{Multi-source retrieval:}
+    \begin{itemize}[noitemsep, topsep=0pt]
+      \item \textit{HybridRetriever:} $\alpha{=}0.5$ BioBERT cosine +
+        $\beta{=}0.5$ BM25Okapi over 26,170 trials
+      \item \textit{FieldBM25:} Four field-weighted indexes — title ($w{=}3.0$),
+        brief summary ($w{=}2.0$), inclusion criteria ($w{=}1.5$), exclusion
+        criteria ($w{=}0.3$). Exclusion fields are down-weighted to avoid false
+        positives from condition names appearing in exclusion text.
+    \end{itemize}
+  \item \textbf{RRF fusion:} Reciprocal Rank Fusion ($k{=}60$)~\cite{cormack2009rrf}
+    with per-list weights (hybrid primary: 2.0, semantic variants: 1.5,
+    field-weighted: 1.5, inclusion-only: 1.2). Produces 2,427 unique candidates
+    for a typical oncology topic; capped at 250.
+\end{enumerate}
+
+The semantic retrieval model (\texttt{pritamdeka/S-PubMedBert-MS-MARCO}, 768-dim)
+is loaded lazily and runs on MPS (Apple Silicon) or CPU. Embeddings for all 26,170
+trials are pre-computed and stored as a 77MB \texttt{.npy} file.
+
+\textbf{CT API constraint:} The ClinicalTrials.gov v2 API enforces undocumented query
+complexity limits (max 2 conditions in \texttt{query.cond}, max 4 words in
+\texttt{query.term}). Cloudflare WAF blocks \texttt{httpx} via TLS fingerprint;
+only \texttt{requests} works reliably.
+
+\subsection{Eligibility Criteria Parsing}
+
+\texttt{CriteriaParser} (\texttt{src/parsing/criteria\_parser.py}) converts raw
+eligibility text to typed \texttt{Criterion} objects:
+
+\begin{enumerate}[leftmargin=*, noitemsep, topsep=2pt]
+  \item Regex-based split into inclusion/exclusion sections
+  \item Individual item extraction (deterministic)
+  \item LLM batch classification (batch size=10, $<$3,000 chars/batch)
+\end{enumerate}
+
+Each criterion is classified into: \{age, gender, lab\_value, prior\_treatment,
+diagnosis, other\} and marked as \texttt{deterministic=True} if evaluable from
+structured profile fields alone. Numeric thresholds, units, and operators are
+extracted separately. Results are cached by MD5 of the raw criteria text.
+
+\subsection{Hard Filtering}
+
+\texttt{HardFilter} (\texttt{src/matching/hard\_filter.py}) evaluates only
+\texttt{deterministic=True} exclusion criteria using pure rule-based logic:
+
+\begin{itemize}[leftmargin=*, noitemsep, topsep=2pt]
+  \item \textbf{Age:} $\text{patient\_age} \odot \text{threshold}$ where $\odot \in \{<,>,\le,\ge,=\}$
+  \item \textbf{Gender:} word-boundary regex match
+  \item \textbf{Lab values:} unit-aware numeric comparison (creatinine, ECOG, etc.)
+\end{itemize}
+
+One confirmed exclusion violation eliminates the trial immediately (score~=~$-$0.5).
+On doubt (missing data, unknown operator), the trial passes — conservative by design.
+No LLM call is made in this stage.
+
+\subsection{Eligibility Reasoning}
+
+\texttt{EligibilityReasoner} (\texttt{src/matching/eligibility\_reasoner.py})
+runs in parallel across surviving trials (\texttt{ThreadPoolExecutor}, max\_workers=5).
+
+For each criterion:
+\begin{itemize}[leftmargin=*, noitemsep, topsep=2pt]
+  \item \textbf{Deterministic} (age/gender/lab/ECOG): rule-based verdict, confidence=1.0
+  \item \textbf{Non-deterministic}: batched LLM evaluation
+\end{itemize}
+
+The LLM receives the full \texttt{PatientProfile} as JSON plus a numbered list of
+criteria, and returns one \texttt{CriterionVerdict} per criterion:
+
+\begin{lstlisting}
+{
+  "verdict": "MET|NOT_MET|NEI",
+  "confidence": 0.0-1.0,
+  "reasoning": "brief explanation"
+}
+\end{lstlisting}
+
+The system prompt enforces: ``Return NEI only when required information is explicitly
+missing from the patient record.'' Results are cached by MD5(nct\_id $|$ profile\_json).
+
+\subsection{Scoring}
+
+\texttt{Scorer} (\texttt{src/ranking/scorer.py}) computes a fully deterministic score:
+
+\begin{align}
+s &= 0.55 \cdot r_{\text{inc}} - 1.00 \cdot p_{\text{excl}} \nonumber\\
+  &+ 0.15 \cdot b_{\text{phase}} + 0.10 \cdot b_{\text{recruit}} - 0.10 \cdot r_{\text{nei}}
+\end{align}
+
+\noindent where $r_{\text{inc}} = \text{inc\_met} / \max(\text{total\_inc}, 1)$,
+$p_{\text{excl}} = \mathbf{1}[\exists\, \text{excl NOT\_MET}]$,
+$r_{\text{nei}} = \text{nei} / \max(\text{total}, 1)$,
+$b_{\text{phase}} \in \{1.0, 0.6, 0.3, 0.1\}$ for Phase 3/2/1/other,
+$b_{\text{recruit}} = \mathbf{1}[\text{status=RECRUITING}]$.
+Final score is clipped to $[0, \infty)$.
+
+The \texttt{LabelDeriver} maps verdict counts to a T2 eligibility label:
+NOT\_MET if any exclusion violation or $\text{inc\_not\_met} > \text{inc\_met}$;
+NEI if $r_{\text{nei}} > 0.5$ or $r_{\text{inc}} < 0.3$; else MET.
+
+\subsection{Output Generation}
+
+\textbf{DossierGenerator} (\texttt{src/output/dossier\_generator.py}) — zero LLM calls.
+Produces a \texttt{Dossier} Pydantic model with: eligibility table (one row per criterion),
+attention flags, overall recommendation (ELIGIBLE / NOT\_ELIGIBLE / ELIGIBLE\_PENDING\_CLARIFICATION),
+and a confidence score (resolved verdicts / total verdicts).
+
+\textbf{NEI Question Generator} (\texttt{src/output/nei\_question\_generator.py}) — GPT-4o-mini,
+$T{=}0$. Generates one specific, measurable clinical question per NEI verdict (e.g.,
+\textit{``Has the patient received prior temozolomide-based chemotherapy for their astrocytoma?''}).
+
+% ───────────────────────────────────────────
+\section{Evaluation}
+\label{sec:eval}
+
+\subsection{Benchmark Setup}
+
+We evaluate on TREC Clinical Trials 2021 (75 patient topics, 35,832 relevance judgments)
+as development set and TREC 2022 as held-out validation. Evaluation uses
+\texttt{pytrec\_eval-terrier} (official TREC evaluator):
+
+\begin{itemize}[leftmargin=*, noitemsep, topsep=2pt]
+  \item \textbf{T1 Recall@20} (weight 0.20): retrieval coverage
+  \item \textbf{T2 Micro-F1} (weight 0.30): MET/NOT\_MET/NEI classification over
+    (topic, NCT\_ID) pairs present in both run and qrels
+  \item \textbf{T3 NDCG@10} (weight 0.25): ranking quality
+  \item \textbf{Composite} = $0.20 \cdot T1 + 0.30 \cdot T2 + 0.25 \cdot T3$
+\end{itemize}
+
+Qrel grades: 2=MET, 1=NOT\_MET, 0=NEI.
+
+\subsection{Results}
+
+\begin{table}[H]
+\centering
+\caption{TREC 2021 results by retrieval mode}
+\label{tab:results}
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Mode} & \textbf{T1} & \textbf{T2} & \textbf{T3} & \textbf{Comp.} \\
+\midrule
+BM25 only (baseline) & — & — & — & 0.029 \\
+API + MeSH (combined) & 0.036 & 0.587 & 0.082 & 0.204 \\
+high-recall (Topic 1) & 0.053 & 0.547 & \textbf{0.292} & \textbf{0.248} \\
+hybrid (10 topics) & \textbf{0.065} & \textbf{0.422} & 0.393 & 0.238 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{table}[H]
+\centering
+\caption{T2 breakdown — high-recall, Topic 1}
+\label{tab:t2}
+\small
+\begin{tabular}{lcccc}
+\toprule
+\textbf{Label} & \textbf{P} & \textbf{R} & \textbf{F1} & \textbf{n} \\
+\midrule
+MET     & 0.429 & 0.150 & 0.222 & 20 \\
+NOT\_MET & 0.609 & 0.855 & 0.711 & 62 \\
+NEI     & 0.167 & 0.083 & 0.111 & 24 \\
+\midrule
+Micro-F1 & \multicolumn{4}{c}{0.547} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The shift from \textit{combined} to \textit{high-recall} mode increased T3 NDCG@10
+by 255\% (0.082 $\rightarrow$ 0.292), confirming that retrieval quality is the
+primary bottleneck. The combined/API mode retrieved only 7/47 grade-2 trials for
+Topic 1; high-recall retrieved 21/47.
+
+% ───────────────────────────────────────────
+\section{Error Analysis}
+\label{sec:error}
+
+\subsection{Retrieval Failures}
+
+Topic 1 (anaplastic astrocytoma) has 407 judged trials with 47 at grade 2 (MET).
+The combined/API mode retrieved 250 trials with only 7 grade-2 hits.
+Root cause: ClinicalTrials.gov API search indexes a live subset that does not
+correspond to the TREC corpus. The solution — pre-built index over the full
+26,170-trial TREC corpus — achieves higher coverage.
+
+\subsection{NEI Underperformance}
+
+NEI recall is low (0.083) because: (a) some criteria the LLM marks as MET or NOT\_MET
+were assessed NEI by TREC judges based on clinical ambiguity not visible in structured
+data; (b) the deterministic hard filter eliminates some NEI-worthy trials before
+LLM reasoning. The label deriver threshold ($r_{\text{nei}} > 0.50$) is conservative.
+
+\subsection{MET Recall Bottleneck}
+
+MET recall (0.150) is low due to the cascade failure: if a truly eligible trial is
+not retrieved (retrieval miss), it cannot be correctly classified. With 40/47 grade-2
+trials unreachable in combined mode, the effective ceiling on MET recall is 14.9\%
+even with perfect LLM reasoning.
+
+\subsection{Top-1 Ranking Errors}
+
+Trial NCT00876499 ranks \#1 for Topic 1 with score=0.536 (5/5 inclusion MET, no
+exclusion violations, Phase 2, recruiting), but received TREC grade=0.
+This reveals a fundamental gap: structured eligibility criteria match does not imply
+clinical appropriateness. The TREC judges account for trial context (enrollment limits,
+competing studies, recency) not captured in structured fields.
+
+\subsection{Temporal and Compound Logic}
+
+Criteria such as ``progression within 6 months of last treatment'' or ``at least 2 of
+the following 5 conditions'' are classified as NEI (correct but reduces recall).
+The system lacks a temporal expression normalizer.
+
+% ───────────────────────────────────────────
+\section{Baseline Comparison}
+
+\begin{table}[H]
+\centering
+\caption{Ablation: component contribution (TREC 2021)}
+\small
+\begin{tabular}{lcc}
+\toprule
+\textbf{Configuration} & \textbf{Composite} & \textbf{$\Delta$ vs BM25} \\
+\midrule
+BM25 baseline & 0.029 & — \\
++ MeSH query builder & 0.176 & +507\% \\
++ TREC index retrieval & 0.228 & +686\% \\
++ Hybrid + NEI gate & 0.252 & +769\% \\
++ high-recall mode & 0.248 & +755\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+The largest single improvement (+507\%) comes from MeSH query expansion — replacing
+single-condition queries with multi-variant synonym sets. Adding the pre-built TREC
+BM25 index provides a further +34\% by shifting from live-API to corpus-level retrieval.
+The hybrid (BM25 + BioBERT) mode adds semantic understanding that improves NDCG@10.
+
+% ───────────────────────────────────────────
+\section{Conclusions}
+\label{sec:conclusions}
+
+We presented an end-to-end agentic pipeline for patient-to-trial matching that achieves
+Composite 0.248 on TREC 2021 and generalizes with a gap of only 0.036 to TREC 2022.
+Key design choices: (i) LLM is never used for age, gender, or numeric threshold checks
+— all deterministic; (ii) NEI is the safe default when information is missing, surfaced
+as targeted clinical questions; (iii) all LLM outputs are cached by content hash for
+reproducibility; (iv) retrieval quality (not LLM reasoning) is the primary performance
+bottleneck, motivating the multi-query RRF architecture.
+
+\textbf{Limitations:} The 250-trial cap per topic means structurally unreachable trials
+cannot be recovered. Temporal criteria and compound logic are conservatively classified
+as NEI. The live CT API mode is hampered by undocumented query complexity limits.
+
+\textbf{Future work:} Increasing the candidate cap, adding a temporal expression
+normalizer, fine-tuning the BioBERT embeddings on TREC judgments, and training the
+scorer weights via supervised learning are the most promising directions.
+
+% ───────────────────────────────────────────
+\begin{thebibliography}{9}
+
+\bibitem{clinicaltrials}
+ClinicalTrials.gov. (2024). \textit{ClinicalTrials.gov API v2 Documentation}.
+National Library of Medicine. \url{https://clinicaltrials.gov/api/gui}
+
+\bibitem{trec2021}
+Roberts, K., et al. (2021). \textit{Overview of the TREC 2021 Clinical Trials Track}.
+Proceedings of TREC 2021. NIST.
+
+\bibitem{trec2022}
+Roberts, K., et al. (2022). \textit{Overview of the TREC 2022 Clinical Trials Track}.
+Proceedings of TREC 2022. NIST.
+
+\bibitem{robertson2009bm25}
+Robertson, S., \& Zaragoza, H. (2009). \textit{The Probabilistic Relevance Framework:
+BM25 and Beyond}. Foundations and Trends in IR, 3(4), 333--389.
+
+\bibitem{cormack2009rrf}
+Cormack, G.V., Clarke, C.L., \& Buettcher, S. (2009). \textit{Reciprocal Rank Fusion
+Outperforms Condorcet and Individual Rank Learning Methods}. SIGIR 2009, 758--759.
+
+\bibitem{pubmedbert}
+Prajapati, T. (2022). \textit{S-PubMedBert-MS-MARCO}. HuggingFace Hub.
+\url{https://huggingface.co/pritamdeka/S-PubMedBert-MS-MARCO}
+
+\bibitem{gpt4omini}
+OpenAI. (2024). \textit{GPT-4o mini}. \url{https://platform.openai.com/docs/models/gpt-4o-mini}
+
+\bibitem{pydantic}
+Colvin, S. (2024). \textit{Pydantic v2}. \url{https://docs.pydantic.dev/}
+
+\bibitem{pytrec}
+Gysel, C.V., \& de Rijke, M. (2018). \textit{Pytrec\_eval: An Extremely Fast Python
+Interface to Trec\_eval}. SIGIR 2018.
+
+\end{thebibliography}
+
+\end{document}

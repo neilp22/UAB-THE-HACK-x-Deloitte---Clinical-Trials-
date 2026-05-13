@@ -1,0 +1,441 @@
+{
+  "nct_id": "NCT00064363",
+  "trial_title": "Talampanel in Treating Patients With Recurrent High-Grade Glioma",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy such as talampanel use different ways to stop tumor cells from dividing so they stop growing or die.\n\nPURPOSE: This phase II trial is studying how well talampanel works in treating patients with recurrent, progressive high-grade glioma.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed high-grade glioma, including any of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a histologically confirmed diagnosis of anaplastic astrocytoma, which is a high-grade glioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Glioblastoma multiforme",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have glioblastoma multiforme; he has anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma, which meets the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic oligodendroglioma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have anaplastic oligodendroglioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic mixed oligoastrocytoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have anaplastic mixed oligoastrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Malignant astrocytoma not otherwise specified",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have malignant astrocytoma not otherwise specified.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with clinical and radiographic diagnosis of brain stem glioma are also eligible",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a clinical and radiographic diagnosis of brain stem glioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of tumor progression by MRI or CT scan",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about recent MRI or CT scan results indicating tumor progression.",
+      "clinical_question": "Has the patient experienced a ≥20% increase in tumor size on MRI or CT scan compared to the previous imaging study?"
+    },
+    {
+      "criterion": "Scan must be performed while patient is on a stable steroid dose for at least 5 days",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's steroid dosage stability prior to the scan.",
+      "clinical_question": "Has the patient been on a stable dose of high-dose steroids for at least 5 consecutive days prior to the scan?"
+    },
+    {
+      "criterion": "Must have failed prior radiotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone prior radiotherapy as part of his treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Residual disease after prior resection of recurrent or progressive tumor is allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has residual disease after prior treatments, which aligns with the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 45 years old, which meets the age inclusion requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Performance status is not provided; therefore, it cannot be assessed.",
+      "clinical_question": "Does the patient have a performance status score of 2 or lower on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "Karnofsky 60-100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Karnofsky score is not provided; thus, it cannot be determined.",
+      "clinical_question": "Does the patient have a Karnofsky Performance Status score of ≥60?"
+    },
+    {
+      "criterion": "Life expectancy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Life expectancy is not clearly defined in the provided information.",
+      "clinical_question": "What is the patient's estimated life expectancy based on current clinical guidelines for individuals with recurrent high-grade glioma and similar comorbidities?"
+    },
+    {
+      "criterion": "More than 8 weeks",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced a progression-free survival of more than 8 weeks following the last treatment?"
+    },
+    {
+      "criterion": "Hematopoietic",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hematopoietic status is not provided; further information is needed.",
+      "clinical_question": "Does the patient have a hemoglobin level of ≥10 g/dL?"
+    },
+    {
+      "criterion": "Absolute neutrophil count greater than 1,500/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count currently greater than 1,500/mm^3?"
+    },
+    {
+      "criterion": "Platelet count at least 100,000/mm^3 (transfusion independent)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count at least 100,000/mm^3?"
+    },
+    {
+      "criterion": "Hemoglobin at least 10 g/dL (transfusion allowed)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a hemoglobin level of at least 10 g/dL?"
+    },
+    {
+      "criterion": "Bilirubin less than 2 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided, making it impossible to assess.",
+      "clinical_question": "Is the patient's total bilirubin level less than 2 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "SGOT less than 2 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "SGOT levels are not provided, so this criterion cannot be evaluated.",
+      "clinical_question": "Is the patient's SGOT level less than 80 U/L?"
+    },
+    {
+      "criterion": "No significant active hepatic disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on active hepatic disease is available.",
+      "clinical_question": "Does the patient have any current liver function tests indicating elevated liver enzymes (AST or ALT > 40 U/L) or bilirubin levels > 1.2 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine less than 1.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level less than 1.5 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine clearance at least 60 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current creatinine clearance value?"
+    },
+    {
+      "criterion": "No significant active renal disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on active renal disease is available.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "Cardiac",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's cardiac status is not provided, making it unclear if they meet the criterion.",
+      "clinical_question": "Does the patient have a baseline left ventricular ejection fraction (LVEF) of ≥50% as assessed by echocardiogram or MUGA scan?"
+    },
+    {
+      "criterion": "No significant active cardiac disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on active cardiac disease is available, so eligibility cannot be determined.",
+      "clinical_question": "Does the patient have a history of significant cardiac events, such as myocardial infarction or congestive heart failure, within the past 12 months?"
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific details provided about other conditions that may affect eligibility.",
+      "clinical_question": "Has the patient experienced a progression-free survival of at least 6 months following the last treatment prior to enrollment?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is male and not pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pregnancy test results are provided, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use 2 effective methods of contraception during and for 2 months after study participation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on contraception use is available, so eligibility cannot be determined.",
+      "clinical_question": "Is the patient currently using 2 effective methods of contraception, and will he continue to do so during and for 2 months after study participation?"
+    },
+    {
+      "criterion": "Able to swallow whole capsules",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the patient's ability to swallow capsules is provided.",
+      "clinical_question": "Can the patient swallow whole capsules without difficulty or discomfort?"
+    },
+    {
+      "criterion": "No active infection requiring IV antibiotics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on active infections is available, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient currently have any active infections that require intravenous antibiotics?"
+    },
+    {
+      "criterion": "No significant active psychiatric disease that would preclude use of the study drug",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on psychiatric conditions is provided, so eligibility cannot be determined.",
+      "clinical_question": "Does the patient have a current diagnosis of any active psychiatric disorder, as defined by the DSM-5 criteria, that would preclude the use of the study drug?"
+    },
+    {
+      "criterion": "No other significant uncontrolled medical illness that would preclude study participation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on other uncontrolled medical illnesses is available, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient have any uncontrolled medical illnesses, such as uncontrolled hypertension or significant chronic pain, that would preclude study participation?"
+    },
+    {
+      "criterion": "No other active life-threatening malignancy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine but no other active life-threatening malignancy is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 1 week since prior interferon or thalidomide",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on temozolomide but there is no indication of recent use of interferon or thalidomide.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent anticancer immunotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is receiving Avastin, which is considered an anticancer immunotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 2 weeks since prior vincristine",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of prior vincristine treatment, making it unclear if the 2-week requirement is met.",
+      "clinical_question": "Has the patient received vincristine within the last 2 weeks?"
+    },
+    {
+      "criterion": "At least 3 weeks since prior procarbazine",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on prior procarbazine treatment, so it is uncertain if the 3-week requirement is met.",
+      "clinical_question": "Has the patient completed treatment with procarbazine at least 3 weeks prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "At least 6 weeks since prior nitrosoureas",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No prior nitrosoureas are mentioned, but it is unclear if the 6-week requirement is applicable.",
+      "clinical_question": "Has the patient received nitrosourea chemotherapy within the last 6 weeks?"
+    },
+    {
+      "criterion": "No other concurrent anticancer chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on multiple chemotherapy agents, including temozolomide and CPT-11.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Endocrine therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any endocrine therapy.",
+      "clinical_question": "Has the patient received any form of endocrine therapy as part of their treatment regimen?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The disease characteristics are not specified, making it impossible to assess this criterion.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of recurrent high-grade glioma based on imaging studies within the last 6 months?"
+    },
+    {
+      "criterion": "At least 1 week since prior tamoxifen",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of prior tamoxifen use, so it is unclear if the 1-week requirement is met.",
+      "clinical_question": "Has the patient completed at least 1 week since the last dose of tamoxifen?"
+    },
+    {
+      "criterion": "Concurrent steroids for the control of increased intracranial pressure allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is on high-dose steroids, which is allowed for controlling increased intracranial pressure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has undergone prior radiotherapy, which may disqualify them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Insufficient information provided to assess disease characteristics.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of recurrent high-grade glioma based on imaging studies within the last 6 months?"
+    },
+    {
+      "criterion": "At least 4 weeks since prior radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has had prior radiotherapy within the last 4 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent anticancer radiotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is not currently receiving concurrent anticancer radiotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Insufficient information to determine if surgery is applicable.",
+      "clinical_question": "Has the patient undergone surgical intervention for the recurrent high-grade glioma within the last 6 months?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Insufficient information provided to assess disease characteristics.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of recurrent high-grade glioma based on imaging studies within the last 6 months?"
+    },
+    {
+      "criterion": "Prior recent resection of recurrent or progressive disease allowed",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has not had a recent resection of recurrent or progressive disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific details provided for this criterion.",
+      "clinical_question": "Has the patient experienced a progression-free survival of at least 6 months following the last treatment prior to enrollment?"
+    },
+    {
+      "criterion": "Recovered from all prior therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is currently undergoing multiple therapies and may not have fully recovered from prior treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 1 week since prior noncytotoxic agents (e.g., isotretinoin), except for radiosensitizers",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on high-dose steroids and temozolomide, which are considered noncytotoxic agents. Since he is still receiving temozolomide, this criterion is not met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 4 weeks since prior investigational agents",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has been receiving multiple treatments, including investigational agents like Avastin. Since he is still undergoing treatment, it is likely that he has not been off investigational agents for at least 4 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 4 weeks since prior cytotoxic therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple cycles of cytotoxic therapy, including temozolomide and CPT-11, and is currently still on treatment. Therefore, he has not been off cytotoxic therapy for at least 4 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent investigational agents",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently receiving Avastin, which is an investigational agent. This disqualifies him from meeting the criterion of having no concurrent investigational agents.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 11 of 61 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4262
+}

@@ -1,0 +1,402 @@
+{
+  "nct_id": "NCT02214277",
+  "trial_title": "Cerebral Protection in Transcatheter Aortic Valve Replacement",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "The Sentinel System will be a safe and effective method for capturing and removing embolic material (thrombus/debris) during transcatheter aortic valve replacement in order to reduce the ischemic burden in the cerebral anterior circulation.",
+  "eligibility_table": [
+    {
+      "criterion": "Approved indications for commercially available Edwards SAPIEN Transcatheter Heart Valve, model 9000TFX or SAPIEN XT, model 9300TFX meeting one of the three sub-criteria below:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe aortic stenosis but also has severe aortic insufficiency (2+), which disqualifies him from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "SAPIEN transfemoral delivery in subjects with severe symptomatic calcified native aortic valve stenosis without severe aortic insufficiency and with ejection fraction >20% who have been examined by a heart team including an experienced cardiac surgeon and a cardiologist and found to either be:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has an ejection fraction of 25%, which is below the required >20%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "inoperable and in whom existing co-morbidities would not preclude the expected benefit from correction of the aortic stenosis; or",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "While the patient has multiple comorbidities, it is unclear if they would preclude the expected benefit from correcting the aortic stenosis.",
+      "clinical_question": "Does the patient have a predicted surgical risk score (e.g., STS or EuroSCORE) of less than 15%?"
+    },
+    {
+      "criterion": "be operative candidates for aortic valve replacement but who have a Society of Thoracic Surgeons predicted operative risk score >8% or are judged by the heart team to be at a 15% risk of mortality for surgical aortic valve replacement.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely an operative candidate given the severe aortic stenosis and low ejection fraction, and the risk factors suggest a high operative risk.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "or transapical delivery in subjects with severe symptomatic calcified native aortic valve stenosis without severe aortic insufficiency and with ejection fraction > 20% who have been examined by a heart team including an experienced cardiac surgeon and a cardiologist and found to be operative candidates for aortic valve replacement but who have a Society of Thoracic Surgeons operative risk score 8% or are judged by the heart team to be at a 15% risk of mortality for surgical aortic valve replacement.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe aortic insufficiency, which disqualifies him from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "SAPIEN XT (Transfemoral or Transapical only)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The SAPIEN XT model is applicable as the patient is being considered for transcatheter aortic valve replacement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "in patients with symptomatic heart disease due to severe native calcific aortic stenosis (aortic valve area ≤ 1.0 cm2 or aortic valve area index ≤ 0.6 cm2/m2, a mean aortic valve gradient of ≥ 40 mmHg, or a peak aortic-jet velocity of ≥ 4.0 m/s), and with native anatomy appropriate for the 23, 26, or 29 mm valve system, who are judged by a heart team, including a cardiac surgeon, to be at high or greater risk for open surgical therapy (i.e., Society of Thoracic Surgeons operative risk score ≥8% or at a ≥15% risk of mortality at 30 days).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has symptomatic heart disease due to severe aortic stenosis and meets the criteria for high surgical risk.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Compatible left common carotid artery (6.5 - 10 mm) and brachiocephalic artery (9 - 15 mm) diameters without significant stenosis (> 70%) as determined by Multi-Slice Computed Tomography (MSCT) scan or equivalent imaging modality",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The imaging results regarding carotid artery diameters and stenosis are not provided, making it unclear if this criterion is met.",
+      "clinical_question": "Is the diameter of the left common carotid artery between 6.5 mm and 10 mm and the diameter of the brachiocephalic artery between 9 mm and 15 mm as determined by Multi-Slice Computed Tomography (MSCT) scan?"
+    },
+    {
+      "criterion": "Vasculature in the right extremity precluding 6Fr sheath radial or brachial access",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's right extremity vasculature is not assessed, but given the history of cardiac issues, it is likely that access may be compromised.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Inadequate circulation to the right extremity as evidenced by signs of artery occlusion (modified Allen's test) or absence of radial/brachial pulse",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the circulation to the right extremity, making it uncertain if this criterion is met.",
+      "clinical_question": "Does the patient exhibit signs of artery occlusion in the right extremity as indicated by a modified Allen's test score of less than 5 seconds or an absence of radial/brachial pulse?"
+    },
+    {
+      "criterion": "Hemodialysis shunt, graft, or arterio-venous fistula involving the upper extremity vasculature",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the presence of a hemodialysis shunt, graft, or fistula.",
+      "clinical_question": "Does the patient have a hemodialysis shunt, graft, or arterio-venous fistula involving the upper extremity vasculature?"
+    },
+    {
+      "criterion": "Evidence of an acute myocardial infarction ≤ 1 month before the intended treatment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of an acute myocardial infarction is mentioned, but the timeframe is not specified.",
+      "clinical_question": "Has the patient experienced an acute myocardial infarction within the last 30 days?"
+    },
+    {
+      "criterion": "Aortic valve is a congenital unicuspid or bicuspid valve; or is non-calcified",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a bicuspid aortic valve, which is explicitly mentioned in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mixed aortic valve disease (aortic stenosis and aortic regurgitation with predominant aortic regurgitation >3+)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has aortic stenosis and aortic insufficiency, but the degree of aortic regurgitation is only 2+, which does not meet the exclusion criteria.",
+      "clinical_question": "Does the patient have aortic regurgitation classified as >3+ on echocardiogram?"
+    },
+    {
+      "criterion": "Any therapeutic invasive cardiac procedure resulting in a permanent implant that is performed within 30 days of the index procedure (unless part of planned strategy for treatment of concomitant coronary artery disease)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on any recent invasive cardiac procedures within 30 days is provided.",
+      "clinical_question": "Has the patient undergone any therapeutic invasive cardiac procedure resulting in a permanent implant within 30 days of the transcatheter aortic valve replacement?"
+    },
+    {
+      "criterion": "Pre-existing prosthetic heart valve in any position, prosthetic ring, or severe (greater than 3+) mitral insufficiency",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the presence of a pre-existing prosthetic heart valve or severe mitral insufficiency is provided.",
+      "clinical_question": "Does the patient have a pre-existing prosthetic heart valve in any position or a prosthetic ring, or does he have severe (greater than 3+) mitral insufficiency?"
+    },
+    {
+      "criterion": "Blood dyscrasias as defined: Leukopenia, acute anemia, thrombocytopenia, history of bleeding diathesis or coagulopathy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values or history of blood dyscrasias are mentioned.",
+      "clinical_question": "Does the patient have a white blood cell count <4,000 cells/mm³, a hemoglobin level <12 g/dL, or a platelet count <150,000 cells/mm³?"
+    },
+    {
+      "criterion": "The subject and the treating physician agree that the subject will return for all required post-procedure follow-up visit",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient and physician can agree on follow-up visits, as this is a standard requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The subject or the subject's legal representative has been informed of the nature of the trial, agrees to its provisions and has provided written informed consent as approved by the IRB of the respective clinical site",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient or legal representative can provide informed consent, as this is a standard requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hemodynamic instability requiring inotropic support or mechanical heart assistance.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on hemodynamic stability or need for inotropic support is provided.",
+      "clinical_question": "Has the patient experienced hemodynamic instability requiring the administration of inotropic support or mechanical heart assistance during the perioperative period?"
+    },
+    {
+      "criterion": "Need for emergency surgery for any reason",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has severe aortic stenosis and worsening LV function, which may necessitate surgery, but there is no explicit indication of an emergency surgery requirement.",
+      "clinical_question": "Has the patient experienced any complications during the transcatheter aortic valve replacement procedure that necessitated emergency surgery?"
+    },
+    {
+      "criterion": "Hypertrophic cardiomyopathy with or without obstruction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have hypertrophic cardiomyopathy; however, the presence of severe aortic stenosis and LV dysfunction complicates the assessment.",
+      "clinical_question": "Does the patient have a documented left ventricular outflow tract gradient of ≥30 mmHg at rest or with provocation?"
+    },
+    {
+      "criterion": "Severe ventricular dysfunction with LVEF ≤20%",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) ≤20% as measured by echocardiogram or cardiac MRI?"
+    },
+    {
+      "criterion": "Echocardiographic evidence of intracardiac or aortic mass, thrombus, or vegetation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No echocardiographic evidence of mass, thrombus, or vegetation is provided, but the patient's severe cardiac conditions warrant caution.",
+      "clinical_question": "Does the patient have echocardiographic evidence of intracardiac or aortic mass, thrombus, or vegetation measuring ≥5 mm?"
+    },
+    {
+      "criterion": "Symptomatic or asymptomatic severe occlusive carotid disease requiring concomitant CEA/stenting",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has moderate heterogeneous plaque with bilateral ICA stenosis, but it is unclear if this constitutes severe occlusive carotid disease requiring intervention.",
+      "clinical_question": "Does the patient have ≥70% stenosis in either carotid artery as determined by carotid ultrasound?"
+    },
+    {
+      "criterion": "Subject has undergone carotid stenting or carotid endarterectomy within the previous 6 weeks",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication that the patient has undergone carotid stenting or endarterectomy within the last 6 weeks.",
+      "clinical_question": "Has the patient undergone carotid stenting or carotid endarterectomy within the last 6 weeks?"
+    },
+    {
+      "criterion": "Active peptic ulcer or upper GI bleeding within the prior 3 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No active peptic ulcer or upper GI bleeding is reported in the patient's history.",
+      "clinical_question": "Has the patient experienced an active peptic ulcer or upper GI bleeding within the last 3 months?"
+    },
+    {
+      "criterion": "A known hypersensitivity or contraindication to aspirin, heparin, ticlopidine, or clopidogrel, or sensitivity to contrast media, which cannot be adequately pre-medicated",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no known hypersensitivity to the listed medications or contrast media mentioned in the profile.",
+      "clinical_question": "Does the patient have a documented hypersensitivity or contraindication to aspirin, heparin, ticlopidine, or clopidogrel, or a sensitivity to contrast media that cannot be adequately pre-medicated?"
+    },
+    {
+      "criterion": "Recent (within 6 months) CVA or a TIA",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No recent CVA or TIA is documented in the patient's history.",
+      "clinical_question": "Has the patient experienced a cerebrovascular accident (CVA) or transient ischemic attack (TIA) within the last 6 months?"
+    },
+    {
+      "criterion": "Renal insufficiency (creatinine > 3.0 mg/dL or GFR < 30) and/or renal replacement therapy at the time of screening",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's renal function is not explicitly stated, but given the severity of other conditions, renal insufficiency cannot be ruled out.",
+      "clinical_question": "Is the patient's serum creatinine level greater than 3.0 mg/dL or is the estimated glomerular filtration rate (GFR) less than 30 mL/min?"
+    },
+    {
+      "criterion": "Life expectancy < 12 months due to non-cardiac co-morbid conditions",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's life expectancy is uncertain due to multiple severe comorbid conditions, but it is not explicitly stated to be less than 12 months.",
+      "clinical_question": "Does the patient have a documented life expectancy of less than 12 months due to non-cardiac co-morbid conditions?"
+    },
+    {
+      "criterion": "Subjects in whom anti-platelet and/or anticoagulant therapy is contraindicated, or who will refuse transfusion",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not explicitly mention contraindications to anti-platelet or anticoagulant therapy, but tobacco abuse may complicate treatment.",
+      "clinical_question": "Is there a documented contraindication to anti-platelet or anticoagulant therapy for this patient?"
+    },
+    {
+      "criterion": "Subjects who have active bacterial endocarditis or other active infections",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of active bacterial endocarditis or other active infections in the patient's profile.",
+      "clinical_question": "Does the patient currently exhibit any signs or symptoms of active bacterial endocarditis or other active infections, as defined by the presence of fever, new heart murmur, or positive blood cultures?"
+    },
+    {
+      "criterion": "Currently participating in an investigational drug or another device study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to be currently participating in any investigational drug or device study.",
+      "clinical_question": "Is the patient currently enrolled in any investigational drug or device study that has not been completed?"
+    },
+    {
+      "criterion": "Subjects who have a planned treatment with any other investigational device or procedure during the study follow-up period (90 days)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of planned treatment with any investigational device or procedure during the follow-up period.",
+      "clinical_question": "Has the patient been scheduled for any investigational device or procedure during the 90-day follow-up period?"
+    },
+    {
+      "criterion": "Subject with planned concomitant surgical or transcatheter ablation for Atrial Fibrillation during the study follow-up period (90 days)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not indicate any planned concomitant surgical or transcatheter ablation for Atrial Fibrillation.",
+      "clinical_question": "Has the patient been scheduled for a surgical or transcatheter ablation procedure for Atrial Fibrillation during the 90-day follow-up period?"
+    },
+    {
+      "criterion": "Any subject with a balloon valvuloplasty (BAV) within 30 days of the procedure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no record of balloon valvuloplasty (BAV) within 30 days of the procedure.",
+      "clinical_question": "Has the patient undergone a balloon valvuloplasty (BAV) within the last 30 days?"
+    },
+    {
+      "criterion": "Neurologic",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No neurologic conditions are mentioned in the patient's profile.",
+      "clinical_question": "Has the patient experienced any neurologic events, such as stroke or transient ischemic attack, within 30 days post-transcatheter aortic valve replacement?"
+    },
+    {
+      "criterion": "Subject had active major psychiatric disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of active major psychiatric disease in the patient's history.",
+      "clinical_question": "Does the patient have a current diagnosis of a major psychiatric disorder as defined by the DSM-5 criteria?"
+    },
+    {
+      "criterion": "Subject has severe visual, auditory, or learning impairment and who are unable to comprehend English and therefore unable to be consented for the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have severe visual, auditory, or learning impairments that would prevent comprehension of English.",
+      "clinical_question": "Does the patient have a documented assessment indicating a severe visual, auditory, or learning impairment that prevents comprehension of English?"
+    },
+    {
+      "criterion": "Subjects with neurodegenerative or other progressive neurological disease or history of significant head trauma followed by persistent neurologic defaults or known structural brain abnormalities",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of neurodegenerative diseases, significant head trauma, or structural brain abnormalities in the patient's history.",
+      "clinical_question": "Does the patient have a history of significant head trauma followed by persistent neurologic deficits or any known structural brain abnormalities?"
+    },
+    {
+      "criterion": "Angiographic",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific angiographic details provided to assess exclusion.",
+      "clinical_question": "Has the patient undergone an angiographic assessment that shows no significant coronary artery disease with ≥70% stenosis in any major coronary artery?"
+    },
+    {
+      "criterion": "Excessive tortuosity in the right radial/brachial/subclavian artery preventing Sentinel System access and insertion",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the tortuosity of the arteries is available.",
+      "clinical_question": "Is the degree of tortuosity in the right radial/brachial/subclavian artery assessed via imaging studies classified as excessive, defined as ≥45 degrees, preventing Sentinel System access and insertion?"
+    },
+    {
+      "criterion": "Subject whose brachiocephalic or left carotid artery reveals significant stenosis, calcification, ectasia, dissection, or aneurysm at the ostium or within 3 cm of the ostium",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No details on the condition of the brachiocephalic or left carotid artery are provided.",
+      "clinical_question": "Does the patient have significant stenosis (≥50% narrowing) or other abnormalities in the brachiocephalic or left carotid artery within 3 cm of the ostium as assessed by imaging studies?"
+    },
+    {
+      "criterion": "Magnetic Resonance Imaging",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No MRI-related information is available in the profile.",
+      "clinical_question": "Has the patient undergone a preoperative magnetic resonance imaging (MRI) scan to assess cerebral protection prior to transcatheter aortic valve replacement?"
+    },
+    {
+      "criterion": "Subject Body Mass Index (BMI) precluding imaging in scanner",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "BMI is not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's Body Mass Index (BMI) less than 30 to allow for imaging in the scanner?"
+    },
+    {
+      "criterion": "Contraindications to MRI (subjects with any implantable temporary or permanent pacemaker or defibrillator, metal implants in field of view, metallic fragments, clips, or devices in the brain or eye before TAVR procedure)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on contraindications to MRI is available.",
+      "clinical_question": "Does the patient have any implantable temporary or permanent pacemaker or defibrillator, or any metallic fragments, clips, or devices in the brain or eye?"
+    },
+    {
+      "criterion": "Planned implantation of a pacemaker or defibrillator implantation after TAVR",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No plans for pacemaker or defibrillator implantation are mentioned.",
+      "clinical_question": "Does the patient have a planned implantation of a pacemaker or defibrillator within 30 days following the transcatheter aortic valve replacement procedure?"
+    },
+    {
+      "criterion": "Claustrophobia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on claustrophobia is provided.",
+      "clinical_question": "Does the patient have a documented history of claustrophobia that would prevent them from undergoing necessary imaging or procedures related to transcatheter aortic valve replacement?"
+    },
+    {
+      "criterion": "Known allergy to gadolinium or contrast agent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No known allergies to gadolinium or contrast agents are mentioned.",
+      "clinical_question": "Does the patient have a documented history of an allergic reaction to gadolinium or any contrast agent?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Vasculature in the right extremity precluding 6Fr sheath radial or brachial acce",
+    "EXCLUSION UNCLEAR: Inadequate circulation to the right extremity as evidenced by signs of artery oc",
+    "EXCLUSION UNCLEAR: Hemodialysis shunt, graft, or arterio-venous fistula involving the upper extremi",
+    "EXCLUSION UNCLEAR: Evidence of an acute myocardial infarction ≤ 1 month before the intended treatme",
+    "EXCLUSION UNCLEAR: Mixed aortic valve disease (aortic stenosis and aortic regurgitation with predom",
+    "EXCLUSION UNCLEAR: Any therapeutic invasive cardiac procedure resulting in a permanent implant that",
+    "EXCLUSION UNCLEAR: Pre-existing prosthetic heart valve in any position, prosthetic ring, or severe ",
+    "EXCLUSION UNCLEAR: Blood dyscrasias as defined: Leukopenia, acute anemia, thrombocytopenia, history",
+    "EXCLUSION UNCLEAR: Hemodynamic instability requiring inotropic support or mechanical heart assistan",
+    "EXCLUSION UNCLEAR: Need for emergency surgery for any reason",
+    "EXCLUSION UNCLEAR: Hypertrophic cardiomyopathy with or without obstruction",
+    "EXCLUSION UNCLEAR: Severe ventricular dysfunction with LVEF ≤20%",
+    "EXCLUSION UNCLEAR: Echocardiographic evidence of intracardiac or aortic mass, thrombus, or vegetati",
+    "EXCLUSION UNCLEAR: Symptomatic or asymptomatic severe occlusive carotid disease requiring concomita",
+    "EXCLUSION UNCLEAR: Subject has undergone carotid stenting or carotid endarterectomy within the prev",
+    "EXCLUSION UNCLEAR: Active peptic ulcer or upper GI bleeding within the prior 3 months",
+    "EXCLUSION UNCLEAR: A known hypersensitivity or contraindication to aspirin, heparin, ticlopidine, o",
+    "EXCLUSION UNCLEAR: Recent (within 6 months) CVA or a TIA",
+    "EXCLUSION UNCLEAR: Renal insufficiency (creatinine > 3.0 mg/dL or GFR < 30) and/or renal replacemen",
+    "EXCLUSION UNCLEAR: Life expectancy < 12 months due to non-cardiac co-morbid conditions",
+    "EXCLUSION UNCLEAR: Subjects in whom anti-platelet and/or anticoagulant therapy is contraindicated, ",
+    "EXCLUSION UNCLEAR: Subjects who have active bacterial endocarditis or other active infections",
+    "EXCLUSION UNCLEAR: Currently participating in an investigational drug or another device study",
+    "EXCLUSION UNCLEAR: Subjects who have a planned treatment with any other investigational device or p",
+    "EXCLUSION UNCLEAR: Subject with planned concomitant surgical or transcatheter ablation for Atrial F",
+    "EXCLUSION UNCLEAR: Any subject with a balloon valvuloplasty (BAV) within 30 days of the procedure",
+    "EXCLUSION UNCLEAR: Neurologic",
+    "EXCLUSION UNCLEAR: Subject had active major psychiatric disease",
+    "EXCLUSION UNCLEAR: Subject has severe visual, auditory, or learning impairment and who are unable t",
+    "EXCLUSION UNCLEAR: Subjects with neurodegenerative or other progressive neurological disease or his",
+    "EXCLUSION UNCLEAR: Angiographic",
+    "EXCLUSION UNCLEAR: Excessive tortuosity in the right radial/brachial/subclavian artery preventing S",
+    "EXCLUSION UNCLEAR: Subject whose brachiocephalic or left carotid artery reveals significant stenosi",
+    "EXCLUSION UNCLEAR: Magnetic Resonance Imaging",
+    "EXCLUSION UNCLEAR: Subject Body Mass Index (BMI) precluding imaging in scanner",
+    "EXCLUSION UNCLEAR: Contraindications to MRI (subjects with any implantable temporary or permanent p",
+    "EXCLUSION UNCLEAR: Planned implantation of a pacemaker or defibrillator implantation after TAVR",
+    "EXCLUSION UNCLEAR: Claustrophobia",
+    "EXCLUSION UNCLEAR: Known allergy to gadolinium or contrast agent"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.2
+}

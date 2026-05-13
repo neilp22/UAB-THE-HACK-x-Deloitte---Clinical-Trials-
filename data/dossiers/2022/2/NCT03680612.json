@@ -1,0 +1,67 @@
+{
+  "nct_id": "NCT03680612",
+  "trial_title": "Cefepime/AAI101 Phase 2 Study in Hospitalized Adults With cUTI",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Phase 2, randomised, double-blind, 2-cohort study in hospitalised adults with complicated urinary tract infection (cUTI), including acute pyelonephritis. All study cohorts were randomised in a 2:1 ratio. Treatment duration for each cohort was 7 to 10 days. Patients were not permitted to switch to oral therapy.\n\nCohort 1: 15 patients treated with cefepime 1 g/AAI101 500 mg intravenous (i.v.) infusion over 2 hours once every 8 hours (q8h), and 7 patients treated with cefepime 1 g i.v. infusion ove",
+  "eligibility_table": [
+    {
+      "criterion": "Male or female patients with clinical signs and/or symptoms of cUTI or acute pyelonephritis that were expected to require hospitalization and initial treatment with at least 7 days of i.v. antibiotics.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has complicated UTIs, but there is no indication that hospitalization and initial treatment with at least 7 days of i.v. antibiotics is expected.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with concurrent infection that would interfere with evaluation of response to the study antibiotics;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no concurrent infection reported that would interfere with the evaluation of response to study antibiotics.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients needing concomitant systemic antimicrobial agents in addition to those designated in the various study treatment groups;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not reported to need any concomitant systemic antimicrobial agents.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients receiving effective antibacterial drug therapy for any indication for a continuous duration of >24 hours during the previous 72 hours before the study-qualifying baseline urine was obtained or receiving any amount of potentially therapeutic antibacterial therapy after collection of the pre-treatment baseline urine culture and before administration of the first dose of study drug;",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of complicated UTIs and may have received antibacterial therapy recently, which could exceed the 24-hour limit.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients likely to require the use of an antibiotic for cUTI or acute pyelonephritis prophylaxis during participation in the study;",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "Given the patient's history of complicated UTIs, there is a likelihood that she may require antibiotic prophylaxis during the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with confirmed fungal urinary tract infection at the screening visit (with ≥103 fungal colony forming units [CFU]/mL);",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a confirmed fungal urinary tract infection with ≥103 fungal colony forming units (CFU)/mL at the screening visit?"
+    },
+    {
+      "criterion": "Patients with intractable urinary infection at baseline that the Investigator anticipated would require >10 days of study drug therapy were excluded from participation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's intractable urinary infection status is unclear, making it difficult to determine if >10 days of study drug therapy would be required.",
+      "clinical_question": "Is the investigator's anticipated duration of study drug therapy for this patient expected to be >10 days?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Patients receiving effective antibacterial drug therapy for any indication for a",
+    "EXCLUSION VIOLATED: Patients likely to require the use of an antibiotic for cUTI or acute pyelonephr",
+    "EXCLUSION UNCLEAR: Patients with confirmed fungal urinary tract infection at the screening visit (w",
+    "EXCLUSION UNCLEAR: Patients with intractable urinary infection at baseline that the Investigator an",
+    "LOW INCLUSION MATCH: only 0 of 1 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.7143
+}

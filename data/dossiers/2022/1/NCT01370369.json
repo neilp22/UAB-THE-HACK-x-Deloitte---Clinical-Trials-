@@ -1,0 +1,132 @@
+{
+  "nct_id": "NCT01370369",
+  "trial_title": "Efficacy, Pharmacokinetics and Safety of Testosterone",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This is an open-label study of a single and repeated application of three dose levels of topical testosterone in hypogonadal males with morning serum testosterone concentrations \\< 297 ng/dL.",
+  "eligibility_table": [
+    {
+      "criterion": "Ages 18-65",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 19.0 <= 65.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of hypogonadism",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a documented history of hypogonadism.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "In good health based on medical history, physical examination and clinical laboratory tests",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has conditions that may affect overall health, such as delayed puberty and hypogonadism, which could indicate they are not in good health.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Screening morning serum testosterone ≤ 297 ng/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's morning serum testosterone level ≤ 297 ng/dL?"
+    },
+    {
+      "criterion": "One or more symptoms of testosterone deficiency (i.e. fatigue, reduced libido or reduced sexual functioning of non-vasculogenic or neurogenic nature)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient exhibits symptoms consistent with testosterone deficiency, such as low testosterone levels and inability to detect certain smells.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Body mass index (BMI) between 18 and 31",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's BMI is not provided; therefore, it cannot be assessed.",
+      "clinical_question": "Does the patient have a body mass index (BMI) between 18 and 31?"
+    },
+    {
+      "criterion": "Prostate cancer",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of prostate cancer in the patient's profile.",
+      "clinical_question": "Does the patient have a prostate-specific antigen (PSA) level ≤4 ng/mL?"
+    },
+    {
+      "criterion": "Palpable prostatic mass(es)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of palpable prostatic masses in the patient's profile.",
+      "clinical_question": "Does the patient have a palpable prostatic mass measuring ≥1 cm in diameter?"
+    },
+    {
+      "criterion": "Generalized skin irritation or significant skin disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information suggesting generalized skin irritation or significant skin disease.",
+      "clinical_question": "Does the patient exhibit any signs of generalized skin irritation or a significant skin disease as defined by the presence of erythema, scaling, or lesions affecting more than 10% of the body surface area?"
+    },
+    {
+      "criterion": "Use of any medications that could be considered anabolic (e.g. dehydroepiandrosterone (DHEA)) or could interfere with androgen metabolism (e.g. spironolactone, finasteride, ketoconazole)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not on any medications that could be considered anabolic or interfere with androgen metabolism.",
+      "clinical_question": "Has the patient used any medications classified as anabolic or that interfere with androgen metabolism in the past 6 months?"
+    },
+    {
+      "criterion": "Clinically significant anemia or renal dysfunction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of clinically significant anemia or renal dysfunction in the patient's profile.",
+      "clinical_question": "Does the patient have a hemoglobin level <13 g/dL indicating clinically significant anemia?"
+    },
+    {
+      "criterion": "Hyperparathyroidism or uncontrolled diabetes",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of hyperparathyroidism or uncontrolled diabetes in the patient's profile.",
+      "clinical_question": "Does the patient have a serum parathyroid hormone level greater than 65 pg/mL or an HbA1c level greater than 7%?"
+    },
+    {
+      "criterion": "Serum PSA Levels; ≥ 4ng/mL",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum PSA level ≥ 4 ng/mL?"
+    },
+    {
+      "criterion": "History of cardiovascular disease",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported history of cardiovascular disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of estrogens, Gonadotropin-releasing hormone (GnRH) agonists/antagonist, human growth hormone (hGH), (within previous 12 months)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently using any medications, including estrogens or GnRH products, as indicated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of testosterone products (within eight months for parenteral products, or six weeks for other preparations)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not used testosterone products in the specified timeframe, as they are not on any medications.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Prostate cancer",
+    "EXCLUSION UNCLEAR: Palpable prostatic mass(es)",
+    "EXCLUSION UNCLEAR: Generalized skin irritation or significant skin disease",
+    "EXCLUSION UNCLEAR: Use of any medications that could be considered anabolic (e.g. dehydroepiandrost",
+    "EXCLUSION UNCLEAR: Clinically significant anemia or renal dysfunction",
+    "EXCLUSION UNCLEAR: Hyperparathyroidism or uncontrolled diabetes",
+    "EXCLUSION UNCLEAR: Serum PSA Levels; ≥ 4ng/mL"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4375
+}

@@ -1,0 +1,42 @@
+{
+  "nct_id": "NCT01980797",
+  "trial_title": "International Bicuspid Aortic Valve Consortium (BAVCon)",
+  "phase": "",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "Bicuspid aortic valve (BAV) disease is the most frequent congenital cardiac malformation, occurring in 0.5-1.2% of the US population. In young adults, it is generally a benign abnormality; but in older adults it is associated with thoracic aortic aneurysm or dissection in 20-30% of those with BAV. BAV is strongly associated with early development of aortic valve calcification or incompetence in \\>50% of BAV patients, and accounts for \\~40% of the \\>30,000 aortic valve replacements (AVR) performe",
+  "eligibility_table": [
+    {
+      "criterion": "Patients diagnosed as having a bicuspid aortic valve",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a documented diagnosis of a bicuspid aortic valve.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "All ages ≥8 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Does the patient have a documented left ventricular ejection fraction (EF) of ≤30%?"
+    },
+    {
+      "criterion": "Able to provide fully informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is a male and likely able to provide informed consent, but the specific ability to do so is not explicitly stated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "None",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There are no exclusion criteria provided, so it is not applicable.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) of ≤30%?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: None"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

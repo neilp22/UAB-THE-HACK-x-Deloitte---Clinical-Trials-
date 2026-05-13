@@ -1,0 +1,47 @@
+{
+  "nct_id": "NCT00089310",
+  "trial_title": "Sentinel Lymph Node Mapping in Detecting Cancer That Has Spread to Lymph Nodes in Patients With Non-Small Cell Lung Cancer",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Diagnostic procedures such as sentinel lymph node mapping may improve the ability to detect cancer that has spread to the lymph nodes.\n\nPURPOSE: This clinical trial is studying how well sentinel lymph node mapping works in detecting cancer that has spread to the lymph nodes in patients who are undergoing surgery for stage I non-small cell lung cancer.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with clinical stage I lung cancer for whom surgical resection is planned are eligible. Histologic confirmation of lung cancer is not required prior to registration or surgical exploration. Preoperative mediatinoscopy is allowed but not required in those patients with indications for mediatinoscopy. It is preferred that that mediatinoscopy be done at a different setting (prior to registration), but the procedure may be done at the same setting as the lobectomy.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has stage IV non-small cell lung cancer, which does not meet the inclusion criterion of having clinical stage I lung cancer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior therapy for this diagnosis.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received prior treatment with erlotinib for this diagnosis, which disqualifies her from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior treatment with mediastinal radiation therapy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication in the patient's profile that she has received prior treatment with mediastinal radiation therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age ≥ 18 years of age.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 58.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ECOG performance status: 0-2.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ECOG 1.0 <= 2.0 → True",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE",
+  "confidence_score": 1.0
+}

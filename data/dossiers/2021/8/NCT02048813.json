@@ -1,0 +1,462 @@
+{
+  "nct_id": "NCT02048813",
+  "trial_title": "Ibrutinib and Rituximab Compared With Fludarabine Phosphate, Cyclophosphamide, and Rituximab in Treating Patients With Untreated Chronic Lymphocytic Leukemia or Small Lymphocytic Lymphoma",
+  "phase": "PHASE3",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "This phase III trial studies ibrutinib and rituximab to see how well they work compared to fludarabine phosphate, cyclophosphamide, and rituximab in treating patients with untreated chronic lymphocytic leukemia or small lymphocytic lymphoma. Ibrutinib may stop the growth of cancer cells by blocking some of the enzymes needed for cell growth. Chemotherapy drugs, such as fludarabine phosphate and cyclophosphamide, work in different ways to stop the growth of cancer cells, either by killing the cel",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosis of CLL according to the National Cancer Institute (NCI)/Internal Workshop on Chronic Lymphocytic Leukemia (IWCLL) criteria or small lymphocytic lymphoma (SLL) according to the World Health Organization (WHO) criteria; this includes previous documentation of:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of CLL, which aligns with the NCI/IWCLL criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biopsy-proven small lymphocytic lymphoma or",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not been documented to have biopsy-proven small lymphocytic lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diagnosis of CLL according to the NCI/IWCLL criteria as evidenced by all of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient meets the NCI/IWCLL criteria for CLL diagnosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Peripheral blood lymphocyte count of greater than 5 x 10^9/L",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's elevated white count suggests a peripheral blood lymphocyte count greater than 5 x 10^9/L.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Immunophenotype consistent with CLL defined as:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Immunophenotype details are not provided in the profile.",
+      "clinical_question": "Does the patient's immunophenotype show ≥30% CD5+ and CD23+ B cells in the peripheral blood or bone marrow?"
+    },
+    {
+      "criterion": "The predominant population of lymphocytes share both B-cell antigens (cluster of differentiation [CD]19, CD20 [typically dim expression], or CD23) as well as CD5 in the absence of other pan-T-cell markers (CD3, CD2, etc)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Clonality evidence is not provided in the profile.",
+      "clinical_question": "Does the patient's lymphocyte population express CD19, CD20 (dim), CD23, and CD5 while lacking CD3 and CD2 markers?"
+    },
+    {
+      "criterion": "Clonality as evidenced by kappa or lambda light chain restriction (typically dim immunoglobulin expression)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "FISH analysis results are not provided in the profile.",
+      "clinical_question": "Does the patient exhibit kappa or lambda light chain restriction with a dim immunoglobulin expression on immunophenotyping?"
+    },
+    {
+      "criterion": "Negative FISH analysis for t(11;14)(immunoglobulin heavy locus [IgH]/cyclin D1 [CCND1]) on peripheral blood or tissue biopsy (e.g. marrow aspirate) or negative immunohistochemical stains for cyclin D1 staining on involved tissue biopsy (e.g. marrow aspirate or lymph node biopsy)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received prior chemotherapy (FCR, PCR, R-CVP) for CLL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior chemotherapy, Bruton's tyrosine kinase (BTK) inhibitor therapy, or monoclonal anti-body therapy for treatment of CLL or SLL",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple prior treatments for CLL, disqualifying them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Has met at least one of the following indications for treatment:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has bulky lymphadenopathy and elevated LDH, indicating a need for treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of progressive marrow failure as manifested by the development of worsening anemia (hemoglobin [Hg] < 11 g/dl) and/or thrombocytopenia (platelets < 100 x 10^9/L)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific lab values provided to confirm anemia or thrombocytopenia.",
+      "clinical_question": "Does the patient have a hemoglobin level < 11 g/dl or a platelet count < 100 x 10^9/L?"
+    },
+    {
+      "criterion": "Symptomatic or progressive lymphadenopathy, splenomegaly, or hepatomegaly",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has bulky lymphadenopathy, indicating symptomatic or progressive lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "One or more of the following disease-related symptoms:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific disease-related symptoms listed; unclear if any are present.",
+      "clinical_question": "Does the patient have one or more disease-related symptoms such as fever, night sweats, or weight loss exceeding 10% of body weight in the past six months?"
+    },
+    {
+      "criterion": "Weight loss >= 10% within the previous 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on weight loss provided; cannot assess this criterion.",
+      "clinical_question": "Has the patient experienced a weight loss of ≥10% within the previous 6 months?"
+    },
+    {
+      "criterion": "Grade 2 or 3 fatigue attributed to CLL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on fatigue grade provided; cannot assess this criterion.",
+      "clinical_question": "Has the patient experienced Grade 2 or 3 fatigue attributed to CLL as assessed by the Common Terminology Criteria for Adverse Events (CTCAE)?"
+    },
+    {
+      "criterion": "Fevers > 100.5 Fahrenheit (F) for 2 weeks without evidence of infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on fevers provided; cannot assess this criterion.",
+      "clinical_question": "Has the patient experienced fevers ≥100.5°F for at least 14 consecutive days without any evidence of infection?"
+    },
+    {
+      "criterion": "Clinically significant night sweats without evidence of infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on night sweats provided; cannot assess this criterion.",
+      "clinical_question": "Has the patient experienced night sweats occurring ≥3 times per week for the past month without evidence of infection?"
+    },
+    {
+      "criterion": "Progressive lymphocytosis (not due to the effects of corticosteroids) with an increase of > 50% over a two-month period or an anticipated doubling time of less than six months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific information on lymphocytosis provided; cannot assess this criterion.",
+      "clinical_question": "Has the patient's lymphocyte count increased by more than 50% over the past two months?"
+    },
+    {
+      "criterion": "Age ≥ 18 years and ≤ 70",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is 57 years old, which is within the age range of 18-70.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ECOG performance status between 0-2",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has excellent performance status, likely within ECOG 0-2.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy of >= 12 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 57 years old and has a good performance status, suggesting a life expectancy of at least 12 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to tolerate FCR based therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has previously tolerated multiple therapies including FCR, indicating an ability to tolerate FCR-based therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No deletion of 17p13 on cytogenetic analysis by FISH",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No cytogenetic analysis results are provided; therefore, it is unclear if there is a deletion of 17p13.",
+      "clinical_question": "Has the patient undergone cytogenetic analysis by FISH to confirm the absence of deletion of 17p13?"
+    },
+    {
+      "criterion": "Glomerular filtration rate (GFR) > 40 mL/minute as calculated by the Cockcroft-Gault formula (obtained <= 14 days prior to registration)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's glomerular filtration rate (GFR) greater than 40 mL/minute as calculated by the Cockcroft-Gault formula obtained within 14 days prior to registration?"
+    },
+    {
+      "criterion": "Total bilirubin <= 2.5 x upper limit of normal (ULN) (obtained <= 14 days prior to registration) unless due to Gilbert's disease; for those with a total bilirubin > 2.5 x ULN, a direct bilirubin should be performed and must be < 1.5 mg/dL for Gilbert's to be diagnosed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for total bilirubin are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 2.5 x upper limit of normal (ULN) as measured within 14 days prior to registration?"
+    },
+    {
+      "criterion": "If value is higher due to hepatic involvement by CLL, patient is eligible",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Without lab values indicating hepatic involvement, it cannot be determined if the bilirubin level is due to CLL.",
+      "clinical_question": "Is the patient's hepatic involvement indicated by an elevated bilirubin level greater than 1.5 mg/dL?"
+    },
+    {
+      "criterion": "Serum glutamic oxaloacetic transaminase (SGOT) (aspartate transaminase [AST])/serum glutamate-pyruvate transaminase (SGPT) (alanine transaminase [ALT]) <= 3.0 x the institutional ULN (obtained <= 14 days prior to registration)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "SGOT/SGPT values are not provided, so it cannot be assessed if they are within the required limits.",
+      "clinical_question": "Is the patient's serum glutamic oxaloacetic transaminase (SGOT) and serum glutamate-pyruvate transaminase (SGPT) level ≤ 3.0 x the institutional upper limit of normal (ULN) as measured within 14 days prior to registration?"
+    },
+    {
+      "criterion": "If value is higher due to hepatic involvement by CLL, patient is eligible",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Similar to criterion 6, without lab values, it cannot be determined if the values are due to CLL.",
+      "clinical_question": "Is the patient's hepatic involvement indicated by an elevated bilirubin level greater than 1.5 mg/dL?"
+    },
+    {
+      "criterion": "Prothrombin time (PT)/international normalized ratio (INR) < 1.5 ULN and partial thromboplastin time (PTT) (activated partial thromboplastin time [aPTT]) < 1.5 X ULN (obtained <= 14 days prior to registration)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "PT/INR and PTT values are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's prothrombin time (PT) less than 1.5 times the upper limit of normal (ULN) and is the activated partial thromboplastin time (aPTT) less than 1.5 times the ULN, as measured within 14 days prior to registration?"
+    },
+    {
+      "criterion": "No active hemolytic anemia requiring immunosuppressive therapy or other pharmacologic treatment; patients who have a positive Coombs test but no evidence of hemolysis are NOT excluded from participation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on hemolytic anemia or Coombs test results is available to assess this criterion.",
+      "clinical_question": "Does the patient have any evidence of active hemolytic anemia requiring immunosuppressive therapy or other pharmacologic treatment?"
+    },
+    {
+      "criterion": "No current use of corticosteroids; EXCEPTION: low doses of steroids (< 10 mg of prednisone or equivalent dose of other steroid) used for treatment of non-hematologic medical condition (e.g. chronic adrenal insufficiency) is permitted",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding current corticosteroid use, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient currently using corticosteroids at a dose of ≥10 mg of prednisone or equivalent?"
+    },
+    {
+      "criterion": "No previous use of corticosteroids for autoimmune complications that have developed since the initial diagnosis of CLL; prior use of corticosteroids for reasons other than treatment of autoimmune complications is allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not specify any corticosteroid use for autoimmune complications, but it is unclear if they have used corticosteroids for other reasons.",
+      "clinical_question": "Has the patient received any corticosteroids for autoimmune complications since the initial diagnosis of CLL?"
+    },
+    {
+      "criterion": "No other active primary malignancy (other than non-melanomatous skin cancer or carcinoma in situ of the cervix) requiring treatment or limiting expected survival to <= 2 years; NOTE: if there is a history of prior malignancy, they must not be receiving other specific treatment (other than hormonal therapy for their cancer)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has CLL and Richter's transformation, which indicates a history of malignancy that may require treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Able to adhere to the study visit schedule and other protocol requirements",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient confirmed availability to attend all scheduled study visits over the next 12 months?"
+    },
+    {
+      "criterion": "No major surgery within the last 4 weeks (28 days) of first dose of study drug or minor surgery within 3 days of first dose of study drug",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any recent surgeries, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient undergone any major surgery within the last 28 days or minor surgery within the last 3 days prior to the first dose of the study drug?"
+    },
+    {
+      "criterion": "No radiation therapy <= 4 weeks prior to registration",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention any recent radiation therapy, but this information is not explicitly stated.",
+      "clinical_question": "Has the patient received any radiation therapy within the last 4 weeks prior to registration?"
+    },
+    {
+      "criterion": "Patients with human immunodeficiency virus (HIV) infection may be eligible provided they meet the following criteria:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information regarding HIV status, making it impossible to assess eligibility.",
+      "clinical_question": "Does the patient have a CD4 count of ≥350 cells/mm³?"
+    },
+    {
+      "criterion": "CD4-positive cell count >= lower limit of institutional normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Without information on the patient's CD4 count, it is not possible to determine if this criterion is met.",
+      "clinical_question": "Is the patient's CD4-positive cell count ≥ the lower limit of the institutional normal range?"
+    },
+    {
+      "criterion": "HIV viral load < 10,000 copies HIV ribonucleic acid (RNA)/mL (if not on anti-HIV therapy) OR < 50 copies HIV RNA/mL (if on anti-HIV therapy)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's HIV viral load is not provided, so eligibility cannot be assessed.",
+      "clinical_question": "Is the patient's HIV viral load currently <10,000 copies HIV RNA/mL if not on anti-HIV therapy, or <50 copies HIV RNA/mL if on anti-HIV therapy?"
+    },
+    {
+      "criterion": "No evidence of hepatitis B or C infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding hepatitis B or C infection status in the patient profile.",
+      "clinical_question": "Has the patient been tested for hepatitis B and C infections, and do the results show no evidence of either infection?"
+    },
+    {
+      "criterion": "No evidence of resistant strains of HIV",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention resistant strains of HIV, leaving this criterion uncertain.",
+      "clinical_question": "Has the patient been tested for HIV resistance mutations, and if so, do the results show no evidence of resistant strains?"
+    },
+    {
+      "criterion": "No history of acquired immune deficiency syndrome (AIDS)-defining condition",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any history of AIDS-defining conditions, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient ever been diagnosed with an AIDS-defining condition, such as opportunistic infections or certain cancers, at any point in their medical history?"
+    },
+    {
+      "criterion": "Patients must not have any of the following conditions:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not specify any of the excluded conditions, but without complete lab values or medical history, it's uncertain.",
+      "clinical_question": "Does the patient have any evidence of active autoimmune disease or significant organ dysfunction that would contraindicate the use of ibrutinib and rituximab?"
+    },
+    {
+      "criterion": "Congestive heart failure or New York Heart Association Functional Classification III or IV congestive heart failure",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on heart conditions is provided, making it unclear if the patient has congestive heart failure.",
+      "clinical_question": "Does the patient have a documented history of congestive heart failure or a New York Heart Association Functional Classification of III or IV?"
+    },
+    {
+      "criterion": "History of myocardial infarction, unstable angina, or acute coronary syndrome within 6 months prior to registration",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of myocardial infarction or acute coronary syndrome, but the absence of detailed cardiac history leaves this uncertain.",
+      "clinical_question": "Has the patient experienced a myocardial infarction, unstable angina, or acute coronary syndrome within the last 6 months?"
+    },
+    {
+      "criterion": "Recent infections requiring systemic treatment; need to have completed anti-biotic therapy > 14 days before the first dose of study drug",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not reported recent infections, but without specific treatment history, it's unclear.",
+      "clinical_question": "Has the patient completed systemic antibiotic therapy for any recent infections at least 14 days prior to the first dose of the study drug?"
+    },
+    {
+      "criterion": "Cerebral vascular accident or intracranial bleed within the last 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No details on cerebral vascular accidents or intracranial bleeds are provided, making it uncertain.",
+      "clinical_question": "Has the patient experienced a cerebral vascular accident or intracranial bleed within the last 6 months?"
+    },
+    {
+      "criterion": "Infection with known chronic, active hepatitis C",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's hepatitis status is not mentioned, so it's unclear if they have chronic hepatitis C.",
+      "clinical_question": "Does the patient have a documented positive test for hepatitis C virus (HCV) RNA?"
+    },
+    {
+      "criterion": "Serologic status reflecting active hepatitis B or C infection; patients that are positive for hepatitis B core antibody, hepatitis B surface antigen (HBsAg), or hepatitis C antibody must have a negative polymerase chain reaction (PCR) prior to enrollment (PCR positive patients will be excluded)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's serologic status regarding hepatitis B or C is not provided, leaving uncertainty.",
+      "clinical_question": "Is the patient's hepatitis B and C PCR result negative prior to enrollment?"
+    },
+    {
+      "criterion": "Patients are not eligible if they require treatment with a strong cytochrome P450 (CYP) family 3, subfamily A (3A) inhibitor",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the need for CYP3A inhibitors, making it unclear.",
+      "clinical_question": "Is the patient currently taking any medications that are classified as strong CYP3A inhibitors?"
+    },
+    {
+      "criterion": "Patients may not be on any other investigational agents",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on multiple medications, but it is not specified if any are investigational agents.",
+      "clinical_question": "Has the patient received any investigational agents within the last 30 days?"
+    },
+    {
+      "criterion": "Patients may not have received warfarin or another vitamin K antagonist in the preceding 30 days",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of warfarin or vitamin K antagonists in the patient's medication history, but this is not confirmed.",
+      "clinical_question": "Has the patient received warfarin or another vitamin K antagonist in the 30 days prior to enrollment?"
+    },
+    {
+      "criterion": "Women must not be pregnant or breast-feeding since this study involves an investigational agent whose genotoxic, mutagenic, and teratogenic effects on the developing fetus and newborn are unknown; female patients of childbearing potential must have a negative serum pregnancy test within 2 weeks prior to registration to rule out pregnancy; female patients who are of non-reproductive potential are those who are post-menopausal by history (i.e. no menses for >= 1 year); OR history of hysterectomy; OR history of bilateral tubal ligation; OR history of bilateral oophorectomy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion pertains to female patients; the patient is male.",
+      "clinical_question": "Has the patient had a negative serum pregnancy test within the last 2 weeks?"
+    },
+    {
+      "criterion": "Women of childbearing potential and sexually active males must be strongly advised to use an accepted and effective method of contraception or to abstain from sexual intercourse for 90 days after the last dose of study drug",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion pertains to female patients; the patient is male.",
+      "clinical_question": "Has the patient been advised to use an accepted and effective method of contraception or to abstain from sexual intercourse for 90 days after the last dose of study drug?"
+    },
+    {
+      "criterion": "Patient must be able to swallow capsules and not have the following conditions:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is able to swallow capsules as there are no reported conditions affecting this ability.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Disease significantly affecting gastrointestinal function",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific gastrointestinal conditions are reported, but the patient's history of CLL and treatments may suggest potential issues.",
+      "clinical_question": "Does the patient have a gastrointestinal symptom severity score of ≥3 on a scale of 0 to 10?"
+    },
+    {
+      "criterion": "Resection of the stomach or small bowel",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of stomach or small bowel resection is provided, but the patient's treatment history may indicate potential complications.",
+      "clinical_question": "Has the patient undergone a surgical resection of the stomach or small bowel within the last 12 months?"
+    },
+    {
+      "criterion": "Symptomatic inflammatory bowel disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of inflammatory bowel disease is reported, but the patient's overall health status and treatment may need further evaluation.",
+      "clinical_question": "Does the patient have a documented history of symptomatic inflammatory bowel disease, defined as experiencing abdominal pain, diarrhea, or rectal bleeding within the last 6 months?"
+    },
+    {
+      "criterion": "Ulcerative colitis",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of ulcerative colitis is reported, but the patient's overall health status and treatment may need further evaluation.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of ulcerative colitis based on endoscopic findings and histopathological evaluation?"
+    },
+    {
+      "criterion": "Partial or complete bowel obstruction",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of bowel obstruction is reported, but the patient's overall health status and treatment may need further evaluation.",
+      "clinical_question": "Has the patient experienced any episodes of partial or complete bowel obstruction as defined by the inability to pass stool or gas for more than 24 hours?"
+    },
+    {
+      "criterion": "Patient must not be on any other systemic immunosuppressant therapy other than corticosteroids within 28 days of the first dose of study drug",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple treatments which may involve systemic immunosuppressants; further clarification is needed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient must not be vaccinated with live, attenuated vaccines within 4 weeks of first dose of study drug",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No vaccination history is provided, but the patient's treatment history may need further evaluation.",
+      "clinical_question": "Has the patient received any live, attenuated vaccines within the last 4 weeks prior to the first dose of the study drug?"
+    },
+    {
+      "criterion": "Patient must not have any known bleeding disorders (e.g., von Willebrand's disease) or hemophilia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention any known bleeding disorders, but without specific lab values or medical history provided, it is uncertain.",
+      "clinical_question": "Does the patient have a documented history of any bleeding disorders, such as von Willebrand's disease or hemophilia?"
+    },
+    {
+      "criterion": "Patient must not have currently active, clinically significant hepatic impairment (>= moderate hepatic impairment according to the NCI/Child Pugh)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not provide information on hepatic function or impairment, making it unclear whether the patient meets this criterion.",
+      "clinical_question": "Does the patient have a Child-Pugh score of less than 7, indicating no moderate or severe hepatic impairment?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 10 of 64 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2344
+}

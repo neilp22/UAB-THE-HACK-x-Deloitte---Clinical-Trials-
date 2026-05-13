@@ -1,0 +1,355 @@
+{
+  "nct_id": "NCT00077311",
+  "trial_title": "Docetaxel and Cisplatin With or Without Dimesna in Treating Patients With Stage IIIB or Stage IV Non-Small Cell Lung Cancer",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy, such as docetaxel and cisplatin, work in different ways to stop tumor cells from dividing so they stop growing or die. Chemoprotective drugs, such as dimesna, may help prevent or decrease the side effects (such as nerve, kidney, and inner ear damage) caused by chemotherapy.\n\nPURPOSE: This randomized phase II trial is studying giving docetaxel and cisplatin together with dimesna to see how well it works compared to giving docetaxel and cisplatin alone in tre",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically confirmed non-small cell lung cancer of 1 of the following subtypes: Squamous carcinoma, Basaloid carcinoma, Adenocarcinoma, Bronchoalveolar carcinoma, Adenosquamous carcinoma, Large cell carcinoma, Large cell neuroendocrine carcinoma, Giant cell carcinoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has stage IV non-small cell lung cancer (adenocarcinoma), which is a confirmed subtype.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Sarcomatoid carcinoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a histologically confirmed diagnosis of sarcomatoid carcinoma?"
+    },
+    {
+      "criterion": "Non-small cell carcinoma not otherwise specified NOTE: *Histologic or cytologic confirmation of recurrence is required for patients who have undergone prior complete resection",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has stage IV disease, but there is no indication of prior complete resection or recurrence confirmation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stage IIIB disease due to malignant pleural effusion OR stage IV disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is diagnosed with stage IV disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Measurable disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide information on whether there is measurable disease.",
+      "clinical_question": "Does the patient have measurable disease defined as at least one lesion that can be accurately measured in at least one dimension with a longest diameter of ≥20 mm for non-nodal lesions or ≥15 mm for nodal lesions?"
+    },
+    {
+      "criterion": "At least 1 unidimensionally measurable lesion at least 20 mm by conventional techniques OR at least 10 mm by spiral CT scan",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify if there is at least 1 unidimensionally measurable lesion of the required size.",
+      "clinical_question": "Does the patient have at least one unidimensionally measurable lesion that is ≥20 mm by conventional techniques or ≥10 mm by spiral CT scan?"
+    },
+    {
+      "criterion": "The following are considered nonmeasurable disease:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have any of the specified nonmeasurable disease types.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Bone lesions",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any bone lesions as determined by imaging studies such as a CT scan or MRI?"
+    },
+    {
+      "criterion": "Brain metastases or leptomeningeal disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any evidence of brain metastases or leptomeningeal disease as confirmed by a recent MRI or CT scan of the brain?"
+    },
+    {
+      "criterion": "Ascites",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented presence of ascites as assessed by physical examination or imaging studies?"
+    },
+    {
+      "criterion": "Pleural/pericardial effusion",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a pleural or pericardial effusion as determined by imaging studies?"
+    },
+    {
+      "criterion": "Abdominal masses not confirmed and followed by imaging techniques",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of abdominal masses not confirmed by imaging.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Cystic lesions",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of cystic lesions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Tumor lesions situated in a previously irradiated area",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of tumor lesions situated in a previously irradiated area.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Brain metastases are allowed provided patient is neurologically stable and off steroids",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has no brain metastases, which is a requirement for this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is 58 years old, which meets the age criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 58.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ECOG performance status is 1, which meets the performance status criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ECOG 0-1",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ECOG 1.0 <= 1.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Life expectancy is not explicitly stated in the profile.",
+      "clinical_question": "What is the estimated life expectancy of a 58-year-old female patient with stage IV non-small cell lung cancer (adenocarcinoma) and an ECOG performance status of 1?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Criterion not specified; cannot assess without additional information.",
+      "clinical_question": "Has the patient experienced disease progression after receiving at least one prior line of systemic therapy for stage IV non-small cell lung cancer?"
+    },
+    {
+      "criterion": "Hematopoietic",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No hematopoietic criteria provided; cannot assess without additional information.",
+      "clinical_question": "Does the patient have a hemoglobin level of ≥10 g/dL prior to starting treatment?"
+    },
+    {
+      "criterion": "Granulocyte count ≥ 1,500/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's granulocyte count ≥ 1,500/mm^3?"
+    },
+    {
+      "criterion": "Platelet count ≥ 100,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's platelet count ≥ 100,000/mm³?"
+    },
+    {
+      "criterion": "Hepatic",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No hepatic criteria provided; cannot assess without additional information.",
+      "clinical_question": "Does the patient have a baseline hepatic function defined by an ALT level ≤40 U/L?"
+    },
+    {
+      "criterion": "Bilirubin ≤ 1.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 1.5 mg/dL?"
+    },
+    {
+      "criterion": "AST ≤ 1.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ALT is 28 U/L, which is within the acceptable range (≤ 1.5 times ULN).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Alkaline phosphatase ≤ 2.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No alkaline phosphatase value provided; cannot assess without additional information.",
+      "clinical_question": "Is the patient's alkaline phosphatase level ≤ 2.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Renal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No renal criteria provided; cannot assess without additional information.",
+      "clinical_question": "Does the patient have a baseline creatinine clearance of ≥60 mL/min?"
+    },
+    {
+      "criterion": "Creatinine ≤ ULN",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Creatinine is 0.9 mg/dL, which is within the acceptable range (≤ ULN).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No specific exclusion criteria mentioned, and the patient meets general inclusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's fertility status is not explicitly stated.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a hormonal method, intrauterine device, or barrier method?"
+    },
+    {
+      "criterion": "No grade 2 or greater neuropathy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No evidence of grade 2 or greater neuropathy provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has received prior treatment with erlotinib, which may be considered a concurrent therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biologic therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has received biologic therapy (erlotinib) prior to this trial.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent growth factors",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No other concurrent growth factors reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has received prior chemotherapy (erlotinib is considered a form of chemotherapy).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has received prior chemotherapy (erlotinib).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent chemotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No other concurrent chemotherapy reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Endocrine therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is on dexamethasone, which is a steroid, but there is no indication of adrenal failure or non-cancer-related hormonal therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not provided in the patient profile.",
+      "clinical_question": "Does the patient have a measurable disease progression as defined by RECIST criteria?"
+    },
+    {
+      "criterion": "No concurrent hormonal therapy except steroids administered for adrenal failure, hormones for non-cancer-related conditions (e.g., insulin for diabetes), or intermittent dexamethasone as an antiemetic",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is only taking dexamethasone as a steroid, which is allowed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Radiotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Radiotherapy details are not provided in the patient profile.",
+      "clinical_question": "Has the patient received radiotherapy as part of their treatment for stage IV non-small cell lung cancer?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not provided in the patient profile.",
+      "clinical_question": "Does the patient have a measurable disease progression as defined by RECIST criteria?"
+    },
+    {
+      "criterion": "Prior radiotherapy allowed for brain metastases only",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has stage IV lung cancer and no brain metastases, prior radiotherapy is not applicable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent palliative radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is not receiving concurrent palliative radiotherapy as per the information provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has not undergone surgery as per the information provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not provided in the patient profile.",
+      "clinical_question": "Does the patient have a measurable disease progression as defined by RECIST criteria?"
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5714
+}

@@ -1,0 +1,156 @@
+{
+  "nct_id": "NCT01438034",
+  "trial_title": "Kisspeptin in the Evaluation of Delayed Puberty",
+  "phase": "PHASE1",
+  "status": "COMPLETED",
+  "brief_summary": "The goal of this study is to test whether the hormone kisspeptin has the potential to prospectively diagnose adolescents with self-resolving or permanent delayed puberty. Some children with delayed puberty will eventually enter puberty on their own. However, some children with delayed puberty have a permanent condition and require medical treatment to undergo puberty. Right now, there is no reliable diagnostic tool to tell whether a child's delayed puberty will be self-resolving or permanent. Th",
+  "eligibility_table": [
+    {
+      "criterion": "Adolescent Boys",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Cannot identify target gender from criterion text",
+      "clinical_question": "Does the patient have a serum testosterone level below 300 ng/dL?"
+    },
+    {
+      "criterion": "ages 13.5-17 years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 19 years old, which exceeds the upper limit of the age criterion (17 years).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "testicular volume <4 mL OR 4-8 ml with no change in the past 6 months by Prader orchidometer",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The testicular volume is 1-2 mL, which is less than 4 mL, meeting the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "first morning (before 9AM) LH <2 mIU/mL and testosterone <50 ng/dL",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The serum testosterone level is 65 ng/dL, which exceeds the threshold of <50 ng/dL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Adolescent Girls",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Cannot identify target gender from criterion text",
+      "clinical_question": "Does the patient have a serum kisspeptin level below the established threshold of 50 pmol/L?"
+    },
+    {
+      "criterion": "ages 12-17 years",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 19 years old, which exceeds the upper limit of the age criterion (17 years).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Tanner stage I OR II breast development with no change in the past 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The Tanner stage is not provided; thus, it cannot be determined if the criterion is met.",
+      "clinical_question": "Has the patient experienced any breast development changes in the past 6 months?"
+    },
+    {
+      "criterion": "first morning (before 9AM) LH <2 mIU/mL and estradiol <20 pg/ml",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The estradiol level is not provided, making it impossible to assess this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "bone age less than chronological age",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bone age is not provided, so it cannot be determined if it is less than chronological age.",
+      "clinical_question": "What is the patient's current bone age in comparison to their chronological age of 19 years?"
+    },
+    {
+      "criterion": "history or presence of underlying condition that could cause delayed puberty (chronic illness, weight loss, abnormal cranial magnetic resonance imaging (MRI))",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is a relevant history of hypogonadism, which may indicate an underlying condition causing delayed puberty.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "history of an allergic drug reaction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on any allergic drug reactions in the patient's history.",
+      "clinical_question": "Has the patient ever experienced an allergic reaction to any medication, including but not limited to antibiotics, analgesics, or anesthetics?"
+    },
+    {
+      "criterion": "weight ≥ 28 kg",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient weigh ≥28 kg?"
+    },
+    {
+      "criterion": "body mass index >10th percentile and <+3 SDS for bone age",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Body mass index is not provided, so it cannot be determined if it falls within the specified range.",
+      "clinical_question": "Is the patient's body mass index greater than the 10th percentile and less than +3 standard deviations for bone age?"
+    },
+    {
+      "criterion": "blood pressure >5th percentile and <95th percentile for bone age and height",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Blood pressure data is not provided, making it impossible to assess against the specified percentiles.",
+      "clinical_question": "Is the patient's blood pressure greater than the 5th percentile and less than the 95th percentile for his bone age and height?"
+    },
+    {
+      "criterion": "white blood cell counts, platelet counts, electrolytes, thyroid stimulating hormone (TSH), free thyroxine (T4) within reference range for age",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for white blood cell counts, platelet counts, electrolytes, TSH, and free T4 are not provided, preventing assessment.",
+      "clinical_question": "Are the patient's white blood cell counts, platelet counts, electrolytes, thyroid stimulating hormone (TSH), and free thyroxine (T4) all within the reference range for a 19-year-old male?"
+    },
+    {
+      "criterion": "erythrocyte sedimentation rate <2X the upper limit of the reference range for age",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Erythrocyte sedimentation rate is not mentioned, so eligibility cannot be determined.",
+      "clinical_question": "Is the patient's erythrocyte sedimentation rate less than 2 times the upper limit of the reference range for a 19-year-old male?"
+    },
+    {
+      "criterion": "hemoglobin within reference range for girls of the same chronological age",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hemoglobin levels are not provided, thus cannot assess against the reference range for girls.",
+      "clinical_question": "Is the patient's hemoglobin level within the reference range for a 19-year-old male?"
+    },
+    {
+      "criterion": "blood urea nitrogen (BUN), creatinine, prolactin not elevated",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "BUN, creatinine, and prolactin levels are not provided, making it impossible to evaluate.",
+      "clinical_question": "Is the patient's blood urea nitrogen (BUN) level ≤20 mg/dL, creatinine level ≤1.2 mg/dL, and prolactin level ≤15 ng/mL?"
+    },
+    {
+      "criterion": "aspartate aminotransferase (AST) and alanine aminotransferase (ALT) no more than 2X the upper limit of the reference range",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "AST and ALT levels are not provided, so cannot determine if they are within the acceptable range.",
+      "clinical_question": "Are the patient's aspartate aminotransferase (AST) and alanine aminotransferase (ALT) levels both ≤2X the upper limit of the reference range?"
+    },
+    {
+      "criterion": "Insulin-like growth factor 1 (IGF-1) within reference range for bone age",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "IGF-1 levels are not provided, preventing assessment against the reference range for bone age.",
+      "clinical_question": "Is the patient's Insulin-like growth factor 1 (IGF-1) level within the reference range for his bone age?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: history or presence of underlying condition that could cause delayed puberty (ch",
+    "EXCLUSION UNCLEAR: history of an allergic drug reaction",
+    "LOW INCLUSION MATCH: only 1 of 18 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.3
+}

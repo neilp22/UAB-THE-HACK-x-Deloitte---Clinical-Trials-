@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT05961748",
+  "trial_title": "Registry of Multicenter Brain-Heart Comorbidity in China",
+  "phase": "",
+  "status": "RECRUITING",
+  "brief_summary": "This study is a multi-center, prospective, registry study. This research was supported by the National Key Research and Development Program. To establish a domestic multi-center, large-scale \"brain-heart comorbidity\" dynamic database platform including clinical, sample database, image and other multi-dimensional information requirements, through the construction of a multi-center intelligent scientific research integration platform based on artificial intelligence.\n\nAny of newly diagnosed cardio",
+  "eligibility_table": [
+    {
+      "criterion": "age > 18 years old",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any of newly diagnosed cardiovascular-related diseases were identified via ICD-10-CM codes: I21, I22, I24 (Ischaemic heart diseases) [i.e., ACS], I46 (cardiac arrest), I48 (Atrial fibrillation/flutter), I50 (Heart failure), I71 (Aortic disease), I60 (subarachnoid hemorrhage), I61 (intracerebral hemorrhage), I63 (Cerebral infarction), I65 (Occlusion and stenosis of precerebral arteries), I66 (Occlusion and stenosis of cerebral arteries), I67.1 (cerebral aneurysm), I67.5 (moyamoya diseases), Q28.2 (Arteriovenous malformation of cerebral vessels).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a diagnosis of arteriovenous malformation (AVM), which is included in the ICD-10-CM code Q28.2.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "refuse to participate in the registry",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient explicitly declined to participate in the registry after being informed of the study details?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: refuse to participate in the registry"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

@@ -1,0 +1,74 @@
+{
+  "nct_id": "NCT02189551",
+  "trial_title": "Advanced Robotic Training With Additional Degrees of Freedom: Towards a Free-walking System",
+  "phase": "NA",
+  "status": "TERMINATED",
+  "brief_summary": "The objective of the study is to compare a new medical devices with an established medical device for lower limb rehabilitation regarding training outcome and patient comfort / patient satisfaction (primary objective) and treatment effect (exploratory objective).\n\nPrimary study endpoints will be a significantly higher rated patient comfort and or patient satisfaction using the new versions, compared with the established Lokomat. Furthermore, muscle activity and kinematic movement patterns will b",
+  "eligibility_table": [
+    {
+      "criterion": "Lower extremity weakness due to stroke",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has severe lower extremity weakness due to anaplastic astrocytoma, not due to stroke.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "minor functional impairment (MRC < 5)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient exhibits minor functional impairment, likely with MRC < 5 due to severe weakness.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ability and willingness to participate",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is actively participating in treatment and likely willing to participate in the trial.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "severe spasticity of the lower extremities",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medical history does not explicitly mention spasticity, but severe weakness may complicate this.",
+      "clinical_question": "Does the patient exhibit a Modified Ashworth Scale score of ≥3 in the lower extremities?"
+    },
+    {
+      "criterion": "severe dementia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on cognitive function is provided; cannot assess for severe dementia.",
+      "clinical_question": "Does the patient exhibit a Clinical Dementia Rating (CDR) score of 2 or higher?"
+    },
+    {
+      "criterion": "severe depression",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on mental health status is provided; cannot assess for severe depression.",
+      "clinical_question": "Has the patient scored ≥20 on the Hamilton Depression Rating Scale (HDRS) in the past month?"
+    },
+    {
+      "criterion": "any other contraindications against Lokomat training",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific contraindications against Lokomat training are mentioned, but the patient's condition may pose risks.",
+      "clinical_question": "Does the patient have any contraindications for Lokomat training based on a current assessment of their neurological function, specifically a score of less than 3 on the ASIA scale?"
+    },
+    {
+      "criterion": "body weight > 135 kg",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient's body weight is not provided; cannot assess if it exceeds 135 kg.",
+      "clinical_question": "Does the patient weigh ≥135 kg?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: severe spasticity of the lower extremities",
+    "EXCLUSION UNCLEAR: severe dementia",
+    "EXCLUSION UNCLEAR: severe depression",
+    "EXCLUSION UNCLEAR: any other contraindications against Lokomat training",
+    "EXCLUSION UNCLEAR: body weight > 135 kg"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.375
+}

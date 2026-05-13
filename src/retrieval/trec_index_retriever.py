@@ -154,7 +154,7 @@ class TrecIndexRetriever:
                 trials.append(trial)
 
         self._nct_ids = [t["nct_id"] for t in trials]
-        corpus = [_tokenize(t["title"] + " " + t["brief_summary"] + " " + t["eligibility_criteria"])
+        corpus = [_tokenize(t["title"] + " " + t["brief_summary"])
                   for t in trials]
         self._bm25 = BM25Okapi(corpus)
 

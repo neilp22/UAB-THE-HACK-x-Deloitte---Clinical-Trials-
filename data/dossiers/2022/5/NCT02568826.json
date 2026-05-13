@@ -1,0 +1,293 @@
+{
+  "nct_id": "NCT02568826",
+  "trial_title": "Tolerability, Safety and Activity of a Muscle Relaxant Molecule IDN5243 in Patients With Low Back Pain",
+  "phase": "PHASE2",
+  "status": "WITHDRAWN",
+  "brief_summary": "This is a prospective cohort study, open-label, uncontrolled proof of concept trial. The trial objective is to evaluate the analgesic tolerability, safety and activity of IDN 5243 (3-glycosyl-3-O-demethylthiocolchicine derivative)administered intramuscularly at 4 mg b.i.d. for 5 days in the morning (8.00-10.00 AM) and in the evening (6.00-8.00 PM) in subjects with Low Back Pain (LBP).",
+  "eligibility_table": [
+    {
+      "criterion": "Male or female patients",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "criterion targets female; patient is male",
+      "clinical_question": null
+    },
+    {
+      "criterion": "18-70 years old inclusive",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 23.0 <= 70.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Signed Informed consent obtained prior the inclusion in the trial",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information on whether informed consent has been signed.",
+      "clinical_question": "Has the patient signed the informed consent form prior to inclusion in the trial?"
+    },
+    {
+      "criterion": "A diagnosis of LBP equal to or greater than 50 mm on VAS with severe or moderate lumbar muscle spasm naïve or in relapsing condition",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a diagnosis of LBP (lower back pain) as per the criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must have a medical history, physical and neurological examinations that support a clinical diagnosis of acute LBP that is felt down to the lower leg below the knee with the onset no longer than 30 days before Visit 1",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a clinical diagnosis of acute LBP, as they have conditions unrelated to LBP.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must be appropriate candidates for treatment with study medication in the Investigator's clinical judgment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "It is unclear if the investigator would consider the patient an appropriate candidate for the study medication.",
+      "clinical_question": "Does the patient have a history of cardiovascular events or conditions that would contraindicate the use of muscle relaxants?"
+    },
+    {
+      "criterion": "Patients must be able to appropriately verbalize pain characteristics and to complete all protocol required measurements/assessments without assistance",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The ability to verbalize pain characteristics is not assessed in the profile.",
+      "clinical_question": "Can the patient accurately describe their pain characteristics using a standardized pain scale of 0 to 10 without assistance?"
+    },
+    {
+      "criterion": "Patients must be medically stable on the basis of physical examination, medical history, vital signs, and clinical laboratory tests performed at screening",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The medical stability of the patient cannot be determined without physical examination and lab tests.",
+      "clinical_question": "Is the patient's blood pressure within the normal range of 90/60 mmHg to 120/80 mmHg during the screening examination?"
+    },
+    {
+      "criterion": "LPB of non-mechanical origin such as neoplasm, infection or inflammatory chronic disorder",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate the presence of LPB of non-mechanical origin, but it is not explicitly stated.",
+      "clinical_question": "Does the patient have any evidence of neoplasm, infection, or inflammatory chronic disorder as determined by imaging studies or laboratory tests?"
+    },
+    {
+      "criterion": "Serum creatinine level > 1.7 mg/dL or Urea > 17 mmol/l",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No serum creatinine or urea levels are provided to assess this criterion.",
+      "clinical_question": "Is the patient's serum creatinine level greater than 1.7 mg/dL or urea level greater than 17 mmol/L?"
+    },
+    {
+      "criterion": "Severe to mild hepatic dysfunction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not provide information on hepatic function.",
+      "clinical_question": "Does the patient have a Child-Pugh score of A, B, or C indicating severe to mild hepatic dysfunction?"
+    },
+    {
+      "criterion": "Abnormal blood count",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the patient's blood count to determine if it is abnormal.",
+      "clinical_question": "Does the patient have an abnormal complete blood count (CBC) defined as any of the following: white blood cell count <4,000 cells/µL or >11,000 cells/µL, hemoglobin <13.5 g/dL, or platelet count <150,000 cells/µL?"
+    },
+    {
+      "criterion": "Ascertained or presumptive hypersensitivity to the active principle and/or formulations' ingredients",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about hypersensitivity to active ingredients or formulations.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to any muscle relaxants or their formulations?"
+    },
+    {
+      "criterion": "History of anaphylaxis to drugs or allergic reactions in particular, history of hypersensitivity reactions (e.g. bronchospasm, rhinitis, urticaria) to drugs including to paracetamol",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of anaphylaxis or allergic reactions reported.",
+      "clinical_question": "Has the patient ever experienced anaphylaxis or hypersensitivity reactions, such as bronchospasm, rhinitis, or urticaria, to any medications, including paracetamol?"
+    },
+    {
+      "criterion": "Patients with diabetic neuropathy, post-herpetic neuralgia, osteoarthritis pain, fibromyalgia",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "Patient does not have diabetic neuropathy, post-herpetic neuralgia, osteoarthritis pain, or fibromyalgia.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of psychosis (e.g. schizophrenia or psychotic depression) or major depression (requiring treatment), diagnosis including dementia, anxiety, mental retardation; multiple sclerosis, Parkinson's Disease, Restless Legs Syndrome",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of psychosis, major depression, or other specified mental health conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Significant kidney or liver disease",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No significant kidney or liver disease reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of gastrointestinal disorders",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of gastrointestinal disorders provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Blood coagulation disorders",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No blood coagulation disorders mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Skin conditions affecting the site of application (e.g. eczema, weeping dermatitis)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No skin conditions affecting the site of application reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of paracetamol and/or NSAIDs (NonSteroidal AntiInflammatory Drugs) within 24 h before inclusion",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No use of paracetamol or NSAIDs within 24 hours before inclusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of topical medications applied to the painful region within 2 days before the inclusion; use of opioids within 7 days before the inclusion",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No use of topical medications or opioids within the specified time frames.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of corticosteroid drugs by any route of administration within 30 days before the inclusion",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not used corticosteroid drugs within the specified timeframe.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of myorelaxant drugs within 3 days before the inclusion",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not used myorelaxant drugs within the specified timeframe.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnant or lactating women, or women of childbearing age not using a reliable method of contraception, or women of not child-bearing potential if not permanently sterilised or if not in post-menopausal status from at least two years",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and does not fall under the exclusion criteria related to pregnancy or lactation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Males not to agree to use a reliable method of contraception during the study and the follow up period, if sexually active with a female of child-bearing potential",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication that he is not willing to use contraception if sexually active.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of back (cervical, thoracic or lumbosacral) pain as 50% of the time in the 1 year prior to the first visit",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no reported history of back pain as specified in the criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of any LBP episode, with the exception of the current acute LBP episode, within 3 months prior to the first visit that was greater than mild in pain intensity, or was associated with disability (e.g., loss of time from work, family, or activities of daily living), or necessitated the use of an opioid (narcotic) analgesic including tramadol",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have a history of any LBP episode within the specified timeframe.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Medical history or physical examination results that suggest the acute LBP or any of the neurological symptoms or signs are caused by a serious medical condition (e.g., fever, chills, unexplained weight loss, bowel or urinary bladder dysfunction or incontinence, bilateral leg weakness, progressive weakness, paralysis)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There are no medical history or examination results suggesting serious medical conditions related to acute LBP.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "There is a high probability for surgical intervention for the back pain during the projected time on the study or that there will be an increase in the severity of the leg pain or deficits",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of a high probability for surgical intervention for back pain.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Had either a surgical procedure involving the spine or intervertebral discs in the lower back region within 1 year prior to Visit 1 or had >1 surgical procedure(s) involving the spine or intervertebral discs in the lower back region",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not had any surgical procedures involving the spine or intervertebral discs in the specified timeframe.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Has any painful condition that could interfere with the study assessments or with the patient's ability to differentiate the pain associated with the acute LBP episode from pain associated with another condition",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have any painful conditions that could interfere with study assessments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of epilepsy or recurrent seizures",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has no history of epilepsy or recurrent seizures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unable or unwilling to discontinue all prohibited medications at the time of randomization and during the time of their participation in the study",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any medications, so there are no prohibited medications to discontinue.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known or suspected history of alcohol or drug abuse based on medical history, physical examination, urine drug screening, or the Investigator's clinical judgment",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has no history of alcohol or drug abuse.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have filed or plan to file a worker's compensation claim for any issue related to the current acute LBP episode",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has filed or plans to file a worker's compensation claim.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Currently involved in litigation or plan to seek legal recourse for any issue related to their acute LBP",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently involved in litigation or planning to seek legal recourse.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known allergies, hypersensitivity, or intolerance to the study drug or any excipients used in their manufacture",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of known allergies, hypersensitivity, or intolerance to the study drug.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Had previously been enrolled in a muscle relaxant clinical study within 30 days before the inclusion.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not been enrolled in a muscle relaxant clinical study within the last 30 days.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: LPB of non-mechanical origin such as neoplasm, infection or inflammatory chronic",
+    "EXCLUSION UNCLEAR: Serum creatinine level > 1.7 mg/dL or Urea > 17 mmol/l",
+    "EXCLUSION UNCLEAR: Severe to mild hepatic dysfunction",
+    "EXCLUSION UNCLEAR: Abnormal blood count",
+    "EXCLUSION UNCLEAR: Ascertained or presumptive hypersensitivity to the active principle and/or formu",
+    "EXCLUSION UNCLEAR: History of anaphylaxis to drugs or allergic reactions in particular, history of ",
+    "LOW INCLUSION MATCH: only 1 of 8 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.7436
+}

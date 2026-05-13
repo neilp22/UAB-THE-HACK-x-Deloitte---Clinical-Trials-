@@ -1,0 +1,904 @@
+{
+  "nct_id": "NCT04844866",
+  "trial_title": "Efficacy and Safety of MB-CART2019.1 vs. SoC in Lymphoma Patients",
+  "phase": "PHASE2",
+  "status": "RECRUITING",
+  "brief_summary": "In the current protocol version, there are two parts. Part I is a pivotal Phase II randomised, multi-centre, open-label study to evaluate the efficacy and safety of MB-CART2019.1 compared to standard of care therapy in participants with relapsed/refractory diffuse large B-cell lymphoma, who are not eligible for high-dose chemotherapy and autologous stem cell transplantation.\n\nPart II is a Phase II single-arm, open-label, multi-centre study evaluating the efficacy and safety of MB-CART2019.1 in y",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically proven DLBCL and associated subtypes, according to the World Health Organization (WHO) 2016 classification including:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which is not classified as DLBCL or its subtypes according to WHO 2016.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "DLBCL not otherwise specified (NOS).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which is not classified as DLBCL NOS.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High-grade B-cell lymphoma (HGBL) with MYC and BCL2 and/or BCL6 rearrangements with DLBCL/blastoid/intermediate histology or HGBL with MYC and BCL2 and/or BCL6 rearrangements (double hit lymphoma/triple hit lymphoma).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's Burkitt's lymphoma may be considered a high-grade B-cell lymphoma with MYC rearrangement, fitting the criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High-grade BCL, NOS.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a diagnosis of high-grade BCL, NOS.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Primary (thymic) large mediastinal BCL.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have primary large mediastinal BCL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Disease transformed from an earlier diagnosis of low-grade lymphoma (e.g. an indolent pathology such as follicular lymphoma, marginal zone lymphoma) into DLBCL with DLBCL disease progression subsequent to DLBCL-directed systemic treatment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of disease transformation from low-grade lymphoma to DLBCL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Follicular lymphoma Grade 3B.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have follicular lymphoma Grade 3B.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Relapsed or refractory disease after first-line chemoimmunotherapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's treatment history does not provide enough information to determine if the disease is relapsed or refractory.",
+      "clinical_question": "Has the patient experienced disease progression or relapse after receiving at least one line of chemoimmunotherapy for Burkitt's lymphoma?"
+    },
+    {
+      "criterion": "Refractory disease defined as no CR to first-line therapy (e.g. R-CHOP [rituximab, cyclophosphamide, daunorubicin, vincristine and prednisone]).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's response to first-line therapy is unclear, making it difficult to assess if the disease is refractory.",
+      "clinical_question": "Has the patient achieved a complete response (CR) to first-line therapy with R-CHOP?"
+    },
+    {
+      "criterion": "Progressive disease (PD) after at least 2 full cycles of first-line therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's treatment history does not specify if there was progressive disease after first-line therapy.",
+      "clinical_question": "Has the patient experienced disease progression as defined by the presence of new lesions or an increase in the size of existing lesions after completing at least 2 full cycles of first-line therapy?"
+    },
+    {
+      "criterion": "Stable disease (SD) after 4 cycles of first-line therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's response to first-line therapy is not provided, making it unclear if they have stable disease after 4 cycles.",
+      "clinical_question": "Has the patient achieved stable disease (SD) as defined by a lack of disease progression after 4 cycles of first-line therapy?"
+    },
+    {
+      "criterion": "PR as best response after at least 6 cycles of first-line therapy and biopsy-proven persistent disease (except where prohibited due to comorbidities) within ≤ 24 months from the start of the first-line therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the patient's response to therapy or if they have persistent disease after 6 cycles.",
+      "clinical_question": "Has the patient achieved a partial response (PR) after at least 6 cycles of first-line therapy within ≤ 24 months from the start of treatment?"
+    },
+    {
+      "criterion": "Relapsed disease defined as complete remission to first-line therapy followed by biopsy-proven disease progression (except where prohibited due to comorbidities) within ≤ 24 months from the start of the first-line therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's treatment history does not specify if they had complete remission followed by disease progression.",
+      "clinical_question": "Has the patient experienced biopsy-proven disease progression within ≤ 24 months from the start of the first-line therapy?"
+    },
+    {
+      "criterion": "Participants must have received adequate first-line therapy containing at least the combination of an anthracycline-based regimen and rituximab (anti-CD20 monoclonal antibody). Local therapies (e.g. radiotherapies) will not be considered as line of therapy if performed during the same line of treatment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient’s treatment history does not confirm if they received an anthracycline-based regimen and rituximab.",
+      "clinical_question": "Has the patient received an anthracycline-based regimen combined with rituximab as part of their first-line therapy for Burkitt's lymphoma?"
+    },
+    {
+      "criterion": "Archival paraffin-embedded tumour tissue acquired ≤ 2 years (preferred: ≤ 2 months) prior to screening for the central pathology review to confirm DLBCL diagnosis must be made available for participation in this study. If archival paraffin-embedded tumour tissue is not available, fresh tumour tissue sample (preferred) or core-needle biopsy must be made available for the central pathology review.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of archival or fresh tumor tissue being available for central pathology review.",
+      "clinical_question": "Is there archival paraffin-embedded tumour tissue acquired ≤ 2 years prior to screening available for central pathology review to confirm the DLBCL diagnosis?"
+    },
+    {
+      "criterion": "Participants deemed ineligible to receive HDC followed by ASCT based on the treating physician's assessment and meeting the following criteria:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's eligibility for HDC followed by ASCT is not assessed due to lack of information.",
+      "clinical_question": "Does the treating physician assess the patient's performance status as ≥2 on the Eastern Cooperative Oncology Group (ECOG) scale?"
+    },
+    {
+      "criterion": "EITHER",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criteria for eligibility regarding ASCT or HCT-CI are not met due to insufficient information.",
+      "clinical_question": "Has the patient received at least one prior line of systemic therapy for Burkitt's lymphoma?"
+    },
+    {
+      "criterion": "Age ≥ 18 years and",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 44.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior ASCT (as first-line consolidation) or",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone ASCT, and there is no information on HCT-CI.",
+      "clinical_question": "Has the patient undergone an autologous stem cell transplant (ASCT) as a first-line consolidation treatment for Burkitt's lymphoma?"
+    },
+    {
+      "criterion": "Haematopoietic cell transplantation-specific comorbidity index (HCT-CI) > 3.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is 44 years old, which does not meet the age criterion of ≥ 65 years.",
+      "clinical_question": "Does the patient have any additional comorbidities that would increase the HCT-CI score to >3?"
+    },
+    {
+      "criterion": "Age ≥ 65 years and ≥ 1 of the criteria below:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not meet the age criterion and no other criteria are provided.",
+      "clinical_question": "Is the patient aged 65 years or older?"
+    },
+    {
+      "criterion": "Impaired cardiac function (left ventricular ejection fraction [LVEF] < 50%),",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current left ventricular ejection fraction (LVEF) percentage?"
+    },
+    {
+      "criterion": "Impaired renal function (estimated glomerular filtration rate [eGFR] < 60 mL/min) calculated according to the modified Modification of Diet in Renal Disease (MDRD) formula,",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's estimated glomerular filtration rate (eGFR) calculated using the modified MDRD formula, and is it less than 60 mL/min?"
+    },
+    {
+      "criterion": "Impaired pulmonary function (diffusing capacity for carbon monoxide or forced expiratory volume in 1 second < 80%) or dyspnoea on slight activity,",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a diffusing capacity for carbon monoxide or forced expiratory volume in 1 second < 80%?"
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status > 1.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status score of ≤1?"
+    },
+    {
+      "criterion": "Age ≥ 70 years. Documentation of the reason for ineligibility for ASCT must be present in the participant's source data.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 44 years old, which does not meet the age criterion of ≥ 70 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age ≥ 18 years.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 44.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Measurable disease according to Lugano criteria. The lesion must be measurable (nodes > 1.5 cm in the long axis; extranodal lesions > 1 cm in the long axis) and positive on a positron emission tomography scan.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about measurable disease according to Lugano criteria or PET scan results.",
+      "clinical_question": "Is the patient's cardiac mass measuring ≥1.5 cm in the long axis and positive on a positron emission tomography scan?"
+    },
+    {
+      "criterion": "Estimated life expectancy of > 3 months for other reasons than the primary disease.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Given the patient's complex medical history, it is reasonable to assume a life expectancy of > 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women of childbearing potential (WOCBP) must agree to use highly effective contraceptive measures (Pearl index < 1) or practice true sexual abstinence from any heterosexual intercourse (True abstinence is only acceptable if it is in line with the preferred and usual life style of the participant.) or must have a vasectomised partner as the sole sexual partner (The vasectomised partner must have received medical assessment of the surgical success.) for at least 1 month before the study start, during the study and in the 12 months following the last dose of study treatment. A woman is considered a WOCBP, i.e. fertile, following menarche and until becoming post-menopausal unless permanently sterile. Highly effective methods of contraception include hormonal contraceptives associated with inhibition of ovulation (oral, intravaginal, transdermal, injectable, implantable) and intrauterine devices or systems (e.g. hormonal and non-hormonal) and bilateral tubal occlusion. Permanent sterilisation methods include hysterectomy, bilateral salpingectomy and bilateral oophorectomy. A post-menopausal state is defined as no menses for 12 months without an alternative medical cause. WOCBP who want to become pregnant after completing treatment should seek advice about oocyte cryoconservation prior to treatment because of possible irreversible infertility. WOCBP must refrain from egg donation throughout the study until 12 months after the last dose of study treatment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's contraceptive measures or sexual activity status is not documented.",
+      "clinical_question": "Has the patient agreed to use a highly effective contraceptive method with a Pearl index < 1 or practice true sexual abstinence for at least 1 month before the study start and during the study?"
+    },
+    {
+      "criterion": "Men with non-pregnant WOCBP partners must agree to use highly effective contraceptive measures (Pearl index < 1, e.g. spermicide and condom or other highly effective contraceptive measures (Pearl index < 1) taken by their WOCBP partner) or practice true sexual abstinence from any heterosexual intercourse (True abstinence is only acceptable if it is in line with the preferred and usual life style of the participant.), unless they are surgically sterile (meaning at least 2 consecutive analyses following vasectomy demonstrate absence of sperms in the ejaculate), during the study and in the 12 months following the last dose of study treatment. Men should seek advice about sperm conservation prior to treatment because of possible irreversible infertility. Men must furthermore refrain from sperm donation throughout the study until 12 months after the last administration of study treatment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is female, but there is no information about a male partner or their contraceptive measures.",
+      "clinical_question": "Has the patient’s male partner agreed to use highly effective contraceptive measures with a Pearl index < 1 or practice true sexual abstinence during the study and for 12 months following the last dose of study treatment?"
+    },
+    {
+      "criterion": "In the opinion of the investigator, the participant must be able to comply with all study-related procedures, medication use and evaluations.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The ability to comply with study procedures is not assessed in the provided information.",
+      "clinical_question": "Can the patient demonstrate the ability to attend all scheduled study visits and adhere to the treatment protocol as assessed by the investigator's evaluation?"
+    },
+    {
+      "criterion": "Mental capacity and legal ability to consent to participation in the clinical study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Mental capacity and legal ability to consent are not documented.",
+      "clinical_question": "Does the patient demonstrate the ability to understand the risks and benefits of participation in the clinical study as assessed by a standardized consent capacity evaluation tool?"
+    },
+    {
+      "criterion": "Contraindications for R-GemOx, BR plus polatuzumab vedotin, cyclophosphamide and fludarabine as judged by the treating physician.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding contraindications for the specified treatments.",
+      "clinical_question": "Does the patient have any contraindications to receiving R-GemOx, BR plus polatuzumab vedotin, cyclophosphamide, or fludarabine as determined by the treating physician based on their current medical history and conditions?"
+    },
+    {
+      "criterion": "Prior chimeric antigen receptor therapy or other genetically modified T-cell therapy.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not received prior chimeric antigen receptor therapy or other genetically modified T-cell therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants who have received more than one line of treatment for DLBCL or associated subtypes.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not received more than one line of treatment for DLBCL or associated subtypes.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior haematopoietic stem cell transplantation (HSCT; as first-line consolidation) < 3 months at the time of leukapheresis.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior HSCT within the last 3 months.",
+      "clinical_question": "Has the patient undergone hematopoietic stem cell transplantation (HSCT) within the last 3 months prior to leukapheresis?"
+    },
+    {
+      "criterion": "ECOG performance status > 2.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "ECOG performance status is not provided; assuming it is not > 2.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absolute neutrophil count < 1,000/μL (unless secondary to bone marrow involvement by DLBCL as demonstrated by bone marrow biopsy).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Absolute neutrophil count is not provided; unable to assess.",
+      "clinical_question": "Is the patient's absolute neutrophil count currently < 1,000/μL?"
+    },
+    {
+      "criterion": "Platelet count < 50,000/μL (unless secondary to bone marrow involvement by DLBCL as demonstrated by bone marrow biopsy).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Platelet count is not provided; unable to assess.",
+      "clinical_question": "Is the patient's platelet count currently < 50,000/μL, excluding any reduction due to bone marrow involvement by DLBCL as confirmed by a recent bone marrow biopsy?"
+    },
+    {
+      "criterion": "Absolute lymphocyte count < 100/μL.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Absolute lymphocyte count is not provided; unable to assess.",
+      "clinical_question": "What is the patient's current absolute lymphocyte count?"
+    },
+    {
+      "criterion": "Participants who have central nervous system (CNS) lymphoma involvement in present or past medical history.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has a history of CNS involvement due to Burkitt's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants with the requirement for urgent therapy due to tumour mass effects.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the requirement for urgent therapy due to tumor mass effects.",
+      "clinical_question": "Does the patient have a tumor mass effect causing symptoms that require urgent therapy, as defined by a significant increase in size or new onset of obstructive symptoms within the last 30 days?"
+    },
+    {
+      "criterion": "Infection with human immunodeficiency virus.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding HIV infection.",
+      "clinical_question": "Has the patient been tested for HIV infection within the last 12 months, and is the result negative?"
+    },
+    {
+      "criterion": "Presence of active or prior hepatitis B or C as indicated by serology (for detailed criteria see Section 10.2.7.10). Treated infection with hepatitis B or C virus unless confirmed to be polymerase chain reaction negative.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No serology information provided for hepatitis B or C.",
+      "clinical_question": "Is the patient's hepatitis B or C serology test result negative for active infection, and has a polymerase chain reaction test confirmed the absence of viral RNA?"
+    },
+    {
+      "criterion": "Active infection with severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding active SARS-CoV-2 infection.",
+      "clinical_question": "Does the patient currently test positive for SARS-CoV-2 via PCR or rapid antigen test?"
+    },
+    {
+      "criterion": "Active, severe systemic fungal, viral or bacterial infection.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of viral encephalitis/meningitis, but there is no current evidence of an active severe infection.",
+      "clinical_question": "Does the patient currently have any active, severe systemic fungal, viral, or bacterial infections as indicated by positive cultures or clinical signs of infection?"
+    },
+    {
+      "criterion": "Known history or evidence of severely immunocompromised state, i.e. corticosteroid treatment > 10 mg/day for more than 6 months.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of corticosteroid treatment or other factors suggesting a severely immunocompromised state.",
+      "clinical_question": "Has the patient been on corticosteroid treatment at a dosage of >10 mg/day for more than 6 months?"
+    },
+    {
+      "criterion": "Has received vaccination with live virus vaccines 6 weeks prior to randomisation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding vaccination with live virus vaccines within the specified timeframe.",
+      "clinical_question": "Has the patient received any live virus vaccines within the 6 weeks prior to randomisation?"
+    },
+    {
+      "criterion": "Prior CD19-targeted therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any prior CD19-targeted therapy, such as CAR T-cell therapy or monoclonal antibodies targeting CD19?"
+    },
+    {
+      "criterion": "Known history or presence of seizure activities or on active anti-seizure medications within the previous 12 months.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a known history of seizure activities and has experienced seizures/strokes.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History or presence of non-malignant CNS disease that, in the judgement of the investigator, may impair the ability to evaluate neurotoxicity.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's history of viral encephalitis/meningitis may impair the evaluation of neurotoxicity.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known history or presence of autoimmune CNS disease, such as multiple sclerosis, optic neuritis or other immunologic or inflammatory disease.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no known history of autoimmune CNS disease reported.",
+      "clinical_question": "Does the patient have a documented history of autoimmune CNS disease, such as multiple sclerosis or optic neuritis, confirmed by neurological evaluation?"
+    },
+    {
+      "criterion": "Known history or presence of cerebral vascular accident (CVA) within 12 months prior to randomisation.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of CVA (stroke) with intracranial hemorrhage within the last 12 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Note: In case of history of CVA > 12 months prior to leukapheresis, then the participant must not have any unstable or life-threatening neurological deficits.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of CVA is within 12 months, but there is no information on current neurological deficits.",
+      "clinical_question": "Does the patient have any unstable or life-threatening neurological deficits at the time of leukapheresis, given her history of CVA more than 12 months prior?"
+    },
+    {
+      "criterion": "Participants with Richter's transformation or Richter's syndrome.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of Richter's transformation or Richter's syndrome based on histopathological evaluation?"
+    },
+    {
+      "criterion": "Participants who are concurrently on any other experimental treatments or during the previous 4 weeks or 5 half-lives.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about concurrent experimental treatments.",
+      "clinical_question": "Has the patient received any experimental treatments in the past 4 weeks or has she been on any experimental treatments during the last 5 half-lives of those medications?"
+    },
+    {
+      "criterion": "Clinical heart failure with New York Heart Association class ≥ 2 or LVEF < 30% or severe cardiac arrhythmias or QT prolongation (resting QTcF ≥ 450 msec [male] or ≥ 460 msec [female] at screening) that would (according to the evaluation of the investigator) face an uncontrollable risk by receiving the medications administered in the trial.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a cardiac mass and a history of cardiac issues, which may indicate heart failure or arrhythmias.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Resting peripheral oxygen saturation < 90% on room air.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's oxygen saturation is not provided; unable to assess.",
+      "clinical_question": "Is the patient's resting peripheral oxygen saturation on room air currently < 90%?"
+    },
+    {
+      "criterion": "Liver dysfunction as indicated by total bilirubin > 2.5 × institutional upper limit of normal (ULN), aspartate aminotransferase and/or alanine aminotransferase > 5 × ULN or typical symptoms like jaundice.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess liver function.",
+      "clinical_question": "Does the patient have a total bilirubin level greater than 2.5 × the institutional upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Serum creatinine ≥ 2.0 × ULN or eGFR < 30 mL/min calculated according to the modified MDRD formula.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess kidney function.",
+      "clinical_question": "Is the patient's serum creatinine level ≥ 2.0 × ULN or is the eGFR < 30 mL/min according to the modified MDRD formula?"
+    },
+    {
+      "criterion": "Pregnant or breast-feeding women.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is a 44-year-old female; pregnancy or breastfeeding status is not mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior history of malignancies other than DLBCL. Exceptions include participants who have been free of the disease for ≥ 3 years prior to screening and participants with adequately treated and removed basal cell carcinoma of the skin, squamous cell carcinoma of the skin, carcinoma in situ of the cervix, carcinoma in situ of the breast, carcinoma in situ of the bladder or incidental histological finding of untreated localised (T1a, T1b or T1c) prostate cancer under surveillance.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of Burkitt's lymphoma, which is a malignancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of severe immediate hypersensitivity to any investigational medicinal product (IMP), auxiliary medicinal product (AxMP), premedication or rescue medication or its excipients that is scheduled to be given during study participation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on hypersensitivity reactions provided.",
+      "clinical_question": "Does the patient have a documented history of severe immediate hypersensitivity reactions to any investigational medicinal product, auxiliary medicinal product, premedication, rescue medication, or their excipients?"
+    },
+    {
+      "criterion": "Major surgery less than 30 days before start of treatment.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has undergone knee surgery, which is considered major surgery within the last 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any medical condition likely to interfere with assessment of safety or efficacy of study treatment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific medical conditions listed that would interfere with treatment assessment.",
+      "clinical_question": "Does the patient have any active infections or uncontrolled medical conditions that could interfere with the assessment of safety or efficacy of MB-CART2019.1?"
+    },
+    {
+      "criterion": "Histologically proven DLBCL and associated subtypes, according to the WHO 2016 classification including:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has Burkitt's lymphoma, which is not classified as DLBCL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "DLBCL, NOS.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has Burkitt's lymphoma, which is not classified as DLBCL, NOS.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "HGBL with MYC and BCL2 and/or BCL6 rearrangements with DLBCL/blastoid/intermediate histology or HGBL with MYC and BCL2 and/or BCL6 rearrangements (double hit lymphoma/triple hit lymphoma).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Burkitt's lymphoma with Myc rearrangement, which qualifies as HGBL with MYC rearrangements.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High-grade BCL, NOS.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which is a specific type of high-grade B-cell lymphoma, but the criterion specifies high-grade BCL, NOS, which is not applicable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Primary (thymic) large mediastinal BCL.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have primary (thymic) large mediastinal BCL; her lymphoma is cardiac in origin.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Disease transformed from an earlier diagnosis of low-grade lymphoma (e.g., an indolent pathology such as follicular lymphoma, marginal zone lymphoma) into DLBCL with DLBCL disease progression subsequent to DLBCL-directed systemic treatment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of disease transformation from a low-grade lymphoma to DLBCL; the patient has primary Burkitt's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Follicular lymphoma Grade 3B.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have follicular lymphoma Grade 3B; she has Burkitt's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Relapsed or refractory disease after first-line chemoimmunotherapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's treatment history does not provide enough information to determine if she has relapsed or refractory disease after first-line chemoimmunotherapy.",
+      "clinical_question": "Has the patient experienced disease progression or relapse after receiving at least one line of chemoimmunotherapy for Burkitt's lymphoma?"
+    },
+    {
+      "criterion": "Refractory disease defined as no CR to first-line therapy (e.g., R-CHOP).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's response to first-line therapy is unclear; thus, it cannot be determined if she meets the refractory disease definition.",
+      "clinical_question": "Has the patient achieved a complete response (CR) to first-line therapy with R-CHOP?"
+    },
+    {
+      "criterion": "PD after at least 2 full cycles of first-line therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's treatment history does not specify if she had PD after at least 2 full cycles of first-line therapy.",
+      "clinical_question": "Has the patient demonstrated disease progression as defined by the Lugano Classification after receiving at least 2 full cycles of first-line therapy?"
+    },
+    {
+      "criterion": "SD after 4 cycles of first-line therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's treatment history does not specify if she had SD after 4 cycles of first-line therapy.",
+      "clinical_question": "Has the patient achieved stable disease (SD) after 4 cycles of first-line therapy for Burkitt's lymphoma?"
+    },
+    {
+      "criterion": "PR as best response after at least 6 cycles of first-line therapy and biopsy-proven persistent disease (except where prohibited due to comorbidities) within ≤ 12 months after completion of first-line treatment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's treatment history does not provide enough information to determine if she had PR as the best response after at least 6 cycles of first-line therapy.",
+      "clinical_question": "Has the patient achieved a partial response (PR) after at least 6 cycles of first-line therapy within ≤ 12 months after completion of treatment?"
+    },
+    {
+      "criterion": "Relapsed disease defined as complete remission to first-line therapy followed by biopsy-proven disease progression (except where prohibited due to comorbidities) within ≤ 12 months after completion of first-line treatment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of Burkitt's lymphoma and multiple prior treatments, but there is no indication of a complete remission followed by biopsy-proven disease progression within the specified timeframe.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participant must have received adequate first-line therapy containing at least the combination of an anthracycline-based regimen and rituximab (anti-CD20 monoclonal antibody). Local therapies (e.g., radiotherapies) will not be considered as line of therapy if performed during the same line of treatment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no evidence that the patient has received an anthracycline-based regimen and rituximab as part of their first-line therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Archival paraffin-embedded tumour tissue acquired ≤ 2 years (preferred: ≤ 2 months) prior to screening for the central pathology review to confirm DLBCL diagnosis must be made available for participation in this study. If archival paraffin-embedded tumour tissue is not available, fresh tumour tissue sample (preferred) or core-needle biopsy must be made available for the central pathology review.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The availability of archival or fresh tumor tissue is not mentioned in the profile, making it unclear if this criterion can be met.",
+      "clinical_question": "Is there archival paraffin-embedded tumour tissue acquired ≤ 2 years prior to screening available for central pathology review to confirm the DLBCL diagnosis?"
+    },
+    {
+      "criterion": "Measurable disease according to Lugano criteria. The lesion must be measurable (nodes > 1.5 cm in the long axis; extranodal lesions > 1 cm in the long axis) and positive on a positron emission tomography scan.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's cardiac mass may not meet the measurable disease criteria according to Lugano, and there is no mention of a PET scan.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Approved treatment options not suitable according to investigator's assessment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The investigator's assessment of treatment options is not provided, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient been assessed for the suitability of at least two approved treatment options for Burkitt's lymphoma, and were these options deemed unsuitable by the investigator?"
+    },
+    {
+      "criterion": "In addition, all participants must fulfil the following criteria:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "This criterion is vague and does not provide specific requirements to assess.",
+      "clinical_question": "Has the patient undergone ≥1 prior line of systemic therapy specifically targeting Burkitt's lymphoma?"
+    },
+    {
+      "criterion": "Age ≥ 18 and ≤ 70 years.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 44 years old, which falls within the age range of 18 to 70 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Estimated life expectancy of > 3 months for other reasons than the primary disease.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Given the patient's complex medical history and multiple conditions, it is uncertain if their life expectancy exceeds 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ECOG 0-1.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's history of severe conditions and treatments likely impacts their ECOG performance status, which is not specified.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Adequate bone marrow function, defined as:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Adequate bone marrow function is not assessed in the provided profile, leaving this criterion uncertain.",
+      "clinical_question": "Does the patient have an absolute neutrophil count (ANC) of ≥1,500 cells/mm³ and a platelet count of ≥100,000 cells/mm³?"
+    },
+    {
+      "criterion": "Absolute neutrophil count ≥ 1,000/μL (unless secondary to bone marrow involvement by DLBCL as demonstrated by bone marrow biopsy).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count currently ≥ 1,000/μL?"
+    },
+    {
+      "criterion": "Platelet count ≥ 50,000/μL (unless secondary to bone marrow involvement by DLBCL as demonstrated by bone marrow biopsy).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's platelet count currently ≥ 50,000/μL?"
+    },
+    {
+      "criterion": "Absolute lymphocyte count ≥ 100/μL.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute lymphocyte count currently ≥ 100/μL?"
+    },
+    {
+      "criterion": "Adequate organ function, defined as:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Adequate organ function is not explicitly stated in the profile, and lab values are missing.",
+      "clinical_question": "Does the patient have a serum creatinine level ≤1.5 mg/dL, a total bilirubin level ≤1.5 mg/dL, and a left ventricular ejection fraction (LVEF) ≥50%?"
+    },
+    {
+      "criterion": "New York Heart Association class < 2 or LVEF ≥ 50%.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on NYHA class or LVEF is provided, making it unclear if the criterion is met.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) of ≥50% as measured by echocardiogram or cardiac MRI?"
+    },
+    {
+      "criterion": "No severe cardiac arrhythmias or QT prolongation (resting QTcF < 450 msec [male] or < 460 msec [female] at screening).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Resting QTcF values are not provided, so it is uncertain if this criterion is met.",
+      "clinical_question": "Is the patient's resting QTcF interval less than 460 msec at screening?"
+    },
+    {
+      "criterion": "No clinically relevant pleural effusion or pericardial effusion.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of large pericardial effusion, which likely disqualifies her.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Resting peripheral oxygen saturation ≥ 92% on room air.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's resting peripheral oxygen saturation ≥ 92% on room air?"
+    },
+    {
+      "criterion": "Total bilirubin ≤ 2.0 × ULN, AST and/or ALT ≤ 5 × ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Total bilirubin, AST, and ALT values are not provided, making it unclear if the criterion is met.",
+      "clinical_question": "Is the patient's total bilirubin level ≤ 2.0 × ULN and are the AST and/or ALT levels ≤ 5 × ULN?"
+    },
+    {
+      "criterion": "Serum creatinine < 1.0 × ULN or eGFR (according to modified MDRD formula) ≥ 60 mL/min.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Serum creatinine and eGFR values are not provided, so it is uncertain if this criterion is met.",
+      "clinical_question": "Is the patient's serum creatinine level less than 1.0 × ULN or is her eGFR according to the modified MDRD formula ≥ 60 mL/min?"
+    },
+    {
+      "criterion": "WOCBP must agree to use highly effective contraceptive measures (Pearl index < 1) or practice true sexual abstinence from any heterosexual intercourse (True abstinence is only acceptable if it is in line with the preferred and usual life style of the participant.) or must have a vasectomised partner as the sole sexual partner (The vasectomised partner must have received medical assessment of the surgical success.) for at least 1 month before the study start, during the study and in the 12 months following the last dose of study treatment. A woman is considered a WOCBP, i.e. fertile, following menarche and until becoming post-menopausal unless permanently sterile. Highly effective methods of contraception include hormonal contraceptives associated with inhibition of ovulation (oral, intravaginal, transdermal, injectable, implantable) and intrauterine devices or systems (e.g., hormonal and non-hormonal) and bilateral tubal occlusion. Permanent sterilisation methods include hysterectomy, bilateral salpingectomy, and bilateral oophorectomy. A post-menopausal state is defined as no menses for 12 months without an alternative medical cause. WOCBP who want to become pregnant after completing treatment should seek advice about oocyte cryoconservation prior to treatment because of possible irreversible infertility. WOCBP must refrain from egg donation throughout the study until 12 months after the last dose of study treatment. Men with non-pregnant WOCBP partners must agree to use highly effective contraceptive measures (Pearl index < 1, e.g., spermicide and condom or other highly effective contraceptive measures (Pearl index < 1) taken by their WOCBP partner) or practice true sexual abstinence from any heterosexual intercourse (True abstinence is only acceptable if it is in line with the preferred and usual life style of the participant.), unless they are surgically sterile (meaning at least 2 consecutive analyses following vasectomy demonstrate absence of sperms in the ejaculate), during the study and in the 12 months following the last dose of study treatment. Men should seek advice about sperm conservation prior to treatment because of possible irreversible infertility. Men must furthermore refrain from sperm donation throughout the study until 12 months after the last administration of study treatment.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is a woman of childbearing potential (WOCBP) and can agree to contraceptive measures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "In the opinion of the investigator, the participant must be able to comply with all study-related procedures, medication use and evaluations.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding the participant's ability to comply with study procedures.",
+      "clinical_question": "Can the patient demonstrate the ability to attend all scheduled study visits and adhere to the treatment protocol as assessed by the investigator's evaluation?"
+    },
+    {
+      "criterion": "Mental capacity and legal ability to consent to participation in the clinical study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Mental capacity and legal ability to consent are not addressed in the profile.",
+      "clinical_question": "Does the patient demonstrate the ability to understand the risks and benefits of participation in the clinical study as assessed by a standardized consent capacity evaluation tool?"
+    },
+    {
+      "criterion": "Contraindications for cyclophosphamide and fludarabine as judged by the treating physician.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific contraindications for cyclophosphamide and fludarabine are mentioned in the profile.",
+      "clinical_question": "Does the treating physician assess the patient's history of deep vein thrombosis (DVT) and current hypertension (HTN) as contraindications for the administration of cyclophosphamide and fludarabine?"
+    },
+    {
+      "criterion": "Prior chimeric antigen receptor therapy or other genetically modified T-cell therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of Burkitt's lymphoma but there is no mention of prior chimeric antigen receptor therapy or genetically modified T-cell therapy.",
+      "clinical_question": "Has the patient received any prior chimeric antigen receptor therapy or other genetically modified T-cell therapy?"
+    },
+    {
+      "criterion": "Participants who have received more than one line of prior therapy for DLBCL or associated subtypes.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of Burkitt's lymphoma but it is unclear if they have received more than one line of therapy specifically for DLBCL or associated subtypes.",
+      "clinical_question": "Has the patient received ≥2 prior lines of therapy specifically for diffuse large B-cell lymphoma (DLBCL) or its associated subtypes?"
+    },
+    {
+      "criterion": "Prior HSCT (as first-line consolidation) < 3 months at the time of leukapheresis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about prior HSCT, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Has the patient undergone hematopoietic stem cell transplantation (HSCT) as first-line consolidation within the last 3 months prior to leukapheresis?"
+    },
+    {
+      "criterion": "Participants who have CNS lymphoma involvement in present or past medical history.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of CNS involvement due to Burkitt's lymphoma, which qualifies for this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants with the requirement for urgent therapy due to tumour mass effects.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's condition suggests a need for urgent therapy due to the cardiac mass effect.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Infection with human immunodeficiency virus.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding HIV infection status.",
+      "clinical_question": "Has the patient been tested for HIV infection within the last 12 months, and is the result negative?"
+    },
+    {
+      "criterion": "Presence of active or prior hepatitis B or C as indicated by serology. Treated infection with hepatitis B or C virus unless confirmed to be polymerase chain reaction negative.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding hepatitis B or C infection status.",
+      "clinical_question": "Is the patient's hepatitis B and C serology negative, and has a polymerase chain reaction test confirmed the absence of active infection?"
+    },
+    {
+      "criterion": "Infection with Treponema pallidum (pathogen causing syphilis).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding Treponema pallidum infection status.",
+      "clinical_question": "Has the patient been tested for Treponema pallidum infection, and if so, is the result positive?"
+    },
+    {
+      "criterion": "Infection with human T-lymphotropic virus 1.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding HTLV-1 infection status.",
+      "clinical_question": "Has the patient been tested for human T-lymphotropic virus 1 (HTLV-1) infection, and if so, is the result positive?"
+    },
+    {
+      "criterion": "Active infection with SARS-CoV-2.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding active SARS-CoV-2 infection.",
+      "clinical_question": "Has the patient tested positive for SARS-CoV-2 within the last 14 days?"
+    },
+    {
+      "criterion": "Active, severe systemic fungal, viral, or bacterial infection.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of viral encephalitis/meningitis, but there is no current evidence of an active severe infection.",
+      "clinical_question": "Does the patient currently have a documented active systemic fungal, viral, or bacterial infection as indicated by positive cultures or clinical signs within the last 30 days?"
+    },
+    {
+      "criterion": "Known history or evidence of severely immunocompromised state, i.e. corticosteroid treatment > 10 mg/day for more than 6 months.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about corticosteroid treatment, so the immunocompromised state is uncertain.",
+      "clinical_question": "Has the patient been on corticosteroid treatment at a dosage of >10 mg/day for more than 6 months?"
+    },
+    {
+      "criterion": "Has received vaccination with live virus vaccines within 6 weeks prior to randomisation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding vaccination with live virus vaccines.",
+      "clinical_question": "Has the patient received any live virus vaccines within the 6 weeks prior to randomisation?"
+    },
+    {
+      "criterion": "Prior CD19-targeted therapy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of prior CD19-targeted therapy in the patient's history.",
+      "clinical_question": "Has the patient received any prior CD19-targeted therapy, such as CAR T-cell therapy or monoclonal antibodies targeting CD19?"
+    },
+    {
+      "criterion": "Known history or presence of seizure activities or on active anti-seizure medications within the previous 12 months.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a known history of seizure activities and has experienced seizures/stroke.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History or presence of non-malignant CNS disease that, in the judgement of the investigator, may impair the ability to evaluate neurotoxicity.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history includes CNS issues, but it is unclear if they would impair neurotoxicity evaluation.",
+      "clinical_question": "Does the patient have a history of non-malignant CNS disease that has resulted in neurological deficits or impairments in the past 12 months?"
+    },
+    {
+      "criterion": "Known history or presence of autoimmune CNS disease, such as multiple sclerosis, optic neuritis or other immunologic or inflammatory disease.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no known history of autoimmune CNS disease mentioned.",
+      "clinical_question": "Does the patient have a documented history of autoimmune CNS disease, such as multiple sclerosis or optic neuritis, confirmed by neurological evaluation?"
+    },
+    {
+      "criterion": "Known history or presence of CVA within 12 months prior to randomisation. Note: In case of history of CVA > 12 months prior to leukapheresis, then the participant must not have any unstable or life-threatening neurological deficits.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of CVA (stroke) within the last 12 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants with Richter's transformation or Richter's syndrome.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about Richter's transformation or Richter's syndrome.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of Richter's transformation or Richter's syndrome based on histopathological evaluation?"
+    },
+    {
+      "criterion": "Participants who are concurrently on any other experimental treatments or during the previous 4 weeks or 5 half-lives.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not reported to be on any experimental treatments, but this is not explicitly stated.",
+      "clinical_question": "Has the patient received any experimental treatments in the past 4 weeks or has she been on any experimental treatments during the last 5 half-lives of those medications?"
+    },
+    {
+      "criterion": "Pregnant or breastfeeding woman.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is a female, but there is no indication of pregnancy or breastfeeding status provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior history of malignancies other than DLBCL. Exceptions include participants who have been free of the disease for ≥ 3 years prior to screening and participants with adequately treated and removed basal cell carcinoma of the skin, squamous cell carcinoma of the skin, carcinoma in situ of the cervix, carcinoma in situ of the breast, carcinoma in situ of the bladder or incidental histological finding of untreated localised (T1a, T1b or T1c) prostate cancer under surveillance.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of Burkitt's lymphoma, which is a malignancy, and does not meet the criteria of being free of disease for ≥ 3 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of severe immediate hypersensitivity to any IMP, AxMP, premedication or rescue medication or its excipients that is scheduled to be given during study participation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any severe immediate hypersensitivity to any IMP, AxMP, premedication, or rescue medication.",
+      "clinical_question": "Does the patient have a documented history of severe immediate hypersensitivity reactions to any investigational medicinal product (IMP), AxMP, premedication, or rescue medication scheduled for use during the study?"
+    },
+    {
+      "criterion": "Major surgery less than 30 days before start of treatment.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone knee surgery, which is considered major surgery, less than 30 days before the start of treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any medical condition likely to interfere with assessment of safety or efficacy of study treatment.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has multiple medical conditions (e.g., obesity, hypertension, DVT) that could potentially interfere with the assessment of safety or efficacy of study treatment.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Prior HSCT (as first-line consolidation) < 3 months at the time of leukapheresis",
+    "LOW INCLUSION MATCH: only 18 of 126 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3543
+}

@@ -1,0 +1,99 @@
+{
+  "nct_id": "NCT00096902",
+  "trial_title": "Non-Pharmacologic Therapy for Neurocardiogenic Syncope",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This study will examine whether certain procedures that do not involve the use of medications can reduce symptoms of neurocardiogenic syncope (SIN-ku-pe), or a condition involving recurrent fainting. This condition is also known as vasovagal syncope or neurally mediated hypotension. Neurocardiogenic syncope is a disorder of the autonomic nervous system, which controls automatic body functions such as blood pressure, heart rate, and sweating. That system can be affected by medications, conditions",
+  "eligibility_table": [
+    {
+      "criterion": "Subjects are patients referred for neurocardiogenic syncope or presyncope, with or without postural tachycardia syndrome (POTS). Patients enter the trial after positive tilt table testing during the screening evaluation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has syncope, but it is unclear if they have undergone tilt table testing as required for inclusion.",
+      "clinical_question": "Has the patient undergone a positive tilt table test with a heart rate increase of ≥30 beats per minute within 10 minutes of tilting?"
+    },
+    {
+      "criterion": "Participation is offered to individuals 18 years old or older, independently of gender, race, advanced age, ethnicity, religion, or any other demographic or sociopolitical classifications.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 23.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Minors younger than 18 years old are excluded.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 23.0 < 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients who have certain illnesses that would interfere or be contraindicated with the interventions or procedures in this study are excluded. These include significant coronary artery disease, psychosis, or psychotic depression.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have significant coronary artery disease, psychosis, or psychotic depression.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A candidate is excluded if the subject is unwilling to experience hypnosis or to have hypnosis sessions recorded; holds religious or other beliefs that would prevent engagement in hypnosis; is not fluent in spoken English; or has physical or other disabilities that prevent adequate participation in hypnotic susceptibility testing.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has beliefs preventing participation in hypnosis or any disabilities affecting participation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Certain herbal medicines or dietary supplements are known or suspected to interfere with the experimental results, and such herbal medicines or dietary supplements must be discontinued before enrollment in the study.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any herbal medicines or dietary supplements that would interfere with the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A candidate is excluded if clinical considerations require that the patient continue treatment with a drug likely to interfere with the scientific results. Patients who cannot discontinue medications in the following categories are excluded: certain anti-hypertensives including beta-blockers, anticoagulants, tricyclic antidepressants, barbiturates, and acetaminophen.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any medications that would interfere with the scientific results.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients unable to discontinue nicotine, caffeine, or alcohol for 24 hours prior to tilt table testing are excluded.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not use nicotine, caffeine, or alcohol, thus can comply with the 24-hour discontinuation requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with chronic alcohol intake are excluded.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have chronic alcohol intake.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients are not to discontinue any medications before the patient or the patient's doctor discusses this with the Principal Investigator, Accountable Investigator, an Associate Investigator, or Research Nurse. If it is decided that discontinuing medications would be unsafe, then the patient is excluded.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is on any medications that would require discussion with investigators before discontinuation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients who pose technical difficulties regarding the testing procedures are excluded.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any technical difficulties the patient may pose regarding testing procedures.",
+      "clinical_question": "Does the patient have any anatomical or physiological abnormalities that would complicate the testing procedures for neurocardiogenic syncope?"
+    },
+    {
+      "criterion": "A candidate is excluded if, in the judgment of the Principal Investigator, Accountable Investigator, or Clinical Director, protocol participation would place the subject at substantially increased acute medical risk, or if the medical risk outweighs the potential scientific benefit.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medical history raises concerns due to the sudden death of a family member, but it is unclear if this would place them at increased medical risk.",
+      "clinical_question": "Does the patient have a left ventricular outflow tract gradient ≥30 mmHg during exertion or provocation testing?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients who pose technical difficulties regarding the testing procedures are ex",
+    "EXCLUSION UNCLEAR: A candidate is excluded if, in the judgment of the Principal Investigator, Accou"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.75
+}

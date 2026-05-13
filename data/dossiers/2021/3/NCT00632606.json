@@ -1,0 +1,91 @@
+{
+  "nct_id": "NCT00632606",
+  "trial_title": "MgSO4 vs Metoclopramide for Headache in Pregnant Women",
+  "phase": "PHASE2",
+  "status": "WITHDRAWN",
+  "brief_summary": "The study will compare effectiveness of intravenous magnesium sulfate to that of intravenous metoclopramide (Reglan®) for acute headache in pregnant women. We will randomize pregnant women who present to our emergency department with chief complaint of headache to magnesium sulfate 2 grams intravenously or metoclopramide 10 mg intravenously; both groups will receive acetaminophen (Tylenol®) 1 gram orally and normal saline 1 liter intravenously. Headaches are common during pregnancy, related to h",
+  "eligibility_table": [
+    {
+      "criterion": "Pregnant, 18-75",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is a 32-year-old female, which falls within the inclusion criteria of being pregnant or aged 18-75.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Headache rated 4 or greater on a 0-10 pain scale",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of significant head injury and may have headaches, but the severity (4 or greater on a 0-10 scale) is not specified.",
+      "clinical_question": "Has the patient rated her headache pain as ≥4 on a 0-10 pain scale?"
+    },
+    {
+      "criterion": "New objective neurologic abnormality at the time of exam",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's neurological status is not clearly defined; further examination is needed to determine if there is a new objective neurologic abnormality.",
+      "clinical_question": "Does the patient exhibit any new objective neurologic abnormalities, such as changes in motor function or sensory perception, during the neurological examination?"
+    },
+    {
+      "criterion": "Temperature >100.4",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's temperature is not provided; thus, it cannot be determined if it exceeds 100.4.",
+      "clinical_question": "Has the patient had a recorded body temperature of >100.4°F at any point during her current hospitalization?"
+    },
+    {
+      "criterion": "Allergy or intolerance to study medications",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding allergies or intolerances to study medications.",
+      "clinical_question": "Does the patient have a documented allergy or intolerance to either magnesium sulfate or metoclopramide?"
+    },
+    {
+      "criterion": "Suspected of confirmed preeclampsia/eclampsia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of preeclampsia or eclampsia in the patient's history.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of preeclampsia or eclampsia based on blood pressure readings of ≥140/90 mmHg and proteinuria?"
+    },
+    {
+      "criterion": "Complete heart block",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's cardiac status is not detailed; therefore, it cannot be determined if there is a complete heart block.",
+      "clinical_question": "Has the patient experienced a complete heart block as defined by a heart rate of less than 40 beats per minute and a PR interval of greater than 200 milliseconds on an ECG?"
+    },
+    {
+      "criterion": "Hypotension, SBP<85",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's blood pressure is not provided, making it impossible to assess for hypotension.",
+      "clinical_question": "Has the patient's systolic blood pressure (SBP) been measured and recorded to be less than 85 mmHg?"
+    },
+    {
+      "criterion": "Myasthenia gravis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of myasthenia gravis in the patient's medical history.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of myasthenia gravis based on clinical evaluation and serological testing for anti-acetylcholine receptor antibodies?"
+    },
+    {
+      "criterion": "End stage renal failure",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's renal function is not discussed, so it cannot be determined if there is end-stage renal failure.",
+      "clinical_question": "Does the patient have a glomerular filtration rate (GFR) of less than 15 mL/min?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: New objective neurologic abnormality at the time of exam",
+    "EXCLUSION UNCLEAR: Temperature >100.4",
+    "EXCLUSION UNCLEAR: Allergy or intolerance to study medications",
+    "EXCLUSION UNCLEAR: Suspected of confirmed preeclampsia/eclampsia",
+    "EXCLUSION UNCLEAR: Complete heart block",
+    "EXCLUSION UNCLEAR: Hypotension, SBP<85",
+    "EXCLUSION UNCLEAR: Myasthenia gravis",
+    "EXCLUSION UNCLEAR: End stage renal failure"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1
+}

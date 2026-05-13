@@ -1,0 +1,94 @@
+{
+  "nct_id": "NCT01748422",
+  "trial_title": "Qutenza (Topical Capsaicin 8%) for Painful Arteriovenous Fistulae",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "Arteriovenous fistulae are artificial connections between the artery and vein in the arm which allow needles to be inserted for haemodialysising patients wit kidney failure. Occasionally severe debilitating pain can arise from these fistulae for which no cause can be found. Such pain can be very difficult to treat. Many commonly used used painkillers are known to cause significant side effects in patients with renal failure (drowsiness, confusion etc.\n\nQutenza (topical capsaicin 8%) is a new tre",
+  "eligibility_table": [
+    {
+      "criterion": "All adult patients >18 years old with end stage renal disease on dialysis and significant chronic neuropathic pain arising from their arteriovenous fistula",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pre-dialysis",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on dialysis, thus meeting the pre-dialysis criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Underlying anatomical/ structural abnormality with AVF contributing to pain",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's AVM may contribute to pain, but it is unclear if it is an underlying anatomical/structural abnormality specifically related to AVF.",
+      "clinical_question": "Does the patient have any imaging studies that demonstrate an anatomical or structural abnormality in the arteriovenous fistula contributing to their pain?"
+    },
+    {
+      "criterion": "Diabetic neuropathy resulting in sensory loss",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of diabetic neuropathy or sensory loss in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hypersensitivity to Qutenza, Emla or any of the excipients",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No known hypersensitivity to Qutenza, Emla, or excipients is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Broken skin or active ulceration at the site of application",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of broken skin or active ulceration at the application site.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe uncontrolled hypertension (systolic BP >200)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's systolic blood pressure currently greater than 200 mmHg?"
+    },
+    {
+      "criterion": "Proven cardiac event during the preceding 3 months",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not experienced a proven cardiac event in the last 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women who are pregnant or breast feeding",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not pregnant or breastfeeding.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lack of capacity or inability to provide informed consent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's capacity to provide informed consent is not explicitly stated; further assessment may be needed.",
+      "clinical_question": "Does the patient demonstrate the cognitive ability to understand the risks and benefits of participating in the Qutenza trial, as assessed by a standardized informed consent capacity evaluation?"
+    },
+    {
+      "criterion": "Declines participation in the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's willingness to participate in the study is not mentioned, so it is uncertain.",
+      "clinical_question": "Has the patient expressed a definitive decision to decline participation in the study after being fully informed of the study details and potential benefits?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Underlying anatomical/ structural abnormality with AVF contributing to pain",
+    "EXCLUSION UNCLEAR: Severe uncontrolled hypertension (systolic BP >200)",
+    "EXCLUSION UNCLEAR: Lack of capacity or inability to provide informed consent",
+    "EXCLUSION UNCLEAR: Declines participation in the study"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6364
+}

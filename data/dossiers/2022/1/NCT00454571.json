@@ -1,0 +1,446 @@
+{
+  "nct_id": "NCT00454571",
+  "trial_title": "Pazopanib Hydrochloride After Leuprolide Acetate or Goserelin Acetate in Treating Patients With Relapsed Prostate Cancer",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This randomized phase II trial is studying how well pazopanib hydrochloride works after leuprolide or goserelin in treating patients with relapsed prostate cancer. Pazopanib hydrochloride may stop the growth of tumor cells by blocking some of the enzymes needed for cell growth and by blocking blood flow to the tumor. Androgens can cause the growth of prostate cancer cells. Antihormone therapy, such as leuprolide acetate or goserelin acetate, may lessen the amount of androgens made by the body. G",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically confirmed prostate cancer",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have prostate cancer, as indicated by the absence of a diagnosis in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Stage D0",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Stage D0 is not applicable since the patient does not have prostate cancer.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of prostate cancer with evidence of relapse after prior androgen deprivation therapy?"
+    },
+    {
+      "criterion": "Must have undergone some definitive local therapy for prostate cancer",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone any local therapy for prostate cancer, as there is no diagnosis.",
+      "clinical_question": "Has the patient undergone any definitive local therapy for prostate cancer, such as radical prostatectomy or radiation therapy?"
+    },
+    {
+      "criterion": "Must be free of macrometastatic disease, as evidenced by computed tomography (CT) scan and bone scan, if serum PSA ≥ 10 ng/mL prior to GnRH agonist therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have prostate cancer, so the criteria regarding macrometastatic disease is not applicable.",
+      "clinical_question": "Does the patient have a computed tomography (CT) scan and bone scan that confirm the absence of macrometastatic disease?"
+    },
+    {
+      "criterion": "Progressive disease meeting the following criteria: NOTE: Patients who have undergone a prostatectomy and have two detectable, rising serum PSA levels are eligible",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have prostate cancer, thus the criteria for progressive disease is not applicable.",
+      "clinical_question": "Does the patient have two detectable, rising serum PSA levels above 0.2 ng/mL?"
+    },
+    {
+      "criterion": "Two consecutive rises in PSA above nadir recorded after definite local therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have prostate cancer, so the criteria regarding PSA rises is not applicable.",
+      "clinical_question": "Has the patient had two consecutive rises in PSA levels above the nadir recorded after definitive local therapy?"
+    },
+    {
+      "criterion": "Serum PSA concentrations must have absolute value of > 0.5 ng/mL (separated by ≥ 2 weeks) prior to beginning GnRH agonist therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have prostate cancer, making the PSA concentration criteria irrelevant.",
+      "clinical_question": "Does the patient have serum PSA concentrations greater than 0.5 ng/mL, measured at least twice and separated by ≥ 2 weeks, prior to beginning GnRH agonist therapy?"
+    },
+    {
+      "criterion": "PSA < 0.5 ng/mL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have prostate cancer, so the PSA level being < 0.5 ng/mL is not applicable.",
+      "clinical_question": "Is the patient's prostate-specific antigen (PSA) level currently less than 0.5 ng/mL?"
+    },
+    {
+      "criterion": "Testosterone < 30 ng/mL",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's testosterone level is above the threshold of < 30 ng/mL, but this is irrelevant as he does not have prostate cancer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No measurable disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have prostate cancer, so the criteria regarding measurable disease is not applicable.",
+      "clinical_question": "Does the patient have any measurable disease as defined by the presence of a tumor mass ≥1 cm in diameter on imaging studies?"
+    },
+    {
+      "criterion": "No brain metastases requiring steroid or anticonvulsant therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported brain metastases, which indicates they do not require steroid or anticonvulsant therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Eastern Cooperative Oncology Group (ECOG) performance status (PS) 0-2 OR Karnofsky PS 60- 100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ECOG performance status is not provided, making it unclear if they meet the PS criteria.",
+      "clinical_question": "Does the patient have an Eastern Cooperative Oncology Group (ECOG) performance status of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Prothrombin time (PT)/international normalization ratio (INR)/partial thromboplastin time (PTT) ≤ 1.2 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided for PT/INR/PTT, so it cannot be determined if they are within the acceptable range.",
+      "clinical_question": "Is the patient's prothrombin time (PT), international normalization ratio (INR), and partial thromboplastin time (PTT) ≤ 1.2 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Bilirubin normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided, thus we cannot assess if they are normal.",
+      "clinical_question": "Is the patient's total bilirubin level ≤1.2 mg/dL?"
+    },
+    {
+      "criterion": "Aspartate aminotransferase (AST) and alanine aminotransferase (ALT) ≤ 2.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "AST and ALT levels are not provided, making it impossible to determine if they are ≤ 2.5 times ULN.",
+      "clinical_question": "Is the patient's aspartate aminotransferase (AST) and alanine aminotransferase (ALT) level ≤ 2.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Creatinine ≤ 1.5 times ULN OR creatinine clearance > 50 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine levels are not provided, so we cannot assess if they are ≤ 1.5 times ULN or if creatinine clearance is adequate.",
+      "clinical_question": "Is the patient's creatinine level ≤ 1.5 times the upper limit of normal (ULN) or is their creatinine clearance > 50 mL/min?"
+    },
+    {
+      "criterion": "Proteinuria ≤ 1+ on 2 consecutive dipsticks > 1 week apart",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on proteinuria is available, so we cannot determine if it is ≤ 1+.",
+      "clinical_question": "Have two consecutive dipstick tests for proteinuria been performed on this patient, with results showing ≤ 1+ more than one week apart?"
+    },
+    {
+      "criterion": "Urine protein: creatinine ratio < 1 OR urine protein < 1.0 g/24 hours",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No urine protein: creatinine ratio or 24-hour urine protein data is provided, making it impossible to assess.",
+      "clinical_question": "Is the patient's urine protein: creatinine ratio < 1 or is the total urine protein < 1.0 g/24 hours?"
+    },
+    {
+      "criterion": "Fertile patients must use effective double-barrier contraception during study therapy OR completely abstain from sexual intercourse 14 days prior to, during, and for ≥ 21 days after completion of study therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is 19 years old and may not be fertile, but there is no clear information on contraception or sexual activity.",
+      "clinical_question": "Is the patient currently using effective double-barrier contraception or has he completely abstained from sexual intercourse for at least 14 days prior to the start of study therapy?"
+    },
+    {
+      "criterion": "No history of allergic reactions attributed to compounds of similar chemical or biological composition to pazopanib hydrochloride or to other agents used in the study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of allergic reactions is provided, but without specific information on pazopanib or similar compounds, we cannot assess.",
+      "clinical_question": "Does the patient have any documented history of allergic reactions to pazopanib hydrochloride or any other agents with similar chemical or biological composition?"
+    },
+    {
+      "criterion": "No concurrent uncontrolled illness including, but not limited to, any of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have any reported uncontrolled illnesses.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ongoing or active infection",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of an ongoing or active infection in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Psychiatric illness or social situations that would preclude compliance with study requirements",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No psychiatric illness or social situations are mentioned that would affect compliance.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No human immunodeficiency virus (HIV) positivity",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not reported to be HIV positive.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No condition that impairs the ability to swallow and retain pazopanib hydrochloride tablets, including any of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of a condition that impairs the ability to swallow and retain medication.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Gastrointestinal tract disease resulting in an inability to take oral medication",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No gastrointestinal tract disease is reported that would prevent oral medication intake.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Requirement for intravenous (IV) alimentation",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no requirement for intravenous alimentation mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior surgical procedures affecting absorption",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No prior surgical procedures affecting absorption are reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active peptic ulcer disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no active peptic ulcer disease reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other conditions, including any of the following:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is vague; while no specific conditions are mentioned, the patient's hypogonadism and delayed puberty may need further evaluation.",
+      "clinical_question": "Does the patient have any other conditions that would exclude them from participating in the trial?"
+    },
+    {
+      "criterion": "Serious or nonhealing wound, ulcer, or bone fracture",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have any serious or nonhealing wounds, ulcers, or bone fractures.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within the past 28 days",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of an abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Cerebrovascular accident within the past 6 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not experienced a cerebrovascular accident within the past 6 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Myocardial infarction, admission for unstable angina, cardiac angioplasty, or stenting within the past 6 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no history of myocardial infarction, unstable angina, cardiac angioplasty, or stenting in the past 6 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Venous thrombosis within the past 12 weeks",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not had venous thrombosis within the past 12 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "New York Heart Association (NYHA) class III or IV heart failure",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have NYHA class III or IV heart failure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of currently treated asymptomatic NYHA class II heart failure allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have a history of currently treated asymptomatic NYHA class II heart failure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Systolic blood pressure (BP) ≤ 140 mm Hg and diastolic BP ≤ 90 mm Hg",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current systolic blood pressure ≤ 140 mm Hg and diastolic blood pressure ≤ 90 mm Hg?"
+    },
+    {
+      "criterion": "Prior initiation or adjustment of BP medication allowed provided that the average of 3 BP readings at a visit prior to enrollment is < 140/90 mm Hg",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's blood pressure readings are not provided, making it unclear if they meet the BP criteria.",
+      "clinical_question": "What is the average of the last three blood pressure readings taken at a visit prior to enrollment?"
+    },
+    {
+      "criterion": "More than 3 months since prior antiandrogen",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not received antiandrogen treatment recently, but the exact timing is not specified.",
+      "clinical_question": "Has the patient received any antiandrogen therapy in the past 3 months?"
+    },
+    {
+      "criterion": "More than 4 months since prior orchiectomy or implantable luteinizing LHRH agonist",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone orchiectomy or received LHRH agonist treatment recently, but the timing is not specified.",
+      "clinical_question": "Has the patient undergone orchiectomy or received an implantable luteinizing LHRH agonist more than 4 months ago?"
+    },
+    {
+      "criterion": "No prior GnRH agonists except for neoadjuvant or adjuvant therapy associated with local therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no prior GnRH agonist therapy, which meets the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients who have started a GnRH agonist for micrometastatic disease after local therapy allowed provided the following criteria are met:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not started a GnRH agonist for micrometastatic disease, making it unclear if this criterion applies.",
+      "clinical_question": "Has the patient been treated with a GnRH agonist for at least 3 months for micrometastatic disease after local therapy?"
+    },
+    {
+      "criterion": "Progressive disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has hypogonadism and delayed puberty, which does not indicate progressive disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Willing to discontinue therapy before 6 months have elapsed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely willing to discontinue therapy as there are no current treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have signed consent prior to completing 6 months of the initial hormone therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not signed consent prior to completing 6 months of initial hormone therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Are within 4 months of initiating GnRH agonist therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not within 4 months of initiating GnRH agonist therapy, as there is no indication of such therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior or concurrent GnRH antagonist therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no prior or concurrent GnRH antagonist therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent ketoconazole",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on ketoconazole, meeting this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent cytochrome P450 2C9 (CYP2C9) substrates, including any of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any CYP2C9 substrates, fulfilling this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anticoagulants (e.g., warfarin [therapeutic doses only])",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on anticoagulants, thus meeting this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Low molecular weight heparin or prophylactic low-dose warfarin allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently on any medications, so the inclusion of low molecular weight heparin or prophylactic low-dose warfarin is acceptable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Oral hypoglycemics (e.g., glipizide, glyburide, tolbutamide, glimepiride, or nateglinide)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any oral hypoglycemics, making this criterion met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ergot derivatives (e.g., dihydroergotamine, ergonovine, ergotamine, or methylergonovine)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not taking any ergot derivatives, thus this criterion is met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Neuroleptics (e.g., pimozide)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any neuroleptics, fulfilling this inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Erectile dysfunction agents (e.g., sildenafil, tadalafil, or vardenafil)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not using any erectile dysfunction agents, so this criterion is met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Antiarrhythmics (e.g., bepridil, flecainide, lidocaine, mexiletin, amiodarone, quinidine, or propafenone)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any antiarrhythmics, thus this criterion is met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Immune modulators (e.g., cyclosporine, tacrolimus, or sirolimus)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not taking any immune modulators, making this criterion met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Miscellaneous medications (e.g., theophylline, quetiapine, risperidone, tacrine, clozapine, or atomoxetine)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any miscellaneous medications, fulfilling this inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent medications associated with the risk of QTc prolongation and/or Torsades de Pointes",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any concurrent medications associated with QTc prolongation, so this criterion is met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Replacement of drugs that do not carry these risks allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any drugs that carry risks, allowing for the replacement of such drugs.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent non-Food and Drug Administration (FDA)-approved agents",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any medications, thus there are no concurrent non-FDA-approved agents.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.629
+}

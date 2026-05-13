@@ -1,0 +1,79 @@
+{
+  "nct_id": "NCT04544904",
+  "trial_title": "The Technology, Exercise Programming, and Activity Prescription for Enhanced Mobility (TEAM) Study",
+  "phase": "NA",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "Many individuals with osteoarthritis (OA) (up to 45%) are referred to an orthopaedic surgeon for a joint replacement prematurely or will not be candidates for surgery. These individuals need appropriate (non-operative) care to help reduce their pain and enhance their mobility. We are studying the use of innovative technology to help physicians give physical activity advice for patients to become more active and provide free online resources to help patients understand OA self-management and exer",
+  "eligibility_table": [
+    {
+      "criterion": "40-74 years of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 66.0 >= 40.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "40-74 years of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 66.0 <= 74.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Screened by the Southwest Musculoskeletal RAC as \"mild to moderate OA\" using clinical and radiographic criteria",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has symptoms and radiographic findings consistent with mild to moderate osteoarthritis (OA), including joint space narrowing and osteophyte formation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concomitant end-stage OA (awaiting/prior TJA)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of end-stage OA or that the patient is awaiting or has undergone total joint arthroplasty (TJA).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Inflammatory arthritis (rheumatoid, psoriatic, or disease-modifying anti-rheumatic drug exposure)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have any signs of inflammatory arthritis, as her conditions are consistent with osteoarthritis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unstable medical conditions that would preclude physical activity prescription (e.g. unstable angina, uncontrolled Type 2 Diabetes)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's medical conditions (joint pain, hypertension, hypercholesteremia) are stable and do not preclude physical activity.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not able/willing to follow up for the study period",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's willingness or ability to follow up for the study period.",
+      "clinical_question": "Is the patient willing to attend follow-up appointments at least once every three months for the duration of the study?"
+    },
+    {
+      "criterion": "Does not have access to the internet",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's access to the internet.",
+      "clinical_question": "Does the patient have access to a device capable of connecting to the internet for telehealth consultations?"
+    },
+    {
+      "criterion": "Cannot communicate in English",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ability to communicate in English.",
+      "clinical_question": "Can the patient communicate effectively in English during clinical assessments?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Not able/willing to follow up for the study period",
+    "EXCLUSION UNCLEAR: Does not have access to the internet",
+    "EXCLUSION UNCLEAR: Cannot communicate in English"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

@@ -1,0 +1,65 @@
+{
+  "nct_id": "NCT01074658",
+  "trial_title": "CoreValve Advance International Post Market Study",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "The CoreValve Advance study is intended to evaluate the clinical utility of the Medtronic CoreValve System in a \"Real-World\" patient population.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with severe aortic valve stenosis requiring treatment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis, which is a clear indication for treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient is an acceptable candidate for elective treatment with the Medtronic CoreValve System and in conformity with the local regulatory and medico economical context",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "While the patient may be a candidate for the Medtronic CoreValve System, additional information about local regulatory approval and the patient's specific health status is needed to confirm eligibility.",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) ≥30% to qualify for elective treatment with the Medtronic CoreValve System?"
+    },
+    {
+      "criterion": "Patient is above the minimum age as required by local regulations to be participating in a clinical study",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and likely above the minimum age required for participation in clinical studies.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The patient or legal representative has been informed of the nature of the study and has consented to participate, and has authorized the collection and release of his/her medical information by signing a consent form (\"Patient Informed Consent Form\")",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether the patient or legal representative has been informed and consented to participate in the study.",
+      "clinical_question": "Has the patient signed the Patient Informed Consent Form to authorize participation in the study?"
+    },
+    {
+      "criterion": "Currently participating in another trial",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently enrolled in any clinical trial that involves an investigational device or drug?"
+    },
+    {
+      "criterion": "High probability of non-adherence to the follow-up requirements (due to social, psychological or medical reasons)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of tobacco abuse and other medical conditions may suggest a risk of non-adherence, but without specific details on social or psychological factors, this remains uncertain.",
+      "clinical_question": "Does the patient have a history of missed medical appointments or non-compliance with prescribed medications in the past 12 months?"
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently pregnant or has the patient been pregnant within the last 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Currently participating in another trial",
+    "EXCLUSION UNCLEAR: High probability of non-adherence to the follow-up requirements (due to social, ",
+    "EXCLUSION UNCLEAR: Pregnancy"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2857
+}

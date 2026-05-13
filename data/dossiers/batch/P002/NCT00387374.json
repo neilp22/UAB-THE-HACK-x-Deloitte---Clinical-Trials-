@@ -1,0 +1,446 @@
+{
+  "nct_id": "NCT00387374",
+  "trial_title": "Radiation Therapy, Bevacizumab, Paclitaxel, and Carboplatin in Treating Patients With Unresectable Stage IIIB or Stage IV Non-Small Cell Lung Cancer at High Risk for Hemoptysis Caused by Bevacizumab",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This phase II trial is studying the side effects and how well giving radiation therapy together with bevacizumab, paclitaxel, and carboplatin works in treating patients with unresectable stage IIIB or stage IV non-small cell lung cancer at high risk for hemoptysis caused by bevacizumab. Radiation therapy uses high-energy x-rays to kill tumor cells. It may also prevent hemoptysis caused by bevacizumab. Monoclonal antibodies, such as bevacizumab, can block tumor growth in different ways. Some bloc",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically confirmed primary non-small cell lung cancer (NSCLC)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone histological or cytological confirmation of primary non-small cell lung cancer (NSCLC)?"
+    },
+    {
+      "criterion": "Squamous cell or mixed squamous-nonsquamous histology with predominant squamous component (≥ 50% squamous) with a primary, unresected endobronchial lesion",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has stage IV non-small cell lung cancer (adenocarcinoma), which does not meet the criterion of having squamous cell or mixed squamous-nonsquamous histology.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No small cell component",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient's tumor pathology report confirm the absence of a small cell component in the non-small cell lung cancer diagnosis?"
+    },
+    {
+      "criterion": "Centrally located primary tumor, defined by the following:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The information regarding the location of the primary tumor is not provided, making it unclear if it is centrally located.",
+      "clinical_question": "Is the patient's primary tumor located within 2 cm of the carina?"
+    },
+    {
+      "criterion": "Primary tumor of any T stage within or touching the zone of the proximal bronchial tree",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient's primary tumor have a T stage of T1, T2, T3, or T4 that is located within or touching the zone of the proximal bronchial tree?"
+    },
+    {
+      "criterion": "Zone is defined as a 3-dimensional volume with a perimeter of 2 cm in each direction around the proximal bronchial tree (carina, right and left main bronchi, right and left upper lobe bronchi, intermedius bronchus, right middle lobe bronchus, lingular bronchus, right and left lower lobe bronchi)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The information regarding the specific zone around the proximal bronchial tree is not provided, making it unclear if the tumor is within this defined volume.",
+      "clinical_question": "Is the patient's tumor located within a 2 cm perimeter in each direction around the proximal bronchial tree as defined by the trial's zone criterion?"
+    },
+    {
+      "criterion": "Any disease within this volume must not invade blood vessels determined by a contrast-enhanced CT scan evaluation of the entire thorax with thin slices (≤ 5 mm) through the area of central tumor bulk (i.e., no evidence of vessel invasion radiological evaluation)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the results of a contrast-enhanced CT scan to evaluate for blood vessel invasion.",
+      "clinical_question": "Does the contrast-enhanced CT scan of the thorax show any evidence of blood vessel invasion in the area of the central tumor bulk?"
+    },
+    {
+      "criterion": "Stage IIIB (with malignant pleural effusion) or stage IV disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a malignant pleural effusion confirmed by imaging or cytology?"
+    },
+    {
+      "criterion": "Patients with stage IIIB NSCLC without an effusion are eligible if they are not candidates for combined modality therapy with curative intent (i.e., radical chemoradiotherapy)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's eligibility regarding stage IIIB NSCLC without an effusion and candidacy for combined modality therapy is not clear from the provided information.",
+      "clinical_question": "Is the patient considered a candidate for combined modality therapy with curative intent, specifically radical chemoradiotherapy?"
+    },
+    {
+      "criterion": "At high risk for bevacizumab-associated hemoptysis",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's risk for bevacizumab-associated hemoptysis.",
+      "clinical_question": "Does the patient have a history of hemoptysis or pulmonary hemorrhage within the last 6 months?"
+    },
+    {
+      "criterion": "Hemoptysis estimated as between 2.5 mL and 10 mL (largest volume of single episode of hemoptysis) in the past 2 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any episodes of hemoptysis in the past 2 months.",
+      "clinical_question": "Has the patient experienced a single episode of hemoptysis with a volume between 2.5 mL and 10 mL in the past 2 months?"
+    },
+    {
+      "criterion": "Measurable disease, defined as ≥ 1 unidimensionally measurable lesion ≥ 20 mm by conventional techniques or ≥ 10 mm by spiral CT scan",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The information regarding measurable disease is not provided, making it unclear if the patient meets this criterion.",
+      "clinical_question": "Does the patient have at least one unidimensionally measurable lesion that is ≥20 mm by conventional techniques or ≥10 mm by spiral CT scan?"
+    },
+    {
+      "criterion": "No known brain metastases by contrast-enhanced CT scan or gadolinium-enhanced MRI of the brain",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a contrast-enhanced CT scan or gadolinium-enhanced MRI of the brain within the last 3 months that confirms the absence of brain metastases?"
+    },
+    {
+      "criterion": "No clinical or radiologic evidence of an existing or impending spinal cord compression",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any clinical or radiologic evidence of existing or impending spinal cord compression as assessed by MRI or CT imaging within the last 30 days?"
+    },
+    {
+      "criterion": "ECOG performance status (PS) 0-1 OR Karnofsky PS 70-100%",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has an ECOG performance status of 1, which meets the criterion of ECOG PS 0-1.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy > 6 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's life expectancy is likely greater than 6 months given their current condition and treatment history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "WBC ≥ 3,000/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Does the patient have a white blood cell count (WBC) of ≥3,000/mm³?"
+    },
+    {
+      "criterion": "Absolute neutrophil count ≥ 1,500/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count currently ≥ 1,500/mm³?"
+    },
+    {
+      "criterion": "Platelet count ≥ 100,000/mm³",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's current platelet count ≥ 100,000/mm³?"
+    },
+    {
+      "criterion": "Bilirubin normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin level is not provided in the patient profile.",
+      "clinical_question": "Is the patient's total bilirubin level within the normal range (≤1.2 mg/dL)?"
+    },
+    {
+      "criterion": "AST and ALT ≤ 2.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ALT is 28 U/L, which is within the normal range and well below 2.5 times ULN.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Creatinine normal OR creatinine clearance ≥ 50 mL/min",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Creatinine is 0.9 mg/dL, which is considered normal.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "INR < 1.5",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "INR value is not provided in the patient profile.",
+      "clinical_question": "Is the patient's INR value less than 1.5?"
+    },
+    {
+      "criterion": "aPTT ≤ 1.5 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "aPTT value is not provided in the patient profile.",
+      "clinical_question": "Is the patient's activated partial thromboplastin time (aPTT) ≤ 1.5 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "No serious medical conditions, including any of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No serious medical conditions are reported in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unstable angina",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No history of unstable angina is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Myocardial infarction or stroke (cerebrovascular accident or transient ischemic attack) within the past 6 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No history of myocardial infarction or stroke in the past 6 months is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Congestive heart failure",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No history of congestive heart failure is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active cardiomyopathy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No history of active cardiomyopathy is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unstable ventricular arrhythmia",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No evidence of unstable ventricular arrhythmia in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Symptomatic peripheral vascular disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No evidence of symptomatic peripheral vascular disease in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active peptic ulcer disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No evidence of active peptic ulcer disease in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Uncontrolled psychotic disorders",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No evidence of uncontrolled psychotic disorders in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serious infections",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No evidence of serious infections in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other medical conditions potentially aggravated by treatment",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No other medical conditions that would be aggravated by treatment are mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No social situation that would preclude study compliance",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No social situation that would preclude study compliance is indicated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other active malignancy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of stage IV non-small cell lung cancer, which is an active malignancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No indication of pregnancy or nursing in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information about a recent pregnancy test result.",
+      "clinical_question": "Has the patient had a negative serum or urine pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for ≥ 6 months after completion of study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's fertility status and contraception use are not provided.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, and will she continue to do so for at least 6 months after completing the study treatment?"
+    },
+    {
+      "criterion": "No history of bleeding diathesis or coagulopathy associated with elevated risk of bleeding",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No history of bleeding diathesis or coagulopathy is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No uncontrolled hypertension (i.e., resting blood pressure consistently higher than systolic > 150 mm Hg and/or diastolic > 100 mm Hg with or without antihypertensive medication), history of labile hypertension, or history of poor compliance with antihypertensive medication",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No uncontrolled hypertension is indicated; no blood pressure readings are provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No clinically significant proteinuria (24-hour urine protein < 1,000 mg)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No clinically significant proteinuria is indicated; lab values do not suggest proteinuria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No serious or nonhealing wound, ulcer, or bone fracture",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No serious or nonhealing wound, ulcer, or bone fracture is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess within the past 28 days",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No abdominal fistula, gastrointestinal perforation, or intra-abdominal abscess is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No significant traumatic injury within the past 28 days",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No significant traumatic injury is mentioned within the past 28 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of known allergy or reaction attributed to compounds of similar chemical or biological composition to bevacizumab, such as Chinese hamster ovary cell proteins or other recombinant human or humanized antibodies, Cremophor EL®, or other agents used in study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No history of allergy or reaction to similar compounds is provided.",
+      "clinical_question": "Does the patient have a documented history of allergy or reaction to compounds similar to bevacizumab, such as Chinese hamster ovary cell proteins or other recombinant human or humanized antibodies?"
+    },
+    {
+      "criterion": "No pre-existing peripheral neuropathy > grade 1",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No pre-existing peripheral neuropathy is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior thoracic radiotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No prior thoracic radiotherapy is indicated.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 12 months since prior chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received erlotinib, which is considered a prior anticancer therapy, and it is unclear if this was more than 12 months ago.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior chemotherapy for advanced disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received erlotinib for advanced disease, which disqualifies her from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior therapy with angiogenesis, vascular endothelial growth factor (VEGF), or VEGF-receptor inhibitors",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has received therapy with angiogenesis, VEGF, or VEGF-receptor inhibitors.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Cyclooxygenase-2 inhibitors as a noncancer therapy allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Cyclooxygenase-2 inhibitors are allowed as a noncancer therapy, and there is no indication that the patient is currently on such therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 28 days since prior and no concurrent major surgery or open biopsy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the timing of any major surgery or open biopsy.",
+      "clinical_question": "Has the patient undergone any major surgery or open biopsy in the past 28 days?"
+    },
+    {
+      "criterion": "At least 12 months since prior anticancer therapy for any other malignancy except basal cell carcinoma of the skin, localized prostate cancer, or in situ carcinoma of the cervix",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not specify any other malignancies or treatments, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient completed all prior anticancer therapies for any malignancy, except basal cell carcinoma of the skin, localized prostate cancer, or in situ carcinoma of the cervix, at least 12 months ago?"
+    },
+    {
+      "criterion": "At least 10 days since prior therapeutic anticoagulants or therapeutic thrombolytic agents",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the use of therapeutic anticoagulants or thrombolytic agents.",
+      "clinical_question": "Has the patient received any therapeutic anticoagulants or therapeutic thrombolytic agents within the last 10 days?"
+    },
+    {
+      "criterion": "No concurrent aspirin (> 325 mg/day) or antiplatelet agents, including dipyridamole, ticlopidine, clopidogrel bisulfate, or cilostazol",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is taking concurrent aspirin or antiplatelet agents.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other concurrent nonsteroidal anti-inflammatory drugs allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is taking other nonsteroidal anti-inflammatory drugs.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent investigational agents",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is currently on any investigational agents.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent combination antiretroviral therapy for HIV-positive patients",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not reported to be HIV-positive, so there are no concerns regarding concurrent antiretroviral therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other concurrent anticancer agents or therapies",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently only taking dexamethasone, which is allowed, and there are no other concurrent anticancer agents or therapies reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Steroids for pain, anorexia, or quality of life allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is taking dexamethasone, which is a steroid used for quality of life, thus meeting the criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5968
+}

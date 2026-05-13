@@ -1,0 +1,301 @@
+{
+  "nct_id": "NCT00004259",
+  "trial_title": "Radiation Therapy Combined With Chemotherapy in Treating Patients With Anaplastic Astrocytoma or Mixed Gliomas",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Radiation therapy uses high-energy x-rays to damage tumor cells. Drugs used in chemotherapy, such as temozolomide, carmustine, and lomustine, use different ways to stop tumor cells from dividing so they stop growing or die. Combining radiation therapy with chemotherapy may kill more tumor cells.\n\nPURPOSE: This randomized phase III trial is studying radiation therapy and temozolomide to see how well they work compared to radiation therapy and carmustine or lomustine in treating patient",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically proven unifocal anaplastic astrocytoma or mixed gliomas, including the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a histologically proven diagnosis of anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient specifically has anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Mixed oligodendroglial/astrocytic tumors",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have mixed oligodendroglial/astrocytic tumors.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Oligodendroglial component must be no greater than 25%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Insufficient information on the presence of an oligodendroglial component.",
+      "clinical_question": "Does the patient's tumor have an oligodendroglial component that is ≤25%?"
+    },
+    {
+      "criterion": "No vascular proliferation and necrosis",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Insufficient information on vascular proliferation and necrosis.",
+      "clinical_question": "Does the patient's tumor pathology report indicate the absence of vascular proliferation and necrosis?"
+    },
+    {
+      "criterion": "Increased cellularity, pleomorphism, and nuclear atypia allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Increased cellularity, pleomorphism, and nuclear atypia are typically present in anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No tumor predominantly located in the posterior fossa (i.e., brainstem or cerebellum)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The tumor is not located in the posterior fossa.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with prior biopsy proven low grade astrocytoma who now have anaplastic astrocytoma and have had no prior radiotherapy or chemotherapy also eligible",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on prior biopsy proven low grade astrocytoma.",
+      "clinical_question": "Has the patient had a prior biopsy-proven diagnosis of low-grade astrocytoma?"
+    },
+    {
+      "criterion": "Study therapy must begin within 6 weeks of diagnosis",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the timing of study therapy initiation relative to diagnosis.",
+      "clinical_question": "Has the patient started study therapy within 6 weeks of the diagnosis of anaplastic astrocytoma?"
+    },
+    {
+      "criterion": "No spinal cord tumors, spinal drop metastases, or metastases to noncontiguous meninges",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has an anaplastic astrocytoma of the spine, which is considered a spinal cord tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pathologic evidence of local meningeal infiltration by underlying tumor allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Pathologic evidence of local meningeal infiltration is not provided in the patient profile.",
+      "clinical_question": "Is there pathologic evidence of local meningeal infiltration by the underlying tumor in the patient's most recent biopsy?"
+    },
+    {
+      "criterion": "Age: 18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: Karnofsky 60-100%",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "ECOG 2.0 >= 60.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy: At least 1 year",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented life expectancy of at least 1 year based on clinical assessment and prognostic indicators?"
+    },
+    {
+      "criterion": "Hematopoietic:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hematopoietic criteria details are not specified in the patient profile.",
+      "clinical_question": "Does the patient have a hemoglobin level of ≥10 g/dL prior to starting radiation therapy?"
+    },
+    {
+      "criterion": "Hemoglobin at least 10 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Does the patient have a hemoglobin level of at least 10 g/dL?"
+    },
+    {
+      "criterion": "Absolute neutrophil count at least 1,500/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count currently ≥1,500/mm^3?"
+    },
+    {
+      "criterion": "Platelet count at least 150,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's current platelet count at least 150,000/mm^3?"
+    },
+    {
+      "criterion": "Bilirubin less than 2 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Bilirubin levels are not mentioned, but assuming normal values, this criterion is likely met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Aspartate aminotransferase (AST) less than 2 times ULN",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ALT is 38 U/L, which is below the threshold for 2 times ULN.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Alkaline phosphatase less than 2 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Alkaline phosphatase levels are not provided in the patient profile.",
+      "clinical_question": "Is the patient's alkaline phosphatase level less than 2 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Blood urea nitrogen no greater than 25 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's blood urea nitrogen level currently ≤25 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine less than 1.5 times normal",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Creatinine is 1.1 mg/dL, which is below 1.5 times the normal limit.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No pre-existing lung disease that, in the investigator's opinion, would preclude administration of carmustine or lomustine or completion of therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on pre-existing lung disease is provided.",
+      "clinical_question": "Does the patient have any history of chronic obstructive pulmonary disease (COPD) or other significant lung disease that would preclude the administration of carmustine or lomustine?"
+    },
+    {
+      "criterion": "No other major medical illness or psychiatric impairment that would preclude study compliance",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple conditions (hypertension, hyperlipidemia, and severe weakness) that may affect study compliance.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other malignancy within the past 5 years except nonmelanomatous skin cancer or carcinoma in situ of the cervix",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on other malignancies is provided in the patient profile.",
+      "clinical_question": "Has the patient been diagnosed with any malignancy other than nonmelanomatous skin cancer or carcinoma in situ of the cervix within the past 5 years?"
+    },
+    {
+      "criterion": "No known hypersensitivity to 1 of the components of carmustine, lomustine, temozolomide, dacarbazine, or any other nitrosourea",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on hypersensitivity to the specified medications is provided.",
+      "clinical_question": "Does the patient have any documented history of hypersensitivity reactions to carmustine, lomustine, temozolomide, dacarbazine, or any other nitrosourea?"
+    },
+    {
+      "criterion": "No active infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient profile does not provide information about any active infections.",
+      "clinical_question": "Does the patient currently have any signs or symptoms of active infection, such as fever, elevated white blood cell count, or localized infection?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No indication of pregnancy or nursing in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about a pregnancy test result.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's fertility status and contraception use are not specified.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a barrier method, hormonal method, or intrauterine device, as defined by clinical guidelines?"
+    },
+    {
+      "criterion": "No prior biologic therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No prior biologic therapy mentioned in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior chemotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No prior chemotherapy mentioned in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Criterion not specified; cannot assess eligibility.",
+      "clinical_question": "Has the patient experienced a progression-free survival of at least 6 months following the last treatment with temozolomide or CPT-11?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not provided in the patient profile.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic astrocytoma or mixed gliomas based on histopathological evaluation?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not provided in the patient profile.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of anaplastic astrocytoma or mixed gliomas based on histopathological evaluation?"
+    },
+    {
+      "criterion": "No prior radiotherapy to brain or head and neck",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No prior radiotherapy to brain or head and neck mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's surgical history is not specified, making it unclear if they meet the surgical eligibility criterion.",
+      "clinical_question": "Has the patient undergone surgical resection of the anaplastic astrocytoma prior to starting radiation therapy and chemotherapy?"
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is not specified, so it cannot be assessed.",
+      "clinical_question": "Has the patient experienced a progression-free survival of at least 6 months following the last treatment with temozolomide or CPT-11?"
+    },
+    {
+      "criterion": "Other:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The specific details of the 'Other' criterion are not provided, making it impossible to assess.",
+      "clinical_question": "Has the patient experienced a progression-free survival of at least 6 months following the last treatment with temozolomide or CPT-11?"
+    },
+    {
+      "criterion": "No other concurrent anticancer treatment for anaplastic astrocytoma until a recurrence is detected",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on dexamethasone, which is a corticosteroid and may be considered a concurrent treatment for their condition.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 12 of 41 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4146
+}

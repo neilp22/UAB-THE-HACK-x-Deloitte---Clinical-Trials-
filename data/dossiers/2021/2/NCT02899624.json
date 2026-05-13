@@ -1,0 +1,43 @@
+{
+  "nct_id": "NCT02899624",
+  "trial_title": "Whole Exome Sequencing in Bicuspid Aortic Valve Patients",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "Bicuspid aortic valve (BAV), congenital anomaly present in 2% of the population, is defined by the presence of two sigmoid valves instead of three. It is conventionally associated with histological abnormalities of the wall of the ascending aorta, risk factors of aortic dystrophy observed in 50% of cases, and dissection. Long considered an accident of development, the discovery of mutations in the NOTCH1 gene in 2 families alternating BAV and aortic dystrophy suggests the existence of a genetic ",
+  "eligibility_table": [
+    {
+      "criterion": "bicuspid aortic valve, confirmed by transthoracic or transesophageal echocardiography",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a bicuspid aortic valve, which is confirmed by the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "With or without an aneurysm of the ascending thoracic aorta nonsyndromic",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a dilated ascending aorta, which is considered nonsyndromic.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "aortic syndromic pathology",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any syndromic pathology; thus, it cannot be confirmed or denied.",
+      "clinical_question": "Does the patient have a family history of aortic syndromic pathology, such as Marfan syndrome or Loeys-Dietz syndrome, in first-degree relatives?"
+    },
+    {
+      "criterion": "antecedent of acute articular rhumatism",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a history of acute articular rheumatism in the patient's profile.",
+      "clinical_question": "Has the patient ever been diagnosed with acute rheumatic fever or acute articular rheumatism?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: aortic syndromic pathology",
+    "EXCLUSION UNCLEAR: antecedent of acute articular rhumatism"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

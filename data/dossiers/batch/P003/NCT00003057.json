@@ -1,0 +1,124 @@
+{
+  "nct_id": "NCT00003057",
+  "trial_title": "Octreotide Compared With Loperamide Hydrochloride for Chemotherapy-Related Diarrhea in Patients With Colorectal Cancer",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs such as octreotide and loperamide hydrochloride use different ways to relieve the diarrhea caused by chemotherapy.\n\nPURPOSE: Randomized phase III trial to compare the effectiveness of octreotide with loperamide hydrochloride for the treatment of chemotherapy-related diarrhea in patients who have colorectal cancer.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed colorectal carcinoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been histologically confirmed to have colorectal carcinoma?"
+    },
+    {
+      "criterion": "At least grade 2 diarrhea as a consequence of chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have grade 2 diarrhea as a consequence of chemotherapy; no such symptoms are reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: 18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 67.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: ECOG 0-2",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ECOG 1.0 <= 2.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not pregnant or lactating",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and therefore not pregnant or lactating.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Effective contraception required of fertile patients",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's fertility status is not explicitly mentioned, so it is unclear if effective contraception is required.",
+      "clinical_question": "Does the patient have a documented method of effective contraception in place, such as a vasectomy or consistent use of barrier methods, to meet the requirement for fertile patients?"
+    },
+    {
+      "criterion": "Not HIV positive",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is HIV positive.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No idiopathic ulcerative colitis or Crohn's disease, acute stool culture positive bacterial colitis, pseudomembranous colitis, short bowel syndrome, enteroenteric fistulae, chronic pancreatitis, ischemic bowel disease, or gastrointestinal disorders known to cause diarrhea",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no history of gastrointestinal disorders that would disqualify them.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absence of definitive culture results required",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about definitive culture results.",
+      "clinical_question": "Has the patient had definitive culture results obtained within the last 30 days?"
+    },
+    {
+      "criterion": "Prior chemotherapy with a fluoropyrimidine alone or in combination with an accepted modulating agent (leucovorin, levamisole, methotrexate, interferon, PALA, or hydroxyurea) required",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has received prior chemotherapy with fluoropyrimidines (FOLFOX, FOLFIRI).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior chemotherapy with uracil mustard and tegafur (UFT) allowed",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not received uracil mustard and tegafur (UFT) as part of their prior treatments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent chemotherapy allowed during study",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of concurrent chemotherapy during the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No whole pelvic or abdominal radiation therapy allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has received whole pelvic or abdominal radiation therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No colectomy, coloanal anastamosis, abdominoperineal resection, or colostomy allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information about any prior surgical interventions such as colectomy or colostomy.",
+      "clinical_question": "Has the patient undergone any surgical procedures resulting in colectomy, coloanal anastamosis, abdominoperineal resection, or colostomy?"
+    },
+    {
+      "criterion": "No antidiarrheal agents (e.g., diphenoxylate hydrochloride, elixir paregoric, opium tincture or tincture of belladonna, or kaolin) during study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention the use of antidiarrheal agents, but it is unclear if they have been used recently.",
+      "clinical_question": "Has the patient taken any antidiarrheal agents, including diphenoxylate hydrochloride, elixir paregoric, opium tincture, tincture of belladonna, or kaolin, within the last 30 days?"
+    },
+    {
+      "criterion": "No cyclosporine allowed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not specify whether the patient has been treated with cyclosporine.",
+      "clinical_question": "Has the patient received cyclosporine at any point during their treatment history?"
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.625
+}

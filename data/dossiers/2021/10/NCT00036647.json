@@ -1,0 +1,56 @@
+{
+  "nct_id": "NCT00036647",
+  "trial_title": "OSI-774 (Tarceva) in Treating Patients With Stage III or Stage IV Non-Small Cell Lung Cancer",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is to determine if OSI-774 will improve overall survival of patients with incurable stage IIIB/IV non-small cell lung cancer compared to standard of care. OSI-774 is a new type of drug under evaluation called an epidermal growth factor receptor (EGFR). OSI-774 is an investigational drug that has not yet been approved by the U.S. Food and Drug Administration (FDA).",
+  "eligibility_table": [
+    {
+      "criterion": "Clinical diagnosis of stage IIIB or IV non-small cell lung cancer.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed clinical diagnosis of stage IIIB or IV non-small cell lung cancer based on imaging and histopathological evaluation?"
+    },
+    {
+      "criterion": "Must have evidence of disease (clinical or radiological).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has systemic mastocytosis, which is a recognized disease, indicating evidence of disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Have failed 1 but no more than 2 prior chemotherapy regimens, have recovered from any side effects and have not had any chemotherapy for at least 21 days.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not undergone any chemotherapy regimens, as indicated by the prior treatments listed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "If the patient has had surgery, the surgery was at least 2 weeks ago.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any recent surgeries, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient undergone surgery for non-small cell lung cancer at least 2 weeks prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "Patients whose cancer has spread to their brain or central nervous system are eligible, providing that they have been on stable dose of steroids for at least 4 weeks and are free of symptoms.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on a steroid taper and has not been on a stable dose of steroids for at least 4 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "If the patient received radiation therapy, treatment was at least 4 weeks ago.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any prior radiation therapy, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient received radiation therapy within the last 4 weeks?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 1 of 6 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

@@ -1,0 +1,219 @@
+{
+  "nct_id": "NCT02299414",
+  "trial_title": "Chronic Hypertension and Pregnancy (CHAP) Project",
+  "phase": "PHASE4",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is to evaluate whether a blood pressure treatment strategy during pregnancy to achieve targets that are recommended for non-pregnant reproductive-age adults (\\<140/90 mmHg) compared ACOG- recommended standard during pregnancy (no treatment unless BP is severe) is effective and safe.",
+  "eligibility_table": [
+    {
+      "criterion": "Women with chronic hypertension in pregnancy with new or untreated chronic hypertension, blood pressure 140-159 systolic or 90-104 diastolic OR known chronic hypertension on monotherapy and taking any antihypertensive and blood pressure ≤159/104 (including those with blood pressure <140/90);",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of spontaneous intraventricular hemorrhage, but there is no information on chronic hypertension or blood pressure readings.",
+      "clinical_question": "Is the patient's current blood pressure between 140-159 systolic or 90-104 diastolic?"
+    },
+    {
+      "criterion": "Singleton; and",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a diagnosis of chronic hypertension defined as a systolic blood pressure ≥140 mmHg or diastolic blood pressure ≥90 mmHg prior to pregnancy?"
+    },
+    {
+      "criterion": "viable pregnancy <23 weeks of gestation.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not pregnant, and there is no mention of a viable pregnancy.",
+      "clinical_question": "Is the patient currently experiencing a viable pregnancy at or beyond 23 weeks of gestation?"
+    },
+    {
+      "criterion": "Blood pressures prior to randomization ≥160 systolic or ≥105 diastolic (with or without treatment);",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No blood pressure readings are provided, so it cannot be determined if they are ≥160 systolic or ≥105 diastolic.",
+      "clinical_question": "Is the patient's blood pressure recorded as ≥160 mmHg systolic or ≥105 mmHg diastolic prior to randomization?"
+    },
+    {
+      "criterion": "Severe hypertension including patients currently treated with >1 antihypertensive medication (more likely to have severe chronic hypertension);",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is on pain medication only, and there is no indication of treatment with more than one antihypertensive.",
+      "clinical_question": "Is the patient's current blood pressure ≥160/110 mmHg while on more than one antihypertensive medication?"
+    },
+    {
+      "criterion": "Multi-fetal pregnancy;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of a multi-fetal pregnancy as evidenced by ultrasound findings?"
+    },
+    {
+      "criterion": "Known secondary cause of chronic hypertension;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented diagnosis of a secondary cause of chronic hypertension, such as renal artery stenosis or endocrine disorders, confirmed by imaging or laboratory tests?"
+    },
+    {
+      "criterion": "High-risk co-morbidities for which treatment may be indicated:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has significant medical history, but it is unclear if they fall under high-risk co-morbidities as defined.",
+      "clinical_question": "Does the patient have a history of hypertension with systolic blood pressure consistently ≥140 mmHg or diastolic blood pressure consistently ≥90 mmHg?"
+    },
+    {
+      "criterion": "Diabetes mellitus diagnosed at age ≤10 years or duration of diagnosis ≥20 years",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding diabetes mellitus in the patient's history.",
+      "clinical_question": "Has the patient been diagnosed with diabetes mellitus at age ≤10 years or has she had a diagnosis of diabetes mellitus for ≥20 years?"
+    },
+    {
+      "criterion": "Diabetes mellitus complicated by end organ damage (retinopathy, nephropathy, heart disease, transplant)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a diagnosis of diabetes mellitus with any evidence of end organ damage, such as retinopathy, nephropathy, or heart disease, as defined by clinical guidelines?"
+    },
+    {
+      "criterion": "Chronic kidney disease - including baseline proteinuria (>300mg/24-hr, protein/creatinine ratio ≥0.3, or persistent 1+ proteinuria*) or creatinine >1.2.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values are provided to assess for chronic kidney disease.",
+      "clinical_question": "Does the patient have a baseline proteinuria level greater than 300 mg/24 hours or a protein/creatinine ratio of ≥0.3?"
+    },
+    {
+      "criterion": "*If a dipstick value at screening is more than trace, a clean catch or catheter urine should be obtained and re-tested by dipstick. If this shows trace or absence of protein, the patient is included. If it again shows 1+ protein, the patient is excluded until a 24-hr urine <300mg/24hr or p/c ratio is <0.3. If a p/c ratio is >0.3, the patient may be included if a 24-hour urine is < 300 mg.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on proteinuria or creatinine levels to evaluate eligibility.",
+      "clinical_question": "Is the patient's protein-to-creatinine (p/c) ratio ≤0.3 based on a 24-hour urine collection?"
+    },
+    {
+      "criterion": "Cardiac disorders: cardiomyopathy, angina, CAD",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented diagnosis of cardiomyopathy, angina, or coronary artery disease (CAD) based on echocardiogram or stress test results?"
+    },
+    {
+      "criterion": "Prior stroke",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of spontaneous intraventricular hemorrhage, which may be considered a prior stroke.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Retinopathy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding retinopathy.",
+      "clinical_question": "Does the patient have a diagnosis of retinopathy as defined by the presence of retinal hemorrhages or exudates on fundoscopic examination?"
+    },
+    {
+      "criterion": "Sickle cell disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have sickle cell disease, but the information provided does not confirm or deny the presence of other conditions that may be relevant.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of sickle cell disease based on hemoglobin electrophoresis results?"
+    },
+    {
+      "criterion": "Known major fetal anomaly",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding any known major fetal anomaly in the patient profile.",
+      "clinical_question": "Does the patient have any known major fetal anomalies as determined by a detailed ultrasound examination?"
+    },
+    {
+      "criterion": "Known fetal demise",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention fetal demise, but it does not provide enough information to confirm this.",
+      "clinical_question": "Has the patient experienced a confirmed fetal demise as evidenced by the absence of fetal cardiac activity on ultrasound for ≥2 weeks?"
+    },
+    {
+      "criterion": "Suspected IUGR",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about suspected intrauterine growth restriction (IUGR) in the patient.",
+      "clinical_question": "Does the patient have an estimated fetal weight below the 10th percentile for gestational age?"
+    },
+    {
+      "criterion": "Membrane rupture or planned termination prior to randomization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate any membrane rupture or planned termination prior to randomization.",
+      "clinical_question": "Has the patient experienced membrane rupture or undergone a planned termination of pregnancy prior to randomization?"
+    },
+    {
+      "criterion": "Plan to deliver outside the consortium centers (unless approved by the Clinical Coordinating Center) or unlikely to follow-up in the opinion of study staff or previous participation in this trial",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient’s plan for delivery and follow-up is not specified, making it unclear if this criterion is met.",
+      "clinical_question": "Is the patient planning to deliver at a location that is not a consortium center, or has she received approval from the Clinical Coordinating Center for her delivery location?"
+    },
+    {
+      "criterion": "Contraindication to labetalol and nifedipine (e.g. know hypersensitivity)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information about contraindications to labetalol and nifedipine, but the patient's medication history does not suggest hypersensitivity.",
+      "clinical_question": "Does the patient have a documented hypersensitivity to labetalol or nifedipine?"
+    },
+    {
+      "criterion": "Current substance abuse or addiction (cocaine, methamphetamine)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention current substance abuse or addiction, but it does not provide enough detail to confirm.",
+      "clinical_question": "Has the patient reported any use of cocaine or methamphetamine in the past 12 months?"
+    },
+    {
+      "criterion": "Participation in another trial without prior approval (CHAP participants will not be enrolled in other trials without prior approval by protocol committee)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding participation in another trial, so this criterion cannot be assessed.",
+      "clinical_question": "Has the patient participated in any clinical trials in the past 30 days without prior approval from the protocol committee?"
+    },
+    {
+      "criterion": "Physician or provider refusal",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate any physician or provider refusal, but it does not provide enough information to confirm.",
+      "clinical_question": "Did the physician refuse to provide treatment options for the patient's chronic hypertension during the last consultation?"
+    },
+    {
+      "criterion": "Patient refusal *The minimum age varies by center",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's age is 32, which is above the minimum age of 18 for most trials, but the specific minimum age may vary by center. Without knowing the specific center's criteria, I cannot definitively conclude if this criterion is met or not.",
+      "clinical_question": "Has the patient explicitly refused participation in the Chronic Hypertension and Pregnancy (CHAP) Project?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Blood pressures prior to randomization ≥160 systolic or ≥105 diastolic (with or ",
+    "EXCLUSION UNCLEAR: Severe hypertension including patients currently treated with >1 antihypertensiv",
+    "EXCLUSION UNCLEAR: Multi-fetal pregnancy;",
+    "EXCLUSION UNCLEAR: Known secondary cause of chronic hypertension;",
+    "EXCLUSION UNCLEAR: High-risk co-morbidities for which treatment may be indicated:",
+    "EXCLUSION UNCLEAR: Diabetes mellitus diagnosed at age ≤10 years or duration of diagnosis ≥20 years",
+    "EXCLUSION UNCLEAR: Diabetes mellitus complicated by end organ damage (retinopathy, nephropathy, hea",
+    "EXCLUSION UNCLEAR: Chronic kidney disease - including baseline proteinuria (>300mg/24-hr, protein/c",
+    "EXCLUSION UNCLEAR: *If a dipstick value at screening is more than trace, a clean catch or catheter ",
+    "EXCLUSION UNCLEAR: Cardiac disorders: cardiomyopathy, angina, CAD",
+    "EXCLUSION VIOLATED: Prior stroke",
+    "EXCLUSION UNCLEAR: Retinopathy",
+    "EXCLUSION UNCLEAR: Sickle cell disease",
+    "EXCLUSION UNCLEAR: Known major fetal anomaly",
+    "EXCLUSION UNCLEAR: Known fetal demise",
+    "EXCLUSION UNCLEAR: Suspected IUGR",
+    "EXCLUSION UNCLEAR: Membrane rupture or planned termination prior to randomization",
+    "EXCLUSION UNCLEAR: Plan to deliver outside the consortium centers (unless approved by the Clinical ",
+    "EXCLUSION UNCLEAR: Contraindication to labetalol and nifedipine (e.g. know hypersensitivity)",
+    "EXCLUSION UNCLEAR: Current substance abuse or addiction (cocaine, methamphetamine)",
+    "EXCLUSION UNCLEAR: Participation in another trial without prior approval (CHAP participants will no",
+    "EXCLUSION UNCLEAR: Physician or provider refusal",
+    "EXCLUSION UNCLEAR: Patient refusal *The minimum age varies by center",
+    "LOW INCLUSION MATCH: only 0 of 3 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.0385
+}

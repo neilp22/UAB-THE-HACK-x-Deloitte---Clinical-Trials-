@@ -1,0 +1,65 @@
+{
+  "nct_id": "NCT03591523",
+  "trial_title": "Blood Flow Measurement Using Quantitative Magnetic Resonance Angiography and Duplex Sonography",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "The aim of the study is to assess the correlation of blood flow measurement in cervical and intracranial arteries between quantitative magnetic resonance angiography (qMRA) and duplex sonography (DS) and inter-/intra-investigators reliability of both methods in common clinical practice. A total of 21 subjects indicated to qMRA or DS for suspicion of cervical or intracranial vascular pathology will be included. All patients will undergo qMRA and DS of the cervical and intracranial arteries with m",
+  "eligibility_table": [
+    {
+      "criterion": "male or female",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "criterion targets female; patient is male",
+      "clinical_question": null
+    },
+    {
+      "criterion": "age 25 - 70 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and does not have an age specified, but assuming he is within the typical age range for such conditions, he likely meets the age criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "suspicion of cervical or intracranial vascular pathology",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has significant bilateral carotid stenosis and a history of prior cerebrovascular accident, indicating suspicion of vascular pathology.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "signed informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can provide signed informed consent as there is no indication of cognitive impairment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "contraindication to magnetic resonance",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not explicitly mention contraindications to magnetic resonance, but conditions like significant vascular disease may raise concerns.",
+      "clinical_question": "Does the patient have any implanted medical devices or metallic foreign bodies that are contraindicated for magnetic resonance imaging?"
+    },
+    {
+      "criterion": "uncontrolled involuntary movements",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about involuntary movements; however, the patient's conditions do not suggest this is an issue.",
+      "clinical_question": "Has the patient experienced any uncontrolled involuntary movements as defined by the presence of ≥3 episodes per week over the past month?"
+    },
+    {
+      "criterion": "other condition preventing long-term quiet lying",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's multiple conditions may complicate long-term quiet lying, but there is no specific indication that it is a definitive barrier.",
+      "clinical_question": "Does the patient have any medical conditions or complications that would prevent them from lying quietly for a minimum of 30 minutes during the blood flow measurement procedure?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: contraindication to magnetic resonance",
+    "EXCLUSION UNCLEAR: uncontrolled involuntary movements",
+    "EXCLUSION UNCLEAR: other condition preventing long-term quiet lying"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5714
+}

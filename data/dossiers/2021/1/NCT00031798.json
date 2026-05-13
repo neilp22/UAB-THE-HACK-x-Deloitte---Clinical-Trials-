@@ -1,0 +1,264 @@
+{
+  "nct_id": "NCT00031798",
+  "trial_title": "Methylphenidate to Improve Quality of Life in Patients Undergoing Radiation Therapy for Brain Tumors",
+  "phase": "PHASE3",
+  "status": "TERMINATED",
+  "brief_summary": "RATIONALE: Methylphenidate may decrease side effects of radiation therapy. It is not yet known if methylphenidate is effective in improving quality of life in patients with primary or metastatic brain tumors.\n\nPURPOSE: Randomized phase III trial to determine the effectiveness of methylphenidate in improving quality of life in patients who have brain tumors and are undergoing radiation therapy.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed metastatic brain tumor",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, which does not qualify as a metastatic brain tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Histologically confirmed primary brain tumor",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a histologically confirmed primary brain tumor, specifically anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Glioblastoma multiforme",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have glioblastoma multiforme; he has anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma, which meets the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic oligodendroglioma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have anaplastic oligodendroglioma; he has anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Anaplastic mixed oligoastrocytoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have anaplastic mixed oligoastrocytoma; he has anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Low-grade glioma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a low-grade glioma; he has anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Meningioma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have meningioma; he has anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ependymoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have ependymoma; he has anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Planned external beam cranial radiotherapy (partial or whole brain) with a total dose of at least 25 Gy in at least 10 fractions of 180-300 cGy each",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's planned treatment details regarding external beam cranial radiotherapy are not provided.",
+      "clinical_question": "Has the patient been planned to receive external beam cranial radiotherapy with a total dose of at least 25 Gy in at least 10 fractions of 180-300 cGy each?"
+    },
+    {
+      "criterion": "Age: 18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: Karnofsky 70-100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have a Karnofsky Performance Status score of 70 or higher?"
+    },
+    {
+      "criterion": "Life expectancy: At least 3 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a prognosis indicating a life expectancy of at least 3 months based on current clinical assessments and treatment response?"
+    },
+    {
+      "criterion": "Hematopoietic: WBC ≥ 1,500/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a current white blood cell count (WBC) of ≥ 1,500/mm^3?"
+    },
+    {
+      "criterion": "Hemoglobin ≥ 10.0 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a hemoglobin level of ≥10.0 g/dL?"
+    },
+    {
+      "criterion": "Platelet count ≥ 75,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count ≥ 75,000/mm^3?"
+    },
+    {
+      "criterion": "No hypertension or other cardiovascular disease requiring antihypertensives and/or other cardiovascular medications",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has hypertension and is on antihypertensive medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and therefore not pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about a pregnancy test.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the use of contraception.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a condom, birth control pill, or IUD, as defined by clinical guidelines?"
+    },
+    {
+      "criterion": "No other serious medical or psychiatric illness that would preclude study participation",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple serious conditions including anaplastic astrocytoma and chronic pain.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No hypersensitivity to study drug",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about hypersensitivity to the study drug.",
+      "clinical_question": "Has the patient experienced any allergic reactions or hypersensitivity symptoms to methylphenidate or similar stimulant medications in the past?"
+    },
+    {
+      "criterion": "No history of steroid psychosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No history of steroid psychosis is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No family history of or active Tourette's Syndrome",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No family history of or active Tourette's Syndrome is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior or active glaucoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No prior or active glaucoma is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple prior treatments including radiation and chemotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Biologic therapy:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on biologic therapy (Avastin).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific information provided to assess this criterion.",
+      "clinical_question": "Has the patient experienced a ≥20% improvement in quality of life as measured by the EORTC QLQ-C30 scale after 4 weeks of methylphenidate treatment?"
+    },
+    {
+      "criterion": "Prior or concurrent chemotherapy allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has received prior chemotherapy (temozolomide and CPT-11 with Avastin).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concurrent steroids allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on high-dose steroids.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior radiotherapy allowed except to brain (including stereotactic radiosurgery)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has received prior radiotherapy, which is allowed as long as it is not to the brain.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent craniospinal axis radiotherapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of concurrent craniospinal axis radiotherapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific information provided to assess this criterion.",
+      "clinical_question": "Has the patient experienced a ≥20% improvement in quality of life as measured by the EORTC QLQ-C30 scale after 4 weeks of methylphenidate treatment?"
+    },
+    {
+      "criterion": "Other:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific information provided to assess this criterion.",
+      "clinical_question": "Has the patient experienced a ≥20% improvement in quality of life as measured by the EORTC QLQ-C30 scale after 4 weeks of methylphenidate treatment?"
+    },
+    {
+      "criterion": "No prior or concurrent medications for attention deficit disorder, anxiety disorder, schizophrenia, or substance abuse",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on high-dose steroids, which may indicate a potential issue with concurrent medications for anxiety or other disorders.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent anti-depressants",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific information provided to assess this criterion.",
+      "clinical_question": "Has the patient been prescribed any anti-depressants in the past 30 days?"
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6389
+}

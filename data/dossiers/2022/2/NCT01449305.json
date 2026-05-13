@@ -1,0 +1,95 @@
+{
+  "nct_id": "NCT01449305",
+  "trial_title": "Effectiveness of Nanoone Woman Underwear Using in the Management of Dysmenorrhea",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "To evaluate the mean change in menstrual pain intensity during menstrual cycles from baseline after wearing Nanoone Woman Underwear in women with primary dysmenorrhea",
+  "eligibility_table": [
+    {
+      "criterion": "Females aged below 40 years old.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 32.0 > 40.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Screened by inquiry and diagnosed as primary dysmenorrhea by gynaecologist with pelvic ultrasonography.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not been screened or diagnosed with primary dysmenorrhea by a gynecologist, and there is no mention of pelvic ultrasonography.",
+      "clinical_question": "Has the patient been diagnosed with primary dysmenorrhea by a gynecologist based on pelvic ultrasonography findings?"
+    },
+    {
+      "criterion": "Female subject who is:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is female.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "using adequate contraception since last menstruation and no plan for conception during the study.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has inconsistent use of barrier contraceptives and no clear plan for contraception during the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "non-lactating.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is non-lactating.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "has negative pregnancy test (urine) within 14 days prior to the study.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a positive serum β-hCG level, indicating potential pregnancy, which would not qualify for a negative pregnancy test.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Informed consent form signed.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient signed the informed consent form for participation in the trial?"
+    },
+    {
+      "criterion": "Sensitivity to study product.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding sensitivity to the study product.",
+      "clinical_question": "Has the patient reported a sensitivity score of ≥4 on a scale of 1 to 10 when using the Nanoone Woman Underwear for dysmenorrhea management?"
+    },
+    {
+      "criterion": "Patient has been diagnosed with secondary dysmenorrhea (defined as identifiable pelvic pathology).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not been diagnosed with secondary dysmenorrhea, but the presence of other conditions may complicate the assessment.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of secondary dysmenorrhea due to identifiable pelvic pathology, such as endometriosis or fibroids, based on imaging or surgical findings?"
+    },
+    {
+      "criterion": "Patient has clinically significant physical disability or abnormal findings on physical examination or laboratory testing judged by the investigator or co-investigator.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no detailed information on physical examination or laboratory testing results to assess for significant physical disability.",
+      "clinical_question": "Does the patient have any clinically significant physical disability or abnormal findings on physical examination or laboratory testing, as judged by the investigator or co-investigator?"
+    },
+    {
+      "criterion": "Participation of any clinical investigation during the last 30 days.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding participation in any clinical investigation during the last 30 days.",
+      "clinical_question": "Has the patient participated in any clinical investigation within the last 30 days?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Sensitivity to study product.",
+    "EXCLUSION UNCLEAR: Patient has been diagnosed with secondary dysmenorrhea (defined as identifiable ",
+    "EXCLUSION UNCLEAR: Patient has clinically significant physical disability or abnormal findings on p",
+    "EXCLUSION UNCLEAR: Participation of any clinical investigation during the last 30 days.",
+    "LOW INCLUSION MATCH: only 2 of 7 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4545
+}

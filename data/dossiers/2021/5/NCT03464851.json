@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT03464851",
+  "trial_title": "Evaluation of a Novel Technique to Diagnose Carotid Artery Stenosis",
+  "phase": "",
+  "status": "TERMINATED",
+  "brief_summary": "The purpose of this study is to determine the accuracy of a new non-invasive device, the Carotid Stenotic Scan (CSS), to check for stenosis of the internal carotid artery (ICA) as compared to a carotid ultrasound study.",
+  "eligibility_table": [
+    {
+      "criterion": "Outpatients age > 18 years sent to the vascular laboratory for carotid duplex examination for initial carotid ultrasound study or for follow-up of known carotid disease.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is a male over 18 years old and has significant bilateral carotid artery disease, which qualifies him for the carotid duplex examination.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Enrolled patients will include at least 100 subjects with at least moderate known stenosis (50-69% or greater, PSV > 125 cm/sec) or occlusion of one or both ICAs",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has significant stenosis in both internal carotid arteries (80% and 90%), which meets the criteria for moderate known stenosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Up to 25 patients with known fibromuscular dysplasia (FMD) of the internal carotid arteries.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have fibromuscular dysplasia (FMD) of the internal carotid arteries, as his conditions are related to atherosclerotic disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age < 18 years.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient currently aged less than 18 years?"
+    },
+    {
+      "criterion": "Hospitalized inpatients.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been hospitalized for at least 24 hours due to complications related to carotid artery stenosis?"
+    },
+    {
+      "criterion": "Inability to provide informed consent.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently able to understand the nature of the study and provide informed consent as assessed by a standardized cognitive evaluation tool?"
+    },
+    {
+      "criterion": "Prior history of carotid endarterectomy or carotid artery stent.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone a carotid endarterectomy or received a carotid artery stent prior to this evaluation?"
+    },
+    {
+      "criterion": "Prior neck surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone any neck surgery prior to the evaluation for carotid artery stenosis?"
+    },
+    {
+      "criterion": "Known prosthetic heart valve, known critical aortic stenosis, or study indication 'preop' open heart or aortic surgery.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a known prosthetic heart valve or a known critical aortic stenosis with a valve area <1 cm²?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Age < 18 years.",
+    "EXCLUSION UNCLEAR: Hospitalized inpatients.",
+    "EXCLUSION UNCLEAR: Inability to provide informed consent.",
+    "EXCLUSION UNCLEAR: Prior history of carotid endarterectomy or carotid artery stent.",
+    "EXCLUSION UNCLEAR: Prior neck surgery",
+    "EXCLUSION UNCLEAR: Known prosthetic heart valve, known critical aortic stenosis, or study indicatio"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

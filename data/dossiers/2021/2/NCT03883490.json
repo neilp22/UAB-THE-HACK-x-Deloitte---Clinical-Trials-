@@ -1,0 +1,121 @@
+{
+  "nct_id": "NCT03883490",
+  "trial_title": "Role of Elastin Metabolites in Aortic Remodelling in AS",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Around 1-2% of people are born with a 'bicuspid' aortic valve, with only two cusps instead of the common 'tri-leaflet' valve. People with this valve develop dysfunction of the valve (narrowing or leakage) at a much earlier age. It is also more common for them to develop enlargement of the main blood vessel coming out of the heart, the aorta, and some studies suggest that they are also at higher risk of life-threatening tears in the aortic wall. Current guidelines recommend surgical replacement o",
+  "eligibility_table": [
+    {
+      "criterion": "Participant is willing and able to give informed consent for participation in the study.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely able to give informed consent as there is no indication of cognitive impairment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age 18 years or above.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient aged 18 years or older?"
+    },
+    {
+      "criterion": "Planned surgical AVR (+/- CABG or aortic root surgery) for severe AS.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and is planned for surgical AVR, which meets the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to understand the written information in English.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient is proficient in English, they should be able to understand written information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The participant may not enter the study if ANY of the following apply:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific information provided about the presence of any exclusion criteria.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (EF) of ≥30%?"
+    },
+    {
+      "criterion": "Contraindication to MRI (e.g., non-compatible pacemaker or other device).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the presence of a contraindication to MRI.",
+      "clinical_question": "Does the patient have a non-compatible pacemaker or any other device that contraindicates an MRI?"
+    },
+    {
+      "criterion": "Severe claustrophobia (unable to have MRI scan).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the presence of severe claustrophobia.",
+      "clinical_question": "Does the patient have a documented history of severe claustrophobia that prevents them from undergoing an MRI scan?"
+    },
+    {
+      "criterion": "eGFR<30ml/min (contra-indication to have contrast agent during MRI).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's estimated glomerular filtration rate (eGFR) less than 30 ml/min?"
+    },
+    {
+      "criterion": "Contraindication to Adenosine (severe asthma).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about a contraindication to Adenosine.",
+      "clinical_question": "Does the patient have a history of severe asthma that requires hospitalization or leads to significant respiratory distress?"
+    },
+    {
+      "criterion": "Significant arrhythmia.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the presence of significant arrhythmia.",
+      "clinical_question": "Has the patient experienced any episodes of significant arrhythmia, defined as sustained ventricular tachycardia or atrial fibrillation lasting more than 30 seconds, in the past 30 days?"
+    },
+    {
+      "criterion": "Other valve disease > moderate in severity.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has aortic insufficiency but it is not specified if it is > moderate severity.",
+      "clinical_question": "Does the patient have any valve disease other than aortic stenosis that is classified as moderate or greater in severity?"
+    },
+    {
+      "criterion": "Female participants who are pregnant or lactating.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion does not apply.",
+      "clinical_question": "Is the patient currently pregnant or lactating?"
+    },
+    {
+      "criterion": "Previous aortic valve or aorta surgery, previous CABG or other surgery involving aortic cross clamping.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of severe aortic stenosis and has undergone preoperative workup for valvular replacement, but there is no explicit mention of previous aortic valve or aorta surgery. Therefore, it is uncertain if this criterion is met.",
+      "clinical_question": "Has the patient undergone any aortic valve or aorta surgery, including previous CABG or other surgeries involving aortic cross clamping?"
+    },
+    {
+      "criterion": "Participant in an interventional cardiovascular clinical trial.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided indicating that the patient is currently participating in an interventional cardiovascular clinical trial, but this cannot be confirmed without additional details.",
+      "clinical_question": "Has the patient been enrolled in an interventional cardiovascular clinical trial within the last 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: The participant may not enter the study if ANY of the following apply:",
+    "EXCLUSION UNCLEAR: Contraindication to MRI (e.g., non-compatible pacemaker or other device).",
+    "EXCLUSION UNCLEAR: Severe claustrophobia (unable to have MRI scan).",
+    "EXCLUSION UNCLEAR: eGFR<30ml/min (contra-indication to have contrast agent during MRI).",
+    "EXCLUSION UNCLEAR: Contraindication to Adenosine (severe asthma).",
+    "EXCLUSION UNCLEAR: Significant arrhythmia.",
+    "EXCLUSION UNCLEAR: Other valve disease > moderate in severity.",
+    "EXCLUSION UNCLEAR: Female participants who are pregnant or lactating.",
+    "EXCLUSION UNCLEAR: Previous aortic valve or aorta surgery, previous CABG or other surgery involving",
+    "EXCLUSION UNCLEAR: Participant in an interventional cardiovascular clinical trial."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2143
+}

@@ -1,0 +1,102 @@
+{
+  "nct_id": "NCT01321879",
+  "trial_title": "Study to Evaluate the Safety and Efficacy of Telavancin in the Treatment of Gram Positive Bloodstream Infections in Cancer Patients",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "The goal of this clinical research study is to learn if Vibativ (telavancin) can help to control blood stream infections (BSIs). The safety of this treatment will also be studied.\n\nObjectives:\n\nEvaluate the clinical efficacy and safety of Telavancin given for treatment of gram positive bacteremia in cancer patients (including neutropenics).",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with probable or definite diagnosis of uncomplicated gram positive bacteremia that have at least one positive blood culture including 20 patients with Staphylococcus aureus and the other 20 patients will include any of the following organism ( CNS, Enterococci, streptococci, pneumococci, Corynebacterium, and Propionibacterium or Bacillus species).If the positive blood culture involves a commensal skin organism such as CNS, Corynebacterium, Propionibacterium, Micrococcus and Bacillus, then at least > 100 colonies/ml will be required or a time to positivity =/< 16 hours (as it has been shown to reflect a high grade bacteremia), or two positive blood cultures.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of sepsis and C. difficile infection, but there is no information provided about positive blood cultures or specific organisms involved.",
+      "clinical_question": "Does the patient have a positive blood culture for a gram-positive organism with ≥100 colonies/ml or a time to positivity ≤16 hours?"
+    },
+    {
+      "criterion": "Patients must have at least two signs of sepsis from the list below, in any combination at any time, within 48 hours prior to Telavancin therapy: a. Core temperature =/<38.0 degrees C or =/<36.0 degrees C, measured orally, rectally, tympanic ally or via a central catheter. If auxiliary add 0.5 degrees C to the measured temperature; b. Pulse rate =/> 100 beats/min.; c. Respiratory rate =/> 20/min.; d. WBC count =/>12,000/mm^3, =/<4,000/mm or differential count showing >10% band forms; e. Systolic blood pressure =/<90 mm Hg. Patient will still be eligible for the study if the participants white blood cell count (WBC) is outside normal limits due to chemotherapy treatment or underlying conditions.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of sepsis and likely meets the criteria with leukocytosis and possibly other signs.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Male or non-pregnant, non-lactating females with an age of greater than or equal to 18 years.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 55.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Signed informed consent.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient signed the informed consent form for participation in the study?"
+    },
+    {
+      "criterion": "Female patients must be at no risk for pregnancy for one of the following reasons: - Postmenopausal for at least one year - Post-hysterectomy and/or post-bilateral ovariectomy - If of childbearing potential, having a negative serum human chorionic gonadotropin (hCG) pregnancy test with in 5 days prior to enrollment and be using a highly effective method of birth control throughout the course of the study. Reliable sexual abstinence throughout the course of the study is acceptable as a highly effective method of birth control for the purposes of this study.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is a postmenopausal female, thus at no risk for pregnancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Estimated Serum Creatinine Clearance <30 mL/min (according to Cock-Gault-formula using ideal body weight) at the time gram positive bacteremia was diagnosed unless the patient is on dialysis.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is on dialysis due to ESRD, which allows for a Serum Creatinine Clearance <30 mL/min.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Bilirubin >4x the upper limit of normal at the time gram positive bacteremia was diagnosed.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's bilirubin levels.",
+      "clinical_question": "Is the patient's total bilirubin level greater than 4 times the upper limit of normal at the time gram positive bacteremia was diagnosed?"
+    },
+    {
+      "criterion": "Treatment with an antibiotic, such as vancomycin, linezolid, tigecycline or Telavancin, effective against resistant gram positive bacterial infections, such as methicillin resistant staphylococci, for more than 48 hours within 72 hours of study medication initiation, unless treatment failed that is defined as a persistent fever and/or leukocytosis for 72 hours or longer of appropriate antibiotics treatment.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on vancomycin, but the duration of treatment prior to study medication initiation is not specified.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of hypersensitivity to lipoglycopeptides.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to any lipoglycopeptides?"
+    },
+    {
+      "criterion": "Presence of deep-sited intravascular source of infection with same organism cultured from blood, e.g. endocarditis (as evidenced by vegetations on an echocardiogram), or septic thrombosis.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the presence of a deep-sited intravascular source of infection.",
+      "clinical_question": "Does the patient have evidence of vegetations on an echocardiogram indicating endocarditis or septic thrombosis related to the same organism cultured from blood?"
+    },
+    {
+      "criterion": "Presence of a prosthetic valve.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a prosthetic valve currently in place?"
+    },
+    {
+      "criterion": "Oliguria defined as urine output of <20 cc/hour averaged over 24 hours.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's urine output.",
+      "clinical_question": "What is the patient's average urine output over the past 24 hours, and is it less than 20 cc/hour?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Bilirubin >4x the upper limit of normal at the time gram positive bacteremia was",
+    "EXCLUSION UNCLEAR: History of hypersensitivity to lipoglycopeptides.",
+    "EXCLUSION UNCLEAR: Presence of deep-sited intravascular source of infection with same organism cult",
+    "EXCLUSION UNCLEAR: Presence of a prosthetic valve.",
+    "EXCLUSION UNCLEAR: Oliguria defined as urine output of <20 cc/hour averaged over 24 hours."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4167
+}

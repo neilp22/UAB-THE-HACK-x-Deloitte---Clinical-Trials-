@@ -1,0 +1,75 @@
+{
+  "nct_id": "NCT02786940",
+  "trial_title": "Remote Cardiac Monitoring of Higher-Risk Emergency Department Syncope Patients After Discharge - A Pilot Study",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "2-3% of emergency department (ED) syncope patients suffer arrhythmia/death within 30 days of disposition (either as an inpatient or at home) and we have recently developed the Canadian Syncope Risk Score (CSRS) to predict these outcomes. Currently, only Holter monitoring is used and is applied a few days later. New and innovative remote (out-of-hospital) external cardiac monitoring technology has made prolonged monitoring possible.\n\nThe primary objective is to compare diagnostic yield (identific",
+  "eligibility_table": [
+    {
+      "criterion": "Adult (age ≥18 years) patients with syncope",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 23.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High-risk as per the Canadian Syncope Risk Score (score > or =3) and being discharged home after ED physician or consultant assessment.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's Canadian Syncope Risk Score is not provided, making it unclear if they meet the high-risk criteria.",
+      "clinical_question": "Does the patient have a Canadian Syncope Risk Score of ≥3 based on their clinical assessment?"
+    },
+    {
+      "criterion": "Syncope patients with a score <3",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's Canadian Syncope Risk Score is not provided, making it unclear if they have a score <3.",
+      "clinical_question": "Does the patient have a syncope risk score of <3 based on the established scoring system?"
+    },
+    {
+      "criterion": "Those who are hospitalized",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not indicate hospitalization, but this cannot be confirmed without additional information.",
+      "clinical_question": "Has the patient been hospitalized for syncope or related complications within the last 30 days?"
+    },
+    {
+      "criterion": "Previously enrolled.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating whether the patient has been previously enrolled in any trials.",
+      "clinical_question": "Has the patient previously participated in any clinical trial related to syncope or cardiac monitoring?"
+    },
+    {
+      "criterion": "Loss of consciousness not related to syncope: prolonged loss of consciousness > 5 minutes",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of syncope, but there is no information on prolonged loss of consciousness > 5 minutes.",
+      "clinical_question": "Did the patient experience a loss of consciousness lasting longer than 5 minutes during the syncope episode?"
+    },
+    {
+      "criterion": "Change in the mental status from baseline",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any change in mental status from baseline.",
+      "clinical_question": "Has the patient's mental status improved by at least 2 points on the Glasgow Coma Scale from baseline after remote cardiac monitoring?"
+    },
+    {
+      "criterion": "Patients with alcohol intoxication or illicit drug abuse, witnessed obvious seizure; or head trauma, i.e. trauma the initial event.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not use alcohol or illicit drugs, but there is no information on any witnessed seizures or head trauma.",
+      "clinical_question": "Has the patient experienced any witnessed seizures or head trauma during the syncope event?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Syncope patients with a score <3",
+    "EXCLUSION UNCLEAR: Those who are hospitalized",
+    "EXCLUSION UNCLEAR: Previously enrolled.",
+    "EXCLUSION UNCLEAR: Loss of consciousness not related to syncope: prolonged loss of consciousness > ",
+    "EXCLUSION UNCLEAR: Change in the mental status from baseline",
+    "EXCLUSION UNCLEAR: Patients with alcohol intoxication or illicit drug abuse, witnessed obvious seiz"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.125
+}

@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT00430872",
+  "trial_title": "Development of the MDASI-Spine Tumor Module",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "The goal of this research study is to learn the severity of certain symptoms in patients with tumors of the spine or spinal cord. Researchers also want to learn if the M. D. Anderson Symptom Inventory-Spine is a good way to rate these symptoms.\n\nPrimary Objective:\n\n1\\. To evaluate the psychometric properties of the MDASI-Spine in patients with tumors involving the spine or spinal cord.\n\nSecondary Objective:\n\n1\\. To describe the severity of commonly occurring symptoms experienced by persons with ",
+  "eligibility_table": [
+    {
+      "criterion": "Diagnosis of a tumor involving the spinal cord (intramedullary or extramedullary)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, which qualifies as a tumor involving the spinal cord.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age >= 18 years of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to speak and read English. Non-English speaking subjects will be included in future studies, once the final instrument has been developed.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information about the patient's ability to speak and read English, making it indeterminate.",
+      "clinical_question": "Can the patient demonstrate proficiency in speaking and reading English at a level sufficient to understand and complete the MDASI-Spine Tumor Module?"
+    },
+    {
+      "criterion": "Patients < 18 years of age",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 < 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of gross cognitive dysfunction limiting memory or ability to complete a self-report questionnaire as determined by evaluation of physician or mid-level provider.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's cognitive function or any assessments made by a physician or mid-level provider.",
+      "clinical_question": "Does the patient exhibit a score of ≤24 on the Mini-Mental State Examination (MMSE) indicating gross cognitive dysfunction?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Evidence of gross cognitive dysfunction limiting memory or ability to complete a"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6
+}

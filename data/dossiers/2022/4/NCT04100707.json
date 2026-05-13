@@ -1,0 +1,44 @@
+{
+  "nct_id": "NCT04100707",
+  "trial_title": "Efficacy of Genicular Nerve Radiofrequency",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "In patients with knee pain, local anesthetics and radiofrequency applications to superolateral, superomedial and inferomedial genicular nerves that innervate the knee joint are also preferred methods besides analgesic and physical therapy. When necessary, total knee replacement is the preferred method for primary knee arthrosis.\n\nHowever, continuing knee pain is reported in approximately 20% of patients after total knee replacement. In similar cases; In the painful knees, the blockages of the ge",
+  "eligibility_table": [
+    {
+      "criterion": "knee pain",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has reported knee pain, which aligns with the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "with communication problems (VAS and WOMAC scores could not be evaluated)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ability to communicate or understand the VAS and WOMAC scores, making it unclear if this criterion is met.",
+      "clinical_question": "Can the patient provide a valid VAS score and WOMAC score for their knee pain and stiffness that meets the minimum threshold for evaluation?"
+    },
+    {
+      "criterion": "infectious-mechanical pain-related conditions",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's conditions do not explicitly indicate infectious-mechanical pain-related conditions, but without further details, it is uncertain.",
+      "clinical_question": "Has the patient been diagnosed with an infectious-mechanical pain-related condition, such as osteoarthritis or rheumatoid arthritis, based on clinical evaluation and imaging findings?"
+    },
+    {
+      "criterion": "with radicular pain",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not report radicular pain, but there is insufficient information to definitively exclude this criterion.",
+      "clinical_question": "Does the patient have a diagnosis of radicular pain as defined by the presence of radiating pain along the distribution of a spinal nerve root?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: with communication problems (VAS and WOMAC scores could not be evaluated)",
+    "EXCLUSION UNCLEAR: infectious-mechanical pain-related conditions",
+    "EXCLUSION UNCLEAR: with radicular pain"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.25
+}

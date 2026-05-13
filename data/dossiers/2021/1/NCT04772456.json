@@ -1,0 +1,57 @@
+{
+  "nct_id": "NCT04772456",
+  "trial_title": "Hyperpolarized 13C-pyruvate Metabolic MRI With Infiltrating Gliomas",
+  "phase": "PHASE1",
+  "status": "RECRUITING",
+  "brief_summary": "The purpose of this study is to examine the safety and feasibility of performing hyperpolarized metabolic MRI in the diagnosis of brain tumor. This study will also assess the accuracy of hyperpolarized metabolic MRI to diagnose intermediate to patients with infiltrating gliomas and examine the added utility of metabolic MRI over standard MRI imaging\n\nThe FDA is allowing the use of hyperpolarized \\[1-13C\\] pyruvate (HP 13C-pyruvate) in this study.\n\nUp to 5 patients may take part in this study at ",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with a new brain lesion interpreted as suspected infiltrating gliomas including but not limited to (diffuse astrocytoma WHO grade 2; oligodendroglioma WHO grade 2 and 3; anaplastic astrocytoma WHO grade 3; astrocytoma WHO grade 4), OR, patients with prior history of infiltrating glioma scheduled for surgery for tumor biopsy or resection.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, which qualifies as a prior history of infiltrating glioma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ages 18-80, including male and female",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 45.0 >= 80.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Suitable to undergo contrast-enhanced MRI",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication in the profile that the patient is unsuitable for a contrast-enhanced MRI.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative serum pregnancy test",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is male, and a serum pregnancy test is not applicable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Inability to undergo MRI scan",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not provide information on the patient's ability to undergo an MRI scan.",
+      "clinical_question": "Does the patient have any contraindications to undergoing an MRI scan, such as the presence of a pacemaker or other metallic implants?"
+    },
+    {
+      "criterion": "Inability to receive IV contrast secondary to severe reaction or renal insufficiency.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not specify any severe reactions to IV contrast or renal insufficiency.",
+      "clinical_question": "Does the patient have a documented history of a severe allergic reaction to intravenous contrast agents?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Inability to undergo MRI scan",
+    "EXCLUSION UNCLEAR: Inability to receive IV contrast secondary to severe reaction or renal insuffici"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

@@ -1,0 +1,136 @@
+{
+  "nct_id": "NCT00586391",
+  "trial_title": "CD19 Chimeric Receptor Expressing T Lymphocytes In B-Cell Non Hodgkin's Lymphoma, ALL & CLL",
+  "phase": "PHASE1",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "Patients on this study have a type of lymph gland cancer called non-Hodgkin Lymphoma, Acute Lymphocytic Leukemia, or chronic Lymphocytic Leukemia (these diseases will be referred to as \"Lymphoma\" or \"Leukemia\"). Their Lymphoma or Leukemia has come back or has not gone away after treatment (including the best treatment known for these cancers). This research study is a gene transfer study using special immune cells.\n\nThe body has different ways of fighting infection and disease. No one way seems ",
+  "eligibility_table": [
+    {
+      "criterion": "Patients must meet the following eligibility criteria to be included:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has recurrent CLL with large cell transformation, which qualifies under the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recurrent B cell lymphoma or leukemia (ALL or CLL), or newly diagnosed patients unable to receive or complete standard therapy OR diagnosis of intermediate B cell lymphoma with a treatment plan that will include high dose therapy and autologous stem cell transplantation. If a patient is less than 18, the lymphoma/leukemia is highly aggressive (i.e. lymphoblastic, Burkitt, ALL).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of CLL and has undergone multiple therapies, indicating a recurrent condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy of at least 12 weeks",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 57 years old and has an excellent performance status, suggesting a life expectancy of at least 12 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recovered from the toxic effects of all prior chemotherapy before entering this study",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone multiple chemotherapy regimens, and it is unclear if they have fully recovered from all toxic effects.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ANC greater than 500, HgB greater than 8.0",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab values are not provided; therefore, it is uncertain if ANC and HgB levels meet the criteria.",
+      "clinical_question": "Is the patient's absolute neutrophil count (ANC) greater than 500 and hemoglobin (HgB) greater than 8.0?"
+    },
+    {
+      "criterion": "Bilirubin less than 3 times the upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided, making it impossible to assess if they are less than 3 times the upper limit of normal.",
+      "clinical_question": "Is the patient's total bilirubin level less than 3 times the upper limit of normal?"
+    },
+    {
+      "criterion": "AST less than 5 times the upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "AST levels are not provided, so it cannot be determined if they are less than 5 times the upper limit of normal.",
+      "clinical_question": "Is the patient's AST level less than 40 U/L?"
+    },
+    {
+      "criterion": "Serum creatinine less than 3 times upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Serum creatinine levels are not provided, preventing assessment against the criterion.",
+      "clinical_question": "Is the patient's serum creatinine level less than 0.9 mg/dL?"
+    },
+    {
+      "criterion": "Pulse oximetry of greater than 90% on room air",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Pulse oximetry data is not available, so it cannot be determined if it is greater than 90% on room air.",
+      "clinical_question": "Is the patient's pulse oximetry reading greater than 90% on room air?"
+    },
+    {
+      "criterion": "Karnofsky/Lansky score of greater than 60%",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has an excellent performance status, which likely corresponds to a Karnofsky score greater than 60%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Available autologous transduced peripheral blood T-cells with greater than/=15% expression of CD19CAR determined by flow-cytometry",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess the availability of autologous transduced peripheral blood T-cells with the required CD19CAR expression.",
+      "clinical_question": "Does the patient have available autologous transduced peripheral blood T-cells with ≥15% expression of CD19CAR as determined by flow cytometry?"
+    },
+    {
+      "criterion": "Patients or legal guardians must sign an informed consent indicating that they are aware this is a research study and have been told of its possible benefits and toxic side effects. Patients or their guardians will be given a copy of the consent form",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient can sign informed consent as there is no indication of incapacity.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Sexually active patients must be willing to utilize one of the more effective birth control methods during the study and for 3 months after the study is concluded. The male partner should use a condom",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on the patient's sexual activity or willingness to use birth control methods.",
+      "clinical_question": "Is the patient currently using a highly effective birth control method, such as a condom, and is he willing to continue its use during the study and for 3 months after its conclusion?"
+    },
+    {
+      "criterion": "History of hypersensitivity reactions to murine protein-containing products",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No documented history of hypersensitivity reactions to murine protein-containing products.",
+      "clinical_question": "Has the patient experienced any hypersensitivity reactions to murine protein-containing products in the past?"
+    },
+    {
+      "criterion": "Pregnant or lactating",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding pregnancy or lactation status.",
+      "clinical_question": "Is the patient currently pregnant or lactating?"
+    },
+    {
+      "criterion": "Tumor in a location where enlargement could cause airway obstruction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on the tumor's location or potential for causing airway obstruction.",
+      "clinical_question": "Is there evidence of tumor enlargement in the cervical region that is ≥3 cm in size, which could potentially cause airway obstruction?"
+    },
+    {
+      "criterion": "Currently receiving any investigational agents or have not received any tumor vaccines within the previous six weeks",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on current investigational agents or tumor vaccines received in the last six weeks.",
+      "clinical_question": "Has the patient received any investigational agents or tumor vaccines within the last six weeks?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: History of hypersensitivity reactions to murine protein-containing products",
+    "EXCLUSION UNCLEAR: Pregnant or lactating",
+    "EXCLUSION UNCLEAR: Tumor in a location where enlargement could cause airway obstruction",
+    "EXCLUSION UNCLEAR: Currently receiving any investigational agents or have not received any tumor va"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3529
+}

@@ -1,0 +1,26 @@
+{
+  "nct_id": "NCT00300625",
+  "trial_title": "Validation of the San Francisco Syncope Rule",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "This study was designed to validate the \"San Francisco Syncope Rule\". This set of rules was derived by Quinn et. al. to help guide the treatment of patients evaluated in the Emergency Department who had an episode of syncope (passed out) or near syncope (almost passed out). A rule that considers patients with an abnormal ECG, a complaint of shortness of breath, hematocrit less than 30%, systolic blood pressure less than 90 mm Hg, or a history of congestive heart failure was shown predict with a ",
+  "eligibility_table": [
+    {
+      "criterion": "Acute syncope or near syncope as a reason for the ED visit",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of syncope, which aligns with the inclusion criterion of acute syncope or near syncope as a reason for the ED visit.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Altered mental status, alcohol or illicit drug-related loss of consciousness, Definite seizure, Transient loss of consciousness caused by head trauma",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have altered mental status, nor is there any indication of alcohol or illicit drug-related loss of consciousness, seizure, or head trauma, thus meeting the exclusion criteria.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE",
+  "confidence_score": 1.0
+}

@@ -1,0 +1,154 @@
+{
+  "nct_id": "NCT02582177",
+  "trial_title": "Effectiveness Study of Ketoconazole and Betamethasone to Treat Fungal Infection and Dermatophytosis",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "To evaluate the no-inferiority of the ketoconazole20mg/g and betamethasone dipropionate 0.64 mg/g association (Candicort®) cream versus clotrimazole 10mg and dexamethasone acetate 0.443 mg/g association (Baycuten N®) cream, general relief of signs and symptoms (erythema, maceration, peeling, blistering / papules / pustules, itching and burning / stinging) 06 (± 1) days after onset treatment.",
+  "eligibility_table": [
+    {
+      "criterion": "Ability to understand and consent to participate in this clinical research, expressed by signing the Informed Consent Form (ICF);",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 19 years old and can likely understand and consent to participate in the trial.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants with moderate or severe clinical diagnosis of superficial mycoses caused by Candida ssp or following fungal /dermatophytosis infections: inflammatory tinea corporis inflammatory (except face), inflammatory tinea cruris and inflammatory tinea pedis, with confirmation through direct mycological examination. In moderate or severe superficial mycosis that present at least moderate erythema and itching signs and slight peeling according to the evaluation by the four-point category scale (0=absent, 1-mild, 2-moderate, 3-severe);",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a diagnosis of superficial mycoses caused by Candida or any fungal infections as per the provided profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any observational finding (clinical/ physical evaluation) that is interpreted by the investigator as a risk to the research participant's participation in the clinical trial;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is insufficient information about observational findings that may pose a risk to participation.",
+      "clinical_question": "Does the patient exhibit any signs of adrenal insufficiency, such as low serum cortisol levels (< 5 µg/dL) or clinical symptoms like fatigue, weight loss, or hypotension?"
+    },
+    {
+      "criterion": "Known hypersensitivity to the drug components used during the study;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding hypersensitivity to drug components.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to ketoconazole or betamethasone?"
+    },
+    {
+      "criterion": "Use of prohibited drugs and treatment prohibited in the last 90 days;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the use of prohibited drugs or treatments in the last 90 days.",
+      "clinical_question": "Has the patient used any prohibited drugs or received any prohibited treatments in the last 90 days?"
+    },
+    {
+      "criterion": "Immune impairment, according to investigator assessment;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's immune status is not clearly defined, making it difficult to assess immune impairment.",
+      "clinical_question": "Does the patient have a CD4+ T-cell count of <200 cells/mm³ as assessed by laboratory testing?"
+    },
+    {
+      "criterion": "Vulvovaginal candidiasis diagnostics, balanopreputial, nail, chronic mucocutaneous or oral;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have vulvovaginal candidiasis or other specified conditions, but further details are needed.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of vulvovaginal candidiasis, balanopreputial candidiasis, nail candidiasis, chronic mucocutaneous candidiasis, or oral candidiasis based on laboratory testing?"
+    },
+    {
+      "criterion": "Diagnosis of chickenpox, rosacea, herpes simplex or zoster, skin tuberculosis or skin syphilis, systemic fungal infection;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No diagnosis of chickenpox, rosacea, herpes simplex, or other specified conditions is mentioned, but further assessment is needed.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of any systemic fungal infection based on laboratory tests or clinical evaluation?"
+    },
+    {
+      "criterion": "Participants who, though they have studied diagnosis of fungal infections requiring systemic treatment according to the severity of injury and according to the opinion of the investigator;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not been diagnosed with fungal infections requiring systemic treatment, but further evaluation is necessary.",
+      "clinical_question": "Does the patient have a diagnosis of a fungal infection requiring systemic treatment based on a severity assessment score of ≥3 according to the investigator's opinion?"
+    },
+    {
+      "criterion": "Participants that have skin lesions with clinical signs of bacterial infection;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about skin lesions with clinical signs of bacterial infection.",
+      "clinical_question": "Does the patient exhibit skin lesions with clinical signs of bacterial infection, such as erythema, warmth, and purulent discharge?"
+    },
+    {
+      "criterion": "Participants who, according to investigator assessment, require systemic antibiotic treatment;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently requiring systemic antibiotic treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants that are in any treatment , in the opinion of the investigator, may affect the results of the study;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any treatment that may affect the study results.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants diagnosed with HIV;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not been diagnosed with HIV.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants diagnosed with Diabetes Mellitus;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not been diagnosed with Diabetes Mellitus.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants with a history of smallpox vaccine reaction;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has no history of smallpox vaccine reaction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women in gestation period or who are breastfeeding;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and therefore not applicable for this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Female participants who are in the reproductive age and do not agree to use acceptable methods of contraception (oral contraceptives, injectable contraceptives, intrauterine device (IUD), hormonal implants, barrier methods, hormonal patch and tubal ligation); except surgically sterile (bilateral oophorectomy or hysterectomy), the menopausal for at least one year and participants who declare to perform sexual practices on a not to reproductive way;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and therefore not applicable for this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participant who participated in clinical in the last twelve months, unless the investigator considers that there may be direct benefit to thereof;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not participated in any clinical trial in the last twelve months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participant has some kinship of second degree or bond with employees or employees of Sponsor and Research Center.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of kinship or bond with employees of the Sponsor and Research Center.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Any observational finding (clinical/ physical evaluation) that is interpreted by",
+    "EXCLUSION UNCLEAR: Known hypersensitivity to the drug components used during the study;",
+    "EXCLUSION UNCLEAR: Use of prohibited drugs and treatment prohibited in the last 90 days;",
+    "EXCLUSION UNCLEAR: Immune impairment, according to investigator assessment;",
+    "EXCLUSION UNCLEAR: Vulvovaginal candidiasis diagnostics, balanopreputial, nail, chronic mucocutaneo",
+    "EXCLUSION UNCLEAR: Diagnosis of chickenpox, rosacea, herpes simplex or zoster, skin tuberculosis or",
+    "EXCLUSION UNCLEAR: Participants who, though they have studied diagnosis of fungal infections requir",
+    "EXCLUSION UNCLEAR: Participants that have skin lesions with clinical signs of bacterial infection;"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5789
+}

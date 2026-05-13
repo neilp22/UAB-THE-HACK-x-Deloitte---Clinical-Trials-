@@ -1,0 +1,122 @@
+{
+  "nct_id": "NCT04708158",
+  "trial_title": "Novaferon for COVID-19 Treatment Trial (NCTT-005)",
+  "phase": "PHASE3",
+  "status": "UNKNOWN",
+  "brief_summary": "A multicenter, randomized, double-blind, placebo-controlled trial for hospitalized moderate COVID-19 patients",
+  "eligibility_table": [
+    {
+      "criterion": "Written informed consent has been obtained from the participants with age of over 20 years at the time of signing the informed consent.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 51 years old, which is over 20 years, and written informed consent can be obtained.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "SARS-CoV-2 infection is diagnosed by the positive SARS-CoV-2 detection of RT-PCR tests within 72 hours before the start of administration of the investigational drug",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of a SARS-CoV-2 infection diagnosis in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Less than 6 days from onset of COVID-19 symptoms to starting the administration of the investigational drug.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient profile does not mention any COVID-19 symptoms or their onset.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Oxygen saturation (SpO2) measured by pulse oximeter is less than 96% and more than 93%.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Oxygen saturation levels are not provided in the patient profile.",
+      "clinical_question": "Is the patient's oxygen saturation (SpO2) currently between 93% and 96% as measured by a pulse oximeter?"
+    },
+    {
+      "criterion": "Oxygen saturation (SpO2) measured by pulse oximeter is less than 96% and more than 93%.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Oxygen saturation levels are not provided in the patient profile.",
+      "clinical_question": "Is the patient's oxygen saturation (SpO2) currently between 93% and 96% as measured by a pulse oximeter?"
+    },
+    {
+      "criterion": "Chest X-ray or CT scan shows pneumonia findings suggestive of COVID-19 infection",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no mention of pneumonia findings in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Need hospitalization and COVID-19-related medical care.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient profile does not indicate a need for hospitalization or COVID-19-related medical care.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Require no supplemental oxygen.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not require supplemental oxygen as per the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women (less than 12 months after the last menstrual period) who have a negative pregnancy test (urine hCG qualification) and agree to take oral contraceptives or use condom during study period.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not include any information regarding gender-specific criteria.",
+      "clinical_question": "Does the patient have a negative urine hCG test result?"
+    },
+    {
+      "criterion": "History of hypersensitivity to interferon or Novaferon or any excipients of interferon or Novaferon.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide any history of hypersensitivity to interferon or Novaferon.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to interferon, Novaferon, or any excipients of interferon or Novaferon?"
+    },
+    {
+      "criterion": "Having received other antiviral treatments (Favipiravir, Remdesivir, Interferon, etc.).",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received any antiviral treatments, thus meeting this exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CTCAE Grade 3 or higher liver dysfunction (ALT / AST > 5ULN) or renal dysfunction (eGFR <30 mL / min / 1.73 m2).",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's lab values do not indicate CTCAE Grade 3 or higher liver or renal dysfunction, as no values for ALT/AST or eGFR are provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CTCAE Grade 3 or higher liver dysfunction (ALT / AST > 5ULN) or renal dysfunction (eGFR <30 mL / min / 1.73 m2).",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "Similar to criterion 2, there is no evidence of CTCAE Grade 3 or higher liver or renal dysfunction based on the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active infections or other medical conditions that contraindicate inhalation therapy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about active infections or contraindications for inhalation therapy, making it indeterminate.",
+      "clinical_question": "Does the patient have any active respiratory infections or other medical conditions that contraindicate inhalation therapy, such as severe pulmonary disease or recent history of respiratory distress?"
+    },
+    {
+      "criterion": "Inappropriate for inclusion in the clinical trial as determined by investigators.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The appropriateness for inclusion in the trial is subjective and depends on the investigators' assessment, which is not available.",
+      "clinical_question": "Does the patient have any contraindications to antiviral therapy as determined by their current health status and laboratory values?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: History of hypersensitivity to interferon or Novaferon or any excipients of inte",
+    "EXCLUSION UNCLEAR: Active infections or other medical conditions that contraindicate inhalation the",
+    "EXCLUSION UNCLEAR: Inappropriate for inclusion in the clinical trial as determined by investigators",
+    "LOW INCLUSION MATCH: only 2 of 9 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6
+}

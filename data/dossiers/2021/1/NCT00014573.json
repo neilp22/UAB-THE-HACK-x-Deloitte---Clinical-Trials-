@@ -1,0 +1,273 @@
+{
+  "nct_id": "NCT00014573",
+  "trial_title": "Chemotherapy and Vaccine Therapy Followed by Bone Marrow or Peripheral Stem Cell Transplantation and Interleukin-2 in Treating Patients With Recurrent or Refractory Brain Cancer",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining chemotherapy with bone marrow or peripheral stem cell transplantation may allow the doctor to give higher doses of chemotherapy drugs and kill more tumor cells. Vaccines made from a person's white blood cells and tumor cells may make the body build an immune response to kill tumor cells. Interleukin-2 may stimulate a person's white blood cells to kill tumor cells.\n\nPU",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed active recurrent or refractory primary high-grade brain tumor",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma, which is a high-grade brain tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Tumor must be surgically accessible",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The tumor is described as unresectable, indicating it is not surgically accessible.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Bidimensionally measurable disease by clinical exam, CT scan, or x-ray",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the bidimensional measurability of the disease.",
+      "clinical_question": "Does the patient have a measurable tumor size of at least 1 cm in diameter as assessed by CT scan or clinical exam?"
+    },
+    {
+      "criterion": "Disease must be outside a previously irradiated field or have progressed or developed after radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone radiation treatment, and the tumor is likely within a previously irradiated field.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previously treated metastatic bony lesions are not considered measurable",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the presence of previously treated metastatic bony lesions.",
+      "clinical_question": "Does the patient have any measurable metastatic bony lesions as defined by the RECIST criteria?"
+    },
+    {
+      "criterion": "No previously irradiated metastatic disease site unless no response or clear progression on imaging",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not clarify if there is previously irradiated metastatic disease.",
+      "clinical_question": "Has the patient had any previously irradiated metastatic disease sites that have shown no response or clear progression on imaging?"
+    },
+    {
+      "criterion": "Age: 65 and under",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 <= 65.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: CALGB 0-2",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's severe lower extremity weakness may indicate a performance status worse than CALGB 2.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy: More than 3 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 45 years old and likely has a life expectancy of more than 3 months given the context.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hematopoietic: Absolute neutrophil count greater than 1,500/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count currently greater than 1,500/mm^3?"
+    },
+    {
+      "criterion": "Hematopoietic: Platelet count greater than 100,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's platelet count currently greater than 100,000/mm^3?"
+    },
+    {
+      "criterion": "Hepatic: Liver function less than 2.5 times normal unless due to disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's liver function.",
+      "clinical_question": "Is the patient's liver function test result less than 2.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "No active hepatitis B or C",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding active hepatitis B or C.",
+      "clinical_question": "Does the patient have a negative hepatitis B surface antigen (HBsAg) and a negative hepatitis C antibody (anti-HCV) test?"
+    },
+    {
+      "criterion": "Creatinine less than 1.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level currently less than 1.5 mg/dL?"
+    },
+    {
+      "criterion": "Creatinine clearance greater than 60 mL/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's current creatinine clearance value?"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction greater than 50% by MUGA or 2-D echocardiogram",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction greater than 50% as measured by a MUGA scan or 2-D echocardiogram?"
+    },
+    {
+      "criterion": "Electrocardiogram normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the patient's electrocardiogram.",
+      "clinical_question": "Does the patient have a normal electrocardiogram (ECG) with no abnormalities present?"
+    },
+    {
+      "criterion": "FEV1 and DLCO greater than 50% predicted",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No pulmonary function test results available to assess FEV1 and DLCO.",
+      "clinical_question": "Is the patient's FEV1 greater than 50% predicted?"
+    },
+    {
+      "criterion": "Clearance by pulmonologist",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on whether the patient has been cleared by a pulmonologist.",
+      "clinical_question": "Has the patient undergone a pulmonary function test with results indicating a forced expiratory volume in 1 second (FEV1) ≥ 70% of predicted values?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and therefore not pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about a recent pregnancy test.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on whether the patient is using effective contraception.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a barrier method, hormonal method, or intrauterine device, as defined by clinical guidelines?"
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about the patient's HIV status.",
+      "clinical_question": "Is the patient's HIV status confirmed as negative through a recent laboratory test?"
+    },
+    {
+      "criterion": "No serious underlying co-morbid disease or other medical or psychiatric factor that would preclude study",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple serious underlying conditions including anaplastic astrocytoma and chronic pain.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Able to be weaned off steroids after surgery",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on high-dose steroids, which may complicate weaning.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PRIOR CONCURRENT THERAPY:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific information provided about prior concurrent therapy eligibility.",
+      "clinical_question": "Has the patient received any prior systemic therapy within 4 weeks of enrollment in the trial?"
+    },
+    {
+      "criterion": "Biologic therapy:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently receiving Avastin, which is a biologic therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is not specified, making it unclear if the patient meets this requirement.",
+      "clinical_question": "Has the patient experienced disease progression after receiving at least one prior line of systemic therapy?"
+    },
+    {
+      "criterion": "Chemotherapy:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently undergoing chemotherapy with temozolomide and CPT-11, which does not meet the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recovered from prior conventional chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not fully recovered from prior chemotherapy, as they are still receiving treatment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Endocrine therapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Endocrine therapy is not mentioned in the patient's profile, making it unclear if this criterion is applicable.",
+      "clinical_question": "Has the patient received any form of endocrine therapy prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "No concurrent steroid therapy for mass effect",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on high-dose steroids, which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Radiotherapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Radiotherapy is mentioned in the prior treatments, but the specifics of the current status are not provided.",
+      "clinical_question": "Has the patient received radiotherapy to the spine within the last 6 months?"
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Disease characteristics are not detailed in the profile, making it difficult to assess this criterion.",
+      "clinical_question": "Does the patient have a measurable tumor size of ≥1 cm on MRI following the last treatment?"
+    },
+    {
+      "criterion": "Recovered from prior conventional radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not fully recovered from prior radiotherapy, as they are still experiencing significant symptoms.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has an unresectable tumor and has not undergone surgery, which does not meet the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, which is a qualifying disease for the trial.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 6 of 37 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4324
+}

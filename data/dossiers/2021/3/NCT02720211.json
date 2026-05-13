@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT02720211",
+  "trial_title": "Spectacle Tints and Thin-Films for Migraine",
+  "phase": "NA",
+  "status": "TERMINATED",
+  "brief_summary": "Nearly all migraine sufferers report sensitivity to light during a headache and a significant proportion of sufferers report light sensitivity between attacks. Light is also a common trigger for migraine headaches. Spectacle lenses that have been treated with tints and spectacle lenses that have been treated with thin-films have both been shown to reduce light sensitivity and headache in patients with migraine. At this time, it is not clear which spectacle lens treatment is superior. The purpose",
+  "eligibility_table": [
+    {
+      "criterion": "Subjects must meet the International Headache Society criteria for chronic migraine (International Classification of Headache Disorders, 3rd edition (Headache Classification Committee of the International Headache Society, 2013). All subjects must be between the ages of 18 and 60 years-old.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old, which falls within the required age range of 18 to 60 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subjects must meet the International Headache Society criteria for chronic migraine (International Classification of Headache Disorders, 3rd edition (Headache Classification Committee of the International Headache Society, 2013). All subjects must be between the ages of 18 and 60 years-old.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old, which falls within the required age range of 18 to 60 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "To be included in the study, in the best judgment of the investigator, subjects must be stable on their current migraine treatment regimen. Stability is defined as no major changes in therapy contemplated within the next 4 months.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current migraine treatment regimen is not specified, making it unclear if they are stable.",
+      "clinical_question": "Has the patient experienced no major changes in their migraine treatment regimen in the past 4 months?"
+    },
+    {
+      "criterion": "Subjects with other light sensitive conditions, such as iritis and blepharospasm, will be excluded. Subjects with best-corrected visual acuity less than 20/40 will be excluded. Subjects with diseases of the retina, such as diabetic retinopathy and macular degeneration will be excluded. Subjects using medications known to affect the eye will be excluded (e.g. chloroquine, hydroxychloroquine, ethambutol, amiodarone). Due to constraints on the manufacture and mounting of study lenses into study frames, the study must exclude subjects who are very nearsighted (more than 4 diopters), subjects who are very farsighted (more than 2 diopters), and subjects who have more than 2.5 diopters of astigmatism.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about the patient's visual acuity or any light-sensitive conditions.",
+      "clinical_question": "Does the patient have best-corrected visual acuity of at least 20/40?"
+    },
+    {
+      "criterion": "Subjects with best-corrected visual acuity less than 20/40 will be excluded.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about the patient's visual acuity.",
+      "clinical_question": "Does the patient have a best-corrected visual acuity of 20/40 or better?"
+    },
+    {
+      "criterion": "Because of the cyclical effects of botulinum toxin injections and other nerve blocks, patients undergoing these treatments will be excluded. Subjects must not have had any injections or blocks within 4 months of enrollment and should not receive any further blocks until they exit the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not received any injections or blocks mentioned, but this is not confirmed.",
+      "clinical_question": "Has the patient received any botulinum toxin injections or nerve blocks within the last 4 months?"
+    },
+    {
+      "criterion": "Subjects with continuous daily headache (a headache frequency of 100%) will be excluded. Subjects who do not have a headache frequency of at least 50% will be excluded.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The frequency of the patient's headaches is not specified, making it unclear if they meet this criterion.",
+      "clinical_question": "Does the patient experience headache frequency of at least 50%?"
+    },
+    {
+      "criterion": "Subjects with medication overuse headache will be excluded. A patient with a history of medication overuse who has not overused abortive medications for the past 4 months can be included.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding medication overuse or the patient's history with abortive medications.",
+      "clinical_question": "Has the patient overused abortive medications in the past 4 months?"
+    },
+    {
+      "criterion": "Subjects who abuse alcohol or use illicit drugs will be excluded. Subjects considered to be from vulnerable populations will be excluded, including pregnant women, prisoners, subject who are mentally disabled, subjects with cognitive or decisional impairment, and wards of the state.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's substance use or any vulnerable population status.",
+      "clinical_question": "Does the patient have a history of alcohol abuse or illicit drug use within the past 12 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Subjects with other light sensitive conditions, such as iritis and blepharospasm",
+    "EXCLUSION UNCLEAR: Subjects with best-corrected visual acuity less than 20/40 will be excluded.",
+    "EXCLUSION UNCLEAR: Because of the cyclical effects of botulinum toxin injections and other nerve bl",
+    "EXCLUSION UNCLEAR: Subjects with continuous daily headache (a headache frequency of 100%) will be e",
+    "EXCLUSION UNCLEAR: Subjects with medication overuse headache will be excluded. A patient with a his",
+    "EXCLUSION UNCLEAR: Subjects who abuse alcohol or use illicit drugs will be excluded. Subjects consi"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2222
+}

@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT01861990",
+  "trial_title": "Valproic Acid in Childhood Progressive Brain Tumors",
+  "phase": "PHASE1",
+  "status": "WITHDRAWN",
+  "brief_summary": "The study investigates valproic acid added to radiation and temozolomide therapy (standard of care) for progressive or recurrent pediatric brain tumors.",
+  "eligibility_table": [
+    {
+      "criterion": "Subject, parent, or guardian willing and able to give informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is an adult but can still provide informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recurrent or progressive pediatric brain tumor, with MRI evidence of disease",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma of the spine, which is not classified as a pediatric brain tumor.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age at first diagnosis of brain tumor 1-21 years old",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 45 years old, which exceeds the age limit of 1-21 years at first diagnosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lansky or Karnofsky performance score of at least 50 at diagnosis",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's performance status is not provided, but given the severe symptoms and treatments, it is likely below the required score.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently pregnant or has the patient been pregnant within the last 12 months?"
+    },
+    {
+      "criterion": "Prior intolerance to valproic acid",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced any adverse reactions or intolerances to valproic acid in previous treatments?"
+    },
+    {
+      "criterion": "History of use of temozolomide",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received temozolomide for a total of ≥6 cycles prior to enrollment?"
+    },
+    {
+      "criterion": "Use of enzyme inducing anticonvulsant medications (see appendix B)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient been prescribed any enzyme-inducing anticonvulsant medications during their treatment?"
+    },
+    {
+      "criterion": "Known urea cycle disorder (e.g. ornithine transcarbamylase deficiency)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented diagnosis of a urea cycle disorder, specifically ornithine transcarbamylase deficiency?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Pregnancy",
+    "EXCLUSION UNCLEAR: Prior intolerance to valproic acid",
+    "EXCLUSION UNCLEAR: History of use of temozolomide",
+    "EXCLUSION UNCLEAR: Use of enzyme inducing anticonvulsant medications (see appendix B)",
+    "EXCLUSION UNCLEAR: Known urea cycle disorder (e.g. ornithine transcarbamylase deficiency)",
+    "LOW INCLUSION MATCH: only 1 of 4 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4444
+}

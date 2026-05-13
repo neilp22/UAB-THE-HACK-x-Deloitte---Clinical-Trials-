@@ -1,0 +1,72 @@
+{
+  "nct_id": "NCT04882488",
+  "trial_title": "Correlation of FFR and iFR With Cardiac PET Perfusion in Patients With Severe Aortic Valve Stenosis",
+  "phase": "",
+  "status": "RECRUITING",
+  "brief_summary": "Aortic valve stenosis (AS) affects 2-7% of persons \\> 65 years, symptoms include: angina and dyspnea, dizziness and syncope. Coincidence of coronary artery disease (CAD), also presenting with angina and dyspnea, in patients with AS between 40 - 65% . Angina in AS caused by significant reduction of coronary flow reserve (CFR). CFR is the ratio of maximal flow increase in the coronary vessel bed during maximal hyperaemia (medically or exercise induced). FFR (fractional flow reserve) use in patient",
+  "eligibility_table": [
+    {
+      "criterion": "patients with severe aortic Stenosis eligible for transcatheter aortic stenosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis, which qualifies him for transcatheter aortic valve replacement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "left ventricular ejection fraction > 55%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) greater than 55%?"
+    },
+    {
+      "criterion": "no intolerance of Adenosin",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's tolerance to Adenosine.",
+      "clinical_question": "Does the patient have any documented intolerance to Adenosine?"
+    },
+    {
+      "criterion": "no history of bradycardia, atrioventricular Blockade",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history does not explicitly mention bradycardia or atrioventricular blockade, but it is unclear without further cardiac history.",
+      "clinical_question": "Does the patient have a documented history of bradycardia or atrioventricular blockade as defined by a heart rate <60 bpm or a PR interval >200 ms?"
+    },
+    {
+      "criterion": "intermediate coronary Stenosis with FFR > 0.8",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient's FFR measurement greater than 0.8?"
+    },
+    {
+      "criterion": "Age > 65",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient aged 65 years or older?"
+    },
+    {
+      "criterion": "intolerance of Adenosin",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's intolerance to Adenosine.",
+      "clinical_question": "Has the patient experienced any adverse reactions to adenosine during previous diagnostic procedures?"
+    },
+    {
+      "criterion": "left ventricular ejection fraction < 55%",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) currently measured at less than 55%?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: intolerance of Adenosin",
+    "EXCLUSION UNCLEAR: left ventricular ejection fraction < 55%",
+    "LOW INCLUSION MATCH: only 1 of 6 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.125
+}

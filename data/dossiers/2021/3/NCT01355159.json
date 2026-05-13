@@ -1,0 +1,210 @@
+{
+  "nct_id": "NCT01355159",
+  "trial_title": "High Dose Folic Acid Supplementation Throughout Pregnancy for Preeclampsia Prevention",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "To determine the efficacy of high dose folic acid supplementation for prevention of preeclampsia in women with at least one risk factor: pre-existing hypertension, pre-pregnancy diabetes (type 1 or 2), twin pregnancy, preeclampsia in a previous pregnancy, or body mass index ≥35. It was hypothesized that high dose (4.0 mg per day) supplementation starting in early pregnancy and continued throughout the entire pregnancy will lower the incidence of preeclampsia in pregnant women at high risk of dev",
+  "eligibility_table": [
+    {
+      "criterion": "Capability of subject to comprehend and comply with study requirements",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old and likely capable of understanding and complying with study requirements.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "≥ 18 years of age at time of consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject is taking ≤1.1 mg of folic acid daily at the time of randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient currently taking ≤1.1 mg of folic acid daily?"
+    },
+    {
+      "criterion": "Live fetus (documented positive fetal heart prior to randomization)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of a live fetus as the patient is not documented as pregnant.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Gestational age between 8+0 and 16+6 weeks of pregnancy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not pregnant, thus cannot have a gestational age.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Subject plans to give birth in a participating hospital site",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not pregnant and therefore cannot plan to give birth.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnant subjects must fulfill at least one of the following identified risk factors for pre-eclampsia (PE):",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not pregnant and does not fulfill any risk factors for pre-eclampsia.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pre-existing hypertension (documented evidence of diastolic blood pressure ≥ 90 mmHg on two separate occasions or at least 4 hours apart prior to randomization, or use of antihypertensive medication during this pregnancy specifically for the treatment of hypertension prior to randomization)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not pregnant and there is no evidence of pre-existing hypertension.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pre-pregnancy diabetes (documented evidence of Type I or type II DM)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not pregnant and there is no documented evidence of diabetes.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Twin pregnancy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not pregnant and cannot have a twin pregnancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known history or presence of any clinically significant disease or condition which would be a contraindication to folic acid supplementation of up to 5 mg daily for the duration of pregnancy",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a significant medical history that may contraindicate folic acid supplementation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known major fetal anomaly or fetal demise",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not pregnant and thus cannot have a known major fetal anomaly or fetal demise.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of medical complications, including:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of spontaneous intraventricular hemorrhage and arteriovenous malformation, which may be considered medical complications, but the specifics of the trial's exclusion criteria are not detailed.",
+      "clinical_question": "Has the patient experienced any medical complications during previous pregnancies, such as preeclampsia or gestational hypertension?"
+    },
+    {
+      "criterion": "renal disease with altered renal function",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess renal function; therefore, it is unclear if renal disease is present.",
+      "clinical_question": "Does the patient have an estimated glomerular filtration rate (eGFR) <60 mL/min?"
+    },
+    {
+      "criterion": "epilepsy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of epilepsy mentioned, but lack of detailed neurological history makes it uncertain.",
+      "clinical_question": "Has the patient experienced any seizures or been diagnosed with epilepsy prior to the current pregnancy?"
+    },
+    {
+      "criterion": "cancer",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of cancer provided, but without comprehensive medical history, this cannot be confirmed.",
+      "clinical_question": "Has the patient been diagnosed with any form of cancer prior to the initiation of high dose folic acid supplementation?"
+    },
+    {
+      "criterion": "use of folic acid antagonists such as valproic acid",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No mention of folic acid antagonists or specific medications that would indicate use of valproic acid.",
+      "clinical_question": "Has the patient been prescribed any folic acid antagonists, such as valproic acid, during their current treatment regimen?"
+    },
+    {
+      "criterion": "Individual who is currently enrolled or has participated in another clinical trial or who received an investigational drug within 3 months of the date of randomization (unless approved by the Trial Coordinating Centre)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on participation in other clinical trials or investigational drugs within the last 3 months.",
+      "clinical_question": "Has the patient participated in any clinical trial or received an investigational drug within the last 3 months?"
+    },
+    {
+      "criterion": "Known presence of:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is incomplete; it does not specify what known presence refers to.",
+      "clinical_question": "Does the patient have a documented history of preeclampsia or hypertension during a previous pregnancy?"
+    },
+    {
+      "criterion": "Alcohol abuse (≥ 2 drinks per day) or alcohol dependence",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding alcohol consumption or dependence.",
+      "clinical_question": "Has the patient consumed alcohol at a frequency of ≥2 drinks per day in the past month?"
+    },
+    {
+      "criterion": "Documented evidence of history of PE in a previous pregnancy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No documented evidence of history of pulmonary embolism (PE) in a previous pregnancy is provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "BMI > 35 kg/m2 within 3 months prior to this pregnancy and up to randomization of this pregnancy (documented evidence of height and weight to calculate BMI is required)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on BMI or weight provided; therefore, it cannot be assessed.",
+      "clinical_question": "Is the patient's BMI documented to be greater than 35 kg/m² within 3 months prior to this pregnancy?"
+    },
+    {
+      "criterion": "Illicit drug/substance use and/or dependence",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information regarding illicit drug or substance use, making it unclear whether this criterion is met.",
+      "clinical_question": "Has the patient used any illicit drugs or substances in the past 12 months?"
+    },
+    {
+      "criterion": "Known hypersensitivity to folic acid",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information in the patient profile about hypersensitivity to folic acid, so it cannot be determined.",
+      "clinical_question": "Does the patient have a documented history of hypersensitivity reactions to folic acid or any of its derivatives?"
+    },
+    {
+      "criterion": "Multiple Pregnancy (triplets or more)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not indicate whether the patient is pregnant or has multiple pregnancies, thus this criterion cannot be assessed.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of multiple pregnancy, specifically triplets or more?"
+    },
+    {
+      "criterion": "Participation in this study in a previous pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not mention any previous pregnancies or participation in the study, leaving this criterion uncertain.",
+      "clinical_question": "Did the patient participate in any clinical trial related to high dose folic acid supplementation during a previous pregnancy?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Known history or presence of any clinically significant disease or condition whi",
+    "EXCLUSION VIOLATED: Known major fetal anomaly or fetal demise",
+    "EXCLUSION UNCLEAR: History of medical complications, including:",
+    "EXCLUSION UNCLEAR: renal disease with altered renal function",
+    "EXCLUSION UNCLEAR: epilepsy",
+    "EXCLUSION UNCLEAR: cancer",
+    "EXCLUSION UNCLEAR: use of folic acid antagonists such as valproic acid",
+    "EXCLUSION UNCLEAR: Individual who is currently enrolled or has participated in another clinical tri",
+    "EXCLUSION UNCLEAR: Known presence of:",
+    "EXCLUSION UNCLEAR: Alcohol abuse (≥ 2 drinks per day) or alcohol dependence",
+    "EXCLUSION UNCLEAR: Illicit drug/substance use and/or dependence",
+    "EXCLUSION UNCLEAR: Known hypersensitivity to folic acid",
+    "EXCLUSION UNCLEAR: Multiple Pregnancy (triplets or more)",
+    "EXCLUSION UNCLEAR: Participation in this study in a previous pregnancy",
+    "LOW INCLUSION MATCH: only 2 of 12 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.4615
+}

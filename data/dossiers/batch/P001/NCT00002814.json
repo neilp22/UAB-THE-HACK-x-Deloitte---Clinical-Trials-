@@ -1,0 +1,124 @@
+{
+  "nct_id": "NCT00002814",
+  "trial_title": "Combination Chemotherapy for Patients With Brain Cancer",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells.\n\nPURPOSE: Phase II trial to study the effectiveness of combination chemotherapy using paclitaxel and topotecan, plus G-CSF, in treating patients with glioblastoma multiforme or anaplastic astrocytoma that is refractory or recurrent.",
+  "eligibility_table": [
+    {
+      "criterion": "Biopsy proven glioblastoma multiforme or anaplastic astrocytoma Central pathologic review at Dartmouth-Hitchcock Medical Center, including assay for tumor p53 expression No anaplastic oligodendroglioma No mixed oligodendroastrocytoma Recurrent or progressive disease following radiotherapy documented by CT or MRI within 2 weeks of entry",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has anaplastic astrocytoma, which is eligible as it is not an oligodendroglioma or mixed type. No evidence of recurrent disease is provided, but the primary diagnosis is acceptable.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: 18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: Karnofsky 60%-100%",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's ECOG score is 2, which corresponds to a Karnofsky performance status below 60%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hematopoietic: WBC at least 3,000",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's white blood cell count (WBC) at least 3,000 cells/mm³?"
+    },
+    {
+      "criterion": "Hematopoietic: ANC at least 1,500",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "What is the patient's current absolute neutrophil count (ANC)?"
+    },
+    {
+      "criterion": "Hematopoietic: Platelets at least 100,000",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Does the patient have a platelet count of at least 100,000 cells per microliter?"
+    },
+    {
+      "criterion": "Hepatic: Bilirubin no greater than 1.0 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level ≤1.0 mg/dL?"
+    },
+    {
+      "criterion": "Hepatic: AST/ALT no greater than 2.5 times normal",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The ALT level is 38 U/L, which is within the acceptable range (less than 2.5 times the normal limit).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Renal: Creatinine no greater than 1.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "creatinine=1.1 mg/dL <= 1.5 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other: No documented sensitivity to E. coli-derived products",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's sensitivity to E. coli-derived products.",
+      "clinical_question": "Does the patient have any documented history of sensitivity to E. coli-derived products?"
+    },
+    {
+      "criterion": "Other: No major medical or psychiatric illness that would interfere with therapy or compliance with scheduled follow-up",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has multiple medical conditions (hypertension, hyperlipidemia, and severe weakness) that may interfere with therapy or compliance.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other: No pregnant or nursing women",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication of being pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other: Adequate contraception required of fertile patients",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the use of contraception.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a barrier method or hormonal contraceptive, to prevent pregnancy?"
+    },
+    {
+      "criterion": "No prior taxanes or topoisomerase I inhibitors",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No prior treatments with taxanes or topoisomerase I inhibitors are mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 4 weeks since chemotherapy (6 weeks since nitrosoureas)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the timing of the last chemotherapy treatment.",
+      "clinical_question": "Has the patient completed chemotherapy treatment at least 4 weeks ago, and if applicable, at least 6 weeks since receiving nitrosoureas?"
+    },
+    {
+      "criterion": "At least 4 weeks since radiotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the timing of the last radiotherapy treatment.",
+      "clinical_question": "Has the patient completed radiotherapy at least 4 weeks prior to enrollment in the trial?"
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

@@ -1,0 +1,336 @@
+{
+  "nct_id": "NCT04214262",
+  "trial_title": "Testing the Addition of the Drug Atezolizumab to the Usual Radiation Treatment for Patients With Early Non-small Cell Lung Cancer",
+  "phase": "PHASE3",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "This phase III trial studies how well atezolizumab added to the usual radiation therapy works in treating patients with stage I-IIA non-small cell lung cancer. Immunotherapy with monoclonal antibodies, such as atezolizumab, may help the body's immune system attack the cancer, and may interfere with the ability of tumor cells to grow and spread. Radiation therapy, such as stereotactic body radiation therapy, uses special equipment to position a patient and deliver radiation to tumors with high pr",
+  "eligibility_table": [
+    {
+      "criterion": "Patient must have histologically or cytologically proven stage I-IIA or limited T3N0M0 non-small cell lung cancer (NSCLC), without radiographic evidence of nodal or distant involvement (N0M0). Patient may have T3 disease with the exclusion of pericardial involvement. Patients with multifocal tumors with no more than two lesions confirmed or suspected to be synchronous early stage NSCLCs are eligible provided at least one lesion is histologically or cytologically proven to be NSCLC and meets one or more high-risk features",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has stage IV non-small cell lung cancer, which does not meet the inclusion criteria of stage I-IIA or limited T3N0M0.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Disease must have one or more of the following high-risk features:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The specific high-risk features of the patient's disease are not provided, making it unclear if any are present.",
+      "clinical_question": "Does the patient have a tumor size ≥5 cm or evidence of lymph node involvement?"
+    },
+    {
+      "criterion": "Tumor diameter >= 2 cm (inclusive of any non-solid, ground glass component) as assessed by diagnostic CT",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Tumor diameter information is not provided, so it cannot be determined if it is >= 2 cm.",
+      "clinical_question": "Is the tumor diameter of the patient's non-small cell lung cancer ≥2 cm as assessed by diagnostic CT?"
+    },
+    {
+      "criterion": "Tumor standard uptake value (SUV) max >= 6.2 as assessed by FDG PET/CT",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The SUV max value from FDG PET/CT is not provided, making it unclear if it meets the required threshold.",
+      "clinical_question": "Is the patient's tumor standard uptake value (SUV) max ≥ 6.2 as assessed by FDG PET/CT?"
+    },
+    {
+      "criterion": "Moderately differentiated, poorly differentiated, or undifferentiated histology",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The histological differentiation of the tumor is not specified, so it cannot be determined if it is moderately, poorly, or undifferentiated.",
+      "clinical_question": "What is the histological classification of the patient's non-small cell lung cancer, and is it classified as moderately differentiated, poorly differentiated, or undifferentiated?"
+    },
+    {
+      "criterion": "Patient must have undergone diagnostic chest CT with or without contrast (IV contrast preferred) within 42 days prior to randomization. PET-CT may be used if the CT portion is of comparable diagnostic quality to a stand-alone CT. All disease must be assessed within 42 days prior to randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether a diagnostic chest CT was performed within the required timeframe.",
+      "clinical_question": "Has the patient undergone a diagnostic chest CT with or without contrast within the last 42 days prior to randomization?"
+    },
+    {
+      "criterion": "Patient must have undergone FDG PET/CT of chest within 90 days prior to randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether an FDG PET/CT was performed within the required timeframe.",
+      "clinical_question": "Has the patient undergone an FDG PET/CT of the chest within the last 90 days prior to randomization?"
+    },
+    {
+      "criterion": "Patient must not have evidence of hilar or mediastinal nodal involvement. Any patient with radiographically suspicious hilar or mediastinal nodes (including features such as non-calcified nodes with a short axis diameter > 1 cm, abnormal morphology, and/or elevated FDG avidity) must undergo cytologic sampling of suspicious nodes to rule out involvement prior to randomization. Mediastinal nodal sampling for other patients is optional. For cases in which the treating physician/multidisciplinary opinion is used to define nodes as \"non-suspicious\" (such as long-standing, stable enlarged nodes from other medical causes), the rationale must be clearly documented within the medical record",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of hilar or mediastinal nodal involvement.",
+      "clinical_question": "Has the patient undergone cytologic sampling of any radiographically suspicious hilar or mediastinal nodes, defined as non-calcified nodes with a short axis diameter > 1 cm, prior to randomization?"
+    },
+    {
+      "criterion": "Patient must have undergone history and physical examination within 28 days prior to randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether a history and physical examination was conducted within the required timeframe.",
+      "clinical_question": "Has the patient undergone a history and physical examination within the last 28 days prior to randomization?"
+    },
+    {
+      "criterion": "Patient must be medically or surgically inoperable as documented by the evaluating thoracic surgeon or multi-disciplinary tumor board consensus OR patient's unwillingness to undergo surgical resection must be clearly documented",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's operability status or documentation regarding surgical resection.",
+      "clinical_question": "Has the evaluating thoracic surgeon documented that the patient is medically or surgically inoperable due to her stage IV non-small cell lung cancer?"
+    },
+    {
+      "criterion": "Patient must not have received any prior treatment for the current NSCLC diagnosis",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has received prior treatment (erlotinib) for current NSCLC diagnosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient must not have undergone prior radiation to overlapping regions of the chest that, in the opinion of the treatment physician, will interfere with protocol treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about prior radiation treatment.",
+      "clinical_question": "Has the patient received any prior radiation treatment to the chest that could overlap with the planned radiation fields?"
+    },
+    {
+      "criterion": "Patient must not have received treatment with systemic immunostimulatory or immunosuppressive agents, including corticosteroids, within 14 days prior to randomization",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient is currently taking dexamethasone, a corticosteroid, which is an immunosuppressive agent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient must be >= 18 years old",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 58.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient must have Zubrod performance status of 0-2",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ECOG 1.0 <= 2.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient must have adequate liver function defined as aspartate aminotransferase (AST) and alanine aminotransferase (ALT) <= 3 x institutional upper level of normal (IULN) within 28 days prior to randomization",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ALT is 28 U/L, which is within the acceptable range (<= 3 x IULN).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient must have adequate renal function defined as calculated creatinine clearance >= 30 mL/min using the following formula. The serum creatinine value used in the calculation must have been collected within 28 days prior to randomization",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Creatinine is 0.9 mg/dL, indicating adequate renal function.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient must have absolute neutrophil count (ANC), platelets, and hemoglobin measured within 28 days prior to randomization. The purpose of these tests is to collect baseline values to compare with on-treatment values",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about ANC, platelets, and hemoglobin measurements.",
+      "clinical_question": "What is the patient's absolute neutrophil count (ANC), platelet count, and hemoglobin level measured within 28 days prior to randomization?"
+    },
+    {
+      "criterion": "Patient must have thyroid-stimulating hormone (TSH) measured within 28 days prior to randomization. The purpose of this test is to collect baseline values to compare with on-treatment values",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about TSH measurement.",
+      "clinical_question": "Has the patient had a thyroid-stimulating hormone (TSH) level measured within the last 28 days prior to randomization?"
+    },
+    {
+      "criterion": "Patient must not have significant cardiovascular disease (New York Heart Association [NYHA] class II or greater)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No significant cardiovascular disease reported; ECOG PS 1 suggests stable condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient must not have myocardial infarction within 90 days prior to randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about myocardial infarction history.",
+      "clinical_question": "Has the patient experienced a myocardial infarction within the 90 days prior to randomization?"
+    },
+    {
+      "criterion": "Patient must not have unstable arrhythmias or unstable angina",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about unstable arrhythmias or unstable angina.",
+      "clinical_question": "Does the patient have any history of unstable arrhythmias or unstable angina within the past 6 months?"
+    },
+    {
+      "criterion": "Patient must not have known left ventricular ejection fraction (LVEF) < 40% within 28 days prior to randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "What is the patient's left ventricular ejection fraction (LVEF) measured within 28 days prior to randomization?"
+    },
+    {
+      "criterion": "NOTE: Assessment of LVEF by echocardiogram or multigated acquisition (MUGA) is not an eligibility requirement, but if a standard of care echocardiogram or MUGA was clinically indicated, the LVEF must not be < 40% within 28 days prior to randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lab value not found in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction (LVEF) ≥ 40% as assessed by a standard echocardiogram or MUGA within 28 days prior to randomization?"
+    },
+    {
+      "criterion": "Patient must not have had an infection >= grade 3 (Common Terminology Criteria for Adverse Events [CTCAE] version 5.0) within 28 days prior to randomization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about any infections the patient may have had in the past 28 days.",
+      "clinical_question": "Has the patient experienced any infections classified as grade 3 or higher according to CTCAE version 5.0 within the 28 days prior to randomization?"
+    },
+    {
+      "criterion": "Patient must not have an active autoimmune disease that has required systemic treatment in past two years (i.e., with use of disease modifying agents, corticosteroids or immunosuppressive drugs). Replacement therapy (e.g., thyroxine, insulin, or physiologic corticosteroid replacement therapy for adrenal or pituitary insufficiency) is not considered a form of systemic treatment and is allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported active autoimmune disease requiring systemic treatment in the past two years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient must be tested for hepatitis B within 28 days prior to randomization. Patient must not have active (chronic or acute) hepatitis B virus (HBV) infection. Patients may have past or resolved HBV infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding hepatitis B testing or infection status.",
+      "clinical_question": "Has the patient been tested for hepatitis B within 28 days prior to randomization, and is the result negative for active hepatitis B virus infection?"
+    },
+    {
+      "criterion": "Active HBV is defined as having a positive hepatitis B surface antigen (HBsAg) test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding hepatitis B surface antigen (HBsAg) test results.",
+      "clinical_question": "Is the patient's hepatitis B surface antigen (HBsAg) test result positive?"
+    },
+    {
+      "criterion": "Past or resolved HBV is defined as having a negative HBsAG test and a positive total hepatitis B core antibody (HBcAb) test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding total hepatitis B core antibody (HBcAb) test results.",
+      "clinical_question": "Is the patient's HBsAg test result negative and is the total hepatitis B core antibody (HBcAb) test result positive?"
+    },
+    {
+      "criterion": "Patient must be tested for hepatitis C within 28 days prior to randomization. Patient must not have active hepatitis C virus (HCV) infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding hepatitis C testing or infection status.",
+      "clinical_question": "Has the patient been tested for hepatitis C within the last 28 days and does she have a negative result for active hepatitis C virus (HCV) infection?"
+    },
+    {
+      "criterion": "Active HCV is defined as having a positive HCV antibody test followed by a positive HCV ribonucleic acid (RNA) test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding HCV antibody test results.",
+      "clinical_question": "Does the patient have a positive HCV antibody test followed by a positive HCV ribonucleic acid (RNA) test?"
+    },
+    {
+      "criterion": "Patient must have pulmonary function testing to include, at a minimum, forced expiratory volume in 1 second (FEV1) and Diffusing capability of carbon monoxide (DLCO) documented within 90 days prior to randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding pulmonary function testing results.",
+      "clinical_question": "What are the patient's most recent forced expiratory volume in 1 second (FEV1) and diffusing capacity of carbon monoxide (DLCO) values documented within the last 90 days?"
+    },
+    {
+      "criterion": "Patients with known human immunodeficiency virus (HIV) infection must be receiving anti-retroviral therapy and have an undetectable viral load at their most recent viral load test within 6 months prior to randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding HIV status or treatment.",
+      "clinical_question": "Is the patient's most recent viral load test result undetectable within the last 6 months?"
+    },
+    {
+      "criterion": "Patient must not have a history of clinically significant interstitial lung disease or evidence of active pneumonitis on the screening chest CT",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding history of interstitial lung disease or active pneumonitis.",
+      "clinical_question": "Does the patient have any history of clinically significant interstitial lung disease or evidence of active pneumonitis on the screening chest CT?"
+    },
+    {
+      "criterion": "Patients must not have a prior or concurrent malignancy whose natural history or treatment has the potential (in the opinion of the treating physician) to interfere with the safety or efficacy assessment of the investigational regimen",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported prior or concurrent malignancies that would interfere with the study.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must not be pregnant due to the potential teratogenic side effects of the protocol treatment. Women of reproductive potential and men must have agreed to use an effective contraception method for the duration of protocol treatment, and for 5 months (150 days) after the last dose of atezolizumab. A woman is considered to be of \"reproductive potential\" if she has had a menses at any time in the preceding 12 consecutive months. In addition to routine contraceptive methods, \"effective contraception\" also includes heterosexual celibacy and surgery intended to prevent pregnancy (or with a side-effect of pregnancy prevention) defined as a hysterectomy, bilateral oophorectomy or bilateral tubal ligation. However, if at any point a previously celibate patient chooses to become heterosexually active during the time period for use of contraceptive measures outlined in the protocol, he/she is responsible for beginning contraceptive measures. Because there is an unknown but potential risk for adverse events in nursing infants secondary to treatment of the mother with atezolizumab, breastfeeding must be discontinued prior to randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's reproductive status is not explicitly stated; it is unclear if she is of reproductive potential.",
+      "clinical_question": "Has the patient had menses at any time in the preceding 12 consecutive months?"
+    },
+    {
+      "criterion": "Patients of reproductive potential must have a negative serum pregnancy test within 14 days prior to randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about a recent serum pregnancy test.",
+      "clinical_question": "Has the patient had a negative serum pregnancy test within 14 days prior to randomization?"
+    },
+    {
+      "criterion": "Patients must not have known active tuberculosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of active tuberculosis in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must not have received a live, attenuated vaccine within 28 days prior to randomization",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No live, attenuated vaccines have been reported within the last 28 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "NOTE: All coronavirus disease 2019 (COVID-19) vaccines that have received Food and Drug Administration (FDA) approval or FDA emergency use authorization are acceptable",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received any COVID-19 vaccines that would be disallowed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must not have a known history of allergic reactions attributed to compounds of similar chemical or biologic composition to atezolizumab",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no known history of allergic reactions to compounds similar to atezolizumab.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must not have a known history of severe allergic, anaphylactic, or other hypersensitivity reactions to chimeric antibodies, fusion proteins, or Chinese hamster ovary cell products or to any component of the atezolizumab formulation",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no known history of severe allergic reactions to chimeric antibodies or related products.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient must agree to have specimens submitted for translational medicine and banking",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has not been reported to refuse specimen submission for translational medicine.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients must be informed of the investigational nature of this study and must sign and give written informed consent in accordance with institutional and federal guidelines",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient must be informed and consented, which is standard procedure in clinical trials.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "As a part of the OPEN registration process the treating institution's identity is provided in order to ensure that the current (within 365 days) date of institutional review board approval for this study has been entered in the system",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The information regarding the treating institution's identity and the date of institutional review board approval is not provided.",
+      "clinical_question": "Has the treating institution obtained institutional review board approval for this study within the last 365 days?"
+    },
+    {
+      "criterion": "Patients who can complete quality of life instruments in English, French, or Spanish must agree to complete the questionnaires at the protocol-specified time points",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information about the patient's ability to complete quality of life instruments in English, French, or Spanish.",
+      "clinical_question": "Has the patient agreed to complete the quality of life questionnaires in English, French, or Spanish at the protocol-specified time points?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patient must not have had an infection >= grade 3 (Common Terminology Criteria f"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3696
+}

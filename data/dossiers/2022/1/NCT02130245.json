@@ -1,0 +1,53 @@
+{
+  "nct_id": "NCT02130245",
+  "trial_title": "Acute Cholecystitis: Early Versus Delayed Laparoscopic Cholecystectomy; Randomized Prospective Study",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "The best management of the acute cholecystitis is to do laparoscopic cholecystectomy. The hypothesis is that to do it as an early intervention after patient admission is better than delayed cholecystectomy regarding the hospital stay, interval for antibiotic, the easiness of the operative maneuver reflected by operative time, conversion and intraoperative complications.",
+  "eligibility_table": [
+    {
+      "criterion": "Proved acute cholecystitis clinical, radiologic",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information regarding acute cholecystitis, making it unclear if this criterion is met.",
+      "clinical_question": "Does the patient have imaging evidence of gallbladder inflammation consistent with acute cholecystitis as defined by the presence of gallstones and/or thickening of the gallbladder wall on ultrasound?"
+    },
+    {
+      "criterion": "Evidence of peritonitis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about peritonitis in the patient profile, so it cannot be determined.",
+      "clinical_question": "Does the patient exhibit signs of peritonitis, defined as the presence of abdominal tenderness, rebound tenderness, or guarding on physical examination?"
+    },
+    {
+      "criterion": "ASA III or IV",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The ASA classification is not mentioned in the patient profile, leaving this criterion uncertain.",
+      "clinical_question": "Does the patient have an ASA physical status classification of III or IV based on their current medical condition?"
+    },
+    {
+      "criterion": "Previous upper abdominal surgery",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not indicate any history of upper abdominal surgery, but this is not explicitly stated.",
+      "clinical_question": "Has the patient undergone any upper abdominal surgical procedures prior to this admission?"
+    },
+    {
+      "criterion": "Pregnancy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so pregnancy is not applicable, but this is not explicitly stated in the profile.",
+      "clinical_question": "Is the patient currently pregnant or has the patient had a positive pregnancy test within the last 30 days?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Evidence of peritonitis",
+    "EXCLUSION UNCLEAR: ASA III or IV",
+    "EXCLUSION UNCLEAR: Previous upper abdominal surgery",
+    "EXCLUSION UNCLEAR: Pregnancy",
+    "LOW INCLUSION MATCH: only 0 of 1 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.0
+}

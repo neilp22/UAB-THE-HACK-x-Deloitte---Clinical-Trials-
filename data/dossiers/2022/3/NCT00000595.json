@@ -1,0 +1,19 @@
+{
+  "nct_id": "NCT00000595",
+  "trial_title": "Evaluation of Subcutaneous Desferrioxamine as Treatment for Transfusional Hemochromatosis",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "To determine whether deferoxamine prevented the complications of transfusional iron overload.",
+  "eligibility_table": [
+    {
+      "criterion": "Males and females, 5 years or older, with transfusional hemochromatosis.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 51.0 >= 5.0 → True",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE",
+  "confidence_score": 1.0
+}

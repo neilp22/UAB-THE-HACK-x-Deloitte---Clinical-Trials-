@@ -1,0 +1,181 @@
+{
+  "nct_id": "NCT00812383",
+  "trial_title": "Carotid With Bivalirudin Angioplasty",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "Single center randomized clinical trial, to evaluate the safety and efficacy of carotid artery stenting using the RX ACCULINK™ Carotid Stent System with RX ACCUNET™ Embolic Protection System or PercuSurge GuardWire® 3-6 Temporary Occlusion and Aspiration System using Angiomax (bivalirudin)versus heparin as the anticoagulant for treatment of occlusive carotid artery disease in low and high risk patient cohorts.",
+  "eligibility_table": [
+    {
+      "criterion": "The patient must be at least 18 years of age.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient currently 18 years of age or older?"
+    },
+    {
+      "criterion": "The patient must have a significant diameter reduction of the extracranial or intracranial internal or common carotid artery, defined as ≥50% stenosis for symptomatic patients or ≥80% stenosis for asymptomatic patients determined by carotid duplex ultrasound scan and/or carotid angiography.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has significant bilateral carotid stenosis with 80% and 90% stenosis in the right and left internal carotid arteries, respectively, which meets the inclusion criterion for significant diameter reduction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Female patients with child bearing potential must have a negative pregnancy test.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so the inclusion criterion regarding female patients with childbearing potential is not applicable.",
+      "clinical_question": "Has the patient undergone a pregnancy test within the last 7 days, and was the result negative?"
+    },
+    {
+      "criterion": "The patient and the patient's physician must agree to have the patient return for a 30-day and one-year clinical and ultrasound imaging follow-up evaluations as indicated in the protocol.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient and physician can agree to follow-up evaluations as this is a standard requirement for clinical trials.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Reference vessel diameter ≥ 3.5 mm - ≤ 9.0 mm diameter.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Reference vessel diameter is not provided in the profile; therefore, it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the reference vessel diameter of the patient's carotid arteries between ≥ 3.5 mm and ≤ 9.0 mm?"
+    },
+    {
+      "criterion": "Reference vessel diameter ≥ 3.5 mm - ≤ 9.0 mm diameter.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Reference vessel diameter is not provided in the profile; therefore, it cannot be determined if this criterion is met.",
+      "clinical_question": "Is the reference vessel diameter of the patient's carotid arteries between ≥ 3.5 mm and ≤ 9.0 mm?"
+    },
+    {
+      "criterion": "The patient has had a recent (<4 weeks) disabling stroke or dementia with major neurologic deficit (stroke scales: Barthel <60, NIH >15, or Rankin >3) at pre-procedure neuro exam.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient had a prior cerebrovascular accident but currently has no residual deficits, which suggests they do not meet the criteria for a disabling stroke.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The patient has had within four weeks of the treatment procedure an intracranial hemorrhage, hemorrhage stroke, major stroke, or any stroke with mass effect demonstrated on MRI or CT.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of a recent intracranial hemorrhage or major stroke within the specified timeframe.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The patient has a known allergy to heparin, bivalirudin, aspirin or to anti-platelet agents that prevents taking aspirin plus ticlopidine or aspirin plus clopidogrel.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient’s allergy status to heparin, bivalirudin, aspirin, or anti-platelet agents is not provided, making it indeterminate.",
+      "clinical_question": "Does the patient have a documented allergy to heparin, bivalirudin, aspirin, or anti-platelet agents that prevents the use of aspirin plus ticlopidine or aspirin plus clopidogrel?"
+    },
+    {
+      "criterion": "The patient has received fractionated or unfractionated heparin within 8 hours prior to the procedure.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the administration of heparin within 8 hours prior to the procedure.",
+      "clinical_question": "Has the patient received either fractionated or unfractionated heparin within the 8 hours prior to the procedure?"
+    },
+    {
+      "criterion": "The patient has a history of prior life-threatening radiocontrast reaction that cannot be pre-treated.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history regarding prior life-threatening radiocontrast reactions is not provided, making it indeterminate.",
+      "clinical_question": "Has the patient experienced a life-threatening radiocontrast reaction requiring hospitalization or resulting in significant morbidity?"
+    },
+    {
+      "criterion": "The patient has a history of bleeding diathesis or coagulopathy within 3 months.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not explicitly mention a history of bleeding diathesis or coagulopathy, but the presence of multiple comorbidities raises concern.",
+      "clinical_question": "Has the patient experienced any bleeding events or required transfusions due to coagulopathy or bleeding diathesis in the past 3 months?"
+    },
+    {
+      "criterion": "The patient is currently participating in another study protocol that may influence either procedure results or follow-up evaluations.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about participation in another study, but this cannot be confirmed.",
+      "clinical_question": "Is the patient currently enrolled in any other clinical trial that involves interventions or follow-up assessments related to carotid artery disease or its treatment?"
+    },
+    {
+      "criterion": "Plasma/serum creatinine > 3.0 mg/dl at time of intervention.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for plasma/serum creatinine are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's plasma/serum creatinine level currently greater than 3.0 mg/dl?"
+    },
+    {
+      "criterion": "Hemodynamic instability at the time of intervention.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of hemodynamic stability or instability at the time of intervention.",
+      "clinical_question": "Is the patient's systolic blood pressure <90 mmHg or diastolic blood pressure <60 mmHg at the time of intervention?"
+    },
+    {
+      "criterion": "Previous stent placement in the ipsilateral carotid distribution.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has significant carotid artery disease, but there is no specific mention of previous stent placement.",
+      "clinical_question": "Has the patient undergone stent placement in the ipsilateral carotid distribution prior to this trial?"
+    },
+    {
+      "criterion": "The patient has an intracranial tumor, or cerebral arterio-venous malformation(s) > 5mm, aneurysms or severe intracranial stenosis distal to target lesion.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of intracranial tumors or malformations is provided, but this cannot be confirmed.",
+      "clinical_question": "Does the patient have an intracranial tumor, cerebral arteriovenous malformation greater than 5mm, aneurysms, or severe intracranial stenosis distal to the target lesion?"
+    },
+    {
+      "criterion": "The patient has inaccessible intracranial arterial stenosis greater in severity than the extracranial internal carotid artery lesion.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide information on the accessibility of intracranial arterial stenosis.",
+      "clinical_question": "Is there evidence of intracranial arterial stenosis greater than 70% in this patient?"
+    },
+    {
+      "criterion": "There is angiographic evidence of significant intra-luminal thrombus burden with presumed increased risk of plaque fragmentation and consequent distal embolization.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no angiographic evidence provided regarding intra-luminal thrombus burden.",
+      "clinical_question": "Is there angiographic evidence of intra-luminal thrombus burden classified as moderate to severe in the patient's carotid arteries?"
+    },
+    {
+      "criterion": "There is total occlusion of the ipsilateral carotid artery treatment site with TIMI 0 flow characteristics.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not mention total occlusion of the ipsilateral carotid artery.",
+      "clinical_question": "Does the patient have a documented angiographic assessment showing total occlusion of the ipsilateral carotid artery treatment site with TIMI 0 flow characteristics?"
+    },
+    {
+      "criterion": "The reference segment diameter (internal carotid artery segment cephalad to the lesion) is less than 3 millimeters by operator visual estimate.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the reference segment diameter of the internal carotid artery segment cephalad to the lesion less than 3 millimeters as estimated by the operator?"
+    },
+    {
+      "criterion": "The patient has peripheral vascular, supra-aortic or internal carotid artery tortuosity precluding use of catheter-based techniques required for successful CSSA.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's vascular anatomy is not detailed enough to assess for tortuosity.",
+      "clinical_question": "Does the patient have a documented degree of tortuosity in the peripheral vascular, supra-aortic, or internal carotid arteries that precludes the use of catheter-based techniques for successful carotid artery stenting?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: The patient has a known allergy to heparin, bivalirudin, aspirin or to anti-plat",
+    "EXCLUSION UNCLEAR: The patient has received fractionated or unfractionated heparin within 8 hours p",
+    "EXCLUSION UNCLEAR: The patient has a history of prior life-threatening radiocontrast reaction that ",
+    "EXCLUSION UNCLEAR: The patient has a history of bleeding diathesis or coagulopathy within 3 months.",
+    "EXCLUSION UNCLEAR: The patient is currently participating in another study protocol that may influe",
+    "EXCLUSION UNCLEAR: Plasma/serum creatinine > 3.0 mg/dl at time of intervention.",
+    "EXCLUSION UNCLEAR: Hemodynamic instability at the time of intervention.",
+    "EXCLUSION UNCLEAR: Previous stent placement in the ipsilateral carotid distribution.",
+    "EXCLUSION UNCLEAR: The patient has an intracranial tumor, or cerebral arterio-venous malformation(s",
+    "EXCLUSION UNCLEAR: The patient has inaccessible intracranial arterial stenosis greater in severity ",
+    "EXCLUSION UNCLEAR: There is angiographic evidence of significant intra-luminal thrombus burden with",
+    "EXCLUSION UNCLEAR: There is total occlusion of the ipsilateral carotid artery treatment site with T",
+    "EXCLUSION UNCLEAR: The reference segment diameter (internal carotid artery segment cephalad to the ",
+    "EXCLUSION UNCLEAR: The patient has peripheral vascular, supra-aortic or internal carotid artery tor"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1818
+}

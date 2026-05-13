@@ -1,0 +1,264 @@
+{
+  "nct_id": "NCT00803647",
+  "trial_title": "A Study With Neoadjuvant mFOLFOX7 Plus Cetuximab to Determine the Surgical Conversion Rate for Unresectable Colorectal Cancer With Metastases Confined to the Liver",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "FC-6 is a Phase II, multi-center clinical trial for patients with unresectable, wild-type K-RAS, colorectal cancer with metastases confined to the liver. Liver metastases must be determined by FC-6 criteria to be unresectable, and the colorectal cancer (CRC) tumor (primary or metastatic) must be found to be wild-type K-RAS. Patients with mutant K-RAS tumors are ineligible. K-RAS testing can be done through the local hospital or a tumor sample can be submitted to the FC-6 central lab (Esoterix Cl",
+  "eligibility_table": [
+    {
+      "criterion": "Patients must have an Eastern Cooperative Oncology Group (ECOG) performance status of 0 or 1 and must be considered a potential candidate for a major hepatic surgical procedure.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has an ECOG score of 1, but there is no information indicating they are a potential candidate for a major hepatic surgical procedure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The patient must have histologic or cytologic confirmation of a diagnosis of colorectal adenocarcinoma.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has metastatic colorectal cancer, but there is no explicit mention of histologic or cytologic confirmation of colorectal adenocarcinoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "There must be documentation by PET/CT scan, CT scan, MRI, or intraoperative palpation (at the time of resection of the primary colorectal tumor, if applicable) that the patient has evidence of hepatic metastasis. (Histologic confirmation of hepatic metastasis is not required.)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether a PET/CT scan, CT scan, MRI, or intraoperative palpation has documented evidence of hepatic metastasis.",
+      "clinical_question": "Has the patient undergone a PET/CT scan, CT scan, or MRI that confirms the presence of hepatic metastasis?"
+    },
+    {
+      "criterion": "Patients are eligible with any of the following: primary tumor and regional nodes resected with clear surgical margins and no evidence of extrahepatic disease or; unresected primary tumor with plans to resect the primary tumor prior to study entry or; unresected primary tumor with plans to resect the primary tumor and the liver metastases in a single surgical procedure performed within 2-7 weeks after the last preoperative dose of chemotherapy/cetuximab or; unresected primary with plans to resect the primary tumor and the liver metastases in staged procedures performed within 2-7 weeks after the last preoperative dose of chemotherapy/cetuximab.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's treatment history does not clarify whether the primary tumor is resected or unresected, nor does it specify plans for surgical procedures.",
+      "clinical_question": "Does the patient have evidence of extrahepatic disease based on imaging studies performed within the last 3 months?"
+    },
+    {
+      "criterion": "The colorectal primary tumor or metastatic tumor must be determined to be wild-type K-RAS. The K-RAS test may have been performed through the local hospital, or a tumor sample may be submitted to the FC-6 central lab for K-RAS testing. If local K-RAS test results are reported as indeterminate, submission of a tumor sample for central testing is required. Note: Needle biopsy of liver metastasis is not recommended for the express purpose of obtaining tissue for K-RAS testing because of the risk of needle track dissemination of malignant cells.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is reported as KRAS wild-type.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "There must be documentation that the liver metastases must have been determined by a hepatic surgeon approved (by protocol defined criteria) to participate in FC-6 to be unresectable based on at least one of the following criteria: All of the liver metastases cannot be resected (and/or ablated) with negative margins, i.e., lesion(s) located in an area that would result in the resection of all of the hepatic veins or the main portal vein or the right and left hepatic arteries or the common bile duct; Complete resection and/or ablation would require greater than 60% of the liver parenchyma to be removed. Note: At the discretion of the hepatic surgeon, portal vein embolization (PVE) may be utilized preoperatively following neoadjuvant therapy to enhance the volume of the hepatic remnant. However, the determination of unresectability will be based on the estimate, at the time of study entry, of the percentage of liver parenchyma that would need to be removed. PVE may be employed preoperatively to enhance the overall safety, but not specifically the resectability of the liver metastasis(es).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no documentation provided regarding the determination of liver metastases being unresectable by a hepatic surgeon.",
+      "clinical_question": "Has a hepatic surgeon determined that the patient's liver metastases are unresectable based on the criterion that complete resection would require removal of greater than 60% of the liver parenchyma?"
+    },
+    {
+      "criterion": "There must be documentation that: at least 3 of the 8 hepatic segments are free of metastases or; based on imaging studies, the patient is anticipated to have at least 40% of the liver will remain intact after surgery.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the status of the hepatic segments or the anticipated liver volume remaining after surgery.",
+      "clinical_question": "Does the imaging study indicate that at least 3 of the 8 hepatic segments are free of metastases?"
+    },
+    {
+      "criterion": "If an adjuvant therapy regimen of 5-FU given alone or in combination with leucovorin, irinotecan, capecitabine, oxaliplatin, cetuximab, or bevacizumab was administered, the adjuvant therapy must have been discontinued more than 6 months prior to study entry.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received prior treatments within the last 6 months, which does not meet the criterion for adjuvant therapy discontinuation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The patient must have had the following tests and exams within 4 weeks prior to study entry: medical history and physical exam; consultation with a hepatic surgeon approved for FC-6; and PET/CT scan or both a PET scan and a CT scan of the chest, abdomen, and pelvis must be performed. (MRI scan can be substituted for the CT scan.)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the completion of required tests and exams within 4 weeks prior to study entry.",
+      "clinical_question": "Has the patient undergone a PET/CT scan or both a PET scan and a CT scan of the chest, abdomen, and pelvis within the last 4 weeks?"
+    },
+    {
+      "criterion": "There must be evidence of adequate bone marrow function: absolute neutrophil count (ANC) greater than or equal to 1500/mm3; Hemoglobin greater than or equal to 10 g/dL; Platelets greater than or equal to 100,000/mm3",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's hemoglobin is 11.2 g/dL, which meets the criterion, but there is no information about ANC and platelets.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "There must be evidence of adequate hepatic function: Total bilirubin less than or equal to upper limit of normal (ULN) for the lab; aspartate aminotransferase (AST) less than or equal to 5.0 x ULN for the lab",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Total bilirubin and AST levels are not provided, making it unclear if hepatic function is adequate.",
+      "clinical_question": "Is the patient's aspartate aminotransferase (AST) level less than or equal to 5.0 times the upper limit of normal for the lab?"
+    },
+    {
+      "criterion": "Serum creatinine must be less than or equal to 1.5 mg/dL.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "creatinine=1.0 mg/dL <= 1.5 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Conditions for patient ineligibility",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has metastatic colorectal cancer, which is a condition for ineligibility.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diagnosis of anal or small bowel carcinoma.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has colorectal cancer, not anal or small bowel carcinoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Colorectal cancers other than adenocarcinoma, e.g., sarcoma, lymphoma, carcinoid.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has adenocarcinoma of the colon, not a non-adenocarcinoma type.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unresected primary tumor in the colon or rectum with significant symptoms related to obstruction or that will require radiation therapy.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has metastatic disease; the primary tumor is not unresected with significant symptoms.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of extrahepatic metastases or non-contiguous extension of intrahepatic metastases to non-hepatic tissues.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about extrahepatic metastases or non-contiguous extension.",
+      "clinical_question": "Does the patient have any evidence of extrahepatic metastases on imaging studies such as CT or MRI?"
+    },
+    {
+      "criterion": "Radiographic evidence of metastases to portal lymph nodes (node greater than 1 cm in diameter) unless the node(s) are proven by biopsy to be negative.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about radiographic evidence of portal lymph node metastases.",
+      "clinical_question": "Does the patient have radiographic evidence of portal lymph node metastases greater than 1 cm in diameter?"
+    },
+    {
+      "criterion": "Previous hepatic resection and/or ablation, hepatic arterial infusion therapy, or any systemic therapy for metastatic disease. (Patients who have only had an excisional biopsy are eligible.)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient has received systemic therapy for metastatic disease (FOLFOX, FOLFIRI plus bevacizumab).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Radiation therapy to the liver.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about previous radiation therapy to the liver.",
+      "clinical_question": "Has the patient received any form of radiation therapy to the liver prior to enrollment in the study?"
+    },
+    {
+      "criterion": "Pre-existing chronic hepatic disease (e.g., chronic active hepatitis, cirrhosis) that, in the opinion of the investigator and hepatic surgeon, would limit the patient's ability to undergo hepatic metastasectomy.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about pre-existing chronic hepatic disease.",
+      "clinical_question": "Does the patient have a history of chronic active hepatitis or cirrhosis as determined by liver function tests and imaging studies?"
+    },
+    {
+      "criterion": "Common Toxicity Criteria for Adverse Effects (CTCAE) v3.0 grade 3 or 4 anorexia or nausea related to metastatic disease.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No grade 3 or 4 anorexia or nausea reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CTCAE v3.0 greater than or equal to grade 2 vomiting related to metastatic disease.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No grade 2 or higher vomiting reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "CTCAE v3.0 greater than or equal to grade 2 sensory/motor neuropathy.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No grade 2 or higher sensory/motor neuropathy reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any of the following cardiac conditions: Documented congestive heart failure; Myocardial infarction within 6 months prior to study entry; Unstable angina within 6 months prior to study entry; Symptomatic arrhythmia.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No cardiac conditions reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serious or non-healing wound, skin ulcers, or bone fracture.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No serious or non-healing wounds, skin ulcers, or bone fractures reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of bleeding diathesis or coagulopathy. (Patients on stable anticoagulant therapy are eligible.)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No history of bleeding diathesis or coagulopathy reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Symptomatic interstitial lung disease or definitive evidence of interstitial lung disease described on CT scan, MRI, or chest x-ray in asymptomatic patients.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No symptomatic interstitial lung disease or evidence of it on imaging reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any evidence of active infection.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No evidence of active infection reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Active inflammatory bowel disease.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No active inflammatory bowel disease reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other malignancies unless the patient is considered to be disease-free and has completed therapy for the malignancy greater than or equal to 12 months prior to study entry. Patients with the following cancers are eligible if diagnosed and treated within the past 12 months: carcinoma in situ of the cervix, colorectal carcinoma in situ, melanoma in situ, and basal cell and squamous cell carcinoma of the skin.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No other malignancies reported; patient has metastatic colorectal cancer only.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous serious hypersensitivity reaction to monoclonal antibodies.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported history of serious hypersensitivity reactions to monoclonal antibodies.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Psychiatric or addictive disorders or other conditions that, in the opinion of the investigator, would preclude the patient from meeting the study requirements.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of psychiatric or addictive disorders in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnancy or lactation at the time of study entry. (WOCBP must have a negative pregnancy test within 2 weeks prior to study entry. Male and female patients of reproductive potential must agree to use adequate contraceptive methods during and for 2 months after study therapy.)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and therefore not subject to pregnancy or lactation criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Any other serious concomitant medical condition that, in the opinion of the investigator, would compromise the safety of the patient or compromise the patient's ability to participate in the study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide sufficient information about other serious concomitant medical conditions that could affect safety or participation.",
+      "clinical_question": "Does the patient have any serious concomitant medical conditions, such as uncontrolled hypertension (systolic BP >180 mmHg or diastolic BP >110 mmHg) or significant cardiac disease, that would compromise their safety or ability to participate in the study?"
+    },
+    {
+      "criterion": "Use of any investigational product within 30 days prior to study entry.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of the use of any investigational product within 30 days prior to study entry.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6944
+}

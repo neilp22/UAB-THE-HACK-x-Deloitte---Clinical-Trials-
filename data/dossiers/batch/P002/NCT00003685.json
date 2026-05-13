@@ -1,0 +1,131 @@
+{
+  "nct_id": "NCT00003685",
+  "trial_title": "Radiation Therapy to Relieve Symptoms in Patients With Non-small Cell Lung Cancer",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Radiation therapy may relieve symptoms in patients with non-small cell lung cancer. It is not yet known which regimen of radiation therapy is most effective in relieving symptoms in patients with non-small cell lung cancer.\n\nPURPOSE: Randomized phase III trial to compare the effectiveness of different regimens of radiation therapy to relieve symptoms in patients who have non-small cell lung cancer.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically proven non-small cell lung cancer including Squamous cell lung cancer, Large cell lung cancer, Adenocarcinoma lung cancer, or a mixture of these.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a histologically or cytologically confirmed diagnosis of non-small cell lung cancer, specifically adenocarcinoma?"
+    },
+    {
+      "criterion": "Locally advanced disease for which the patient declined aggressive treatment or that is unsuitable for aggressive curative treatment due to at least one of the following: Performance status of ECOG 2 or 3, Otherwise unexplained weight loss greater than 10% in the last 6 months, Bulky disease that cannot be irradiated safely to high doses, Inability to tolerate chemotherapy, Cytologically positive pleural effusion, OR Clinically or radiologically proven metastatic disease for which palliative chemotherapy is not planned in the first 38 days after radiotherapy, No more than one brain metastasis allowed.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has stage IV non-small cell lung cancer and is not planning aggressive treatment, meeting the criteria for metastatic disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "One of the following symptoms identified as the index symptom: Loss of appetite, Nausea, Vomiting, Cough, Coughing up blood, Chest pain, Shortness of breath, Difficulty swallowing, Fatigue.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Fatigue is a common symptom associated with lung cancer, which can be considered as the index symptom.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Must have symptoms related to intrathoracic lung cancer that are amenable to radiation palliation.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's condition is related to intrathoracic lung cancer, which is amenable to radiation palliation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: 16 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 58.0 >= 16.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: ECOG 0-3",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ECOG 1.0 <= 3.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Life expectancy: Greater than 3 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 58 years old and has a performance status of ECOG 1, indicating a life expectancy greater than 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fluent in English or French",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no information indicating the patient is not fluent in English or French.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No loss of sight or other inability to complete questionnaires or diary",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of loss of sight or inability to complete questionnaires.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not pregnant",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no information suggesting the patient is pregnant.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent terminal illness",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have any concurrent terminal illness as per the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other active malignancy that is causing symptoms or is expected to progress in the next 3 months",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of stage IV lung cancer, which is considered an active malignancy, even though it is not causing symptoms currently.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 30 days since prior chemotherapy and failed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received chemotherapy within the last 30 days?"
+    },
+    {
+      "criterion": "No planned chemotherapy within 38 days after study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient planned to receive chemotherapy within 38 days after the completion of radiation therapy?"
+    },
+    {
+      "criterion": "At least 30 days since prior surgery and failed",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone any surgical procedures within the last 30 days?"
+    },
+    {
+      "criterion": "No planned laser therapy within 38 days after study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient planned to receive laser therapy within 38 days after the study treatment?"
+    },
+    {
+      "criterion": "No planned photodynamic therapy or sclerotherapy within 38 days after study treatment",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient planned to undergo photodynamic therapy or sclerotherapy within 38 days after receiving radiation therapy?"
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6471
+}

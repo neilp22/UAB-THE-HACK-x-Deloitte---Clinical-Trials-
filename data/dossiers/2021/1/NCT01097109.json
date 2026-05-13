@@ -1,0 +1,52 @@
+{
+  "nct_id": "NCT01097109",
+  "trial_title": "The Effect of Somatic Dysfunction of the Pelvis, Sacrum and Lower Lumbar Spine on Weight Bearing",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "The study aims to determine if somatic dysfunctions of the pelvis, sacrum and lower lumbar spine have an effect on weight bearing. Our subjects are young, healthy subjects without recent soft tissue or osseous injury, a less than predetermined leg length discrepancy or OMM/chiropractic treatment. Their leg lengths will be measured; weight-bearing will be measured using a specialized scale and somatic dysfunctions diagnosed to determine if any correlation exists.",
+  "eligibility_table": [
+    {
+      "criterion": "Medical students of Nova Southeastern University College of Osteopathic Medicine (NSUCOM) ages 18-40.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 40.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "individuals who have suffered from any type of osseous or soft tissue traumatic injuries in the last three months.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information about any recent traumatic injuries in the last three months, making it unclear whether this criterion is met.",
+      "clinical_question": "Has the patient experienced any osseous or soft tissue traumatic injuries within the last three months?"
+    },
+    {
+      "criterion": "individuals who have suffered from any type of osseous or soft tissue injuries in the lower extremity joints (knee, ankle, hip) in the last twelve months.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of severe lower extremity weakness and other related symptoms, but there is no specific mention of lower extremity joint injuries in the last twelve months.",
+      "clinical_question": "Has the patient experienced any osseous or soft tissue injuries in the lower extremity joints (knee, ankle, hip) within the last twelve months?"
+    },
+    {
+      "criterion": "anyone who has received either osteopathic or chiropractic manipulation within two weeks prior to taking part in the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any osteopathic or chiropractic manipulation within the last two weeks, so it cannot be determined if this criterion is met.",
+      "clinical_question": "Has the patient received any osteopathic or chiropractic manipulation within the last 14 days?"
+    },
+    {
+      "criterion": "anyone who has a leg length difference of greater than one-quarter inch.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a leg length difference greater than 0.25 inches?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: individuals who have suffered from any type of osseous or soft tissue traumatic ",
+    "EXCLUSION UNCLEAR: individuals who have suffered from any type of osseous or soft tissue injuries i",
+    "EXCLUSION UNCLEAR: anyone who has received either osteopathic or chiropractic manipulation within t",
+    "EXCLUSION UNCLEAR: anyone who has a leg length difference of greater than one-quarter inch."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2
+}

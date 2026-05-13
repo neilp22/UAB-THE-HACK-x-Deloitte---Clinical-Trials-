@@ -1,0 +1,58 @@
+{
+  "nct_id": "NCT04850001",
+  "trial_title": "Cognitive Decline in Asymptomatic Intracranial Stenosis Patients: A 1-Year Follow-Up Study",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "To investigate the cognitive decline after standard medical treatment without stenting in Asymptomatic Intracranial Stenosis patients and the underlying neural mechanism by fMRI.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with intracranial stenosis which was defined as stenosis of 50% or more in Intracranial segment of internal carotid artery and middle cerebral artery (MCA).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has significant bilateral carotid stenosis (80% and 90% stenosis), which meets the criterion for intracranial stenosis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The degree of stenosis was measured by transcranial doppler, computed magnetic resonance angiography (MRA), tomography angiography (CTA) and digital subtraction angiography (DSA).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The method of measuring stenosis is not specified in the patient's profile; therefore, it is unclear if the degree of stenosis was measured by the required imaging techniques.",
+      "clinical_question": "What is the percentage of stenosis measured by transcranial Doppler, MRA, CTA, and DSA for this patient?"
+    },
+    {
+      "criterion": "History of stroke, transient ischemic attack, seizures or unexplained loss of consciousness.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of a prior cerebrovascular accident (CVA), which qualifies as a stroke.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Organic brain defects on T1 or T2 images.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about brain imaging results (T1 or T2) to confirm or deny the presence of organic brain defects.",
+      "clinical_question": "Does the patient have any organic brain defects identified on T1 or T2 MRI images?"
+    },
+    {
+      "criterion": "Any history or clinical signs of other severe psychiatric illnesses (like major depression, psychosis or obsessive compulsive disorder).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's psychiatric history is not detailed; thus, it is uncertain if there are any severe psychiatric illnesses.",
+      "clinical_question": "Does the patient have any documented history or clinical signs of major depression, psychosis, or obsessive-compulsive disorder?"
+    },
+    {
+      "criterion": "Implanted pacemaker, medication pump, vagal stimulator, deep brain stimulator. History of substance abuse within the last 6 months.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a documented implanted device, but there is no information regarding substance abuse history.",
+      "clinical_question": "Does the patient have a history of substance abuse within the last 6 months?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Organic brain defects on T1 or T2 images.",
+    "EXCLUSION UNCLEAR: Any history or clinical signs of other severe psychiatric illnesses (like major ",
+    "EXCLUSION UNCLEAR: Implanted pacemaker, medication pump, vagal stimulator, deep brain stimulator. H"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

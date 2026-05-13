@@ -1,0 +1,107 @@
+{
+  "nct_id": "NCT03630081",
+  "trial_title": "Study of Cefepime-tazobactam (FEP-TAZ) in Complicated Urinary Tract Infection (cUTI) or Acute Pyelonephritis (AP)",
+  "phase": "PHASE3",
+  "status": "UNKNOWN",
+  "brief_summary": "This is a Phase III, randomized, double-blind, multicenter, non-inferiority study to evaluate the efficacy, safety, and tolerability of FEP-TAZ vs. meropenem in the treatment of hospitalized adults with cUTI or AP.",
+  "eligibility_table": [
+    {
+      "criterion": "Meet the following clinical criteria for either cUTI or AP:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has complicated UTIs but does not meet the specific clinical criteria for cUTI or AP as defined.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "A. cUTI:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of complicated UTIs but lacks specific symptoms or signs to confirm cUTI.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of complicated urinary tract infection (cUTI) based on urine culture results showing the presence of a uropathogen?"
+    },
+    {
+      "criterion": "Have at least TWO of the following new-onset or worsening symptoms or signs:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not exhibit at least two new-onset or worsening symptoms or signs related to cUTI.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fever (oral, tympanic, or rectal temperature >38°C [>100.4°F]), which must be observed and documented by a health care provider",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No documented fever observed by a healthcare provider is available in the profile.",
+      "clinical_question": "Has the patient exhibited a fever with an oral, tympanic, or rectal temperature exceeding 38°C (100.4°F) as documented by a health care provider?"
+    },
+    {
+      "criterion": "Nausea or vomiting",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of nausea or vomiting in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Dysuria, increased urinary frequency, or urinary urgency",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient reports dysuria and increased urinary frequency, which are relevant symptoms.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lower abdominal, suprapubic, or pelvic pain",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Lower abdominal or pelvic pain is not explicitly mentioned in the profile.",
+      "clinical_question": "Does the patient report a pain level of ≥4 on a scale of 0 to 10 in the lower abdominal, suprapubic, or pelvic region?"
+    },
+    {
+      "criterion": "Have at least ONE complicating factor",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have a documented complicating factor for cUTI.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "B. AP, defined as acute flank pain (onset within 7 days prior to randomization) or costovertebral angle tenderness on physical examination, plus at least ONE of the following new-onset or worsening symptoms or signs:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not present with acute flank pain or costovertebral angle tenderness.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Evidence of pyuria within 48 h prior to randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no evidence of pyuria documented within 48 hours prior to randomization.",
+      "clinical_question": "Does the patient have a documented pyuria with a white blood cell count of ≥10 cells per high power field within 48 hours prior to randomization?"
+    },
+    {
+      "criterion": "Known or suspected disease or condition that, in the opinion of the investigator, may confound the assessment of efficacy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's conditions, including vaginal spotting and complicated UTIs, may complicate the assessment of efficacy, but it is unclear if they definitively confound the study results.",
+      "clinical_question": "Does the patient have a serum β-hCG level >5 mIU/mL indicating a possible early pregnancy?"
+    },
+    {
+      "criterion": "Receipt of potentially-effective systemic antibacterial therapy within 72 h prior to randomization",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received any systemic antibacterial therapy recently, as there are no medications listed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Rapidly progressive or terminal illness with a high risk of mortality due to any cause, including but not limited to acute hepatic failure, respiratory failure, or septic shock, such that the subject is unlikely to survive the study period",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "While the patient has a history of complicated UTIs, there is no indication of a rapidly progressive or terminal illness that would significantly increase mortality risk during the study.",
+      "clinical_question": "Does the patient have a prognosis of less than 30% chance of survival over the study period due to rapidly progressive or terminal illness?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Known or suspected disease or condition that, in the opinion of the investigator",
+    "EXCLUSION UNCLEAR: Rapidly progressive or terminal illness with a high risk of mortality due to any",
+    "LOW INCLUSION MATCH: only 1 of 10 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5385
+}

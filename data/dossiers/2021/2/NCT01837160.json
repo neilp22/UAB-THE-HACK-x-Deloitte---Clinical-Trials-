@@ -1,0 +1,82 @@
+{
+  "nct_id": "NCT01837160",
+  "trial_title": "Angiogenesis and Fibrosis in Aortic Stenosis",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Angiogenesis and fibrosis lie at the heart of a number of fundamental processes responsible for cardiovascular disease. In this proposal, the investigators intend to build upon a highly successful programme of studies exploring the cardiovascular applications of positron emission tomography. Specifically, the investigators will explore the potential role of a novel radiotracer, 18F-fluciclatide, which is a highly selective ligand for the αvβ3 and αvβ5 integrin receptors that are up regulated dur",
+  "eligibility_table": [
+    {
+      "criterion": "asymptomatic mild (peak valve velocity of 2-5-3.0 m/s; n=10), moderate (peak valve velocity of 3.0-4.0 m/s; n=10) or severe aortic stenosis (peak valve velocity of >4.0 m/s; n=10) and 10 patients with severe aortic stenosis proceeding to aortic valve replacement.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis, which is defined by a peak valve velocity of >4.0 m/s, and is likely proceeding to aortic valve replacement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Healthy control subjects (n=10) will have no past medical history of ischaemic heart disease or valvular heart disease and have a structurally normal heart on echocardiography.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a significant history of valvular heart disease (bicuspid aortic valve and severe aortic stenosis), which disqualifies him from being a healthy control subject.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Atrial fibrillation",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented history of atrial fibrillation as evidenced by an ECG or Holter monitor within the last 12 months?"
+    },
+    {
+      "criterion": "Hepatic failure (Childs-Pugh grade B or C)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medical history does not explicitly indicate hepatic failure, but further lab values are needed to confirm liver function.",
+      "clinical_question": "Does the patient have a Child-Pugh score of 7 or higher?"
+    },
+    {
+      "criterion": "Renal failure (estimated glomerular filtration rate <25 mL/min)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's renal function is not provided; without an estimated glomerular filtration rate, we cannot definitively assess renal failure.",
+      "clinical_question": "Is the patient's estimated glomerular filtration rate (eGFR) less than 25 mL/min?"
+    },
+    {
+      "criterion": "Women of child-bearing potential",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "criterion targets female; patient is male",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Contraindication to magnetic resonance imaging",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any implanted devices or metallic foreign bodies that would contraindicate magnetic resonance imaging?"
+    },
+    {
+      "criterion": "Inability to undergo scanning",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any contraindications to undergoing MRI or CT scanning, such as renal impairment or metal implants?"
+    },
+    {
+      "criterion": "Ochronosis and those with any form of collagen-vascular disease.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a known diagnosis of ochronosis or collagen-vascular disease, but this cannot be confirmed without further information.",
+      "clinical_question": "Does the patient have a diagnosis of ochronosis or any form of collagen-vascular disease?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Atrial fibrillation",
+    "EXCLUSION UNCLEAR: Hepatic failure (Childs-Pugh grade B or C)",
+    "EXCLUSION UNCLEAR: Renal failure (estimated glomerular filtration rate <25 mL/min)",
+    "EXCLUSION UNCLEAR: Contraindication to magnetic resonance imaging",
+    "EXCLUSION UNCLEAR: Inability to undergo scanning",
+    "EXCLUSION UNCLEAR: Ochronosis and those with any form of collagen-vascular disease."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

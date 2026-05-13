@@ -1,0 +1,117 @@
+{
+  "nct_id": "NCT00467870",
+  "trial_title": "Long-term Safety Study of Intramuscular Injections of 750 mg and 1000 mg Testosterone Undecanoate in Hypogonadal Men",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "To evaluate the pharmacokinetics of TU 750 mg and TU 1000 mg via multiple measurements of serum total testosterone.",
+  "eligibility_table": [
+    {
+      "criterion": "Male with primary or secondary hypogonadism at least 18 years of age and for study part C2 weighs ≥143.3 lb (≥65 kg)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is 19 years old, which does not meet the minimum age requirement of 18 years for inclusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Morning screening serum testosterone concentration <300 ng/dL",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's serum testosterone level is 65 ng/dL, which is below the threshold of 300 ng/dL.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "American Urological Association (AUA) Symptom Score ≥15 or significant prostatic symptoms",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of significant prostatic symptoms or an AUA Symptom Score provided, thus assumed to be below 15.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of carcinoma, tumors or induration of the prostate or the male mammary gland including suspicion thereof",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of carcinoma, tumors, or induration of the prostate or male mammary gland is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Screening serum prostate-specific antigen (PSA) level >4 ng/mL or hyperplasia of the prostate (size >75 cm3 as measured by transrectal ultrasonography)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No PSA level is provided, but given the patient's age and conditions, it is assumed to be within normal limits.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Past or present liver tumors or acute or chronic hepatic disease with impairment of liver function; liver function tests (alanine aminotransferase [ALT], aspartate aminotransferase [AST]) exceeding 1.5 times upper limit of normal",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of liver tumors or hepatic disease is reported, and no liver function tests are exceeding normal limits.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of deep vein thrombosis in the past 5 years or any history of cerebrovascular accident",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No history of deep vein thrombosis or cerebrovascular accident is reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe acne",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No mention of severe acne in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hypertension (systolic blood pressure >160 mm Hg and diastolic blood pressure >95 mm Hg) or coronary heart disease not stabilized by therapy as assessed by the investigator",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No indication of hypertension or coronary heart disease is provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Insulin-dependent diabetes mellitus or uncontrolled non-insulin-dependent diabetes mellitus; patients with diabetes are excluded if screening glycated hemoglobin (HbA1C) level is >9%",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No indication of diabetes or elevated HbA1C levels is provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of any sex hormones within 28 days (for injectable testosterone preparations) or 7 days (for oral, gel, patch, etc, testosterone preparations) prior to screening visit and throughout the study (exclusive of administered study drug)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not used any sex hormones within the specified time frame.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of steroidal anabolic drugs or supplements (eg, dehydroepiandrosterone [DHEA]) by any application method within the 28 days prior to first administration of study drug and throughout the study (exclusive of administrated study drug)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of the use of steroidal anabolic drugs or supplements.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Medication with substances which might interfere with testosterone metabolism within 28 days before the first administration of study drug",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No medications that might interfere with testosterone metabolism have been reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of sleep apnea Insulin-dependent diabetes mellitus",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have a history of sleep apnea or insulin-dependent diabetes mellitus.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Use of steroidal anabolic drugs or supplements by any application method within the 28-days prior to the first administration of the study drug and throughout the study (exclusive of the administered study drug)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not used steroidal anabolic drugs or supplements within the specified time frame.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE",
+  "confidence_score": 1.0
+}

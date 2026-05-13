@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT01174901",
+  "trial_title": "Copeptin for Risk Stratification in Non-traumatic Headache in the Emergency Setting - The CoHead Study",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Headache is a common symptom, and patients often seek medical attention at emergency departments due to headaches.\n\nThe aim of the CoHead Study is to find out if it is possible by measuring copeptin, a marker of stress in the blood, to find out which patients have simple headaches and which patients have dangerous headaches that are the symptom of an underlying disease and need further investigation and treatment.\n\nCopeptin is a marker for physical stress and has been tested in patients with str",
+  "eligibility_table": [
+    {
+      "criterion": "headache at the time of screening",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of head injury, but it is unclear if she is currently experiencing a headache at the time of screening.",
+      "clinical_question": "Is the patient currently experiencing a headache with a pain intensity of ≥4 on a scale of 0 to 10?"
+    },
+    {
+      "criterion": "Patients must be able to give informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old and likely capable of giving informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "less than 18 years of age",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 < 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "preceding (head) trauma",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of head trauma, but the criterion may refer to recent trauma; however, the presence of prior trauma does not automatically exclude her.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.75
+}

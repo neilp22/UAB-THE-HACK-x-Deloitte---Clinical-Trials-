@@ -1,0 +1,26 @@
+{
+  "nct_id": "NCT03282682",
+  "trial_title": "Strength Training as a Supplemental Therapy of Androgen Deficiency of the Aging Male",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "This study examines the effect of 12-week strength training program with and without testosterone replacement therapy (TRT) on body composition, physical function, selected biochemical markers of metabolic health, molecular parameters of training adaptation and the quality of life patients with ADAM. The investigators believe, that strength training program performed 2 times per week for 12 weeks can improve body composition (decrease fat mass and gain lean mass), muscle strength, muscle power a",
+  "eligibility_table": [
+    {
+      "criterion": "Patients of secondary hypogonadism on testosterone replacement therapy, newly diagnosed patients of secondary hypogonadism.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is a newly diagnosed case of secondary hypogonadism with low testosterone levels and no prior testosterone replacement therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Regular strength training, medical treating osteoporosis, abnormal digital rectal results, conditions which are medical contraindications (without adjusting state): diabetes mellitus, severe cardiac arrhythmia, uncontrolled hypertension, unstable angina pectoris, chronic obstructive pulmonary disease, epilepsy, unstable bone lesions with high risk of fracture, prostate cancer or abnormal serum PSA levels without adverse histological examination.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have any of the listed exclusion conditions such as diabetes, cardiac issues, or prostate cancer, and there is no indication of regular strength training.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE",
+  "confidence_score": 1.0
+}

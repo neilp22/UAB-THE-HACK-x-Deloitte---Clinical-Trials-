@@ -1,0 +1,100 @@
+{
+  "nct_id": "NCT02523586",
+  "trial_title": "Comparison of Pharyngeal Oxygen Delivery by Different Oxygen Masks",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "The intent of this study is to determine the difference in pharyngeal oxygen concentration in patients who have a natural airway (not intubated) using commonly available oxygen delivery systems.\n\nThe investigators will test the hypothesis that oxygen concentration during the period of inspiration (FiO2) in the pharynx is dependent on oxygen delivery system design, even at high flow (15 liters/minute) oxygen delivery. Specific measurements include oxygen concentration at subjects' lips and pharyn",
+  "eligibility_table": [
+    {
+      "criterion": "18 to 70 years of age",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 51.0 >= 70.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Male and female volunteers",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "criterion targets female; patient is male",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ASA physical status I, II and III",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 51 years old and does not have any significant comorbidities that would classify him as ASA physical status IV or V.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Capable and willing to provide written informed consent in English",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is capable of providing informed consent and there is no indication that he cannot communicate in English.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Acute cardiopulmonary disease, as defined by blood pressure greater than 150/90, HR greater than 120 and room air oxygen saturation less than 92.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have acute cardiopulmonary disease; however, specific blood pressure and heart rate values are not provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Allergy to lidocaine or adhesive tape",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of an allergy to lidocaine or adhesive tape in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History or physical exam finding of nasal polyps",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no history or physical exam finding of nasal polyps noted in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Currently taking oral or parenteral anticoagulant medications (other than aspirin)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently taking any anticoagulant medications, as indicated by the absence of medications listed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of frequent nose bleeds",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no history of frequent nose bleeds mentioned in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Current symptoms of nasal congestion",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not provide information on current symptoms of nasal congestion, making it indeterminate.",
+      "clinical_question": "Does the patient report a nasal congestion score of ≥3 on a scale of 0 to 10?"
+    },
+    {
+      "criterion": "Physical examination findings of rales or wheezing",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not include physical examination findings of rales or wheezing, leaving this criterion indeterminate.",
+      "clinical_question": "Does the patient exhibit any physical examination findings of rales or wheezing during the clinical assessment?"
+    },
+    {
+      "criterion": "Facial hair that prevents forming a seal with an anesthesia mask",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The presence of facial hair is not mentioned, so it is unclear if it would prevent forming a seal with an anesthesia mask.",
+      "clinical_question": "Does the patient have facial hair that prevents forming a proper seal with an anesthesia mask?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Current symptoms of nasal congestion",
+    "EXCLUSION UNCLEAR: Physical examination findings of rales or wheezing",
+    "EXCLUSION UNCLEAR: Facial hair that prevents forming a seal with an anesthesia mask"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.75
+}

@@ -1,0 +1,88 @@
+{
+  "nct_id": "NCT04627987",
+  "trial_title": "Mechanisms of Excess Risk in Aortic Stenosis",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "Aortic stenosis (AS) is caused by narrowing of one of the main heart valves. Replacing the valve is the only treatment to prevent the heart from failing or death. The timing of replacement is currently often too late - half of patients are left with permanent scarring and a quarter die within 3.5 years.\n\nStudies are underway to see if earlier replacement makes a difference. But for those with scarring of the heart, there is currently no tailored treatment. I want to change this by understanding ",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with symptomatic severe aortic stenosis referred for surgical or transcatheter AVR (one out of: effective orifice area [EOA] <1.0 cm2 , indexed EOA of 0.6cm/m2, peak velocity >4.0 m/s or mean gradient >40mmHg).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and likely meets the criteria for surgical or transcatheter AVR based on their severe symptoms and low EF.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with symptomatic severe aortic stenosis referred for surgical or transcatheter AVR (one out of: effective orifice area [EOA] <1.0 cm2 , indexed EOA of 0.6cm/m2, peak velocity >4.0 m/s or mean gradient >40mmHg).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and likely meets the criteria for surgical or transcatheter AVR based on their severe symptoms and low EF.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with symptomatic severe aortic stenosis referred for surgical or transcatheter AVR (one out of: effective orifice area [EOA] <1.0 cm2 , indexed EOA of 0.6cm/m2, peak velocity >4.0 m/s or mean gradient >40mmHg).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and likely meets the criteria for surgical or transcatheter AVR based on their severe symptoms and low EF.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with symptomatic severe aortic stenosis referred for surgical or transcatheter AVR (one out of: effective orifice area [EOA] <1.0 cm2 , indexed EOA of 0.6cm/m2, peak velocity >4.0 m/s or mean gradient >40mmHg).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and likely meets the criteria for surgical or transcatheter AVR based on their severe symptoms and low EF.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "More than moderate valve disease other than AS",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have more than moderate valve disease other than aortic stenosis, as defined by aortic insufficiency greater than 2+ or mitral regurgitation greater than 2+?"
+    },
+    {
+      "criterion": "Diagnosis of dilated or hypertrophic cardiomyopathy, pregnancy/breast feeding",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a documented diagnosis of dilated or hypertrophic cardiomyopathy?"
+    },
+    {
+      "criterion": "eGFR <30ml/min, CMR incompatible devices",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's eGFR is not provided, making it unclear if they meet the exclusion criteria.",
+      "clinical_question": "Is the patient's estimated glomerular filtration rate (eGFR) less than 30 ml/min?"
+    },
+    {
+      "criterion": "Inability to complete the protocol",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient experienced any adverse events or complications that prevented them from completing the protocol as defined by the trial's criteria?"
+    },
+    {
+      "criterion": "Other conditions that would prevent participation in the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have any contraindications to undergoing aortic valve replacement surgery, such as severe comorbidities or functional status limitations?"
+    },
+    {
+      "criterion": "Adenosine perfusion will not be performed in patients with AV block, severe asthma/COPD or LVEF<40%.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's LVEF is 25%, which is below the threshold of 40%, thus they are excluded from adenosine perfusion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: More than moderate valve disease other than AS",
+    "EXCLUSION UNCLEAR: Diagnosis of dilated or hypertrophic cardiomyopathy, pregnancy/breast feeding",
+    "EXCLUSION UNCLEAR: eGFR <30ml/min, CMR incompatible devices",
+    "EXCLUSION UNCLEAR: Inability to complete the protocol",
+    "EXCLUSION UNCLEAR: Other conditions that would prevent participation in the study."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5
+}

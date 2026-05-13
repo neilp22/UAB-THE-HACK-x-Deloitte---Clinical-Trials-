@@ -1,0 +1,208 @@
+{
+  "nct_id": "NCT00003595",
+  "trial_title": "Combination Chemotherapy With or Without Monoclonal Antibody Therapy in Treating Patients With Previously Untreated HIV-Associated Non-Hodgkin's Lymphoma",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "Randomized phase III trial to compare the effectiveness of combination chemotherapy with or without monoclonal antibody therapy in treating patients who have previously untreated HIV-associated non-Hodgkin's lymphoma. Drugs used in chemotherapy use different ways to stop cancer cells from dividing so they stop growing or die. Monoclonal antibodies such as rituximab can locate cancer cells and either kill them or deliver cancer-killing substances to them without harming normal cells. It is not ye",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically or cytologically proven HIV-associated B cell non-Hodgkin's lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, but it is not specified as HIV-associated B cell non-Hodgkin's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Diffuse large B cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which is not classified as diffuse large B cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Intermediate grade diffuse large cell lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which does not fall under the category of intermediate grade diffuse large cell lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High grade large cell immunoblastic lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which is not classified as high grade large cell immunoblastic lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Burkitt's lymphoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a confirmed diagnosis of Burkitt's lymphoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High grade B cell lymphoma, Burkitt's like (small noncleaved lymphoma)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which is not classified as high grade B cell lymphoma, Burkitt's like.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No primary CNS lymphoma (parenchymal brain or spinal cord tumor)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of primary CNS lymphoma in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Tumors must be CD20 positive (greater than 50% cells express CD20)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The expression of CD20 in the tumor is not provided; therefore, it cannot be determined if it meets the criterion.",
+      "clinical_question": "Does the patient's tumor have CD20 expression in greater than 50% of the cells?"
+    },
+    {
+      "criterion": "Age: Over 18",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 44.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: Karnofsky 70-100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The performance status (Karnofsky score) is not provided; therefore, it cannot be determined if it meets the criterion.",
+      "clinical_question": "Does the patient have a Karnofsky performance status score of ≥70?"
+    },
+    {
+      "criterion": "Absolute neutrophil count greater than 1,000/mm3*",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute neutrophil count greater than 1,000/mm³?"
+    },
+    {
+      "criterion": "Platelet count greater than 75,000/mm3*",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's platelet count currently greater than 75,000/mm3?"
+    },
+    {
+      "criterion": "Bilirubin less than 2.0 mg/dL (unless secondary to hepatic infiltration with lymphoma or isolated hyperbilirubinemia associated with the use of indinavir)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided; therefore, it cannot be determined if it meets the criterion.",
+      "clinical_question": "Is the patient's total bilirubin level less than 2.0 mg/dL?"
+    },
+    {
+      "criterion": "SGOT or SGPT less than 7 times upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "SGOT/SGPT levels are not provided in the patient profile, making it impossible to assess this criterion.",
+      "clinical_question": "Are the patient's SGOT and SGPT levels both less than 7 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Creatinine less than 2.0 mg/dL (unless due to lymphoma)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Creatinine levels are not provided, so we cannot determine if this criterion is met.",
+      "clinical_question": "Is the patient's serum creatinine level currently less than 2.0 mg/dL?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is female and there is no indication of pregnancy or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient had a negative serum or urine pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is of childbearing age, but there is no information on contraception use.",
+      "clinical_question": "Is the patient currently using a form of effective contraception, such as hormonal birth control, intrauterine device, or barrier methods, to prevent pregnancy?"
+    },
+    {
+      "criterion": "No acute, active HIV-associated opportunistic infection requiring antibiotics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding HIV status or any opportunistic infections.",
+      "clinical_question": "Does the patient currently have any acute, active HIV-associated opportunistic infections requiring antibiotics?"
+    },
+    {
+      "criterion": "Mycobacterium avium complex allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Mycobacterium avium complex is allowed, and there is no indication of this condition in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent malignancy except carcinoma in situ of the cervix, nonmetastatic nonmelanomatous skin cancer, or Kaposi's sarcoma not requiring systemic chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has Burkitt's lymphoma, which is a concurrent malignancy and does not fall under the exceptions listed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prior or concurrent epoetin alfa or filgrastim (G-CSF) allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has received prior or concurrent epoetin alfa or filgrastim.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior colony stimulating factor therapy within 24 hours prior to chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on whether the patient has received colony stimulating factor therapy within the last 24 hours.",
+      "clinical_question": "Has the patient received any colony stimulating factor therapy within the 24 hours prior to chemotherapy?"
+    },
+    {
+      "criterion": "No prior chemotherapy for HIV-associated non-Hodgkin's lymphoma",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of Burkitt's lymphoma, which is a type of non-Hodgkin's lymphoma, indicating prior chemotherapy is likely.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 1 year since prior cyclophosphamide or doxorubicin",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of Burkitt's lymphoma but there is no information provided about prior treatment with cyclophosphamide or doxorubicin, making it unclear if the criterion is met.",
+      "clinical_question": "Has the patient received cyclophosphamide or doxorubicin within the last 12 months?"
+    },
+    {
+      "criterion": "No prior radiotherapy for HIV-associated non-Hodgkin's lymphoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of prior radiotherapy for HIV-associated non-Hodgkin's lymphoma in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic therapy with myelosuppressive agents allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The criterion allows for chronic therapy with myelosuppressive agents, and there is no information suggesting the patient is currently on such therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concurrent antiretroviral therapy, antifungal medications, and antibiotics allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The inclusion criterion allows concurrent antiretroviral therapy, antifungal medications, and antibiotics, and there is no indication that the patient is restricted from these treatments.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5714
+}

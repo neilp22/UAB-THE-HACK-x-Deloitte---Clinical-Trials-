@@ -1,0 +1,50 @@
+{
+  "nct_id": "NCT03858127",
+  "trial_title": "Minipuberty and Its Effects on Preterm Neonates",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "It is generally known that there are some hormonal changes during puberty, but the knowledge about the activation of the same hormonal axis in the first months of life is relatively recent and it is not completely understood.\n\nFrom the first weeks of life there is a progressive increase in hormone levels and this post-natal activation is called \"minipuberty\". Particularly in males, testosterone and androgen levels are associated with development and maturation of the reproductive system as well ",
+  "eligibility_table": [
+    {
+      "criterion": "Male preterm infants born ≤32 weeks of gestational age",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is a 19-year-old male, not a preterm infant, so this criterion is not applicable.",
+      "clinical_question": "Is the patient a male preterm infant who was born at or before 32 weeks of gestational age?"
+    },
+    {
+      "criterion": "Written informed consent provided",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "As a 19-year-old, the patient is capable of providing written informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Female sex assignment at birth",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "criterion targets female; patient is male",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Male preterm infants born >32 weeks of gestational age",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not a preterm infant, so this criterion is not applicable.",
+      "clinical_question": "Is the patient a male preterm infant who was born at a gestational age greater than 32 weeks?"
+    },
+    {
+      "criterion": "Male infants born at term",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not an infant, so this criterion is not applicable.",
+      "clinical_question": "Is the patient a male infant who was born at term, defined as being born between 37 and 42 weeks of gestation?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Male preterm infants born >32 weeks of gestational age",
+    "EXCLUSION UNCLEAR: Male infants born at term"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4
+}

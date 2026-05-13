@@ -1,0 +1,152 @@
+{
+  "nct_id": "NCT00003185",
+  "trial_title": "Biological Therapy in Treating Patients With Glioblastoma Multiforme",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Biological therapies use different ways to stimulate the immune system and stop cancer cells from growing.\n\nPURPOSE: Phase II trial to study the effectiveness of biological therapy in treating patients with glioblastoma multiforme.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically proven glioblastoma multiforme or anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a histologically confirmed diagnosis of glioblastoma multiforme or anaplastic astrocytoma based on recent biopsy results?"
+    },
+    {
+      "criterion": "Age: Over 18",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: ECOG 0-1 OR Karnofsky 70-100%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Performance status (ECOG or Karnofsky) is not provided.",
+      "clinical_question": "Does the patient have an ECOG performance status of 0 or 1, or a Karnofsky score of 70 or higher?"
+    },
+    {
+      "criterion": "WBC greater than 2000/mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's white blood cell count greater than 2000/mm³?"
+    },
+    {
+      "criterion": "Platelet count greater than 100,000/mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count greater than 100,000/mm3?"
+    },
+    {
+      "criterion": "No active infection with hepatitis B",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No indication of active hepatitis B infection.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No information suggests the patient is pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 1 month after study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on contraception use is provided.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, and will he continue to do so during the study and for 1 month after?"
+    },
+    {
+      "criterion": "No active collagen vascular or autoimmune disease",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No active collagen vascular or autoimmune disease reported.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior severe reaction to any blood product",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No prior severe reaction to blood products mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No other prior malignancy within the past 5 years except adequately treated squamous cell or basal cell skin cancer, carcinoma in situ or the cervix, or stage I or II cancer in complete remission",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Patient has a history of anaplastic astrocytoma, which is a malignancy within the past 5 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not immunologically compromised due to chronic conditions",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No indication of immunocompromised status due to chronic conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not allergic by standard skin testing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on allergies by standard skin testing is provided.",
+      "clinical_question": "Has the patient undergone standard skin testing for allergies within the last 12 months, and were the results negative?"
+    },
+    {
+      "criterion": "HIV negative",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No indication of HIV infection.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent biologic therapy with immunomodulatory effects (e.g., interleukin-2, interferon alfa)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on high-dose steroids, which are considered concurrent corticosteroid therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior or concurrent local or systemic chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple cycles of chemotherapy, including temozolomide and CPT-11, which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 1 week since prior corticosteroid therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently receiving high-dose steroids, indicating they have not been off corticosteroid therapy for at least 1 week.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent corticosteroid therapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is currently on high-dose steroids, which violates the criterion of no concurrent corticosteroid therapy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "See Disease Characteristics",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The specific disease characteristics are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Does the patient have a measurable tumor progression as defined by a ≥25% increase in the sum of the longest diameters of the target lesions according to RECIST criteria?"
+    },
+    {
+      "criterion": "No concurrent antiproliferatives or immunosuppressants",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on multiple medications, including Avastin, which may have immunosuppressive effects, thus violating this criterion.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.65
+}

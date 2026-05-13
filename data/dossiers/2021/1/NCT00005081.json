@@ -1,0 +1,147 @@
+{
+  "nct_id": "NCT00005081",
+  "trial_title": "Carmustine Plus O6-benzylguanine in Treating Patients With Recurrent or Progressive Glioma",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Combining more than one drug may kill more tumor cells.\n\nPURPOSE: Phase II trial to study the effectiveness of combining carmustine and O6-benzylguanine in treating patients who have recurrent or progressive glioma.",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed recurrent or progressive glioblastoma multiforme, anaplastic astrocytoma, or gliosarcoma Resistant to nitrosourea (defined as progressive or recurrent disease within 8 weeks of receiving nitrosourea) Measurable residual disease by MRI or CT scan",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has anaplastic astrocytoma, but it is not specified if it is recurrent or progressive. Additionally, the patient is currently on high-dose steroids, which may complicate the assessment of measurable disease.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age: 18 and over",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Performance status: Karnofsky 60-100%",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's performance status is not explicitly stated, but given the severe lower extremity weakness and urinary retention, it is likely below Karnofsky 60.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Absolute granulocyte count at least 1,500/mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's absolute granulocyte count currently at least 1,500/mm3?"
+    },
+    {
+      "criterion": "Platelet count at least 100,000/mm3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count at least 100,000/mm3?"
+    },
+    {
+      "criterion": "Hemoglobin greater than 10 g/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's hemoglobin level currently greater than 10 g/dL?"
+    },
+    {
+      "criterion": "Bilirubin normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Bilirubin levels are not provided, so it cannot be determined if they are normal.",
+      "clinical_question": "Is the patient's total bilirubin level ≤1.2 mg/dL?"
+    },
+    {
+      "criterion": "SGOT no greater than 2.5 times upper limit of normal",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "SGOT levels are not provided, so it cannot be determined if they are within the acceptable range.",
+      "clinical_question": "Is the patient's SGOT level ≤62.5 U/L?"
+    },
+    {
+      "criterion": "Creatinine no greater than 1.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's serum creatinine level currently ≤1.5 mg/dL?"
+    },
+    {
+      "criterion": "BUN no greater than 25 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's blood urea nitrogen (BUN) level ≤25 mg/dL?"
+    },
+    {
+      "criterion": "DLCO greater than 80% predicted",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's most recent DLCO percentage?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication of pregnancy or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception during and for 2 months after study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's fertility status is not provided, and there is no information on contraception use.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, and will he continue to do so during and for 2 months after the study?"
+    },
+    {
+      "criterion": "At least 4 weeks since prior chemotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has received multiple cycles of chemotherapy recently, including temozolomide and CPT-11, which likely does not meet the 4-week requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 6 weeks since prior nitrosourea, procarbazine, or mitomycin and recovered",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not received nitrosourea, but the timeline for recovery is unclear.",
+      "clinical_question": "Has the patient completed at least 6 weeks since the last administration of nitrosourea, procarbazine, or mitomycin and has fully recovered from any related side effects?"
+    },
+    {
+      "criterion": "No prior nitrosourea greater than 1,200 mg/m2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received a total cumulative dose of nitrosourea greater than 1,200 mg/m2?"
+    },
+    {
+      "criterion": "Concurrent stable dose corticosteroids allowed if on for at least two weeks prior to study",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is on corticosteroids, and it is noted that they have been on them for at least two weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "At least 4 weeks since prior radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone radiation therapy, but the exact timing is not specified, making it likely that the 4-week requirement is not met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery: Not specified",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion regarding surgery is not specified, making it unclear whether the patient meets this requirement.",
+      "clinical_question": "Has the patient undergone any surgical intervention for the treatment of their anaplastic astrocytoma of the spine?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 3 of 19 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3684
+}

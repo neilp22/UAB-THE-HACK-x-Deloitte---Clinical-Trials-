@@ -37,11 +37,10 @@ def _tokenize(text: str) -> list[str]:
 
 
 def _trial_text(trial: dict) -> str:
-    """Concatenate all searchable fields of a trial into one text block."""
+    """Concatenate title and brief_summary only — eligibility text skews BM25."""
     parts = [
         trial.get("title", ""),
         trial.get("brief_summary", ""),
-        trial.get("eligibility_criteria", ""),
         " ".join(trial.get("conditions", [])),
     ]
     return " ".join(p for p in parts if p)

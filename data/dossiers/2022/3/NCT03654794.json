@@ -1,0 +1,70 @@
+{
+  "nct_id": "NCT03654794",
+  "trial_title": "Study of the Cellular Diffusion of Tacrolimus Across the Membrane of Mononuclear Cells",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Pharmacokinetics of tacrolimus are highly variable and may result in graft rejection (underdosing) or toxicity (overdosing).\n\nThe risk of transplant rejection and the toxicity of tacrolimus can be reduced by pharmacological therapeutic monitoring of the molecule, based on the measurement of residual blood concentrations. Nevertheless, some patients are victims of rejections or toxic signs even though their blood concentrations are in the therapeutic target.\n\nThe aim of the study is to describe t",
+  "eligibility_table": [
+    {
+      "criterion": "adult (age > 18 years old)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 51.0 > 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "phlebotomy as part of the maintenance treatment of hemochromatosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has hemochromatosis and phlebotomy is a standard treatment for this condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "having received the information on the protocol and not having indicated his opposition to participate",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient has opposed participation, and he has received information about the protocol.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "not receiving immunosuppressive therapy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not receiving any immunosuppressive therapy, which meets the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "not receiving drug treatment that can induce or inhibit the protein ABCB1 (Rifampicin, Carbamazepine, Phenobarbital, Phenytoin, Efavirenz, Amiodarone, azole antifungals, calcium channel blockers)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not on any medications that are known to induce or inhibit the ABCB1 protein.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "participation in another protocol whose procedures are incompatible with the realization of the study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about participation in other protocols, so it cannot be determined.",
+      "clinical_question": "Is the patient currently participating in any other clinical trial that involves procedures incompatible with the study of tacrolimus diffusion?"
+    },
+    {
+      "criterion": "adults who are subject to legal protection (protection of justice, guardianship) and persons deprived of their liberty",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is under legal protection or deprived of liberty.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "pregnant women",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication of pregnancy.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: participation in another protocol whose procedures are incompatible with the rea"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.875
+}

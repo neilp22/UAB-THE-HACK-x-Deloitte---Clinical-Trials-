@@ -1,0 +1,266 @@
+{
+  "nct_id": "NCT00006263",
+  "trial_title": "Carboplatin, Temozolomide, and Filgrastim in Treating Patients With Newly Diagnosed or Recurrent High-Grade Glioma",
+  "phase": "PHASE2",
+  "status": "WITHDRAWN",
+  "brief_summary": "RATIONALE: Drugs used in chemotherapy use different ways to stop tumor cells from dividing so they stop growing or die. Colony-stimulating factors such as filgrastim may increase the number of immune cells found in bone marrow or peripheral blood and may help a person's immune system recover from the side effects of chemotherapy.\n\nPURPOSE: Phase II trial to study the effectiveness of combining carboplatin, temozolomide, and filgrastim in treating patients who have newly diagnosed or recurrent hi",
+  "eligibility_table": [
+    {
+      "criterion": "Histologically confirmed newly diagnosed glioblastoma multiforme or anaplastic astrocytoma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a histologically confirmed diagnosis of anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Residual tumor on postoperative MRI",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No postoperative MRI results are provided to confirm residual tumor.",
+      "clinical_question": "Does the postoperative MRI show any residual tumor greater than 1 cm in diameter?"
+    },
+    {
+      "criterion": "Bidimensionally measurable disease",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on whether the disease is bidimensionally measurable.",
+      "clinical_question": "Does the patient have a measurable tumor size of at least 2 cm in any dimension on imaging studies?"
+    },
+    {
+      "criterion": "Under 65",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 < 65.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Karnofsky or Lansky 70-100% OR",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's history of severe lower extremity weakness and other neurological deficits likely indicates a Karnofsky score below 70%.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "ECOG 0-2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient ECOG score not recorded",
+      "clinical_question": "Does the patient have an ECOG performance status of 0, 1, or 2?"
+    },
+    {
+      "criterion": "Life expectancy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Life expectancy is not clearly defined; further information is needed.",
+      "clinical_question": "What is the patient's estimated life expectancy based on current clinical guidelines for individuals with newly diagnosed or recurrent high-grade glioma, considering their age, prior treatments, and current health status?"
+    },
+    {
+      "criterion": "Absolute neutrophil count at least 1,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have an absolute neutrophil count of at least 1,000/mm^3?"
+    },
+    {
+      "criterion": "Hemoglobin at least 8 g/dL (transfusion allowed)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's hemoglobin level currently ≥8 g/dL?"
+    },
+    {
+      "criterion": "Platelet count greater than 100,000/mm^3",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's platelet count currently greater than 100,000/mm^3?"
+    },
+    {
+      "criterion": "Bilirubin less than 1.5 times upper limit of normal (ULN)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess bilirubin levels.",
+      "clinical_question": "Is the patient's total bilirubin level less than 1.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "SGPT no greater than 3 times ULN",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess SGPT levels.",
+      "clinical_question": "Is the patient's SGPT level currently ≤3 times the upper limit of normal (ULN)?"
+    },
+    {
+      "criterion": "Renal:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No renal function tests or values provided.",
+      "clinical_question": "Does the patient have a creatinine clearance of ≥60 mL/min?"
+    },
+    {
+      "criterion": "Age 5 years and under: Creatinine less than 1.2 mg/dL",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 45.0 < 1.2 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age over 5 to 10 years: Creatinine less than 1.5 mg/dL",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 45.0 < 1.5 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age over 10 to 15 years: Creatinine less than 1.8 mg/dL",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 45.0 < 1.8 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age over 15 years: Creatinine less than 2.4 mg/dL",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 45.0 < 2.4 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No myocardial infarction within the past 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on recent myocardial infarction history.",
+      "clinical_question": "Has the patient experienced any myocardial infarction within the past 6 months?"
+    },
+    {
+      "criterion": "No other concurrent serious medical condition that would preclude study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The presence of chronic pain and hypertension may be considered serious, but further details are needed to assess their impact on eligibility.",
+      "clinical_question": "Does the patient have any serious medical conditions, such as uncontrolled hypertension or significant chronic pain, that would preclude participation in the study?"
+    },
+    {
+      "criterion": "Able to tolerate oral medications",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on high-dose steroids, indicating they can tolerate oral medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No prior malignancy for which patient received prior chemotherapy or spinal irradiation",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of anaplastic astrocytoma, which is a malignancy for which they have received chemotherapy and spinal irradiation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No history of severe allergic reaction to platinum-containing compounds",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of a severe allergic reaction to platinum-containing compounds in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is male, but the criterion does not specify gender; however, the patient's medical history and current treatments suggest they are not pregnant or nursing.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Negative pregnancy test",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about a recent pregnancy test result.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's fertility status and use of contraception are not specified.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a hormonal method, barrier method, or intrauterine device, as defined by clinical guidelines?"
+    },
+    {
+      "criterion": "At least 72 hours since prior filgrastim (G-CSF)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received filgrastim (G-CSF) within the last 72 hours?"
+    },
+    {
+      "criterion": "No prior chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any prior chemotherapy treatments, including but not limited to temozolomide or CPT-11?"
+    },
+    {
+      "criterion": "No other concurrent chemotherapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any concurrent chemotherapy in the past 30 days?"
+    },
+    {
+      "criterion": "Endocrine therapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the need for endocrine therapy.",
+      "clinical_question": "Has the patient been on endocrine therapy for at least 4 weeks prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "Concurrent steroids for tumor-related cerebral edema allowed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is on concurrent steroids for tumor-related cerebral edema, which is allowed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent corticosteroids for solely antiemetic purposes",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is on high-dose steroids, which are not allowed for solely antiemetic purposes.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Radiotherapy:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's prior radiotherapy details.",
+      "clinical_question": "Has the patient completed a course of radiotherapy with a total dose of at least 54 Gy?"
+    },
+    {
+      "criterion": "No prior or concurrent radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of prior radiation treatment, which disqualifies them from this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Surgery:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The criterion is vague as it does not specify the type of surgery required or if the patient has undergone any recent surgical procedures.",
+      "clinical_question": "Has the patient undergone surgical resection of the tumor prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "Recovered from prior surgery",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has undergone prior surgeries, including a Foley catheter placement and radiation, which suggests they may not have fully recovered.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent surgery",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's current treatment regimen does not indicate any concurrent surgeries, but the lack of specific details makes it uncertain.",
+      "clinical_question": "Has the patient undergone any surgical procedures within the last 30 days?"
+    }
+  ],
+  "attention_flags": [
+    "LOW INCLUSION MATCH: only 5 of 36 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4167
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "P001",
+    "text": "Patient is a 45-year-old man with a history of anaplastic astrocytoma of the spine complicated by severe lower extremity weakness and urinary retention s/p Foley catheter, high-dose steroids, hypertension, and hyperlipidemia. He is currently on levetiracetam, dexamethasone, oxycodone, terazosin. Performance status ECOG 2. Creatinine 1.1 mg/dL, ALT 38 U/L."
+  },
+  {
+    "id": "P002",
+    "text": "58-year-old woman with stage IV non-small cell lung cancer (adenocarcinoma), EGFR exon 19 deletion positive, previously treated with erlotinib with disease progression after 14 months. ECOG PS 1. No brain metastases. ALT 28 U/L, creatinine 0.9 mg/dL. Current medications: erlotinib (stopped), dexamethasone."
+  },
+  {
+    "id": "P003",
+    "text": "67-year-old male with metastatic colorectal cancer, microsatellite stable (MSS), KRAS wild-type. Previously treated with FOLFOX and FOLFIRI plus bevacizumab, with progression after both lines. ECOG 1. CEA 45 ng/mL. No prior anti-EGFR therapy. Creatinine 1.0 mg/dL, hemoglobin 11.2 g/dL."
+  }
+]

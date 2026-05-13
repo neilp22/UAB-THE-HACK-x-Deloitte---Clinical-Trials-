@@ -1,0 +1,163 @@
+{
+  "nct_id": "NCT01446900",
+  "trial_title": "R-2cda and Prolongation of Therapy With Rituximab Alone in Chronic Lymphocytic Leukaemia and Small Lymphocytic Lymphoma",
+  "phase": "PHASE2",
+  "status": "TERMINATED",
+  "brief_summary": "The objective of this study is to confirm the efficacy of the association of R-2cda in patients affected by Chronic Lymphocytic Leukaemia and Small Lymphocytic Lymphoma and of evaluating the efficacy of prolongation of therapy with additional infusions of Rituximab alone in increasing and prolonging the duration of the response.",
+  "eligibility_table": [
+    {
+      "criterion": "Aged ≥ 18 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients affected by CLL / SLL",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Chronic Lymphocytic Leukemia (CLL), which meets the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Presence of active disease defined as the presence of one of the following:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has active disease as indicated by elevated white count and bulky lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Disease related symptoms (weight loss >10% in the last 6 months, fever >38° C for 2 weeks without evidence of infection, or marked asthenia, or profuse sweating without evidence of infection)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No specific disease-related symptoms were reported, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient experienced weight loss of >10% in the last 6 months, or fever >38° C for 2 weeks without evidence of infection, or marked asthenia, or profuse sweating without evidence of infection?"
+    },
+    {
+      "criterion": "Massive nodes (at least 10 cm in longest diameter) or progressive or symptomatic lymphadenopathy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has bulky lymphadenopathy, which qualifies as progressive or symptomatic lymphadenopathy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Massive (at least 6 cm below left costal margin) or progressive or symptomatic splenomegaly",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on splenomegaly is provided, making it uncertain if this criterion is met.",
+      "clinical_question": "Is the patient's splenomegaly at least 6 cm below the left costal margin?"
+    },
+    {
+      "criterion": "Progressive lymphocytosis (increased >50% in 2 months) or lymphocyte doubling time < 6 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess lymphocytosis or doubling time, leaving this criterion uncertain.",
+      "clinical_question": "Has the patient's lymphocyte count increased by >50% within the last 2 months or has the lymphocyte doubling time been <6 months?"
+    },
+    {
+      "criterion": "Evidence of progressive bone marrow insufficiency seen as evidence of or worsening of anemia and or thrombocytopenia",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of bone marrow insufficiency is provided, making it unclear if this criterion is met.",
+      "clinical_question": "Has the patient experienced a decrease in hemoglobin levels to <10 g/dL or a platelet count <100,000/µL since the last evaluation?"
+    },
+    {
+      "criterion": "Autoimmune anemia and or thrombocytopenia that is poorly responsive to corticosteroids or other standard therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on autoimmune anemia or thrombocytopenia is provided, leaving this criterion uncertain.",
+      "clinical_question": "Has the patient experienced a hemoglobin level <10 g/dL or a platelet count <100,000/µL that is poorly responsive to corticosteroids or other standard therapy?"
+    },
+    {
+      "criterion": "Age < 18 years",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 57.0 < 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with cardiac, pulmonary, neurological, psychiatric or serious metabolic conditions not related to CLL / SLL",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on any serious non-CLL related conditions is provided, making it uncertain.",
+      "clinical_question": "Does the patient have any documented cardiac, pulmonary, neurological, psychiatric, or serious metabolic conditions not related to CLL/SLL?"
+    },
+    {
+      "criterion": "Altered hepatic function (bilirubin, GOT, GPT, or gammaGT > 2 times upper limit of normal) not attributable to CLL / SLL",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess hepatic function, leaving this criterion uncertain.",
+      "clinical_question": "Is the patient's bilirubin, GOT, GPT, or gammaGT level greater than 2 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Altered renal function (creatinine > 1.5 times upper limit of normal)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No renal function data provided; unable to assess creatinine levels.",
+      "clinical_question": "Is the patient's serum creatinine level greater than 1.5 times the upper limit of normal?"
+    },
+    {
+      "criterion": "Patients with serious active infections",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on current infections is provided.",
+      "clinical_question": "Does the patient currently have any serious active infections, defined as requiring hospitalization or intravenous antibiotics?"
+    },
+    {
+      "criterion": "Pregnancy and/ or breastfeeding",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient's gender and age suggest pregnancy is unlikely, but no explicit information is provided.",
+      "clinical_question": "Is the patient currently pregnant or breastfeeding?"
+    },
+    {
+      "criterion": "Patients with positive serology for HBSAG or HBCAB without evaluation by a hepatologist",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No serology results for HBSAG or HBCAB are provided.",
+      "clinical_question": "Has the patient been evaluated by a hepatologist for their positive serology for HBSAG or HBCAB?"
+    },
+    {
+      "criterion": "Patients with positive serology for HIV",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No serology results for HIV are provided.",
+      "clinical_question": "Does the patient have a positive serology for HIV as indicated by an HIV antibody test?"
+    },
+    {
+      "criterion": "Life expectancy of less than 12 months",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Life expectancy is not explicitly stated; however, the patient has serious conditions.",
+      "clinical_question": "Does the patient have a documented life expectancy of less than 12 months based on clinical assessment and prognostic scoring?"
+    },
+    {
+      "criterion": "Not taking any other experimental drugs",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information on other experimental drugs is provided.",
+      "clinical_question": "Has the patient taken any experimental drugs within the last 30 days?"
+    },
+    {
+      "criterion": "History of allergic reactions attributed to compounds of similar chemical or biologic composition to Cladribine (2CdA)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No history of allergic reactions is mentioned, but no specific information is provided.",
+      "clinical_question": "Has the patient experienced any allergic reactions to medications containing cladribine or similar compounds in the past?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients with cardiac, pulmonary, neurological, psychiatric or serious metabolic",
+    "EXCLUSION UNCLEAR: Altered hepatic function (bilirubin, GOT, GPT, or gammaGT > 2 times upper limit ",
+    "EXCLUSION UNCLEAR: Altered renal function (creatinine > 1.5 times upper limit of normal)",
+    "EXCLUSION UNCLEAR: Patients with serious active infections",
+    "EXCLUSION UNCLEAR: Pregnancy and/ or breastfeeding",
+    "EXCLUSION UNCLEAR: Patients with positive serology for HBSAG or HBCAB without evaluation by a hepat",
+    "EXCLUSION UNCLEAR: Patients with positive serology for HIV",
+    "EXCLUSION UNCLEAR: Life expectancy of less than 12 months",
+    "EXCLUSION UNCLEAR: Not taking any other experimental drugs",
+    "EXCLUSION UNCLEAR: History of allergic reactions attributed to compounds of similar chemical or bio"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.25
+}

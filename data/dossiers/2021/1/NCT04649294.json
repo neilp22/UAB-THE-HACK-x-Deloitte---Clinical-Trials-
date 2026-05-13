@@ -1,0 +1,40 @@
+{
+  "nct_id": "NCT04649294",
+  "trial_title": "The Effect of High Dose Glucocorticoid Steroids on Myocardial Function",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Long term steroid exposure, as in Cushing's disease, causes myocardial dysfunction, hypertrophy and fibrosis in addition to causing obesity, hypertension and glucose intolerance. The aim of our study was to verify if short-term high-dose exogenous steroid therapy adversely effects the heart.",
+  "eligibility_table": [
+    {
+      "criterion": "Age above 18",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient with rheumatic disease that need high dose steroids due to exacerbation",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on high-dose steroids, which indicates a need for such treatment, likely due to exacerbation of their underlying conditions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient whom echocardiographic study can be performed with a good quality",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's echocardiographic study capability, making it unclear if this criterion is met.",
+      "clinical_question": "Can the patient achieve an echocardiographic study with a quality score of ≥ 2 on a 4-point scale?"
+    },
+    {
+      "criterion": "age below 18",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 < 18.0 → False",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.75
+}

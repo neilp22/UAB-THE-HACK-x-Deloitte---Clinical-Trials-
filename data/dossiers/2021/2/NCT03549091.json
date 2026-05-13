@@ -1,0 +1,66 @@
+{
+  "nct_id": "NCT03549091",
+  "trial_title": "Accuracy of Left Subclavian Regurgitation Evaluated by Ultrasound Doppler and 4D Flow MRI",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "Aortic insufficiency (IA) is defined as an abnormal regurgitation of blood from the aorta to the left ventricle in diastole, due to a lack of tightness of the aortic valves. It represents about 10% of valvular pathologies but the annual mortality of nonoperated patients can be as high as 10% to 20%. The quantification of AI is therefore important as it can remain perfectly asymptomatic for a long time.\n\nDoppler echocardiography is currently the key examination to confirm the presence of valvulop",
+  "eligibility_table": [
+    {
+      "criterion": "Patient able to give informed consent to participate in the study",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is capable of giving informed consent as there is no indication of cognitive impairment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient with transthoracic echocardiography and MRI prescription",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone multiple cardiac evaluations, suggesting that transthoracic echocardiography and MRI are likely prescribed.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Contraindication to MRI",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about any contraindications to MRI; further details are needed.",
+      "clinical_question": "Does the patient have any implanted devices or metallic foreign bodies that would contraindicate an MRI?"
+    },
+    {
+      "criterion": "Pathologies of the thoracic aorta (aneurism, dissection, stenosis)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and a dilated ascending aorta, which qualifies as pathologies of the thoracic aorta.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pathologies of the left subclavian artery (stenosis, narrowing)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific mention of pathologies of the left subclavian artery; further imaging results would clarify this.",
+      "clinical_question": "Is there evidence of ≥50% stenosis in the left subclavian artery as assessed by ultrasound Doppler or 4D Flow MRI?"
+    },
+    {
+      "criterion": "Persistent arterial canal",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of a persistent arterial canal; further details are needed.",
+      "clinical_question": "Does the patient have a persistent arterial canal as confirmed by ultrasound Doppler or 4D Flow MRI?"
+    },
+    {
+      "criterion": "Arteriovenous fistula of the upper limb",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the presence of an arteriovenous fistula of the upper limb; further details are needed.",
+      "clinical_question": "Does the patient have an arteriovenous fistula of the upper limb confirmed by ultrasound Doppler or 4D Flow MRI?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Contraindication to MRI",
+    "EXCLUSION UNCLEAR: Pathologies of the left subclavian artery (stenosis, narrowing)",
+    "EXCLUSION UNCLEAR: Persistent arterial canal",
+    "EXCLUSION UNCLEAR: Arteriovenous fistula of the upper limb"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4286
+}

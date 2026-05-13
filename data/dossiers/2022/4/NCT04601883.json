@@ -1,0 +1,358 @@
+{
+  "nct_id": "NCT04601883",
+  "trial_title": "Colchicine as Treatment for People With Hand Osteoarthritis",
+  "phase": "PHASE4",
+  "status": "COMPLETED",
+  "brief_summary": "The study aims to compare oral colchicine 0.5 mg administered two times daily for 12 weeks with placebo as a treatment of hand OA symptoms.",
+  "eligibility_table": [
+    {
+      "criterion": "Age ≥18 years.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 66.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hand OA according to the ACR criteria above.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has firm nodules over the distal interphalangeal joints and symptoms consistent with hand osteoarthritis, which aligns with the ACR criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hand OA finger pain: Pain at rest ≥40 mm on VAS (0 to 100 mm range).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's hand OA finger pain rated at rest ≥40 mm on the VAS scale?"
+    },
+    {
+      "criterion": "Comorbidities",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has joint pain, hypertension, and hypercholesteremia, but it is unclear if these comorbidities would exclude her from the trial without specific criteria.",
+      "clinical_question": "Does the patient have any additional comorbidities, such as diabetes or cardiovascular disease, that would affect the treatment with colchicine?"
+    },
+    {
+      "criterion": "Other known medical disease that may affect joints, e.g. RA, gout, PsA",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of other known medical diseases affecting the joints such as rheumatoid arthritis, gout, or psoriatic arthritis.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Positive anti-cyclic citrullinated peptide (>10 kU/L)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's anti-cyclic citrullinated peptide level greater than 10 kU/L?"
+    },
+    {
+      "criterion": "Known cutaneous deposition diseases (e.g. amyloidosis or porphyria).",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no evidence of known cutaneous deposition diseases like amyloidosis or porphyria in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known blood dyscrasias and coagulation disorders",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have any known blood dyscrasias or coagulation disorders based on the provided information.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known malignancy (except successfully treated squamous or basal cell skin carcinoma)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of any malignancy in the patient's history, and she is not known to have any malignancy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Elevated alanine transaminase (>45 U/L females, >70 U/L for males)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for alanine transaminase are not provided, making it impossible to assess this criterion definitively.",
+      "clinical_question": "Is the patient's alanine transaminase level greater than 45 U/L?"
+    },
+    {
+      "criterion": "Creatinine clearance ≤60 ml/min",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's creatinine clearance ≤60 ml/min based on recent lab results?"
+    },
+    {
+      "criterion": "Elevated creatine kinase (>210 U/L females, >280 U/L for males)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Lab values for creatine kinase are not provided, making it impossible to assess this criterion definitively.",
+      "clinical_question": "Is the patient's creatine kinase level greater than 210 U/L?"
+    },
+    {
+      "criterion": "Known allergies towards the interventions",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding known allergies towards the interventions, so this criterion cannot be assessed.",
+      "clinical_question": "Does the patient have a documented allergy to colchicine or any of its components?"
+    },
+    {
+      "criterion": "Drug or alcohol abuse in the last year",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of drug or alcohol abuse in the last year based on the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Generalised pain syndromes such as fibromyalgia",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a documented diagnosis of fibromyalgia or generalized pain syndromes, but the presence of joint pain may raise questions.",
+      "clinical_question": "Does the patient have a diagnosis of fibromyalgia based on the American College of Rheumatology criteria, including the presence of widespread pain for at least 3 months and tenderness in at least 11 of 18 specific tender points?"
+    },
+    {
+      "criterion": "Current reflux",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about current reflux; therefore, it cannot be determined.",
+      "clinical_question": "Does the patient have a history of gastroesophageal reflux disease (GERD) or current symptoms of reflux, such as heartburn or regurgitation, occurring at least twice a week?"
+    },
+    {
+      "criterion": "Current or recurrent diarrhoeal illnesses",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding current or recurrent diarrheal illnesses.",
+      "clinical_question": "Has the patient experienced any episodes of diarrhoea lasting more than 24 hours in the past month?"
+    },
+    {
+      "criterion": "Current abdominal pain",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of current abdominal pain in the patient's profile.",
+      "clinical_question": "Does the patient report experiencing abdominal pain with a severity of ≥4 on a scale of 0 to 10 in the past week?"
+    },
+    {
+      "criterion": "Known peripheral neuropathies",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not report known peripheral neuropathies, but this is not explicitly stated.",
+      "clinical_question": "Does the patient have a documented diagnosis of peripheral neuropathy based on clinical evaluation or nerve conduction studies?"
+    },
+    {
+      "criterion": "Any other condition or impairment that, in the opinion of the investigator, makes a potential participant unsuitable for participation or which obstruct participation, such as e.g. psychiatric disorders.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No psychiatric disorders are mentioned, but the overall suitability is not fully assessed without more information.",
+      "clinical_question": "Does the patient have any current psychiatric disorders that would interfere with their ability to participate in the trial?"
+    },
+    {
+      "criterion": "Medical history",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The medical history is not detailed enough to assess if there are any exclusions based on this criterion.",
+      "clinical_question": "Has the patient been diagnosed with hand osteoarthritis by a healthcare professional based on clinical evaluation and imaging findings?"
+    },
+    {
+      "criterion": "History of hand surgery within 12 months prior enrolment.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of hand surgery within the last 12 months.",
+      "clinical_question": "Has the patient undergone any hand surgery within the 12 months prior to enrollment?"
+    },
+    {
+      "criterion": "History of arthroplasty or arthrodesis in the hand Management strategies",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone arthroplasty or arthrodesis in the hand, but this is not explicitly confirmed.",
+      "clinical_question": "Has the patient undergone any surgical procedures such as arthroplasty or arthrodesis in the hand?"
+    },
+    {
+      "criterion": "Treatment with P-glycoprotein inhibitors and/or cytochrome P450 3A4 (CYP3A4) inhibitors, see section \"Colchicine safety in drug-drug interactions\" and table 7. If potential participants have been treated with these pharmaceuticals previously, treatment must be terminated 5 half-lifes before initiation of study drug.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding treatment with P-glycoprotein inhibitors or CYP3A4 inhibitors.",
+      "clinical_question": "Has the patient been treated with any P-glycoprotein inhibitors or CYP3A4 inhibitors in the past 5 half-lives?"
+    },
+    {
+      "criterion": "Use of systemic corticosteroids equivalent of ≥ 7.5 mg prednisolone daily within 3 months.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not using systemic corticosteroids equivalent to ≥ 7.5 mg prednisolone daily within the last 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participation in experimental device or experimental drug study 3 months prior to enrolment.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient participated in any experimental device or drug study in the 3 months prior to enrollment.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Intra-articular treatments or aspirations of any kind of any joint in the hands 3 months before inclusion",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received any intra-articular treatments or aspirations of any joint in the hands in the last 3 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Intra-articular corticosteroids into any joint 1 months before inclusion",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received intra-articular corticosteroids into any joint in the last month.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Current use of synthetic or non-synthetic opioids",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently using synthetic or non-synthetic opioids.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Scheduled surgery during study participation",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no scheduled surgery during the study participation.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Planning to start other treatment for hand OA in the study participation period.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not planning to start other treatments for hand OA during the study participation period.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Reproductive system",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The reproductive system status is not explicitly mentioned in the profile, making it uncertain.",
+      "clinical_question": "Does the patient have any history of reproductive system disorders or current reproductive system symptoms that could affect the treatment with colchicine?"
+    },
+    {
+      "criterion": "Pregnancy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's pregnancy status.",
+      "clinical_question": "Is the patient currently pregnant or has she been pregnant within the last 12 months?"
+    },
+    {
+      "criterion": "Planned pregnancy within the study period, 3 months after end of study treatment for female fertile participant and 6 months after end of study treatment for male participant.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding any planned pregnancy within the study period.",
+      "clinical_question": "Is the patient currently planning a pregnancy within the next 3 months or has she planned one within 3 months after the end of study treatment?"
+    },
+    {
+      "criterion": "Insufficient anti-conception therapy for female fertile participants within the study period and 3 months after end of study treatment. Sufficient anti-conception therapy consists of intra-uterine device (coil), hormonal anti-conception (birth control pills, implant, intra-uterine system, dermal patch, vaginal ring, or injections) or sexual abstinence. Female participants are considered infertile if they are postmenopausal or if they have undergone surgical sterilisation (bilateral salpingectomy, hysterectomy or bilateral oophorectomy). Postmenopausal state is defined as no menses for 12 months without alternative medical cause before inclusion in the study. Menopause state will be confirmed by measurement of follicle stimulating hormone.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is a 66-year-old female, likely postmenopausal, but confirmation of menopause status via FSH measurement is not provided.",
+      "clinical_question": "Has the patient been using a sufficient anti-conception therapy, such as an intra-uterine device or hormonal contraception, for at least 3 months prior to and during the study period?"
+    },
+    {
+      "criterion": "Insufficient anti-conception therapy for male participants within the study period and 6 months after end of study treatment. Sufficient anti-conception therapy consists of condom or sexual abstinence. Male participants are considered sterile if they have undergone surgical sterilisation (vasectomy).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is female and does not meet the criteria for male participants.",
+      "clinical_question": "Has the male participant used condoms or practiced sexual abstinence consistently during the study period and for 6 months after the end of study treatment?"
+    },
+    {
+      "criterion": "Breast-feeding",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently breastfeeding or has she breastfed within the last 12 months?"
+    },
+    {
+      "criterion": "A target hand will be selected for outcome assessment once individual fulfills in- and exclusions criterias. Selection of the target hand will adhere to the following, with advancement to next step if unable to choose target hand based on the given criteria.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The selection of a target hand is contingent on fulfilling other criteria, which cannot be assessed without further information.",
+      "clinical_question": "Does the patient have a target hand with at least one painful distal interphalangeal joint exhibiting firm nodules?"
+    },
+    {
+      "criterion": "The hand with most overall pain, assessed by VAS finger joint pain.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Overall pain assessment is not provided; therefore, it is unclear which hand has the most pain.",
+      "clinical_question": "What is the patient's current VAS finger joint pain score for the hand with the most overall pain?"
+    },
+    {
+      "criterion": "The hand with most overall reduced function, assessed by AUSCAN function subscale.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Function assessment via AUSCAN is not provided; thus, it is unknown which hand has reduced function.",
+      "clinical_question": "What is the patient's AUSCAN function subscale score for the hand with the most overall reduced function?"
+    },
+    {
+      "criterion": "The hand with most overall stiffness, assessed by AUSCAN stiffness subscale.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Stiffness assessment via AUSCAN is not provided; therefore, it is unclear which hand has the most stiffness.",
+      "clinical_question": "What is the patient's AUSCAN stiffness subscale score for the hand with the most overall stiffness?"
+    },
+    {
+      "criterion": "The hand with most swollen joints, assessed by physician joint count.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Swelling assessment by physician joint count is not provided; thus, it is unknown which hand has the most swollen joints.",
+      "clinical_question": "How many swollen joints are present in the patient's hand, and is this number greater than or equal to 2?"
+    },
+    {
+      "criterion": "The hand with most tender joints, assessed by physician joint count.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Tenderness assessment by physician joint count is not provided; therefore, it is unclear which hand has the most tender joints.",
+      "clinical_question": "What is the physician joint count for the hand with the most tender joints in this patient?"
+    },
+    {
+      "criterion": "The hand with highest summed radiographic score, assessed by radiographic scoring of conventional X-ray.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Radiographic scoring is not provided; thus, it is unknown which hand has the highest summed radiographic score.",
+      "clinical_question": "What is the summed radiographic score of the patient's hand assessed by conventional X-ray?"
+    },
+    {
+      "criterion": "If unable to select target hand based on the above criteria, a target hand will be randomly assigned.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Random assignment of a target hand is contingent on the inability to select based on prior criteria, which cannot be assessed without further information.",
+      "clinical_question": "Is the patient experiencing moderate to severe pain in the target hand, defined as a pain score of ≥4 on a 0-10 scale?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Comorbidities",
+    "EXCLUSION UNCLEAR: Positive anti-cyclic citrullinated peptide (>10 kU/L)",
+    "EXCLUSION UNCLEAR: Elevated alanine transaminase (>45 U/L females, >70 U/L for males)",
+    "EXCLUSION UNCLEAR: Creatinine clearance ≤60 ml/min",
+    "EXCLUSION UNCLEAR: Elevated creatine kinase (>210 U/L females, >280 U/L for males)",
+    "EXCLUSION UNCLEAR: Known allergies towards the interventions",
+    "EXCLUSION UNCLEAR: Generalised pain syndromes such as fibromyalgia",
+    "EXCLUSION UNCLEAR: Current reflux",
+    "EXCLUSION UNCLEAR: Current or recurrent diarrhoeal illnesses",
+    "EXCLUSION UNCLEAR: Current abdominal pain",
+    "EXCLUSION UNCLEAR: Known peripheral neuropathies",
+    "EXCLUSION UNCLEAR: Any other condition or impairment that, in the opinion of the investigator, make",
+    "EXCLUSION UNCLEAR: Medical history",
+    "EXCLUSION UNCLEAR: History of hand surgery within 12 months prior enrolment.",
+    "EXCLUSION UNCLEAR: History of arthroplasty or arthrodesis in the hand Management strategies",
+    "EXCLUSION UNCLEAR: Treatment with P-glycoprotein inhibitors and/or cytochrome P450 3A4 (CYP3A4) inh",
+    "EXCLUSION UNCLEAR: Reproductive system",
+    "EXCLUSION UNCLEAR: Pregnancy.",
+    "EXCLUSION UNCLEAR: Planned pregnancy within the study period, 3 months after end of study treatment",
+    "EXCLUSION UNCLEAR: Insufficient anti-conception therapy for female fertile participants within the ",
+    "EXCLUSION UNCLEAR: Insufficient anti-conception therapy for male participants within the study peri",
+    "EXCLUSION UNCLEAR: Breast-feeding",
+    "EXCLUSION UNCLEAR: A target hand will be selected for outcome assessment once individual fulfills i",
+    "EXCLUSION UNCLEAR: The hand with most overall pain, assessed by VAS finger joint pain.",
+    "EXCLUSION UNCLEAR: The hand with most overall reduced function, assessed by AUSCAN function subscal",
+    "EXCLUSION UNCLEAR: The hand with most overall stiffness, assessed by AUSCAN stiffness subscale.",
+    "EXCLUSION UNCLEAR: The hand with most swollen joints, assessed by physician joint count.",
+    "EXCLUSION UNCLEAR: The hand with most tender joints, assessed by physician joint count.",
+    "EXCLUSION UNCLEAR: The hand with highest summed radiographic score, assessed by radiographic scorin",
+    "EXCLUSION UNCLEAR: If unable to select target hand based on the above criteria, a target hand will "
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3111
+}

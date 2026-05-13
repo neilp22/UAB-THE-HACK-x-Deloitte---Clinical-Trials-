@@ -1,0 +1,233 @@
+{
+  "nct_id": "NCT00981370",
+  "trial_title": "Clinical Importance of Treating Iron Overload in Sickle Cell Disease",
+  "phase": "PHASE3",
+  "status": "TERMINATED",
+  "brief_summary": "Hypothesis:\n\nThe investigators suspect that significant degrees of iron overload in subjects with SCD result in decreased red cell survival, abnormal endothelial function and markedly dysregulated autonomic function. Furthermore, the investigators anticipate that the magnitude of these effects is proportional not only to the magnitude of total body iron stores but also to the duration of exposure to the high iron levels in tissues.\n\nPrimary objective To determine if red cell survival as assessed",
+  "eligibility_table": [
+    {
+      "criterion": "Male or female patients with sickle cell anemia (SS or SB thalassemia) with transfusional iron overload.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has hemochromatosis, not sickle cell anemia, which does not meet the inclusion criteria.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Currently not on chronic or frequent transfusion",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not currently on chronic or frequent transfusion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age equal or greater than 14 years",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 51.0 >= 14.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with iron overload from repeated blood transfusion, as defined by one of the following:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's iron overload is due to hemochromatosis, not from repeated blood transfusions.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "For patients greater than 16 years old receiving simple transfusions: estimated lifetime history of receipt of at least 100 ml/kg or 15 adult units of packed red blood cells.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient does not have a history of blood transfusions, so this criterion is not applicable.",
+      "clinical_question": "Has the patient received at least 100 ml/kg or 15 adult units of packed red blood cells in their lifetime?"
+    },
+    {
+      "criterion": "For patients equal to or less than 16 years old receiving simple transfusions: estimated lifetime history of receipt of at least 100 ml/kg of packed red blood cells.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is over 16 years old but has no history of blood transfusions, making this criterion not applicable.",
+      "clinical_question": "Has the patient received at least 100 ml/kg of packed red blood cells over their lifetime?"
+    },
+    {
+      "criterion": "For any patient: liver iron content equal/greater than 3 mg Fe/g dw as measured by biopsy or magnetic resonance imaging who have not been adequately chelated since that measurement.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient undergone liver biopsy or magnetic resonance imaging to confirm a liver iron content of ≥3 mg Fe/g dw since the last chelation treatment?"
+    },
+    {
+      "criterion": "a serum ferritin equal/greater than 1000 ng/mL on at least two occasions, at least two weeks apart, during the prior year. Samples must be obtained in the absence of concomitant infection",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Has the patient had a serum ferritin level measured that is equal to or greater than 1000 ng/mL on at least two occasions, at least two weeks apart, during the prior year?"
+    },
+    {
+      "criterion": "Life expectancy equal/greater than 12 months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a life expectancy of at least 12 months based on current clinical assessments and comorbidities?"
+    },
+    {
+      "criterion": "Sexually active women must use an effective method of contraception, or must have undergone clinically documented total hysterectomy and/or oophorectomy, or tubal ligation or be postmenopausal (defined as amenorrhea for at least 12 months)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so this criterion regarding sexually active women does not apply.",
+      "clinical_question": "Has the patient undergone a clinically documented total hysterectomy, oophorectomy, or tubal ligation, or has he been postmenopausal for at least 12 months?"
+    },
+    {
+      "criterion": "Blood transfusion within 12 weeks of the day 0 hemolysis labs",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about recent blood transfusions, making this criterion uncertain.",
+      "clinical_question": "Has the patient received a blood transfusion within the 12 weeks prior to the day 0 hemolysis labs?"
+    },
+    {
+      "criterion": "Currently requires blood transfusion more than three times a year.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not require blood transfusions more than three times a year.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Contraindication to MRI, including cardiac pacemaker, brain aneurysm clip, implanted neurostimulator, insulin pump, cochlear implant, metal slivers in the eyes, intrauterine device or any other MRI incompatible metal implants or intractable claustrophobia.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided regarding MRI contraindications, making this criterion uncertain.",
+      "clinical_question": "Does the patient have any MRI-incompatible metal implants, such as a cardiac pacemaker or cochlear implant?"
+    },
+    {
+      "criterion": "Serum creatinine above the upper limit of normal",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No serum creatinine value is provided, so it cannot be assessed against the upper limit of normal.",
+      "clinical_question": "Is the patient's serum creatinine level above 1.2 mg/dL?"
+    },
+    {
+      "criterion": "Concomitant treatment with erythropoietin or its analogs.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not currently on erythropoietin or its analogs, but there is no explicit information about past treatments.",
+      "clinical_question": "Has the patient received erythropoietin or its analogs in the past 6 months?"
+    },
+    {
+      "criterion": "AST or ALT greater than 250 U/L during screening (patients may be re-screened at a later date if the cause of the elevation is known to be due to a transient process).",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's AST and ALT levels are not provided, but no indication of elevated liver enzymes is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients receiving currently on chelation will be asked to stop for one week before starting or restarting Exjade. (a equal/greater than 1 week washout period prior to first dose of study drug is required)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient is not currently on chelation therapy, but there is no information on past chelation treatments.",
+      "clinical_question": "Has the patient been on chelation therapy for at least 1 week prior to the planned restart of Exjade?"
+    },
+    {
+      "criterion": "History of HIV positive test result (ELISA or Western blot)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no history of HIV positive test results provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of drug or alcohol abuse within the 12 months prior to enrollment",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has no history of drug or alcohol abuse in the past 12 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients with uncontrolled systemic hypertension",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's blood pressure or hypertension status.",
+      "clinical_question": "Does the patient have a systolic blood pressure consistently ≥140 mmHg or diastolic blood pressure consistently ≥90 mmHg?"
+    },
+    {
+      "criterion": "Inclusion criteria for treatment pilot study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The inclusion criteria for the treatment pilot study are not specified, so it's unclear if the patient meets them.",
+      "clinical_question": "Does the patient have a serum ferritin level greater than 1000 μg/L?"
+    },
+    {
+      "criterion": "Meets all inclusion criteria for screening",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The specific inclusion criteria for screening are not detailed, making it uncertain if the patient meets all of them.",
+      "clinical_question": "Does the patient have a serum ferritin level greater than 300 μg/L?"
+    },
+    {
+      "criterion": "LIC by MRI greater than or equal to 8 mg/g.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's liver iron concentration (LIC) by MRI greater than or equal to 8 mg/g?"
+    },
+    {
+      "criterion": "Severe cardiac insufficiency (NYHA III or IV), with uncontrolled and/or unstable cardiac or coronary artery disease not controlled by standard medical therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's cardiac health is not detailed, so it's unclear if they have severe cardiac insufficiency.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) of less than 40% on echocardiogram?"
+    },
+    {
+      "criterion": "Patients with a diagnosis of or history of clinically relevant ocular toxicity related to iron chelation",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of clinically relevant ocular toxicity related to iron chelation in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Systemic diseases (cardiovascular, renal, hepatic, etc.) which would prevent study treatment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has hemochromatosis, which may affect liver function, but no specific systemic diseases are documented that would prevent study treatment.",
+      "clinical_question": "Does the patient have any evidence of cardiovascular, renal, or hepatic dysfunction as indicated by lab values exceeding normal ranges for these systems?"
+    },
+    {
+      "criterion": "Pregnancy (as documented in required screening laboratory test) or breast feeding",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no indication of pregnancy or breastfeeding.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients who received treatment with systemic investigational drug within the past 4 weeks or topical investigational drug within the past 7 days or are planning to receive other investigational drugs while participating in the study",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received any systemic or topical investigational drugs recently and is not planning to receive any.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other surgical or medical condition which might significantly alter the absorption, distribution, metabolism or excretion of study drug",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "While hemochromatosis may affect drug metabolism, there is insufficient information to determine if it significantly alters absorption, distribution, metabolism, or excretion.",
+      "clinical_question": "Does the patient have any gastrointestinal conditions that could affect iron absorption, such as celiac disease or inflammatory bowel disease, that would alter the absorption of the study drug?"
+    },
+    {
+      "criterion": "History of non-compliance to medical regimens or patients who are considered potentially unreliable and/or not cooperative",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no documented history of non-compliance or unreliability in the patient's medical history.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Blood transfusion within 12 weeks of the day 0 hemolysis labs",
+    "EXCLUSION UNCLEAR: Contraindication to MRI, including cardiac pacemaker, brain aneurysm clip, impla",
+    "EXCLUSION UNCLEAR: Serum creatinine above the upper limit of normal",
+    "EXCLUSION UNCLEAR: Concomitant treatment with erythropoietin or its analogs.",
+    "EXCLUSION UNCLEAR: Patients receiving currently on chelation will be asked to stop for one week bef",
+    "EXCLUSION UNCLEAR: Patients with uncontrolled systemic hypertension",
+    "EXCLUSION UNCLEAR: Severe cardiac insufficiency (NYHA III or IV), with uncontrolled and/or unstable",
+    "EXCLUSION UNCLEAR: Systemic diseases (cardiovascular, renal, hepatic, etc.) which would prevent stu",
+    "EXCLUSION UNCLEAR: Other surgical or medical condition which might significantly alter the absorpti",
+    "LOW INCLUSION MATCH: only 2 of 13 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4
+}

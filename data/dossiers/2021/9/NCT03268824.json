@@ -1,0 +1,131 @@
+{
+  "nct_id": "NCT03268824",
+  "trial_title": "Impact of Epileptic Discharge on the Structural Connectivity of the Developing Brain",
+  "phase": "",
+  "status": "RECRUITING",
+  "brief_summary": "Focal epilepsy is associated with widespread alterations in structural brain connectivity, often present at the disease onset and related to learning disabilities. Whether ongoing seizure activity contributes to network pathology is a matter of debate. This study intends to measure the impact of seizures on structural connectivity on a local and on a global level. In children examined with intracerebral electrodes to evaluate whether a surgical cure can be proposed, we combine intracerebral ster",
+  "eligibility_table": [
+    {
+      "criterion": "Drug resistant focal epilepsy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has focal epilepsy with secondary generalization, which is considered drug resistant as he has been on multiple medications without adequate control.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Inclusion Criteria for control patients:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The inclusion criteria for control patients is not applicable to this patient as he has drug resistant focal epilepsy.",
+      "clinical_question": "Does the patient have a history of seizures occurring after the age of 12 years?"
+    },
+    {
+      "criterion": "without drug resistant focal epilepsy",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "This criterion is not applicable to the patient as he has drug resistant focal epilepsy.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe mental retardation (IQ < 50)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe intellectual disability, which aligns with the definition of severe mental retardation (IQ < 50).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lack of French-language skills",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's French-language skills.",
+      "clinical_question": "Does the patient demonstrate proficiency in the French language as assessed by a standardized language proficiency test?"
+    },
+    {
+      "criterion": "Contraindications to MRI",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any contraindications to MRI.",
+      "clinical_question": "Does the patient have any implanted medical devices or metallic foreign bodies that would contraindicate an MRI?"
+    },
+    {
+      "criterion": "Bi-hemispherical epilepsy or affecting multiple lobes",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's epilepsy is focal and does not affect multiple lobes, thus not bi-hemispherical.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Exclusion Criteria for control patients:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "This criterion is not applicable to this patient as he has drug resistant focal epilepsy.",
+      "clinical_question": "Does the patient have a history of any prior neurological surgeries or interventions?"
+    },
+    {
+      "criterion": "Severe mental retardation (IQ < 50)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe intellectual disability, which aligns with the definition of severe mental retardation (IQ < 50).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Lack of French-language skills",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's French-language skills.",
+      "clinical_question": "Does the patient demonstrate proficiency in the French language as assessed by a standardized language proficiency test?"
+    },
+    {
+      "criterion": "Contraindications to MRI",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of anoxic brain injury and atrophic changes in the left temporal lobe, which may complicate MRI interpretation but does not explicitly contraindicate it.",
+      "clinical_question": "Does the patient have any implanted medical devices or metallic foreign bodies that would contraindicate an MRI?"
+    },
+    {
+      "criterion": "Congenital pathology altering cerebral connectivity",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe intellectual disability but no known congenital pathology altering cerebral connectivity is mentioned.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Parenchymal brain lesions",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The presence of atrophic changes on MRI suggests possible parenchymal brain lesions, but further clarification is needed to determine if they meet exclusion criteria.",
+      "clinical_question": "Does the patient have any parenchymal brain lesions as indicated by MRI findings?"
+    },
+    {
+      "criterion": "Unilateral or bilateral blindness",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of unilateral or bilateral blindness in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Unilateral or bilateral deafness",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of unilateral or bilateral deafness in the patient profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Autistic disorders",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe intellectual disability but no mention of autistic disorders is made.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Lack of French-language skills",
+    "EXCLUSION UNCLEAR: Contraindications to MRI",
+    "EXCLUSION UNCLEAR: Exclusion Criteria for control patients:",
+    "EXCLUSION UNCLEAR: Lack of French-language skills",
+    "EXCLUSION UNCLEAR: Contraindications to MRI",
+    "EXCLUSION UNCLEAR: Parenchymal brain lesions"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5625
+}

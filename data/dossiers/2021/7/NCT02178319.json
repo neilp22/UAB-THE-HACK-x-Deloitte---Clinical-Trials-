@@ -1,0 +1,73 @@
+{
+  "nct_id": "NCT02178319",
+  "trial_title": "Laparoscopic Versus Open Devascularization for Portal Hypertension, a Randomized Controlled Trial",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "Many patients with portal hypertension require surgical treatment each year,and Hassab's operation, or esophagogastric devascularization and splenectomy, is an elective procedure. In recent years,laparoscopic esophagogastric devascularization and splenectomy has been used to treat portal hypertension. However, the potential benefits remain to be demonstrated in the context of a randomized trial. In this study, 120 patients will randomize equally receiving laparoscopic or open esophagogastric dev",
+  "eligibility_table": [
+    {
+      "criterion": "The cause of portal hypertension was cirrhosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has Hep C cirrhosis, which is a known cause of portal hypertension.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Platelet count < 50×10^9/ml",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's current platelet count less than 50×10^9/ml?"
+    },
+    {
+      "criterion": "Esophageal and gastric varices revealed",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has grade II esophageal varices, which confirms the presence of varices.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Agreeing the informed consent.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient is willing to participate, informed consent can be obtained.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Thrombosis present in portal vein preoperatively",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the presence of thrombosis in the portal vein.",
+      "clinical_question": "Does the patient have evidence of thrombosis in the portal vein as confirmed by imaging studies such as ultrasound or CT scan?"
+    },
+    {
+      "criterion": "Accompany with liver cancer",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's history of increased AFP raises concern for liver cancer, but no definitive diagnosis is provided.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of liver cancer based on imaging or biopsy results?"
+    },
+    {
+      "criterion": "Operation procedure is laparoscopy converse to open",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The operation procedure type is not specified in the provided information.",
+      "clinical_question": "Has the patient undergone a laparoscopic devascularization procedure instead of an open devascularization procedure?"
+    },
+    {
+      "criterion": "Patients disagree with the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the patient's willingness to participate in the study.",
+      "clinical_question": "Does the patient express any concerns or objections regarding participation in the study protocol?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Thrombosis present in portal vein preoperatively",
+    "EXCLUSION UNCLEAR: Accompany with liver cancer",
+    "EXCLUSION UNCLEAR: Operation procedure is laparoscopy converse to open",
+    "EXCLUSION UNCLEAR: Patients disagree with the study."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.375
+}

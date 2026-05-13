@@ -1,0 +1,49 @@
+{
+  "nct_id": "NCT05341336",
+  "trial_title": "Outcome and Prognostic Factors of Surgical Management of Scalp AVMs.",
+  "phase": "NA",
+  "status": "UNKNOWN",
+  "brief_summary": "Scalp arteriovenous malformations (AVMs) are rarely encountered vascular scalp anomalies that represent 8% of all AVMs. Different terms are being used to describe the vascular anomalies of the scalp include cirsoid aneurysm, racemosum aneurysm, plexiform angioma, arteriovenous fistula and arteriovenous malformation. Derived from the Greek language, kirsos, the term cirsoid aneurysm is used to describe the AVM as it resembles varix. Case studies reported approximately 200 cases with increased pre",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with scalp AVMs confirmed by various imaging techniques. AVMs of the scalp will include: cirsoid aneurysm, serpentinum aneurysm, racemosum aneurysm, plexiform angioma, arteriovenous fistula, high flow shunts and arteriovenous malformations.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has an arteriovenous malformation (AVM) in the brain, not a scalp AVM as specified in the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age group: any age group.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old, which fits within the inclusion of any age group.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Aetiology: congenital, traumatic, or any.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's AVM is likely congenital or traumatic given the history of head injury.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "High risk patients or unfit for surgery.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient's significant hemorrhage and abnormal vasculature suggest a high risk for surgery, but further assessment would be needed to definitively classify her as unfit.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients refused surgery, or scheduled for endovascular intervention.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's willingness to undergo surgery or if she is scheduled for any intervention.",
+      "clinical_question": "Has the patient explicitly refused surgical intervention for the treatment of her arteriovenous malformation (AVM)?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients refused surgery, or scheduled for endovascular intervention."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.8
+}

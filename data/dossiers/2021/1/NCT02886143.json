@@ -1,0 +1,61 @@
+{
+  "nct_id": "NCT02886143",
+  "trial_title": "Effect of Active vs. Passive Voiding Trials on Time to Discharge, Urinary Tract Infection, and Urinary Retention",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "Urinary retention is a common problem, particularly in hospitalized patients. When a Foley catheter is removed, a patient must be monitored for urinary retention. The usual method is a passive voiding trial where the catheter is removed, the bladder fills with urine and the patient is monitored for voiding over approximately 6 hours. Another option is an active voiding trial where the bladder is filled with saline before the catheter is removed and the patient is immediately assisted to void. Th",
+  "eligibility_table": [
+    {
+      "criterion": "Admission to one of three hospital units at the University of Virginia (5 Central, 6 West, or the Short Stay Unit)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not specify whether the patient is currently admitted to one of the specified hospital units.",
+      "clinical_question": "Has the patient been admitted to one of the three specified hospital units (5 Central, 6 West, or the Short Stay Unit) following the active or passive voiding trial?"
+    },
+    {
+      "criterion": "Patient has a Foley urethral catheter in place",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a Foley urethral catheter in place as indicated by the relevant history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The physician has ordered the Foley urethral catheter to be discontinued",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not provide information on whether the physician has ordered the Foley catheter to be discontinued.",
+      "clinical_question": "Has the patient successfully voided ≥300 mL of urine during the active voiding trial without experiencing urinary retention?"
+    },
+    {
+      "criterion": "18 years of age and older",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age less than 18 years",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 < 18.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Prisoners",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is not a prisoner, thus meeting this exclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Women who are pregnant",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male, therefore not applicable to the exclusion criterion regarding pregnant women.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.7143
+}

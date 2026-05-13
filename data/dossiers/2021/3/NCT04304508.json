@@ -1,0 +1,139 @@
+{
+  "nct_id": "NCT04304508",
+  "trial_title": "Study to Gather Information About Proper Dosing and Safety of the Oral FXIa Inhibitor BAY 2433334 in Patients Following a Recent Non Cardioembolic Ischemic Stroke Which Occurs When a Blood Clot Has Formed Somewhere in the Human Body (But Not in the Heart) Travelled to the Brain.",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "The purpose of this study is to try to find the best dose of the new drug BAY 2433334 to give to participants and to look at how well BAY 2433334 works on top of antiplatelet therapy in patients following a recent non cardioembolic ischemic stroke which occurs when a blood clot that has not formed in the heart travelled to the brain. BAY 2433334, works by blocking a step of the blood clotting process in our body and thins the blood and is a so called oral FXIa inhibitor.",
+  "eligibility_table": [
+    {
+      "criterion": "Participant must be 45 years of age and older at the time of signing the informed consent",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "age 32.0 >= 45.0 → False",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Non-cardioembolic ischemic stroke with",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a spontaneous intraventricular hemorrhage, which is not classified as a non-cardioembolic ischemic stroke.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "persistent signs and symptoms of stroke lasting for ≥ 24 hours OR",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have persistent signs and symptoms of stroke lasting for ≥ 24 hours, as the primary issue is hemorrhagic.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "acute brain infarction documented by computed tomography (CT) or MRI AND",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has not been documented to have an acute brain infarction; instead, they have a hemorrhagic event.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "with the intention to be treated with antiplatelet therapy during the study conduct",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The intention to treat with antiplatelet therapy cannot be assessed without further information on the patient's treatment plan.",
+      "clinical_question": "Has the patient been prescribed antiplatelet therapy within the last 30 days?"
+    },
+    {
+      "criterion": "Imaging of brain (CT or MRI) ruling out hemorrhagic stroke or another pathology that could explain symptoms (e.g. brain tumor, abscess, vascular malformation)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "Imaging has shown hemorrhagic stroke (spontaneous intraventricular hemorrhage) and abnormal vasculature, which rules out eligibility.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severity of index event nearest the time of randomization:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Severity of the index event is unclear without specific NIHSS scoring.",
+      "clinical_question": "What is the National Institutes of Health Stroke Scale (NIHSS) score for the patient's most recent ischemic stroke event?"
+    },
+    {
+      "criterion": "Part A: minor stroke (defined as National Institutes of Health Stroke Scale (NIHSS) ≤ 7) can be enrolled",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a National Institutes of Health Stroke Scale (NIHSS) score of ≤ 7?"
+    },
+    {
+      "criterion": "Part B: participants with minor or moderate stroke and NIHSS ≤ 15 can be enrolled. Participants undergoing thrombolysis or endovascular therapy (mechanical thrombectomy) can be enrolled but at the earliest 24 hours after the intervention",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a hemorrhagic stroke, which does not meet the criteria for minor or moderate stroke.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Randomization within 48 hours after the onset of symptoms of the index event (or after patients were last known to be without symptoms in case of wake-up stroke)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not eligible for randomization within 48 hours due to the nature of their condition (hemorrhagic stroke).",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Ability to conduct an MRI either before randomization or within 72 hours after randomization",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The ability to conduct an MRI is uncertain without further information on the patient's current condition and medical facility capabilities.",
+      "clinical_question": "Has the patient undergone an MRI either before randomization or within 72 hours after randomization?"
+    },
+    {
+      "criterion": "Prior ischemic stroke within last 30 days of index event",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of a significant hemorrhagic event, which disqualifies them from having a prior ischemic stroke within the last 30 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "History of atrial fibrillation or suspicion of cardioembolic source of stroke",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of spontaneous intraventricular hemorrhage, but there is no explicit mention of atrial fibrillation or a cardioembolic source of stroke.",
+      "clinical_question": "Does the patient have a documented history of atrial fibrillation or any evidence of a cardioembolic source of stroke based on imaging or clinical evaluation?"
+    },
+    {
+      "criterion": "Dysphagia with inability to safely swallow study medication",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the patient's ability to swallow, so it cannot be determined if dysphagia is present.",
+      "clinical_question": "Does the patient demonstrate a score of ≥3 on the Dysphagia Severity Scale, indicating an inability to safely swallow the study medication?"
+    },
+    {
+      "criterion": "Contraindication to perform brain MRI",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's medical history does not indicate any contraindications for performing a brain MRI, but this cannot be confirmed without further details.",
+      "clinical_question": "Does the patient have any contraindications to performing a brain MRI based on her history of spontaneous intraventricular hemorrhage and arteriovenous malformation (AVM)?"
+    },
+    {
+      "criterion": "Part A only: thrombolysis or endovascular therapy (mechanical thrombectomy) performed for index event",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone thrombolysis or endovascular therapy as per the provided history, but this is not explicitly stated.",
+      "clinical_question": "Did the patient undergo thrombolysis or endovascular therapy (mechanical thrombectomy) for the recent non-cardioembolic ischemic stroke?"
+    },
+    {
+      "criterion": "Active bleeding; known bleeding disorder, history of major bleeding (intracranial, retroperitoneal, intraocular) or clinically significant gastrointestinal bleeding within last 6 months of randomization.",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a significant amount of blood in the right ventricle, which suggests active bleeding or a bleeding disorder.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Prior ischemic stroke within last 30 days of index event",
+    "EXCLUSION UNCLEAR: History of atrial fibrillation or suspicion of cardioembolic source of stroke",
+    "EXCLUSION UNCLEAR: Dysphagia with inability to safely swallow study medication",
+    "EXCLUSION UNCLEAR: Contraindication to perform brain MRI",
+    "EXCLUSION UNCLEAR: Part A only: thrombolysis or endovascular therapy (mechanical thrombectomy) perf",
+    "EXCLUSION VIOLATED: Active bleeding; known bleeding disorder, history of major bleeding (intracrania",
+    "LOW INCLUSION MATCH: only 0 of 11 inclusion criteria met"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.5294
+}

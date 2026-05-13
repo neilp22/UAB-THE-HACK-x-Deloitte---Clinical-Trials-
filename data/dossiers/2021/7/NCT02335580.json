@@ -1,0 +1,100 @@
+{
+  "nct_id": "NCT02335580",
+  "trial_title": "Effect of Portal Vein Thrombosis on the Prognosis of Liver Cirrhosis",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "The prevalence of portal vein thrombosis (PVT) in patients with liver cirrhosis is 5-20%. Current evidence regarding the effect of portal vein thrombosis on the prognosis of cirrhotic patients remains under debate. Considering that PVT potentially elevates the portal pressure and thereby increase the risk of variceal bleeding, we focus on the patients with high-risk varices and variceal bleeding as the study population. Thus, the main goals are to analyze the effect of PVT on the incidence of fi",
+  "eligibility_table": [
+    {
+      "criterion": "A diagnosis of liver cirrhosis.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of liver cirrhosis based on imaging or histological evidence?"
+    },
+    {
+      "criterion": "Patients should be diagnosed with high-risk varices endoscopically, or a prior history of variceal bleeding, or an episode of acute variceal bleeding.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has grade II esophageal varices, which qualifies as high-risk varices.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients agreed to undergo endoscopy to evaluate the presence and severity of varices.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely to agree to endoscopy given the severity of his condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients agreed to undergo contrast-enhanced CT scans to evaluate the portal vein patency. But if an abdominal contrast-enhanced CT scans was performed within 3 months after admission, it was not necessarily repeated.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether a contrast-enhanced CT scan has been performed within the last 3 months.",
+      "clinical_question": "Has the patient undergone a contrast-enhanced CT scan within the last 3 months prior to admission?"
+    },
+    {
+      "criterion": "Non-cirrhotic patients.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of portal vein thrombosis?"
+    },
+    {
+      "criterion": "Malignancy.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Does the patient have a confirmed diagnosis of hepatocellular carcinoma based on imaging or biopsy results?"
+    },
+    {
+      "criterion": "Contrast-enhanced CT scans were neither feasible nor available.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that contrast-enhanced CT scans are unavailable or unfeasible for this patient.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe cardiopulmonary diseases.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of severe cardiopulmonary diseases in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe infectious diseases.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of severe infectious diseases in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pregnant or breastfeeding.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient is male and there is no mention of pregnancy or breastfeeding.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Allergic to contrast agents.",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient is allergic to contrast agents.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Poor adherence.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding the patient's adherence to treatment.",
+      "clinical_question": "Has the patient missed ≥3 doses of prescribed lactulose in the past month?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Non-cirrhotic patients.",
+    "EXCLUSION UNCLEAR: Malignancy.",
+    "EXCLUSION UNCLEAR: Poor adherence."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5833
+}

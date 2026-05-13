@@ -1,0 +1,98 @@
+{
+  "nct_id": "NCT02797158",
+  "trial_title": "Post TAVI Coronary REVASCularisation Guided by Myocardial Perfusion Imaging: a Prospective Open Label Pilot Study: The REVASC-TAVI Study",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "Evaluation of a strategy of selected revascularization guided on myocardial ischemia detection after the TAVI procedure by using single photon emission computed tomography (SPECT) myocardial perfusion imaging.",
+  "eligibility_table": [
+    {
+      "criterion": "Patients older than 18 years",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient over 18 years of age?"
+    },
+    {
+      "criterion": "Severe and symptomatic aortic stenosis defined as a median trans-valvular gradient higher than 40 mmHg and an aortic valve area of less than 1.0 cm2 or 0.6 cm2/m2 on echocardiography associated to significant CAD defined by ≥1 stenosis of ≥70% in a major epicardial coronary artery or ≥50% for left main",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's echocardiography results are not provided, so the trans-valvular gradient and aortic valve area cannot be confirmed.",
+      "clinical_question": "Is the patient's trans-valvular gradient greater than 40 mmHg and is the aortic valve area less than 1.0 cm² or 0.6 cm²/m² on echocardiography?"
+    },
+    {
+      "criterion": "Patients is not candidate for surgical aortic valve replacement after the multidisciplinary heart team decision.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and is likely not a candidate for surgical replacement based on the severity of their condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Recent acute coronary syndrome (within 30 days before randomization)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information is provided about any recent acute coronary syndrome events.",
+      "clinical_question": "Has the patient experienced an acute coronary syndrome event, such as unstable angina or myocardial infarction, within the last 30 days?"
+    },
+    {
+      "criterion": "Unprotected left main disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's coronary artery status is not fully detailed; specifically, left main disease is not mentioned.",
+      "clinical_question": "Does the patient have a left main coronary artery stenosis of ≥50%?"
+    },
+    {
+      "criterion": "Critical stenosis (>90%) of Left Anterior Descending artery (LAD)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The degree of stenosis in the LAD is not specified, making it unclear if it is critical.",
+      "clinical_question": "Does the patient have a coronary angiogram that shows critical stenosis (>90%) of the Left Anterior Descending artery (LAD)?"
+    },
+    {
+      "criterion": "Significant angina (CCS class more than 2)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's angina class is not provided, so it cannot be determined if it is significant.",
+      "clinical_question": "Does the patient report a level of angina classified as CCS class 3 or higher?"
+    },
+    {
+      "criterion": "Active bleeding",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of active bleeding in the patient's profile.",
+      "clinical_question": "Has the patient experienced any active bleeding episodes within the last 30 days?"
+    },
+    {
+      "criterion": "Contraindication for tomographic technetium-99 assessment or dipyridamole injection",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No contraindications for tomographic assessment or dipyridamole injection are mentioned.",
+      "clinical_question": "Does the patient have any history of allergic reactions to technetium-99 or contraindications for dipyridamole injection, such as severe asthma or recent myocardial infarction?"
+    },
+    {
+      "criterion": "Previous enrollment in a other study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding previous enrollment in other studies.",
+      "clinical_question": "Has the patient previously enrolled in any clinical trial within the last 12 months?"
+    },
+    {
+      "criterion": "Impossibly to obtain consent",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The ability to obtain consent is not addressed in the patient's profile.",
+      "clinical_question": "Is the patient currently able to provide informed consent for participation in the REVASC-TAVI study based on their cognitive and physical status?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Recent acute coronary syndrome (within 30 days before randomization)",
+    "EXCLUSION UNCLEAR: Unprotected left main disease",
+    "EXCLUSION UNCLEAR: Critical stenosis (>90%) of Left Anterior Descending artery (LAD)",
+    "EXCLUSION UNCLEAR: Significant angina (CCS class more than 2)",
+    "EXCLUSION UNCLEAR: Active bleeding",
+    "EXCLUSION UNCLEAR: Contraindication for tomographic technetium-99 assessment or dipyridamole inject",
+    "EXCLUSION UNCLEAR: Previous enrollment in a other study",
+    "EXCLUSION UNCLEAR: Impossibly to obtain consent"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.0909
+}

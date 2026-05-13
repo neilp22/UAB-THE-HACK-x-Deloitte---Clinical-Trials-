@@ -1,0 +1,153 @@
+{
+  "nct_id": "NCT04864145",
+  "trial_title": "Transcatheter Self-expandable Valve Implantation for the Treatment of Severe Native Aortic Regurgitation",
+  "phase": "NA",
+  "status": "RECRUITING",
+  "brief_summary": "Prospective, multicenter, randomized trial.",
+  "eligibility_table": [
+    {
+      "criterion": "Procedural indications: symptomatic severe aortic regurgitation; no symptom plus left ventricular ejection fraction ≤ 55% or left ventricular end-diastolic dimension (LVEDD) > 65mm or left ventricular end-systolic dimension (LVESD) > 50mm;",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis with an EF of 25%, which meets the criteria for procedural indications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe aortic valve regurgitation, and mean pressure gradient < 20mmHg; Annular perimeter ≤ 85 mm;",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has aortic stenosis, not regurgitation, and the mean pressure gradient is not provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "The ratio of the perimeter of the left ventricular outflow tract 4mm to the perimeter of the valve annulus is 0.95-1.05;",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The ratio of the perimeter of the left ventricular outflow tract to the valve annulus is not provided.",
+      "clinical_question": "What is the measured perimeter of the left ventricular outflow tract in millimeters?"
+    },
+    {
+      "criterion": "STS score ≥8 or moderate to severe frailty or refused surgical valve replacement or presence of any of the following factors judged to be difficult to perform the surgical valve replacement:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a high risk profile due to severe LV dysfunction and other comorbidities, likely leading to an STS score ≥8.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Severe aorta calcification or active ascending aorta atherosclerotic plaque",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Severe aorta calcification or active atherosclerotic plaque is not explicitly mentioned in the profile.",
+      "clinical_question": "Does the patient have severe aortic calcification defined as a calcium score greater than 400 Agatston units or evidence of active ascending aorta atherosclerotic plaque on imaging?"
+    },
+    {
+      "criterion": "History of mediastinum radiotherapy",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no history of mediastinum radiotherapy in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Past mediastinitis",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no mention of past mediastinitis in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Presence of unobstructed coronary bypass implants",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have unobstructed coronary bypass implants mentioned in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Previous more than two cardiothoracic surgeries",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no indication of previous more than two cardiothoracic surgeries in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Liver cirrhosis",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have liver cirrhosis as per the provided profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other surgical risk factors",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has multiple surgical risk factors due to severe aortic stenosis and worsening LV function, but specific details on other surgical risk factors are not provided.",
+      "clinical_question": "Does the patient have a Society of Thoracic Surgeons (STS) predicted risk of mortality score ≥8%?"
+    },
+    {
+      "criterion": "Age < 60 years old;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient's age less than 60 years old?"
+    },
+    {
+      "criterion": "Ascending aorta diameter >45mm;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the diameter of the patient's ascending aorta greater than 45mm?"
+    },
+    {
+      "criterion": "Coronary multi-vessel disease (SYNTAX score >32);",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's SYNTAX score?"
+    },
+    {
+      "criterion": "Life expectancy <1 year;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "What is the patient's estimated life expectancy based on current clinical assessments and prognostic indicators?"
+    },
+    {
+      "criterion": "Left ventricular ejection fraction <30%;",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's left ventricular ejection fraction currently measured at less than 30%?"
+    },
+    {
+      "criterion": "Acute myocardial infarction within 30 days;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of an acute myocardial infarction within the last 30 days in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Allergies or contraindications to related drugs (aspirin, clopidogrel, warfarin, or contrast agents);",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "No allergies or contraindications to the specified drugs are mentioned in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Other situations judged by the researcher as unsuitable for participating in the study.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's complex medical history and severe conditions may raise concerns, but without specific criteria from the researcher, it is uncertain.",
+      "clinical_question": "Does the patient have a left ventricular ejection fraction (LVEF) of ≥30%?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Age < 60 years old;",
+    "EXCLUSION UNCLEAR: Ascending aorta diameter >45mm;",
+    "EXCLUSION UNCLEAR: Coronary multi-vessel disease (SYNTAX score >32);",
+    "EXCLUSION UNCLEAR: Life expectancy <1 year;",
+    "EXCLUSION UNCLEAR: Left ventricular ejection fraction <30%;",
+    "EXCLUSION UNCLEAR: Other situations judged by the researcher as unsuitable for participating in the",
+    "LOW INCLUSION MATCH: only 2 of 11 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5263
+}

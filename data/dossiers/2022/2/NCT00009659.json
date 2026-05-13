@@ -1,0 +1,215 @@
+{
+  "nct_id": "NCT00009659",
+  "trial_title": "Use of the Synthetic Hormone CDB-2914 in Treating Symptoms of Menopause",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "This study will examine the safety and effectiveness of a synthetic hormone, CDB-2914, for treating symptoms of menopause. It will compare the effects of estrogen and CDB-2914 with those of estrogen and progesterone in postmenopausal women. The study will also evaluate whether CDB-2914 affects adrenal gland function. CDB-2914 is chemically similar to cortisol, a hormone that is produced by the adrenal glands and regulates the body's response to stresses, such as infection or injury.\n\nHealthy wom",
+  "eligibility_table": [
+    {
+      "criterion": "Participants must be female gender.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "criterion targets female; patient is female",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants age must be 45-70 years inclusive.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The participant is 32 years old, which is below the required age range of 45-70 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants FSH must be greater than 20 mlU/mL assay (this is a two-site immunofluorescent assay, Abbott Labs, post-menopausal range greater than 20).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "FSH levels are not provided in the profile, making it impossible to assess this criterion.",
+      "clinical_question": "Is the patient's serum FSH level greater than 20 mlU/mL?"
+    },
+    {
+      "criterion": "Participants must have 12 month or greater history of amenorrhea.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The participant has a history of menstruation with the last menstrual period being 10 weeks ago, which does not meet the 12 month amenorrhea requirement.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No current use of any sex steroid hormone replacement therapy (including selective estrogen receptor modulators) including transdermal, injectable, vaginal and oral preparations and willingness to abstain from such use during the study.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The participant is not currently using any sex steroid hormone replacement therapy, as indicated by the absence of medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants BMI 19-30.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "BMI is not provided in the profile, making it impossible to assess this criterion.",
+      "clinical_question": "What is the patient's current body mass index (BMI)?"
+    },
+    {
+      "criterion": "Participants must have a normal mammogram and pap smear at study entry.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding the participant's mammogram and pap smear results.",
+      "clinical_question": "Has the patient had a normal mammogram and a normal pap smear within the last 12 months?"
+    },
+    {
+      "criterion": "Participants must be able and willing to maintain a minimum daily intake of 1000 mg calcium from dietary sources and/or supplements for the duration of the study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The participant's ability to maintain a minimum daily intake of calcium is not addressed in the profile.",
+      "clinical_question": "Is the patient currently consuming at least 1000 mg of calcium daily from dietary sources and/or supplements?"
+    },
+    {
+      "criterion": "Participants must have a normal pro-time and PTT at screening visit.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Pro-time and PTT results are not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Does the patient have a pro-time and PTT within the normal range at the screening visit?"
+    },
+    {
+      "criterion": "Participants must be able to read and speak English fluently so as to allow accurate self-administration of medication, recording of symptoms and unassisted completion of weekly questionnaire.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The participant's fluency in English is not mentioned in the profile.",
+      "clinical_question": "Can the patient read and speak English fluently to ensure accurate self-administration of medication and completion of weekly questionnaires?"
+    },
+    {
+      "criterion": "Participants must be in good health. Chronic medication use, except for glucocorticoid use or sex hormone replacement therapy, may be acceptable at the discretion of the principal investigator. Interval use of over-the-counter counter drugs, other than aspirin or NSAIDs, is acceptable but must be recorded.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The overall health status of the participant is not clearly defined, and chronic medication use is not applicable as no medications are listed.",
+      "clinical_question": "Does the patient have any chronic medical conditions that would disqualify her from being considered in good health?"
+    },
+    {
+      "criterion": "Participants hemoglobin must be greater than 10 g/dL.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's hemoglobin level greater than 10 g/dL?"
+    },
+    {
+      "criterion": "Participants must be willing and able to self-administer daily medication, to complete self-administered questionnaires, to record daily symptoms and to return to the Clinical Center for weekly follow-up appointments for a minimum of 8 continuous weeks.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is likely able to self-administer medication and complete questionnaires, as there are no indications of cognitive or physical impairments.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants with a history of diabetes mellitus type I or II are not eligible.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of diabetes mellitus type I or II in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants with a history of malignancy within the past 5 years are not eligible.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has no reported history of malignancy within the past 5 years.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants must not have a current use (within 90 days of study entry) of drugs that affect bone turnover and mineral metabolism such as bisphophonates, parathyroid hormone, hydrochlorothiazide and calcitonin.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of current use of drugs affecting bone turnover or mineral metabolism.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants with triglyceride level of 500 mg/ml or greater at initial visit are not eligible.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "What is the patient's triglyceride level?"
+    },
+    {
+      "criterion": "Participants must not use cholesterol-lowering medication currently or within 6 weeks of study entry.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not reported to be using cholesterol-lowering medications.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants with tobacco use currently or within 90 days of study entry are not eligible.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of current tobacco use or use within the past 90 days.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants with a history of diseases that alter mineral metabolism such as hyperparathyroidism, chronic renal insufficiency and hemodialysis are not eligible.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have a history of diseases that alter mineral metabolism.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants requiring ongoing anti-inflammatory medication (e.g., aspirin, NSAIDs) whether prescribed or over the counter are not eligible.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient requires ongoing anti-inflammatory medication.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants with current use of anticoagulants (e.g. Warfarin, heparin), anti-platelet drugs or history of bleeding disorder are not eligible.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not reported to be using anticoagulants or anti-platelet drugs.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants must not use OTC herbal or alternative treatments for hot flashes or other menopausal symptoms, such as DHEA, soy protein supplements, or other phytoestrogens within two months of study entry, and unwillingness to abstain from these products during the study.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's use of OTC herbal or alternative treatments is not documented, making it unclear if they are using such products.",
+      "clinical_question": "Has the patient used any OTC herbal or alternative treatments for hot flashes or other menopausal symptoms within the last two months?"
+    },
+    {
+      "criterion": "Participants must not use drugs that affect the frequency of intensity of hot flashes such as clonidine or SSRI's within 2 months of study entry.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is not reported to be using any medications that affect hot flashes, indicating compliance with this criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants must not have ischemic heart disease (e.g. angina, myocardial infarction or congestive heart failure).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication in the patient's profile of ischemic heart disease, making this criterion likely met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants must not have significant abnormalities in the history, physical or laboratory examination.",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a history of vaginal spotting and complicated UTIs, which may indicate significant abnormalities.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants must not a history of venous thromboembolic events including deep vein thrombosis (DVT), pulmonary embolism, retinal vein thrombosis.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of a history of venous thromboembolic events in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants must not a history of stroke, complicated migraine, documented transient ischemic attack or uncontrolled hypertension.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have a documented history of stroke, complicated migraine, or uncontrolled hypertension.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Participants must not absence of the uterus (hysterectomy).",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has a uterus, as there is no mention of a hysterectomy in the profile.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6552
+}

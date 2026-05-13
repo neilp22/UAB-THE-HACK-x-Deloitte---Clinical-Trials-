@@ -1,0 +1,79 @@
+{
+  "nct_id": "NCT01687543",
+  "trial_title": "Probiotics for Reduction of Infections With Clostridium Difficile in Critically Ill Patients",
+  "phase": "NA",
+  "status": "TERMINATED",
+  "brief_summary": "Symptoms of Clostridium difficile infection is almost always induced as a complication to the use of antibiotics. Most ICU patients are given antibiotics.\n\nProbiotics has the ability to improve conditions in the gut and it has been shown in some smaller studies that overgrowth of C. difficile can be reduced or prevented.\n\nIn this study the intention is to show with sufficient statistical power that a mixture of two otherwise well studied probiotic strains reduces or prevents the incidence of eme",
+  "eligibility_table": [
+    {
+      "criterion": "Anticipated need for intensive care 3 days or longer",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has End Stage Renal Disease and has been admitted to the ICU, indicating a likely need for intensive care for 3 days or longer.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients condition allowing enteral nutrition to be started within 24 h from ICU admission",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ability to start enteral nutrition within 24 hours is uncertain due to her current condition and ongoing sepsis.",
+      "clinical_question": "Is the patient able to start enteral nutrition within 24 hours of ICU admission?"
+    },
+    {
+      "criterion": "Antibiotics on-going or planned",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is currently on antibiotics (Vancomycin and Metronidazole) for her C. difficile infection.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known positive test for Clostridium difficile within the last week",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a history of C. difficile infection and is currently being treated, which suggests a positive test could be recent but not necessarily within the last week.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Known ulcers in the mouth, oropharynx, esophagus and stomach",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about known ulcers in the mouth, oropharynx, esophagus, or stomach.",
+      "clinical_question": "Does the patient have any documented ulcers in the mouth, oropharynx, esophagus, or stomach as assessed by a recent endoscopy or clinical examination?"
+    },
+    {
+      "criterion": "Known immune deficiencies",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has End Stage Renal Disease, which is a significant condition that can be considered an immune deficiency.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Enteral nutrition contra indicated",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no specific information provided about contraindications for enteral nutrition.",
+      "clinical_question": "Is the patient currently unable to receive enteral nutrition due to gastrointestinal obstruction or severe intolerance?"
+    },
+    {
+      "criterion": "Pancreatitis as admission diagnosis at the hospital or at the ICU",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of pancreatitis as an admission diagnosis based on the provided information.",
+      "clinical_question": "Does the patient have a documented diagnosis of pancreatitis at the time of hospital or ICU admission?"
+    },
+    {
+      "criterion": "ICU admission earlier during this period of illness Patient being moribund",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has been admitted to the ICU, indicating a serious condition, and has a history of being moribund due to sepsis.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Known ulcers in the mouth, oropharynx, esophagus and stomach",
+    "EXCLUSION UNCLEAR: Enteral nutrition contra indicated",
+    "EXCLUSION UNCLEAR: Pancreatitis as admission diagnosis at the hospital or at the ICU"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5556
+}

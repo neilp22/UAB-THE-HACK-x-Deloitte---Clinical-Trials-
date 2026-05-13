@@ -1,0 +1,166 @@
+{
+  "nct_id": "NCT00726830",
+  "trial_title": "Methadone, Morphine, or Oxycodone in Treating Pain in Patients With Cancer",
+  "phase": "NA",
+  "status": "TERMINATED",
+  "brief_summary": "RATIONALE: Methadone, morphine, or oxycodone may help relieve pain caused by cancer. It is not yet known whether methadone is more effective than morphine or oxycodone in treating pain in patients with cancer.\n\nPURPOSE: This randomized clinical trial is studying methadone to see how well it works compared with morphine or oxycodone in treating pain in patients with cancer.",
+  "eligibility_table": [
+    {
+      "criterion": "Receiving ongoing care in the outpatient medical oncology setting",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is receiving ongoing care for their conditions, including treatment for anaplastic astrocytoma.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Self-reported pain (of any cause) for which long-acting strong opioids (morphine or oxycodone) have been prescribed or administered",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has chronic pain and is on high-dose steroids, which suggests they may be receiving strong opioids.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Oral morphine-equivalent daily dose (MEDD) of existing opioid regimen (long-acting or immediate-release) 40-300 mg/day",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The specific oral morphine-equivalent daily dose (MEDD) is not provided in the profile.",
+      "clinical_question": "What is the patient's current oral morphine-equivalent daily dose (MEDD) of their existing opioid regimen?"
+    },
+    {
+      "criterion": "Worst pain score on a scale of 0 (no pain) to 10 (worst pain) of ≥ 5 for ≥ 1 week duration based on verbal self-report AND/OR ≥ 1 persistently bothersome symptom attributed to an opioid side effect",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The worst pain score is not explicitly mentioned in the profile.",
+      "clinical_question": "Has the patient reported a worst pain score of ≥5 on a scale of 0 to 10 for at least one week?"
+    },
+    {
+      "criterion": "None of the following conditions that could predispose the patient to prolonged QT interval-associated tachycardia:",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of conditions that predispose the patient to prolonged QT interval-associated tachycardia.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Serum potassium < 3.0 mg/dL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Serum potassium levels are not provided in the profile.",
+      "clinical_question": "Is the patient's serum potassium level currently < 3.0 mg/dL?"
+    },
+    {
+      "criterion": "Cocaine abuse within the past 3 months",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no mention of cocaine abuse in the patient's history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Family history of sudden death",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "There is no indication of a family history of sudden death in the profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Advanced heart failure (ejection fraction < 40% and/or New York Heart Association (NYHA) class III or IV heart disease)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's ejection fraction or NYHA class is not provided, so advanced heart failure status is unknown.",
+      "clinical_question": "Does the patient have an ejection fraction of less than 40% or a New York Heart Association (NYHA) classification of III or IV?"
+    },
+    {
+      "criterion": "No known or suspected cognitive impairment that could interfere with adherence to the medication plan or self-report of symptoms and side effects",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding cognitive impairment in the patient's profile.",
+      "clinical_question": "Does the patient have a documented cognitive assessment score of ≥24 on the Mini-Mental State Examination (MMSE)?"
+    },
+    {
+      "criterion": "Not pregnant or nursing",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Is the patient currently pregnant or nursing?"
+    },
+    {
+      "criterion": "Fertile patients must use effective contraception",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient's fertility status and contraception use are not provided.",
+      "clinical_question": "Is the patient currently using an effective form of contraception, such as a hormonal method, barrier method, or intrauterine device, as defined by clinical guidelines?"
+    },
+    {
+      "criterion": "More than 4 weeks since prior radiotherapy or surgery for local control of cancer or pain palliation",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient undergone any radiotherapy or surgery for local control of cancer or pain palliation within the last 4 weeks?"
+    },
+    {
+      "criterion": "More than 60 days since prior use of the same long-acting opioid (i.e., the new long-acting opioid) that patient is switching to on the study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient used any long-acting opioid within the last 60 days?"
+    },
+    {
+      "criterion": "More than 12 weeks since prior methadone therapy",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient completed methadone therapy more than 12 weeks ago?"
+    },
+    {
+      "criterion": "More than 3 days since prior and no concurrent transdermal fentanyl, oxymorphone, or buprenorphine",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient received any transdermal fentanyl, oxymorphone, or buprenorphine in the past 3 days?"
+    },
+    {
+      "criterion": "Concurrent systemic anticancer therapy or bisphosphonates allowed provided therapy was initiated ≥ 4 weeks ago",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient's systemic therapy (Avastin and CPT-11) was initiated more than 4 weeks ago.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Concurrent tricyclic antidepressants, Nonsteroidal Antiinflammatory Drugs (NSAIDs), anticonvulsants, or other adjuvant analgesics or psychostimulants allowed provided therapy was initiated ≥ 2 weeks ago",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is on high-dose steroids and other medications, but no specific start date is provided; however, they are likely to have been on them for more than 2 weeks.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Dose expected to remain stable until after the first week of opioid rotation on study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No information on whether the dose of opioids is stable or if opioid rotation is planned.",
+      "clinical_question": "Has the patient's opioid dose remained stable for at least 7 days prior to the rotation to methadone, morphine, or oxycodone?"
+    },
+    {
+      "criterion": "No concurrent methadone maintenance therapy for opioid addiction",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No mention of methadone maintenance therapy for opioid addiction.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent intrathecal infusion of analgesics",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No mention of concurrent intrathecal infusion of analgesics.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "No concurrent antiarrhythmic medications (e.g., amiodarone or quinidine)",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "No mention of concurrent antiarrhythmic medications.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4545
+}

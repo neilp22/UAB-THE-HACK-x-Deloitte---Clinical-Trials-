@@ -1,0 +1,26 @@
+{
+  "nct_id": "NCT01801488",
+  "trial_title": "Genome-wide Analysis of Single Nucleotide Polymorphisms of Brain Arteriovenous Malformations and Cerebral Aneurysm",
+  "phase": "",
+  "status": "TERMINATED",
+  "brief_summary": "Test single nucleotide polymorphisms (SNP's) in ruptured and unruptured aneurysm tissue to identify a genetic difference between the two types of aneurysms; and to test SNP's in arteriovenous malformation tissue to identify a genetic link.",
+  "eligibility_table": [
+    {
+      "criterion": "All adult patients between the ages of 18 and 89 that are having open surgical resection of an AVM or clipping of an aneurysm will be included",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old, which falls within the age range of 18 to 89, and has a condition (AVM) that is relevant for the trial.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "All adult patients between the ages of 18 and 89 that are having open surgical resection of an AVM or clipping of an aneurysm will be included",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 32 years old, which falls within the age range of 18 to 89, and has a condition (AVM) that is relevant for the trial.",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE",
+  "confidence_score": 1.0
+}

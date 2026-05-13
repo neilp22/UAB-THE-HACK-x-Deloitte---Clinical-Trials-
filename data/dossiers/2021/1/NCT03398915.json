@@ -1,0 +1,56 @@
+{
+  "nct_id": "NCT03398915",
+  "trial_title": "The European Robotic Spinal Instrumentation (EUROSPIN) Study",
+  "phase": "",
+  "status": "ACTIVE_NOT_RECRUITING",
+  "brief_summary": "In a multinational prospective study, preoperative, intraoperative, perioperative and follow-up data on patients receiving thoracolumbar pedicle screw placement for degenerative disease or infections or tumors will be collected. The three arms consist of robot-guided (RG), navigated (NV), or freehand (FH) screw insertion.",
+  "eligibility_table": [
+    {
+      "criterion": "Informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 45 years old and can provide informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Thoracolumbar pedicle screw placement",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not specify if thoracolumbar pedicle screw placement is indicated or not.",
+      "clinical_question": "Has the patient undergone imaging studies to confirm the presence and anatomical integrity of the thoracolumbar pedicles for screw placement?"
+    },
+    {
+      "criterion": "Indication for surgery: Degenerative pathologies (stenosis, spondylolisthesis, degenerative disc disease, recurrent disc herniation), infections, tumors, fractures, trauma",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has an unresectable tumor, which qualifies as an indication for surgery.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age ≥ 18",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 45.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Deformity surgery",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient does not have a deformity surgery indicated in their history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": ">5 index levels",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not specify the number of index levels involved.",
+      "clinical_question": "Does the patient have more than 5 index levels affected by the anaplastic astrocytoma of the spine?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: >5 index levels"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6667
+}

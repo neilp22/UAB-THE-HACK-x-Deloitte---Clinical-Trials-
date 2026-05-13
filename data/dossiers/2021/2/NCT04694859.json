@@ -1,0 +1,106 @@
+{
+  "nct_id": "NCT04694859",
+  "trial_title": "Romanian National Registry of Outcomes After Transcatheter Aortic Valve Implantation in Patients With Severe Aortic Stenosis - RO-TAVI",
+  "phase": "",
+  "status": "UNKNOWN",
+  "brief_summary": "RO-TAVI is a national prospective, observational, multi-center registry registry of patients with aortic valve stenosis undergoing transcatheter aortic valve implantation (TAVI) to assess patient care and outcomes.",
+  "eligibility_table": [
+    {
+      "criterion": "severe symptomatic aortic valve stenosis",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe aortic stenosis and is symptomatic, which meets the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "high risk or patients deemed amenable for TAVI by a multidisciplinary team",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is considered high risk due to severe LV dysfunction and has undergone a preoperative workup, suggesting he is amenable for TAVI.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "signed informed consent to participate in the study",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient signed the informed consent form for participation in the RO-TAVI study?"
+    },
+    {
+      "criterion": "inadequate annulus size (<18 mm, >29 mm)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The annulus size is not provided in the profile, making it unclear if it meets the size criteria.",
+      "clinical_question": "What is the measured annulus size in millimeters for this patient?"
+    },
+    {
+      "criterion": "left ventricle thrombus",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of a left ventricle thrombus in the provided history.",
+      "clinical_question": "Does the patient have evidence of a left ventricular thrombus on echocardiogram or cardiac MRI?"
+    },
+    {
+      "criterion": "active endocarditis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of active endocarditis in the patient's profile.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of active endocarditis based on positive blood cultures or echocardiographic evidence of vegetations?"
+    },
+    {
+      "criterion": "high risk of coronary ostium obstruction",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The risk of coronary ostium obstruction is not assessed in the provided information.",
+      "clinical_question": "Does the patient have a coronary artery anatomy that presents a ≥50% risk of obstruction at the coronary ostia during transcatheter aortic valve implantation?"
+    },
+    {
+      "criterion": "plaques with mobile thrombi in the ascending aorta, or arch",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The presence of plaques is noted, but there is no specific mention of mobile thrombi.",
+      "clinical_question": "Does the patient have any mobile thrombi present in the ascending aorta or arch as identified on preoperative imaging studies?"
+    },
+    {
+      "criterion": "hemodynamic instability",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's hemodynamic status is not explicitly stated, making it unclear if he is hemodynamically unstable.",
+      "clinical_question": "Has the patient experienced a drop in systolic blood pressure to <90 mmHg or a need for intravenous vasopressors within 24 hours post-transcatheter aortic valve implantation?"
+    },
+    {
+      "criterion": "estimated life expectancy <1 year",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The estimated life expectancy is not provided, so it cannot be determined if it is less than 1 year.",
+      "clinical_question": "What is the patient's estimated life expectancy in months based on current clinical assessments and prognostic models?"
+    },
+    {
+      "criterion": "comorbidity suggesting lack of improvement of quality of life",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no clear indication of comorbidities that would suggest a lack of improvement in quality of life.",
+      "clinical_question": "Has the patient reported a quality of life score of ≤50 on the EQ-5D scale post-transcatheter aortic valve implantation?"
+    },
+    {
+      "criterion": "other situations adjudicated by the local HeartTeam",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's eligibility regarding local HeartTeam adjudications is unclear without specific information on the HeartTeam's decisions.",
+      "clinical_question": "Has the local HeartTeam assessed the patient's candidacy for transcatheter aortic valve implantation based on the severity of his aortic stenosis and left ventricular function?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: inadequate annulus size (<18 mm, >29 mm)",
+    "EXCLUSION UNCLEAR: left ventricle thrombus",
+    "EXCLUSION UNCLEAR: active endocarditis",
+    "EXCLUSION UNCLEAR: high risk of coronary ostium obstruction",
+    "EXCLUSION UNCLEAR: plaques with mobile thrombi in the ascending aorta, or arch",
+    "EXCLUSION UNCLEAR: hemodynamic instability",
+    "EXCLUSION UNCLEAR: estimated life expectancy <1 year",
+    "EXCLUSION UNCLEAR: comorbidity suggesting lack of improvement of quality of life",
+    "EXCLUSION UNCLEAR: other situations adjudicated by the local HeartTeam"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1667
+}

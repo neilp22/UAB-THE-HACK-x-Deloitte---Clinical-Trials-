@@ -1,0 +1,246 @@
+{
+  "nct_id": "NCT00707122",
+  "trial_title": "Volume Replacement With Albumin in Severe Sepsis",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "BACKGROUND The association between mortality and hypoalbuminemia has been observed in several diseases. Nonetheless, the efficacy of albumin on survival in critically ill patients is controversial. Several meta-analyses have reported either negative, neutral, or beneficial effects of albumin administration. To clarify this controversy, a large multicenter prospective study has been performed, comparing the effects of 4% albumin vs. saline for volume replacement in critically ill patients. Althou",
+  "eligibility_table": [
+    {
+      "criterion": "Patients with severe sepsis or septic shock, if each one of the following criteria is satisfied:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have severe sepsis or septic shock as there is no indication of infection or systemic inflammatory response.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Proved or suspected infection in at least one site:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "There is no proved or suspected infection in the patient's profile.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "lung",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No lung infection is indicated in the patient's medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "abdomen",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No abdominal infection is indicated in the patient's medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "genito-urinary tract",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No genito-urinary tract infection is indicated in the patient's medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "other (blood, skin and soft tissue, central nervous system, bones and joints, cardiac system, catheter-related infection, other)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No other infections (blood, skin, etc.) are indicated in the patient's medical history.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Two or more of the following:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not meet the criteria of having two or more signs of severe sepsis or septic shock.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "a core temperature ≥ 38° C o ≤ 36° C",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient's core temperature is not provided, but there is no indication of fever or hypothermia.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "a heart rate ≥ 90 beats/min",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's heart rate currently ≥90 beats per minute?"
+    },
+    {
+      "criterion": "a respiratory rate ≥ 20 breaths/min or PaCO2 ≤ 32 mmHg or use of mechanical ventilation for an acute process",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No respiratory rate or PaCO2 values are provided, and there is no indication of respiratory distress.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "PaCO2 ≤ 32 mmHg",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's arterial blood gas analysis showing a PaCO2 level of ≤ 32 mmHg?"
+    },
+    {
+      "criterion": "use of mechanical ventilation for an acute process",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is not using mechanical ventilation for an acute process.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Age below 18 years",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Is the patient currently under 18 years of age?"
+    },
+    {
+      "criterion": "Terminal state",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's terminal state is not explicitly mentioned, but severe aortic stenosis and worsening LV function suggest a serious condition.",
+      "clinical_question": "Has the patient experienced a decline in clinical status leading to a life expectancy of less than 6 months due to severe sepsis?"
+    },
+    {
+      "criterion": "Known adverse reaction to albumin administration",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any known adverse reactions to albumin administration.",
+      "clinical_question": "Has the patient experienced any known allergic reactions or anaphylaxis to albumin or any of its components in the past?"
+    },
+    {
+      "criterion": "Severe sepsis or septic shock in patients after proved or suspected head injury, clinically active",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's profile does not indicate severe sepsis or septic shock, but this information is not explicitly stated.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of severe sepsis or septic shock following a head injury?"
+    },
+    {
+      "criterion": "Congestive heart failure (NYHA score III and IV)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has severe global hypokinesis and an EF of 25%, which indicates NYHA class IV heart failure.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pathological conditions in which albumin administration is clinically indicated (hepatic cirrhosis with ascites, intestinal malabsorption syndrome, nephritic syndrome, burns)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no indication of conditions where albumin administration is clinically indicated.",
+      "clinical_question": "Does the patient have a serum albumin level <2.5 g/dL indicating the need for albumin administration?"
+    },
+    {
+      "criterion": "More than 24 hours since inclusion criteria were met",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the timing of when inclusion criteria were met.",
+      "clinical_question": "Has the patient been monitored for more than 24 hours since the inclusion criteria for volume replacement with albumin were met?"
+    },
+    {
+      "criterion": "Religious objection to the administration of human blood products",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding any religious objections to human blood products.",
+      "clinical_question": "Does the patient have a documented religious objection to the administration of human blood products?"
+    },
+    {
+      "criterion": "Inclusion in other experimental study",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating the patient is enrolled in another experimental study.",
+      "clinical_question": "Has the patient participated in any experimental study involving volume replacement with albumin in the past 6 months?"
+    },
+    {
+      "criterion": "a white blood cell count ≥ 12000/ml or ≤ 4000/ml or immature neutrophils > 10%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's white blood cell count is not provided, so this criterion cannot be assessed.",
+      "clinical_question": "Does the patient have a white blood cell count ≥ 12000/ml or ≤ 4000/ml or immature neutrophils > 10%?"
+    },
+    {
+      "criterion": "a white blood cell count ≥ 12000/ml or ≤ 4000/ml or immature neutrophils > 10%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient's white blood cell count is not provided, so this criterion cannot be assessed.",
+      "clinical_question": "Does the patient have a white blood cell count ≥ 12000/ml or ≤ 4000/ml or immature neutrophils > 10%?"
+    },
+    {
+      "criterion": "a white blood cell count ≥ 12000/ml or ≤ 4000/ml or immature neutrophils > 10%",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "White blood cell count is not provided; unable to assess.",
+      "clinical_question": "Does the patient have a white blood cell count ≥ 12000/ml or ≤ 4000/ml or immature neutrophils > 10%?"
+    },
+    {
+      "criterion": "Presence of at least a severe organ dysfunction, as measured by the modified Sequential Organ Failure Assessment (SOFA) score:",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "SOFA score not provided; unable to assess organ dysfunction.",
+      "clinical_question": "What is the patient's current modified Sequential Organ Failure Assessment (SOFA) score?"
+    },
+    {
+      "criterion": "respiratory score > 1",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Respiratory score not provided; unable to assess.",
+      "clinical_question": "Is the patient's respiratory score currently greater than 1?"
+    },
+    {
+      "criterion": "hematologic score > 1",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hematologic score not provided; unable to assess.",
+      "clinical_question": "Does the patient have a hematologic score > 1 based on the latest laboratory results?"
+    },
+    {
+      "criterion": "hepatic score > 1",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Hepatic score not provided; unable to assess.",
+      "clinical_question": "Does the patient have a hepatic score greater than 1 based on their current liver function tests?"
+    },
+    {
+      "criterion": "cardiovascular score equal to 1, 3 or 4",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Cardiovascular issues present (EF 25%, severe aortic stenosis) suggest a score of 3 or 4.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "cardiovascular score equal to 1, 3 or 4",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Cardiovascular issues present (EF 25%, severe aortic stenosis) suggest a score of 3 or 4.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "cardiovascular score equal to 1, 3 or 4",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Cardiovascular issues present (EF 25%, severe aortic stenosis) suggest a score of 3 or 4.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "renal score > 1",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Renal score not provided; unable to assess.",
+      "clinical_question": "Does the patient have a renal score greater than 1 based on their current renal function tests?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Age below 18 years",
+    "EXCLUSION UNCLEAR: Terminal state",
+    "EXCLUSION UNCLEAR: Known adverse reaction to albumin administration",
+    "EXCLUSION UNCLEAR: Severe sepsis or septic shock in patients after proved or suspected head injury,",
+    "EXCLUSION UNCLEAR: Pathological conditions in which albumin administration is clinically indicated ",
+    "EXCLUSION UNCLEAR: More than 24 hours since inclusion criteria were met",
+    "EXCLUSION UNCLEAR: Religious objection to the administration of human blood products",
+    "EXCLUSION UNCLEAR: Inclusion in other experimental study",
+    "LOW INCLUSION MATCH: only 3 of 23 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.4375
+}

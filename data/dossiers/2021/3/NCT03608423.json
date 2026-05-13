@@ -1,0 +1,102 @@
+{
+  "nct_id": "NCT03608423",
+  "trial_title": "Dutch Intracerebral Hemorrhage Surgery Trial Pilot Study",
+  "phase": "NA",
+  "status": "COMPLETED",
+  "brief_summary": "Background:\n\nIntracerebral hemorrhage (ICH) accounts for 15-20% of all strokes in Western Europe, and contributes profoundly to mortality and disability. Thirty day case fatality is 40% and of those surviving, only few gain independence. Except for stroke unit care and early blood pressure lowering there is currently no treatment of proven benefit. Important predictors of poor outcome are increasing age, decreasing Glasgow Coma Scale score, increasing ICH volume, presence of intraventricular hem",
+  "eligibility_table": [
+    {
+      "criterion": "Age ≥ 18",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "NIHSS ≥ 2",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient have a National Institutes of Health Stroke Scale (NIHSS) score of ≥2?"
+    },
+    {
+      "criterion": "Supratentorial ICH confirmed by CT, without a CT-angiography confirmed causative vascular lesion (e.g. aneurysma, arteriovenous malformation [AVM], dural arteriovenous fistula [DAVF], cerebral venous sinus thrombosis [CVST]).",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has an arteriovenous malformation (AVM), which is a causative vascular lesion, thus not meeting the inclusion criterion.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Minimal lesion size 10 mL",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient's intracerebral hemorrhage lesion volume measure at least 10 mL?"
+    },
+    {
+      "criterion": "Intervention can be started within 8 hours from symptoms onset; or for controls presentation within 8 hours of symptom onset.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The information does not specify the exact time of symptom onset relative to intervention availability.",
+      "clinical_question": "Did the patient present to the hospital within 8 hours of symptom onset?"
+    },
+    {
+      "criterion": "Patient's or legal representative's written informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Assuming the patient or legal representative can provide informed consent, this criterion is likely met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Pre-stroke disability, which interferes with the assessment of functional outcome at 90 days, i.e. mRS > 2",
+      "type": "exclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient has a significant medical history that may affect functional outcomes, but specific mRS score is not provided.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Causative vascular lesion (e.g. aneurysm, AVM, DAVF, CVST) on CT-angiography or other known underlying cause (e.g. tumor, cavernoma)",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has a known AVM, which is a causative vascular lesion, thus this criterion is met.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Untreated coagulation abnormalities, including INR > 1.3 (point of care measurement allowed) and treatment with oral thrombin or factor X antagonists; patients on vitamin K antagonist can be included after correction of the INR.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess coagulation status; cannot determine if this criterion is met.",
+      "clinical_question": "Is the patient's INR greater than 1.3 based on the most recent point of care measurement?"
+    },
+    {
+      "criterion": "Current known severe infection for which antibiotic treatment at time of ICH symptom onset",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding current infections; cannot determine if this criterion is met.",
+      "clinical_question": "Does the patient have a current known severe infection that requires antibiotic treatment at the time of ICH symptom onset?"
+    },
+    {
+      "criterion": "Patient moribund (e.g. coning, bilateral dilated unresponsive pupils)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding the patient's current state of health; cannot determine if this criterion is met.",
+      "clinical_question": "Does the patient exhibit bilateral dilated unresponsive pupils with a Glasgow Coma Scale score of ≤8?"
+    },
+    {
+      "criterion": "Pregnancy (note: most patients will be beyond child bearing age; if not a pregnancy test is mandatory).",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding pregnancy status; cannot determine if this criterion is met.",
+      "clinical_question": "Has the patient undergone a pregnancy test within the last 48 hours?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION VIOLATED: Pre-stroke disability, which interferes with the assessment of functional outcom",
+    "EXCLUSION UNCLEAR: Untreated coagulation abnormalities, including INR > 1.3 (point of care measurem",
+    "EXCLUSION UNCLEAR: Current known severe infection for which antibiotic treatment at time of ICH sym",
+    "EXCLUSION UNCLEAR: Patient moribund (e.g. coning, bilateral dilated unresponsive pupils)",
+    "EXCLUSION UNCLEAR: Pregnancy (note: most patients will be beyond child bearing age; if not a pregna"
+  ],
+  "overall_recommendation": "NOT_ELIGIBLE",
+  "confidence_score": 0.4167
+}

@@ -36,6 +36,8 @@ def derive_label(eligibility_summary: dict) -> str:
 
     if excl_violations > 0:
         return "NOT_MET"
+    if inc_not_met > inc_met:
+        return "NOT_MET"
     if nei_ratio > 0.50:
         return "NEI"
     if inc_ratio < 0.30:

@@ -1,0 +1,90 @@
+{
+  "nct_id": "NCT03840148",
+  "trial_title": "Safety and Efficacy Study of Cefepime/VNRX-5133 in Patients With Complicated Urinary Tract Infections",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "This study will assess the safety and efficacy of cefepime/VNRX-5133 compared with meropenem in both eradication of bacteria and in symptomatic response in patients with cUTIs.",
+  "eligibility_table": [
+    {
+      "criterion": "Adult male and female",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "criterion targets female; patient is female",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Documented diagnosis of pyuria",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No documentation of pyuria is provided in the patient profile.",
+      "clinical_question": "Does the patient have a documented white blood cell count of ≥10 cells per microliter in the urine?"
+    },
+    {
+      "criterion": "Documented diagnosis of cUTI or Acute Pyelonephritis (AP)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a history of complicated UTIs but no specific diagnosis of cUTI or AP is documented.",
+      "clinical_question": "Does the patient have a documented diagnosis of complicated urinary tract infection (cUTI) or acute pyelonephritis (AP) confirmed by urine culture and clinical symptoms?"
+    },
+    {
+      "criterion": "Receipt of effective antibacterial drug therapy for cUTI for more than 24 hours during the previous 72 hours prior to randomization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on whether the patient has received antibacterial therapy for cUTI in the past 72 hours.",
+      "clinical_question": "Has the patient received effective antibacterial drug therapy for cUTI for more than 24 hours during the previous 72 hours prior to randomization?"
+    },
+    {
+      "criterion": "A urine culture result is resistant to meropenem or a gram negative pathogen is not identified or more than 2 microorganisms are isolated or a confirmed fungal UTI is identified",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No urine culture results are provided to assess resistance to meropenem or the presence of pathogens.",
+      "clinical_question": "Is there a urine culture result indicating resistance to meropenem or the identification of more than 2 microorganisms?"
+    },
+    {
+      "criterion": "Required use of nonstudy systemic bacterial therapy",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information indicating the need for nonstudy systemic bacterial therapy.",
+      "clinical_question": "Has the patient received any systemic bacterial therapy within the last 30 days?"
+    },
+    {
+      "criterion": "Suspected or confirmed prostatitis or urinary tract symptoms attributable to sexually transmitted disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No evidence of prostatitis or urinary tract symptoms attributable to STDs is provided.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of prostatitis or a sexually transmitted disease based on laboratory testing?"
+    },
+    {
+      "criterion": "Patients with perinephric or renal abscess",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of perinephric or renal abscess in the patient profile.",
+      "clinical_question": "Does the patient have a confirmed diagnosis of perinephric or renal abscess as evidenced by imaging studies?"
+    },
+    {
+      "criterion": "Patients with renal transplantation or receiving hemodialysis or peritoneal dialysis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not undergone renal transplantation or dialysis as per the provided information.",
+      "clinical_question": "Is the patient currently receiving hemodialysis or peritoneal dialysis?"
+    },
+    {
+      "criterion": "Abnormal labs",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No abnormal lab values are provided to assess eligibility.",
+      "clinical_question": "Does the patient have any laboratory values indicating renal impairment, specifically a serum creatinine level ≥1.2 mg/dL?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Receipt of effective antibacterial drug therapy for cUTI for more than 24 hours ",
+    "EXCLUSION UNCLEAR: A urine culture result is resistant to meropenem or a gram negative pathogen is ",
+    "EXCLUSION UNCLEAR: Required use of nonstudy systemic bacterial therapy",
+    "EXCLUSION UNCLEAR: Suspected or confirmed prostatitis or urinary tract symptoms attributable to sex",
+    "EXCLUSION UNCLEAR: Patients with perinephric or renal abscess",
+    "EXCLUSION UNCLEAR: Patients with renal transplantation or receiving hemodialysis or peritoneal dial",
+    "EXCLUSION UNCLEAR: Abnormal labs"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.1
+}

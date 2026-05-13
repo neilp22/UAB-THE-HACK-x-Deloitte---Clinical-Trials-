@@ -1,0 +1,63 @@
+{
+  "nct_id": "NCT04572568",
+  "trial_title": "Registry of Multimodality Treatment for Brain Arteriovenous Malformation in Mainland China",
+  "phase": "",
+  "status": "RECRUITING",
+  "brief_summary": "This study is a multi-center, prospective, registry study. This research was supported by the National Key Research and Development Program. They were divided into experimental group and control group according to whether the treatment plan was formulated by a multidisciplinary team. Patients of experimental group is strictly in accordance with standardized multi-disciplinary treatment protocols and meet the following criteria: 1. A multi-disciplinary conference discussion; 2. Detailed preoperat",
+  "eligibility_table": [
+    {
+      "criterion": "The diagnosis of AVM was confirmed with digital subtraction angiography (DSA) and/or magnetic resonance imaging(MRI).",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient has a diagnosis of AVM, but it is unclear if it was confirmed with DSA or MRI.",
+      "clinical_question": "Has the patient undergone digital subtraction angiography (DSA) or magnetic resonance imaging (MRI) to confirm the diagnosis of arteriovenous malformation (AVM)?"
+    },
+    {
+      "criterion": "Patients with complete clinical and imaging data.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has relevant clinical and imaging data related to their condition.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patient or patient's legal representative agreed to collection of information for this study and signed informed consent.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about whether the patient or their legal representative signed informed consent.",
+      "clinical_question": "Has the patient signed the informed consent form for participation in the study?"
+    },
+    {
+      "criterion": "Received other treatment (surgery, embolization or SRS) before inclusion;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has not received any prior treatments such as surgery, embolization, or SRS.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Expected survival time is less than 6 months;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "There is no indication that the patient's expected survival time is less than 6 months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Spinal AVMs;",
+      "type": "exclusion",
+      "verdict": "MET",
+      "justification": "The patient has an AVM in the brain, not a spinal AVM.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Patients missing critical baseline and imaging data.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "It is unclear if there are any missing critical baseline and imaging data.",
+      "clinical_question": "Does the patient have complete baseline imaging data, including MRI and angiography, necessary for evaluating the arteriovenous malformation?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Patients missing critical baseline and imaging data."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.5714
+}

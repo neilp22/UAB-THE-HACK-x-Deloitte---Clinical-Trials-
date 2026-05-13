@@ -1,0 +1,35 @@
+{
+  "nct_id": "NCT02146755",
+  "trial_title": "Improving Echo Measurements in the Diagnosis of Aortic Stenosis",
+  "phase": "",
+  "status": "COMPLETED",
+  "brief_summary": "Aortic stenosis is a common valvular heart disease, affecting mainly people over age 60. It is characterized by years to decades of slow progression followed by rapid clinical deterioration and a high death rate once symptoms develop. The onset of symptoms confers a poor prognosis: patients die within an average of five years after the onset of angina, three years after the onset of syncope, and two years after the onset of heart failure symptoms. The overall mortality rate is 75% at three years",
+  "eligibility_table": [
+    {
+      "criterion": "Adults over the age of 18.",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Patient age not recorded",
+      "clinical_question": "Does the patient have an echocardiogram showing a peak aortic jet velocity ≥4.0 m/s?"
+    },
+    {
+      "criterion": "Any patient undergoing both TTE and CT scans within a one-week timeframe as a workup for aortic stenosis.",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient has undergone preoperative workup which includes a chest CT scan, and while the TTE is not explicitly mentioned, it is standard practice to perform TTE in the workup for aortic stenosis, suggesting it likely occurred within the specified timeframe.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "There are no specific exclusion criteria for this retrospective review.",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "Since there are no specific exclusion criteria for this retrospective review, it is uncertain whether any of the patient's conditions or history would disqualify him, thus defaulting to NEI.",
+      "clinical_question": "Has the patient undergone echocardiography within the last 6 months to assess the severity of aortic stenosis?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: There are no specific exclusion criteria for this retrospective review."
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.3333
+}

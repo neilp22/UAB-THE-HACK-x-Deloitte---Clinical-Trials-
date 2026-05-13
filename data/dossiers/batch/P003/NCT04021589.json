@@ -1,0 +1,89 @@
+{
+  "nct_id": "NCT04021589",
+  "trial_title": "Chemotherapy w/wo WeiLeShu in Metastatic Colorectal Cancer",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "A total of 50 patients with metastatic colorectal cancer will be enrolled in the study. The patients were randomly divided into the WLS-intervention group and the control group. The two groups of patients were given the most appropriate medication according to the specific conditions of the disease. Patients in the intervention group received additional oral administration of Weileshu, a probiotics product (Tongchuang Biotechnology).",
+  "eligibility_table": [
+    {
+      "criterion": "At least 18 years of age, of any race or sex who are eligible to sign written consent and have undergone prior resection of histological evidence of colorectal cancer",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 67.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hematologic function: ANC ≥ 1.5 x 10 /L, platelets ≥ 75 x 10 /L, and hemoglobin > 9 g/dL",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Hemoglobin is 11.2 g/dL, which is greater than 9 g/dL. ANC and platelets are not provided but are assumed to be adequate based on the absence of any indication otherwise.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hematologic function: ANC ≥ 1.5 x 10 /L, platelets ≥ 75 x 10 /L, and hemoglobin > 9 g/dL",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Hemoglobin is 11.2 g/dL, which is greater than 9 g/dL. ANC and platelets are not provided but are assumed to be adequate based on the absence of any indication otherwise.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Hematologic function: ANC ≥ 1.5 x 10 /L, platelets ≥ 75 x 10 /L, and hemoglobin > 9 g/dL",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Hemoglobin is 11.2 g/dL, which is greater than 9 g/dL. ANC and platelets are not provided but are assumed to be adequate based on the absence of any indication otherwise.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Adequate liver function as measured by: total bilirubin ≤ 2.0 mg/dl, AST and ALT ≤ 5 ULN, albumin ≥ 2.5 g/dl",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Total bilirubin, AST, ALT, and albumin levels are not provided, making it impossible to assess liver function.",
+      "clinical_question": "Is the patient's total bilirubin ≤ 2.0 mg/dl, AST and ALT ≤ 5 ULN, and albumin ≥ 2.5 g/dl?"
+    },
+    {
+      "criterion": "Adequate liver function as measured by: total bilirubin ≤ 2.0 mg/dl, AST and ALT ≤ 5 ULN, albumin ≥ 2.5 g/dl",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Total bilirubin, AST, ALT, and albumin levels are not provided, making it impossible to assess liver function.",
+      "clinical_question": "Is the patient's total bilirubin ≤ 2.0 mg/dl, AST and ALT ≤ 5 ULN, and albumin ≥ 2.5 g/dl?"
+    },
+    {
+      "criterion": "Adequate liver function as measured by: total bilirubin ≤ 2.0 mg/dl, AST and ALT ≤ 5 ULN, albumin ≥ 2.5 g/dl",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Total bilirubin, AST, ALT, and albumin levels are not provided, making it impossible to assess liver function.",
+      "clinical_question": "Is the patient's total bilirubin ≤ 2.0 mg/dl, AST and ALT ≤ 5 ULN, and albumin ≥ 2.5 g/dl?"
+    },
+    {
+      "criterion": "Adequate renal function as measured by: creatinine ≤ 2.9 mg/dl, > 50 ml/min calculated by the C-G equation",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Creatinine is 1.0 mg/dL, which is less than 2.9 mg/dL, indicating adequate renal function.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Adequate renal function as measured by: creatinine ≤ 2.9 mg/dl, > 50 ml/min calculated by the C-G equation",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Creatinine is 1.0 mg/dL, which is less than 2.9 mg/dL, indicating adequate renal function.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Non-pregnant women of childbearing potential and fertile men are required to use effective contraception (negative pregnancy test for women of child-bearing age)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male, so the criterion regarding contraception for women of childbearing potential is not applicable.",
+      "clinical_question": "Has the patient undergone a negative pregnancy test within the last 7 days?"
+    },
+    {
+      "criterion": "ECOG status ≤ 1 at screening",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "ECOG 1.0 <= 1.0 → True",
+      "clinical_question": null
+    }
+  ],
+  "attention_flags": [],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.6364
+}

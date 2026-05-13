@@ -1,0 +1,111 @@
+{
+  "nct_id": "NCT00463450",
+  "trial_title": "Efficacy of Gynodian® Depot in Women With Impaired Well-being",
+  "phase": "PHASE3",
+  "status": "COMPLETED",
+  "brief_summary": "The typical menopausal symptoms that are associated with a variety of physical and psychological changes (e.g. nervousness, anxiety, and depression) and also with impaired sexual interest and enjoyment are caused by a lack of estrogen, a female sex hormone produced inside the body. To treat these symptoms, women who are postmenopausal can receive a therapy called 'hormone replacement therapy' (the dosage of hormones to replace the body's deficient hormones), for instance, with estrogen preparati",
+  "eligibility_table": [
+    {
+      "criterion": "Written informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient can provide written informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Postmenopausal status (amenorrhea for at least 12 months)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "The patient is male and does not have a history of amenorrhea.",
+      "clinical_question": "Has the patient experienced amenorrhea for at least 12 consecutive months?"
+    },
+    {
+      "criterion": "45 - 65 years of age",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient is 51 years old, which falls within the 45-65 years age range.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Application of estrogen or cyclic estrogen/progestin preparation other than the study medication for at least 6 months prior to Visit 1",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the application of estrogen or cyclic estrogen/progestin preparation.",
+      "clinical_question": "Has the patient used any estrogen or cyclic estrogen/progestin preparation for at least 6 months prior to Visit 1?"
+    },
+    {
+      "criterion": "Relevant impairment of well-being and mood inspite of estrogen therapy (confirmed by questionnaire scores)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on the patient's well-being and mood in relation to estrogen therapy.",
+      "clinical_question": "Does the patient have a relevant impairment of well-being and mood as indicated by a score of ≥10 on the validated questionnaire despite ongoing estrogen therapy?"
+    },
+    {
+      "criterion": "BMI < 33 kg/m2",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "The patient's BMI is not provided, but assuming it is below 33 kg/m2 based on typical profiles.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Uterine bleeding of unknown etiology within the last 2 years",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on uterine bleeding history.",
+      "clinical_question": "Has the patient experienced any episodes of uterine bleeding of unknown etiology within the last 2 years?"
+    },
+    {
+      "criterion": "Previous or existing or suspected carcinoma of the breast",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on any previous or existing carcinoma of the breast.",
+      "clinical_question": "Does the patient have a history of breast carcinoma or any current or suspected breast carcinoma as determined by imaging or biopsy results?"
+    },
+    {
+      "criterion": "Any malignant disease in the last 5 years",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on any malignant disease in the last 5 years.",
+      "clinical_question": "Has the patient been diagnosed with any malignant disease within the last 5 years?"
+    },
+    {
+      "criterion": "Endometrial double layer thickness > 5 mm",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information on endometrial double layer thickness.",
+      "clinical_question": "Is the patient's endometrial double layer thickness greater than 5 mm?"
+    },
+    {
+      "criterion": "History of thromboembolic events or existing thromboembolic processes",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has no documented history of thromboembolic events or existing thromboembolic processes, but the absence of specific lab values or medical history related to thromboembolic events makes it uncertain.",
+      "clinical_question": "Has the patient experienced any thromboembolic events in the past, such as deep vein thrombosis or pulmonary embolism?"
+    },
+    {
+      "criterion": "Prior hormone replacement therapy with androgens within 12 months prior to Visit 1",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient has not reported any prior hormone replacement therapy with androgens, but without explicit documentation of treatment history, it cannot be definitively confirmed.",
+      "clinical_question": "Has the patient received any hormone replacement therapy with androgens within the 12 months prior to Visit 1?"
+    },
+    {
+      "criterion": "Major life events within the last 12 months prior to Visit 1",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided regarding major life events in the last 12 months, making it unclear whether this criterion is met or not.",
+      "clinical_question": "Has the patient experienced any major life events, such as divorce, job loss, or the death of a loved one, within the last 12 months prior to Visit 1?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Uterine bleeding of unknown etiology within the last 2 years",
+    "EXCLUSION UNCLEAR: Previous or existing or suspected carcinoma of the breast",
+    "EXCLUSION UNCLEAR: Any malignant disease in the last 5 years",
+    "EXCLUSION UNCLEAR: Endometrial double layer thickness > 5 mm",
+    "EXCLUSION UNCLEAR: History of thromboembolic events or existing thromboembolic processes",
+    "EXCLUSION UNCLEAR: Prior hormone replacement therapy with androgens within 12 months prior to Visit",
+    "EXCLUSION UNCLEAR: Major life events within the last 12 months prior to Visit 1"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2308
+}

@@ -1,0 +1,256 @@
+{
+  "nct_id": "NCT02430194",
+  "trial_title": "Lonafarnib Boosted With Ritonavir With and Without Peginterferon Alfa-2a (PEG IFN-a) in HDV (LOWR-2)",
+  "phase": "PHASE2",
+  "status": "COMPLETED",
+  "brief_summary": "An Open-label, Dose-ranging Study to Evaluate the Safety and Efficacy of Lonafarnib with Ritonavir Boosting +/- Peginterferon alfa-2a in Patients Chronically Infected with Delta Hepatitis (HDV) (LOWR-2).",
+  "eligibility_table": [
+    {
+      "criterion": "Males or females, 18 to 65 years of age who are diagnosed with HDV by PCR",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 >= 18.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Males or females, 18 to 65 years of age who are diagnosed with HDV by PCR",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "age 32.0 <= 65.0 → True",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Chronic hepatitis D infection, genotype 1, documented by a positive anti-HDV Ab test at least of 6 months duration and detectable HDV RNA by PCR within 3 months to study entry",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient does not have chronic hepatitis D infection as there is no mention of a positive anti-HDV Ab test or detectable HDV RNA.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Liver biopsy within the last two years (biopsy can be done at the Screening Visit)",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about a liver biopsy within the last two years.",
+      "clinical_question": "Has the patient undergone a liver biopsy within the last 24 months?"
+    },
+    {
+      "criterion": "Positive viral load of >100,000 copies/mL as measured by quantitative PCR",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's quantitative PCR viral load greater than 100,000 copies/mL?"
+    },
+    {
+      "criterion": "Electrocardiogram (ECG) shows no acute ischemia or clinically significant abnormality and a QT/QTc interval <450 milliseconds - using Bazett's correction",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Does the patient's ECG show a QT/QTc interval <450 milliseconds using Bazett's correction?"
+    },
+    {
+      "criterion": "Females of childbearing potential (intact uterus and within 1 year since the last menstrual period) should be non-lactating and have a negative serum pregnancy test. In addition, these subjects should agree to use one of the following acceptable birth control methods throughout the study:",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "The patient is within childbearing potential but has a positive serum β-hCG level indicating pregnancy, which disqualifies her from having a negative pregnancy test.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "abstinence",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "Category not evaluable deterministically",
+      "clinical_question": "Has the patient maintained abstinence from sexual intercourse for at least 6 months prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "surgical sterilization (bilateral tubal ligation, hysterectomy, bilateral oophorectomy) six months minimum",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about surgical sterilization.",
+      "clinical_question": "Has the patient undergone surgical sterilization procedures such as bilateral tubal ligation, hysterectomy, or bilateral oophorectomy at least six months prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "IUD in place for at least six months",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about an IUD being in place.",
+      "clinical_question": "Has the patient had an intrauterine device (IUD) in place for at least six months prior to enrollment in the trial?"
+    },
+    {
+      "criterion": "barrier methods (condom or diaphragm) with spermicide",
+      "type": "inclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about the use of barrier methods with spermicide.",
+      "clinical_question": "Has the patient consistently used barrier methods (condom or diaphragm) with spermicide during sexual intercourse in the past three months?"
+    },
+    {
+      "criterion": "Participation in a clinical trial with or use of any investigational agent within 30 days of Study Visit 1",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about participation in a clinical trial or use of investigational agents.",
+      "clinical_question": "Has the patient participated in a clinical trial or used any investigational agent within the 30 days prior to Study Visit 1?"
+    },
+    {
+      "criterion": "Patients co-infected with HIV",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about HIV co-infection.",
+      "clinical_question": "Does the patient have a confirmed HIV diagnosis based on a positive HIV test result?"
+    },
+    {
+      "criterion": "Patients with screening tests positive for HCV, or anti-HIV Ab",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about screening tests for HCV or anti-HIV Ab.",
+      "clinical_question": "Does the patient have a positive screening test for HCV or a positive anti-HIV antibody test?"
+    },
+    {
+      "criterion": "History of decompensated cirrhosis within the past year",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information provided about a history of decompensated cirrhosis.",
+      "clinical_question": "Has the patient experienced any episodes of decompensated cirrhosis within the past year?"
+    },
+    {
+      "criterion": "Active jaundice defined by total bilirubin > 2.0 excluding Gilbert's disease",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's total bilirubin level greater than 2.0 mg/dL?"
+    },
+    {
+      "criterion": "INR ≥ 1.5",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values in patient profile",
+      "clinical_question": "Is the patient's INR currently ≥ 1.5?"
+    },
+    {
+      "criterion": "Eating disorder or alcohol abuse within the past 2 years, excessive alcohol intake (> 20 g per day for females (1.5 standard alcohol drinks) or > 30 g per day for males (2.0 standard alcohol drinks) (a standard drink contains 14 g of alcohol: 12 oz of beer, 5 oz of wine or 1.5 oz of spirits) (1.0 fluid oz (US) = 29.57 mL)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about eating disorders or alcohol abuse in the past 2 years.",
+      "clinical_question": "Has the patient consumed more than 20 grams of alcohol per day in the past 2 years?"
+    },
+    {
+      "criterion": "Drug abuse within the last six months with the exception of cannabinoids and their derivatives",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided about drug abuse in the last six months.",
+      "clinical_question": "Has the patient reported any drug abuse within the last six months, excluding cannabinoids and their derivatives?"
+    },
+    {
+      "criterion": "Patients with absolute neutrophil count (ANC) < 1500 cells/mm^3; platelet count < 100,000 cells/mm^3; hemoglobin < 12 g/dL for women and < 13 g/dL for men; abnormal TSH,T4, or T3 or thyroid function not adequately controlled; or serum creatinine concentration ≥ 1.5 times upper limit of normal (ULN)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No lab values provided to assess ANC, platelet count, hemoglobin, thyroid function, or serum creatinine.",
+      "clinical_question": "Does the patient have an absolute neutrophil count (ANC) < 1500 cells/mm^3?"
+    },
+    {
+      "criterion": "History or clinical evidence of any of the following:",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No specific history or clinical evidence provided to assess exclusion criteria.",
+      "clinical_question": "Has the patient experienced any history or clinical evidence of liver disease, such as elevated liver enzymes (ALT or AST ≥ 40 U/L) or jaundice?"
+    },
+    {
+      "criterion": "surgical sterilization of the partner (vasectomy for six months)",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No evidence of partner's surgical sterilization (vasectomy) for six months.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "hormonal contraceptives for at least three months prior to the first dose of study drug",
+      "type": "inclusion",
+      "verdict": "NOT_MET",
+      "justification": "No evidence of hormonal contraceptive use for at least three months prior to the first dose.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "Willing and able to comply with study procedures and provide written informed consent",
+      "type": "inclusion",
+      "verdict": "MET",
+      "justification": "Patient is willing and able to comply with study procedures and provide written informed consent.",
+      "clinical_question": null
+    },
+    {
+      "criterion": "variceal bleeding, ascites, hepatic encephalopathy, CTP score > 6, decompensated liver disease or any other form of non-viral hepatitis",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding liver disease or related conditions.",
+      "clinical_question": "Does the patient have a CTP score greater than 6?"
+    },
+    {
+      "criterion": "immunologically mediated disease (e.g., rheumatoid arthritis, inflammatory bowel disease, severe psoriasis, systemic lupus erythematosus) requiring more than intermittent nonsteroidal anti-inflammatory medications for management or that requires frequent or prolonged use of corticosteroids (inhaled asthma medications are allowed)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding immunologically mediated diseases.",
+      "clinical_question": "Does the patient have a diagnosis of an immunologically mediated disease requiring more than intermittent nonsteroidal anti-inflammatory medications or frequent/prolonged use of corticosteroids?"
+    },
+    {
+      "criterion": "any malignancy within 3 years except for basal cell skin cancer",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "No information provided regarding any malignancy within the last 3 years.",
+      "clinical_question": "Has the patient been diagnosed with any malignancy within the last 3 years, excluding basal cell skin cancer?"
+    },
+    {
+      "criterion": "significant or unstable cardiac disease (e.g., angina, congestive heart failure, uncontrolled hypertension, history of arrhythmia)",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient profile does not provide information about any significant or unstable cardiac disease, but without specific cardiac history, it is uncertain.",
+      "clinical_question": "Does the patient have a history of significant or unstable cardiac disease, including angina, congestive heart failure, uncontrolled hypertension, or arrhythmia?"
+    },
+    {
+      "criterion": "chronic pulmonary disease (e.g., chronic obstructive pulmonary disease) associated with functional impairment",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no mention of chronic pulmonary disease in the patient profile, but without specific details, it cannot be definitively assessed.",
+      "clinical_question": "Does the patient have a forced expiratory volume in 1 second (FEV1) < 70% of the predicted value?"
+    },
+    {
+      "criterion": "severe or uncontrolled psychiatric disease, including severe depression, history of suicidal ideation, suicidal attempts or psychosis requiring medication and/or hospitalization",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The profile does not indicate any psychiatric conditions, but without explicit information, it is unclear.",
+      "clinical_question": "Does the patient have a history of severe depression, suicidal ideation, or psychosis requiring medication and/or hospitalization within the past 5 years?"
+    },
+    {
+      "criterion": "Patients with a body mass index > 30 kg/m^2",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "The patient's body mass index is not provided, making it impossible to assess this criterion.",
+      "clinical_question": "Does the patient have a body mass index (BMI) greater than 30 kg/m²?"
+    },
+    {
+      "criterion": "Concomitant drugs known to prolong the QT interval",
+      "type": "exclusion",
+      "verdict": "NEI",
+      "justification": "There is no information regarding concomitant medications that may prolong the QT interval, so this criterion cannot be evaluated.",
+      "clinical_question": "Has the patient been prescribed any medications known to prolong the QT interval, such as certain antiarrhythmics, antipsychotics, or antibiotics, within the last 30 days?"
+    }
+  ],
+  "attention_flags": [
+    "EXCLUSION UNCLEAR: Participation in a clinical trial with or use of any investigational agent withi",
+    "EXCLUSION UNCLEAR: Patients co-infected with HIV",
+    "EXCLUSION UNCLEAR: Patients with screening tests positive for HCV, or anti-HIV Ab",
+    "EXCLUSION UNCLEAR: History of decompensated cirrhosis within the past year",
+    "EXCLUSION UNCLEAR: Active jaundice defined by total bilirubin > 2.0 excluding Gilbert's disease",
+    "EXCLUSION UNCLEAR: INR ≥ 1.5",
+    "EXCLUSION UNCLEAR: Eating disorder or alcohol abuse within the past 2 years, excessive alcohol inta",
+    "EXCLUSION UNCLEAR: Drug abuse within the last six months with the exception of cannabinoids and the",
+    "EXCLUSION UNCLEAR: Patients with absolute neutrophil count (ANC) < 1500 cells/mm^3; platelet count ",
+    "EXCLUSION UNCLEAR: History or clinical evidence of any of the following:",
+    "EXCLUSION UNCLEAR: variceal bleeding, ascites, hepatic encephalopathy, CTP score > 6, decompensated",
+    "EXCLUSION UNCLEAR: immunologically mediated disease (e.g., rheumatoid arthritis, inflammatory bowel",
+    "EXCLUSION UNCLEAR: any malignancy within 3 years except for basal cell skin cancer",
+    "EXCLUSION UNCLEAR: significant or unstable cardiac disease (e.g., angina, congestive heart failure,",
+    "EXCLUSION UNCLEAR: chronic pulmonary disease (e.g., chronic obstructive pulmonary disease) associat",
+    "EXCLUSION UNCLEAR: severe or uncontrolled psychiatric disease, including severe depression, history",
+    "EXCLUSION UNCLEAR: Patients with a body mass index > 30 kg/m^2",
+    "EXCLUSION UNCLEAR: Concomitant drugs known to prolong the QT interval",
+    "LOW INCLUSION MATCH: only 3 of 14 inclusion criteria met"
+  ],
+  "overall_recommendation": "ELIGIBLE_PENDING_CLARIFICATION",
+  "confidence_score": 0.2188
+}

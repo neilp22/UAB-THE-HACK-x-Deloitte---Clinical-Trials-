@@ -303,6 +303,12 @@ def demo_patient_pipeline(
             for c in candidates[:5]
         ]
     }
+    print_info(f"Pre-parsing eligibility criteria for {len(candidates)} trials (cached after first run)...")
+    for i, trial in enumerate(candidates, 1):
+        trial['_parsed_criteria'] = parse_criteria(trial.get('eligibility_criteria', ''))
+        print(f"  Parsed {i}/{len(candidates)}...", end='\r')
+    print()
+
     pause("Press ENTER to continue to hard filtering...")
 
     # ── FASE 4: Hard Filtering ───────────────────────────────────────────────
@@ -312,8 +318,7 @@ def demo_patient_pipeline(
     t0 = time.time()
     filtered_candidates = []
     for trial in candidates:
-        crit_text = trial.get('eligibility_criteria', '')
-        parsed_tmp = parse_criteria(crit_text)
+        parsed_tmp = trial['_parsed_criteria']
         excl_det = [c for c in parsed_tmp.criteria if c.type == 'exclusion' and c.deterministic]
         if apply_hard_filter(patient_profile, excl_det):
             filtered_candidates.append(trial)
@@ -352,9 +357,8 @@ def demo_patient_pipeline(
         nct_id = trial.get('nct_id') or trial.get('id')
         print(f"  [{idx}/{eval_cap}] Processing {nct_id}...", end='\r')
 
-        eligibility_text = trial.get('eligibility_criteria', '')
-        parsed           = parse_criteria(eligibility_text)
-        typed_verdicts   = evaluate_trial(patient_profile, parsed.criteria, nct_id=nct_id)
+        parsed         = trial['_parsed_criteria']
+        typed_verdicts = evaluate_trial(patient_profile, parsed.criteria, nct_id=nct_id)
 
         inc_met     = sum(1 for t, v in typed_verdicts if t == 'inclusion' and v.verdict == 'MET')
         inc_not_met = sum(1 for t, v in typed_verdicts if t == 'inclusion' and v.verdict == 'NOT_MET')
