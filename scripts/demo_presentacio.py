@@ -458,37 +458,47 @@ def step8_ranking(results: list[dict], profile: object, use_cache: bool, save: b
             metadata=r["trial"],
         )
         explanation = explain_score_breakdown(breakdown)
-        scored.append((breakdown["final_score"], {**r, "breakdown": breakdown, "explanation": explanation}))
+        scored.append((breakdown["raw_score"], {**r, "breakdown": breakdown, "explanation": explanation}))
 
+    # Sort by raw_score so NOT_MET trials are still ranked relatively
     scored.sort(key=lambda x: x[0], reverse=True)
 
     print()
     print(f"  {'Rank':<5} {'NCT ID':<14} {'Score':<8} {'Label':<10} {'Fase':<10} Títol")
     print(f"  {_THIN}")
-    for rank, (score, r) in enumerate(scored, 1):
+    for rank, (raw, r) in enumerate(scored, 1):
         trial = r["trial"]
         nct = trial.get("nct_id", "—")
         label = r["label"]
         phase = (trial.get("phase") or "—")[:8]
         title = (trial.get("title") or trial.get("brief_title") or "—")[:38]
-        print(f"  {rank:<5} {nct:<14} {score:<8.4f} {_label_color(label):<19} {phase:<10} {title}")
+        final = r["breakdown"]["final_score"]
+        score_str = f"{final:.4f}" if final > 0 else f"({raw:.3f})"
+        print(f"  {rank:<5} {nct:<14} {score_str:<8} {_label_color(label):<19} {phase:<10} {title}")
+
+    print(f"\n  {_YELLOW}Nota:{_RESET} scores entre parèntesi = raw score (negatiu → clipped a 0.0 per exclusió violada)")
 
     # Show breakdown for rank #1
     if scored:
-        best_score, best_r = scored[0]
-        print(f"\n  {_BOLD}Desglossament puntuació #{1} ({best_r['trial'].get('nct_id', '?')}):{_RESET}")
+        best_raw, best_r = scored[0]
         bd = best_r["breakdown"]
-        print(f"    Inclusió met ratio : {bd.get('inclusion_met_ratio', 0):.2f} × 0.55 = "
-              f"{bd.get('weighted_inclusion', 0):.4f}")
-        print(f"    Penalització exclusió: {bd.get('exclusion_penalty', 0):.2f} × 1.00 = "
-              f"-{bd.get('weighted_exclusion', abs(bd.get('weighted_exclusion', 0))):.4f}")
-        print(f"    Bonus fase         : {bd.get('phase_bonus', 0):.2f} × 0.15 = "
-              f"{bd.get('weighted_phase', 0):.4f}")
-        print(f"    Bonus reclutament  : {bd.get('recruiting_bonus', 0):.2f} × 0.10 = "
-              f"{bd.get('weighted_recruiting', 0):.4f}")
-        print(f"    Penalització NEI   : {bd.get('nei_ratio', 0):.2f} × 0.10 = "
-              f"-{bd.get('weighted_nei_penalty', abs(bd.get('weighted_nei_penalty', 0))):.4f}")
-        print(f"    {_BOLD}Score final: {best_score:.4f}{_RESET}")
+        final = bd["final_score"]
+        nct_best = best_r["trial"].get("nct_id", "?")
+        print(f"\n  {_BOLD}Desglossament puntuació #1 ({nct_best}):{_RESET}")
+        print(f"    Inclusió met ratio   : {bd.get('inclusion_met_ratio',0):.2f} × 0.55 = "
+              f"+{bd.get('weighted_inclusion',0):.4f}")
+        excl_w = bd.get('weighted_exclusion', 0)
+        print(f"    Penalització exclusió: {bd.get('exclusion_penalty',0):.2f} × 1.00 = "
+              f"{excl_w:.4f}")
+        print(f"    Bonus fase           : {bd.get('phase_bonus',0):.2f} × 0.15 = "
+              f"+{bd.get('weighted_phase',0):.4f}")
+        print(f"    Bonus reclutament    : {bd.get('recruiting_bonus',0):.2f} × 0.10 = "
+              f"+{bd.get('weighted_recruiting',0):.4f}")
+        nei_w = bd.get('weighted_nei_penalty', 0)
+        print(f"    Penalització NEI     : {bd.get('nei_ratio',0):.2f} × 0.10 = "
+              f"{nei_w:.4f}")
+        print(f"    Raw score            : {best_raw:.4f}")
+        print(f"    {_BOLD}Score final (clip≥0): {final:.4f}{_RESET}")
 
     # Generate dossier for top trial
     if scored:
