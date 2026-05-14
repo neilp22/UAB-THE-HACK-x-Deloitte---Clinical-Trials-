@@ -36,6 +36,7 @@ sys.path.insert(0, str(_REPO))
 from src.parsing.patient_normalizer import normalize_patient
 from src.retrieval.clinical_query_planner import plan_clinical_queries
 from src.retrieval.query_builder import retrieve_candidates
+from src.retrieval.ct_client import search_trials
 from src.parsing.criteria_parser import parse_criteria
 from src.matching.hard_filter import apply_hard_filter
 from src.matching.eligibility_reasoner import evaluate_trial
@@ -159,7 +160,7 @@ def step2_normalitzacio(patient_text: str, use_cache: bool) -> object:
     print()
     print(f"  {'Edat:':<22} {profile.age or '—'}")
     print(f"  {'Sexe:':<22} {profile.gender or '—'}")
-    print(f"  {'ECOG:':<22} {profile.ecog if profile.ecog is not None else '—'}")
+    print(f"  {'ECOG:':<22} {profile.ecog_score if profile.ecog_score is not None else '—'}")
     if profile.conditions:
         print(f"  {'Condicions:':<22} {', '.join(profile.conditions[:5])}")
     if profile.medications:
@@ -169,10 +170,8 @@ def step2_normalitzacio(patient_text: str, use_cache: bool) -> object:
     if profile.lab_values:
         labs_str = ", ".join(f"{k}={v}" for k, v in list(profile.lab_values.items())[:4])
         print(f"  {'Lab values:':<22} {labs_str}")
-    if profile.biomarkers:
-        print(f"  {'Biomarcadors:':<22} {', '.join(profile.biomarkers[:5])}")
-    if profile.history:
-        print(f"  {'Historial clínic:':<22} {', '.join(profile.history[:3])}")
+    if profile.relevant_history:
+        print(f"  {'Historial clínic:':<22} {', '.join(profile.relevant_history[:3])}")
 
     print()
     _ok(f"PatientProfile extret en {_timing(elapsed)}")
@@ -196,8 +195,19 @@ def step3_queries(profile: object, patient_text: str) -> list:
     return queries
 
 
+_STAGE_PREFIX_RE = __import__("re").compile(
+    r"^(stage\s+[ivxIVX\d]+\s+|metastatic\s+|advanced\s+|recurrent\s+|refractory\s+|relapsed\s+)+",
+    __import__("re").IGNORECASE,
+)
+
+
+def _clean_condition(cond: str) -> str:
+    """Strip staging/grade prefixes so CT API query.cond gets a clean disease name."""
+    return _STAGE_PREFIX_RE.sub("", cond).strip()
+
+
 def step4_candidats(profile: object, use_cache: bool, candidate_cap: int) -> list[dict]:
-    _header(4, f"TOP {candidate_cap} CANDIDATS — QueryBuilder + CT API (ClinicalTrials.gov)")
+    _header(4, f"TOP {candidate_cap} CANDIDATS — CT API (ClinicalTrials.gov)")
     t0 = time.time()
 
     conditions = getattr(profile, "conditions", [])
@@ -205,13 +215,47 @@ def step4_candidats(profile: object, use_cache: bool, candidate_cap: int) -> lis
         _warn("No s'han detectat condicions — recuperació limitada")
         conditions = ["cancer"]
 
-    print(f"\n  Recuperant assajos per {len(conditions)} condicions: {', '.join(conditions[:3])}...")
-    candidates = retrieve_candidates(
-        conditions=conditions,
-        max_total=candidate_cap,
-        per_query_limit=min(100, candidate_cap),
-        use_cache=use_cache,
-    )
+    # Strip staging prefixes so CT API gets clean condition names
+    clean_conditions = [_clean_condition(c) for c in conditions]
+    clean_conditions = [c for c in clean_conditions if c]
+
+    # Build supplementary term query from biomarkers / medications
+    history = getattr(profile, "relevant_history", [])
+    meds = getattr(profile, "medications", [])
+    term_parts = [h for h in history[:3] if any(k in h.lower() for k in
+                  ["mutation", "positive", "negative", "deletion", "amplification",
+                   "egfr", "her2", "brca", "kras", "braf", "alk", "ros"])]
+    term_parts += [m for m in meds[:2] if m]
+    term_query = " ".join(term_parts)[:200] if term_parts else None
+
+    print(f"\n  Condicions (netejades): {', '.join(clean_conditions)}")
+    if term_query:
+        print(f"  Termes addicionals:     {term_query[:80]}")
+
+    seen_nct: set[str] = set()
+    candidates: list[dict] = []
+
+    # Query each condition via CT API query.cond (full phrase, not broken variants)
+    for cond in clean_conditions[:2]:
+        if len(candidates) >= candidate_cap:
+            break
+        remaining = candidate_cap - len(candidates)
+        print(f"\n  Cercant: query.cond='{cond}'"
+              + (f" query.term='{term_query[:40]}'" if term_query else ""))
+        try:
+            results = search_trials(
+                query_cond=cond,
+                query_term=term_query,
+                max_results=remaining,
+            )
+            for trial in results:
+                nct = trial.get("nct_id", "")
+                if nct and nct not in seen_nct:
+                    seen_nct.add(nct)
+                    candidates.append(trial)
+        except Exception as exc:
+            _warn(f"CT API error per '{cond}': {exc}")
+
     elapsed = time.time() - t0
 
     print()
@@ -236,43 +280,48 @@ def step5_filtre_dur(candidates: list[dict], profile: object) -> list[dict]:
     _header(5, "FILTRE DUR — HardFilter (edat / ECOG / labs, sense LLM)")
     t0 = time.time()
 
+    # Demo: parse criteria only for the first DEMO_CHECK trials to avoid LLM bottleneck.
+    # The rest pass through — hard filter is a pre-screen, not the main evaluation.
+    DEMO_CHECK = 5
+
     survivors: list[dict] = []
     eliminated_count = 0
 
-    print(f"\n  Avaluant {len(candidates)} candidats...")
+    print(f"\n  Avaluant {min(DEMO_CHECK, len(candidates))} candidats en detall "
+          f"(+{max(0, len(candidates)-DEMO_CHECK)} passen directament al pas 6)...")
     print()
-    print(f"  {'NCT ID':<14} {'Resultat':<12} {'Motiu'}")
+    print(f"  {'NCT ID':<14} {'Resultat':<14} Criteri violat")
     print(f"  {_THIN}")
 
-    reported = 0
-    for trial in candidates:
-        criteria_text = trial.get("eligibility_criteria") or trial.get("criteria") or ""
-        if not criteria_text:
+    for i, trial in enumerate(candidates):
+        nct = trial.get("nct_id", "—")
+
+        if i >= DEMO_CHECK:
+            # Pass remaining trials without LLM parse — shown in summary only
             survivors.append(trial)
             continue
 
-        parsed = parse_criteria(criteria_text, use_cache=True)
-        det_exclusions = [c for c in parsed.criteria
-                         if c.type == "exclusion" and c.deterministic]
+        criteria_text = trial.get("eligibility_criteria") or trial.get("criteria") or ""
+        if not criteria_text:
+            survivors.append(trial)
+            print(f"  {nct:<14} {_GREEN}PASSA{_RESET}          (sense criteris publicats)")
+            continue
 
-        passes = apply_hard_filter(profile, det_exclusions)
-        nct = trial.get("nct_id", "—")
+        # parse_criteria uses cache → fast on 2nd run
+        parsed = parse_criteria(criteria_text, use_cache=True)
+        det_excl = [c for c in parsed.criteria if c.type == "exclusion" and c.deterministic]
+        passes = apply_hard_filter(profile, det_excl)
 
         if passes:
             survivors.append(trial)
-            if reported < 3:
-                _ok_inline = f"{_GREEN}PASSA{_RESET}"
-                print(f"  {nct:<14} {_ok_inline}         (filtre determinista OK)")
-                reported += 1
+            print(f"  {nct:<14} {_GREEN}PASSA{_RESET}          ({len(det_excl)} criteris det. OK)")
         else:
             eliminated_count += 1
-            if reported < 3:
-                _bad_inline = f"{_RED}ELIMINAT{_RESET}"
-                print(f"  {nct:<14} {_bad_inline}      (criteri exclusió violat)")
-                reported += 1
-
-    if len(candidates) > 3:
-        print(f"  ... ({len(candidates) - 3} candidats més processats)")
+            violated = next(
+                (c.text[:45] for c in det_excl),
+                "criteri desconegut",
+            )
+            print(f"  {nct:<14} {_RED}ELIMINAT{_RESET}       {violated}")
 
     elapsed = time.time() - t0
     print()
