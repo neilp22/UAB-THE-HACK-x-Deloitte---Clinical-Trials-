@@ -235,26 +235,34 @@ def step4_candidats(profile: object, use_cache: bool, candidate_cap: int) -> lis
     seen_nct: set[str] = set()
     candidates: list[dict] = []
 
-    # Query each condition via CT API query.cond (full phrase, not broken variants)
-    for cond in clean_conditions[:2]:
+    def _fetch(cond: str, term: str | None, label: str) -> None:
         if len(candidates) >= candidate_cap:
-            break
+            return
         remaining = candidate_cap - len(candidates)
-        print(f"\n  Cercant: query.cond='{cond}'"
-              + (f" query.term='{term_query[:40]}'" if term_query else ""))
+        print(f"\n  Cercant ({label}): query.cond='{cond}'"
+              + (f" + term='{term[:35]}'" if term else ""))
         try:
-            results = search_trials(
-                query_cond=cond,
-                query_term=term_query,
-                max_results=remaining,
-            )
+            results = search_trials(query_cond=cond, query_term=term, max_results=remaining)
+            added = 0
             for trial in results:
                 nct = trial.get("nct_id", "")
                 if nct and nct not in seen_nct:
                     seen_nct.add(nct)
                     candidates.append(trial)
+                    added += 1
+            print(f"           → {added} nous assajos (total: {len(candidates)})")
         except Exception as exc:
-            _warn(f"CT API error per '{cond}': {exc}")
+            _warn(f"CT API error: {exc}")
+
+    # Pass 1: specific — condition + biomarker terms (most relevant first)
+    for cond in clean_conditions[:2]:
+        _fetch(cond, term_query, "específic")
+
+    # Pass 2: broader — condition only, no term filter (fills up to cap)
+    for cond in clean_conditions[:2]:
+        if len(candidates) >= candidate_cap:
+            break
+        _fetch(cond, None, "ampli")
 
     elapsed = time.time() - t0
 
