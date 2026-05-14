@@ -331,8 +331,8 @@ def step5_filtre_dur(candidates: list[dict], profile: object) -> list[dict]:
     return survivors
 
 
-def step6_raonament(survivors: list[dict], profile: object, use_cache: bool) -> list[dict]:
-    top3 = survivors[:3]
+def step6_raonament(survivors: list[dict], profile: object, use_cache: bool, reasoning_n: int = 10) -> list[dict]:
+    top3 = survivors[:reasoning_n]
     _header(6, f"RAONAMENT LLM — EligibilityReasoner (top {len(top3)} assajos, GPT-4o-mini)")
 
     results = []
@@ -541,8 +541,12 @@ def _parse_args() -> argparse.Namespace:
         help=f"Número de tòpic TREC predefinit ({', '.join(str(k) for k in TREC_TOPICS)})",
     )
     p.add_argument(
-        "--candidate-cap", type=int, default=20,
-        help="Màxim d'assajos candidats a recuperar (default: 20)",
+        "--candidate-cap", type=int, default=30,
+        help="Màxim d'assajos candidats a recuperar (default: 30)",
+    )
+    p.add_argument(
+        "--reasoning-trials", type=int, default=10,
+        help="Quants trials passen pel raonament LLM (default: 10)",
     )
     p.add_argument(
         "--no-cache", action="store_true",
@@ -612,7 +616,7 @@ def main() -> None:
         _pause()
 
     # PAS 6
-    results = step6_raonament(survivors, profile, use_cache)
+    results = step6_raonament(survivors, profile, use_cache, reasoning_n=args.reasoning_trials)
     if not results:
         _err("No s'ha pogut completar el raonament.")
         sys.exit(1)
